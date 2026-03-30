@@ -6,11 +6,11 @@ const allPosts = getAllPosts()
 const channels = getAllChannels().filter((channel) => channel.postCount > 0)
 const categories = getAllCategories().filter((category) => category.count > 0)
 const channel = getChannelData()
-channel.title = `${getDigestTitle()} - Stats`
-channel.description = 'Coverage stats for the enabled legal channels.'
+channel.title = `${getDigestTitle()} - Статистика`
+channel.description = 'Статистика покрытия по включённым юридическим каналам.'
 channel.descriptionHTML = null
 channel.avatar = undefined
-channel.seo = { title: 'Stats' }
+channel.seo = { title: 'Статистика' }
 
 const SITE_URL = import.meta.env.BASE_URL ?? '/'
 const maxChannelPosts = Math.max(...channels.map((item) => item.postCount), 1)
@@ -19,31 +19,31 @@ const maxCategoryCount = Math.max(...categories.map((item) => item.count), 1)
 
 <Layout channel={channel}>
   <div style="margin-bottom:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
-    <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Coverage stats</h1>
+    <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Статистика покрытия</h1>
     <div style="display:flex;gap:4px;margin-left:auto;">
-      <a href={SITE_URL} class="nav-pill">Home</a>
-      <a href={`${SITE_URL}digests/`} class="nav-pill">Digests</a>
-      <a href={`${SITE_URL}compare/`} class="nav-pill">Compare</a>
+      <a href={SITE_URL} class="nav-pill">Лента</a>
+      <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
+      <a href={`${SITE_URL}compare/`} class="nav-pill">Сравнить</a>
     </div>
   </div>
 
   <div class="stats-grid">
     <article class="stats-box">
       <strong>{allPosts.length}</strong>
-      <span>Total posts</span>
+      <span>Всего постов</span>
     </article>
     <article class="stats-box">
       <strong>{channels.length}</strong>
-      <span>Active channels</span>
+      <span>Активных каналов</span>
     </article>
     <article class="stats-box">
       <strong>{categories.length}</strong>
-      <span>Covered categories</span>
+      <span>Категорий</span>
     </article>
   </div>
 
   <section class="stats-section">
-    <h2>Posts per channel</h2>
+    <h2>Посты по каналам</h2>
     {
       channels.map((item) => (
         <div class="stats-bar-row">
@@ -58,7 +58,7 @@ const maxCategoryCount = Math.max(...categories.map((item) => item.count), 1)
   </section>
 
   <section class="stats-section">
-    <h2>Posts per legal topic</h2>
+    <h2>Посты по темам</h2>
     {
       categories.map((item) => (
         <div class="stats-bar-row">

@@ -22,7 +22,7 @@ const paginationPlaceholderClass = 'inline-block w-[34px]'
   <slot name="header">
     <Header channel={channel} />
   </slot>
-  <ol class={itemsClass} aria-label={isItem ? 'Post' : 'Posts'}>
+  <ol class={itemsClass} aria-label={isItem ? 'Пост' : 'Посты'}>
     {
       posts.map((post) => (
         <li>
@@ -32,11 +32,11 @@ const paginationPlaceholderClass = 'inline-block w-[34px]'
     }
   </ol>
 
-  <nav class={paginationClass} aria-label="Pagination">
+  <nav class={paginationClass} aria-label="Навигация по страницам">
     {
       before && beforeCursor > 1 ? (
-        <a href={`${SITE_URL}before/${beforeCursor}`} title="Before" class={paginationLinkClass}>
-          Before
+        <a href={`${SITE_URL}before/${beforeCursor}`} title="Назад" class={paginationLinkClass}>
+          Назад
         </a>
       ) : (
         <span class={paginationPlaceholderClass} aria-hidden="true">
@@ -48,8 +48,8 @@ const paginationPlaceholderClass = 'inline-block w-[34px]'
     <div class={paginationInfoClass}></div>
     {
       after && afterCursor ? (
-        <a href={`${SITE_URL}after/${afterCursor}`} title="After" class={paginationLinkClass}>
-          After
+        <a href={`${SITE_URL}after/${afterCursor}`} title="Дальше" class={paginationLinkClass}>
+          Дальше
         </a>
       ) : (
         <span class={paginationPlaceholderClass} aria-hidden="true">

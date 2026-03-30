@@ -4,7 +4,7 @@ const DEFAULT_SITE: SiteDefinition = {
   title: 'Yuri\'s Legal Telegram Digest',
   shortTitle: 'Yuri Legal Digest',
   description:
-    'Static mobile-friendly legal Telegram reader for tracking court practice, tax, bankruptcy, enforcement, compliance, and AI law updates.',
+    'Мобильный юридический Telegram-дайджест для отслеживания судебной практики, налогов, банкротства, комплаенса и AI+Law.',
   owner: 'Yuri',
 }
 

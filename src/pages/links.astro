@@ -7,7 +7,7 @@ import { getChannelData } from '../lib/data'
 const channel = getChannelData()
 
 channel.seo = {
-  title: 'Links',
+  title: 'Ссылки',
 }
 
 const links = (import.meta.env.LINKS || '')
@@ -35,5 +35,5 @@ const items = links.map((link) => ({
 
 <Layout channel={channel}>
   <Header channel={channel} />
-  <TagCloudSection title="Links" items={items} />
+  <TagCloudSection title="Ссылки" items={items} />
 </Layout>

@@ -5,11 +5,11 @@ import { getAllChannels, getAllPosts, getChannelData, getDigestTitle } from '../
 const channels = getAllChannels().filter((channel) => channel.postCount > 0)
 const posts = getAllPosts()
 const channel = getChannelData()
-channel.title = `${getDigestTitle()} - Compare`
-channel.description = 'Channel comparison by volume and weighted legal priority.'
+channel.title = `${getDigestTitle()} - Сравнение`
+channel.description = 'Сравнение каналов по объёму, юридической релевантности и приоритету.'
 channel.descriptionHTML = null
 channel.avatar = undefined
-channel.seo = { title: 'Compare' }
+channel.seo = { title: 'Сравнение' }
 
 const SITE_URL = import.meta.env.BASE_URL ?? '/'
 const rows = channels.map((item) => {
@@ -29,27 +29,27 @@ const rows = channels.map((item) => {
 
 <Layout channel={channel}>
   <div style="margin-bottom:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
-    <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Channel comparison</h1>
+    <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Сравнение каналов</h1>
     <div style="display:flex;gap:4px;margin-left:auto;">
-      <a href={SITE_URL} class="nav-pill">Home</a>
-      <a href={`${SITE_URL}digests/`} class="nav-pill">Digests</a>
-      <a href={`${SITE_URL}stats/`} class="nav-pill">Stats</a>
+      <a href={SITE_URL} class="nav-pill">Лента</a>
+      <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
+      <a href={`${SITE_URL}stats/`} class="nav-pill">Статистика</a>
     </div>
   </div>
   <p class="text-dim" style="font-size:14px;margin:0 0 12px;">
-    Pragmatic comparison of active sources: volume, category fit, and weighted legal priority.
+    Сравнение активных источников: объём, тематическое попадание и итоговый legal priority.
   </p>
 
   <div class="compare-table-wrap">
     <table class="compare-table">
       <thead>
         <tr>
-          <th>Channel</th>
-          <th>Category</th>
-          <th>Posts</th>
-          <th>Total priority</th>
-          <th>Avg priority</th>
-          <th>Latest</th>
+          <th>Канал</th>
+          <th>Категория</th>
+          <th>Посты</th>
+          <th>Суммарный приоритет</th>
+          <th>Средний приоритет</th>
+          <th>Последний пост</th>
         </tr>
       </thead>
       <tbody>
@@ -59,11 +59,11 @@ const rows = channels.map((item) => {
               <td>
                 <a href={`${SITE_URL}search/${row.name}`}>@{row.name}</a>
               </td>
-              <td>{row.category || 'general'}</td>
+              <td>{row.category || 'общее'}</td>
               <td>{row.postCount}</td>
               <td>{row.totalPriority}</td>
               <td>{row.averagePriority}</td>
-              <td>{row.lastPostAt ? new Date(row.lastPostAt).toLocaleDateString('ru-RU') : 'n/a'}</td>
+              <td>{row.lastPostAt ? new Date(row.lastPostAt).toLocaleDateString('ru-RU') : '—'}</td>
             </tr>
           ))
         }

@@ -5,30 +5,30 @@ import { getChannelData, getDigestTitle, getTopPosts } from '../lib/data'
 
 const hotPosts = getTopPosts(50)
 const channel = getChannelData()
-channel.title = `${getDigestTitle()} - Hot`
-channel.description = 'Priority-ranked legal posts across the enabled channels.'
+channel.title = `${getDigestTitle()} - Главное`
+channel.description = 'Главные юридические посты по всем включённым каналам.'
 channel.descriptionHTML = null
 channel.avatar = undefined
-channel.seo = { title: 'Hot' }
+channel.seo = { title: 'Главное' }
 
 const SITE_URL = import.meta.env.BASE_URL ?? '/'
 ---
 
 <Layout channel={channel}>
   <div style="margin-bottom:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
-    <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Hot legal posts</h1>
+    <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Главное в ленте</h1>
     <div style="display:flex;gap:4px;margin-left:auto;">
-      <a href={SITE_URL} class="nav-pill">Home</a>
-      <a href={`${SITE_URL}digests/`} class="nav-pill">Digests</a>
-      <a href={`${SITE_URL}compare/`} class="nav-pill">Compare</a>
-      <a href={`${SITE_URL}stats/`} class="nav-pill">Stats</a>
+      <a href={SITE_URL} class="nav-pill">Лента</a>
+      <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
+      <a href={`${SITE_URL}compare/`} class="nav-pill">Сравнить</a>
+      <a href={`${SITE_URL}stats/`} class="nav-pill">Статистика</a>
     </div>
   </div>
   <p class="text-dim" style="font-size:14px;margin:0 0 12px;">
-    Ranked by legal priority score with reactions as a secondary signal.
+    Ранжирование по legal priority, свежести и реакции аудитории.
   </p>
 
-  <ol class="mt-5 mb-0 ml-7 list-none pl-0 max-sm:ml-0" aria-label="Hot posts">
+  <ol class="mt-5 mb-0 ml-7 list-none pl-0 max-sm:ml-0" aria-label="Главные посты">
     {
       hotPosts.map((post) => (
         <li>

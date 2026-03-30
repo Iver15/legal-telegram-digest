@@ -141,13 +141,13 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
           <slot name="aside">
             <div class={asideInnerClass}>
               <section class="brand-card">
-                <p class="brand-card__eyebrow">Legal reader</p>
+                <p class="brand-card__eyebrow">Юридический reader</p>
                 <h1 class="brand-card__title">{siteMeta.shortTitle || siteMeta.title}</h1>
                 <p class="brand-card__description">{siteMeta.description}</p>
                 <div class="brand-card__meta">
                   <span class="badge">public channels</span>
                   <span class="badge">legal digest</span>
-                  <span class="badge">mobile reader</span>
+                  <span class="badge">мобильный режим</span>
                 </div>
               </section>
               <nav aria-label="Primary navigation">
@@ -166,10 +166,10 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
                       <li class={navItemClass}>
                         <a
                           href={`${SITE_URL}tags`}
-                          title="Tags"
+                          title="Теги"
                           class:list={[navLinkClass, currentPathname === tagsPathname && navLinkCurrentClass]}
                         >
-                          Tags
+                          Теги
                         </a>
                       </li>
                     ) : null
@@ -179,7 +179,7 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
                       <li class={navItemClass}>
                         <a
                           href={`${SITE_URL}links`}
-                          title="Links"
+                          title="Ссылки"
                           class:list={[navLinkClass, currentPathname === linksPathname && navLinkCurrentClass]}
                         >
                           Ссылки
@@ -190,7 +190,7 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
                   <li class={navItemClass}>
                     <a
                       href={`${SITE_URL}digests/`}
-                      title="Digests"
+                      title="Дайджесты"
                       class:list={[navLinkClass, currentPathname === digestsPathname && navLinkCurrentClass]}
                     >
                       Дайджесты
@@ -199,7 +199,7 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
                   <li class={navItemClass}>
                     <a
                       href={`${SITE_URL}hot/`}
-                      title="Hot"
+                      title="Главное"
                       class:list={[navLinkClass, currentPathname === hotPathname && navLinkCurrentClass]}
                     >
                       Главное
@@ -208,7 +208,7 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
                   <li class={navItemClass}>
                     <a
                       href={`${SITE_URL}compare/`}
-                      title="Compare"
+                      title="Сравнить"
                       class:list={[navLinkClass, currentPathname === comparePathname && navLinkCurrentClass]}
                     >
                       Сравнить
@@ -217,7 +217,7 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
                   <li class={navItemClass}>
                     <a
                       href={`${SITE_URL}stats/`}
-                      title="Stats"
+                      title="Статистика"
                       class:list={[navLinkClass, currentPathname === statsPathname && navLinkCurrentClass]}
                     >
                       Статистика

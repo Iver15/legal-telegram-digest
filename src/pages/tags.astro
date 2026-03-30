@@ -9,7 +9,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
 const channel = getChannelData()
 
 channel.seo = {
-  title: 'Tags',
+  title: 'Теги',
 }
 
 const tags = getAllTags()
@@ -21,5 +21,5 @@ const items = tags.map((tag) => ({
 
 <Layout channel={channel}>
   <Header channel={channel} />
-  <TagCloudSection title="Tags" items={items} />
+  <TagCloudSection title="Теги" items={items} />
 </Layout>

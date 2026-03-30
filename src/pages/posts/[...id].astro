@@ -31,12 +31,12 @@ const breadcrumbTitleClass = 'ml-[10px] flex-1 text-[14px] text-heading'
 ---
 
 <List channel={channel} before={false} after={false} isItem={true} pageHeading={post.title || channel.title}>
-  <nav slot="header" style="margin-bottom:12px;padding:10px 0;" aria-label="Breadcrumb">
+  <nav slot="header" style="margin-bottom:12px;padding:10px 0;" aria-label="Хлебные крошки">
     <a
       href={SITE_URL}
       style="display:inline-flex;align-items:center;gap:6px;text-decoration:none;color:#666;font-size:14px;font-weight:500;"
     >
-      <span style="font-size:18px;">&larr;</span> Digest
+      <span style="font-size:18px;">&larr;</span> Дайджест
     </a>
     {
       post.channel && (

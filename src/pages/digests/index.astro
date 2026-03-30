@@ -3,11 +3,11 @@ import Layout from '../../layouts/base.astro'
 import { getChannelData, getDigestPayload, getDigestTitle } from '../../lib/data'
 
 const channel = getChannelData()
-channel.title = `${getDigestTitle()} - Digests`
+channel.title = `${getDigestTitle()} - Дайджесты`
 channel.description = 'Generated legal-priority digests for today, yesterday, and the last week.'
 channel.descriptionHTML = null
 channel.avatar = undefined
-channel.seo = { title: 'Digests' }
+channel.seo = { title: 'Дайджесты' }
 
 const digests = [getDigestPayload('today'), getDigestPayload('yesterday'), getDigestPayload('week')].filter(Boolean)
 

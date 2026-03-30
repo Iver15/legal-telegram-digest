@@ -10,11 +10,11 @@ const totalPosts = getAllPosts().length
 const channels = getAllChannels().filter((channel) => channel.postCount > 0)
 const categories = getAllCategories().filter((category) => category.count > 0)
 const channel = getChannelData()
-channel.title = `${getDigestTitle()} - Lite`
-channel.description = `${totalPosts} posts in a compact text-first legal reader.`
+channel.title = `${getDigestTitle()} - Компактный режим`
+channel.description = `${totalPosts} постов в компактном режиме чтения.`
 channel.descriptionHTML = null
 channel.avatar = undefined
-channel.seo = { title: 'Lite' }
+channel.seo = { title: 'Компактный режим' }
 
 const SITE_URL = import.meta.env.BASE_URL ?? '/'
 ---
@@ -22,26 +22,26 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
 <Layout channel={channel}>
   <div style="margin-bottom:16px;">
     <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap;">
-      <h1 style="font-size:18px;font-weight:600;margin:0;">Lite mode</h1>
+      <h1 style="font-size:18px;font-weight:600;margin:0;">Компактный режим</h1>
       <div style="display:flex;gap:4px;margin-left:auto;">
-        <a href={SITE_URL} class="nav-pill">Home</a>
-        <a href={`${SITE_URL}digests/`} class="nav-pill">Digests</a>
-        <a href={`${SITE_URL}hot/`} class="nav-pill">Hot</a>
+        <a href={SITE_URL} class="nav-pill">Лента</a>
+        <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
+        <a href={`${SITE_URL}hot/`} class="nav-pill">Главное</a>
       </div>
     </div>
     <p class="text-dim" style="font-size:13px;margin:0 0 10px;">
-      Compact archive for faster scanning on mobile and low bandwidth.
+      Плотный режим для быстрого чтения с телефона и слабого интернета.
     </p>
 
     <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
-      <button class="filter-btn active" data-period="all" onclick="filterPeriod('all')">All</button>
-      <button class="filter-btn" data-period="24h" onclick="filterPeriod('24h')">24h</button>
-      <button class="filter-btn" data-period="3d" onclick="filterPeriod('3d')">3d</button>
-      <button class="filter-btn" data-period="7d" onclick="filterPeriod('7d')">7d</button>
+      <button class="filter-btn active" data-period="all" onclick="filterPeriod('all')">Все</button>
+      <button class="filter-btn" data-period="24h" onclick="filterPeriod('24h')">24ч</button>
+      <button class="filter-btn" data-period="3d" onclick="filterPeriod('3d')">3д</button>
+      <button class="filter-btn" data-period="7d" onclick="filterPeriod('7d')">7д</button>
     </div>
 
     <div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:8px;">
-      <button class="channel-btn active" data-channel="all" onclick="filterChannel('all')">All channels</button>
+      <button class="channel-btn active" data-channel="all" onclick="filterChannel('all')">Все каналы</button>
       {
         channels.slice(0, 8).map((item) => (
           <button class="channel-btn" data-channel={item.name} onclick={`filterChannel('${item.name}')`}>
@@ -52,7 +52,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     </div>
 
     <div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:8px;">
-      <button class="topic-btn active" data-topic="all" onclick="filterTopic('all')">All topics</button>
+      <button class="topic-btn active" data-topic="all" onclick="filterTopic('all')">Все темы</button>
       {
         categories.slice(0, 8).map((item) => (
           <button class="topic-btn" data-topic={item.id} onclick={`filterTopic('${item.id}')`}>
@@ -65,7 +65,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     <input
       id="digest-search"
       type="search"
-      placeholder="Search topic, channel, or keyword"
+      placeholder="Поиск по теме, каналу или ключевому слову"
       oninput="filterSearch(this.value)"
       class="search-input"
       style="font-size:13px;padding:6px 10px;"
@@ -78,7 +78,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
         const preview = post.text?.slice(0, 170) || ''
         const dt = dayjs(post.datetime)
         const timeago = dt.isBefore(dayjs().subtract(3, 'd')) ? dt.format('DD.MM') : dt.fromNow()
-        const reactions = post.reactionCount || 0
+        const reactionCount = post.reactionCount || 0
         return (
           <a
             href={`${SITE_URL}posts/${post.id}`}
@@ -90,8 +90,8 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
             style="display:block;padding:8px 0;text-decoration:none;color:inherit;"
           >
             <span class="text-dim" style="font-size:11px;">
-              @{post.channel} · {post.category || 'general'} · {timeago}
-              {reactions ? ` · ${reactions} reactions` : ''}
+              @{post.channel} · {post.category || 'общее'} · {timeago}
+              {reactionCount ? ` · ${reactionCount} реакц.` : ''}
             </span>
             <br />
             <span class="text-body">
@@ -105,7 +105,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
   </div>
 
   <p id="no-results" class="text-dim" style="display:none;text-align:center;padding:20px 0;font-size:13px;">
-    Nothing matches the current filters.
+    По текущим фильтрам ничего не найдено.
   </p>
 </Layout>
 
