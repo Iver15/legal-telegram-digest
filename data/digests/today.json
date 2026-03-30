@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Today",
-  "generatedAt": "2026-03-30T15:38:58.808Z",
+  "generatedAt": "2026-03-30T16:38:09.910Z",
   "totalPosts": 7,
   "topPosts": [
     {
@@ -51,7 +51,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.81,
+      "priorityScore": 25.69,
       "priorityReasons": [
         "Channel category: bankruptcy",
         "Topic hit: Bankruptcy",
@@ -95,7 +95,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 23.59,
+      "priorityScore": 23.47,
       "priorityReasons": [
         "Channel category: arbitration",
         "Topic hit: AI Law",
@@ -130,7 +130,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 18.87,
+      "priorityScore": 18.75,
       "priorityReasons": [
         "Channel category: courts",
         "Topic hit: AI Law",
@@ -163,7 +163,7 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 18.36,
+      "priorityScore": 18.23,
       "priorityReasons": [
         "Channel category: courts",
         "Topic hit: AI Law",
@@ -196,7 +196,7 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 15.45,
+      "priorityScore": 15.33,
       "priorityReasons": [
         "Channel category: courts",
         "Topic hit: AI Law",
@@ -229,7 +229,7 @@
         "enforcement",
         "bankruptcy"
       ],
-      "priorityScore": 12.19,
+      "priorityScore": 12.06,
       "priorityReasons": [
         "Channel category: courts",
         "Topic hit: Bankruptcy"
@@ -270,7 +270,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 8.24,
+      "priorityScore": 8.11,
       "priorityReasons": [
         "Channel category: courts"
       ],

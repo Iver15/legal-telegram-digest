@@ -32,7 +32,7 @@
       "arbitration",
       "enforcement"
     ],
-    "priorityScore": 8.24,
+    "priorityScore": 8.11,
     "priorityReasons": [
       "Channel category: courts"
     ],
@@ -63,7 +63,7 @@
       "enforcement",
       "bankruptcy"
     ],
-    "priorityScore": 12.19,
+    "priorityScore": 12.06,
     "priorityReasons": [
       "Channel category: courts",
       "Topic hit: Bankruptcy"
@@ -118,7 +118,7 @@
       "ai_law",
       "enforcement"
     ],
-    "priorityScore": 25.81,
+    "priorityScore": 25.69,
     "priorityReasons": [
       "Channel category: bankruptcy",
       "Topic hit: Bankruptcy",
@@ -152,7 +152,7 @@
       "enforcement",
       "ai_law"
     ],
-    "priorityScore": 18.36,
+    "priorityScore": 18.23,
     "priorityReasons": [
       "Channel category: courts",
       "Topic hit: AI Law",
@@ -185,7 +185,7 @@
       "enforcement",
       "ai_law"
     ],
-    "priorityScore": 15.45,
+    "priorityScore": 15.33,
     "priorityReasons": [
       "Channel category: courts",
       "Topic hit: AI Law",
@@ -219,7 +219,7 @@
       "ai_law",
       "compliance"
     ],
-    "priorityScore": 18.87,
+    "priorityScore": 18.75,
     "priorityReasons": [
       "Channel category: courts",
       "Topic hit: AI Law",
@@ -262,7 +262,7 @@
       "ai_law",
       "enforcement"
     ],
-    "priorityScore": 23.59,
+    "priorityScore": 23.47,
     "priorityReasons": [
       "Channel category: arbitration",
       "Topic hit: AI Law",
@@ -312,7 +312,7 @@
       "enforcement",
       "ai_law"
     ],
-    "priorityScore": 10.55,
+    "priorityScore": 10.43,
     "priorityReasons": [
       "Channel category: compliance",
       "Topic hit: AI Law",
@@ -2266,7 +2266,8 @@
       "Поздравление_юстиции",
       "courts",
       "enforcement",
-      "arbitration"
+      "arbitration",
+      "ai_law"
     ],
     "text": "#Поздравление_юстицииДорогие соотечественники!Мы искренне поздравляем вас всех с  Рамазан хайитом — праздником благодарения, щедрости и доброты.Пусть в нашей стране царят мир и спокойствие, а справедливость всегда торжествует!С уважением, коллектив Министерства юстицииПодписаться на канал 👇👇👇https://t.me/pravoinf",
     "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-9876-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: #Поздравление_юстицииДорогие соотечественники!Мы искренне поздравляем вас всех с  Рамазан хайитом — праздником благодарения, щедрости и доброты.Пусть в нашей стране царят мир и спокойствие, а справедливость всегда торжествует!С уважением, коллектив Министерства юстицииПодписаться на канал 👇👇👇\">\n        <img src=\"media/87ef8dc99ec95cc81af9dce7c84d1ca5.jpg\" alt=\"#Поздравление_юстицииДорогие соотечественники!Мы искренне поздравляем вас всех с  Рамазан хайитом — праздником благодарения, щедрости и доброты.Пусть в нашей стране царят мир и спокойствие, а справедливость всегда торжествует!С уважением, коллектив Министерства юстицииПодписаться на канал 👇👇👇\" width=\"800\" height=\"800\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-9876-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-9876-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-9876-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/87ef8dc99ec95cc81af9dce7c84d1ca5.jpg\" alt=\"#Поздравление_юстицииДорогие соотечественники!Мы искренне поздравляем вас всех с  Рамазан хайитом — праздником благодарения, щедрости и доброты.Пусть в нашей стране царят мир и спокойствие, а справедливость всегда торжествует!С уважением, коллектив Министерства юстицииПодписаться на канал 👇👇👇\" width=\"800\" height=\"800\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><a href=\"/search/%23%D0%9F%D0%BE%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D1%8E%D1%81%D1%82%D0%B8%D1%86%D0%B8%D0%B8\" title=\"#Поздравление_юстиции\">#Поздравление_юстиции</a><br><br><b>Дорогие соотечественники!</b><br><br>Мы искренне поздравляем вас всех с <b> Рамазан хайитом</b> — праздником благодарения, щедрости и доброты.<br><br>Пусть в нашей стране царят мир и спокойствие, а справедливость всегда торжествует!<br><br><i>С уважением, коллектив Министерства юстиции</i><br><br>Подписаться на канал <i class=\"emoji\"><b>👇</b></i><i class=\"emoji\"><b>👇</b></i><i class=\"emoji\"><b>👇</b></i><br><a href=\"https://t.me/pravoinf\" target=\"_blank\" rel=\"noopener\" title=\"https://t.me/pravoinf\">https://t.me/pravoinf</a>",
@@ -2278,11 +2279,13 @@
     "legalTopics": [
       "courts",
       "enforcement",
+      "ai_law",
       "arbitration"
     ],
-    "priorityScore": 5.85,
+    "priorityScore": 10.2,
     "priorityReasons": [
       "Channel category: courts",
+      "Topic hit: AI Law",
       "Topic hit: Arbitration"
     ],
     "digestSummary": "#Поздравление_юстицииДорогие соотечественники!Мы искренне поздравляем вас всех с Рамазан хайитом — праздником благодарения, щедрости и доброты.Пусть в нашей стране царят мир и спокойствие, а справедливость всегда торжест",
