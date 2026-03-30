@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-03-30T23:06:06.826Z",
-  "totalPosts": 13,
+  "generatedAt": "2026-03-30T23:54:29.043Z",
+  "totalPosts": 14,
   "topPosts": [
     {
       "id": "probankrotstvoru/9476",
@@ -46,7 +46,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.07,
+      "priorityScore": 24.98,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -106,7 +106,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 17.67,
+      "priorityScore": 17.57,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -147,7 +147,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 16.33,
+      "priorityScore": 16.23,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -202,7 +202,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 15.45,
+      "priorityScore": 15.35,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -238,7 +238,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 14.62,
+      "priorityScore": 14.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -274,7 +274,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 14.61,
+      "priorityScore": 14.51,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -308,7 +308,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 11.27,
+      "priorityScore": 11.17,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -362,7 +362,7 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 9.73,
+      "priorityScore": 9.63,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -370,6 +370,34 @@
       ],
       "digestSummary": "🇦🇪 🇮🇷 ОАЭ аннулировали ВНЖ всем гражданам Ирана, включая «золотые», сообщает иранское агентство Tasnim, утверждая, что решение принято в одностороннем порядке и без объяснения причин.По данным издания, речь идёт о ма",
       "reactionCount": 20
+    },
+    {
+      "id": "orpauradio/9253",
+      "title": "Реформе банкротства дали новый старт // В Госдуму внесен новый законопроект",
+      "type": "text",
+      "datetime": "2026-03-29T23:34:48+00:00",
+      "tags": [
+        "bankruptcy",
+        "enforcement"
+      ],
+      "text": "Реформе банкротства дали новый старт // В Госдуму внесен новый законопроектhttps://zakon.ru/discussion/2026/03/27/reforme_bankrotstva_dali_novyj_start__v_gosdumu_vnesen_novyj_zakonoproekt",
+      "content": "Реформе банкротства дали новый старт // В Госдуму внесен новый законопроект<br><a href=\"https://zakon.ru/discussion/2026/03/27/reforme_bankrotstva_dali_novyj_start__v_gosdumu_vnesen_novyj_zakonoproekt\" target=\"_blank\" rel=\"noopener\" title=\"https://zakon.ru/discussion/2026/03/27/reforme_bankrotstva_dali_novyj_start__v_gosdumu_vnesen_novyj_zakonoproekt\">https://zakon.ru/discussion/2026/03/27/reforme_bankrotstva_dali_novyj_start__v_gosdumu_vnesen_novyj_zakonoproekt</a>",
+      "reactions": [],
+      "channel": "orpauradio",
+      "channelTitle": "Первый радиоканал АУ и юристов",
+      "category": "bankruptcy",
+      "group": "bankruptcy_core",
+      "legalTopics": [
+        "bankruptcy",
+        "enforcement"
+      ],
+      "priorityScore": 9.42,
+      "priorityReasons": [
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Банкротство"
+      ],
+      "digestSummary": "Реформе банкротства дали новый старт // В Госдуму внесен новый законопроектhttps://zakon.ru/discussion/2026/03/27/reforme_bankrotstva_dali_novyj_start__v_gosdumu_vnesen_novyj_zakonoproekt",
+      "reactionCount": 0
     },
     {
       "id": "disputesandsanctions/2403",
@@ -404,7 +432,7 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 8.91,
+      "priorityScore": 8.81,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law"
@@ -434,7 +462,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 6.93,
+      "priorityScore": 6.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды"
@@ -478,69 +506,20 @@
         "bankruptcy",
         "enforcement"
       ],
-      "priorityScore": 6.31,
+      "priorityScore": 6.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Высокая вовлечённость: 23 реакций"
       ],
       "digestSummary": "💥15ААС - Слишком суровое наказание АУ, вызывает озлобленность, формирует правонигилистические взгляды и, как следствие, негативное отношение к публичной власти, стойкое нежелание сотрудничать с ее представителями.(ред. ",
       "reactionCount": 23
-    },
-    {
-      "id": "vZone1413/8803",
-      "title": "💥15ААС - Слишком суровое наказание АУ, вызывает озлобленность, формирует правонигилистические взгляды и, как следствие, негативное отношение к публичной власти, стойкое нежелание сотрудничать с ее представителями.(ред. Да, настолько негативное, что даже кушать не могу...).Ростов-на-Дону А32-52026/2025 27.03.26г.",
-      "type": "text",
-      "datetime": "2026-03-29T12:07:46+00:00",
-      "tags": [
-        "bankruptcy",
-        "arbitration"
-      ],
-      "text": "💥15ААС - Слишком суровое наказание АУ, вызывает озлобленность, формирует правонигилистические взгляды и, как следствие, негативное отношение к публичной власти, стойкое нежелание сотрудничать с ее представителями.(ред. Да, настолько негативное, что даже кушать не могу...).Ростов-на-Дону А32-52026/2025 27.03.26г.",
-      "content": "<i class=\"emoji\"><b>💥</b></i>15ААС - Слишком суровое наказание АУ, вызывает озлобленность, формирует правонигилистические взгляды и, как следствие, негативное отношение к публичной власти, стойкое нежелание сотрудничать с ее представителями.<br><i>(ред. Да, настолько негативное, что даже кушать не могу...).</i><br>Ростов-на-Дону <a href=\"https://ras.arbitr.ru/Document/Pdf/1bed8dce-d445-4fc9-a78d-497561bfda90/3d68725b-31bf-49ee-aeaa-3d92d7d88bd3/%D0%9032-52026-2025__20260327.pdf?isAddStamp=True\" target=\"_blank\" rel=\"noopener\" title=\"А32-52026/2025\">А32-52026/2025</a> 27.03.26г.",
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "18",
-          "isPaid": false
-        },
-        {
-          "emoji": "🔥",
-          "count": "4",
-          "isPaid": false
-        },
-        {
-          "emoji": "❤️",
-          "count": "2",
-          "isPaid": false
-        },
-        {
-          "emoji": "✍",
-          "count": "2",
-          "isPaid": false
-        }
-      ],
-      "channel": "vZone1413",
-      "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "category": "bankruptcy",
-      "group": "practical_law",
-      "legalTopics": [
-        "bankruptcy",
-        "arbitration"
-      ],
-      "priorityScore": 5.83,
-      "priorityReasons": [
-        "Категория канала: bankruptcy",
-        "Высокая вовлечённость: 26 реакций"
-      ],
-      "digestSummary": "💥15ААС - Слишком суровое наказание АУ, вызывает озлобленность, формирует правонигилистические взгляды и, как следствие, негативное отношение к публичной власти, стойкое нежелание сотрудничать с ее представителями.(ред. ",
-      "reactionCount": 26
     }
   ],
   "topTopics": [
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 10
+      "count": 11
     },
     {
       "id": "arbitration",
@@ -560,7 +539,7 @@
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 6
+      "count": 7
     },
     {
       "id": "compliance",
@@ -582,7 +561,7 @@
     {
       "channel": "orpauradio",
       "title": "Первый радиоканал АУ и юристов",
-      "count": 2
+      "count": 3
     },
     {
       "channel": "probankrotstvoru",

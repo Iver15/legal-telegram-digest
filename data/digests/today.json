@@ -1,8 +1,8 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-03-30T23:06:06.825Z",
-  "totalPosts": 41,
+  "generatedAt": "2026-03-30T23:54:29.042Z",
+  "totalPosts": 40,
   "topPosts": [
     {
       "id": "probankrotstvoru/9485",
@@ -53,7 +53,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.27,
+      "priorityScore": 33.17,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -113,7 +113,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.34,
+      "priorityScore": 30.24,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -166,7 +166,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.4,
+      "priorityScore": 29.3,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -222,7 +222,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.81,
+      "priorityScore": 26.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -272,7 +272,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 26.64,
+      "priorityScore": 26.54,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -327,7 +327,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.64,
+      "priorityScore": 26.54,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -372,7 +372,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 26.43,
+      "priorityScore": 26.33,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -429,7 +429,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.49,
+      "priorityScore": 25.39,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -482,7 +482,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.41,
+      "priorityScore": 25.31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -530,7 +530,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 25.32,
+      "priorityScore": 25.22,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -593,7 +593,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 25.22,
+      "priorityScore": 25.12,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -657,7 +657,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 23.97,
+      "priorityScore": 23.87,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -688,12 +688,12 @@
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 26
+      "count": 25
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 21
+      "count": 20
     },
     {
       "id": "compliance",
@@ -713,14 +713,14 @@
       "count": 9
     },
     {
-      "channel": "orpauradio",
-      "title": "Первый радиоканал АУ и юристов",
-      "count": 5
-    },
-    {
       "channel": "vZone1413",
       "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
       "count": 5
+    },
+    {
+      "channel": "orpauradio",
+      "title": "Первый радиоканал АУ и юристов",
+      "count": 4
     },
     {
       "channel": "sovetsudey",
