@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Yesterday",
-  "generatedAt": "2026-03-30T20:25:43.745Z",
+  "generatedAt": "2026-03-30T21:06:44.245Z",
   "totalPosts": 1,
   "topPosts": [
     {
@@ -44,7 +44,7 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 9.96,
+      "priorityScore": 9.87,
       "priorityReasons": [
         "Channel category: compliance",
         "Topic hit: AI Law",
