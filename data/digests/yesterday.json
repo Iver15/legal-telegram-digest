@@ -1,9 +1,86 @@
 {
   "id": "yesterday",
   "label": "Yesterday",
-  "generatedAt": "2026-03-30T09:59:49.249Z",
-  "totalPosts": 0,
-  "topPosts": [],
-  "topTopics": [],
-  "topChannels": []
+  "generatedAt": "2026-03-30T11:04:25.475Z",
+  "totalPosts": 1,
+  "topPosts": [
+    {
+      "id": "Compliance_Practice/3023",
+      "title": "🇦🇪 🇮🇷 ОАЭ аннулировали ВНЖ всем гражданам Ирана, включая «золотые», сообщает иранское агентство Tasnim, утверждая, что решение принято в одностороннем порядке и без объяснения причин.По данным издания, речь идёт о масштабных мерах, затронувших даже долгосрочные виды на жительство, которые ранее предоставлялись на десятки лет.",
+      "type": "text",
+      "datetime": "2026-03-29T10:03:46+00:00",
+      "tags": [
+        "compliance",
+        "tax",
+        "enforcement",
+        "ai_law"
+      ],
+      "text": "🇦🇪 🇮🇷 ОАЭ аннулировали ВНЖ всем гражданам Ирана, включая «золотые», сообщает иранское агентство Tasnim, утверждая, что решение принято в одностороннем порядке и без объяснения причин.По данным издания, речь идёт о масштабных мерах, затронувших даже долгосрочные виды на жительство, которые ранее предоставлялись на десятки лет.",
+      "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-3023-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: 🇦🇪 🇮🇷 ОАЭ аннулировали ВНЖ всем гражданам Ирана, включая «золотые», сообщает иранское агентство Tasnim, утверждая, что решение принято в одностороннем порядке и без объяснения причин.По данным издания, речь идёт о масштабных мерах, затронувших даже долгосрочные виды на жительство, которые ранее предоставлялись на десятки лет.\">\n        <img src=\"media/dd87c0fe97719a5c1fcf76a9a76dda52.jpg\" alt=\"🇦🇪 🇮🇷 ОАЭ аннулировали ВНЖ всем гражданам Ирана, включая «золотые», сообщает иранское агентство Tasnim, утверждая, что решение принято в одностороннем порядке и без объяснения причин.По данным издания, речь идёт о масштабных мерах, затронувших даже долгосрочные виды на жительство, которые ранее предоставлялись на десятки лет.\" width=\"388\" height=\"517\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-3023-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-3023-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-3023-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"media/dd87c0fe97719a5c1fcf76a9a76dda52.jpg\" alt=\"🇦🇪 🇮🇷 ОАЭ аннулировали ВНЖ всем гражданам Ирана, включая «золотые», сообщает иранское агентство Tasnim, утверждая, что решение принято в одностороннем порядке и без объяснения причин.По данным издания, речь идёт о масштабных мерах, затронувших даже долгосрочные виды на жительство, которые ранее предоставлялись на десятки лет.\" width=\"388\" height=\"517\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><i class=\"emoji\"><b>🇦🇪</b></i> <i class=\"emoji\"><b>🇮🇷</b></i> ОАЭ аннулировали ВНЖ всем гражданам Ирана, включая «золотые», сообщает иранское агентство Tasnim, утверждая, что решение принято в одностороннем порядке и без объяснения причин.<br><br>По данным издания, речь идёт о масштабных мерах, затронувших даже долгосрочные виды на жительство, которые ранее предоставлялись на десятки лет.",
+      "reactions": [
+        {
+          "emoji": "😁",
+          "count": "10",
+          "isPaid": false
+        },
+        {
+          "emoji": "😱",
+          "count": "8",
+          "isPaid": false
+        },
+        {
+          "emoji": "⚡",
+          "count": "1",
+          "isPaid": false
+        }
+      ],
+      "channel": "Compliance_Practice",
+      "channelTitle": "Compliance practice",
+      "category": "compliance",
+      "group": "regulation",
+      "legalTopics": [
+        "compliance",
+        "tax",
+        "enforcement",
+        "ai_law"
+      ],
+      "priorityScore": 11.12,
+      "priorityReasons": [
+        "Channel category: compliance",
+        "Topic hit: AI Law",
+        "High engagement: 19 reactions"
+      ],
+      "digestSummary": "🇦🇪 🇮🇷 ОАЭ аннулировали ВНЖ всем гражданам Ирана, включая «золотые», сообщает иранское агентство Tasnim, утверждая, что решение принято в одностороннем порядке и без объяснения причин.По данным издания, речь идёт о ма",
+      "reactionCount": 19
+    }
+  ],
+  "topTopics": [
+    {
+      "id": "compliance",
+      "label": "Compliance",
+      "count": 1
+    },
+    {
+      "id": "tax",
+      "label": "Tax",
+      "count": 1
+    },
+    {
+      "id": "enforcement",
+      "label": "Enforcement",
+      "count": 1
+    },
+    {
+      "id": "ai_law",
+      "label": "AI Law",
+      "count": 1
+    }
+  ],
+  "topChannels": [
+    {
+      "channel": "Compliance_Practice",
+      "title": "Compliance practice",
+      "count": 1
+    }
+  ]
 }
