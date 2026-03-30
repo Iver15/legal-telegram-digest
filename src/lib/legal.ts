@@ -1,100 +1,100 @@
 import type { ChannelDefinition, ChannelRegistry, DigestPayload, LegalCategory, Post, SiteDefinition } from '../types'
 
 const DEFAULT_SITE: SiteDefinition = {
-  title: 'Yuri\'s Legal Telegram Digest',
-  shortTitle: 'Yuri Legal Digest',
+  title: 'Юридический Telegram-дайджест',
+  shortTitle: 'Юрдайджест',
   description:
     'Мобильный юридический Telegram-дайджест для отслеживания судебной практики, налогов, банкротства, комплаенса и AI+Law.',
-  owner: 'Yuri',
+  owner: '',
 }
 
 export const DEFAULT_LEGAL_CATEGORIES: LegalCategory[] = [
   {
     id: 'bankruptcy',
-    label: 'Bankruptcy',
-    description: 'Restructuring, insolvency, bankruptcy procedure, and creditor risk.',
+    label: 'Банкротство',
+    description: 'Реструктуризация, несостоятельность, банкротные процедуры и риски кредиторов.',
   },
   {
     id: 'arbitration',
-    label: 'Arbitration',
-    description: 'Commercial disputes, arbitrazh process, and forum practice.',
+    label: 'Арбитраж',
+    description: 'Коммерческие споры, арбитражный процесс и судебная практика.',
   },
   {
     id: 'tax',
-    label: 'Tax',
-    description: 'Tax disputes, audits, transfer pricing, and fiscal guidance.',
+    label: 'Налоги',
+    description: 'Налоговые споры, проверки, трансфертное ценообразование и фискальные ориентиры.',
   },
   {
     id: 'courts',
-    label: 'Courts',
-    description: 'Supreme court, cassation, procedure, and key judicial positions.',
+    label: 'Суды',
+    description: 'Верховный суд, кассация, процессуальные вопросы и ключевые судебные позиции.',
   },
   {
     id: 'enforcement',
-    label: 'Enforcement',
-    description: 'Bailiffs, asset recovery, interim relief, and execution strategy.',
+    label: 'Исполнение',
+    description: 'Приставы, взыскание активов, обеспечительные меры и стратегия исполнения.',
   },
   {
     id: 'compliance',
-    label: 'Compliance',
-    description: 'Sanctions, AML, anti-corruption, investigations, and controls.',
+    label: 'Комплаенс',
+    description: 'Санкции, AML, антикоррупция, внутренние расследования и контроль.',
   },
   {
     id: 'ai_law',
-    label: 'AI Law',
-    description: 'AI governance, privacy, platform regulation, and digital evidence.',
+    label: 'AI+Law',
+    description: 'Регулирование ИИ, приватность, платформенное право и цифровые доказательства.',
   },
 ]
 
 const TOPIC_RULES: Array<{ id: string, label: string, keywords: string[], weight: number }> = [
   {
     id: 'bankruptcy',
-    label: 'Bankruptcy',
+    label: 'Банкротство',
     weight: 4,
     keywords: ['банкрот', 'несостоятельн', 'ефрсб', 'конкурсн', 'реструктуризац', 'арбитражный управляющ'],
   },
   {
     id: 'arbitration',
-    label: 'Arbitration',
+    label: 'Арбитраж',
     weight: 3.5,
     keywords: ['арбитраж', 'арбитражн', 'третейск', 'подведомствен', 'подсудност', 'иск'],
   },
   {
     id: 'tax',
-    label: 'Tax',
+    label: 'Налоги',
     weight: 3.5,
     keywords: ['налог', 'фнс', 'ндс', 'прибыл', 'ндфл', 'амнист', 'трансфертн', 'вычет'],
   },
   {
     id: 'courts',
-    label: 'Courts',
+    label: 'Суды',
     weight: 3,
     keywords: ['верховн', 'конституцион', 'кассац', 'апелляц', 'судебн', 'суд', 'пленум', 'обзор практики'],
   },
   {
     id: 'enforcement',
-    label: 'Enforcement',
+    label: 'Исполнение',
     weight: 3,
     keywords: ['исполнительн', 'пристав', 'взыскан', 'исполнен', 'арест имуществ', 'обеспечительн'],
   },
   {
     id: 'compliance',
-    label: 'Compliance',
+    label: 'Комплаенс',
     weight: 3.5,
     keywords: ['комплаенс', 'aml', 'kyc', 'санкц', 'коррупц', 'антикоррупц', 'due diligence', 'контроль'],
   },
   {
     id: 'ai_law',
-    label: 'AI Law',
+    label: 'AI+Law',
     weight: 4,
     keywords: ['искусственн', 'ии ', 'ai ', 'ai-law', 'персональн', 'данн', 'privacy', 'цифров', 'алгоритм'],
   },
 ]
 
 const DIGEST_WINDOWS: Record<DigestPayload['id'], { label: string, hours: number, startOffsetHours?: number }> = {
-  today: { label: 'Today', hours: 24 },
-  yesterday: { label: 'Yesterday', hours: 24, startOffsetHours: 24 },
-  week: { label: 'Week', hours: 24 * 7 },
+  today: { label: 'Сегодня', hours: 24 },
+  yesterday: { label: 'Вчера', hours: 24, startOffsetHours: 24 },
+  week: { label: 'Неделя', hours: 24 * 7 },
 }
 const CHANNEL_PREFIX_REGEX = /^@/
 const TAG_PREFIX_REGEX = /^#/
@@ -202,9 +202,9 @@ export function enrichLegalPost(post: Post, channelDefinition?: ChannelDefinitio
   const channelBoost = Number(channelDefinition?.priorityBoost || 0)
   const priorityScore = Number((matchScore + reactionScore + recencyScore + channelBoost).toFixed(2))
   const reasons = Array.from(new Set([
-    ...(channelDefinition?.category ? [`Channel category: ${channelDefinition.category}`] : []),
-    ...topicMatches.slice(0, 3).map(item => `Topic hit: ${item.label}`),
-    ...(reactionCount > 10 ? [`High engagement: ${reactionCount} reactions`] : []),
+    ...(channelDefinition?.category ? [`Категория канала: ${channelDefinition.category}`] : []),
+    ...topicMatches.slice(0, 3).map(item => `Совпадение по теме: ${item.label}`),
+    ...(reactionCount > 10 ? [`Высокая вовлечённость: ${reactionCount} реакций`] : []),
   ]))
 
   return {

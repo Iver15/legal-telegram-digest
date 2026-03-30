@@ -1,45 +1,45 @@
 {
   "site": {
-    "title": "Yuri's Legal Telegram Digest",
-    "shortTitle": "Yuri Legal Digest",
-    "description": "Multi-channel legal Telegram reader focused on practical updates across courts, arbitration, tax, bankruptcy, compliance, enforcement, and AI law.",
-    "owner": "Yuri"
+    "title": "Юридический Telegram-дайджест",
+    "shortTitle": "Юрдайджест",
+    "description": "Мобильный юридический дайджест по публичным Telegram-каналам: суды, арбитраж, банкротство, налоги, комплаенс, исполнительное производство и AI+Law.",
+    "owner": ""
   },
   "categories": [
     {
       "id": "bankruptcy",
-      "label": "Bankruptcy",
-      "description": "Insolvency procedure, creditor tactics, restructuring, and bankruptcy practice."
+      "label": "Банкротство",
+      "description": "Банкротные процедуры, тактика кредиторов, реструктуризация и практика по несостоятельности."
     },
     {
       "id": "arbitration",
-      "label": "Arbitration",
-      "description": "Commercial disputes, arbitrazh procedure, and litigation workflow."
+      "label": "Арбитраж",
+      "description": "Коммерческие споры, арбитражный процесс и судебная практика."
     },
     {
       "id": "tax",
-      "label": "Tax",
-      "description": "Tax disputes, rulings, transfer pricing, and audit risk."
+      "label": "Налоги",
+      "description": "Налоговые споры, проверки, трансфертное ценообразование и фискальные риски."
     },
     {
       "id": "courts",
-      "label": "Courts",
-      "description": "Supreme court, cassation, procedure, and court practice updates."
+      "label": "Суды",
+      "description": "Верховный суд, кассация, процессуальные вопросы и ключевые позиции судов."
     },
     {
       "id": "enforcement",
-      "label": "Enforcement",
-      "description": "Bailiffs, recovery strategy, freezes, and execution risk."
+      "label": "Исполнение",
+      "description": "Приставы, взыскание, обеспечительные меры и исполнительские риски."
     },
     {
       "id": "compliance",
-      "label": "Compliance",
-      "description": "Sanctions, AML, anti-corruption, investigations, and controls."
+      "label": "Комплаенс",
+      "description": "Санкции, AML, антикоррупция, внутренние проверки и контроль."
     },
     {
       "id": "ai_law",
-      "label": "AI Law",
-      "description": "AI governance, privacy, digital evidence, and platform regulation."
+      "label": "AI+Law",
+      "description": "Регулирование ИИ, приватность, цифровые доказательства и платформенное право."
     }
   ],
   "channels": [

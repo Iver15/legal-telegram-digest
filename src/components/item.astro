@@ -61,7 +61,7 @@ const summary = post.digestSummary || post.text?.slice(0, 180) || ''
         {legalTopics.slice(0, 4).map((topic) => (
           <span class="badge">#{topic}</span>
         ))}
-        {priorityScore > 0 && <span class="badge">priority {priorityScore.toFixed(1)}</span>}
+        {priorityScore > 0 && <span class="badge">приоритет {priorityScore.toFixed(1)}</span>}
       </div>
     )
   }

@@ -111,7 +111,7 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
 ---
 
 <!doctype html>
-<html lang={locale ?? 'en'} data-push-url={PUSH_SERVER_URL} data-vapid-key={VAPID_PUBLIC_KEY}>
+<html lang={locale ?? 'ru'} data-push-url={PUSH_SERVER_URL} data-vapid-key={VAPID_PUBLIC_KEY}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -131,7 +131,7 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
   </head>
 
   <body>
-    <a href="#main-content" class={skipLinkClass}>Skip to main content</a>
+    <a href="#main-content" class={skipLinkClass}>Перейти к содержимому</a>
     <main id="main-content" class={layoutShellClass}>
       <div class={layoutGridClass}>
         <div class={mainPanelClass}>
@@ -141,16 +141,16 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
           <slot name="aside">
             <div class={asideInnerClass}>
               <section class="brand-card">
-                <p class="brand-card__eyebrow">Юридический reader</p>
+                <p class="brand-card__eyebrow">Юридический дайджест</p>
                 <h1 class="brand-card__title">{siteMeta.shortTitle || siteMeta.title}</h1>
                 <p class="brand-card__description">{siteMeta.description}</p>
                 <div class="brand-card__meta">
-                  <span class="badge">public channels</span>
-                  <span class="badge">legal digest</span>
+                  <span class="badge">публичные каналы</span>
+                  <span class="badge">юридический дайджест</span>
                   <span class="badge">мобильный режим</span>
                 </div>
               </section>
-              <nav aria-label="Primary navigation">
+              <nav aria-label="Основная навигация">
                 <ul class={navListClass}>
                   <li class={navItemClass}>
                     <a
@@ -265,7 +265,7 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
                 >
                   BroadcastChannel
                 </a>
-                и адаптировано под {siteMeta.owner || 'Yuri'}.
+                .
               </footer>
             </div>
           </slot>
@@ -287,7 +287,7 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
       <div style="flex:1;min-width:0;">
         <div style="font-weight:600;font-size:15px;">{siteMeta.shortTitle || siteMeta.title}</div>
         <div style="font-size:13px;opacity:0.8;margin-top:2px;">
-          Установите reader как приложение для быстрого чтения и офлайн-доступа
+          Установите сайт как приложение для быстрого чтения и офлайн-доступа
         </div>
       </div>
       <button

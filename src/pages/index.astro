@@ -98,7 +98,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
               <span>{item.title}</span>
               <span class="text-dim">
                 {item.category ? `${item.category} · ` : ''}
-                {item.postCount} постов
+                {item.postCount} материалов
               </span>
             </a>
           ))
@@ -151,7 +151,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     <article class="summary-card">
       <div class="summary-card__head">
         <h2>Темы недели</h2>
-        <span class="text-dim">{weekDigest?.totalPosts || 0} постов</span>
+        <span class="text-dim">{weekDigest?.totalPosts || 0} материалов</span>
       </div>
       <div class="summary-pill-row">
         {
@@ -184,7 +184,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
   </section>
 
   <h2 style="font-size:16px;font-weight:600;margin:0 0 8px;">Лента постов</h2>
-  <ol id="posts-list" class="mt-5 mb-0 ml-7 list-none pl-0 max-sm:ml-0" aria-label="Posts">
+  <ol id="posts-list" class="mt-5 mb-0 ml-7 list-none pl-0 max-sm:ml-0" aria-label="Посты">
     {
       posts.map((post) => (
         <li

@@ -1,7 +1,7 @@
 {
-  "name": "Yuri's Legal Telegram Digest",
-  "short_name": "Legal Digest",
-  "description": "Static multi-channel legal Telegram reader for courts, tax, compliance, bankruptcy, enforcement, and AI law.",
+  "name": "Юридический Telegram-дайджест",
+  "short_name": "Юрдайджест",
+  "description": "Многоисточниковый юридический Telegram-дайджест: суды, налоги, комплаенс, банкротство, исполнение и AI+Law.",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f4f1ec",
