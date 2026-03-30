@@ -44,15 +44,54 @@
   ],
   "channels": [
     {
-      "channel": "pravoinf",
-      "title": "Правовая информация",
-      "category": "courts",
-      "group": "public_sources",
+      "channel": "educatedyoungman",
+      "title": "Educated Young Man",
+      "category": "arbitration",
+      "group": "practical_law",
       "topics": [
-        "courts",
-        "enforcement"
+        "arbitration",
+        "courts"
       ],
-      "priorityBoost": 2
+      "priorityBoost": 1.7,
+      "enabled": true
+    },
+    {
+      "channel": "lawegorov",
+      "title": "Law Egorov",
+      "category": "arbitration",
+      "group": "practical_law",
+      "topics": [
+        "arbitration",
+        "courts",
+        "bankruptcy"
+      ],
+      "priorityBoost": 2.1,
+      "enabled": true
+    },
+    {
+      "channel": "legally_bald",
+      "title": "Legally Bald",
+      "category": "arbitration",
+      "group": "practical_law",
+      "topics": [
+        "arbitration",
+        "courts"
+      ],
+      "priorityBoost": 1.8,
+      "enabled": true
+    },
+    {
+      "channel": "shapovalovagroup",
+      "title": "Shapovalova Group",
+      "category": "arbitration",
+      "group": "practical_law",
+      "topics": [
+        "arbitration",
+        "courts",
+        "compliance"
+      ],
+      "priorityBoost": 1.8,
+      "enabled": true
     },
     {
       "channel": "sudpraktik",
@@ -67,16 +106,137 @@
       "priorityBoost": 2.5
     },
     {
-      "channel": "InternationalTaxNews",
-      "title": "International Tax News",
-      "category": "tax",
-      "group": "regulation",
+      "channel": "zarbitrazhy",
+      "title": "За арбитражи",
+      "category": "arbitration",
+      "group": "disputes",
       "topics": [
-        "tax",
-        "compliance"
+        "arbitration",
+        "courts"
       ],
-      "priorityBoost": 1.5,
-      "enabled": false
+      "priorityBoost": 2.0,
+      "enabled": true
+    },
+    {
+      "channel": "audamage",
+      "title": "AUDamage",
+      "category": "bankruptcy",
+      "group": "bankruptcy_core",
+      "topics": [
+        "bankruptcy",
+        "enforcement"
+      ],
+      "priorityBoost": 1.9,
+      "enabled": true
+    },
+    {
+      "channel": "aurobakidze",
+      "title": "AU Robakidze",
+      "category": "bankruptcy",
+      "group": "bankruptcy_core",
+      "topics": [
+        "bankruptcy",
+        "arbitration"
+      ],
+      "priorityBoost": 1.9,
+      "enabled": true
+    },
+    {
+      "channel": "bankrotnews",
+      "title": "Bankrot News",
+      "category": "bankruptcy",
+      "group": "bankruptcy_core",
+      "topics": [
+        "bankruptcy",
+        "courts"
+      ],
+      "priorityBoost": 2.4,
+      "enabled": true
+    },
+    {
+      "channel": "bankruptcy_law_forever",
+      "title": "Bankruptcy Law Forever",
+      "category": "bankruptcy",
+      "group": "bankruptcy_core",
+      "topics": [
+        "bankruptcy",
+        "courts"
+      ],
+      "priorityBoost": 2.3,
+      "enabled": true
+    },
+    {
+      "channel": "domnin_sa",
+      "title": "Domnin SA",
+      "category": "bankruptcy",
+      "group": "practical_law",
+      "topics": [
+        "bankruptcy",
+        "arbitration",
+        "courts"
+      ],
+      "priorityBoost": 2.2,
+      "enabled": true
+    },
+    {
+      "channel": "fedresurs_insolvency",
+      "title": "Fedresurs Insolvency",
+      "category": "bankruptcy",
+      "group": "public_sources",
+      "topics": [
+        "bankruptcy"
+      ],
+      "priorityBoost": 2.2,
+      "enabled": true
+    },
+    {
+      "channel": "orpau",
+      "title": "ОРПАУ",
+      "category": "bankruptcy",
+      "group": "bankruptcy_core",
+      "topics": [
+        "bankruptcy",
+        "enforcement"
+      ],
+      "priorityBoost": 2.2,
+      "enabled": true
+    },
+    {
+      "channel": "orpauradio",
+      "title": "ОРПАУ Радио",
+      "category": "bankruptcy",
+      "group": "bankruptcy_core",
+      "topics": [
+        "bankruptcy",
+        "enforcement"
+      ],
+      "priorityBoost": 2.1,
+      "enabled": true
+    },
+    {
+      "channel": "probankrotstvoru",
+      "title": "PROбанкротство",
+      "category": "bankruptcy",
+      "group": "bankruptcy_core",
+      "topics": [
+        "bankruptcy",
+        "arbitration",
+        "courts"
+      ],
+      "priorityBoost": 2.5,
+      "enabled": true
+    },
+    {
+      "channel": "vZone1413",
+      "title": "vZone1413",
+      "category": "bankruptcy",
+      "group": "practical_law",
+      "topics": [
+        "bankruptcy",
+        "arbitration"
+      ],
+      "priorityBoost": 1.6,
+      "enabled": true
     },
     {
       "channel": "Compliance_Practice",
@@ -89,6 +249,66 @@
         "enforcement"
       ],
       "priorityBoost": 2
+    },
+    {
+      "channel": "corplawpro",
+      "title": "Corp Law Pro",
+      "category": "compliance",
+      "group": "corporate_law",
+      "topics": [
+        "compliance",
+        "arbitration"
+      ],
+      "priorityBoost": 1.9,
+      "enabled": true
+    },
+    {
+      "channel": "disputesandsanctions",
+      "title": "Disputes and Sanctions",
+      "category": "compliance",
+      "group": "regulation",
+      "topics": [
+        "compliance",
+        "arbitration",
+        "ai_law"
+      ],
+      "priorityBoost": 2.0,
+      "enabled": true
+    },
+    {
+      "channel": "pravoinf",
+      "title": "Правовая информация",
+      "category": "courts",
+      "group": "public_sources",
+      "topics": [
+        "courts",
+        "enforcement"
+      ],
+      "priorityBoost": 2
+    },
+    {
+      "channel": "Shokobear",
+      "title": "Shokobear",
+      "category": "courts",
+      "group": "practical_law",
+      "topics": [
+        "courts",
+        "arbitration",
+        "enforcement"
+      ],
+      "priorityBoost": 2.0,
+      "enabled": true
+    },
+    {
+      "channel": "sovetsudey",
+      "title": "Совет судей",
+      "category": "courts",
+      "group": "public_sources",
+      "topics": [
+        "courts"
+      ],
+      "priorityBoost": 1.8,
+      "enabled": true
     },
     {
       "channel": "aiiotlaw",
@@ -126,30 +346,16 @@
       "enabled": false
     },
     {
-      "channel": "domnin_sa",
-      "title": "Domnin SA",
-      "category": "bankruptcy",
-      "group": "practical_law",
+      "channel": "InternationalTaxNews",
+      "title": "International Tax News",
+      "category": "tax",
+      "group": "regulation",
       "topics": [
-        "bankruptcy",
-        "arbitration",
-        "courts"
+        "tax",
+        "compliance"
       ],
-      "priorityBoost": 2.2,
-      "enabled": true
-    },
-    {
-      "channel": "Shokobear",
-      "title": "Shokobear",
-      "category": "courts",
-      "group": "practical_law",
-      "topics": [
-        "courts",
-        "arbitration",
-        "enforcement"
-      ],
-      "priorityBoost": 2.0,
-      "enabled": true
+      "priorityBoost": 1.5,
+      "enabled": false
     }
   ]
 }
