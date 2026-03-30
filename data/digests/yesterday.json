@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Yesterday",
-  "generatedAt": "2026-03-30T21:19:40.826Z",
+  "generatedAt": "2026-03-30T21:22:58.229Z",
   "totalPosts": 13,
   "topPosts": [
     {
@@ -274,7 +274,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 14.83,
+      "priorityScore": 14.82,
       "priorityReasons": [
         "Channel category: bankruptcy",
         "Topic hit: AI Law",
@@ -478,7 +478,7 @@
         "bankruptcy",
         "enforcement"
       ],
-      "priorityScore": 6.53,
+      "priorityScore": 6.52,
       "priorityReasons": [
         "Channel category: bankruptcy",
         "High engagement: 23 reactions"
