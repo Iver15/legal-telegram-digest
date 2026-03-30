@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Today",
-  "generatedAt": "2026-03-30T08:38:39.415Z",
+  "generatedAt": "2026-03-30T09:59:49.249Z",
   "totalPosts": 4,
   "topPosts": [
     {
@@ -37,7 +37,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 24.27,
+      "priorityScore": 24.1,
       "priorityReasons": [
         "Channel category: arbitration",
         "Topic hit: AI Law",
@@ -72,7 +72,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 19.75,
+      "priorityScore": 19.58,
       "priorityReasons": [
         "Channel category: courts",
         "Topic hit: AI Law",
@@ -105,7 +105,7 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 16.32,
+      "priorityScore": 16.15,
       "priorityReasons": [
         "Channel category: courts",
         "Topic hit: AI Law",
@@ -154,7 +154,7 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 11.43,
+      "priorityScore": 11.26,
       "priorityReasons": [
         "Channel category: compliance",
         "Topic hit: AI Law",
