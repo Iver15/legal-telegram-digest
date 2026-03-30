@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-03-30T21:44:08.161Z",
+  "generatedAt": "2026-03-30T21:55:16.486Z",
   "totalPosts": 238,
   "topPosts": [
     {
@@ -53,13 +53,13 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.43,
+      "priorityScore": 33.41,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "Topic hit: Bankruptcy",
-        "Topic hit: AI Law",
-        "Topic hit: Arbitration",
-        "High engagement: 14 reactions"
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Банкротство",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Арбитраж",
+        "Высокая вовлечённость: 14 реакций"
       ],
       "digestSummary": "Банкротство в корпоративной структуре: контроль, сделки, субсидиарная ответственностьПродолжаем знакомить со спикерами Банкротного дня в рамках Международного налогового форума.Вадим Мартаков, руководитель департамента ф",
       "reactionCount": 14
@@ -113,13 +113,13 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.51,
+      "priorityScore": 30.49,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "Topic hit: Courts",
-        "Topic hit: AI Law",
-        "Topic hit: Bankruptcy",
-        "High engagement: 12 reactions"
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Суды",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Банкротство",
+        "Высокая вовлечённость: 12 реакций"
       ],
       "digestSummary": "Кассация: отказ в оспаривании платежа не снимает с КДЛ бремя доказывания судьбы активаКУ общества «Интерпром» Сергей Лебедев обратился с заявлением о привлечении бывшего гендиректора и единственного участника Евгения Поп",
       "reactionCount": 12
@@ -170,11 +170,11 @@
       ],
       "priorityScore": 29.6,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "Topic hit: Bankruptcy",
-        "Topic hit: AI Law",
-        "Topic hit: Courts",
-        "High engagement: 19 reactions"
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Банкротство",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Суды",
+        "Высокая вовлечённость: 19 реакций"
       ],
       "digestSummary": "Банкротство граждан: итоги 2025 года и что нужно знать должникам в 2026-мИнститут банкротства граждан набирает обороты: только за первый квартал 2025 года количество дел выросло на 34,8%. Растет и интерес к внесудебной п",
       "reactionCount": 19
@@ -221,13 +221,13 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.56,
+      "priorityScore": 29.54,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "Topic hit: Bankruptcy",
-        "Topic hit: Arbitration",
-        "Topic hit: AI Law",
-        "High engagement: 13 reactions"
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Банкротство",
+        "Совпадение по теме: Арбитраж",
+        "Совпадение по теме: AI+Law",
+        "Высокая вовлечённость: 13 реакций"
       ],
       "digestSummary": "Суд округа: умысел управляющего не освобождает страховщика от выплаты возмещенияАрбитражный суд Волгоградской области в апреле 2024 года взыскал с КУ Алексея Здановича 5,7 млн рублей убытков в пользу конкурсной массы общ",
       "reactionCount": 13
@@ -278,11 +278,11 @@
       ],
       "priorityScore": 28.1,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "Topic hit: Bankruptcy",
-        "Topic hit: AI Law",
-        "Topic hit: Courts",
-        "High engagement: 11 reactions"
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Банкротство",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Суды",
+        "Высокая вовлечённость: 11 реакций"
       ],
       "digestSummary": "ВС: управляющий не получает новый срок давности по искам, не связанным с банкротствомОбщество «Богучанский ЛПК» заключило с обществом «Азиатско-Тихоокеанский Банк» договор об открытии кредитной линии на 300 млн рублей в ",
       "reactionCount": 11
@@ -333,11 +333,11 @@
       ],
       "priorityScore": 28,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "Topic hit: Bankruptcy",
-        "Topic hit: AI Law",
-        "Topic hit: Arbitration",
-        "High engagement: 19 reactions"
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Банкротство",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Арбитраж",
+        "Высокая вовлечённость: 19 реакций"
       ],
       "digestSummary": "Банкротство в корпоративной структуре: контроль, сделки, субсидиарная ответственностьПродолжаем знакомить со спикерами Банкротного дня в рамках Международного налогового форума.Размик Бабасян, директор проектов департаме",
       "reactionCount": 19
@@ -387,13 +387,13 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.98,
+      "priorityScore": 26.95,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "Topic hit: Bankruptcy",
-        "Topic hit: Arbitration",
-        "Topic hit: AI Law",
-        "High engagement: 22 reactions"
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Банкротство",
+        "Совпадение по теме: Арбитраж",
+        "Совпадение по теме: AI+Law",
+        "Высокая вовлечённость: 22 реакций"
       ],
       "digestSummary": "АС Москвы отклонил привлечение адвокатов за 83 млн руб. в банкротстве экс-банкира АнаньеваАрбитражный суд Москвы отказал ФУ Дмитрия Ананьева Евгению Веснину в привлечении адвокатского бюро «Белых, Сотников и партнеры» дл",
       "reactionCount": 22
@@ -437,12 +437,12 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 26.81,
+      "priorityScore": 26.79,
       "priorityReasons": [
-        "Channel category: compliance",
-        "Topic hit: AI Law",
-        "Topic hit: Courts",
-        "Topic hit: Arbitration"
+        "Категория канала: compliance",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Суды",
+        "Совпадение по теме: Арбитраж"
       ],
       "digestSummary": "Признание и исполнение - решение китайского суда - СОЮРазмещаю недавний российский судебный акт о частичном признании решения народного суда Шанхая.Интересно, что решение в части взыскания китайского аналога астрента рос",
       "reactionCount": 4
@@ -492,13 +492,13 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.8,
+      "priorityScore": 26.78,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "Topic hit: AI Law",
-        "Topic hit: Arbitration",
-        "Topic hit: Courts",
-        "High engagement: 17 reactions"
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Арбитраж",
+        "Совпадение по теме: Суды",
+        "Высокая вовлечённость: 17 реакций"
       ],
       "digestSummary": "Кассация: внешне безупречные документы не исключают фиктивность сделкиОбщество «Мир дорог» в феврале 2019 года продало автомобиль Land Rover Наталье Федякиной. В апреле 2023 году суд признал общество «Мир дорог» банкрото",
       "reactionCount": 17
@@ -537,12 +537,12 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 26.6,
+      "priorityScore": 26.58,
       "priorityReasons": [
-        "Channel category: compliance",
-        "Topic hit: AI Law",
-        "Topic hit: Courts",
-        "Topic hit: Arbitration"
+        "Категория канала: compliance",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Суды",
+        "Совпадение по теме: Арбитраж"
       ],
       "digestSummary": "Признание и исполнение - решение китайского суда - Признание и исполнение Размещаю недавний российский судебный акт о частичном признании решения народного суда Шанхая.Интересно, что решение в части взыскания китайского ",
       "reactionCount": 2
@@ -595,10 +595,10 @@
       ],
       "priorityScore": 26.2,
       "priorityReasons": [
-        "Channel category: compliance",
-        "Topic hit: AI Law",
-        "Topic hit: Courts",
-        "Topic hit: Arbitration"
+        "Категория канала: compliance",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Суды",
+        "Совпадение по теме: Арбитраж"
       ],
       "digestSummary": "Суд не вправе ограничиваться выводами эксперта при определении действительной стоимости доли без сопоставления их с объективными данными об имуществе общества#корпоративные_споры#действительная_стоимость_долиГалджев А.Ф.",
       "reactionCount": 3
@@ -647,11 +647,11 @@
       ],
       "priorityScore": 25.7,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "Topic hit: Courts",
-        "Topic hit: Bankruptcy",
-        "Topic hit: AI Law",
-        "High engagement: 15 reactions"
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Суды",
+        "Совпадение по теме: Банкротство",
+        "Совпадение по теме: AI+Law",
+        "Высокая вовлечённость: 15 реакций"
       ],
       "digestSummary": "Кассация: управляющий вправе получить проценты, если они включены в план реструктуризации«Примсоцбанк» в октябре 2023 года инициировал банкротство ИП Дениса Селянина. Суд ввел реструктуризацию долгов и утвердил финуправл",
       "reactionCount": 15
@@ -660,37 +660,37 @@
   "topTopics": [
     {
       "id": "courts",
-      "label": "Courts",
+      "label": "Суды",
       "count": 195
     },
     {
       "id": "ai_law",
-      "label": "AI Law",
+      "label": "AI+Law",
       "count": 172
     },
     {
       "id": "bankruptcy",
-      "label": "Bankruptcy",
+      "label": "Банкротство",
       "count": 170
     },
     {
       "id": "arbitration",
-      "label": "Arbitration",
+      "label": "Арбитраж",
       "count": 169
     },
     {
       "id": "enforcement",
-      "label": "Enforcement",
+      "label": "Исполнение",
       "count": 111
     },
     {
       "id": "compliance",
-      "label": "Compliance",
+      "label": "Комплаенс",
       "count": 43
     },
     {
       "id": "tax",
-      "label": "Tax",
+      "label": "Налоги",
       "count": 35
     }
   ],

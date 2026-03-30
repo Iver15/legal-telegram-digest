@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-03-30T21:44:08.160Z",
+  "generatedAt": "2026-03-30T21:55:16.486Z",
   "totalPosts": 13,
   "topPosts": [
     {
@@ -46,12 +46,12 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.24,
+      "priorityScore": 25.22,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "Topic hit: Bankruptcy",
-        "Topic hit: AI Law",
-        "Topic hit: Arbitration"
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Банкротство",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Арбитраж"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС решит, на какую дату определять курс валюты для включения требований в реестрКонкурсный управляющий настаивает, что закон требует применять курс валюты н",
       "reactionCount": 9
@@ -106,13 +106,13 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 17.84,
+      "priorityScore": 17.82,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "Topic hit: Bankruptcy",
-        "Topic hit: AI Law",
-        "Topic hit: Arbitration",
-        "High engagement: 15 reactions"
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Банкротство",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Арбитраж",
+        "Высокая вовлечённость: 15 реакций"
       ],
       "digestSummary": "Индейка курице не конкурент, или Как по ошибке не попасть в монополистыОднажды перед экспертами из группы Veta поставили интересную задачу: выполнить анализ рынка куриного мяса и помочь крупному производителю отбиться от",
       "reactionCount": 15
@@ -147,12 +147,12 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 16.5,
+      "priorityScore": 16.47,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "Topic hit: Bankruptcy",
-        "Topic hit: Tax",
-        "Topic hit: Courts"
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Банкротство",
+        "Совпадение по теме: Налоги",
+        "Совпадение по теме: Суды"
       ],
       "digestSummary": "Обзор практики ВС № 1 за 2026 год: 26 дел с ключевыми выводами по гражданским, налоговым и иным спорам. Разъяснены подходы к собственности, обязательствам, ответственности, банкротству и процессуальным вопросам с акценто",
       "reactionCount": 2
@@ -202,12 +202,12 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 15.62,
+      "priorityScore": 15.6,
       "priorityReasons": [
-        "Channel category: compliance",
-        "Topic hit: AI Law",
-        "Topic hit: Arbitration",
-        "Topic hit: Courts"
+        "Категория канала: compliance",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Арбитраж",
+        "Совпадение по теме: Суды"
       ],
       "digestSummary": "Рассказываем, чем запомнился март, и что нас ждет в апреле в Клубе корпоративных споров в карточках.В этом месяце мы обсудим:📌 3 апреля — «Как продумать карьерный трек и развить навыки для успешной карьеры юриста» с Оль",
       "reactionCount": 4
@@ -238,12 +238,12 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 14.79,
+      "priorityScore": 14.76,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "Topic hit: AI Law",
-        "Topic hit: Courts",
-        "Topic hit: Enforcement"
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Суды",
+        "Совпадение по теме: Исполнение"
       ],
       "digestSummary": "За то, что суд отказал во взыскании судебных расходов 300 т.р. в пользу Кредитора с Должника, Кредитора подал в суд заявление о взыскании с Кредитора 30 т.р. судебных расходов.Ханты-Мансийск 19.11.25г. А75-16344/2019",
       "reactionCount": 0
@@ -274,12 +274,12 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 14.78,
+      "priorityScore": 14.76,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "Topic hit: AI Law",
-        "Topic hit: Courts",
-        "Topic hit: Enforcement"
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Суды",
+        "Совпадение по теме: Исполнение"
       ],
       "digestSummary": "Суд - От кредитора поступило заявление о взыскании с должника 300 т.р. судебных расходов и о переводе долга на его представителя. Отказать на основании следующего:- пропущен 3-х месячный срок;- основания для процессуальн",
       "reactionCount": 0
@@ -308,11 +308,11 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 11.44,
+      "priorityScore": 11.42,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "Topic hit: AI Law",
-        "Topic hit: Courts"
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Суды"
       ],
       "digestSummary": "15ААС - Правовые и фактические основания для удовлетворения ходатайства Кляузника о вступлении в дело в качестве третьего лица с учетом предмета спора отсутствуют. Судебный акт по рассматриваемому делу права или обязанно",
       "reactionCount": 0
@@ -362,11 +362,11 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 9.9,
+      "priorityScore": 9.87,
       "priorityReasons": [
-        "Channel category: compliance",
-        "Topic hit: AI Law",
-        "High engagement: 20 reactions"
+        "Категория канала: compliance",
+        "Совпадение по теме: AI+Law",
+        "Высокая вовлечённость: 20 реакций"
       ],
       "digestSummary": "🇦🇪 🇮🇷 ОАЭ аннулировали ВНЖ всем гражданам Ирана, включая «золотые», сообщает иранское агентство Tasnim, утверждая, что решение принято в одностороннем порядке и без объяснения причин.По данным издания, речь идёт о ма",
       "reactionCount": 20
@@ -404,10 +404,10 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 9.08,
+      "priorityScore": 9.05,
       "priorityReasons": [
-        "Channel category: compliance",
-        "Topic hit: AI Law"
+        "Категория канала: compliance",
+        "Совпадение по теме: AI+Law"
       ],
       "digestSummary": "Воскресное - Договор о правовой помощи Югославия - ИИК сожалению, в открытых источниках не нашлось фотографий с церемонии подписания Договора о правовой помощи СССР - Югославия 1962 г.Пришлось просить нарисовать ИИ и есл",
       "reactionCount": 5
@@ -434,10 +434,10 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 7.1,
+      "priorityScore": 7.07,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "Topic hit: Courts"
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Суды"
       ],
       "digestSummary": "15ААС - Судебная коллегия считает, наказание АУ за одно формальное нарушение является чрезмерным. Предупреждение АУ отменить.Ростов-на-Дону А32-52026/2025 27.03.26г.",
       "reactionCount": 0
@@ -478,10 +478,10 @@
         "bankruptcy",
         "enforcement"
       ],
-      "priorityScore": 6.48,
+      "priorityScore": 6.46,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "High engagement: 23 reactions"
+        "Категория канала: bankruptcy",
+        "Высокая вовлечённость: 23 реакций"
       ],
       "digestSummary": "💥15ААС - Слишком суровое наказание АУ, вызывает озлобленность, формирует правонигилистические взгляды и, как следствие, негативное отношение к публичной власти, стойкое нежелание сотрудничать с ее представителями.(ред. ",
       "reactionCount": 23
@@ -527,10 +527,10 @@
         "bankruptcy",
         "arbitration"
       ],
-      "priorityScore": 6,
+      "priorityScore": 5.98,
       "priorityReasons": [
-        "Channel category: bankruptcy",
-        "High engagement: 26 reactions"
+        "Категория канала: bankruptcy",
+        "Высокая вовлечённость: 26 реакций"
       ],
       "digestSummary": "💥15ААС - Слишком суровое наказание АУ, вызывает озлобленность, формирует правонигилистические взгляды и, как следствие, негативное отношение к публичной власти, стойкое нежелание сотрудничать с ее представителями.(ред. ",
       "reactionCount": 26
@@ -539,37 +539,37 @@
   "topTopics": [
     {
       "id": "bankruptcy",
-      "label": "Bankruptcy",
+      "label": "Банкротство",
       "count": 10
     },
     {
       "id": "arbitration",
-      "label": "Arbitration",
+      "label": "Арбитраж",
       "count": 10
     },
     {
       "id": "courts",
-      "label": "Courts",
+      "label": "Суды",
       "count": 8
     },
     {
       "id": "ai_law",
-      "label": "AI Law",
+      "label": "AI+Law",
       "count": 8
     },
     {
       "id": "enforcement",
-      "label": "Enforcement",
+      "label": "Исполнение",
       "count": 6
     },
     {
       "id": "compliance",
-      "label": "Compliance",
+      "label": "Комплаенс",
       "count": 3
     },
     {
       "id": "tax",
-      "label": "Tax",
+      "label": "Налоги",
       "count": 2
     }
   ],
