@@ -1,0 +1,88 @@
+name: Sync Telegram Channel
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Fetch Telegram channels
+        run: pnpm run fetch
+        env:
+          CHANNEL: ${{ secrets.CHANNEL || 'neuraldeep' }}
+          TELEGRAM_HOST: ${{ secrets.TELEGRAM_HOST || 't.me' }}
+          MAX_PAGES: '3'
+
+      - name: Commit data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "sync: update channel data"
+          git push origin main
+
+      - name: Build static site
+        run: pnpm run build
+        env:
+          CHANNEL: ${{ secrets.CHANNEL || 'neuraldeep' }}
+          LOCALE: ru
+          TIMEZONE: Europe/Moscow
+          REACTIONS: 'true'
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Push to SourceCraft
+        run: |
+          git remote add sourcecraft https://oauth2:${{ secrets.SOURCECRAFT_TOKEN }}@git.sourcecraft.dev/${{ secrets.SOURCECRAFT_REPO }}.git 2>/dev/null || true
+          # Remove heavy pagination to reduce push size
+          rm -rf dist/before dist/after
+          # Add sites config inside dist (subtree won't include .sourcecraft from root)
+          mkdir -p dist/.sourcecraft
+          printf 'site:\n  ref: "master"\n' > dist/.sourcecraft/sites.yaml
+          # Subtree split dist/ into branch
+          git config advice.addIgnoredFile false
+          git add -f dist/
+          git commit -m "temp: sc deploy" --no-verify
+          git subtree split --prefix dist -b sc-deploy
+          git push sourcecraft sc-deploy:master --force
+        continue-on-error: true

@@ -1,0 +1,376 @@
+---
+import Layout from '../layouts/base.astro'
+import Item from '../components/item.astro'
+import {
+  getAllCategories,
+  getAllChannels,
+  getAllPosts,
+  getChannelData,
+  getDigestPayload,
+  getDigestTitle,
+  getSiteMeta,
+  getTopPosts,
+} from '../lib/data'
+
+const site = getSiteMeta()
+const channel = getChannelData()
+channel.title = getDigestTitle()
+channel.description = site.description
+channel.descriptionHTML = `<p>${site.description}</p>`
+channel.avatar = undefined
+
+const allPosts = getAllPosts()
+const posts = channel.posts ?? []
+const categories = getAllCategories().filter((category) => category.count > 0)
+const channels = getAllChannels().filter((item) => item.postCount > 0)
+const topPosts = getTopPosts(5)
+const todayDigest = getDigestPayload('today')
+const weekDigest = getDigestPayload('week')
+const beforeCursor = posts[posts.length - 1]?.id
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
+---
+
+<Layout channel={channel}>
+  <section class="hero-card">
+    <div class="hero-card__copy">
+      <p class="hero-card__eyebrow">Юридический Telegram reader</p>
+      <h1>{site.title}</h1>
+      <p class="hero-card__description">{site.description}</p>
+    </div>
+    <div class="hero-card__stats">
+      <div>
+        <strong>{allPosts.length}</strong>
+        <span>постов в базе</span>
+      </div>
+      <div>
+        <strong>{channels.length}</strong>
+        <span>каналов включено</span>
+      </div>
+      <div>
+        <strong>{todayDigest?.totalPosts || 0}</strong>
+        <span>постов за 24 часа</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="summary-grid">
+    <article class="summary-card">
+      <div class="summary-card__head">
+        <h2>Главное за сегодня</h2>
+        <a href={`${SITE_URL}digests/`}>все дайджесты</a>
+      </div>
+      <p class="summary-card__note">
+        {todayDigest?.totalPosts || 0} постов за последние 24 часа. Сортировка учитывает юридическую релевантность, свежесть
+        и вовлечённость.
+      </p>
+      <div class="summary-pill-row">
+        {
+          (todayDigest?.topTopics || []).slice(0, 4).map((topic) => (
+            <a class="summary-pill" href={`${SITE_URL}search/%23${topic.id}`}>
+              {topic.label} <span>{topic.count}</span>
+            </a>
+          ))
+        }
+      </div>
+      <div class="summary-list">
+        {
+          topPosts.slice(0, 4).map((post) => (
+            <a href={`${SITE_URL}posts/${post.id}`} class="summary-list__item">
+              <span class="badge">@{post.channel}</span>
+              <strong>{post.title || post.digestSummary}</strong>
+              <span>{post.digestSummary}</span>
+            </a>
+          ))
+        }
+      </div>
+    </article>
+
+    <article class="summary-card">
+      <div class="summary-card__head">
+        <h2>Каналы</h2>
+        <a href={`${SITE_URL}compare/`}>сравнить</a>
+      </div>
+      <div class="summary-list">
+        {
+          channels.slice(0, 6).map((item) => (
+            <a href={`${SITE_URL}search/${item.name}`} class="summary-list__item">
+              <strong>@{item.name}</strong>
+              <span>{item.title}</span>
+              <span class="text-dim">
+                {item.category ? `${item.category} · ` : ''}
+                {item.postCount} постов
+              </span>
+            </a>
+          ))
+        }
+      </div>
+    </article>
+  </section>
+
+  <section class="summary-card" style="margin-bottom: 1.25rem;">
+    <div class="summary-card__head">
+      <h2>Фильтры ленты</h2>
+      <span class="text-dim">быстрый отбор по периоду, каналу и теме</span>
+    </div>
+    <div class="filter-row">
+      <button class="filter-btn active" data-period="all" onclick="filterPeriod('all')">All</button>
+      <button class="filter-btn" data-period="24h" onclick="filterPeriod('24h')">24h</button>
+      <button class="filter-btn" data-period="3d" onclick="filterPeriod('3d')">3 дня</button>
+      <button class="filter-btn" data-period="7d" onclick="filterPeriod('7d')">Неделя</button>
+    </div>
+    <div class="filter-row">
+      <button class="channel-btn active" data-channel="all" onclick="filterChannel('all')">Все каналы</button>
+      {
+        channels.slice(0, 8).map((item) => (
+          <button class="channel-btn" data-channel={item.name} onclick={`filterChannel('${item.name}')`}>
+            @{item.name}
+          </button>
+        ))
+      }
+    </div>
+    <div class="filter-row">
+      <button class="topic-btn active" data-topic="all" onclick="filterTopic('all')">Все темы</button>
+      {
+        categories.slice(0, 8).map((category) => (
+          <button class="topic-btn" data-topic={category.id} onclick={`filterTopic('${category.id}')`}>
+            {category.label}
+          </button>
+        ))
+      }
+    </div>
+    <input
+      id="digest-search"
+      type="search"
+      placeholder="Поиск по теме, каналу, статье или кейсу"
+      oninput="filterSearch(this.value)"
+      class="search-input"
+    />
+  </section>
+
+  <section class="summary-grid" style="margin-bottom: 1.25rem;">
+    <article class="summary-card">
+      <div class="summary-card__head">
+        <h2>Темы недели</h2>
+        <span class="text-dim">{weekDigest?.totalPosts || 0} постов</span>
+      </div>
+      <div class="summary-pill-row">
+        {
+          (weekDigest?.topTopics || []).map((topic) => (
+            <a class="summary-pill" href={`${SITE_URL}search/%23${topic.id}`}>
+              {topic.label} <span>{topic.count}</span>
+            </a>
+          ))
+        }
+      </div>
+    </article>
+
+    <article class="summary-card">
+      <div class="summary-card__head">
+        <h2>Активные каналы недели</h2>
+        <span class="text-dim">самые насыщенные источники</span>
+      </div>
+      <div class="summary-list">
+        {
+          (weekDigest?.topChannels || []).map((item) => (
+            <a href={`${SITE_URL}search/${item.channel}`} class="summary-list__item">
+              <strong>@{item.channel}</strong>
+              <span>{item.title}</span>
+              <span class="text-dim">{item.count} постов</span>
+            </a>
+          ))
+        }
+      </div>
+    </article>
+  </section>
+
+  <h2 style="font-size:16px;font-weight:600;margin:0 0 8px;">Лента постов</h2>
+  <ol id="posts-list" class="mt-5 mb-0 ml-7 list-none pl-0 max-sm:ml-0" aria-label="Posts">
+    {
+      posts.map((post) => (
+        <li
+          class="digest-post"
+          data-channel={post.channel || ''}
+          data-datetime={post.datetime}
+          data-text={`${post.text?.toLowerCase().slice(0, 500) || ''} ${(post.tags || []).join(' ').toLowerCase()}`}
+          data-topic={(post.legalTopics || []).join(' ')}
+        >
+          <Item post={post} isItem={false} />
+        </li>
+      ))
+    }
+  </ol>
+
+  <nav style="margin:20px 0;display:flex;justify-content:center;">
+    {
+      beforeCursor && (
+        <a href={`${SITE_URL}before/${beforeCursor}`} class="load-more-link">
+          Ещё посты
+        </a>
+      )
+    }
+  </nav>
+
+  <p id="no-results" style="display:none;text-align:center;color:#999;padding:40px 0;">
+    По текущим фильтрам ничего не найдено.<br />
+    <a href={`${SITE_URL}lite/`} style="color:#666;">Открыть lite-режим для плотного архива</a>
+  </p>
+</Layout>
+
+<style is:global>
+  .hero-card {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: minmax(0, 1.8fr) minmax(240px, 1fr);
+    margin-bottom: 1.25rem;
+    border: 1px solid var(--color-line);
+    border-radius: 18px;
+    padding: 1.1rem;
+    background:
+      radial-gradient(circle at top left, rgba(178, 59, 0, 0.08), transparent 38%),
+      linear-gradient(135deg, var(--color-surface), color-mix(in srgb, var(--color-surface) 78%, var(--color-paper)));
+  }
+  .hero-card__eyebrow {
+    margin: 0 0 0.35rem;
+    color: var(--color-accent);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .hero-card h1 {
+    margin: 0 0 0.45rem;
+    color: var(--color-heading);
+    font-size: clamp(1.65rem, 4vw, 2.3rem);
+    line-height: 1.05;
+  }
+  .hero-card__description {
+    margin: 0;
+    color: var(--color-muted);
+    font-size: 0.98rem;
+    line-height: 1.6;
+  }
+  .hero-card__stats {
+    display: grid;
+    gap: 0.65rem;
+  }
+  .hero-card__stats div {
+    border: 1px solid var(--color-line);
+    border-radius: 14px;
+    padding: 0.8rem 0.95rem;
+    background: color-mix(in srgb, var(--color-surface) 88%, transparent);
+  }
+  .hero-card__stats strong {
+    display: block;
+    color: var(--color-heading);
+    font-size: 1.3rem;
+  }
+  .hero-card__stats span {
+    color: var(--color-muted);
+    font-size: 0.82rem;
+  }
+  .summary-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .summary-card {
+    border: 1px solid var(--color-line);
+    border-radius: 16px;
+    padding: 1rem;
+    background: var(--color-surface);
+  }
+  .summary-card__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+  .summary-card__head h2 {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--color-heading);
+  }
+  .summary-card__note {
+    margin: 0 0 0.9rem;
+    color: var(--color-muted);
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+  .summary-pill-row,
+  .filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-bottom: 0.75rem;
+  }
+  .summary-pill {
+    display: inline-flex;
+    gap: 0.4rem;
+    align-items: center;
+    padding: 0.38rem 0.72rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--color-accent) 10%, var(--color-surface));
+    color: var(--color-heading);
+    font-size: 0.82rem;
+    text-decoration: none;
+  }
+  .summary-pill span {
+    color: var(--color-muted);
+  }
+  .summary-list {
+    display: grid;
+    gap: 0.55rem;
+  }
+  .summary-list__item {
+    display: grid;
+    gap: 0.18rem;
+    padding: 0.75rem;
+    border-radius: 12px;
+    border: 1px solid var(--color-line);
+    text-decoration: none;
+    color: inherit;
+    background: color-mix(in srgb, var(--color-surface) 92%, transparent);
+  }
+  .summary-list__item strong {
+    color: var(--color-heading);
+    font-size: 0.9rem;
+  }
+  .summary-list__item span {
+    color: var(--color-muted);
+    font-size: 0.82rem;
+    line-height: 1.45;
+  }
+  .filter-btn,
+  .channel-btn,
+  .topic-btn,
+  .load-more-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.42rem 0.82rem;
+    border: 1px solid var(--color-line);
+    border-radius: 999px;
+    background: var(--color-surface);
+    color: var(--color-heading);
+    font-size: 0.82rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .filter-btn.active,
+  .channel-btn.active,
+  .topic-btn.active {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: #fff;
+  }
+  @media (max-width: 720px) {
+    .hero-card,
+    .summary-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<script is:inline src={`${import.meta.env.BASE_URL}digest.js`}></script>

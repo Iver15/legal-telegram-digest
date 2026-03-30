@@ -1,0 +1,60 @@
+{
+  "name": "legal-telegram-digest",
+  "type": "module",
+  "version": "0.2.0",
+  "private": true,
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "fetch": "tsx scripts/fetch-channel.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "postinstall": "test -d .git && simple-git-hooks || true"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.17",
+    "@iconify-json/ri": "^1.2.10",
+    "@sentry/astro": "^10.46.0",
+    "astro-icon": "^1.1.5",
+    "cheerio": "1.0.0-rc.12",
+    "dayjs": "^1.11.20",
+    "flourite": "^1.3.0",
+    "lru-cache": "^11.2.7",
+    "ofetch": "^1.5.1",
+    "prismjs": "^1.30.0",
+    "prismjs-components-importer": "^0.2.0",
+    "sanitize-html": "^2.17.2"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^7.7.3",
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/prismjs": "^1.26.6",
+    "astro": "^5.18.1",
+    "astro-eslint-parser": "^1.4.0",
+    "astro-seo": "^1.1.0",
+    "baseline-browser-mapping": "^2.10.10",
+    "eslint": "^9.39.4",
+    "eslint-plugin-astro": "^1.6.0",
+    "eslint-plugin-format": "^2.0.1",
+    "lint-staged": "^16.4.0",
+    "prettier-plugin-astro": "^0.14.1",
+    "simple-git-hooks": "^2.13.1",
+    "tailwindcss": "^4.2.2",
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.3",
+    "web-push": "^3.6.7"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}

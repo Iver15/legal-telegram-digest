@@ -1,0 +1,49 @@
+---
+import type { GetStaticPaths } from 'astro'
+import voidFile from '../../assets/void.png'
+import List from '../../components/list.astro'
+import { getAllPostIds, getChannelData, getPost } from '../../lib/data'
+
+export const getStaticPaths: GetStaticPaths = () => {
+  return getAllPostIds().map((id) => ({ params: { id } }))
+}
+
+const { id } = Astro.params
+const channelInfo = getChannelData()
+const post = getPost(id!)
+
+if (!post) {
+  return Astro.redirect('/')
+}
+
+const channel = {
+  ...(channelInfo || {}),
+  posts: [post],
+  seo: post,
+}
+
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
+const breadcrumbClass = 'mb-5 py-[10px] font-semibold'
+const breadcrumbListClass = 'm-0 flex list-none items-center p-0'
+const breadcrumbLinkClass = 'inline-flex items-center no-underline'
+const breadcrumbAvatarClass = 'block h-5 w-5 rounded-full border-2 border-white object-cover shadow-soft'
+const breadcrumbTitleClass = 'ml-[10px] flex-1 text-[14px] text-heading'
+---
+
+<List channel={channel} before={false} after={false} isItem={true} pageHeading={post.title || channel.title}>
+  <nav slot="header" style="margin-bottom:12px;padding:10px 0;" aria-label="Breadcrumb">
+    <a
+      href={SITE_URL}
+      style="display:inline-flex;align-items:center;gap:6px;text-decoration:none;color:#666;font-size:14px;font-weight:500;"
+    >
+      <span style="font-size:18px;">&larr;</span> Digest
+    </a>
+    {
+      post.channel && (
+        <span style="margin-left:8px;background:#eee;border-radius:4px;padding:2px 8px;font-size:12px;color:#666;">
+          @{post.channel}
+        </span>
+      )
+    }
+  </nav>
+</List>

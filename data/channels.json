@@ -1,0 +1,155 @@
+{
+  "site": {
+    "title": "Yuri's Legal Telegram Digest",
+    "shortTitle": "Yuri Legal Digest",
+    "description": "Multi-channel legal Telegram reader focused on practical updates across courts, arbitration, tax, bankruptcy, compliance, enforcement, and AI law.",
+    "owner": "Yuri"
+  },
+  "categories": [
+    {
+      "id": "bankruptcy",
+      "label": "Bankruptcy",
+      "description": "Insolvency procedure, creditor tactics, restructuring, and bankruptcy practice."
+    },
+    {
+      "id": "arbitration",
+      "label": "Arbitration",
+      "description": "Commercial disputes, arbitrazh procedure, and litigation workflow."
+    },
+    {
+      "id": "tax",
+      "label": "Tax",
+      "description": "Tax disputes, rulings, transfer pricing, and audit risk."
+    },
+    {
+      "id": "courts",
+      "label": "Courts",
+      "description": "Supreme court, cassation, procedure, and court practice updates."
+    },
+    {
+      "id": "enforcement",
+      "label": "Enforcement",
+      "description": "Bailiffs, recovery strategy, freezes, and execution risk."
+    },
+    {
+      "id": "compliance",
+      "label": "Compliance",
+      "description": "Sanctions, AML, anti-corruption, investigations, and controls."
+    },
+    {
+      "id": "ai_law",
+      "label": "AI Law",
+      "description": "AI governance, privacy, digital evidence, and platform regulation."
+    }
+  ],
+  "channels": [
+    {
+      "channel": "pravoinf",
+      "title": "Правовая информация",
+      "category": "courts",
+      "group": "public_sources",
+      "topics": [
+        "courts",
+        "enforcement"
+      ],
+      "priorityBoost": 2
+    },
+    {
+      "channel": "sudpraktik",
+      "title": "Судебная практика",
+      "category": "arbitration",
+      "group": "disputes",
+      "topics": [
+        "courts",
+        "arbitration",
+        "bankruptcy"
+      ],
+      "priorityBoost": 2.5
+    },
+    {
+      "channel": "InternationalTaxNews",
+      "title": "International Tax News",
+      "category": "tax",
+      "group": "regulation",
+      "topics": [
+        "tax",
+        "compliance"
+      ],
+      "priorityBoost": 1.5,
+      "enabled": false
+    },
+    {
+      "channel": "Compliance_Practice",
+      "title": "Compliance Practice",
+      "category": "compliance",
+      "group": "regulation",
+      "topics": [
+        "compliance",
+        "tax",
+        "enforcement"
+      ],
+      "priorityBoost": 2
+    },
+    {
+      "channel": "aiiotlaw",
+      "title": "AI & Law",
+      "category": "ai_law",
+      "group": "emerging_tech",
+      "topics": [
+        "ai_law",
+        "compliance"
+      ],
+      "priorityBoost": 1.5,
+      "enabled": false
+    },
+    {
+      "channel": "yuristi_rf",
+      "title": "Юристы РФ",
+      "category": "bankruptcy",
+      "group": "practical_law",
+      "topics": [
+        "bankruptcy",
+        "courts"
+      ],
+      "priorityBoost": 1,
+      "enabled": false
+    },
+    {
+      "channel": "fsspinfo",
+      "title": "Replace with Yuri's enforcement source",
+      "category": "enforcement",
+      "group": "public_sources",
+      "topics": [
+        "enforcement"
+      ],
+      "priorityBoost": 1.5,
+      "enabled": false
+    },
+    {
+      "channel": "domnin_sa",
+      "title": "Domnin SA",
+      "category": "bankruptcy",
+      "group": "practical_law",
+      "topics": [
+        "bankruptcy",
+        "arbitration",
+        "courts"
+      ],
+      "priorityBoost": 2.2,
+      "enabled": true
+    },
+    {
+      "channel": "Shokobear",
+      "title": "Shokobear",
+      "category": "courts",
+      "group": "practical_law",
+      "topics": [
+        "courts",
+        "arbitration",
+        "enforcement"
+      ],
+      "priorityBoost": 2.0,
+      "enabled": true
+    }
+  ]
+}

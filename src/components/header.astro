@@ -1,0 +1,131 @@
+---
+import { Icon } from 'astro-icon/components'
+import voidFile from '../assets/void.png'
+import { siteTitleStyle } from '../lib/ui'
+
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
+const RSS_URL = `${SITE_URL}rss.xml`
+const { channel } = Astro.props
+
+const TWITTER = import.meta.env.TWITTER
+const GITHUB = import.meta.env.GITHUB
+const TELEGRAM = import.meta.env.TELEGRAM
+const DISCORD = import.meta.env.DISCORD
+const MASTODON = import.meta.env.MASTODON
+const BLUESKY = import.meta.env.BLUESKY
+const hideDescription = import.meta.env.HIDE_DESCRIPTION
+
+const headerMainClass = 'mb-[10px] flex items-center p-[10px] font-semibold max-sm:p-0'
+const avatarClass = 'block h-10 w-10 rounded-full border-[3px] border-white object-cover shadow-soft'
+const titleWrapClass = 'ml-[10px] min-w-0 flex-1 pr-[10px] text-[20px]'
+const titleLinkClass = 'text-heading no-underline hover:text-ink hover:underline'
+const iconNavClass = 'flex items-center gap-[2px]'
+const socialLinkClass = 'group p-1 no-underline'
+const socialIconClass =
+  'h-[1em] w-[1em] align-bottom [filter:var(--icon-secondary-filter)] group-hover:[filter:var(--icon-hover-filter)]'
+const introClass =
+  'mb-5 ml-[3px] break-words rounded-panel border-l-2 border-line bg-code px-5 py-[10px] text-base leading-[1.6] text-muted shadow-soft max-sm:my-5 max-sm:ml-0'
+
+const socialLinks = [
+  {
+    href: RSS_URL,
+    title: 'RSS Feed',
+    label: 'RSS Feed',
+    icon: 'ri:rss-line',
+    rel: 'alternate noopener noreferrer',
+    type: 'application/rss+xml',
+  },
+  TWITTER &&
+    TWITTER.length > 0 && {
+      href: `https://x.com/${TWITTER}`,
+      title: 'Twitter',
+      label: 'Twitter / X',
+      icon: 'ri:twitter-x-line',
+      rel: 'noopener noreferrer',
+    },
+  GITHUB &&
+    GITHUB.length > 0 && {
+      href: `https://github.com/${GITHUB}`,
+      title: 'GitHub',
+      label: 'GitHub',
+      icon: 'ri:github-line',
+      rel: 'noopener noreferrer',
+    },
+  TELEGRAM &&
+    TELEGRAM.length > 0 && {
+      href: `https://t.me/${TELEGRAM}`,
+      title: 'Telegram',
+      label: 'Telegram',
+      icon: 'ri:telegram-line',
+      rel: 'noopener noreferrer',
+    },
+  DISCORD &&
+    DISCORD.length > 0 && {
+      href: DISCORD,
+      title: 'Discord',
+      label: 'Discord',
+      icon: 'ri:discord-line',
+      rel: 'noopener noreferrer',
+    },
+  MASTODON &&
+    MASTODON.length > 0 && {
+      href: `https://${MASTODON}`,
+      title: 'Mastodon',
+      label: 'Mastodon',
+      icon: 'ri:mastodon-line',
+      rel: 'noopener noreferrer',
+    },
+  BLUESKY &&
+    BLUESKY.length > 0 && {
+      href: `https://bsky.app/profile/${BLUESKY}`,
+      title: 'BlueSky',
+      label: 'Bluesky',
+      icon: 'ri:bluesky-line',
+      rel: 'noopener noreferrer',
+    },
+].filter(Boolean)
+---
+
+<header>
+  <div class={headerMainClass}>
+    <a href={SITE_URL} title={channel?.title}>
+      <img
+        src={channel?.avatar?.startsWith('http') ? channel?.avatar : voidFile.src}
+        alt={channel?.title}
+        loading="eager"
+        fetchpriority="high"
+        width="40"
+        height="40"
+        class={avatarClass}
+      />
+    </a>
+    <div class={titleWrapClass}>
+      <a href={SITE_URL} class={titleLinkClass} style={siteTitleStyle} title={channel?.title}>
+        {channel?.title}
+      </a>
+    </div>
+    <nav class={iconNavClass} aria-label="Channel links">
+      {
+        socialLinks.map((item) => (
+          <a
+            href={item.href}
+            title={item.title}
+            target="_blank"
+            rel={item.rel}
+            type={item.type}
+            aria-label={item.label}
+            class={socialLinkClass}
+          >
+            <Icon name={item.icon} class={socialIconClass} aria-hidden="true" />
+          </a>
+        ))
+      }
+    </nav>
+  </div>
+</header>
+
+{
+  hideDescription !== 'true' && channel?.descriptionHTML && channel?.descriptionHTML.length > 0 && (
+    <div class:list={[introClass, 'content']} set:html={channel?.descriptionHTML} />
+  )
+}

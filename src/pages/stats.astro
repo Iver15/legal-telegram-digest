@@ -1,0 +1,146 @@
+---
+import Layout from '../layouts/base.astro'
+import { getAllCategories, getAllChannels, getAllPosts, getChannelData, getDigestTitle } from '../lib/data'
+
+const allPosts = getAllPosts()
+const channels = getAllChannels().filter((channel) => channel.postCount > 0)
+const categories = getAllCategories().filter((category) => category.count > 0)
+const channel = getChannelData()
+channel.title = `${getDigestTitle()} - Stats`
+channel.description = 'Coverage stats for the enabled legal channels.'
+channel.descriptionHTML = null
+channel.avatar = undefined
+channel.seo = { title: 'Stats' }
+
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
+const maxChannelPosts = Math.max(...channels.map((item) => item.postCount), 1)
+const maxCategoryCount = Math.max(...categories.map((item) => item.count), 1)
+---
+
+<Layout channel={channel}>
+  <div style="margin-bottom:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+    <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Coverage stats</h1>
+    <div style="display:flex;gap:4px;margin-left:auto;">
+      <a href={SITE_URL} class="nav-pill">Home</a>
+      <a href={`${SITE_URL}digests/`} class="nav-pill">Digests</a>
+      <a href={`${SITE_URL}compare/`} class="nav-pill">Compare</a>
+    </div>
+  </div>
+
+  <div class="stats-grid">
+    <article class="stats-box">
+      <strong>{allPosts.length}</strong>
+      <span>Total posts</span>
+    </article>
+    <article class="stats-box">
+      <strong>{channels.length}</strong>
+      <span>Active channels</span>
+    </article>
+    <article class="stats-box">
+      <strong>{categories.length}</strong>
+      <span>Covered categories</span>
+    </article>
+  </div>
+
+  <section class="stats-section">
+    <h2>Posts per channel</h2>
+    {
+      channels.map((item) => (
+        <div class="stats-bar-row">
+          <span>@{item.name}</span>
+          <div class="stats-bar-track">
+            <div class="stats-bar-fill" style={`width:${Math.round((item.postCount / maxChannelPosts) * 100)}%;`} />
+          </div>
+          <strong>{item.postCount}</strong>
+        </div>
+      ))
+    }
+  </section>
+
+  <section class="stats-section">
+    <h2>Posts per legal topic</h2>
+    {
+      categories.map((item) => (
+        <div class="stats-bar-row">
+          <span>{item.label}</span>
+          <div class="stats-bar-track">
+            <div class="stats-bar-fill" style={`width:${Math.round((item.count / maxCategoryCount) * 100)}%;`} />
+          </div>
+          <strong>{item.count}</strong>
+        </div>
+      ))
+    }
+  </section>
+</Layout>
+
+<style>
+  .stats-grid {
+    display: grid;
+    gap: 0.9rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-bottom: 1.25rem;
+  }
+  .stats-box,
+  .stats-section {
+    border: 1px solid var(--color-line);
+    border-radius: 16px;
+    background: var(--color-surface);
+    padding: 1rem;
+  }
+  .stats-box strong {
+    display: block;
+    font-size: 1.45rem;
+    color: var(--color-heading);
+  }
+  .stats-box span {
+    color: var(--color-muted);
+    font-size: 0.82rem;
+  }
+  .stats-section {
+    margin-bottom: 1rem;
+  }
+  .stats-section h2 {
+    margin: 0 0 0.8rem;
+    font-size: 1rem;
+    color: var(--color-heading);
+  }
+  .stats-bar-row {
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: minmax(120px, 180px) minmax(0, 1fr) 48px;
+    align-items: center;
+    margin-bottom: 0.55rem;
+    font-size: 0.9rem;
+  }
+  .stats-bar-row span {
+    color: var(--color-muted);
+  }
+  .stats-bar-row strong {
+    color: var(--color-heading);
+    font-size: 0.84rem;
+    text-align: right;
+  }
+  .stats-bar-track {
+    height: 12px;
+    background: var(--color-line);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .stats-bar-fill {
+    height: 100%;
+    min-width: 4px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--color-accent), color-mix(in srgb, var(--color-accent) 60%, #f3c2ad));
+  }
+  @media (max-width: 720px) {
+    .stats-grid {
+      grid-template-columns: 1fr;
+    }
+    .stats-bar-row {
+      grid-template-columns: 1fr;
+    }
+    .stats-bar-row strong {
+      text-align: left;
+    }
+  }
+</style>

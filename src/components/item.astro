@@ -1,0 +1,140 @@
+---
+import dayjs from '../lib/dayjs'
+
+const locale = import.meta.env.LOCALE || 'ru'
+const timezone = import.meta.env.TIMEZONE || 'Europe/Moscow'
+
+locale && dayjs.locale(locale)
+
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
+const { post, isItem } = Astro.props
+
+const channel = import.meta.env.CHANNEL || 'neuraldeep'
+const postNumericId = post.id.includes('/') ? post.id.split('/').pop() : post.id
+const tgChannel = post.channel || channel
+const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
+const COMMENTS = import.meta.env.COMMENTS
+const REACTIONS = import.meta.env.REACTIONS || 'true'
+
+const datetime = dayjs(post.datetime).tz(timezone)
+const timeago = datetime.isBefore(dayjs().subtract(1, 'w')) ? datetime.format('HH:mm · ll · ddd') : datetime.fromNow()
+const hasContent = post.content.length > 0
+const hasReactions = Boolean(REACTIONS && post.reactions?.length > 0)
+const hasTags = post.tags.length > 0
+const legalTopics = post.legalTopics || []
+const priorityScore = post.priorityScore || 0
+const summary = post.digestSummary || post.text?.slice(0, 180) || ''
+---
+
+<article class="post-card transition duration-200" style={{ 'view-transition-name': `post-${post.id}` }}>
+  <header class="post-card__header">
+    <div>
+      <div class="flex flex-wrap items-center gap-2 text-[12px] text-dim">
+        {post.channelTitle && <span class="badge">@{post.channel}</span>}
+        <span>{timeago}</span>
+        {post.category && <span class="badge">{post.category}</span>}
+      </div>
+      <h2 class="post-card__title">
+        <a
+          href={`${SITE_URL}posts/${post.id}`}
+          title={post.datetime}
+          class="text-heading no-underline hover:no-underline"
+        >
+          {post.title || summary || `Пост @${post.channel}`}
+        </a>
+      </h2>
+    </div>
+    <a
+      href={tgLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Open in Telegram"
+      class="post-card__telegram badge"
+    >
+      Telegram
+    </a>
+  </header>
+
+  {
+    (post.category || legalTopics.length > 0 || priorityScore > 0) && (
+      <div class="post-card__meta">
+        {legalTopics.slice(0, 4).map((topic) => (
+          <span class="badge">#{topic}</span>
+        ))}
+        {priorityScore > 0 && <span class="badge">priority {priorityScore.toFixed(1)}</span>}
+      </div>
+    )
+  }
+
+  {
+    hasContent ? (
+      <div
+        class:list={['post-card__body content', !hasReactions && !hasTags && !COMMENTS && 'pb-6']}
+        set:html={post.content}
+      />
+    ) : (
+      <div class="post-card__body pt-3 text-[15px] leading-[1.7] text-dim">{summary}</div>
+    )
+  }
+
+  {
+    hasReactions && (
+      <div class="post-card__footer pt-0">
+        {post.reactions.map((reaction) => (
+          <span
+            class:list={[
+              'inline-flex items-center gap-1 rounded-full border border-line bg-code px-2.5 py-1 text-[12px] text-muted',
+              reaction.isPaid && 'border-[rgba(255,196,0,0.35)] bg-[rgba(255,196,0,0.12)] text-[#9a6a00]',
+            ]}
+          >
+            <span class="inline-flex items-center text-[14px] leading-none">
+              {reaction.isPaid ? (
+                '\u2B50'
+              ) : reaction.emojiImage ? (
+                <img
+                  src={reaction.emojiImage}
+                  alt={reaction.emoji || 'emoji'}
+                  loading="lazy"
+                  width="20"
+                  height="20"
+                  class="block h-[1em] w-[1em]"
+                />
+              ) : (
+                reaction.emoji
+              )}
+            </span>
+            <span class="font-medium opacity-80 [font-variant-numeric:tabular-nums]">{reaction.count}</span>
+          </span>
+        ))}
+      </div>
+    )
+  }
+
+  {
+    hasTags && (
+      <footer class="post-card__footer pt-0">
+        {post.tags.map((tag) => (
+          <a href={`${SITE_URL}search/%23${tag}`} title={tag} class="badge hover:no-underline">
+            {tag}
+          </a>
+        ))}
+      </footer>
+    )
+  }
+
+  {
+    COMMENTS && isItem && (
+      <section class="post-card__body pt-0" aria-label="Comments">
+        <script
+          is:inline
+          async
+          src="https://telegram.org/js/telegram-widget.js"
+          data-telegram-discussion={`${channel}/${post.id}`}
+          data-comments-limit="50"
+          data-colorful="1"
+          data-color="454545"
+        />
+      </section>
+    )
+  }
+</article>

@@ -1,0 +1,17 @@
+---
+import type { GetStaticPaths } from 'astro'
+import List from '../../components/list.astro'
+import { getAllPostIds, getChannelData } from '../../lib/data'
+
+export const getStaticPaths: GetStaticPaths = () => {
+  return getAllPostIds().map((id) => ({ params: { cursor: id } }))
+}
+
+const channel = getChannelData({ after: Astro.params.cursor })
+
+channel.seo = {
+  noindex: true,
+}
+---
+
+<List channel={channel} pageHeading={channel.title} />

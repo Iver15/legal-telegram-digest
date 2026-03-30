@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/base.astro'
+import Header from '../components/header.astro'
+import TagCloudSection from '../components/TagCloudSection.astro'
+import { getAllTags, getChannelData } from '../lib/data'
+
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
+
+const channel = getChannelData()
+
+channel.seo = {
+  title: 'Tags',
+}
+
+const tags = getAllTags()
+const items = tags.map((tag) => ({
+  href: `${SITE_URL}search/%23${tag}`,
+  label: tag,
+}))
+---
+
+<Layout channel={channel}>
+  <Header channel={channel} />
+  <TagCloudSection title="Tags" items={items} />
+</Layout>

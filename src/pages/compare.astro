@@ -1,0 +1,101 @@
+---
+import Layout from '../layouts/base.astro'
+import { getAllChannels, getAllPosts, getChannelData, getDigestTitle } from '../lib/data'
+
+const channels = getAllChannels().filter((channel) => channel.postCount > 0)
+const posts = getAllPosts()
+const channel = getChannelData()
+channel.title = `${getDigestTitle()} - Compare`
+channel.description = 'Channel comparison by volume and weighted legal priority.'
+channel.descriptionHTML = null
+channel.avatar = undefined
+channel.seo = { title: 'Compare' }
+
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
+const rows = channels.map((item) => {
+  const channelPosts = posts.filter((post) => post.channel === item.name)
+  const totalPriority = channelPosts.reduce((sum, post) => sum + (post.priorityScore || 0), 0)
+  const averagePriority = channelPosts.length > 0 ? totalPriority / channelPosts.length : 0
+  const lastPostAt = channelPosts[0]?.datetime
+
+  return {
+    ...item,
+    totalPriority: totalPriority.toFixed(1),
+    averagePriority: averagePriority.toFixed(2),
+    lastPostAt,
+  }
+})
+---
+
+<Layout channel={channel}>
+  <div style="margin-bottom:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+    <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Channel comparison</h1>
+    <div style="display:flex;gap:4px;margin-left:auto;">
+      <a href={SITE_URL} class="nav-pill">Home</a>
+      <a href={`${SITE_URL}digests/`} class="nav-pill">Digests</a>
+      <a href={`${SITE_URL}stats/`} class="nav-pill">Stats</a>
+    </div>
+  </div>
+  <p class="text-dim" style="font-size:14px;margin:0 0 12px;">
+    Pragmatic comparison of active sources: volume, category fit, and weighted legal priority.
+  </p>
+
+  <div class="compare-table-wrap">
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>Channel</th>
+          <th>Category</th>
+          <th>Posts</th>
+          <th>Total priority</th>
+          <th>Avg priority</th>
+          <th>Latest</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          rows.map((row) => (
+            <tr>
+              <td>
+                <a href={`${SITE_URL}search/${row.name}`}>@{row.name}</a>
+              </td>
+              <td>{row.category || 'general'}</td>
+              <td>{row.postCount}</td>
+              <td>{row.totalPriority}</td>
+              <td>{row.averagePriority}</td>
+              <td>{row.lastPostAt ? new Date(row.lastPostAt).toLocaleDateString('ru-RU') : 'n/a'}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+</Layout>
+
+<style>
+  .compare-table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--color-line);
+    border-radius: 16px;
+    background: var(--color-surface);
+  }
+  .compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 640px;
+  }
+  .compare-table th,
+  .compare-table td {
+    padding: 0.85rem 0.95rem;
+    text-align: left;
+    border-bottom: 1px solid var(--color-line);
+    font-size: 0.92rem;
+  }
+  .compare-table th {
+    color: var(--color-muted);
+    font-weight: 600;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+</style>

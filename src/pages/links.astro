@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/base.astro'
+import Header from '../components/header.astro'
+import TagCloudSection from '../components/TagCloudSection.astro'
+import { getChannelData } from '../lib/data'
+
+const channel = getChannelData()
+
+channel.seo = {
+  title: 'Links',
+}
+
+const links = (import.meta.env.LINKS || '')
+  .split(';')
+  .filter(Boolean)
+  .map((link) => {
+    const parts = link.split(',')
+    return {
+      title: parts[0],
+      href: parts[1],
+    }
+  })
+
+if (!links.length) {
+  return Astro.redirect('/')
+}
+
+const items = links.map((link) => ({
+  href: link.href,
+  label: link.title,
+  title: link.title,
+  external: true,
+}))
+---
+
+<Layout channel={channel}>
+  <Header channel={channel} />
+  <TagCloudSection title="Links" items={items} />
+</Layout>

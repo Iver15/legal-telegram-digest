@@ -1,0 +1,305 @@
+---
+import '../styles/app.css'
+import { SEO } from 'astro-seo'
+import backToTopIcon from '../assets/back-to-top.svg'
+import type { NavItem } from '../types'
+import { getSiteMeta } from '../lib/data'
+
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
+const RSS_URL = `${SITE_URL}rss.xml`
+const { channel } = Astro.props
+const siteMeta = getSiteMeta()
+
+const locale = import.meta.env.LOCALE || 'ru'
+const seo = channel?.seo
+
+function normalizePathname(pathname: string): string {
+  return pathname.replace(/\/$/, '') || '/'
+}
+
+const absoluteSiteUrl = SITE_URL.startsWith('http') ? SITE_URL : new URL(SITE_URL, Astro.url.origin).toString()
+const canonicalUrl = new URL(Astro.url.pathname, absoluteSiteUrl)
+const siteRootPathname = normalizePathname(new URL(absoluteSiteUrl).pathname)
+const canonical =
+  normalizePathname(canonicalUrl.pathname) === siteRootPathname
+    ? canonicalUrl.toString()
+    : canonicalUrl.toString().replace(/\/$/, '')
+
+const { pathname } = new URL(canonical)
+const currentPathname = normalizePathname(pathname)
+const twitter = import.meta.env.TWITTER
+const pageTitle = seo?.title?.trim()
+const siteTitle = channel?.title ?? ''
+const seoDescription = seo?.text ?? channel?.description
+const shareImage = channel?.avatar
+  ? `https://wsrv.nl/?w=1200&h=630&fit=cover&url=ssl:${channel.avatar.replace(/^https?:\/\//, '')}`
+  : new URL('favicon.ico', absoluteSiteUrl).toString()
+const favicon = channel?.avatar
+  ? `https://wsrv.nl/?w=64&h=64&fit=cover&mask=circle&url=ssl:${channel.avatar.replace(/^https?:\/\//, '')}`
+  : new URL('favicon.svg', absoluteSiteUrl).toString()
+const hasCustomTitle = Boolean(pageTitle && pageTitle !== siteTitle)
+const isArticle = /\/posts\/[^/]+$/.test(pathname)
+const tagsPathname = normalizePathname(new URL('tags', absoluteSiteUrl).pathname)
+const linksPathname = normalizePathname(new URL('links', absoluteSiteUrl).pathname)
+const hotPathname = normalizePathname(new URL('hot', absoluteSiteUrl).pathname)
+const statsPathname = normalizePathname(new URL('stats', absoluteSiteUrl).pathname)
+const comparePathname = normalizePathname(new URL('compare', absoluteSiteUrl).pathname)
+const digestsPathname = normalizePathname(new URL('digests', absoluteSiteUrl).pathname)
+
+const seoParams = {
+  title: pageTitle,
+  description: seoDescription,
+  canonical,
+  noindex: seo?.noindex ?? import.meta.env.NOINDEX,
+  nofollow: seo?.nofollow ?? import.meta.env.NOFOLLOW,
+  openGraph: {
+    basic: {
+      type: isArticle ? 'article' : 'website',
+      title: pageTitle ?? siteTitle,
+      url: canonical,
+      image: shareImage,
+    },
+    optional: {
+      description: seoDescription,
+      locale,
+    },
+  },
+  extend: {
+    link: [
+      { rel: 'icon', href: favicon },
+      { rel: 'apple-touch-icon', href: `${SITE_URL}favicon.ico` },
+      { rel: 'manifest', href: `${SITE_URL}manifest.json` },
+    ],
+  },
+}
+
+const TAGS = import.meta.env.TAGS
+const LINKS = import.meta.env.LINKS
+const HEADER_INJECT = import.meta.env.HEADER_INJECT
+const FOOTER_INJECT = import.meta.env.FOOTER_INJECT
+const navs: NavItem[] = (import.meta.env.NAVS || '')
+  .split(';')
+  .filter(Boolean)
+  .map((link: string) => {
+    const [title = '', href = ''] = link.split(',')
+    return { title, href }
+  })
+
+const PUSH_SERVER_URL = import.meta.env.PUSH_SERVER_URL || ''
+const VAPID_PUBLIC_KEY = import.meta.env.VAPID_PUBLIC_KEY || ''
+
+const layoutShellClass = 'px-4 py-4 sm:px-6 sm:py-6'
+const layoutGridClass =
+  'reader-shell-card mx-auto grid w-full max-w-[1320px] grid-cols-1 gap-6 p-4 lg:grid-cols-[280px_minmax(0,1fr)] lg:p-6'
+const mainPanelClass = 'w-full min-w-0 pb-4 lg:pb-8'
+const asidePanelClass = 'w-full min-w-0 lg:sticky lg:top-6 lg:self-start'
+const asideInnerClass = 'relative overflow-y-visible lg:max-h-[calc(100svh-3rem)] lg:overflow-y-auto lg:pr-1'
+const navListClass = 'm-0 flex list-none flex-wrap gap-2 pl-0 lg:block'
+const navItemClass = 'flex items-center text-[14px] leading-none lg:mb-2 lg:text-[15px] lg:leading-normal'
+const navLinkClass =
+  'sidebar-nav-link flex-1 inline-flex items-center rounded-[14px] border border-line px-3 py-2 text-heading no-underline transition-[background-color,box-shadow,border-color] duration-150 ease-in-out hover:no-underline hover:shadow-soft'
+const navLinkCurrentClass = 'sidebar-nav-active shadow-soft'
+const skipLinkClass =
+  'pointer-events-none absolute left-5 top-0 z-[1100] -translate-y-full rounded-panel bg-heading px-3 py-2 text-sm text-white no-underline transition-transform duration-150 focus-visible:pointer-events-auto focus-visible:translate-y-5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-heading'
+const searchFormClass = 'mt-3 rounded-[18px] border border-line bg-code/80 p-2 text-muted backdrop-blur'
+const searchInputClass =
+  'box-border w-full rounded-[14px] border border-transparent bg-transparent px-3 py-2 text-[15px] leading-[1.6] text-muted outline-none placeholder:text-muted focus-visible:border-heading focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 focus-visible:outline-heading lg:text-[13px]'
+const footerClass = 'hidden p-2 text-[13px] leading-[1.6] text-footer lg:block'
+const backToTopClass =
+  'pointer-events-auto z-[1000] flex h-10 w-10 items-center justify-center rounded-full border border-line bg-code/95 text-[24px] opacity-90 shadow-soft backdrop-blur transition-transform duration-300 hover:-translate-y-[3px] active:translate-y-px'
+const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
+---
+
+<!doctype html>
+<html lang={locale ?? 'en'} data-push-url={PUSH_SERVER_URL} data-vapid-key={VAPID_PUBLIC_KEY}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f1ec" />
+    <link rel="alternate" type="application/rss+xml" title={channel?.title} href={RSS_URL} />
+    <SEO
+      titleTemplate={hasCustomTitle ? `%s | ${siteTitle}` : undefined}
+      titleDefault={siteTitle || seoParams.description}
+      twitter={{
+        card: 'summary_large_image',
+        creator: twitter ? `@${twitter}` : undefined,
+      }}
+      {...seoParams}
+    />
+    <Fragment set:html={HEADER_INJECT} />
+    <script is:inline src={`${import.meta.env.BASE_URL ?? '/'}theme.js`}></script>
+  </head>
+
+  <body>
+    <a href="#main-content" class={skipLinkClass}>Skip to main content</a>
+    <main id="main-content" class={layoutShellClass}>
+      <div class={layoutGridClass}>
+        <div class={mainPanelClass}>
+          <slot />
+        </div>
+        <aside class={asidePanelClass}>
+          <slot name="aside">
+            <div class={asideInnerClass}>
+              <section class="brand-card">
+                <p class="brand-card__eyebrow">Legal reader</p>
+                <h1 class="brand-card__title">{siteMeta.shortTitle || siteMeta.title}</h1>
+                <p class="brand-card__description">{siteMeta.description}</p>
+                <div class="brand-card__meta">
+                  <span class="badge">public channels</span>
+                  <span class="badge">legal digest</span>
+                  <span class="badge">mobile reader</span>
+                </div>
+              </section>
+              <nav aria-label="Primary navigation">
+                <ul class={navListClass}>
+                  <li class={navItemClass}>
+                    <a
+                      href={SITE_URL}
+                      title={channel?.title}
+                      class:list={[navLinkClass, currentPathname === siteRootPathname && navLinkCurrentClass]}
+                    >
+                      Лента
+                    </a>
+                  </li>
+                  {
+                    TAGS ? (
+                      <li class={navItemClass}>
+                        <a
+                          href={`${SITE_URL}tags`}
+                          title="Tags"
+                          class:list={[navLinkClass, currentPathname === tagsPathname && navLinkCurrentClass]}
+                        >
+                          Tags
+                        </a>
+                      </li>
+                    ) : null
+                  }
+                  {
+                    LINKS ? (
+                      <li class={navItemClass}>
+                        <a
+                          href={`${SITE_URL}links`}
+                          title="Links"
+                          class:list={[navLinkClass, currentPathname === linksPathname && navLinkCurrentClass]}
+                        >
+                          Ссылки
+                        </a>
+                      </li>
+                    ) : null
+                  }
+                  <li class={navItemClass}>
+                    <a
+                      href={`${SITE_URL}digests/`}
+                      title="Digests"
+                      class:list={[navLinkClass, currentPathname === digestsPathname && navLinkCurrentClass]}
+                    >
+                      Дайджесты
+                    </a>
+                  </li>
+                  <li class={navItemClass}>
+                    <a
+                      href={`${SITE_URL}hot/`}
+                      title="Hot"
+                      class:list={[navLinkClass, currentPathname === hotPathname && navLinkCurrentClass]}
+                    >
+                      Главное
+                    </a>
+                  </li>
+                  <li class={navItemClass}>
+                    <a
+                      href={`${SITE_URL}compare/`}
+                      title="Compare"
+                      class:list={[navLinkClass, currentPathname === comparePathname && navLinkCurrentClass]}
+                    >
+                      Сравнить
+                    </a>
+                  </li>
+                  <li class={navItemClass}>
+                    <a
+                      href={`${SITE_URL}stats/`}
+                      title="Stats"
+                      class:list={[navLinkClass, currentPathname === statsPathname && navLinkCurrentClass]}
+                    >
+                      Статистика
+                    </a>
+                  </li>
+                  {
+                    navs.map((nav) => (
+                      <li class={navItemClass}>
+                        <a
+                          href={nav.href}
+                          title={nav.title}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class={navLinkClass}
+                        >
+                          {nav.title}
+                        </a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </nav>
+
+              <form class={searchFormClass} action={`${SITE_URL}search/result`} method="get" role="search">
+                <label class="sr-only" for="search-query">Поиск</label>
+                <input
+                  id="search-query"
+                  class={searchInputClass}
+                  type="search"
+                  name="q"
+                  placeholder="Поиск по каналу, теме или ключевому слову"
+                  autocomplete="off"
+                  inputmode="search"
+                  spellcheck={false}
+                />
+              </form>
+
+              <footer class={footerClass}>
+                Основано на
+                <a
+                  href="https://github.com/miantiao-me/BroadcastChannel"
+                  title="BroadcastChannel"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  BroadcastChannel
+                </a>
+                и адаптировано под {siteMeta.owner || 'Yuri'}.
+              </footer>
+            </div>
+          </slot>
+        </aside>
+      </div>
+      <div id="back-to-top-wrapper">
+        <a href="#main-content" id="back-to-top" class={backToTopClass} aria-label="Наверх">
+          <img {...backToTopIcon} class={backToTopIconClass} alt="" />
+        </a>
+      </div>
+    </main>
+    <Fragment set:html={FOOTER_INJECT} />
+
+    <script is:inline src={`${import.meta.env.BASE_URL}pwa.js`}></script>
+    <div
+      id="install-banner"
+      style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:1100;background:#1a1a2e;color:#fff;padding:16px 20px;align-items:center;gap:12px;box-shadow:0 -4px 20px rgba(0,0,0,0.3);font-family:system-ui,sans-serif;"
+    >
+      <div style="flex:1;min-width:0;">
+        <div style="font-weight:600;font-size:15px;">{siteMeta.shortTitle || siteMeta.title}</div>
+        <div style="font-size:13px;opacity:0.8;margin-top:2px;">
+          Установите reader как приложение для быстрого чтения и офлайн-доступа
+        </div>
+      </div>
+      <button
+        onclick="installApp()"
+        style="background:#6c63ff;color:#fff;border:none;padding:8px 20px;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap;"
+        >Установить</button
+      >
+      <button
+        onclick="dismissInstall()"
+        style="background:none;border:none;color:#999;font-size:20px;cursor:pointer;padding:4px 8px;"
+        aria-label="Close">&times;</button
+      >
+    </div>
+  </body>
+</html>
