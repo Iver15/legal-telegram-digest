@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-03-31T10:39:41.418Z",
-  "totalPosts": 32,
+  "generatedAt": "2026-03-31T10:58:32.204Z",
+  "totalPosts": 33,
   "topPosts": [
     {
       "id": "probankrotstvoru/9478",
@@ -47,7 +47,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.26,
+      "priorityScore": 31.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -95,7 +95,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1360,
+      "viewCount": 1370,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -106,19 +106,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 29.33,
+      "priorityScore": 29.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 1360 просмотров",
+        "Охват в Telegram Web: 1370 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: внешне безупречные документы не исключают фиктивность сделкиОбщество «Мир дорог» в феврале 2019 года продало автомобиль Land Rover Наталье Федякиной. В апреле 2023 году суд признал общество «Мир дорог» банкрото",
       "reactionCount": 18,
-      "engagementRate": 0.013235294117647059
+      "engagementRate": 0.013138686131386862
     },
     {
       "id": "disputesandsanctions/2406",
@@ -160,7 +160,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.79,
+      "priorityScore": 28.75,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -208,7 +208,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.12,
+      "priorityScore": 28.08,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -252,7 +252,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2110,
+      "viewCount": 2120,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -264,18 +264,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.41,
+      "priorityScore": 27.37,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 2110 просмотров"
+        "Охват в Telegram Web: 2120 просмотров"
       ],
       "digestSummary": "КС не нашел неопределенности в статье о преднамеренном банкротствеКонституционный Суд отказался принять к рассмотрению жалобу Асланбия Нагоя на ст. 196 Уголовного кодекса РФ о преднамеренном банкротстве. Заявитель был ос",
       "reactionCount": 17,
-      "engagementRate": 0.008056872037914692
+      "engagementRate": 0.008018867924528302
     },
     {
       "id": "corplawpro/5847",
@@ -315,7 +315,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 26.08,
+      "priorityScore": 26.05,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -342,7 +342,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "174",
+          "count": "175",
           "isPaid": false
         },
         {
@@ -376,19 +376,19 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 25.97,
+      "priorityScore": 25.94,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 215 реакций",
+        "Высокая вовлечённость: 216 реакций",
         "Охват в Telegram Web: 15300 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "ВС РФ рассмотрел жалобу жительницы Ростовской области о признании договора купли-продажи автомобиля недействительным и об истребовании транспортного средства из чужого незаконного владения. Заявительница указала, что не ",
-      "reactionCount": 215,
-      "engagementRate": 0.014052287581699347
+      "reactionCount": 216,
+      "engagementRate": 0.01411764705882353
     },
     {
       "id": "shapovalovagroup/1259",
@@ -416,7 +416,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 480,
+      "viewCount": 482,
       "channel": "shapovalovagroup",
       "channelTitle": "Защита арбитражных управляющих",
       "category": "arbitration",
@@ -428,18 +428,18 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 25.02,
+      "priorityScore": 24.98,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 480 просмотров",
+        "Охват в Telegram Web: 482 просмотров",
         "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "Суд может исключить из конкурсной массы прожиточный минимум на супругу должника,если она в декрете На иждивении у должника находятся супруга и двое несовершеннолетних детей,второму ребенку нет 3 лет. Должник обратился с ",
       "reactionCount": 8,
-      "engagementRate": 0.016666666666666666
+      "engagementRate": 0.016597510373443983
     },
     {
       "id": "sudpraktik/3479",
@@ -468,7 +468,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2870,
+      "viewCount": 2880,
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
       "category": "arbitration",
@@ -480,17 +480,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 24.21,
+      "priorityScore": 24.17,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 2870 просмотров"
+        "Охват в Telegram Web: 2880 просмотров"
       ],
       "digestSummary": "По смыслу положений статей 711, 720 ГК РФ, обязанность заказчика по оплате работ наступает после сдачи ему результата работ Суть требования: о взыскании неотработанного аванса, неустойки по договору субподряда. Решение с",
       "reactionCount": 10,
-      "engagementRate": 0.003484320557491289
+      "engagementRate": 0.003472222222222222
     },
     {
       "id": "corplawpro/5848",
@@ -527,7 +527,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 842,
+      "viewCount": 843,
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
       "category": "compliance",
@@ -538,19 +538,19 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 22.3,
+      "priorityScore": 22.26,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 842 просмотров",
+        "Охват в Telegram Web: 843 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Начали новую неделю с победы в кассации — удержали судебные акты от оспаривания по иску участницы ООО против вступления наследников в ООО. Констатируем, что суды с оглядкой на кейс «Юкола-Нефть» трактуют положения уставо",
       "reactionCount": 12,
-      "engagementRate": 0.014251781472684086
+      "engagementRate": 0.014234875444839857
     },
     {
       "id": "vZone1413/8806",
@@ -579,7 +579,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 21.25,
+      "priorityScore": 21.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -627,7 +627,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 20.7,
+      "priorityScore": 20.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -645,17 +645,17 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 27
+      "count": 28
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 25
+      "count": 26
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 24
+      "count": 25
     },
     {
       "id": "bankruptcy",
@@ -715,8 +715,8 @@
       "count": 2
     },
     {
-      "channel": "sudpraktik",
-      "title": "СУДЕБНАЯ ПРАКТИКА",
+      "channel": "educatedyoungman",
+      "title": "Ничего нового для образованного юноши",
       "count": 1
     }
   ]
