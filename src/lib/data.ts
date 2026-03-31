@@ -13,6 +13,18 @@ const DATA_DIR = path.resolve(cwd(), 'data')
 const DIGESTS_DIR = path.join(DATA_DIR, 'digests')
 const TAG_PREFIX_REGEX = /^#/
 
+function isChannelEnabled(channel: string | undefined, definitions?: Map<string, ChannelDefinition>): boolean {
+  if (!channel)
+    return true
+
+  const definition = (definitions || getChannelDefinitionMap()).get(channel)
+  return definition?.enabled !== false
+}
+
+function filterEnabledPosts(posts: Post[], definitions?: Map<string, ChannelDefinition>): Post[] {
+  return posts.filter(post => isChannelEnabled(post.channel, definitions))
+}
+
 let _posts: Post[] | null = null
 let _channelRegistry: ChannelRegistry | null = null
 let _channelsMeta: Record<string, { title: string, description: string, descriptionHTML: string | null, avatar: string | undefined }> | null = null
@@ -67,7 +79,7 @@ function loadPosts(): Post[] {
   const rawPosts = readJsonFile<Post[]>(file, [])
   const channelDefinitions = getChannelDefinitionMap()
   const channelsMeta = loadChannelsMeta()
-  _posts = rawPosts
+  _posts = filterEnabledPosts(rawPosts, channelDefinitions)
     .map((post) => {
       const channelDefinition = post.channel ? channelDefinitions.get(post.channel) : undefined
       const channelMeta = post.channel ? channelsMeta[post.channel] : undefined
@@ -86,10 +98,22 @@ function loadDigests(): Record<string, DigestPayload> {
   if (_digests)
     return _digests
 
+  const definitions = getChannelDefinitionMap()
+  const sanitizeDigest = (payload: DigestPayload | null) => {
+    if (!payload)
+      return payload
+
+    return {
+      ...payload,
+      topPosts: filterEnabledPosts(payload.topPosts || [], definitions),
+      topChannels: (payload.topChannels || []).filter(item => isChannelEnabled(item.channel, definitions)),
+    }
+  }
+
   _digests = {
-    today: readJsonFile(path.join(DIGESTS_DIR, 'today.json'), null),
-    yesterday: readJsonFile(path.join(DIGESTS_DIR, 'yesterday.json'), null),
-    week: readJsonFile(path.join(DIGESTS_DIR, 'week.json'), null),
+    today: sanitizeDigest(readJsonFile(path.join(DIGESTS_DIR, 'today.json'), null)),
+    yesterday: sanitizeDigest(readJsonFile(path.join(DIGESTS_DIR, 'yesterday.json'), null)),
+    week: sanitizeDigest(readJsonFile(path.join(DIGESTS_DIR, 'week.json'), null)),
   } as Record<string, DigestPayload>
 
   return _digests
