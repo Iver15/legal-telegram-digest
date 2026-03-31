@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-03-31T18:39:17.490Z",
-  "totalPosts": 39,
+  "generatedAt": "2026-03-31T19:42:03.102Z",
+  "totalPosts": 38,
   "topPosts": [
     {
       "id": "probankrotstvoru/9485",
@@ -54,7 +54,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 34.4,
+      "priorityScore": 34.27,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -117,7 +117,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.32,
+      "priorityScore": 31.18,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -161,7 +161,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1820,
+      "viewCount": 1830,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -173,18 +173,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.23,
+      "priorityScore": 30.09,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 1820 просмотров"
+        "Охват в Telegram Web: 1830 просмотров"
       ],
       "digestSummary": "Суд округа: умысел управляющего не освобождает страховщика от выплаты возмещенияАрбитражный суд Волгоградской области в апреле 2024 года взыскал с КУ Алексея Здановича 5,7 млн рублей убытков в пользу конкурсной массы общ",
       "reactionCount": 13,
-      "engagementRate": 0.007142857142857143
+      "engagementRate": 0.007103825136612022
     },
     {
       "id": "probankrotstvoru/9483",
@@ -232,7 +232,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 28.58,
+      "priorityScore": 28.45,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -292,7 +292,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 28.23,
+      "priorityScore": 28.1,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -333,7 +333,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 241,
+      "viewCount": 244,
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
       "category": "compliance",
@@ -346,18 +346,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 27.96,
+      "priorityScore": 27.84,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 241 просмотров",
-        "Сильная отдача аудитории: 2,1% реакций к просмотрам"
+        "Охват в Telegram Web: 244 просмотров",
+        "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "Признание и исполнение - решение китайского суда - СОЮРазмещаю недавний российский судебный акт о частичном признании решения народного суда Шанхая.Интересно, что решение в части взыскания китайского аналога астрента рос",
       "reactionCount": 5,
-      "engagementRate": 0.02074688796680498
+      "engagementRate": 0.020491803278688523
     },
     {
       "id": "disputesandsanctions/2405",
@@ -381,7 +381,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 217,
+      "viewCount": 219,
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
       "category": "compliance",
@@ -394,18 +394,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 27.66,
+      "priorityScore": 27.51,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 217 просмотров",
+        "Охват в Telegram Web: 219 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Признание и исполнение - решение китайского суда - Признание и исполнение Размещаю недавний российский судебный акт о частичном признании решения народного суда Шанхая.Интересно, что решение в части взыскания китайского ",
       "reactionCount": 3,
-      "engagementRate": 0.013824884792626729
+      "engagementRate": 0.0136986301369863
     },
     {
       "id": "domnin_sa/538",
@@ -443,7 +443,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1060,
+      "viewCount": 1090,
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
       "category": "bankruptcy",
@@ -455,19 +455,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.56,
+      "priorityScore": 27.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Исполнение",
         "Высокая вовлечённость: 27 реакций",
-        "Охват в Telegram Web: 1060 просмотров",
+        "Охват в Telegram Web: 1090 просмотров",
         "Сильная отдача аудитории: 2,5% реакций к просмотрам"
       ],
       "digestSummary": "Не дело, а конфетка И.В.Разумов передал в СКЭС дело по вопросу установления процентного вознаграждения нескольким АУ, последовательно сменявшим друг друга в одной процедуре банкротства.ФабулаВ деле о банкротстве ООО «ТОК",
       "reactionCount": 27,
-      "engagementRate": 0.02547169811320755
+      "engagementRate": 0.024770642201834864
     },
     {
       "id": "sovetsudey/825",
@@ -513,7 +513,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 21400,
+      "viewCount": 21600,
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
       "category": "courts",
@@ -523,19 +523,19 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 26.88,
+      "priorityScore": 26.73,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 261 реакций",
-        "Охват в Telegram Web: 21400 просмотров",
+        "Охват в Telegram Web: 21600 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд РФ защитил интересы детей в деле о суррогатном материнстве с участием иностранных граждан. Супруги из Австралии воспользовались программой с применением донорских яйцеклеток другой женщины, что противоречит",
       "reactionCount": 261,
-      "engagementRate": 0.012196261682242991
+      "engagementRate": 0.012083333333333333
     },
     {
       "id": "probankrotstvoru/9477",
@@ -568,7 +568,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2250,
+      "viewCount": 2260,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -580,18 +580,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.37,
+      "priorityScore": 26.23,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 2250 просмотров"
+        "Охват в Telegram Web: 2260 просмотров"
       ],
       "digestSummary": "КС не нашел неопределенности в статье о преднамеренном банкротствеКонституционный Суд отказался принять к рассмотрению жалобу Асланбия Нагоя на ст. 196 Уголовного кодекса РФ о преднамеренном банкротстве. Заявитель был ос",
       "reactionCount": 17,
-      "engagementRate": 0.007555555555555556
+      "engagementRate": 0.00752212389380531
     },
     {
       "id": "sovetsudey/824",
@@ -632,17 +632,17 @@
           "isPaid": false
         },
         {
-          "emoji": "😁",
-          "count": "1",
+          "emoji": "🤔",
+          "count": "2",
           "isPaid": false
         },
         {
-          "emoji": "🤔",
+          "emoji": "😁",
           "count": "1",
           "isPaid": false
         }
       ],
-      "viewCount": 18900,
+      "viewCount": 19000,
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
       "category": "courts",
@@ -652,19 +652,19 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 25.67,
+      "priorityScore": 25.53,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 236 реакций",
-        "Охват в Telegram Web: 18900 просмотров",
+        "Высокая вовлечённость: 237 реакций",
+        "Охват в Telegram Web: 19000 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "ВС России признал незаконным изъятие автомобиля, не принадлежащего нарушителю. Кассационную жалобу подала жительница Свердловской области, у которой суд первой инстанции конфисковал транспортное средство в рамках уголовн",
-      "reactionCount": 236,
-      "engagementRate": 0.012486772486772487
+      "reactionCount": 237,
+      "engagementRate": 0.012473684210526316
     },
     {
       "id": "corplawpro/5847",
@@ -691,7 +691,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 914,
+      "viewCount": 918,
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
       "category": "compliance",
@@ -704,24 +704,24 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 25.1,
+      "priorityScore": 24.97,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 914 просмотров"
+        "Охват в Telegram Web: 918 просмотров"
       ],
       "digestSummary": "Факт увеличения агентского вознаграждения сам по себе не доказывает явного ущерба — необходимо сравнение с рыночной стоимостью аналогичных услуг#корпоративные_споры#недействительность_сделки#агентский_договорВетров А.Б. ",
       "reactionCount": 1,
-      "engagementRate": 0.0010940919037199124
+      "engagementRate": 0.0010893246187363835
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 36
+      "count": 35
     },
     {
       "id": "arbitration",
@@ -736,22 +736,22 @@
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 27
+      "count": 26
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 19
-    },
-    {
-      "id": "tax",
-      "label": "Налоги",
-      "count": 7
+      "count": 18
     },
     {
       "id": "compliance",
       "label": "Комплаенс",
       "count": 7
+    },
+    {
+      "id": "tax",
+      "label": "Налоги",
+      "count": 6
     }
   ],
   "topChannels": [
@@ -763,7 +763,7 @@
     {
       "channel": "orpauradio",
       "title": "Первый радиоканал АУ и юристов",
-      "count": 6
+      "count": 5
     },
     {
       "channel": "vZone1413",
