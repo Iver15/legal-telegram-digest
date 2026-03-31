@@ -23,6 +23,7 @@ const allPosts = getAllPosts()
 const posts = channel.posts ?? []
 const categories = getAllCategories().filter((category) => category.count > 0)
 const channels = getAllChannels().filter((item) => item.postCount > 0)
+const channelMap = new Map(channels.map((item) => [item.name, item]))
 const topPosts = getTopPosts(5)
 const todayDigest = getDigestPayload('today')
 const weekDigest = getDigestPayload('week')
@@ -93,9 +94,23 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
       <div class="summary-list">
         {
           channels.slice(0, 6).map((item) => (
-            <a href={`${SITE_URL}search/${item.name}`} class="summary-list__item">
-              <strong>@{item.name}</strong>
-              <span>{item.title}</span>
+            <a href={`${SITE_URL}search/${item.name}`} class="summary-list__item summary-list__item--channel">
+              <div class="summary-list__row">
+                {item.avatar && (
+                  <img
+                    src={item.avatar}
+                    alt={item.title}
+                    class="summary-list__avatar"
+                    loading="lazy"
+                    width="34"
+                    height="34"
+                  />
+                )}
+                <div>
+                  <strong>@{item.name}</strong>
+                  <span>{item.title}</span>
+                </div>
+              </div>
               <span class="text-dim">
                 {item.category ? `${item.category} · ` : ''}
                 {item.postCount} материалов
@@ -113,8 +128,8 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
       <span class="text-dim">быстрый отбор по периоду, каналу и теме</span>
     </div>
     <div class="filter-row">
-      <button class="filter-btn active" data-period="all" onclick="filterPeriod('all')">All</button>
-      <button class="filter-btn" data-period="24h" onclick="filterPeriod('24h')">24h</button>
+      <button class="filter-btn active" data-period="all" onclick="filterPeriod('all')">Все</button>
+      <button class="filter-btn" data-period="24h" onclick="filterPeriod('24h')">24ч</button>
       <button class="filter-btn" data-period="3d" onclick="filterPeriod('3d')">3 дня</button>
       <button class="filter-btn" data-period="7d" onclick="filterPeriod('7d')">Неделя</button>
     </div>
@@ -171,13 +186,30 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
       </div>
       <div class="summary-list">
         {
-          (weekDigest?.topChannels || []).map((item) => (
-            <a href={`${SITE_URL}search/${item.channel}`} class="summary-list__item">
-              <strong>@{item.channel}</strong>
-              <span>{item.title}</span>
-              <span class="text-dim">{item.count} постов</span>
-            </a>
-          ))
+          (weekDigest?.topChannels || []).map((item) => {
+            const meta = channelMap.get(item.channel)
+            return (
+              <a href={`${SITE_URL}search/${item.channel}`} class="summary-list__item summary-list__item--channel">
+                <div class="summary-list__row">
+                  {meta?.avatar && (
+                    <img
+                      src={meta.avatar}
+                      alt={item.title}
+                      class="summary-list__avatar"
+                      loading="lazy"
+                      width="34"
+                      height="34"
+                    />
+                  )}
+                  <div>
+                    <strong>@{item.channel}</strong>
+                    <span>{item.title}</span>
+                  </div>
+                </div>
+                <span class="text-dim">{item.count} постов</span>
+              </a>
+            )
+          })
         }
       </div>
     </article>
@@ -275,9 +307,10 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
   }
   .summary-card {
     border: 1px solid var(--color-line);
-    border-radius: 16px;
+    border-radius: 20px;
     padding: 1rem;
-    background: var(--color-surface);
+    background: color-mix(in srgb, var(--color-surface) 96%, transparent);
+    box-shadow: var(--shadow-soft);
   }
   .summary-card__head {
     display: flex;
@@ -325,16 +358,36 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
   .summary-list__item {
     display: grid;
     gap: 0.18rem;
-    padding: 0.75rem;
-    border-radius: 12px;
+    padding: 0.82rem;
+    border-radius: 14px;
     border: 1px solid var(--color-line);
     text-decoration: none;
     color: inherit;
     background: color-mix(in srgb, var(--color-surface) 92%, transparent);
+    transition:
+      transform 160ms ease,
+      border-color 160ms ease;
+  }
+  .summary-list__item:hover {
+    transform: translateY(-1px);
+    border-color: color-mix(in srgb, var(--color-accent) 24%, var(--color-line));
   }
   .summary-list__item strong {
     color: var(--color-heading);
     font-size: 0.9rem;
+  }
+  .summary-list__row {
+    display: flex;
+    align-items: center;
+    gap: 0.72rem;
+  }
+  .summary-list__avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;
+    object-fit: cover;
+    border: 1px solid var(--color-line);
+    flex-shrink: 0;
   }
   .summary-list__item span {
     color: var(--color-muted);
@@ -354,7 +407,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     background: var(--color-surface);
     color: var(--color-heading);
     font-size: 0.82rem;
-    font-weight: 500;
+    font-weight: 700;
     cursor: pointer;
     text-decoration: none;
   }
