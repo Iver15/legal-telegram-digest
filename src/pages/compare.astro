@@ -55,107 +55,116 @@ const avgCoverage = rows.length ? rows.reduce((sum, row) => sum + row.viewCovera
 ---
 
 <Layout channel={channel}>
-  <section class="compare-hero">
-    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
-      <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Сравнение каналов</h1>
-      <div style="display:flex;gap:4px;margin-left:auto;">
-        <a href={SITE_URL} class="nav-pill">Лента</a>
-        <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
-        <a href={`${SITE_URL}stats/`} class="nav-pill">Статистика</a>
+  <div class="page-stack">
+    <section class="compare-hero page-hero">
+      <div class="page-hero__header">
+        <div class="page-hero__copy">
+          <p class="page-hero__eyebrow">Сводка источников</p>
+          <h1 class="page-hero__title">Сравнение каналов</h1>
+          <p class="page-hero__description compare-hero__text">
+            Сравнение активных источников: объём, средний юридический приоритет, охват на пост и вовлечённость
+            аудитории.
+          </p>
+        </div>
+        <div class="page-hero__nav">
+          <a href={SITE_URL} class="nav-pill">Лента</a>
+          <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
+          <a href={`${SITE_URL}stats/`} class="nav-pill">Статистика</a>
+        </div>
       </div>
-    </div>
-    <p class="text-dim compare-hero__text">
-      Сравнение активных источников: объём, средний юридический приоритет, охват на пост и вовлечённость аудитории.
-    </p>
-    <div class="compare-hero__stats">
-      <article class="compare-mini"><strong>{rows.length}</strong><span>каналов</span></article>
-      <article class="compare-mini"><strong>{avgPriority.toFixed(2)}</strong><span>ср. приоритет</span></article>
-      <article class="compare-mini">
-        <strong>{formatPercentRu(avgCoverage, 0)}</strong><span>покрытие просмотров</span>
-      </article>
-      <article class="compare-mini"><strong>{withViews.length}</strong><span>каналов с охватом</span></article>
-    </div>
-  </section>
+      <div class="compare-hero__stats metric-grid">
+        <article class="compare-mini metric-card"><strong>{rows.length}</strong><span>каналов</span></article>
+        <article class="compare-mini metric-card">
+          <strong>{avgPriority.toFixed(2)}</strong><span>ср. приоритет</span>
+        </article>
+        <article class="compare-mini metric-card">
+          <strong>{formatPercentRu(avgCoverage, 0)}</strong><span>покрытие просмотров</span>
+        </article>
+        <article class="compare-mini metric-card">
+          <strong>{withViews.length}</strong><span>каналов с охватом</span>
+        </article>
+      </div>
+    </section>
 
-  <div class="compare-table-wrap">
-    <table class="compare-table">
-      <thead>
-        <tr>
-          <th>Канал</th>
-          <th>Категория</th>
-          <th>Посты</th>
-          <th>Средний приоритет</th>
-          <th>Средний охват</th>
-          <th>Вовлечённость</th>
-          <th>Покрытие просмотров</th>
-          <th>Реакции</th>
-          <th>Последний пост</th>
-        </tr>
-      </thead>
-      <tbody>
-        {
-          rows.map((row) => (
-            <tr>
-              <td data-label="Канал">
-                <a href={`${SITE_URL}search/${row.name}`} class="compare-channel">
-                  {row.avatar && (
-                    <img
-                      src={row.avatar}
-                      alt={row.title}
-                      class="compare-channel__avatar"
-                      loading="lazy"
-                      width="32"
-                      height="32"
-                    />
-                  )}
-                  <span>
-                    <>
-                      <strong>@{row.name}</strong>
-                      <em>{row.title}</em>
-                    </>
-                  </span>
-                </a>
-              </td>
-              <td data-label="Категория">{row.category || 'общее'}</td>
-              <td data-label="Посты">{row.postCount}</td>
-              <td data-label="Средний приоритет">{row.averagePriority.toFixed(2)}</td>
-              <td data-label="Средний охват">{formatCompactNumberRu(row.averageViews)}</td>
-              <td data-label="Вовлечённость">{formatPercentRu(row.averageEngagement, 1)}</td>
-              <td data-label="Покрытие просмотров">{formatPercentRu(row.viewCoverage, 0)}</td>
-              <td data-label="Реакции">{formatCompactNumberRu(row.totalReactions)}</td>
-              <td data-label="Последний пост">
-                {row.lastPostAt ? new Date(row.lastPostAt).toLocaleDateString('ru-RU') : '—'}
-              </td>
-            </tr>
-          ))
-        }
-      </tbody>
-    </table>
+    <div class="compare-table-wrap surface-card">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Канал</th>
+            <th>Категория</th>
+            <th>Посты</th>
+            <th>Средний приоритет</th>
+            <th>Средний охват</th>
+            <th>Вовлечённость</th>
+            <th>Покрытие просмотров</th>
+            <th>Реакции</th>
+            <th>Последний пост</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            rows.map((row) => (
+              <tr>
+                <td data-label="Канал">
+                  <a href={`${SITE_URL}search/${row.name}`} class="compare-channel">
+                    {row.avatar && (
+                      <img
+                        src={row.avatar}
+                        alt={row.title}
+                        class="compare-channel__avatar"
+                        loading="lazy"
+                        width="32"
+                        height="32"
+                      />
+                    )}
+                    <span>
+                      <>
+                        <strong>@{row.name}</strong>
+                        <em>{row.title}</em>
+                      </>
+                    </span>
+                  </a>
+                </td>
+                <td data-label="Категория">{row.category || 'общее'}</td>
+                <td data-label="Посты">{row.postCount}</td>
+                <td data-label="Средний приоритет">{row.averagePriority.toFixed(2)}</td>
+                <td data-label="Средний охват">{formatCompactNumberRu(row.averageViews)}</td>
+                <td data-label="Вовлечённость">{formatPercentRu(row.averageEngagement, 1)}</td>
+                <td data-label="Покрытие просмотров">{formatPercentRu(row.viewCoverage, 0)}</td>
+                <td data-label="Реакции">{formatCompactNumberRu(row.totalReactions)}</td>
+                <td data-label="Последний пост">
+                  {row.lastPostAt ? new Date(row.lastPostAt).toLocaleDateString('ru-RU') : '—'}
+                </td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+    <p class="text-dim compare-note">
+      Просмотры берутся только из Telegram Web Preview. Если Telegram их не показал для части постов, метрики охвата и
+      вовлечённости считаются по доступным записям.
+    </p>
   </div>
-  <p class="text-dim compare-note">
-    Просмотры берутся только из Telegram Web Preview. Если Telegram их не показал для части постов, метрики охвата и
-    вовлечённости считаются по доступным записям.
-  </p>
 </Layout>
 
 <style>
   .compare-table-wrap {
     overflow-x: auto;
-    border: 1px solid var(--color-line);
-    border-radius: 16px;
-    background: var(--color-surface);
+    padding: 0;
   }
   .compare-table {
     width: 100%;
     border-collapse: collapse;
-    min-width: 880px;
+    min-width: 56rem;
   }
   .compare-table th,
   .compare-table td {
-    padding: 0.85rem 0.95rem;
+    padding: 0.9rem 0.95rem;
     text-align: left;
     border-bottom: 1px solid var(--color-line);
     font-size: 0.92rem;
+    vertical-align: top;
   }
   .compare-table th {
     color: var(--color-muted);
@@ -165,8 +174,9 @@ const avgCoverage = rows.length ? rows.reduce((sum, row) => sum + row.viewCovera
     letter-spacing: 0.04em;
   }
   .compare-note {
-    margin: 0.75rem 0 0;
-    font-size: 0.82rem;
+    margin: 0;
+    font-size: 0.84rem;
+    line-height: 1.55;
   }
   @media (max-width: 720px) {
     .compare-table,
@@ -201,39 +211,14 @@ const avgCoverage = rows.length ? rows.reduce((sum, row) => sum + row.viewCovera
       letter-spacing: 0.04em;
     }
   }
-  .compare-hero {
-    margin-bottom: 1rem;
-    border: 1px solid var(--color-line);
-    border-radius: 18px;
-    padding: 1rem;
-    background: color-mix(in srgb, var(--color-surface) 96%, transparent);
-    box-shadow: var(--shadow-soft);
-  }
   .compare-hero__text {
-    margin: 0.75rem 0 0;
-    font-size: 0.92rem;
-    line-height: 1.6;
+    margin: 0;
   }
   .compare-hero__stats {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 0.75rem;
-    margin-top: 1rem;
+    margin-top: 0.15rem;
   }
   .compare-mini {
-    border: 1px solid var(--color-line);
-    border-radius: 14px;
-    padding: 0.8rem;
-    background: color-mix(in srgb, var(--color-surface) 92%, transparent);
-  }
-  .compare-mini strong {
-    display: block;
-    font-size: 1.15rem;
-    color: var(--color-heading);
-  }
-  .compare-mini span {
-    color: var(--color-muted);
-    font-size: 0.78rem;
+    min-height: 100%;
   }
   .compare-channel {
     display: flex;
@@ -260,10 +245,5 @@ const avgCoverage = rows.length ? rows.reduce((sum, row) => sum + row.viewCovera
     color: var(--color-muted);
     font-style: normal;
     font-size: 0.76rem;
-  }
-  @media (max-width: 720px) {
-    .compare-hero__stats {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
   }
 </style>

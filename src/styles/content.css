@@ -2,27 +2,29 @@
 
 @layer components {
   .content {
-    word-break: break-word;
-    overflow-wrap: anywhere;
+    --content-measure: min(100%, 72ch);
+    --content-media-max: min(100%, 58rem);
+
+    max-width: var(--content-measure);
+    word-break: normal;
+    overflow-wrap: break-word;
     text-wrap: pretty;
 
-    font-size: 0.985rem;
-    line-height: 1.68;
+    font-size: clamp(0.99rem, 0.24vw + 0.94rem, 1.05rem);
+    line-height: 1.72;
 
     > * + * {
-      margin-top: 0.72rem;
+      margin-top: 0.88rem;
     }
 
     p {
       margin: 0;
       color: var(--color-ink);
-      text-align: justify;
-      text-justify: inter-word;
       hyphens: auto;
     }
 
     p + p {
-      margin-top: 0.62rem;
+      margin-top: 0.78rem;
     }
 
     ul,
@@ -41,25 +43,30 @@
 
     h1 {
       font-family: var(--font-display);
-      font-size: clamp(1.55rem, 2vw, 1.9rem);
+      font-size: clamp(1.6rem, 1.5vw + 1.2rem, 2rem);
       font-weight: 700;
-      line-height: 1.15;
+      line-height: 1.08;
       margin: 0;
+      text-wrap: balance;
     }
 
     h2 {
       font-family: var(--font-display);
-      font-size: clamp(1.25rem, 1.7vw, 1.5rem);
+      font-size: clamp(1.28rem, 1vw + 1.02rem, 1.62rem);
       font-weight: 700;
-      margin-top: 1.75rem;
+      line-height: 1.12;
+      margin-top: 2rem;
       margin-bottom: 0;
+      text-wrap: balance;
     }
 
     h3 {
-      font-size: 1.05rem;
+      font-size: clamp(1.05rem, 0.45vw + 0.96rem, 1.18rem);
       font-weight: 800;
-      margin-top: 1.5rem;
+      line-height: 1.2;
+      margin-top: 1.65rem;
       margin-bottom: 0;
+      text-wrap: balance;
     }
 
     h4 {
@@ -137,23 +144,21 @@
     }
 
     li {
-      line-break: anywhere;
-      text-align: justify;
-      text-justify: inter-word;
+      line-break: auto;
       hyphens: auto;
     }
 
     li + li {
-      margin-top: 0.24rem;
+      margin-top: 0.34rem;
     }
 
     img:not(.tg-emoji):not(.sticker):not(.link_preview_image):not(.modal-img) {
       display: block;
-      width: min(100%, clamp(320px, 62vw, 760px));
-      max-width: calc(100% - 1px);
+      width: auto;
+      max-width: min(calc(100% - 1px), var(--content-media-max));
       max-height: min(560px, 62svh);
       margin-inline: auto;
-      object-fit: cover;
+      object-fit: contain;
       border-radius: var(--radius-media);
       border: 1px solid var(--color-line);
       box-shadow: var(--shadow-soft);
@@ -167,7 +172,7 @@
     pre {
       font-size: 0.9em;
       white-space: pre-wrap;
-      padding: 14px;
+      padding: 0.95rem 1rem;
       border-radius: var(--radius-media);
       border: 1px solid var(--color-line);
       box-shadow: var(--shadow-soft);
@@ -175,8 +180,8 @@
     }
 
     > pre {
-      width: calc(100% - var(--box-margin));
-      max-width: 456px;
+      width: 100%;
+      max-width: min(100%, 54rem);
       overflow-x: auto;
     }
 
@@ -185,16 +190,20 @@
     }
 
     figure {
-      width: min(100%, clamp(320px, 62vw, 760px));
+      width: min(100%, var(--content-media-max));
       margin-inline: auto;
     }
 
     figcaption {
+      margin-top: 0.55rem;
       color: var(--color-footer);
-      font-size: 0.8em;
+      font-size: 0.84em;
+      line-height: 1.5;
+      text-align: center;
     }
 
     > iframe {
+      width: min(100%, var(--content-media-max));
       max-width: calc(100% - 1px);
       border-radius: var(--radius-media);
       border: 1px solid var(--color-line);
@@ -204,6 +213,7 @@
     table {
       table-layout: auto;
       width: 100%;
+      max-width: min(100%, var(--content-media-max));
       padding: 0;
       border-collapse: collapse;
       box-shadow: var(--shadow-soft);
@@ -728,15 +738,15 @@
 @media (min-width: 1100px) {
   @layer components {
     .content {
-      font-size: 0.965rem;
-      line-height: 1.62;
+      font-size: 1.02rem;
+      line-height: 1.74;
     }
 
     .content
       > :not(img):not(figure):not(pre):not(table):not(.image-list-container):not(.tgme_widget_message_link_preview):not(
         iframe
       ) {
-      max-width: 74ch;
+      max-width: 72ch;
       margin-left: auto;
       margin-right: auto;
     }
@@ -747,15 +757,28 @@
     .content table,
     .content > iframe,
     .content .tgme_widget_message_link_preview {
-      max-width: min(100%, 74ch);
+      max-width: min(100%, 72ch);
       margin-left: auto;
       margin-right: auto;
     }
 
     .content img:not(.tg-emoji):not(.sticker):not(.link_preview_image):not(.modal-img),
     .content figure {
-      width: min(100%, 680px);
-      max-height: 460px;
+      max-width: min(100%, 52rem);
+      max-height: 34rem;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  @layer components {
+    .content {
+      font-size: 0.98rem;
+      line-height: 1.68;
+
+      > * + * {
+        margin-top: 0.8rem;
+      }
     }
   }
 }

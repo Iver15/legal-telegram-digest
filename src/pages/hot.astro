@@ -25,78 +25,67 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
 ---
 
 <Layout channel={channel}>
-  <div style="margin-bottom:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
-    <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Главное в ленте</h1>
-    <div style="display:flex;gap:4px;margin-left:auto;">
-      <a href={SITE_URL} class="nav-pill">Лента</a>
-      <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
-      <a href={`${SITE_URL}compare/`} class="nav-pill">Сравнить</a>
-      <a href={`${SITE_URL}stats/`} class="nav-pill">Статистика</a>
-    </div>
-  </div>
-  <p class="text-dim" style="font-size:14px;margin:0 0 12px;">
-    Сначала юридический приоритет и свежесть, затем охват и отдача реакции там, где Telegram Web показывает просмотры.
-  </p>
+  <div class="page-stack">
+    <section class="page-hero">
+      <div class="page-hero__header">
+        <div class="page-hero__copy">
+          <p class="page-hero__eyebrow">Рейтинг ленты</p>
+          <h1 class="page-hero__title">Главное в ленте</h1>
+          <p class="page-hero__description">
+            Сначала юридический приоритет и свежесть, затем охват и отдача реакции там, где Telegram Web показывает
+            просмотры.
+          </p>
+        </div>
+        <div class="page-hero__nav">
+          <a href={SITE_URL} class="nav-pill">Лента</a>
+          <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
+          <a href={`${SITE_URL}compare/`} class="nav-pill">Сравнить</a>
+          <a href={`${SITE_URL}stats/`} class="nav-pill">Статистика</a>
+        </div>
+      </div>
 
-  <div class="hot-summary">
-    <article class="hot-summary__item">
-      <strong>{hotPosts.length}</strong>
-      <span>постов в рейтинге</span>
-    </article>
-    <article class="hot-summary__item">
-      <strong>{postsWithViews.length}</strong>
-      <span>с известным охватом</span>
-    </article>
-    <article class="hot-summary__item">
-      <strong>{formatCompactNumberRu(averageViews)}</strong>
-      <span>средний охват</span>
-    </article>
-    <article class="hot-summary__item">
-      <strong>{formatPercentRu(averageEngagement, 1)}</strong>
-      <span>средняя вовлечённость</span>
-    </article>
-  </div>
+      <div class="hot-summary metric-grid">
+        <article class="hot-summary__item metric-card">
+          <strong>{hotPosts.length}</strong>
+          <span>постов в рейтинге</span>
+        </article>
+        <article class="hot-summary__item metric-card">
+          <strong>{postsWithViews.length}</strong>
+          <span>с известным охватом</span>
+        </article>
+        <article class="hot-summary__item metric-card">
+          <strong>{formatCompactNumberRu(averageViews)}</strong>
+          <span>средний охват</span>
+        </article>
+        <article class="hot-summary__item metric-card">
+          <strong>{formatPercentRu(averageEngagement, 1)}</strong>
+          <span>средняя вовлечённость</span>
+        </article>
+      </div>
+    </section>
 
-  <ol class="mt-5 mb-0 ml-7 list-none pl-0 max-sm:ml-0" aria-label="Главные посты">
-    {
-      hotPosts.map((post) => (
-        <li>
-          <Item post={post} isItem={false} />
-        </li>
-      ))
-    }
-  </ol>
+    <ol class="hot-list" aria-label="Главные посты">
+      {
+        hotPosts.map((post) => (
+          <li>
+            <Item post={post} isItem={false} />
+          </li>
+        ))
+      }
+    </ol>
+  </div>
 </Layout>
 
 <style>
-  .hot-summary {
+  .hot-list {
+    margin: 0;
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 0.8rem;
-    margin-bottom: 1rem;
+    gap: 0.95rem;
+    list-style: none;
+    padding: 0;
   }
 
   .hot-summary__item {
-    border: 1px solid var(--color-line);
-    border-radius: 16px;
-    padding: 0.9rem 1rem;
-    background: var(--color-surface);
-  }
-
-  .hot-summary__item strong {
-    display: block;
-    font-size: 1.1rem;
-    color: var(--color-heading);
-  }
-
-  .hot-summary__item span {
-    color: var(--color-muted);
-    font-size: 0.8rem;
-  }
-
-  @media (max-width: 720px) {
-    .hot-summary {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+    min-height: 100%;
   }
 </style>

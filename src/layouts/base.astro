@@ -88,20 +88,20 @@ const navs: NavItem[] = (import.meta.env.NAVS || '')
 const PUSH_SERVER_URL = import.meta.env.PUSH_SERVER_URL || ''
 const VAPID_PUBLIC_KEY = import.meta.env.VAPID_PUBLIC_KEY || ''
 
-const layoutShellClass = 'px-3 py-3 sm:px-5 sm:py-5 xl:px-6 xl:py-6'
+const layoutShellClass = 'px-3 py-3 sm:px-4 sm:py-4 xl:px-5 xl:py-5'
 const layoutGridClass =
-  'reader-shell-card mx-auto grid w-full max-w-[1480px] grid-cols-1 gap-5 p-3 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-6 lg:p-5 xl:grid-cols-[minmax(0,1fr)_320px] xl:p-6'
+  'reader-shell-card mx-auto grid w-full max-w-[var(--page-max-width)] grid-cols-1 gap-4 p-3 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-5 lg:p-5 xl:grid-cols-[minmax(0,1fr)_320px] xl:gap-6 xl:p-6'
 const mainPanelClass = 'w-full min-w-0 pb-4 lg:pb-8'
 const asidePanelClass = 'w-full min-w-0 lg:sticky lg:top-6 lg:self-start'
 const asideInnerClass = 'relative overflow-y-visible lg:max-h-[calc(100svh-3rem)] lg:overflow-y-auto lg:pr-1'
 const navListClass = 'm-0 flex list-none flex-wrap gap-2 pl-0 lg:block'
 const navItemClass = 'flex items-center text-[14px] leading-none lg:mb-2 lg:text-[15px] lg:leading-normal'
 const navLinkClass =
-  'sidebar-nav-link flex-1 inline-flex items-center rounded-[14px] border border-line px-3 py-2 text-heading no-underline transition-[background-color,box-shadow,border-color] duration-150 ease-in-out hover:no-underline hover:shadow-soft'
+  'sidebar-nav-link flex-1 inline-flex items-center rounded-[14px] border border-line px-3 py-[0.7rem] text-heading no-underline transition-[background-color,box-shadow,border-color] duration-150 ease-in-out hover:no-underline hover:shadow-soft'
 const navLinkCurrentClass = 'sidebar-nav-active shadow-soft'
 const skipLinkClass =
   'pointer-events-none absolute left-5 top-0 z-[1100] -translate-y-full rounded-panel bg-heading px-3 py-2 text-sm text-white no-underline transition-transform duration-150 focus-visible:pointer-events-auto focus-visible:translate-y-5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-heading'
-const searchFormClass = 'mt-3 rounded-[18px] border border-line bg-code/80 p-2 text-muted backdrop-blur'
+const searchFormClass = 'mt-3 rounded-[18px] border border-line bg-code/80 p-2 text-muted shadow-soft backdrop-blur'
 const searchInputClass =
   'box-border w-full rounded-[14px] border border-transparent bg-transparent px-3 py-2 text-[15px] leading-[1.6] text-muted outline-none placeholder:text-muted focus-visible:border-heading focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 focus-visible:outline-heading lg:text-[13px]'
 const footerClass = 'hidden p-2 text-[13px] leading-[1.6] text-footer lg:block'
@@ -311,26 +311,13 @@ const mobileDockLinkCurrentClass = 'mobile-dock__link--active'
     <Fragment set:html={FOOTER_INJECT} />
 
     <script is:inline src={`${import.meta.env.BASE_URL}pwa.js`}></script>
-    <div
-      id="install-banner"
-      style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:1100;background:#1a1a2e;color:#fff;padding:16px 20px;align-items:center;gap:12px;box-shadow:0 -4px 20px rgba(0,0,0,0.3);font-family:system-ui,sans-serif;"
-    >
-      <div style="flex:1;min-width:0;">
-        <div style="font-weight:600;font-size:15px;">{siteMeta.shortTitle || siteMeta.title}</div>
-        <div style="font-size:13px;opacity:0.8;margin-top:2px;">
-          Установите сайт как приложение для быстрого чтения и офлайн-доступа
-        </div>
+    <div id="install-banner" class="install-banner">
+      <div class="install-banner__copy">
+        <div class="install-banner__title">{siteMeta.shortTitle || siteMeta.title}</div>
+        <div class="install-banner__text">Установите сайт как приложение для быстрого чтения и офлайн-доступа</div>
       </div>
-      <button
-        onclick="installApp()"
-        style="background:#6c63ff;color:#fff;border:none;padding:8px 20px;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap;"
-        >Установить</button
-      >
-      <button
-        onclick="dismissInstall()"
-        style="background:none;border:none;color:#999;font-size:20px;cursor:pointer;padding:4px 8px;"
-        aria-label="Close">&times;</button
-      >
+      <button onclick="installApp()" class="install-banner__primary">Установить</button>
+      <button onclick="dismissInstall()" class="install-banner__dismiss" aria-label="Close">&times;</button>
     </div>
   </body>
 </html>

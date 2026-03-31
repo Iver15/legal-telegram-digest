@@ -15,51 +15,58 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
 ---
 
 <Layout channel={channel}>
-  <div style="margin-bottom:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
-    <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Готовые дайджесты</h1>
-    <div style="display:flex;gap:4px;margin-left:auto;">
-      <a href={SITE_URL} class="nav-pill">Лента</a>
-      <a href={`${SITE_URL}hot/`} class="nav-pill">Главное</a>
-      <a href={`${SITE_URL}compare/`} class="nav-pill">Сравнить</a>
-    </div>
-  </div>
-  <p class="text-dim" style="font-size:14px;margin:0 0 12px;">
-    После синхронизации здесь появляются собранные дайджесты по периодам и их JSON-версии.
-  </p>
+  <div class="page-stack">
+    <section class="page-hero">
+      <div class="page-hero__header">
+        <div class="page-hero__copy">
+          <p class="page-hero__eyebrow">Собранные периоды</p>
+          <h1 class="page-hero__title">Готовые дайджесты</h1>
+          <p class="page-hero__description">
+            После синхронизации здесь появляются собранные дайджесты по периодам и их JSON-версии.
+          </p>
+        </div>
+        <div class="page-hero__nav">
+          <a href={SITE_URL} class="nav-pill">Лента</a>
+          <a href={`${SITE_URL}hot/`} class="nav-pill">Главное</a>
+          <a href={`${SITE_URL}compare/`} class="nav-pill">Сравнить</a>
+        </div>
+      </div>
+    </section>
 
-  <div class="digest-grid">
-    {
-      digests.map((digest) => (
-        <article class="digest-card">
-          <div class="digest-card__head">
-            <div>
-              <h2>{digest.label}</h2>
-              <p>
-                {digest.totalPosts} постов · обновлено {new Date(digest.generatedAt).toLocaleString('ru-RU')}
-              </p>
+    <div class="digest-grid">
+      {
+        digests.map((digest) => (
+          <article class="digest-card surface-card">
+            <div class="digest-card__head">
+              <div>
+                <h2>{digest.label}</h2>
+                <p>
+                  {digest.totalPosts} постов · обновлено {new Date(digest.generatedAt).toLocaleString('ru-RU')}
+                </p>
+              </div>
+              <a href={`${SITE_URL}digests/${digest.id}.json`}>JSON</a>
             </div>
-            <a href={`${SITE_URL}digests/${digest.id}.json`}>JSON</a>
-          </div>
-          <div class="digest-pill-row">
-            {digest.topTopics.slice(0, 5).map((topic) => (
-              <span class="badge">
-                {topic.label} · {topic.count}
-              </span>
-            ))}
-          </div>
-          <div class="digest-list">
-            {digest.topPosts.slice(0, 5).map((post) => (
-              <a href={`${SITE_URL}posts/${post.id}`} class="digest-list__item">
-                <strong>{post.title || post.digestSummary}</strong>
-                <span>
-                  @{post.channel} · приоритет {post.priorityScore?.toFixed(1) || '0.0'}
+            <div class="digest-pill-row">
+              {digest.topTopics.slice(0, 5).map((topic) => (
+                <span class="badge">
+                  {topic.label} · {topic.count}
                 </span>
-              </a>
-            ))}
-          </div>
-        </article>
-      ))
-    }
+              ))}
+            </div>
+            <div class="digest-list">
+              {digest.topPosts.slice(0, 5).map((post) => (
+                <a href={`${SITE_URL}posts/${post.id}`} class="digest-list__item">
+                  <strong>{post.title || post.digestSummary}</strong>
+                  <span>
+                    @{post.channel} · приоритет {post.priorityScore?.toFixed(1) || '0.0'}
+                  </span>
+                </a>
+              ))}
+            </div>
+          </article>
+        ))
+      }
+    </div>
   </div>
 </Layout>
 
@@ -67,28 +74,29 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
   .digest-grid {
     display: grid;
     gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   }
   .digest-card {
-    border: 1px solid var(--color-line);
-    border-radius: 16px;
-    padding: 1rem;
-    background: var(--color-surface);
+    min-height: 100%;
   }
   .digest-card__head {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
     margin-bottom: 0.8rem;
+    align-items: flex-start;
   }
   .digest-card__head h2 {
     margin: 0;
     color: var(--color-heading);
-    font-size: 1rem;
+    font-size: 1.04rem;
+    line-height: 1.2;
   }
   .digest-card__head p {
     margin: 0.2rem 0 0;
     color: var(--color-muted);
     font-size: 0.84rem;
+    line-height: 1.45;
   }
   .digest-pill-row {
     display: flex;
@@ -98,22 +106,30 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
   }
   .digest-list {
     display: grid;
-    gap: 0.55rem;
+    gap: 0.6rem;
   }
   .digest-list__item {
     display: grid;
     gap: 0.18rem;
-    padding: 0.75rem;
-    border-radius: 12px;
+    padding: 0.82rem 0.88rem;
+    border-radius: 16px;
     border: 1px solid var(--color-line);
     text-decoration: none;
+    background: color-mix(in srgb, var(--color-surface) 92%, transparent);
   }
   .digest-list__item strong {
     color: var(--color-heading);
     font-size: 0.92rem;
+    line-height: 1.35;
   }
   .digest-list__item span {
     color: var(--color-muted);
     font-size: 0.8rem;
+    line-height: 1.45;
+  }
+  @media (max-width: 640px) {
+    .digest-card__head {
+      flex-direction: column;
+    }
   }
 </style>

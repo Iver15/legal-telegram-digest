@@ -20,105 +20,141 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
 ---
 
 <Layout channel={channel}>
-  <div style="margin-bottom:16px;">
-    <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap;">
-      <h1 style="font-size:18px;font-weight:600;margin:0;">Компактный режим</h1>
-      <div style="display:flex;gap:4px;margin-left:auto;">
-        <a href={SITE_URL} class="nav-pill">Лента</a>
-        <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
-        <a href={`${SITE_URL}hot/`} class="nav-pill">Главное</a>
+  <div class="page-stack">
+    <section class="page-hero lite-hero">
+      <div class="page-hero__header">
+        <div class="page-hero__copy">
+          <p class="page-hero__eyebrow">Быстрое чтение</p>
+          <h1 class="page-hero__title">Компактный режим</h1>
+          <p class="page-hero__description">Плотный режим для быстрого чтения с телефона и слабого интернета.</p>
+        </div>
+        <div class="page-hero__nav">
+          <a href={SITE_URL} class="nav-pill">Лента</a>
+          <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
+          <a href={`${SITE_URL}hot/`} class="nav-pill">Главное</a>
+        </div>
       </div>
-    </div>
-    <p class="text-dim" style="font-size:13px;margin:0 0 10px;">
-      Плотный режим для быстрого чтения с телефона и слабого интернета.
-    </p>
 
-    <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
-      <button class="filter-btn active" data-period="all" onclick="filterPeriod('all')">Все</button>
-      <button class="filter-btn" data-period="24h" onclick="filterPeriod('24h')">24ч</button>
-      <button class="filter-btn" data-period="3d" onclick="filterPeriod('3d')">3д</button>
-      <button class="filter-btn" data-period="7d" onclick="filterPeriod('7d')">7д</button>
-    </div>
+      <div class="lite-filter-row">
+        <button class="filter-btn active" data-period="all" onclick="filterPeriod('all')">Все</button>
+        <button class="filter-btn" data-period="24h" onclick="filterPeriod('24h')">24ч</button>
+        <button class="filter-btn" data-period="3d" onclick="filterPeriod('3d')">3д</button>
+        <button class="filter-btn" data-period="7d" onclick="filterPeriod('7d')">7д</button>
+      </div>
 
-    <div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:8px;">
-      <button class="channel-btn active" data-channel="all" onclick="filterChannel('all')">Все каналы</button>
+      <div class="lite-filter-row">
+        <button class="channel-btn active" data-channel="all" onclick="filterChannel('all')">Все каналы</button>
+        {
+          channels.slice(0, 8).map((item) => (
+            <button class="channel-btn" data-channel={item.name} onclick={`filterChannel('${item.name}')`}>
+              @{item.name}
+            </button>
+          ))
+        }
+      </div>
+
+      <div class="lite-filter-row">
+        <button class="topic-btn active" data-topic="all" onclick="filterTopic('all')">Все темы</button>
+        {
+          categories.slice(0, 8).map((item) => (
+            <button class="topic-btn" data-topic={item.id} onclick={`filterTopic('${item.id}')`}>
+              {item.label}
+            </button>
+          ))
+        }
+      </div>
+
+      <input
+        id="digest-search"
+        type="search"
+        placeholder="Поиск по теме, каналу или ключевому слову"
+        oninput="filterSearch(this.value)"
+        class="search-input lite-search-input"
+      />
+    </section>
+
+    <div id="posts-list" class="lite-list">
       {
-        channels.slice(0, 8).map((item) => (
-          <button class="channel-btn" data-channel={item.name} onclick={`filterChannel('${item.name}')`}>
-            @{item.name}
-          </button>
-        ))
+        allPosts.map((post) => {
+          const preview = post.text?.slice(0, 170) || ''
+          const dt = dayjs(post.datetime)
+          const timeago = dt.isBefore(dayjs().subtract(3, 'd')) ? dt.format('DD.MM') : dt.fromNow()
+          const reactionCount = post.reactionCount || 0
+          return (
+            <a
+              href={`${SITE_URL}posts/${post.id}`}
+              class="digest-post lite-item divider"
+              data-channel={post.channel || ''}
+              data-datetime={post.datetime}
+              data-text={`${post.text?.toLowerCase().slice(0, 500) || ''} ${(post.tags || []).join(' ').toLowerCase()}`}
+              data-topic={(post.legalTopics || []).join(' ')}
+            >
+              <span class="lite-item__meta text-dim">
+                @{post.channel} · {post.category || 'общее'} · {timeago}
+                {reactionCount ? ` · ${reactionCount} реакц.` : ''}
+              </span>
+              <span class="lite-item__text text-body">
+                {preview}
+                {preview.length >= 170 ? '…' : ''}
+              </span>
+            </a>
+          )
+        })
       }
     </div>
 
-    <div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:8px;">
-      <button class="topic-btn active" data-topic="all" onclick="filterTopic('all')">Все темы</button>
-      {
-        categories.slice(0, 8).map((item) => (
-          <button class="topic-btn" data-topic={item.id} onclick={`filterTopic('${item.id}')`}>
-            {item.label}
-          </button>
-        ))
-      }
-    </div>
-
-    <input
-      id="digest-search"
-      type="search"
-      placeholder="Поиск по теме, каналу или ключевому слову"
-      oninput="filterSearch(this.value)"
-      class="search-input"
-      style="font-size:13px;padding:6px 10px;"
-    />
+    <p id="no-results" class="lite-empty text-dim">По текущим фильтрам ничего не найдено.</p>
   </div>
-
-  <div id="posts-list" style="font-size:13px;line-height:1.5;">
-    {
-      allPosts.map((post) => {
-        const preview = post.text?.slice(0, 170) || ''
-        const dt = dayjs(post.datetime)
-        const timeago = dt.isBefore(dayjs().subtract(3, 'd')) ? dt.format('DD.MM') : dt.fromNow()
-        const reactionCount = post.reactionCount || 0
-        return (
-          <a
-            href={`${SITE_URL}posts/${post.id}`}
-            class="digest-post divider"
-            data-channel={post.channel || ''}
-            data-datetime={post.datetime}
-            data-text={`${post.text?.toLowerCase().slice(0, 500) || ''} ${(post.tags || []).join(' ').toLowerCase()}`}
-            data-topic={(post.legalTopics || []).join(' ')}
-            style="display:block;padding:8px 0;text-decoration:none;color:inherit;"
-          >
-            <span class="text-dim" style="font-size:11px;">
-              @{post.channel} · {post.category || 'общее'} · {timeago}
-              {reactionCount ? ` · ${reactionCount} реакц.` : ''}
-            </span>
-            <br />
-            <span class="text-body">
-              {preview}
-              {preview.length >= 170 ? '…' : ''}
-            </span>
-          </a>
-        )
-      })
-    }
-  </div>
-
-  <p id="no-results" class="text-dim" style="display:none;text-align:center;padding:20px 0;font-size:13px;">
-    По текущим фильтрам ничего не найдено.
-  </p>
 </Layout>
 
 <style is:global>
+  .lite-hero {
+    gap: 0.9rem;
+  }
+  .lite-filter-row {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+  .lite-search-input {
+    font-size: 0.82rem;
+    padding: 0.5rem 0.75rem;
+  }
+  .lite-list {
+    font-size: 0.85rem;
+    line-height: 1.55;
+  }
+  .lite-item {
+    display: grid;
+    gap: 0.18rem;
+    padding: 0.62rem 0;
+    text-decoration: none;
+    color: inherit;
+  }
+  .lite-item__meta {
+    font-size: 0.72rem;
+    line-height: 1.45;
+  }
+  .lite-item__text {
+    display: block;
+  }
+  .lite-empty {
+    display: none;
+    text-align: center;
+    padding: 1.25rem 0 0.5rem;
+    font-size: 0.82rem;
+  }
   .filter-btn,
   .channel-btn,
   .topic-btn {
-    padding: 2px 8px;
+    min-height: 1.9rem;
+    padding: 0.2rem 0.55rem;
     border: 1px solid var(--color-line);
-    border-radius: 12px;
+    border-radius: 999px;
     background: var(--color-surface);
     color: var(--color-heading);
-    font-size: 11px;
+    font-size: 0.72rem;
+    font-weight: 700;
     cursor: pointer;
   }
   .filter-btn.active,

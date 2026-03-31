@@ -51,164 +51,167 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
 ---
 
 <Layout channel={channel}>
-  <section class="stats-hero">
-    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
-      <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Статистика покрытия</h1>
-      <div style="display:flex;gap:4px;margin-left:auto;">
-        <a href={SITE_URL} class="nav-pill">Лента</a>
-        <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
-        <a href={`${SITE_URL}compare/`} class="nav-pill">Сравнить</a>
+  <div class="page-stack">
+    <section class="stats-hero page-hero">
+      <div class="page-hero__header">
+        <div class="page-hero__copy">
+          <p class="page-hero__eyebrow">Охват и объём</p>
+          <h1 class="page-hero__title">Статистика покрытия</h1>
+          <p class="page-hero__description stats-hero__text">
+            Следи за тем, какие каналы реально двигают ленту: по объёму, охвату и вовлечённости.
+          </p>
+        </div>
+        <div class="page-hero__nav">
+          <a href={SITE_URL} class="nav-pill">Лента</a>
+          <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
+          <a href={`${SITE_URL}compare/`} class="nav-pill">Сравнить</a>
+        </div>
       </div>
+    </section>
+
+    <div class="stats-grid metric-grid">
+      <article class="stats-box metric-card">
+        <strong>{allPosts.length}</strong>
+        <span>Всего постов</span>
+      </article>
+      <article class="stats-box metric-card">
+        <strong>{channels.length}</strong>
+        <span>Активных каналов</span>
+      </article>
+      <article class="stats-box metric-card">
+        <strong>{categories.length}</strong>
+        <span>Категорий</span>
+      </article>
+      <article class="stats-box metric-card">
+        <strong>{postsWithViews.length}</strong>
+        <span>Постов с охватом</span>
+      </article>
+      <article class="stats-box metric-card">
+        <strong>{formatCompactNumberRu(averageViews)}</strong>
+        <span>Средний охват</span>
+      </article>
+      <article class="stats-box metric-card">
+        <strong>{formatPercentRu(averageEngagement, 1)}</strong>
+        <span>Средняя вовлечённость</span>
+      </article>
     </div>
-    <p class="text-dim stats-hero__text">
-      Следи за тем, какие каналы реально двигают ленту: по объёму, охвату и вовлечённости.
+
+    <section class="stats-section">
+      <h2>Посты по каналам</h2>
+      {
+        channels.map((item) => (
+          <div class="stats-bar-row">
+            <span class="stats-channel">
+              {item.avatar && (
+                <img
+                  src={item.avatar}
+                  alt={item.title}
+                  class="stats-channel__avatar"
+                  loading="lazy"
+                  width="28"
+                  height="28"
+                />
+              )}
+              <span>@{item.name}</span>
+            </span>
+            <div class="stats-bar-track">
+              <div class="stats-bar-fill" style={`width:${Math.round((item.postCount / maxChannelPosts) * 100)}%;`} />
+            </div>
+            <strong>{item.postCount}</strong>
+          </div>
+        ))
+      }
+    </section>
+
+    <section class="stats-section">
+      <h2>Посты по темам</h2>
+      {
+        categories.map((item) => (
+          <div class="stats-bar-row">
+            <span>{item.label}</span>
+            <div class="stats-bar-track">
+              <div class="stats-bar-fill" style={`width:${Math.round((item.count / maxCategoryCount) * 100)}%;`} />
+            </div>
+            <strong>{item.count}</strong>
+          </div>
+        ))
+      }
+    </section>
+
+    {
+      channelsByViews.length > 0 && (
+        <section class="stats-section">
+          <h2>Средний охват по каналам</h2>
+          {channelsByViews.map((item) => (
+            <div class="stats-bar-row">
+              <span class="stats-channel">
+                {item.avatar && (
+                  <img
+                    src={item.avatar}
+                    alt={item.title}
+                    class="stats-channel__avatar"
+                    loading="lazy"
+                    width="28"
+                    height="28"
+                  />
+                )}
+                <span>@{item.name}</span>
+              </span>
+              <div class="stats-bar-track">
+                <div
+                  class="stats-bar-fill"
+                  style={`width:${Math.round(((item.avgViews || 0) / maxAverageViews) * 100)}%;`}
+                />
+              </div>
+              <strong>{formatCompactNumberRu(item.avgViews)}</strong>
+            </div>
+          ))}
+        </section>
+      )
+    }
+
+    {
+      channelsByEngagement.length > 0 && (
+        <section class="stats-section">
+          <h2>Средняя вовлечённость по каналам</h2>
+          {channelsByEngagement.map((item) => (
+            <div class="stats-bar-row">
+              <span class="stats-channel">
+                {item.avatar && (
+                  <img
+                    src={item.avatar}
+                    alt={item.title}
+                    class="stats-channel__avatar"
+                    loading="lazy"
+                    width="28"
+                    height="28"
+                  />
+                )}
+                <span>@{item.name}</span>
+              </span>
+              <div class="stats-bar-track">
+                <div
+                  class="stats-bar-fill"
+                  style={`width:${Math.round(((item.avgEngagement || 0) / maxAverageEngagement) * 100)}%;`}
+                />
+              </div>
+              <strong>{formatPercentRu(item.avgEngagement, 1)}</strong>
+            </div>
+          ))}
+        </section>
+      )
+    }
+
+    <p class="text-dim stats-note">
+      Всего зафиксировано {formatCompactNumberRu(totalKnownViews)} просмотров в постах, где Telegram Web Preview показал счётчик.
+      Подписчики из web preview пока не используются: этот счётчик оформлен как UI-метка и может меняться по локали и типу
+      страницы.
     </p>
-  </section>
-
-  <div class="stats-grid">
-    <article class="stats-box">
-      <strong>{allPosts.length}</strong>
-      <span>Всего постов</span>
-    </article>
-    <article class="stats-box">
-      <strong>{channels.length}</strong>
-      <span>Активных каналов</span>
-    </article>
-    <article class="stats-box">
-      <strong>{categories.length}</strong>
-      <span>Категорий</span>
-    </article>
-    <article class="stats-box">
-      <strong>{postsWithViews.length}</strong>
-      <span>Постов с охватом</span>
-    </article>
-    <article class="stats-box">
-      <strong>{formatCompactNumberRu(averageViews)}</strong>
-      <span>Средний охват</span>
-    </article>
-    <article class="stats-box">
-      <strong>{formatPercentRu(averageEngagement, 1)}</strong>
-      <span>Средняя вовлечённость</span>
-    </article>
   </div>
-
-  <section class="stats-section">
-    <h2>Посты по каналам</h2>
-    {
-      channels.map((item) => (
-        <div class="stats-bar-row">
-          <span class="stats-channel">
-            {item.avatar && (
-              <img
-                src={item.avatar}
-                alt={item.title}
-                class="stats-channel__avatar"
-                loading="lazy"
-                width="28"
-                height="28"
-              />
-            )}
-            <span>@{item.name}</span>
-          </span>
-          <div class="stats-bar-track">
-            <div class="stats-bar-fill" style={`width:${Math.round((item.postCount / maxChannelPosts) * 100)}%;`} />
-          </div>
-          <strong>{item.postCount}</strong>
-        </div>
-      ))
-    }
-  </section>
-
-  <section class="stats-section">
-    <h2>Посты по темам</h2>
-    {
-      categories.map((item) => (
-        <div class="stats-bar-row">
-          <span>{item.label}</span>
-          <div class="stats-bar-track">
-            <div class="stats-bar-fill" style={`width:${Math.round((item.count / maxCategoryCount) * 100)}%;`} />
-          </div>
-          <strong>{item.count}</strong>
-        </div>
-      ))
-    }
-  </section>
-
-  {
-    channelsByViews.length > 0 && (
-      <section class="stats-section">
-        <h2>Средний охват по каналам</h2>
-        {channelsByViews.map((item) => (
-          <div class="stats-bar-row">
-            <span class="stats-channel">
-              {item.avatar && (
-                <img
-                  src={item.avatar}
-                  alt={item.title}
-                  class="stats-channel__avatar"
-                  loading="lazy"
-                  width="28"
-                  height="28"
-                />
-              )}
-              <span>@{item.name}</span>
-            </span>
-            <div class="stats-bar-track">
-              <div
-                class="stats-bar-fill"
-                style={`width:${Math.round(((item.avgViews || 0) / maxAverageViews) * 100)}%;`}
-              />
-            </div>
-            <strong>{formatCompactNumberRu(item.avgViews)}</strong>
-          </div>
-        ))}
-      </section>
-    )
-  }
-
-  {
-    channelsByEngagement.length > 0 && (
-      <section class="stats-section">
-        <h2>Средняя вовлечённость по каналам</h2>
-        {channelsByEngagement.map((item) => (
-          <div class="stats-bar-row">
-            <span class="stats-channel">
-              {item.avatar && (
-                <img
-                  src={item.avatar}
-                  alt={item.title}
-                  class="stats-channel__avatar"
-                  loading="lazy"
-                  width="28"
-                  height="28"
-                />
-              )}
-              <span>@{item.name}</span>
-            </span>
-            <div class="stats-bar-track">
-              <div
-                class="stats-bar-fill"
-                style={`width:${Math.round(((item.avgEngagement || 0) / maxAverageEngagement) * 100)}%;`}
-              />
-            </div>
-            <strong>{formatPercentRu(item.avgEngagement, 1)}</strong>
-          </div>
-        ))}
-      </section>
-    )
-  }
-
-  <p class="text-dim stats-note">
-    Всего зафиксировано {formatCompactNumberRu(totalKnownViews)} просмотров в постах, где Telegram Web Preview показал счётчик.
-    Подписчики из web preview пока не используются: этот счётчик оформлен как UI-метка и может меняться по локали и типу страницы.
-  </p>
 </Layout>
 
 <style>
   .stats-grid {
-    display: grid;
-    gap: 0.9rem;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
     margin-bottom: 1.25rem;
   }
   .stats-box,
@@ -232,13 +235,13 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
   }
   .stats-section h2 {
     margin: 0 0 0.8rem;
-    font-size: 1rem;
+    font-size: 1.02rem;
     color: var(--color-heading);
   }
   .stats-bar-row {
     display: grid;
     gap: 0.7rem;
-    grid-template-columns: minmax(120px, 180px) minmax(0, 1fr) 48px;
+    grid-template-columns: minmax(10rem, 14rem) minmax(0, 1fr) minmax(3rem, auto);
     align-items: center;
     margin-bottom: 0.55rem;
     font-size: 0.9rem;
@@ -265,12 +268,10 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
   }
   .stats-note {
     margin: 0.5rem 0 0;
-    font-size: 0.82rem;
+    font-size: 0.84rem;
+    line-height: 1.55;
   }
   @media (max-width: 720px) {
-    .stats-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
     .stats-bar-row {
       grid-template-columns: 1fr;
     }
@@ -281,23 +282,8 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
       margin-bottom: 1rem;
     }
   }
-  @media (max-width: 520px) {
-    .stats-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-  .stats-hero {
-    margin-bottom: 1rem;
-    border: 1px solid var(--color-line);
-    border-radius: 18px;
-    padding: 1rem;
-    background: color-mix(in srgb, var(--color-surface) 96%, transparent);
-    box-shadow: var(--shadow-soft);
-  }
   .stats-hero__text {
-    margin: 0.7rem 0 0;
-    font-size: 0.92rem;
-    line-height: 1.6;
+    margin: 0;
   }
   .stats-channel {
     display: flex;
