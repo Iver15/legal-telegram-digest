@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-03-31T20:26:51.758Z",
+  "generatedAt": "2026-03-31T21:02:52.037Z",
   "totalPosts": 220,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1120,
+      "viewCount": 1130,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -54,19 +54,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 39.07,
+      "priorityScore": 39,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 21 реакций",
-        "Охват в Telegram Web: 1120 просмотров",
+        "Охват в Telegram Web: 1130 просмотров",
         "Сильная отдача аудитории: 1,9% реакций к просмотрам"
       ],
       "digestSummary": "Восемь месяцев бездействия управляющего обернулись убытками в 74,5 млн рублейВ августе 2020 года суд ввел наблюдение в отношении общества «Стройсвет», а в марте 2021 года признал его банкротом. КУ утвердили Алину Асееву,",
       "reactionCount": 21,
-      "engagementRate": 0.01875
+      "engagementRate": 0.018584070796460177
     },
     {
       "id": "probankrotstvoru/9486",
@@ -141,7 +141,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.54,
+      "priorityScore": 34.46,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -205,7 +205,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 34.17,
+      "priorityScore": 34.09,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -249,7 +249,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 957,
+      "viewCount": 976,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -261,19 +261,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.91,
+      "priorityScore": 33.81,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 957 просмотров",
+        "Охват в Telegram Web: 976 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: подача иска о субсидиарке фиксирует осведомленность КУ для целей иска об убыткахОбщество «МФ Инвест» было признано банкротом в ноябре 2015 года Единственным активом должника являлся молокозавод «Валетта» в Серб",
       "reactionCount": 11,
-      "engagementRate": 0.011494252873563218
+      "engagementRate": 0.011270491803278689
     },
     {
       "id": "probankrotstvoru/9490",
@@ -330,7 +330,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 33.59,
+      "priorityScore": 33.51,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -380,7 +380,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1200,
+      "viewCount": 1210,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -392,19 +392,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 33.5,
+      "priorityScore": 33.41,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 1200 просмотров",
+        "Охват в Telegram Web: 1210 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: материалы налоговой проверки — доказательство вины руководителя в банкротствеВ банкротстве общества «Новое время» КУ Алена Кузнецова потребовала привлечь к субсидиарной ответственности бывшего гендиректора Серг",
       "reactionCount": 16,
-      "engagementRate": 0.013333333333333334
+      "engagementRate": 0.013223140495867768
     },
     {
       "id": "probankrotstvoru/9491",
@@ -449,7 +449,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.54,
+      "priorityScore": 32.46,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -536,7 +536,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "74",
+          "count": "75",
           "isPaid": false
         },
         {
@@ -555,7 +555,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 17300,
+      "viewCount": 17500,
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
       "category": "courts",
@@ -566,18 +566,18 @@
         "bankruptcy",
         "enforcement"
       ],
-      "priorityScore": 31.72,
+      "priorityScore": 31.65,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Высокая вовлечённость: 95 реакций",
-        "Охват в Telegram Web: 17300 просмотров"
+        "Высокая вовлечённость: 96 реакций",
+        "Охват в Telegram Web: 17500 просмотров"
       ],
       "digestSummary": "ВС России защитил право собственников сельскохозяйственных земель в Саратовской области на расторжение договора аренды участка с агрофирмой, систематически нарушавшей его условия. Суд первой инстанции поддержал истцов. О",
-      "reactionCount": 95,
-      "engagementRate": 0.005491329479768786
+      "reactionCount": 96,
+      "engagementRate": 0.005485714285714286
     },
     {
       "id": "probankrotstvoru/9489",
@@ -627,7 +627,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.45,
+      "priorityScore": 31.38,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -747,7 +747,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.08,
+      "priorityScore": 31.01,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
