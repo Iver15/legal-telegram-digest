@@ -3,6 +3,8 @@
 @layer components {
   .content {
     word-break: break-word;
+    overflow-wrap: anywhere;
+    text-wrap: pretty;
 
     font-size: 1rem;
     line-height: 1.82;
@@ -14,6 +16,13 @@
     p {
       margin: 0;
       color: var(--color-ink);
+      text-align: justify;
+      text-justify: inter-word;
+      hyphens: auto;
+    }
+
+    p + p {
+      margin-top: 0.85rem;
     }
 
     ul,
@@ -109,6 +118,13 @@
 
     li {
       line-break: anywhere;
+      text-align: justify;
+      text-justify: inter-word;
+      hyphens: auto;
+    }
+
+    li + li {
+      margin-top: 0.38rem;
     }
 
     img:not(.tg-emoji):not(.sticker):not(.link_preview_image):not(.modal-img) {
@@ -509,13 +525,18 @@
 
     .emoji {
       font-style: normal;
-      margin-right: 2px;
+      margin-right: 0.08em;
+      display: inline-block;
+      vertical-align: -0.04em;
     }
 
     .tg-emoji {
+      display: inline-block;
       width: 1.15em;
       height: 1.15em;
-      vertical-align: -0.15em;
+      margin-inline: 0.04em;
+      vertical-align: -0.14em;
+      object-fit: contain;
     }
 
     .sticker {
