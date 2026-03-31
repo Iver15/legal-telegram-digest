@@ -49,5 +49,14 @@ const breadcrumbTitleClass = 'ml-[10px] flex-1 text-[14px] text-heading'
       {post.title || channel.title}
     </h1>
     {post.datetime && <p class="mt-3 text-sm text-dim">{new Date(post.datetime).toLocaleString('ru-RU')}</p>}
+    <div class="mt-3 flex flex-wrap items-center gap-2">
+      {typeof post.viewCount === 'number' && <span class="badge">👁 {post.viewCount.toLocaleString('ru-RU')}</span>}
+      {
+        typeof post.reactionCount === 'number' && post.reactionCount > 0 && (
+          <span class="badge">❤ {post.reactionCount.toLocaleString('ru-RU')}</span>
+        )
+      }
+      {typeof post.engagementRate === 'number' && <span class="badge">ER {post.engagementRate.toFixed(2)}%</span>}
+    </div>
   </section>
 </List>

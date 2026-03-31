@@ -29,25 +29,41 @@ const reactionCount = post.reactionCount ?? getReactionCount(post)
 const viewCount = post.viewCount
 const engagementRate = post.engagementRate
 const hasSignals = reactionCount > 0 || Boolean(viewCount) || typeof engagementRate === 'number'
+const channelAvatar = post.channelAvatar
 ---
 
 <article class="post-card transition duration-200" style={{ 'view-transition-name': `post-${post.id}` }}>
   <header class="post-card__header">
-    <div>
-      <div class="flex flex-wrap items-center gap-2 text-[12px] text-dim">
-        {post.channelTitle && <span class="badge">@{post.channel}</span>}
-        <span>{timeago}</span>
-        {post.category && <span class="badge">{post.category}</span>}
+    <div class="flex min-w-0 items-start gap-3">
+      {
+        channelAvatar && (
+          <img
+            src={channelAvatar}
+            alt={post.channelTitle || post.channel || 'Канал'}
+            class="mt-0.5 h-11 w-11 shrink-0 rounded-full border border-line object-cover shadow-soft"
+            loading="lazy"
+            width="44"
+            height="44"
+          />
+        )
+      }
+      <div class="min-w-0">
+        <div class="flex flex-wrap items-center gap-2 text-[12px] text-dim">
+          {post.channelTitle && <span class="badge">{post.channelTitle}</span>}
+          {post.channel && <span class="badge">@{post.channel}</span>}
+          <span>{timeago}</span>
+          {post.category && <span class="badge">{post.category}</span>}
+        </div>
+        <h2 class="post-card__title">
+          <a
+            href={`${SITE_URL}posts/${post.id}`}
+            title={post.datetime}
+            class="text-heading no-underline hover:no-underline"
+          >
+            {post.title || summary || `Пост @${post.channel}`}
+          </a>
+        </h2>
       </div>
-      <h2 class="post-card__title">
-        <a
-          href={`${SITE_URL}posts/${post.id}`}
-          title={post.datetime}
-          class="text-heading no-underline hover:no-underline"
-        >
-          {post.title || summary || `Пост @${post.channel}`}
-        </a>
-      </h2>
     </div>
     <a
       href={tgLink}
@@ -74,11 +90,9 @@ const hasSignals = reactionCount > 0 || Boolean(viewCount) || typeof engagementR
   {
     hasSignals && (
       <div class="post-card__signals">
-        {typeof viewCount === 'number' && (
-          <span class="badge">охват {formatCompactNumberRu(viewCount)} просмотров</span>
-        )}
-        {reactionCount > 0 && <span class="badge">{formatCompactNumberRu(reactionCount)} реакц.</span>}
-        {typeof engagementRate === 'number' && <span class="badge">вовл. {formatPercentRu(engagementRate, 1)}</span>}
+        {typeof viewCount === 'number' && <span class="badge">👁 {formatCompactNumberRu(viewCount)}</span>}
+        {reactionCount > 0 && <span class="badge">❤ {formatCompactNumberRu(reactionCount)}</span>}
+        {typeof engagementRate === 'number' && <span class="badge">ER {formatPercentRu(engagementRate, 1)}</span>}
       </div>
     )
   }

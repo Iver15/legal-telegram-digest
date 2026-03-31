@@ -66,8 +66,18 @@ function loadPosts(): Post[] {
   const file = path.join(DATA_DIR, 'posts.json')
   const rawPosts = readJsonFile<Post[]>(file, [])
   const channelDefinitions = getChannelDefinitionMap()
+  const channelsMeta = loadChannelsMeta()
   _posts = rawPosts
-    .map(post => enrichLegalPost(post, post.channel ? channelDefinitions.get(post.channel) : undefined))
+    .map((post) => {
+      const channelDefinition = post.channel ? channelDefinitions.get(post.channel) : undefined
+      const channelMeta = post.channel ? channelsMeta[post.channel] : undefined
+      const enriched = enrichLegalPost(post, channelDefinition)
+      return {
+        ...enriched,
+        channelTitle: enriched.channelTitle || channelDefinition?.title || channelMeta?.title || post.channelTitle,
+        channelAvatar: channelMeta?.avatar,
+      }
+    })
     .sort((a, b) => new Date(b.datetime).getTime() - new Date(a.datetime).getTime())
   return _posts
 }
@@ -185,7 +195,7 @@ export function getAllTags(): string[] {
   return Array.from(tags).sort()
 }
 
-export function getAllChannels(): Array<{ name: string, title: string, postCount: number, category?: string, priorityBoost?: number }> {
+export function getAllChannels(): Array<{ name: string, title: string, postCount: number, category?: string, priorityBoost?: number, avatar?: string }> {
   const definitions = getChannelDefinitionMap()
   const fetchedMeta = loadChannelsMeta()
   const counts: Record<string, number> = {}
@@ -205,6 +215,7 @@ export function getAllChannels(): Array<{ name: string, title: string, postCount
         postCount: counts[name] || 0,
         category: definition?.category,
         priorityBoost: definition?.priorityBoost,
+        avatar: meta?.avatar,
       }
     })
     .sort((a, b) => b.postCount - a.postCount || a.name.localeCompare(b.name))

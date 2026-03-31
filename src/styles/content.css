@@ -92,6 +92,26 @@
       scroll-margin-top: 1rem;
     }
 
+    strong,
+    b {
+      font-weight: 800;
+      color: var(--color-heading);
+      letter-spacing: -0.01em;
+    }
+
+    strong a,
+    b a {
+      font-weight: inherit;
+      color: inherit;
+    }
+
+    em strong,
+    strong em,
+    i b,
+    b i {
+      font-weight: 800;
+    }
+
     ul:first-child,
     ol:first-child,
     p:first-child,
@@ -525,6 +545,7 @@
 
     .emoji {
       font-style: normal;
+      font-weight: 400;
       margin-right: 0.08em;
       display: inline-block;
       vertical-align: -0.04em;

@@ -50,6 +50,7 @@ export interface Post {
   channel?: string
   /** Channel display title */
   channelTitle?: string
+  channelAvatar?: string
   category?: string
   group?: string
   legalTopics?: string[]
