@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-03-31T21:02:52.036Z",
+  "generatedAt": "2026-03-31T21:56:06.770Z",
   "totalPosts": 38,
   "topPosts": [
     {
@@ -54,7 +54,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 34.09,
+      "priorityScore": 33.98,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -117,7 +117,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.01,
+      "priorityScore": 30.9,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -173,7 +173,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.92,
+      "priorityScore": 29.81,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -232,7 +232,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 28.29,
+      "priorityScore": 28.18,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -292,7 +292,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.92,
+      "priorityScore": 27.81,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -333,7 +333,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 247,
+      "viewCount": 248,
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
       "category": "compliance",
@@ -346,18 +346,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 27.67,
+      "priorityScore": 27.56,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 247 просмотров",
+        "Охват в Telegram Web: 248 просмотров",
         "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "Признание и исполнение - решение китайского суда - СОЮРазмещаю недавний российский судебный акт о частичном признании решения народного суда Шанхая.Интересно, что решение в части взыскания китайского аналога астрента рос",
       "reactionCount": 5,
-      "engagementRate": 0.020242914979757085
+      "engagementRate": 0.020161290322580645
     },
     {
       "id": "domnin_sa/538",
@@ -395,7 +395,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1110,
+      "viewCount": 1120,
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
       "category": "bankruptcy",
@@ -407,19 +407,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.37,
+      "priorityScore": 27.27,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Исполнение",
         "Высокая вовлечённость: 28 реакций",
-        "Охват в Telegram Web: 1110 просмотров",
+        "Охват в Telegram Web: 1120 просмотров",
         "Сильная отдача аудитории: 2,5% реакций к просмотрам"
       ],
       "digestSummary": "Не дело, а конфетка И.В.Разумов передал в СКЭС дело по вопросу установления процентного вознаграждения нескольким АУ, последовательно сменявшим друг друга в одной процедуре банкротства.ФабулаВ деле о банкротстве ООО «ТОК",
       "reactionCount": 28,
-      "engagementRate": 0.025225225225225224
+      "engagementRate": 0.025
     },
     {
       "id": "disputesandsanctions/2405",
@@ -456,7 +456,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 27.33,
+      "priorityScore": 27.22,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -513,7 +513,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 21700,
+      "viewCount": 21800,
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
       "category": "courts",
@@ -523,19 +523,19 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 26.57,
+      "priorityScore": 26.45,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 263 реакций",
-        "Охват в Telegram Web: 21700 просмотров",
+        "Охват в Telegram Web: 21800 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд РФ защитил интересы детей в деле о суррогатном материнстве с участием иностранных граждан. Супруги из Австралии воспользовались программой с применением донорских яйцеклеток другой женщины, что противоречит",
       "reactionCount": 263,
-      "engagementRate": 0.012119815668202765
+      "engagementRate": 0.012064220183486239
     },
     {
       "id": "probankrotstvoru/9477",
@@ -568,7 +568,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2270,
+      "viewCount": 2280,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -580,18 +580,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.06,
+      "priorityScore": 25.95,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 2270 просмотров"
+        "Охват в Telegram Web: 2280 просмотров"
       ],
       "digestSummary": "КС не нашел неопределенности в статье о преднамеренном банкротствеКонституционный Суд отказался принять к рассмотрению жалобу Асланбия Нагоя на ст. 196 Уголовного кодекса РФ о преднамеренном банкротстве. Заявитель был ос",
       "reactionCount": 17,
-      "engagementRate": 0.007488986784140969
+      "engagementRate": 0.007456140350877193
     },
     {
       "id": "sovetsudey/824",
@@ -652,7 +652,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 25.37,
+      "priorityScore": 25.26,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -691,7 +691,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 929,
+      "viewCount": 930,
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
       "category": "compliance",
@@ -704,17 +704,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 24.8,
+      "priorityScore": 24.69,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 929 просмотров"
+        "Охват в Telegram Web: 930 просмотров"
       ],
       "digestSummary": "Факт увеличения агентского вознаграждения сам по себе не доказывает явного ущерба — необходимо сравнение с рыночной стоимостью аналогичных услуг#корпоративные_споры#недействительность_сделки#агентский_договорВетров А.Б. ",
       "reactionCount": 1,
-      "engagementRate": 0.001076426264800861
+      "engagementRate": 0.001075268817204301
     }
   ],
   "topTopics": [
