@@ -1,8 +1,8 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-03-31T06:41:24.150Z",
-  "totalPosts": 41,
+  "generatedAt": "2026-03-31T06:48:20.014Z",
+  "totalPosts": 42,
   "topPosts": [
     {
       "id": "probankrotstvoru/9485",
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 921,
+      "viewCount": 924,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -54,19 +54,19 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 36.39,
+      "priorityScore": 36.37,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 921 просмотров",
+        "Охват в Telegram Web: 924 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Банкротство в корпоративной структуре: контроль, сделки, субсидиарная ответственностьПродолжаем знакомить со спикерами Банкротного дня в рамках Международного налогового форума.Вадим Мартаков, руководитель департамента ф",
       "reactionCount": 14,
-      "engagementRate": 0.01520086862106406
+      "engagementRate": 0.015151515151515152
     },
     {
       "id": "probankrotstvoru/9484",
@@ -118,7 +118,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.14,
+      "priorityScore": 33.13,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -175,7 +175,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.81,
+      "priorityScore": 31.8,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -234,7 +234,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 30.04,
+      "priorityScore": 30.02,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -294,7 +294,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 29.93,
+      "priorityScore": 29.91,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -348,7 +348,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 29.27,
+      "priorityScore": 29.25,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -397,7 +397,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 776,
+      "viewCount": 781,
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
       "category": "bankruptcy",
@@ -409,19 +409,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.66,
+      "priorityScore": 28.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Исполнение",
         "Высокая вовлечённость: 24 реакций",
-        "Охват в Telegram Web: 776 просмотров",
+        "Охват в Telegram Web: 781 просмотров",
         "Сильная отдача аудитории: 3,1% реакций к просмотрам"
       ],
       "digestSummary": "Не дело, а конфетка И.В.Разумов передал в СКЭС дело по вопросу установления процентного вознаграждения нескольким АУ, последовательно сменявшим друг друга в одной процедуре банкротства.ФабулаВ деле о банкротстве ООО «ТОК",
       "reactionCount": 24,
-      "engagementRate": 0.030927835051546393
+      "engagementRate": 0.030729833546734954
     },
     {
       "id": "disputesandsanctions/2405",
@@ -458,7 +458,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.65,
+      "priorityScore": 28.64,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -525,7 +525,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.45,
+      "priorityScore": 28.44,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -570,7 +570,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1970,
+      "viewCount": 1980,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -582,18 +582,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.97,
+      "priorityScore": 27.95,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 1970 просмотров"
+        "Охват в Telegram Web: 1980 просмотров"
       ],
       "digestSummary": "КС не нашел неопределенности в статье о преднамеренном банкротствеКонституционный Суд отказался принять к рассмотрению жалобу Асланбия Нагоя на ст. 196 Уголовного кодекса РФ о преднамеренном банкротстве. Заявитель был ос",
       "reactionCount": 17,
-      "engagementRate": 0.008629441624365483
+      "engagementRate": 0.008585858585858586
     },
     {
       "id": "sovetsudey/824",
@@ -649,7 +649,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 27.21,
+      "priorityScore": 27.19,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -712,7 +712,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 26.5,
+      "priorityScore": 26.48,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
@@ -731,17 +731,17 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 39
+      "count": 40
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 33
+      "count": 34
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 28
+      "count": 29
     },
     {
       "id": "enforcement",
@@ -751,7 +751,7 @@
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 19
+      "count": 20
     },
     {
       "id": "compliance",
@@ -801,8 +801,8 @@
       "count": 3
     },
     {
-      "channel": "legally_bald",
-      "title": "Legally_bald (Даниил Савченко)",
+      "channel": "sudpraktik",
+      "title": "СУДЕБНАЯ ПРАКТИКА",
       "count": 2
     }
   ]

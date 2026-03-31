@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-03-31T06:41:24.151Z",
+  "generatedAt": "2026-03-31T06:48:20.015Z",
   "totalPosts": 22,
   "topPosts": [
     {
@@ -47,7 +47,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.18,
+      "priorityScore": 27.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -84,7 +84,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 825,
+      "viewCount": 829,
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
       "category": "compliance",
@@ -97,17 +97,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 26.58,
+      "priorityScore": 26.56,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 825 просмотров"
+        "Охват в Telegram Web: 829 просмотров"
       ],
       "digestSummary": "Факт увеличения агентского вознаграждения сам по себе не доказывает явного ущерба — необходимо сравнение с рыночной стоимостью аналогичных услуг#корпоративные_споры#недействительность_сделки#агентский_договорВетров А.Б. ",
       "reactionCount": 1,
-      "engagementRate": 0.0012121212121212121
+      "engagementRate": 0.0012062726176115801
     },
     {
       "id": "shapovalovagroup/1259",
@@ -135,7 +135,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 464,
+      "viewCount": 465,
       "channel": "shapovalovagroup",
       "channelTitle": "Защита арбитражных управляющих",
       "category": "arbitration",
@@ -147,18 +147,18 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 25.5,
+      "priorityScore": 25.49,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 464 просмотров",
+        "Охват в Telegram Web: 465 просмотров",
         "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "Суд может исключить из конкурсной массы прожиточный минимум на супругу должника,если она в декрете На иждивении у должника находятся супруга и двое несовершеннолетних детей,второму ребенку нет 3 лет. Должник обратился с ",
       "reactionCount": 8,
-      "engagementRate": 0.017241379310344827
+      "engagementRate": 0.017204301075268817
     },
     {
       "id": "vZone1413/8806",
@@ -175,7 +175,7 @@
       "text": "Суд - Производство по жалобе на АУ прекратить. явленное Боярской Верой Владимировной требование о проведении проверки в отношении АУ на предмет надлежащего исполнения обязанностей, не подлежит рассмотрению в рамках дела о банкротстве.Москва А41-18850/24 16.03.26г.",
       "content": "<p>Суд - Производство по жалобе на АУ прекратить. явленное Боярской Верой Владимировной требование о проведении проверки в отношении АУ на предмет надлежащего исполнения обязанностей, не подлежит рассмотрению в рамках дела о банкротстве.<br>Москва <a href=\"https://kad.arbitr.ru/Document/Pdf/45e60ff2-a9b1-458f-8a20-7ffdca5e1def/d4a8f51f-5ecb-4018-bdf8-501010a5b965/A41-18850-2024_20260316_Opredelenie.pdf?isAddStamp=True\" target=\"_blank\" rel=\"noopener\" title=\"А41-18850/24\">А41-18850/24</a> 16.03.26г.</p>",
       "reactions": [],
-      "viewCount": 607,
+      "viewCount": 608,
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
       "category": "bankruptcy",
@@ -187,13 +187,13 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 21.74,
+      "priorityScore": 21.73,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 607 просмотров"
+        "Охват в Telegram Web: 608 просмотров"
       ],
       "digestSummary": "Суд - Производство по жалобе на АУ прекратить. явленное Боярской Верой Владимировной требование о проведении проверки в отношении АУ на предмет надлежащего исполнения обязанностей, не подлежит рассмотрению в рамках дела ",
       "reactionCount": 0,
@@ -224,7 +224,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 651,
+      "viewCount": 652,
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
       "category": "bankruptcy",
@@ -235,18 +235,18 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 21.27,
+      "priorityScore": 21.25,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 651 просмотров",
+        "Охват в Telegram Web: 652 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "💥Суд - Учитывая системность и повторяемость обращений Стекляновой Н. действующей в интересах Алферьева В. и Сорокиной Т., с тождественными доводами без фактическогоуказания на обстоятельства нарушения прав и законных ин",
       "reactionCount": 9,
-      "engagementRate": 0.013824884792626729
+      "engagementRate": 0.013803680981595092
     },
     {
       "id": "legally_bald/1121",
@@ -284,7 +284,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 20.71,
+      "priorityScore": 20.7,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -347,7 +347,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 20.32,
+      "priorityScore": 20.31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -391,7 +391,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 17.78,
+      "priorityScore": 17.76,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -438,7 +438,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 920,
+      "viewCount": 921,
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
       "category": "compliance",
@@ -449,17 +449,17 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 17.18,
+      "priorityScore": 17.17,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 920 просмотров"
+        "Охват в Telegram Web: 921 просмотров"
       ],
       "digestSummary": "Рассказываем, чем запомнился март, и что нас ждет в апреле в Клубе корпоративных споров в карточках.В этом месяце мы обсудим:📌 3 апреля — «Как продумать карьерный трек и развить навыки для успешной карьеры юриста» с Оль",
       "reactionCount": 4,
-      "engagementRate": 0.004347826086956522
+      "engagementRate": 0.004343105320304018
     },
     {
       "id": "vZone1413/8800",
@@ -488,7 +488,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 15.69,
+      "priorityScore": 15.67,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -527,7 +527,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 15.67,
+      "priorityScore": 15.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -563,7 +563,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 614,
+      "viewCount": 615,
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
       "category": "bankruptcy",
@@ -573,16 +573,16 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 15.57,
+      "priorityScore": 15.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 614 просмотров"
+        "Охват в Telegram Web: 615 просмотров"
       ],
       "digestSummary": "Сорокина Т. обратилась с жалобой на КУ в Главную военную прокуратуру. Главная военная прокуратура передала обращение по подведомственности в Головинскую межрайонную прокуратуру Северного административного округа г. Москв",
       "reactionCount": 4,
-      "engagementRate": 0.006514657980456026
+      "engagementRate": 0.0065040650406504065
     }
   ],
   "topTopics": [
