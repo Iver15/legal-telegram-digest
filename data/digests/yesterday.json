@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-03-31T21:56:06.770Z",
+  "generatedAt": "2026-03-31T22:27:29.360Z",
   "totalPosts": 38,
   "topPosts": [
     {
@@ -54,7 +54,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.98,
+      "priorityScore": 33.91,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -117,7 +117,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.9,
+      "priorityScore": 30.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -173,7 +173,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.81,
+      "priorityScore": 29.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -232,7 +232,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 28.18,
+      "priorityScore": 28.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -292,7 +292,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.81,
+      "priorityScore": 27.74,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -346,7 +346,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 27.56,
+      "priorityScore": 27.5,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -407,7 +407,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.27,
+      "priorityScore": 27.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -456,7 +456,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 27.22,
+      "priorityScore": 27.15,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -523,7 +523,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 26.45,
+      "priorityScore": 26.38,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -580,7 +580,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.95,
+      "priorityScore": 25.88,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -652,7 +652,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 25.26,
+      "priorityScore": 25.2,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -691,7 +691,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 930,
+      "viewCount": 931,
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
       "category": "compliance",
@@ -704,17 +704,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 24.69,
+      "priorityScore": 24.62,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 930 просмотров"
+        "Охват в Telegram Web: 931 просмотров"
       ],
       "digestSummary": "Факт увеличения агентского вознаграждения сам по себе не доказывает явного ущерба — необходимо сравнение с рыночной стоимостью аналогичных услуг#корпоративные_споры#недействительность_сделки#агентский_договорВетров А.Б. ",
       "reactionCount": 1,
-      "engagementRate": 0.001075268817204301
+      "engagementRate": 0.0010741138560687433
     }
   ],
   "topTopics": [

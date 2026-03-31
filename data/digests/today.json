@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-03-31T21:56:06.767Z",
+  "generatedAt": "2026-03-31T22:27:29.359Z",
   "totalPosts": 38,
   "topPosts": [
     {
@@ -54,7 +54,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 38.89,
+      "priorityScore": 38.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -141,7 +141,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.35,
+      "priorityScore": 34.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -186,7 +186,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 989,
+      "viewCount": 997,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -198,19 +198,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.68,
+      "priorityScore": 33.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 989 просмотров",
+        "Охват в Telegram Web: 997 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: подача иска о субсидиарке фиксирует осведомленность КУ для целей иска об убыткахОбщество «МФ Инвест» было признано банкротом в ноябре 2015 года Единственным активом должника являлся молокозавод «Валетта» в Серб",
       "reactionCount": 11,
-      "engagementRate": 0.011122345803842264
+      "engagementRate": 0.011033099297893681
     },
     {
       "id": "probankrotstvoru/9490",
@@ -267,7 +267,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 33.4,
+      "priorityScore": 33.34,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -329,7 +329,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 33.29,
+      "priorityScore": 33.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -386,7 +386,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.34,
+      "priorityScore": 32.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -414,7 +414,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "76",
+          "count": "77",
           "isPaid": false
         },
         {
@@ -444,18 +444,18 @@
         "bankruptcy",
         "enforcement"
       ],
-      "priorityScore": 31.54,
+      "priorityScore": 31.48,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Высокая вовлечённость: 97 реакций",
+        "Высокая вовлечённость: 98 реакций",
         "Охват в Telegram Web: 17600 просмотров"
       ],
       "digestSummary": "ВС России защитил право собственников сельскохозяйственных земель в Саратовской области на расторжение договора аренды участка с агрофирмой, систематически нарушавшей его условия. Суд первой инстанции поддержал истцов. О",
-      "reactionCount": 97,
-      "engagementRate": 0.005511363636363636
+      "reactionCount": 98,
+      "engagementRate": 0.0055681818181818185
     },
     {
       "id": "probankrotstvoru/9489",
@@ -505,7 +505,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.26,
+      "priorityScore": 31.19,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -563,7 +563,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 29.4,
+      "priorityScore": 29.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -608,7 +608,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 713,
+      "viewCount": 728,
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
       "category": "bankruptcy",
@@ -620,19 +620,19 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 27.02,
+      "priorityScore": 26.96,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 37 реакций",
-        "Охват в Telegram Web: 713 просмотров",
-        "Сильная отдача аудитории: 5,2% реакций к просмотрам"
+        "Охват в Telegram Web: 728 просмотров",
+        "Сильная отдача аудитории: 5,1% реакций к просмотрам"
       ],
       "digestSummary": "Правительство России не будет обжаловать решение Верховного Суда России по справкам ГИБДД. Уже в начале апреля, не дожидаясь вступления в силу, выписки начнут выдавать на бумаге по запросам АУ, как и раньше",
       "reactionCount": 37,
-      "engagementRate": 0.051893408134642355
+      "engagementRate": 0.050824175824175824
     },
     {
       "id": "corplawpro/5851",
@@ -660,7 +660,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 707,
+      "viewCount": 712,
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
       "category": "compliance",
@@ -672,17 +672,17 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 26.66,
+      "priorityScore": 26.59,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Налоги",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 707 просмотров"
+        "Охват в Telegram Web: 712 просмотров"
       ],
       "digestSummary": "Экономколлегия запретила применять расчетный метод определения расходов, если налогоплательщик сам организовал формальный документооборот с участием «технических» компаний.Компания «Вокфорс» оказывала клининговые услуги ",
       "reactionCount": 2,
-      "engagementRate": 0.002828854314002829
+      "engagementRate": 0.0028089887640449437
     },
     {
       "id": "Compliance_Practice/3026",
@@ -733,7 +733,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1050,
+      "viewCount": 1060,
       "channel": "Compliance_Practice",
       "channelTitle": "Compliance practice",
       "category": "compliance",
@@ -746,17 +746,17 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 25.76,
+      "priorityScore": 25.69,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 1050 просмотров"
+        "Охват в Telegram Web: 1060 просмотров"
       ],
       "digestSummary": "Про бизнес и санкцииСанкционные компании всю 4 летнюю дорогу говорили инстанциям ЕС, что санкции несправедливы, так как их бизнес не связан с правительством и с режимом (помним про «крокодиловы слезы» олигархов). Но вот ",
       "reactionCount": 7,
-      "engagementRate": 0.006666666666666667
+      "engagementRate": 0.006603773584905661
     }
   ],
   "topTopics": [
