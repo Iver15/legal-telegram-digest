@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-03-31T10:58:32.205Z",
-  "totalPosts": 246,
+  "generatedAt": "2026-03-31T11:04:26.701Z",
+  "totalPosts": 220,
   "topPosts": [
     {
       "id": "probankrotstvoru/9486",
@@ -60,7 +60,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1090,
+      "viewCount": 1100,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -72,19 +72,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 35.55,
+      "priorityScore": 35.54,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Исполнение",
         "Высокая вовлечённость: 27 реакций",
-        "Охват в Telegram Web: 1090 просмотров",
+        "Охват в Telegram Web: 1100 просмотров",
         "Сильная отдача аудитории: 2,5% реакций к просмотрам"
       ],
       "digestSummary": "В Госдуму внесли масштабный законопроект о реформе института банкротства26 марта 2026 года группа депутатов и сенаторов предложила новую масштабную реформу — документ № 1188799-8, предусматривающий важные изменения в про",
       "reactionCount": 27,
-      "engagementRate": 0.024770642201834864
+      "engagementRate": 0.024545454545454544
     },
     {
       "id": "probankrotstvoru/9485",
@@ -136,7 +136,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 35.46,
+      "priorityScore": 35.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -186,7 +186,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 776,
+      "viewCount": 793,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -198,19 +198,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 34.49,
+      "priorityScore": 34.48,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 776 просмотров",
+        "Охват в Telegram Web: 793 просмотров",
         "Сильная отдача аудитории: 1,8% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: материалы налоговой проверки — доказательство вины руководителя в банкротствеВ банкротстве общества «Новое время» КУ Алена Кузнецова потребовала привлечь к субсидиарной ответственности бывшего гендиректора Серг",
       "reactionCount": 14,
-      "engagementRate": 0.01804123711340206
+      "engagementRate": 0.017654476670870115
     },
     {
       "id": "probankrotstvoru/9442",
@@ -297,7 +297,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 432,
+      "viewCount": 475,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -309,18 +309,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.64,
+      "priorityScore": 32.48,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 432 просмотров",
-        "Сильная отдача аудитории: 1,4% реакций к просмотрам"
+        "Охват в Telegram Web: 475 просмотров",
+        "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Бывшего КУ обязали возместить расходы на аудитора, исправлявшего налоговые ошибкиСедьмой арбитражный апелляционный суд подтвердил, что бывший КУ общества «Энергоуголь» Юлия Бакаминова должна компенсировать расходы на при",
       "reactionCount": 6,
-      "engagementRate": 0.013888888888888888
+      "engagementRate": 0.01263157894736842
     },
     {
       "id": "probankrotstvoru/9484",
@@ -372,7 +372,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.38,
+      "priorityScore": 32.37,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -533,7 +533,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1740,
+      "viewCount": 1750,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -545,18 +545,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.22,
+      "priorityScore": 31.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 1740 просмотров"
+        "Охват в Telegram Web: 1750 просмотров"
       ],
       "digestSummary": "Суд округа: умысел управляющего не освобождает страховщика от выплаты возмещенияАрбитражный суд Волгоградской области в апреле 2024 года взыскал с КУ Алексея Здановича 5,7 млн рублей убытков в пользу конкурсной массы общ",
       "reactionCount": 13,
-      "engagementRate": 0.007471264367816092
+      "engagementRate": 0.0074285714285714285
     },
     {
       "id": "probankrotstvoru/9488",
@@ -593,7 +593,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 700,
+      "viewCount": 723,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -611,12 +611,12 @@
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 700 просмотров",
-        "Сильная отдача аудитории: 1,6% реакций к просмотрам"
+        "Охват в Telegram Web: 723 просмотров",
+        "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Коллизия в законодательстве о банкротстве: разрешить ее может только Верховный Суд В процедурах банкротства при пересмотре требований кредиторов могут применяться два механизма: гл. 37 АПК РФ — пересмотр судебных актов п",
       "reactionCount": 11,
-      "engagementRate": 0.015714285714285715
+      "engagementRate": 0.015214384508990318
     },
     {
       "id": "domnin_sa/534",
@@ -757,44 +757,44 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 204
-    },
-    {
-      "id": "ai_law",
-      "label": "AI+Law",
-      "count": 177
+      "count": 179
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 173
+      "count": 169
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 168
+      "count": 166
+    },
+    {
+      "id": "ai_law",
+      "label": "AI+Law",
+      "count": 157
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 120
+      "count": 96
     },
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 42
+      "count": 39
     },
     {
       "id": "tax",
       "label": "Налоги",
-      "count": 37
+      "count": 33
     }
   ],
   "topChannels": [
     {
       "channel": "probankrotstvoru",
       "title": "PROбанкротство",
-      "count": 49
+      "count": 48
     },
     {
       "channel": "vZone1413",
@@ -805,11 +805,6 @@
       "channel": "orpauradio",
       "title": "Первый радиоканал АУ и юристов",
       "count": 27
-    },
-    {
-      "channel": "pravoinf",
-      "title": "Правовая информация",
-      "count": 24
     },
     {
       "channel": "sovetsudey",
@@ -827,9 +822,14 @@
       "count": 13
     },
     {
+      "channel": "Shokobear",
+      "title": "Shokobear (Олег Зайцев о банкротстве)",
+      "count": 9
+    },
+    {
       "channel": "fedresurs_insolvency",
       "title": "Федресурс: банкротные новости",
-      "count": 9
+      "count": 8
     }
   ]
 }
