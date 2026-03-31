@@ -8,7 +8,7 @@ const timezone = import.meta.env.TIMEZONE || 'Europe/Moscow'
 locale && dayjs.locale(locale)
 
 const SITE_URL = import.meta.env.BASE_URL ?? '/'
-const { post, isItem } = Astro.props
+const { post, isItem = false, collapsible = false } = Astro.props
 
 const channel = import.meta.env.CHANNEL || 'neuraldeep'
 const postNumericId = post.id.includes('/') ? post.id.split('/').pop() : post.id
@@ -24,7 +24,7 @@ const hasReactions = Boolean(REACTIONS && post.reactions?.length > 0)
 const hasTags = post.tags.length > 0
 const legalTopics = post.legalTopics || []
 const priorityScore = post.priorityScore || 0
-const summary = post.digestSummary || post.text?.slice(0, 180) || ''
+const summary = post.digestSummary || post.text?.slice(0, 240) || ''
 const reactionCount = post.reactionCount ?? getReactionCount(post)
 const viewCount = post.viewCount
 const engagementRate = post.engagementRate
@@ -32,7 +32,10 @@ const hasSignals = reactionCount > 0 || Boolean(viewCount) || typeof engagementR
 const channelAvatar = post.channelAvatar
 ---
 
-<article class="post-card transition duration-200" style={{ 'view-transition-name': `post-${post.id}` }}>
+<article
+  class:list={['post-card transition duration-200', collapsible && 'post-card--collapsible']}
+  style={{ 'view-transition-name': `post-${post.id}` }}
+>
   <header class="post-card__header">
     <div class="flex min-w-0 items-start gap-3">
       {
@@ -47,33 +50,30 @@ const channelAvatar = post.channelAvatar
           />
         )
       }
-      <div class="min-w-0">
-        <div class="flex flex-wrap items-center gap-2 text-[12px] text-dim">
-          {post.channelTitle && <span class="badge">{post.channelTitle}</span>}
-          {post.channel && <span class="badge">@{post.channel}</span>}
+      <div class="min-w-0 flex-1">
+        <div class="post-card__channel-line">
+          <span class="post-card__channel-title">{post.channelTitle || 'Канал'}</span>
+          {post.channel && <span class="post-card__channel-handle">@{post.channel}</span>}
+        </div>
+        <div class="mt-1.5 flex flex-wrap items-center gap-2 text-[12px] text-dim">
           <span>{timeago}</span>
           {post.category && <span class="badge">{post.category}</span>}
         </div>
-        <h2 class="post-card__title">
-          <a
-            href={`${SITE_URL}posts/${post.id}`}
-            title={post.datetime}
-            class="text-heading no-underline hover:no-underline"
-          >
-            {post.title || summary || `Пост @${post.channel}`}
-          </a>
-        </h2>
       </div>
     </div>
-    <a
-      href={tgLink}
-      target="_blank"
-      rel="noopener noreferrer"
-      title="Открыть в Telegram"
-      class="post-card__telegram badge"
-    >
-      в Telegram
-    </a>
+    <div class="flex shrink-0 items-center gap-2">
+      <a href={`${SITE_URL}posts/${post.id}`} title="Открыть карточку поста" class="post-card__telegram badge">читать</a
+      >
+      <a
+        href={tgLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Открыть в Telegram"
+        class="post-card__telegram badge"
+      >
+        Telegram
+      </a>
+    </div>
   </header>
 
   {
@@ -98,7 +98,17 @@ const channelAvatar = post.channelAvatar
   }
 
   {
-    hasContent ? (
+    collapsible ? (
+      <>
+        <div class="post-card__preview text-[15px] leading-[1.75] text-body">{summary}</div>
+        {hasContent && (
+          <details class="post-card__details">
+            <summary class="post-card__summary-toggle">Развернуть полностью</summary>
+            <div class="post-card__details-content content" set:html={post.content} />
+          </details>
+        )}
+      </>
+    ) : hasContent ? (
       <div
         class:list={['post-card__body content', !hasReactions && !hasTags && !COMMENTS && !hasSignals && 'pb-6']}
         set:html={post.content}
