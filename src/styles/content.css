@@ -6,11 +6,11 @@
     overflow-wrap: anywhere;
     text-wrap: pretty;
 
-    font-size: 1rem;
-    line-height: 1.82;
+    font-size: 0.985rem;
+    line-height: 1.68;
 
     > * + * {
-      margin-top: 1rem;
+      margin-top: 0.72rem;
     }
 
     p {
@@ -22,13 +22,13 @@
     }
 
     p + p {
-      margin-top: 0.85rem;
+      margin-top: 0.62rem;
     }
 
     ul,
     ol {
       margin: 0;
-      padding-inline-start: 1.4rem;
+      padding-inline-start: 1.2rem;
     }
 
     ul {
@@ -144,13 +144,16 @@
     }
 
     li + li {
-      margin-top: 0.38rem;
+      margin-top: 0.24rem;
     }
 
     img:not(.tg-emoji):not(.sticker):not(.link_preview_image):not(.modal-img) {
-      width: calc(100% - var(--box-margin));
+      display: block;
+      width: min(100%, clamp(320px, 62vw, 760px));
       max-width: calc(100% - 1px);
-      max-height: initial;
+      max-height: min(560px, 62svh);
+      margin-inline: auto;
+      object-fit: cover;
       border-radius: var(--radius-media);
       border: 1px solid var(--color-line);
       box-shadow: var(--shadow-soft);
@@ -182,8 +185,8 @@
     }
 
     figure {
-      margin-inline-start: 0;
-      margin-inline-end: 10px;
+      width: min(100%, clamp(320px, 62vw, 760px));
+      margin-inline: auto;
     }
 
     figcaption {
@@ -718,6 +721,56 @@
       border: 1px solid var(--color-line);
       box-shadow: var(--shadow-soft);
       object-fit: contain;
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  @layer components {
+    .content {
+      font-size: 0.965rem;
+      line-height: 1.62;
+    }
+
+    .content
+      > :not(img):not(figure):not(pre):not(table):not(.image-list-container):not(.tgme_widget_message_link_preview):not(
+        iframe
+      ) {
+      max-width: 74ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .content blockquote,
+    .content .tg-expandable,
+    .content pre,
+    .content table,
+    .content > iframe,
+    .content .tgme_widget_message_link_preview {
+      max-width: min(100%, 74ch);
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .content img:not(.tg-emoji):not(.sticker):not(.link_preview_image):not(.modal-img),
+    .content figure {
+      width: min(100%, 680px);
+      max-height: 460px;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  @layer components {
+    .content {
+      font-size: 0.96rem;
+      line-height: 1.64;
+    }
+
+    .content img:not(.tg-emoji):not(.sticker):not(.link_preview_image):not(.modal-img),
+    .content figure {
+      width: 100%;
+      max-height: none;
     }
   }
 }
