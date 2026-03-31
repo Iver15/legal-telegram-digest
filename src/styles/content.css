@@ -2,7 +2,7 @@
 
 @layer components {
   .content {
-    --content-measure: min(100%, 72ch);
+    --content-measure: min(100%, 70ch);
     --content-media-max: min(100%, 58rem);
 
     max-width: var(--content-measure);
@@ -11,10 +11,10 @@
     text-wrap: pretty;
 
     font-size: clamp(0.99rem, 0.24vw + 0.94rem, 1.05rem);
-    line-height: 1.72;
+    line-height: 1.76;
 
     > * + * {
-      margin-top: 0.82rem;
+      margin-top: 0.92rem;
     }
 
     p {
@@ -24,13 +24,13 @@
     }
 
     p + p {
-      margin-top: 0.74rem;
+      margin-top: 0.82rem;
     }
 
     ul,
     ol {
       margin: 0;
-      padding-inline-start: 1.2rem;
+      padding-inline-start: 1.28rem;
     }
 
     ul {
@@ -152,6 +152,15 @@
       margin-top: 0.34rem;
     }
 
+    blockquote {
+      margin: 1rem 0;
+      padding: 0.9rem 1rem;
+      border-left: 3px solid color-mix(in srgb, var(--color-accent) 40%, var(--color-line));
+      border-radius: 0 var(--radius-media) var(--radius-media) 0;
+      background: color-mix(in srgb, var(--color-code) 88%, transparent);
+      color: var(--color-heading);
+    }
+
     img:not(.tg-emoji):not(.sticker):not(.link_preview_image):not(.modal-img) {
       display: block;
       width: auto;
@@ -183,6 +192,7 @@
       width: 100%;
       max-width: min(100%, 54rem);
       overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
     }
 
     code {
@@ -211,12 +221,18 @@
     }
 
     table {
+      display: block;
       table-layout: auto;
       width: 100%;
       max-width: min(100%, var(--content-media-max));
       padding: 0;
       border-collapse: collapse;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      border: 1px solid var(--color-line);
+      border-radius: var(--radius-media);
       box-shadow: var(--shadow-soft);
+      background: color-mix(in srgb, var(--color-surface) 94%, transparent);
     }
 
     table tr {

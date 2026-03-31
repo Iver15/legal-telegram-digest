@@ -9,12 +9,12 @@ const posts = channel.posts ?? []
 
 const beforeCursor = posts[posts.length - 1]?.id
 const afterCursor = posts[0]?.id
-const itemsClass = 'm-0 list-none pl-0'
-const paginationClass = 'mt-4 mb-2 flex items-center'
+const itemsClass = 'm-0 grid list-none gap-[0.8rem] pl-0'
+const paginationClass = 'mt-5 mb-1 flex items-center gap-3'
 const paginationLinkClass =
-  'inline-flex min-h-9 items-center justify-center rounded-[30px] border border-muted px-[15px] py-[5px] text-[14px] font-medium text-muted no-underline hover:text-accent hover:no-underline active:bg-line'
+  'inline-flex min-h-10 min-w-[6.5rem] items-center justify-center rounded-[30px] border border-muted px-4 py-[0.45rem] text-[14px] font-medium text-muted no-underline hover:text-accent hover:no-underline active:bg-line'
 const paginationInfoClass = 'flex-1 text-center align-middle text-[12px] font-medium text-muted'
-const paginationPlaceholderClass = 'inline-block w-[34px]'
+const paginationPlaceholderClass = 'inline-block min-w-[6.5rem]'
 ---
 
 <Layout channel={channel}>

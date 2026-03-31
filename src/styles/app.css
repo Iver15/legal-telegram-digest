@@ -37,6 +37,7 @@
     --dot-size: 8px;
     --page-max-width: 92rem;
     --content-max-width: 74ch;
+    --mobile-dock-reserve: 5.6rem;
     --section-gap: clamp(0.95rem, 0.4vw + 0.82rem, 1.2rem);
     --panel-padding: clamp(0.95rem, 0.5vw + 0.82rem, 1.2rem);
     --panel-gap: clamp(0.75rem, 0.35vw + 0.66rem, 1rem);
@@ -56,6 +57,7 @@
   }
 
   body {
+    min-height: 100dvh;
     min-width: 320px;
     background-color: var(--color-paper);
     color: var(--color-ink);
@@ -335,11 +337,11 @@ html[data-theme='dark'] {
   .metric-card {
     display: grid;
     align-content: start;
-    gap: 0.22rem;
+    gap: 0.28rem;
     border: 1px solid var(--color-line);
     border-radius: 16px;
     min-height: 100%;
-    padding: var(--metric-padding);
+    padding: 0.95rem 1rem;
     background: color-mix(in srgb, var(--color-surface) 90%, transparent);
   }
 
@@ -423,6 +425,8 @@ html[data-theme='dark'] {
   .data-table {
     width: 100%;
     border-collapse: collapse;
+    font-size: 0.92rem;
+    line-height: 1.5;
   }
 
   .data-table th,
@@ -503,6 +507,10 @@ html[data-theme='dark'] {
     backdrop-filter: blur(12px);
   }
 
+  .layout-shell {
+    padding-top: max(env(safe-area-inset-top), 0px);
+  }
+
   .brand-card {
     border: 1px solid var(--color-line);
     border-radius: 24px;
@@ -515,8 +523,6 @@ html[data-theme='dark'] {
         color-mix(in srgb, var(--color-surface) 80%, transparent)
       );
     box-shadow: var(--shadow-soft);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
   }
 
   .brand-card__eyebrow {
@@ -552,6 +558,7 @@ html[data-theme='dark'] {
   }
 
   .post-card {
+    --post-card-x: 1rem;
     position: relative;
     border: 1px solid var(--color-line);
     border-radius: 24px;
@@ -574,7 +581,7 @@ html[data-theme='dark'] {
     align-items: flex-start;
     justify-content: space-between;
     gap: 0.9rem;
-    padding: 0.95rem 1rem 0;
+    padding: 1rem var(--post-card-x) 0;
   }
 
   .post-card__title {
@@ -589,7 +596,7 @@ html[data-theme='dark'] {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    gap: 0.45rem;
+    gap: 0.38rem 0.45rem;
   }
 
   .post-card__channel-title {
@@ -609,25 +616,25 @@ html[data-theme='dark'] {
     display: flex;
     flex-wrap: wrap;
     gap: 0.45rem;
-    padding: 0.72rem 1rem 0;
+    padding: 0.72rem var(--post-card-x) 0;
   }
 
   .post-card__signals {
     display: flex;
     flex-wrap: wrap;
     gap: 0.45rem;
-    padding: 0.68rem 1rem 0;
+    padding: 0.62rem var(--post-card-x) 0;
   }
 
   .post-card__body {
-    padding: 0.82rem 1rem 1rem;
+    padding: 0.88rem var(--post-card-x) 1rem;
   }
 
   .post-card__footer {
     display: flex;
     flex-wrap: wrap;
     gap: 0.55rem;
-    padding: 0 1rem 1rem;
+    padding: 0.12rem var(--post-card-x) 1rem;
   }
 
   .post-card__telegram {
@@ -640,6 +647,7 @@ html[data-theme='dark'] {
     align-items: center;
     justify-content: flex-end;
     gap: 0.45rem;
+    padding-top: 0.08rem;
   }
 
   #main-content {
@@ -674,11 +682,15 @@ html[data-theme='dark'] {
 
 @media (max-width: 720px) {
   body {
-    padding-bottom: 6rem;
+    padding-bottom: calc(var(--mobile-dock-reserve) + env(safe-area-inset-bottom) + 0.4rem);
   }
 
   :root {
     --table-cell-padding: 0.72rem 0.9rem;
+  }
+
+  .layout-shell {
+    padding-bottom: max(env(safe-area-inset-bottom), 0px);
   }
 
   .page-hero__header {
@@ -693,17 +705,23 @@ html[data-theme='dark'] {
     grid-template-columns: 1fr;
   }
 
-  .brand-card {
-    margin-top: 0;
+  .page-hero {
+    padding: 1rem;
+    border-radius: 22px;
   }
 
   .post-card__header {
     flex-direction: column;
     align-items: stretch;
+    gap: 0.8rem;
   }
 
   .post-card__telegram {
     align-self: flex-start;
+  }
+
+  .post-card__actions {
+    justify-content: flex-start;
   }
 
   .post-card__title {
@@ -714,11 +732,10 @@ html[data-theme='dark'] {
 
 .mobile-dock {
   position: fixed;
-  left: 0;
-  right: 0;
-  bottom: max(0.9rem, env(safe-area-inset-bottom));
+  left: max(0.75rem, env(safe-area-inset-left));
+  right: max(0.75rem, env(safe-area-inset-right));
+  bottom: calc(env(safe-area-inset-bottom) + 0.55rem);
   z-index: 1200;
-  padding: 0 0.9rem;
   pointer-events: none;
 }
 
@@ -727,8 +744,8 @@ html[data-theme='dark'] {
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 0.4rem;
   border: 1px solid var(--color-line);
-  border-radius: 20px;
-  padding: 0.45rem;
+  border-radius: 18px;
+  padding: 0.42rem;
   background: color-mix(in srgb, var(--color-surface) 94%, transparent);
   box-shadow: var(--shadow-soft);
   backdrop-filter: blur(18px);
@@ -739,12 +756,13 @@ html[data-theme='dark'] {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 2.65rem;
-  padding: 0.3rem 0.2rem;
+  min-height: 2.75rem;
+  padding: 0.32rem 0.22rem;
   border-radius: 14px;
   color: var(--color-muted);
-  font-size: 0.73rem;
+  font-size: 0.74rem;
   font-weight: 700;
+  line-height: 1.1;
   text-decoration: none;
   text-align: center;
 }
@@ -762,13 +780,13 @@ html[data-theme='dark'] {
 
 .post-card__preview {
   max-width: min(100%, 66ch);
-  padding: 0.82rem 1rem 0.25rem;
+  padding: 0.88rem var(--post-card-x) 0.25rem;
   color: var(--color-ink);
   hyphens: auto;
 }
 
 .post-card__details {
-  padding: 0 1rem 1rem;
+  padding: 0 var(--post-card-x) 1rem;
 }
 
 .post-card__summary-toggle {
@@ -860,7 +878,12 @@ html[data-theme='dark'] {
 
 @media (max-width: 720px) {
   .install-banner {
-    padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+    right: max(0.75rem, env(safe-area-inset-right));
+    bottom: calc(var(--mobile-dock-reserve) + env(safe-area-inset-bottom) + 0.25rem);
+    left: max(0.75rem, env(safe-area-inset-left));
+    border: 1px solid var(--color-line);
+    border-radius: 20px;
+    padding: 0.95rem 1rem calc(0.95rem + env(safe-area-inset-bottom));
   }
 }
 

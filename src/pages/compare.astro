@@ -151,12 +151,14 @@ const avgCoverage = rows.length ? rows.reduce((sum, row) => sum + row.viewCovera
 <style>
   .compare-table-wrap {
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
   .compare-table {
     min-width: 56rem;
   }
   .compare-table td {
     font-size: 0.92rem;
+    line-height: 1.5;
   }
   .compare-note {
     margin: 0;
@@ -179,17 +181,20 @@ const avgCoverage = rows.length ? rows.reduce((sum, row) => sum + row.viewCovera
       display: none;
     }
     .compare-table tr {
-      padding: 0.45rem 0;
-      border-bottom: 1px solid var(--color-line);
+      margin: 0.75rem;
+      padding: 0.35rem 0;
+      border: 1px solid var(--color-line);
+      border-radius: 18px;
+      background: color-mix(in srgb, var(--color-surface) 92%, transparent);
     }
     .compare-table td {
       border-bottom: none;
-      padding: 0.5rem 0.95rem;
+      padding: 0.52rem 0.95rem;
     }
     .compare-table td::before {
       content: attr(data-label);
       display: block;
-      margin-bottom: 0.18rem;
+      margin-bottom: 0.22rem;
       color: var(--color-muted);
       font-size: 0.72rem;
       text-transform: uppercase;
