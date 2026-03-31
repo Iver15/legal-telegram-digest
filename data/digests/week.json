@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-03-31T22:57:42.051Z",
+  "generatedAt": "2026-03-31T23:28:47.624Z",
   "totalPosts": 220,
   "topPosts": [
     {
@@ -54,7 +54,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 38.77,
+      "priorityScore": 38.7,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -129,7 +129,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1400,
+      "viewCount": 1410,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -141,19 +141,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.22,
+      "priorityScore": 34.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Исполнение",
         "Высокая вовлечённость: 28 реакций",
-        "Охват в Telegram Web: 1400 просмотров",
+        "Охват в Telegram Web: 1410 просмотров",
         "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "В Госдуму внесли масштабный законопроект о реформе института банкротства26 марта 2026 года группа депутатов и сенаторов предложила новую масштабную реформу — документ № 1188799-8, предусматривающий важные изменения в про",
       "reactionCount": 28,
-      "engagementRate": 0.02
+      "engagementRate": 0.019858156028368795
     },
     {
       "id": "probankrotstvoru/9485",
@@ -205,7 +205,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.85,
+      "priorityScore": 33.79,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -249,7 +249,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1000,
+      "viewCount": 1010,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -261,19 +261,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.54,
+      "priorityScore": 33.46,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 1000 просмотров",
+        "Охват в Telegram Web: 1010 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: подача иска о субсидиарке фиксирует осведомленность КУ для целей иска об убыткахОбщество «МФ Инвест» было признано банкротом в ноябре 2015 года Единственным активом должника являлся молокозавод «Валетта» в Серб",
       "reactionCount": 11,
-      "engagementRate": 0.011
+      "engagementRate": 0.01089108910891089
     },
     {
       "id": "probankrotstvoru/9490",
@@ -330,7 +330,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 33.27,
+      "priorityScore": 33.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -392,7 +392,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 33.16,
+      "priorityScore": 33.1,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -449,7 +449,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.22,
+      "priorityScore": 32.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -536,7 +536,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "78",
+          "count": "79",
           "isPaid": false
         },
         {
@@ -566,18 +566,18 @@
         "bankruptcy",
         "enforcement"
       ],
-      "priorityScore": 31.42,
+      "priorityScore": 31.37,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Высокая вовлечённость: 99 реакций",
+        "Высокая вовлечённость: 100 реакций",
         "Охват в Telegram Web: 17700 просмотров"
       ],
       "digestSummary": "ВС России защитил право собственников сельскохозяйственных земель в Саратовской области на расторжение договора аренды участка с агрофирмой, систематически нарушавшей его условия. Суд первой инстанции поддержал истцов. О",
-      "reactionCount": 99,
-      "engagementRate": 0.005593220338983051
+      "reactionCount": 100,
+      "engagementRate": 0.005649717514124294
     },
     {
       "id": "probankrotstvoru/9447",
@@ -685,7 +685,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.13,
+      "priorityScore": 31.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -747,7 +747,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.77,
+      "priorityScore": 30.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
