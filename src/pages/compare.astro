@@ -49,20 +49,33 @@ const rows = channels
       (b.averageViews || 0) - (a.averageViews || 0) ||
       b.postCount - a.postCount,
   )
+const withViews = rows.filter((row) => row.averageViews)
+const avgPriority = rows.length ? rows.reduce((sum, row) => sum + row.averagePriority, 0) / rows.length : 0
+const avgCoverage = rows.length ? rows.reduce((sum, row) => sum + row.viewCoverage, 0) / rows.length : 0
 ---
 
 <Layout channel={channel}>
-  <div style="margin-bottom:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
-    <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Сравнение каналов</h1>
-    <div style="display:flex;gap:4px;margin-left:auto;">
-      <a href={SITE_URL} class="nav-pill">Лента</a>
-      <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
-      <a href={`${SITE_URL}stats/`} class="nav-pill">Статистика</a>
+  <section class="compare-hero">
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+      <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Сравнение каналов</h1>
+      <div style="display:flex;gap:4px;margin-left:auto;">
+        <a href={SITE_URL} class="nav-pill">Лента</a>
+        <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
+        <a href={`${SITE_URL}stats/`} class="nav-pill">Статистика</a>
+      </div>
     </div>
-  </div>
-  <p class="text-dim" style="font-size:14px;margin:0 0 12px;">
-    Сравнение активных источников: объём, средний юридический приоритет, охват на пост и вовлечённость аудитории.
-  </p>
+    <p class="text-dim compare-hero__text">
+      Сравнение активных источников: объём, средний юридический приоритет, охват на пост и вовлечённость аудитории.
+    </p>
+    <div class="compare-hero__stats">
+      <article class="compare-mini"><strong>{rows.length}</strong><span>каналов</span></article>
+      <article class="compare-mini"><strong>{avgPriority.toFixed(2)}</strong><span>ср. приоритет</span></article>
+      <article class="compare-mini">
+        <strong>{formatPercentRu(avgCoverage, 0)}</strong><span>покрытие просмотров</span>
+      </article>
+      <article class="compare-mini"><strong>{withViews.length}</strong><span>каналов с охватом</span></article>
+    </div>
+  </section>
 
   <div class="compare-table-wrap">
     <table class="compare-table">
@@ -84,7 +97,24 @@ const rows = channels
           rows.map((row) => (
             <tr>
               <td data-label="Канал">
-                <a href={`${SITE_URL}search/${row.name}`}>@{row.name}</a>
+                <a href={`${SITE_URL}search/${row.name}`} class="compare-channel">
+                  {row.avatar && (
+                    <img
+                      src={row.avatar}
+                      alt={row.title}
+                      class="compare-channel__avatar"
+                      loading="lazy"
+                      width="32"
+                      height="32"
+                    />
+                  )}
+                  <span>
+                    <>
+                      <strong>@{row.name}</strong>
+                      <em>{row.title}</em>
+                    </>
+                  </span>
+                </a>
               </td>
               <td data-label="Категория">{row.category || 'общее'}</td>
               <td data-label="Посты">{row.postCount}</td>
@@ -169,6 +199,71 @@ const rows = channels
       font-size: 0.72rem;
       text-transform: uppercase;
       letter-spacing: 0.04em;
+    }
+  }
+  .compare-hero {
+    margin-bottom: 1rem;
+    border: 1px solid var(--color-line);
+    border-radius: 18px;
+    padding: 1rem;
+    background: color-mix(in srgb, var(--color-surface) 96%, transparent);
+    box-shadow: var(--shadow-soft);
+  }
+  .compare-hero__text {
+    margin: 0.75rem 0 0;
+    font-size: 0.92rem;
+    line-height: 1.6;
+  }
+  .compare-hero__stats {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+  .compare-mini {
+    border: 1px solid var(--color-line);
+    border-radius: 14px;
+    padding: 0.8rem;
+    background: color-mix(in srgb, var(--color-surface) 92%, transparent);
+  }
+  .compare-mini strong {
+    display: block;
+    font-size: 1.15rem;
+    color: var(--color-heading);
+  }
+  .compare-mini span {
+    color: var(--color-muted);
+    font-size: 0.78rem;
+  }
+  .compare-channel {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    text-decoration: none;
+  }
+  .compare-channel__avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    object-fit: cover;
+    border: 1px solid var(--color-line);
+  }
+  .compare-channel span {
+    display: grid;
+    gap: 0.12rem;
+  }
+  .compare-channel strong {
+    color: var(--color-heading);
+    font-size: 0.88rem;
+  }
+  .compare-channel em {
+    color: var(--color-muted);
+    font-style: normal;
+    font-size: 0.76rem;
+  }
+  @media (max-width: 720px) {
+    .compare-hero__stats {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 </style>

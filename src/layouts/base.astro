@@ -108,6 +108,9 @@ const footerClass = 'hidden p-2 text-[13px] leading-[1.6] text-footer lg:block'
 const backToTopClass =
   'pointer-events-auto z-[1000] flex h-10 w-10 items-center justify-center rounded-full border border-line bg-code/95 text-[24px] opacity-90 shadow-soft backdrop-blur transition-transform duration-300 hover:-translate-y-[3px] active:translate-y-px'
 const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
+const mobileDockClass = 'mobile-dock lg:hidden'
+const mobileDockLinkClass = 'mobile-dock__link'
+const mobileDockLinkCurrentClass = 'mobile-dock__link--active'
 ---
 
 <!doctype html>
@@ -277,6 +280,34 @@ const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
         </a>
       </div>
     </main>
+    <nav class={mobileDockClass} aria-label="Быстрая навигация">
+      <div class="mobile-dock__inner">
+        <a
+          href={SITE_URL}
+          class:list={[mobileDockLinkClass, currentPathname === siteRootPathname && mobileDockLinkCurrentClass]}
+          >Лента</a
+        >
+        <a
+          href={`${SITE_URL}digests/`}
+          class:list={[mobileDockLinkClass, currentPathname === digestsPathname && mobileDockLinkCurrentClass]}
+          >Дайджесты</a
+        >
+        <a
+          href={`${SITE_URL}hot/`}
+          class:list={[mobileDockLinkClass, currentPathname === hotPathname && mobileDockLinkCurrentClass]}>Главное</a
+        >
+        <a
+          href={`${SITE_URL}compare/`}
+          class:list={[mobileDockLinkClass, currentPathname === comparePathname && mobileDockLinkCurrentClass]}
+          >Сравнить</a
+        >
+        <a
+          href={`${SITE_URL}stats/`}
+          class:list={[mobileDockLinkClass, currentPathname === statsPathname && mobileDockLinkCurrentClass]}>Стат.</a
+        >
+      </div>
+    </nav>
+
     <Fragment set:html={FOOTER_INJECT} />
 
     <script is:inline src={`${import.meta.env.BASE_URL}pwa.js`}></script>

@@ -51,14 +51,19 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
 ---
 
 <Layout channel={channel}>
-  <div style="margin-bottom:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
-    <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Статистика покрытия</h1>
-    <div style="display:flex;gap:4px;margin-left:auto;">
-      <a href={SITE_URL} class="nav-pill">Лента</a>
-      <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
-      <a href={`${SITE_URL}compare/`} class="nav-pill">Сравнить</a>
+  <section class="stats-hero">
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+      <h1 style="font-size:20px;font-weight:600;margin:0;color:var(--color-heading);">Статистика покрытия</h1>
+      <div style="display:flex;gap:4px;margin-left:auto;">
+        <a href={SITE_URL} class="nav-pill">Лента</a>
+        <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
+        <a href={`${SITE_URL}compare/`} class="nav-pill">Сравнить</a>
+      </div>
     </div>
-  </div>
+    <p class="text-dim stats-hero__text">
+      Следи за тем, какие каналы реально двигают ленту: по объёму, охвату и вовлечённости.
+    </p>
+  </section>
 
   <div class="stats-grid">
     <article class="stats-box">
@@ -92,7 +97,19 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
     {
       channels.map((item) => (
         <div class="stats-bar-row">
-          <span>@{item.name}</span>
+          <span class="stats-channel">
+            {item.avatar && (
+              <img
+                src={item.avatar}
+                alt={item.title}
+                class="stats-channel__avatar"
+                loading="lazy"
+                width="28"
+                height="28"
+              />
+            )}
+            <span>@{item.name}</span>
+          </span>
           <div class="stats-bar-track">
             <div class="stats-bar-fill" style={`width:${Math.round((item.postCount / maxChannelPosts) * 100)}%;`} />
           </div>
@@ -123,7 +140,19 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
         <h2>Средний охват по каналам</h2>
         {channelsByViews.map((item) => (
           <div class="stats-bar-row">
-            <span>@{item.name}</span>
+            <span class="stats-channel">
+              {item.avatar && (
+                <img
+                  src={item.avatar}
+                  alt={item.title}
+                  class="stats-channel__avatar"
+                  loading="lazy"
+                  width="28"
+                  height="28"
+                />
+              )}
+              <span>@{item.name}</span>
+            </span>
             <div class="stats-bar-track">
               <div
                 class="stats-bar-fill"
@@ -143,7 +172,19 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
         <h2>Средняя вовлечённость по каналам</h2>
         {channelsByEngagement.map((item) => (
           <div class="stats-bar-row">
-            <span>@{item.name}</span>
+            <span class="stats-channel">
+              {item.avatar && (
+                <img
+                  src={item.avatar}
+                  alt={item.title}
+                  class="stats-channel__avatar"
+                  loading="lazy"
+                  width="28"
+                  height="28"
+                />
+              )}
+              <span>@{item.name}</span>
+            </span>
             <div class="stats-bar-track">
               <div
                 class="stats-bar-fill"
@@ -244,5 +285,30 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
     .stats-grid {
       grid-template-columns: 1fr;
     }
+  }
+  .stats-hero {
+    margin-bottom: 1rem;
+    border: 1px solid var(--color-line);
+    border-radius: 18px;
+    padding: 1rem;
+    background: color-mix(in srgb, var(--color-surface) 96%, transparent);
+    box-shadow: var(--shadow-soft);
+  }
+  .stats-hero__text {
+    margin: 0.7rem 0 0;
+    font-size: 0.92rem;
+    line-height: 1.6;
+  }
+  .stats-channel {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+  .stats-channel__avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 999px;
+    object-fit: cover;
+    border: 1px solid var(--color-line);
   }
 </style>
