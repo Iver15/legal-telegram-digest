@@ -36,7 +36,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     <div class="digest-grid">
       {
         digests.map((digest) => (
-          <article class="digest-card surface-card">
+          <article class="digest-card surface-card section-stack">
             <div class="digest-card__head">
               <div>
                 <h2>{digest.label}</h2>
@@ -73,8 +73,9 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
 <style>
   .digest-grid {
     display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: var(--section-gap);
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    align-items: stretch;
   }
   .digest-card {
     min-height: 100%;
@@ -82,8 +83,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
   .digest-card__head {
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
-    margin-bottom: 0.8rem;
+    gap: 0.85rem;
     align-items: flex-start;
   }
   .digest-card__head h2 {
@@ -102,7 +102,6 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     display: flex;
     flex-wrap: wrap;
     gap: 0.4rem;
-    margin-bottom: 0.8rem;
   }
   .digest-list {
     display: grid;
@@ -110,8 +109,8 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
   }
   .digest-list__item {
     display: grid;
-    gap: 0.18rem;
-    padding: 0.82rem 0.88rem;
+    gap: 0.22rem;
+    padding: 0.88rem 0.92rem;
     border-radius: 16px;
     border: 1px solid var(--color-line);
     text-decoration: none;

@@ -88,23 +88,23 @@ const navs: NavItem[] = (import.meta.env.NAVS || '')
 const PUSH_SERVER_URL = import.meta.env.PUSH_SERVER_URL || ''
 const VAPID_PUBLIC_KEY = import.meta.env.VAPID_PUBLIC_KEY || ''
 
-const layoutShellClass = 'px-3 py-3 sm:px-4 sm:py-4 xl:px-5 xl:py-5'
+const layoutShellClass = 'px-3 py-3 sm:px-4 sm:py-4 xl:px-5 xl:py-[1.15rem]'
 const layoutGridClass =
-  'reader-shell-card mx-auto grid w-full max-w-[var(--page-max-width)] grid-cols-1 gap-4 p-3 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-5 lg:p-5 xl:grid-cols-[minmax(0,1fr)_320px] xl:gap-6 xl:p-6'
-const mainPanelClass = 'w-full min-w-0 pb-4 lg:pb-8'
+  'reader-shell-card mx-auto grid w-full max-w-[var(--page-max-width)] grid-cols-1 gap-4 p-3 sm:p-4 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-5 lg:p-5 xl:grid-cols-[minmax(0,1fr)_320px] xl:gap-5 xl:p-6'
+const mainPanelClass = 'w-full min-w-0 pb-4 lg:pb-6'
 const asidePanelClass = 'w-full min-w-0 lg:sticky lg:top-6 lg:self-start'
-const asideInnerClass = 'relative overflow-y-visible lg:max-h-[calc(100svh-3rem)] lg:overflow-y-auto lg:pr-1'
-const navListClass = 'm-0 flex list-none flex-wrap gap-2 pl-0 lg:block'
-const navItemClass = 'flex items-center text-[14px] leading-none lg:mb-2 lg:text-[15px] lg:leading-normal'
+const asideInnerClass = 'relative grid gap-4 overflow-y-visible lg:max-h-[calc(100svh-3rem)] lg:overflow-y-auto lg:pr-1'
+const navListClass = 'm-0 flex list-none flex-wrap gap-2 pl-0 lg:grid lg:gap-2'
+const navItemClass = 'flex items-center text-[14px] leading-none lg:text-[15px] lg:leading-normal'
 const navLinkClass =
   'sidebar-nav-link flex-1 inline-flex items-center rounded-[14px] border border-line px-3 py-[0.7rem] text-heading no-underline transition-[background-color,box-shadow,border-color] duration-150 ease-in-out hover:no-underline hover:shadow-soft'
 const navLinkCurrentClass = 'sidebar-nav-active shadow-soft'
 const skipLinkClass =
   'pointer-events-none absolute left-5 top-0 z-[1100] -translate-y-full rounded-panel bg-heading px-3 py-2 text-sm text-white no-underline transition-transform duration-150 focus-visible:pointer-events-auto focus-visible:translate-y-5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-heading'
-const searchFormClass = 'mt-3 rounded-[18px] border border-line bg-code/80 p-2 text-muted shadow-soft backdrop-blur'
+const searchFormClass = 'rounded-[18px] border border-line bg-code/80 p-2 text-muted shadow-soft backdrop-blur'
 const searchInputClass =
   'box-border w-full rounded-[14px] border border-transparent bg-transparent px-3 py-2 text-[15px] leading-[1.6] text-muted outline-none placeholder:text-muted focus-visible:border-heading focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 focus-visible:outline-heading lg:text-[13px]'
-const footerClass = 'hidden p-2 text-[13px] leading-[1.6] text-footer lg:block'
+const footerClass = 'hidden px-2 pt-1 text-[13px] leading-[1.6] text-footer lg:block'
 const backToTopClass =
   'pointer-events-auto z-[1000] flex h-10 w-10 items-center justify-center rounded-full border border-line bg-code/95 text-[24px] opacity-90 shadow-soft backdrop-blur transition-transform duration-300 hover:-translate-y-[3px] active:translate-y-px'
 const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
