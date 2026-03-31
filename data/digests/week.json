@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-03-31T07:19:13.307Z",
-  "totalPosts": 240,
+  "generatedAt": "2026-03-31T07:28:45.816Z",
+  "totalPosts": 238,
   "topPosts": [
     {
       "id": "probankrotstvoru/9485",
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 943,
+      "viewCount": 948,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -54,19 +54,19 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 36.32,
+      "priorityScore": 36.3,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 943 просмотров",
+        "Охват в Telegram Web: 948 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Банкротство в корпоративной структуре: контроль, сделки, субсидиарная ответственностьПродолжаем знакомить со спикерами Банкротного дня в рамках Международного налогового форума.Вадим Мартаков, руководитель департамента ф",
       "reactionCount": 14,
-      "engagementRate": 0.014846235418875928
+      "engagementRate": 0.014767932489451477
     },
     {
       "id": "probankrotstvoru/9442",
@@ -177,7 +177,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.05,
+      "priorityScore": 33.03,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -293,7 +293,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.73,
+      "priorityScore": 31.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -338,7 +338,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1720,
+      "viewCount": 1730,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -358,11 +358,11 @@
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 1720 просмотров"
+        "Охват в Telegram Web: 1730 просмотров"
       ],
       "digestSummary": "ВС: управляющий не получает новый срок давности по искам, не связанным с банкротствомОбщество «Богучанский ЛПК» заключило с обществом «Азиатско-Тихоокеанский Банк» договор об открытии кредитной линии на 300 млн рублей в ",
       "reactionCount": 11,
-      "engagementRate": 0.006395348837209302
+      "engagementRate": 0.006358381502890174
     },
     {
       "id": "probankrotstvoru/9483",
@@ -410,7 +410,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 29.96,
+      "priorityScore": 29.94,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -542,7 +542,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 29.83,
+      "priorityScore": 29.81,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -753,37 +753,37 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 198
+      "count": 197
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 175
+      "count": 174
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 172
+      "count": 171
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 165
+      "count": 164
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 112
+      "count": 110
     },
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 43
+      "count": 41
     },
     {
       "id": "tax",
       "label": "Налоги",
-      "count": 35
+      "count": 34
     }
   ],
   "topChannels": [
@@ -800,7 +800,7 @@
     {
       "channel": "orpauradio",
       "title": "Первый радиоканал АУ и юристов",
-      "count": 28
+      "count": 27
     },
     {
       "channel": "pravoinf",
@@ -813,14 +813,14 @@
       "count": 18
     },
     {
-      "channel": "corplawpro",
-      "title": "Корпоративные споры • Case by Case",
-      "count": 14
-    },
-    {
       "channel": "legally_bald",
       "title": "Legally_bald (Даниил Савченко)",
       "count": 14
+    },
+    {
+      "channel": "corplawpro",
+      "title": "Корпоративные споры • Case by Case",
+      "count": 13
     },
     {
       "channel": "Shokobear",
