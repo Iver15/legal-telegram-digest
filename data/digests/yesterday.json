@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-03-31T23:28:47.623Z",
-  "totalPosts": 38,
+  "generatedAt": "2026-03-31T23:58:59.278Z",
+  "totalPosts": 37,
   "topPosts": [
     {
       "id": "probankrotstvoru/9485",
@@ -54,7 +54,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.79,
+      "priorityScore": 33.72,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -117,7 +117,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.71,
+      "priorityScore": 30.64,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -173,7 +173,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.62,
+      "priorityScore": 29.55,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -232,7 +232,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.98,
+      "priorityScore": 27.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -292,7 +292,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.61,
+      "priorityScore": 27.55,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -346,7 +346,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 27.37,
+      "priorityScore": 27.31,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -395,7 +395,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1120,
+      "viewCount": 1130,
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
       "category": "bankruptcy",
@@ -407,19 +407,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.07,
+      "priorityScore": 27.01,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Исполнение",
         "Высокая вовлечённость: 28 реакций",
-        "Охват в Telegram Web: 1120 просмотров",
+        "Охват в Telegram Web: 1130 просмотров",
         "Сильная отдача аудитории: 2,5% реакций к просмотрам"
       ],
       "digestSummary": "Не дело, а конфетка И.В.Разумов передал в СКЭС дело по вопросу установления процентного вознаграждения нескольким АУ, последовательно сменявшим друг друга в одной процедуре банкротства.ФабулаВ деле о банкротстве ООО «ТОК",
       "reactionCount": 28,
-      "engagementRate": 0.025
+      "engagementRate": 0.024778761061946902
     },
     {
       "id": "disputesandsanctions/2405",
@@ -456,7 +456,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 27.02,
+      "priorityScore": 26.96,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -513,7 +513,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 21800,
+      "viewCount": 21900,
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
       "category": "courts",
@@ -523,19 +523,19 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 26.26,
+      "priorityScore": 26.19,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 263 реакций",
-        "Охват в Telegram Web: 21800 просмотров",
+        "Охват в Telegram Web: 21900 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд РФ защитил интересы детей в деле о суррогатном материнстве с участием иностранных граждан. Супруги из Австралии воспользовались программой с применением донорских яйцеклеток другой женщины, что противоречит",
       "reactionCount": 263,
-      "engagementRate": 0.012064220183486239
+      "engagementRate": 0.012009132420091325
     },
     {
       "id": "probankrotstvoru/9477",
@@ -580,7 +580,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.75,
+      "priorityScore": 25.69,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -652,7 +652,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 25.06,
+      "priorityScore": 25,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -691,7 +691,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 931,
+      "viewCount": 932,
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
       "category": "compliance",
@@ -704,17 +704,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 24.5,
+      "priorityScore": 24.43,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 931 просмотров"
+        "Охват в Telegram Web: 932 просмотров"
       ],
       "digestSummary": "Факт увеличения агентского вознаграждения сам по себе не доказывает явного ущерба — необходимо сравнение с рыночной стоимостью аналогичных услуг#корпоративные_споры#недействительность_сделки#агентский_договорВетров А.Б. ",
       "reactionCount": 1,
-      "engagementRate": 0.0010741138560687433
+      "engagementRate": 0.001072961373390558
     }
   ],
   "topTopics": [
@@ -736,12 +736,12 @@
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 26
+      "count": 25
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 18
+      "count": 17
     },
     {
       "id": "compliance",
@@ -761,14 +761,14 @@
       "count": 9
     },
     {
-      "channel": "orpauradio",
-      "title": "Первый радиоканал АУ и юристов",
-      "count": 5
-    },
-    {
       "channel": "vZone1413",
       "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
       "count": 5
+    },
+    {
+      "channel": "orpauradio",
+      "title": "Первый радиоканал АУ и юристов",
+      "count": 4
     },
     {
       "channel": "sovetsudey",
