@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-03-31T22:27:29.361Z",
+  "generatedAt": "2026-03-31T22:57:42.051Z",
   "totalPosts": 220,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1140,
+      "viewCount": 1150,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -54,19 +54,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 38.83,
+      "priorityScore": 38.77,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 21 реакций",
-        "Охват в Telegram Web: 1140 просмотров",
+        "Охват в Telegram Web: 1150 просмотров",
         "Сильная отдача аудитории: 1,8% реакций к просмотрам"
       ],
       "digestSummary": "Восемь месяцев бездействия управляющего обернулись убытками в 74,5 млн рублейВ августе 2020 года суд ввел наблюдение в отношении общества «Стройсвет», а в марте 2021 года признал его банкротом. КУ утвердили Алину Асееву,",
       "reactionCount": 21,
-      "engagementRate": 0.018421052631578946
+      "engagementRate": 0.018260869565217393
     },
     {
       "id": "probankrotstvoru/9486",
@@ -141,7 +141,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.29,
+      "priorityScore": 34.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -205,7 +205,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.91,
+      "priorityScore": 33.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -249,7 +249,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 997,
+      "viewCount": 1000,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -261,19 +261,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.61,
+      "priorityScore": 33.54,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 997 просмотров",
+        "Охват в Telegram Web: 1000 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: подача иска о субсидиарке фиксирует осведомленность КУ для целей иска об убыткахОбщество «МФ Инвест» было признано банкротом в ноябре 2015 года Единственным активом должника являлся молокозавод «Валетта» в Серб",
       "reactionCount": 11,
-      "engagementRate": 0.011033099297893681
+      "engagementRate": 0.011
     },
     {
       "id": "probankrotstvoru/9490",
@@ -330,7 +330,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 33.34,
+      "priorityScore": 33.27,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -392,7 +392,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 33.22,
+      "priorityScore": 33.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -449,7 +449,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.28,
+      "priorityScore": 32.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -536,7 +536,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "77",
+          "count": "78",
           "isPaid": false
         },
         {
@@ -555,7 +555,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 17600,
+      "viewCount": 17700,
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
       "category": "courts",
@@ -566,18 +566,18 @@
         "bankruptcy",
         "enforcement"
       ],
-      "priorityScore": 31.48,
+      "priorityScore": 31.42,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Высокая вовлечённость: 98 реакций",
-        "Охват в Telegram Web: 17600 просмотров"
+        "Высокая вовлечённость: 99 реакций",
+        "Охват в Telegram Web: 17700 просмотров"
       ],
       "digestSummary": "ВС России защитил право собственников сельскохозяйственных земель в Саратовской области на расторжение договора аренды участка с агрофирмой, систематически нарушавшей его условия. Суд первой инстанции поддержал истцов. О",
-      "reactionCount": 98,
-      "engagementRate": 0.0055681818181818185
+      "reactionCount": 99,
+      "engagementRate": 0.005593220338983051
     },
     {
       "id": "probankrotstvoru/9447",
@@ -685,7 +685,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.19,
+      "priorityScore": 31.13,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -747,7 +747,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.83,
+      "priorityScore": 30.77,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
