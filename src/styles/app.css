@@ -338,6 +338,13 @@ html[data-theme='dark'] {
     padding: 0.85rem 1rem 0;
   }
 
+  .post-card__signals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    padding: 0.75rem 1rem 0;
+  }
+
   .post-card__body {
     padding: 0.85rem 1rem 1rem;
   }
@@ -386,5 +393,19 @@ html[data-theme='dark'] {
 @media (max-width: 720px) {
   .brand-card {
     margin-top: 0;
+  }
+
+  .post-card__header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .post-card__telegram {
+    align-self: flex-start;
+  }
+
+  .post-card__title {
+    font-size: 1rem;
+    line-height: 1.28;
   }
 }

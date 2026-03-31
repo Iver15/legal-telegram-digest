@@ -1,4 +1,5 @@
 import type { ChannelDefinition, ChannelRegistry, DigestPayload, LegalCategory, Post, SiteDefinition } from '../types'
+import { getEngagementRate, getReactionCount } from './metrics'
 
 const DEFAULT_SITE: SiteDefinition = {
   title: 'Юридический Telegram-дайджест',
@@ -163,8 +164,26 @@ function normalizeTags(tags: string[]): string[] {
   return Array.from(new Set(tags.filter(Boolean).map(tag => cleanText(tag).replace(TAG_PREFIX_REGEX, ''))))
 }
 
-function getReactionCount(post: Pick<Post, 'reactions'>): number {
-  return (post.reactions || []).reduce((sum, reaction) => sum + (Number.parseInt(String(reaction.count), 10) || 0), 0)
+function getViewScore(viewCount?: number): number {
+  if (!viewCount || viewCount <= 0)
+    return 0
+
+  return Math.min(2.4, Math.log10(viewCount + 1) * 0.7)
+}
+
+function getEngagementScore(engagementRate?: number): number {
+  if (!engagementRate || engagementRate <= 0)
+    return 0
+
+  return Math.min(2, engagementRate * 140)
+}
+
+export function comparePostsForDigest(a: Post, b: Post): number {
+  return (b.priorityScore || 0) - (a.priorityScore || 0)
+    || (b.engagementRate || 0) - (a.engagementRate || 0)
+    || (b.viewCount || 0) - (a.viewCount || 0)
+    || (b.reactionCount || 0) - (a.reactionCount || 0)
+    || new Date(b.datetime).getTime() - new Date(a.datetime).getTime()
 }
 
 function getTopicMatches(text: string): Array<{ id: string, label: string, score: number }> {
@@ -195,16 +214,24 @@ export function enrichLegalPost(post: Post, channelDefinition?: ChannelDefinitio
   }
 
   const reactionCount = getReactionCount(post)
+  const viewCount = post.viewCount
+  const engagementRate = getEngagementRate(reactionCount, viewCount)
   const ageHours = Math.max(0, (Date.now() - new Date(post.datetime).getTime()) / (1000 * 60 * 60))
   const recencyScore = Math.max(0, 6 - Math.min(ageHours / 8, 6))
   const matchScore = topicMatches.reduce((sum, item) => sum + item.score, 0)
   const reactionScore = Math.min(5, reactionCount / 10)
+  const viewScore = getViewScore(viewCount)
+  const engagementScore = getEngagementScore(engagementRate)
   const channelBoost = Number(channelDefinition?.priorityBoost || 0)
-  const priorityScore = Number((matchScore + reactionScore + recencyScore + channelBoost).toFixed(2))
+  const priorityScore = Number((matchScore + reactionScore + recencyScore + channelBoost + viewScore + engagementScore).toFixed(2))
   const reasons = Array.from(new Set([
     ...(channelDefinition?.category ? [`Категория канала: ${channelDefinition.category}`] : []),
     ...topicMatches.slice(0, 3).map(item => `Совпадение по теме: ${item.label}`),
     ...(reactionCount > 10 ? [`Высокая вовлечённость: ${reactionCount} реакций`] : []),
+    ...(viewCount ? [`Охват в Telegram Web: ${viewCount} просмотров`] : []),
+    ...(engagementRate && engagementRate >= 0.01
+      ? [`Сильная отдача аудитории: ${(engagementRate * 100).toFixed(1).replace('.', ',')}% реакций к просмотрам`]
+      : []),
   ]))
 
   return {
@@ -217,6 +244,8 @@ export function enrichLegalPost(post: Post, channelDefinition?: ChannelDefinitio
     priorityReasons: reasons,
     digestSummary: cleanText(post.text).slice(0, 220),
     reactionCount,
+    viewCount,
+    engagementRate,
   }
 }
 
@@ -237,7 +266,7 @@ export function buildDigestPayload(posts: Post[], registry: ChannelRegistry, per
   })
 
   const topPosts = [...filtered]
-    .sort((a, b) => (b.priorityScore || 0) - (a.priorityScore || 0) || new Date(b.datetime).getTime() - new Date(a.datetime).getTime())
+    .sort(comparePostsForDigest)
     .slice(0, 12)
 
   const topTopicsMap = new Map<string, number>()

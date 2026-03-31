@@ -1,5 +1,6 @@
 ---
 import dayjs from '../lib/dayjs'
+import { formatCompactNumberRu, formatPercentRu, getReactionCount } from '../lib/metrics'
 
 const locale = import.meta.env.LOCALE || 'ru'
 const timezone = import.meta.env.TIMEZONE || 'Europe/Moscow'
@@ -24,6 +25,10 @@ const hasTags = post.tags.length > 0
 const legalTopics = post.legalTopics || []
 const priorityScore = post.priorityScore || 0
 const summary = post.digestSummary || post.text?.slice(0, 180) || ''
+const reactionCount = post.reactionCount ?? getReactionCount(post)
+const viewCount = post.viewCount
+const engagementRate = post.engagementRate
+const hasSignals = reactionCount > 0 || Boolean(viewCount) || typeof engagementRate === 'number'
 ---
 
 <article class="post-card transition duration-200" style={{ 'view-transition-name': `post-${post.id}` }}>
@@ -48,10 +53,10 @@ const summary = post.digestSummary || post.text?.slice(0, 180) || ''
       href={tgLink}
       target="_blank"
       rel="noopener noreferrer"
-      title="Open in Telegram"
+      title="Открыть в Telegram"
       class="post-card__telegram badge"
     >
-      Telegram
+      в Telegram
     </a>
   </header>
 
@@ -67,9 +72,21 @@ const summary = post.digestSummary || post.text?.slice(0, 180) || ''
   }
 
   {
+    hasSignals && (
+      <div class="post-card__signals">
+        {typeof viewCount === 'number' && (
+          <span class="badge">охват {formatCompactNumberRu(viewCount)} просмотров</span>
+        )}
+        {reactionCount > 0 && <span class="badge">{formatCompactNumberRu(reactionCount)} реакц.</span>}
+        {typeof engagementRate === 'number' && <span class="badge">вовл. {formatPercentRu(engagementRate, 1)}</span>}
+      </div>
+    )
+  }
+
+  {
     hasContent ? (
       <div
-        class:list={['post-card__body content', !hasReactions && !hasTags && !COMMENTS && 'pb-6']}
+        class:list={['post-card__body content', !hasReactions && !hasTags && !COMMENTS && !hasSignals && 'pb-6']}
         set:html={post.content}
       />
     ) : (

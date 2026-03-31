@@ -5,6 +5,7 @@ import flourite from 'flourite'
 import { LRUCache } from 'lru-cache'
 import { $fetch } from 'ofetch'
 import { getEnv } from '../env'
+import { parseTelegramCounter } from '../metrics'
 import prism from '../prism'
 
 const STYLE_URL_REGEX = /url\(["'](.*?)["']/i
@@ -16,6 +17,13 @@ const STYLE_PADDING_TOP_REGEX = /padding-top:\s*(\d+(?:\.\d+)?)%/i
 const SYNTHETIC_IMAGE_DIMENSION = 1000
 const TITLE_PREVIEW_REGEX = /^.*?(?=[。\n]|http\S)/g
 const CONTENT_URL_REGEX = /(url\(["'])((https?:)?\/\/)/g
+const CONTENT_BREAK_REGEX = /(?:<br\s*\/?>\s*){2,}/gi
+const CONTENT_LEADING_BREAK_REGEX = /^(?:<br\s*\/?>\s*)+/i
+const CONTENT_TRAILING_BREAK_REGEX = /(?:<br\s*\/?>\s*)+$/i
+const EMPTY_PARAGRAPH_REGEX = /<p>(?:\s|&nbsp;|<br\s*\/?>)*<\/p>/gi
+const EMPTY_BLOCKQUOTE_REGEX = /<blockquote[^>]*>\s*<\/blockquote>/gi
+const WRAPPED_MEDIA_REGEX = /<p>\s*(<(?:figure|img|video|audio|blockquote|pre)[\s\S]*?)<\/p>/gi
+const HAS_BLOCK_MARKUP_REGEX = /<(?:p|blockquote|ul|ol|pre|figure|table|h[1-6]|div)\b/i
 const UNNECESSARY_HEADERS = new Set(['host', 'cookie', 'origin', 'referer'])
 
 type CacheValue = ChannelInfo | Post
@@ -402,6 +410,8 @@ async function modifyHTMLContent($: CheerioAPI, content: MessageSelection, optio
     spoiler.attr('id', spoilerId).wrap('<label class="spoiler-button"></label>').before(spoilerInput)
   }
 
+  normalizeContentMarkup($, content)
+
   for (const preNode of content.find('pre').toArray()) {
     try {
       const pre = $(preNode)
@@ -466,6 +476,50 @@ function getReactions($: CheerioAPI, message: MessageSelection, staticProxy: str
   return reactions
 }
 
+function getViewCount(message: MessageSelection): number | undefined {
+  const viewsText = message.find('.tgme_widget_message_views').first().text().trim()
+  return parseTelegramCounter(viewsText)
+}
+
+function normalizeContentMarkup($: CheerioAPI, content: MessageSelection): void {
+  content.find('script, style, .tgme_widget_message_service_date').remove()
+
+  for (const node of content.find('span').toArray()) {
+    const span = $(node)
+    const attrs = node.attribs ? Object.keys(node.attribs) : []
+    if (attrs.length === 0) {
+      span.replaceWith(span.html() ?? '')
+    }
+  }
+
+  let html = (content.html() ?? '').trim()
+  if (!html) {
+    return
+  }
+
+  const hasBlockMarkup = HAS_BLOCK_MARKUP_REGEX.test(html)
+
+  if (!hasBlockMarkup) {
+    html = html
+      .replace(CONTENT_BREAK_REGEX, '</p><p>')
+      .replace(CONTENT_LEADING_BREAK_REGEX, '')
+      .replace(CONTENT_TRAILING_BREAK_REGEX, '')
+      .trim()
+
+    if (html) {
+      html = `<p>${html}</p>`
+    }
+  }
+
+  html = html
+    .replace(EMPTY_PARAGRAPH_REGEX, '')
+    .replace(EMPTY_BLOCKQUOTE_REGEX, '')
+    .replace(WRAPPED_MEDIA_REGEX, '$1')
+    .trim()
+
+  content.html(html)
+}
+
 async function extractPost($: CheerioAPI, item: AnyNode | null, options: ExtractPostOptions): Promise<Post> {
   const { channel, staticProxy, index = 0, reactionsEnabled } = options
   const message = item ? $(item).find('.tgme_widget_message') : $('.tgme_widget_message')
@@ -502,7 +556,6 @@ async function extractPost($: CheerioAPI, item: AnyNode | null, options: Extract
     getVideoStickers($, message, { staticProxy, index }),
     message.find('.tgme_widget_message_poll').html(),
     $.html(message.find('.tgme_widget_message_document_wrap')),
-    $.html(message.find('.tgme_widget_message_video_player.not_supported')),
     $.html(message.find('.tgme_widget_message_location_wrap')),
     getLinkPreview($, message, { staticProxy, index }),
   ]
@@ -522,6 +575,7 @@ async function extractPost($: CheerioAPI, item: AnyNode | null, options: Extract
     text: contentText,
     content: contentHtml,
     reactions: reactionsEnabled ? getReactions($, message, staticProxy) : [],
+    viewCount: getViewCount(message),
   }
 }
 

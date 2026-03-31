@@ -7,7 +7,7 @@ import type { ChannelDefinition, ChannelInfo, ChannelRegistry, DigestPayload, Ge
 import fs from 'node:fs'
 import path from 'node:path'
 import { cwd } from 'node:process'
-import { enrichLegalPost, normalizeChannelRegistry } from './legal'
+import { comparePostsForDigest, enrichLegalPost, normalizeChannelRegistry } from './legal'
 
 const DATA_DIR = path.resolve(cwd(), 'data')
 const DIGESTS_DIR = path.join(DATA_DIR, 'digests')
@@ -231,7 +231,7 @@ export function getAllCategories(): Array<{ id: string, label: string, descripti
 
 export function getTopPosts(limit = 10): Post[] {
   return [...loadPosts()]
-    .sort((a, b) => (b.priorityScore || 0) - (a.priorityScore || 0) || (b.reactionCount || 0) - (a.reactionCount || 0))
+    .sort(comparePostsForDigest)
     .slice(0, limit)
 }
 

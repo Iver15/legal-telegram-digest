@@ -8,6 +8,8 @@
 - не требует Telegram API и MTProto;
 - собирает посты из нескольких каналов в локальный JSON-кэш;
 - присваивает legal topics (`bankruptcy`, `arbitration`, `tax`, `courts`, `enforcement`, `compliance`, `ai_law`);
+- сохраняет просмотры постов из Telegram Web Preview, если счётчик реально присутствует в HTML;
+- считает вторичные сигналы ранжирования: реакции, охват, вовлечённость `reactions/views`;
 - строит дайджесты `today` / `yesterday` / `week`;
 - показывает web reader, hot posts, compare, stats и JSON digest endpoints.
 
@@ -37,6 +39,12 @@ pnpm run build
 - `data/posts.json` — нормализованные посты
 - `data/new-posts.json` — новые посты последнего fetch
 - `data/digests/*.json` — готовые digest snapshots
+
+### Ограничение по Telegram-счётчикам
+
+- просмотры постов сохраняются только когда Telegram Web Preview отдаёт `.tgme_widget_message_views`;
+- если счётчика просмотров нет в HTML, проект не подставляет оценки и использует безопасный fallback только по реакциям;
+- счётчик подписчиков пока не используется в аналитике: в web preview он оформлен как UI-метка и может отличаться по локали и типу страницы.
 
 ## Быстрый старт
 

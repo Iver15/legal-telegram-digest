@@ -1,30 +1,54 @@
 ---
 import Layout from '../layouts/base.astro'
 import { getAllChannels, getAllPosts, getChannelData, getDigestTitle } from '../lib/data'
+import { formatCompactNumberRu, formatPercentRu } from '../lib/metrics'
 
 const channels = getAllChannels().filter((channel) => channel.postCount > 0)
 const posts = getAllPosts()
 const channel = getChannelData()
 channel.title = `${getDigestTitle()} - Сравнение`
-channel.description = 'Сравнение каналов по объёму, юридической релевантности и приоритету.'
+channel.description = 'Сравнение каналов по объёму, юридическому приоритету, охвату и вовлечённости.'
 channel.descriptionHTML = null
 channel.avatar = undefined
 channel.seo = { title: 'Сравнение' }
 
 const SITE_URL = import.meta.env.BASE_URL ?? '/'
-const rows = channels.map((item) => {
-  const channelPosts = posts.filter((post) => post.channel === item.name)
-  const totalPriority = channelPosts.reduce((sum, post) => sum + (post.priorityScore || 0), 0)
-  const averagePriority = channelPosts.length > 0 ? totalPriority / channelPosts.length : 0
-  const lastPostAt = channelPosts[0]?.datetime
+const rows = channels
+  .map((item) => {
+    const channelPosts = posts.filter((post) => post.channel === item.name)
+    const totalPriority = channelPosts.reduce((sum, post) => sum + (post.priorityScore || 0), 0)
+    const averagePriority = channelPosts.length > 0 ? totalPriority / channelPosts.length : 0
+    const totalReactions = channelPosts.reduce((sum, post) => sum + (post.reactionCount || 0), 0)
+    const postsWithViews = channelPosts.filter((post) => typeof post.viewCount === 'number')
+    const averageViews =
+      postsWithViews.length > 0
+        ? postsWithViews.reduce((sum, post) => sum + (post.viewCount || 0), 0) / postsWithViews.length
+        : undefined
+    const averageEngagement =
+      postsWithViews.length > 0
+        ? postsWithViews.reduce((sum, post) => sum + (post.engagementRate || 0), 0) / postsWithViews.length
+        : undefined
+    const viewCoverage = channelPosts.length > 0 ? postsWithViews.length / channelPosts.length : 0
+    const lastPostAt = channelPosts[0]?.datetime
 
-  return {
-    ...item,
-    totalPriority: totalPriority.toFixed(1),
-    averagePriority: averagePriority.toFixed(2),
-    lastPostAt,
-  }
-})
+    return {
+      ...item,
+      totalPriority,
+      averagePriority,
+      totalReactions,
+      averageViews,
+      averageEngagement,
+      viewCoverage,
+      lastPostAt,
+    }
+  })
+  .sort(
+    (a, b) =>
+      b.averagePriority - a.averagePriority ||
+      (b.averageEngagement || 0) - (a.averageEngagement || 0) ||
+      (b.averageViews || 0) - (a.averageViews || 0) ||
+      b.postCount - a.postCount,
+  )
 ---
 
 <Layout channel={channel}>
@@ -37,7 +61,7 @@ const rows = channels.map((item) => {
     </div>
   </div>
   <p class="text-dim" style="font-size:14px;margin:0 0 12px;">
-    Сравнение активных источников: объём, тематическое попадание и итоговый юридический приоритет.
+    Сравнение активных источников: объём, средний юридический приоритет, охват на пост и вовлечённость аудитории.
   </p>
 
   <div class="compare-table-wrap">
@@ -47,8 +71,11 @@ const rows = channels.map((item) => {
           <th>Канал</th>
           <th>Категория</th>
           <th>Посты</th>
-          <th>Суммарный приоритет</th>
           <th>Средний приоритет</th>
+          <th>Средний охват</th>
+          <th>Вовлечённость</th>
+          <th>Покрытие просмотров</th>
+          <th>Реакции</th>
           <th>Последний пост</th>
         </tr>
       </thead>
@@ -56,20 +83,29 @@ const rows = channels.map((item) => {
         {
           rows.map((row) => (
             <tr>
-              <td>
+              <td data-label="Канал">
                 <a href={`${SITE_URL}search/${row.name}`}>@{row.name}</a>
               </td>
-              <td>{row.category || 'общее'}</td>
-              <td>{row.postCount}</td>
-              <td>{row.totalPriority}</td>
-              <td>{row.averagePriority}</td>
-              <td>{row.lastPostAt ? new Date(row.lastPostAt).toLocaleDateString('ru-RU') : '—'}</td>
+              <td data-label="Категория">{row.category || 'общее'}</td>
+              <td data-label="Посты">{row.postCount}</td>
+              <td data-label="Средний приоритет">{row.averagePriority.toFixed(2)}</td>
+              <td data-label="Средний охват">{formatCompactNumberRu(row.averageViews)}</td>
+              <td data-label="Вовлечённость">{formatPercentRu(row.averageEngagement, 1)}</td>
+              <td data-label="Покрытие просмотров">{formatPercentRu(row.viewCoverage, 0)}</td>
+              <td data-label="Реакции">{formatCompactNumberRu(row.totalReactions)}</td>
+              <td data-label="Последний пост">
+                {row.lastPostAt ? new Date(row.lastPostAt).toLocaleDateString('ru-RU') : '—'}
+              </td>
             </tr>
           ))
         }
       </tbody>
     </table>
   </div>
+  <p class="text-dim compare-note">
+    Просмотры берутся только из Telegram Web Preview. Если Telegram их не показал для части постов, метрики охвата и
+    вовлечённости считаются по доступным записям.
+  </p>
 </Layout>
 
 <style>
@@ -82,7 +118,7 @@ const rows = channels.map((item) => {
   .compare-table {
     width: 100%;
     border-collapse: collapse;
-    min-width: 640px;
+    min-width: 880px;
   }
   .compare-table th,
   .compare-table td {
@@ -97,5 +133,42 @@ const rows = channels.map((item) => {
     font-size: 0.78rem;
     text-transform: uppercase;
     letter-spacing: 0.04em;
+  }
+  .compare-note {
+    margin: 0.75rem 0 0;
+    font-size: 0.82rem;
+  }
+  @media (max-width: 720px) {
+    .compare-table,
+    .compare-table thead,
+    .compare-table tbody,
+    .compare-table tr,
+    .compare-table td {
+      display: block;
+      min-width: 0;
+    }
+    .compare-table {
+      min-width: 0;
+    }
+    .compare-table thead {
+      display: none;
+    }
+    .compare-table tr {
+      padding: 0.3rem 0;
+      border-bottom: 1px solid var(--color-line);
+    }
+    .compare-table td {
+      border-bottom: none;
+      padding: 0.4rem 0.95rem;
+    }
+    .compare-table td::before {
+      content: attr(data-label);
+      display: block;
+      margin-bottom: 0.18rem;
+      color: var(--color-muted);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
   }
 </style>

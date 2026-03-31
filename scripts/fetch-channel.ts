@@ -40,6 +40,7 @@ import 'prismjs-components-importer/cjs/prism-dart'
 import 'prismjs-components-importer/cjs/prism-lua'
 import type { ChannelDefinition, ChannelRegistry, Post, Reaction } from '../src/types'
 import { buildAllDigestPayloads, enrichLegalPost, normalizeChannelRegistry } from '../src/lib/legal'
+import { parseTelegramCounter } from '../src/lib/metrics'
 
 // --- Types ---
 
@@ -111,6 +112,13 @@ const STYLE_PADDING_TOP_REGEX = /padding-top:\s*(\d+(?:\.\d+)?)%/i
 const SYNTHETIC_IMAGE_DIMENSION = 1000
 const TITLE_PREVIEW_REGEX = /^.*?(?=[。\n]|http\S)/g
 const CONTENT_URL_REGEX = /(url\(["'])((https?:)?\/\/)/g
+const CONTENT_BREAK_REGEX = /(?:<br\s*\/?>\s*){2,}/gi
+const CONTENT_LEADING_BREAK_REGEX = /^(?:<br\s*\/?>\s*)+/i
+const CONTENT_TRAILING_BREAK_REGEX = /(?:<br\s*\/?>\s*)+$/i
+const EMPTY_PARAGRAPH_REGEX = /<p>(?:\s|&nbsp;|<br\s*\/?>)*<\/p>/gi
+const EMPTY_BLOCKQUOTE_REGEX = /<blockquote[^>]*>\s*<\/blockquote>/gi
+const WRAPPED_MEDIA_REGEX = /<p>\s*(<(?:figure|img|video|audio|blockquote|pre)[\s\S]*?)<\/p>/gi
+const HAS_BLOCK_MARKUP_REGEX = /<(?:p|blockquote|ul|ol|pre|figure|table|h[1-6]|div)\b/i
 
 // --- Helper functions (from src/lib/telegram/index.ts) ---
 
@@ -355,6 +363,50 @@ function getReactions($: CheerioAPI, message: MessageSelection): Reaction[] {
   return reactions
 }
 
+function getViewCount(message: MessageSelection): number | undefined {
+  const viewsText = message.find('.tgme_widget_message_views').first().text().trim()
+  return parseTelegramCounter(viewsText)
+}
+
+function normalizeContentMarkup($: CheerioAPI, content: MessageSelection): void {
+  content.find('script, style, .tgme_widget_message_service_date').remove()
+
+  for (const node of content.find('span').toArray()) {
+    const span = $(node)
+    const attrs = node.attribs ? Object.keys(node.attribs) : []
+    if (attrs.length === 0) {
+      span.replaceWith(span.html() ?? '')
+    }
+  }
+
+  let html = (content.html() ?? '').trim()
+  if (!html) {
+    return
+  }
+
+  const hasBlockMarkup = HAS_BLOCK_MARKUP_REGEX.test(html)
+
+  if (!hasBlockMarkup) {
+    html = html
+      .replace(CONTENT_BREAK_REGEX, '</p><p>')
+      .replace(CONTENT_LEADING_BREAK_REGEX, '')
+      .replace(CONTENT_TRAILING_BREAK_REGEX, '')
+      .trim()
+
+    if (html) {
+      html = `<p>${html}</p>`
+    }
+  }
+
+  html = html
+    .replace(EMPTY_PARAGRAPH_REGEX, '')
+    .replace(EMPTY_BLOCKQUOTE_REGEX, '')
+    .replace(WRAPPED_MEDIA_REGEX, '$1')
+    .trim()
+
+  content.html(html)
+}
+
 async function modifyHTMLContent($: CheerioAPI, content: MessageSelection, index: number): Promise<MessageSelection> {
   await hydrateTgEmoji($, content)
   content.find('.emoji').removeAttr('style')
@@ -382,6 +434,8 @@ async function modifyHTMLContent($: CheerioAPI, content: MessageSelection, index
     const spoilerInput = `<input type="checkbox" aria-label="Reveal spoiler" aria-controls="${spoilerId}" />`
     spoiler.attr('id', spoilerId).wrap('<label class="spoiler-button"></label>').before(spoilerInput)
   }
+
+  normalizeContentMarkup($, content)
 
   for (const preNode of content.find('pre').toArray()) {
     try {
@@ -432,7 +486,6 @@ async function extractPost($: CheerioAPI, item: AnyNode | null, index: number): 
     getVideoStickers($, message, index),
     message.find('.tgme_widget_message_poll').html(),
     $.html(message.find('.tgme_widget_message_document_wrap')),
-    $.html(message.find('.tgme_widget_message_video_player.not_supported')),
     $.html(message.find('.tgme_widget_message_location_wrap')),
     getLinkPreview($, message, index),
   ]
@@ -452,6 +505,7 @@ async function extractPost($: CheerioAPI, item: AnyNode | null, index: number): 
     text: contentText,
     content: contentHtml,
     reactions: getReactions($, message),
+    viewCount: getViewCount(message),
   }
 }
 
@@ -614,15 +668,7 @@ async function main() {
   console.log(`New posts: ${newPosts.length}`)
 
   if (newPosts.length === 0 && existingPosts.length > 0) {
-    console.log('No new posts, data is up to date.')
-    writeFileSync(POSTS_FILE, JSON.stringify(existingPosts, null, 2))
-    writeFileSync(CHANNEL_FILE, JSON.stringify(channelsMeta, null, 2))
-    writeFileSync(NEW_POSTS_FILE, JSON.stringify([], null, 2))
-    const digests = buildAllDigestPayloads(existingPosts, registry)
-    for (const [period, payload] of Object.entries(digests)) {
-      writeFileSync(resolve(DIGESTS_DIR, `${period}.json`), JSON.stringify(payload, null, 2))
-    }
-    return
+    console.log('No new posts, refreshing metrics for existing data.')
   }
 
   // Merge + sort by datetime descending

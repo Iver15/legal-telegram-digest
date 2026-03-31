@@ -2,8 +2,18 @@
 import Layout from '../layouts/base.astro'
 import Item from '../components/item.astro'
 import { getChannelData, getDigestTitle, getTopPosts } from '../lib/data'
+import { formatCompactNumberRu, formatPercentRu } from '../lib/metrics'
 
 const hotPosts = getTopPosts(50)
+const postsWithViews = hotPosts.filter((post) => typeof post.viewCount === 'number')
+const averageViews =
+  postsWithViews.length > 0
+    ? postsWithViews.reduce((sum, post) => sum + (post.viewCount || 0), 0) / postsWithViews.length
+    : undefined
+const averageEngagement =
+  postsWithViews.length > 0
+    ? postsWithViews.reduce((sum, post) => sum + (post.engagementRate || 0), 0) / postsWithViews.length
+    : undefined
 const channel = getChannelData()
 channel.title = `${getDigestTitle()} - Главное`
 channel.description = 'Главные юридические посты по всем включённым каналам.'
@@ -25,8 +35,27 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     </div>
   </div>
   <p class="text-dim" style="font-size:14px;margin:0 0 12px;">
-    Ранжирование по юридическому приоритету, свежести и реакции аудитории.
+    Сначала юридический приоритет и свежесть, затем охват и отдача реакции там, где Telegram Web показывает просмотры.
   </p>
+
+  <div class="hot-summary">
+    <article class="hot-summary__item">
+      <strong>{hotPosts.length}</strong>
+      <span>постов в рейтинге</span>
+    </article>
+    <article class="hot-summary__item">
+      <strong>{postsWithViews.length}</strong>
+      <span>с известным охватом</span>
+    </article>
+    <article class="hot-summary__item">
+      <strong>{formatCompactNumberRu(averageViews)}</strong>
+      <span>средний охват</span>
+    </article>
+    <article class="hot-summary__item">
+      <strong>{formatPercentRu(averageEngagement, 1)}</strong>
+      <span>средняя вовлечённость</span>
+    </article>
+  </div>
 
   <ol class="mt-5 mb-0 ml-7 list-none pl-0 max-sm:ml-0" aria-label="Главные посты">
     {
@@ -38,3 +67,36 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     }
   </ol>
 </Layout>
+
+<style>
+  .hot-summary {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .hot-summary__item {
+    border: 1px solid var(--color-line);
+    border-radius: 16px;
+    padding: 0.9rem 1rem;
+    background: var(--color-surface);
+  }
+
+  .hot-summary__item strong {
+    display: block;
+    font-size: 1.1rem;
+    color: var(--color-heading);
+  }
+
+  .hot-summary__item span {
+    color: var(--color-muted);
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 720px) {
+    .hot-summary {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>

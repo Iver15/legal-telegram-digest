@@ -57,6 +57,8 @@ export interface Post {
   priorityReasons?: string[]
   digestSummary?: string
   reactionCount?: number
+  viewCount?: number
+  engagementRate?: number
 }
 
 export interface ChannelInfo {

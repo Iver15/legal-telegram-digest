@@ -1,10 +1,18 @@
 ---
 import Layout from '../layouts/base.astro'
 import { getAllCategories, getAllChannels, getAllPosts, getChannelData, getDigestTitle } from '../lib/data'
+import { formatCompactNumberRu, formatPercentRu } from '../lib/metrics'
 
 const allPosts = getAllPosts()
 const channels = getAllChannels().filter((channel) => channel.postCount > 0)
 const categories = getAllCategories().filter((category) => category.count > 0)
+const postsWithViews = allPosts.filter((post) => typeof post.viewCount === 'number')
+const totalKnownViews = postsWithViews.reduce((sum, post) => sum + (post.viewCount || 0), 0)
+const averageEngagement =
+  postsWithViews.length > 0
+    ? postsWithViews.reduce((sum, post) => sum + (post.engagementRate || 0), 0) / postsWithViews.length
+    : undefined
+const averageViews = postsWithViews.length > 0 ? totalKnownViews / postsWithViews.length : undefined
 const channel = getChannelData()
 channel.title = `${getDigestTitle()} - Статистика`
 channel.description = 'Статистика покрытия по включённым юридическим каналам.'
@@ -15,6 +23,31 @@ channel.seo = { title: 'Статистика' }
 const SITE_URL = import.meta.env.BASE_URL ?? '/'
 const maxChannelPosts = Math.max(...channels.map((item) => item.postCount), 1)
 const maxCategoryCount = Math.max(...categories.map((item) => item.count), 1)
+const channelSignals = channels.map((item) => {
+  const channelPosts = allPosts.filter((post) => post.channel === item.name)
+  const channelPostsWithViews = channelPosts.filter((post) => typeof post.viewCount === 'number')
+  const avgViews =
+    channelPostsWithViews.length > 0
+      ? channelPostsWithViews.reduce((sum, post) => sum + (post.viewCount || 0), 0) / channelPostsWithViews.length
+      : undefined
+  const avgEngagement =
+    channelPostsWithViews.length > 0
+      ? channelPostsWithViews.reduce((sum, post) => sum + (post.engagementRate || 0), 0) / channelPostsWithViews.length
+      : undefined
+  return {
+    ...item,
+    avgViews,
+    avgEngagement,
+  }
+})
+const channelsByViews = channelSignals
+  .filter((item) => item.avgViews)
+  .sort((a, b) => (b.avgViews || 0) - (a.avgViews || 0))
+const channelsByEngagement = channelSignals
+  .filter((item) => item.avgEngagement)
+  .sort((a, b) => (b.avgEngagement || 0) - (a.avgEngagement || 0))
+const maxAverageViews = Math.max(...channelsByViews.map((item) => item.avgViews || 0), 1)
+const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item.avgEngagement || 0), 0.01)
 ---
 
 <Layout channel={channel}>
@@ -39,6 +72,18 @@ const maxCategoryCount = Math.max(...categories.map((item) => item.count), 1)
     <article class="stats-box">
       <strong>{categories.length}</strong>
       <span>Категорий</span>
+    </article>
+    <article class="stats-box">
+      <strong>{postsWithViews.length}</strong>
+      <span>Постов с охватом</span>
+    </article>
+    <article class="stats-box">
+      <strong>{formatCompactNumberRu(averageViews)}</strong>
+      <span>Средний охват</span>
+    </article>
+    <article class="stats-box">
+      <strong>{formatPercentRu(averageEngagement, 1)}</strong>
+      <span>Средняя вовлечённость</span>
     </article>
   </div>
 
@@ -71,6 +116,51 @@ const maxCategoryCount = Math.max(...categories.map((item) => item.count), 1)
       ))
     }
   </section>
+
+  {
+    channelsByViews.length > 0 && (
+      <section class="stats-section">
+        <h2>Средний охват по каналам</h2>
+        {channelsByViews.map((item) => (
+          <div class="stats-bar-row">
+            <span>@{item.name}</span>
+            <div class="stats-bar-track">
+              <div
+                class="stats-bar-fill"
+                style={`width:${Math.round(((item.avgViews || 0) / maxAverageViews) * 100)}%;`}
+              />
+            </div>
+            <strong>{formatCompactNumberRu(item.avgViews)}</strong>
+          </div>
+        ))}
+      </section>
+    )
+  }
+
+  {
+    channelsByEngagement.length > 0 && (
+      <section class="stats-section">
+        <h2>Средняя вовлечённость по каналам</h2>
+        {channelsByEngagement.map((item) => (
+          <div class="stats-bar-row">
+            <span>@{item.name}</span>
+            <div class="stats-bar-track">
+              <div
+                class="stats-bar-fill"
+                style={`width:${Math.round(((item.avgEngagement || 0) / maxAverageEngagement) * 100)}%;`}
+              />
+            </div>
+            <strong>{formatPercentRu(item.avgEngagement, 1)}</strong>
+          </div>
+        ))}
+      </section>
+    )
+  }
+
+  <p class="text-dim stats-note">
+    Всего зафиксировано {formatCompactNumberRu(totalKnownViews)} просмотров в постах, где Telegram Web Preview показал счётчик.
+    Подписчики из web preview пока не используются: этот счётчик оформлен как UI-метка и может меняться по локали и типу страницы.
+  </p>
 </Layout>
 
 <style>
@@ -132,15 +222,27 @@ const maxCategoryCount = Math.max(...categories.map((item) => item.count), 1)
     border-radius: 999px;
     background: linear-gradient(90deg, var(--color-accent), color-mix(in srgb, var(--color-accent) 60%, #f3c2ad));
   }
+  .stats-note {
+    margin: 0.5rem 0 0;
+    font-size: 0.82rem;
+  }
   @media (max-width: 720px) {
     .stats-grid {
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
     .stats-bar-row {
       grid-template-columns: 1fr;
     }
     .stats-bar-row strong {
       text-align: left;
+    }
+    .stats-note {
+      margin-bottom: 1rem;
+    }
+  }
+  @media (max-width: 520px) {
+    .stats-grid {
+      grid-template-columns: 1fr;
     }
   }
 </style>
