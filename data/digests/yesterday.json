@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-01T22:33:43.843Z",
+  "generatedAt": "2026-04-01T23:22:11.485Z",
   "totalPosts": 38,
   "topPosts": [
     {
@@ -54,7 +54,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.79,
+      "priorityScore": 35.68,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -141,7 +141,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.33,
+      "priorityScore": 31.23,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -198,7 +198,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.28,
+      "priorityScore": 31.18,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -260,7 +260,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.18,
+      "priorityScore": 30.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -329,7 +329,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 30.02,
+      "priorityScore": 29.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -386,7 +386,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.93,
+      "priorityScore": 29.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -434,7 +434,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 21600,
+      "viewCount": 21700,
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
       "category": "courts",
@@ -445,18 +445,18 @@
         "bankruptcy",
         "enforcement"
       ],
-      "priorityScore": 28.47,
+      "priorityScore": 28.36,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 120 реакций",
-        "Охват в Telegram Web: 21600 просмотров"
+        "Охват в Telegram Web: 21700 просмотров"
       ],
       "digestSummary": "ВС России защитил право собственников сельскохозяйственных земель в Саратовской области на расторжение договора аренды участка с агрофирмой, систематически нарушавшей его условия. Суд первой инстанции поддержал истцов. О",
       "reactionCount": 120,
-      "engagementRate": 0.005555555555555556
+      "engagementRate": 0.005529953917050691
     },
     {
       "id": "probankrotstvoru/9489",
@@ -506,7 +506,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.01,
+      "priorityScore": 27.91,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -564,7 +564,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.09,
+      "priorityScore": 25.99,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -621,7 +621,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 25.14,
+      "priorityScore": 25.04,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -688,7 +688,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 24.48,
+      "priorityScore": 24.38,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Налоги",
@@ -738,7 +738,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 22.94,
+      "priorityScore": 22.84,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
