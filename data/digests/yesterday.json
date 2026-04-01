@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-01T23:22:11.485Z",
+  "generatedAt": "2026-04-01T23:56:25.075Z",
   "totalPosts": 38,
   "topPosts": [
     {
@@ -54,7 +54,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.68,
+      "priorityScore": 35.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -141,7 +141,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.23,
+      "priorityScore": 31.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -198,7 +198,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.18,
+      "priorityScore": 31.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -260,7 +260,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.08,
+      "priorityScore": 30.01,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -329,7 +329,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 29.92,
+      "priorityScore": 29.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -386,7 +386,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.83,
+      "priorityScore": 29.76,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -445,7 +445,7 @@
         "bankruptcy",
         "enforcement"
       ],
-      "priorityScore": 28.36,
+      "priorityScore": 28.29,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
@@ -506,7 +506,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 27.91,
+      "priorityScore": 27.84,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -564,7 +564,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.99,
+      "priorityScore": 25.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -609,7 +609,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1370,
+      "viewCount": 1380,
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
       "category": "bankruptcy",
@@ -621,19 +621,19 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 25.04,
+      "priorityScore": 24.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 47 реакций",
-        "Охват в Telegram Web: 1370 просмотров",
+        "Охват в Telegram Web: 1380 просмотров",
         "Сильная отдача аудитории: 3,4% реакций к просмотрам"
       ],
       "digestSummary": "Правительство России не будет обжаловать решение Верховного Суда России по справкам ГИБДД. Уже в начале апреля, не дожидаясь вступления в силу, выписки начнут выдавать на бумаге по запросам АУ, как и раньше",
       "reactionCount": 47,
-      "engagementRate": 0.034306569343065696
+      "engagementRate": 0.034057971014492754
     },
     {
       "id": "corplawpro/5851",
@@ -688,7 +688,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 24.38,
+      "priorityScore": 24.31,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Налоги",
@@ -726,7 +726,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2520,
+      "viewCount": 2530,
       "channel": "orpau",
       "channelTitle": "ОРПАУ - Общероссийский профсоюз арбитражных управляющих",
       "category": "bankruptcy",
@@ -738,19 +738,19 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 22.84,
+      "priorityScore": 22.76,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 33 реакций",
-        "Охват в Telegram Web: 2520 просмотров",
+        "Охват в Telegram Web: 2530 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Правительство России не будет обжаловать решение Верховного Суда России по справкам ГИБДД. Уже в начале апреля, не дожидаясь вступления в силу, выписки начнут выдавать на бумаге по запросам АУ, как и раньше",
       "reactionCount": 33,
-      "engagementRate": 0.013095238095238096
+      "engagementRate": 0.013043478260869565
     }
   ],
   "topTopics": [
