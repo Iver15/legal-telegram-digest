@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-01T19:46:25.430Z",
+  "generatedAt": "2026-04-01T20:27:37.619Z",
   "totalPosts": 38,
   "topPosts": [
     {
@@ -54,7 +54,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.14,
+      "priorityScore": 36.06,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -141,7 +141,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.68,
+      "priorityScore": 31.59,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -186,7 +186,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1590,
+      "viewCount": 1600,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -198,19 +198,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.64,
+      "priorityScore": 31.54,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 1590 просмотров",
+        "Охват в Telegram Web: 1600 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: подача иска о субсидиарке фиксирует осведомленность КУ для целей иска об убыткахОбщество «МФ Инвест» было признано банкротом в ноябре 2015 года Единственным активом должника являлся молокозавод «Валетта» в Серб",
       "reactionCount": 17,
-      "engagementRate": 0.010691823899371069
+      "engagementRate": 0.010625
     },
     {
       "id": "probankrotstvoru/9487",
@@ -260,7 +260,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.53,
+      "priorityScore": 30.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -316,7 +316,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1280,
+      "viewCount": 1290,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -329,19 +329,19 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 30.38,
+      "priorityScore": 30.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Комплаенс",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 1280 просмотров",
+        "Охват в Telegram Web: 1290 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Банкротство в корпоративной структуре: контроль, сделки, субсидиарная ответственностьПродолжаем знакомить со спикерами Банкротного дня, который пройдет уже в этот четверг.Светлана Карелина, доктор юридических наук, профе",
       "reactionCount": 15,
-      "engagementRate": 0.01171875
+      "engagementRate": 0.011627906976744186
     },
     {
       "id": "probankrotstvoru/9491",
@@ -386,7 +386,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.29,
+      "priorityScore": 30.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -434,7 +434,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 21500,
+      "viewCount": 21600,
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
       "category": "courts",
@@ -445,18 +445,18 @@
         "bankruptcy",
         "enforcement"
       ],
-      "priorityScore": 28.81,
+      "priorityScore": 28.72,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 119 реакций",
-        "Охват в Telegram Web: 21500 просмотров"
+        "Охват в Telegram Web: 21600 просмотров"
       ],
       "digestSummary": "ВС России защитил право собственников сельскохозяйственных земель в Саратовской области на расторжение договора аренды участка с агрофирмой, систематически нарушавшей его условия. Суд первой инстанции поддержал истцов. О",
       "reactionCount": 119,
-      "engagementRate": 0.005534883720930232
+      "engagementRate": 0.005509259259259259
     },
     {
       "id": "probankrotstvoru/9489",
@@ -506,7 +506,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.36,
+      "priorityScore": 28.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -564,7 +564,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.45,
+      "priorityScore": 26.36,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -609,7 +609,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1340,
+      "viewCount": 1360,
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
       "category": "bankruptcy",
@@ -621,19 +621,19 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 25.48,
+      "priorityScore": 25.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 47 реакций",
-        "Охват в Telegram Web: 1340 просмотров",
+        "Охват в Telegram Web: 1360 просмотров",
         "Сильная отдача аудитории: 3,5% реакций к просмотрам"
       ],
       "digestSummary": "Правительство России не будет обжаловать решение Верховного Суда России по справкам ГИБДД. Уже в начале апреля, не дожидаясь вступления в силу, выписки начнут выдавать на бумаге по запросам АУ, как и раньше",
       "reactionCount": 47,
-      "engagementRate": 0.03507462686567164
+      "engagementRate": 0.03455882352941177
     },
     {
       "id": "corplawpro/5851",
@@ -688,7 +688,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 24.84,
+      "priorityScore": 24.75,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Налоги",
@@ -726,7 +726,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2480,
+      "viewCount": 2500,
       "channel": "orpau",
       "channelTitle": "ОРПАУ - Общероссийский профсоюз арбитражных управляющих",
       "category": "bankruptcy",
@@ -738,19 +738,19 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 23.31,
+      "priorityScore": 23.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 33 реакций",
-        "Охват в Telegram Web: 2480 просмотров",
+        "Охват в Telegram Web: 2500 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Правительство России не будет обжаловать решение Верховного Суда России по справкам ГИБДД. Уже в начале апреля, не дожидаясь вступления в силу, выписки начнут выдавать на бумаге по запросам АУ, как и раньше",
       "reactionCount": 33,
-      "engagementRate": 0.013306451612903225
+      "engagementRate": 0.0132
     }
   ],
   "topTopics": [
