@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-03-31T23:58:59.278Z",
-  "totalPosts": 37,
+  "generatedAt": "2026-04-01T02:09:33.013Z",
+  "totalPosts": 36,
   "topPosts": [
     {
       "id": "probankrotstvoru/9485",
@@ -54,7 +54,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.72,
+      "priorityScore": 33.45,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -117,7 +117,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.64,
+      "priorityScore": 30.37,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -173,7 +173,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.55,
+      "priorityScore": 29.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -232,7 +232,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.92,
+      "priorityScore": 27.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -292,7 +292,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.55,
+      "priorityScore": 27.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -346,7 +346,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 27.31,
+      "priorityScore": 27.03,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -407,7 +407,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.01,
+      "priorityScore": 26.74,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -443,7 +443,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 221,
+      "viewCount": 222,
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
       "category": "compliance",
@@ -456,18 +456,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 26.96,
+      "priorityScore": 26.68,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 221 просмотров",
+        "Охват в Telegram Web: 222 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Признание и исполнение - решение китайского суда - Признание и исполнение Размещаю недавний российский судебный акт о частичном признании решения народного суда Шанхая.Интересно, что решение в части взыскания китайского ",
       "reactionCount": 3,
-      "engagementRate": 0.013574660633484163
+      "engagementRate": 0.013513513513513514
     },
     {
       "id": "sovetsudey/825",
@@ -523,7 +523,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 26.19,
+      "priorityScore": 25.91,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -580,7 +580,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.69,
+      "priorityScore": 25.42,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -652,7 +652,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 25,
+      "priorityScore": 24.72,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -691,7 +691,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 932,
+      "viewCount": 933,
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
       "category": "compliance",
@@ -704,39 +704,39 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 24.43,
+      "priorityScore": 24.16,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 932 просмотров"
+        "Охват в Telegram Web: 933 просмотров"
       ],
       "digestSummary": "Факт увеличения агентского вознаграждения сам по себе не доказывает явного ущерба — необходимо сравнение с рыночной стоимостью аналогичных услуг#корпоративные_споры#недействительность_сделки#агентский_договорВетров А.Б. ",
       "reactionCount": 1,
-      "engagementRate": 0.001072961373390558
+      "engagementRate": 0.0010718113612004287
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 35
+      "count": 34
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 34
+      "count": 33
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 28
+      "count": 27
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 25
+      "count": 24
     },
     {
       "id": "enforcement",
@@ -761,13 +761,13 @@
       "count": 9
     },
     {
-      "channel": "vZone1413",
-      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 5
-    },
-    {
       "channel": "orpauradio",
       "title": "Первый радиоканал АУ и юристов",
+      "count": 4
+    },
+    {
+      "channel": "vZone1413",
+      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
       "count": 4
     },
     {
