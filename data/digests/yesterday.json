@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-01T20:27:37.619Z",
+  "generatedAt": "2026-04-01T21:09:20.754Z",
   "totalPosts": 38,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1560,
+      "viewCount": 1570,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -54,19 +54,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.06,
+      "priorityScore": 35.96,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 21 реакций",
-        "Охват в Telegram Web: 1560 просмотров",
+        "Охват в Telegram Web: 1570 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Восемь месяцев бездействия управляющего обернулись убытками в 74,5 млн рублейВ августе 2020 года суд ввел наблюдение в отношении общества «Стройсвет», а в марте 2021 года признал его банкротом. КУ утвердили Алину Асееву,",
       "reactionCount": 21,
-      "engagementRate": 0.013461538461538462
+      "engagementRate": 0.01337579617834395
     },
     {
       "id": "probankrotstvoru/9486",
@@ -141,7 +141,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.59,
+      "priorityScore": 31.51,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -198,7 +198,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.54,
+      "priorityScore": 31.46,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -260,7 +260,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.44,
+      "priorityScore": 30.35,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -329,7 +329,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 30.28,
+      "priorityScore": 30.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -386,7 +386,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.2,
+      "priorityScore": 30.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -445,7 +445,7 @@
         "bankruptcy",
         "enforcement"
       ],
-      "priorityScore": 28.72,
+      "priorityScore": 28.64,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
@@ -494,7 +494,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1370,
+      "viewCount": 1380,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -506,17 +506,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.28,
+      "priorityScore": 28.19,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 1370 просмотров"
+        "Охват в Telegram Web: 1380 просмотров"
       ],
       "digestSummary": "Бывшего КУ обязали возместить расходы на аудитора, исправлявшего налоговые ошибкиСедьмой арбитражный апелляционный суд подтвердил, что бывший КУ общества «Энергоуголь» Юлия Бакаминова должна компенсировать расходы на при",
       "reactionCount": 10,
-      "engagementRate": 0.0072992700729927005
+      "engagementRate": 0.007246376811594203
     },
     {
       "id": "probankrotstvoru/9488",
@@ -553,7 +553,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1380,
+      "viewCount": 1390,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -564,19 +564,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.36,
+      "priorityScore": 26.27,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 1380 просмотров",
+        "Охват в Telegram Web: 1390 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Коллизия в законодательстве о банкротстве: разрешить ее может только Верховный Суд В процедурах банкротства при пересмотре требований кредиторов могут применяться два механизма: гл. 37 АПК РФ — пересмотр судебных актов п",
       "reactionCount": 17,
-      "engagementRate": 0.012318840579710146
+      "engagementRate": 0.01223021582733813
     },
     {
       "id": "orpauradio/9261",
@@ -609,7 +609,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1360,
+      "viewCount": 1370,
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
       "category": "bankruptcy",
@@ -621,19 +621,19 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 25.4,
+      "priorityScore": 25.32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 47 реакций",
-        "Охват в Telegram Web: 1360 просмотров",
-        "Сильная отдача аудитории: 3,5% реакций к просмотрам"
+        "Охват в Telegram Web: 1370 просмотров",
+        "Сильная отдача аудитории: 3,4% реакций к просмотрам"
       ],
       "digestSummary": "Правительство России не будет обжаловать решение Верховного Суда России по справкам ГИБДД. Уже в начале апреля, не дожидаясь вступления в силу, выписки начнут выдавать на бумаге по запросам АУ, как и раньше",
       "reactionCount": 47,
-      "engagementRate": 0.03455882352941177
+      "engagementRate": 0.034306569343065696
     },
     {
       "id": "corplawpro/5851",
@@ -688,7 +688,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 24.75,
+      "priorityScore": 24.66,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Налоги",
@@ -726,7 +726,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2500,
+      "viewCount": 2510,
       "channel": "orpau",
       "channelTitle": "ОРПАУ - Общероссийский профсоюз арбитражных управляющих",
       "category": "bankruptcy",
@@ -738,19 +738,19 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 23.22,
+      "priorityScore": 23.12,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 33 реакций",
-        "Охват в Telegram Web: 2500 просмотров",
+        "Охват в Telegram Web: 2510 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Правительство России не будет обжаловать решение Верховного Суда России по справкам ГИБДД. Уже в начале апреля, не дожидаясь вступления в силу, выписки начнут выдавать на бумаге по запросам АУ, как и раньше",
       "reactionCount": 33,
-      "engagementRate": 0.0132
+      "engagementRate": 0.013147410358565738
     }
   ],
   "topTopics": [
