@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-01T21:09:20.754Z",
+  "generatedAt": "2026-04-01T21:59:33.726Z",
   "totalPosts": 38,
   "topPosts": [
     {
@@ -54,7 +54,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.96,
+      "priorityScore": 35.86,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -141,7 +141,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.51,
+      "priorityScore": 31.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -198,7 +198,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.46,
+      "priorityScore": 31.35,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -260,7 +260,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.35,
+      "priorityScore": 30.25,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -329,7 +329,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 30.2,
+      "priorityScore": 30.09,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -374,7 +374,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1400,
+      "viewCount": 1410,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -386,18 +386,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.11,
+      "priorityScore": 30,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 1400 просмотров"
+        "Охват в Telegram Web: 1410 просмотров"
       ],
       "digestSummary": "Кассация: признание действий КУ незаконными не означает автоматического взыскания убытковОбщество «Даско» признали банкротом в июне 2017 года, утвердив КУ Николая Егоркина. Общество «Лидер» как залоговый кредитор оставил",
       "reactionCount": 11,
-      "engagementRate": 0.007857142857142858
+      "engagementRate": 0.007801418439716312
     },
     {
       "id": "sovetsudey/827",
@@ -415,7 +415,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "93",
+          "count": "94",
           "isPaid": false
         },
         {
@@ -445,18 +445,18 @@
         "bankruptcy",
         "enforcement"
       ],
-      "priorityScore": 28.64,
+      "priorityScore": 28.54,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Высокая вовлечённость: 119 реакций",
+        "Высокая вовлечённость: 120 реакций",
         "Охват в Telegram Web: 21600 просмотров"
       ],
       "digestSummary": "ВС России защитил право собственников сельскохозяйственных земель в Саратовской области на расторжение договора аренды участка с агрофирмой, систематически нарушавшей его условия. Суд первой инстанции поддержал истцов. О",
-      "reactionCount": 119,
-      "engagementRate": 0.005509259259259259
+      "reactionCount": 120,
+      "engagementRate": 0.005555555555555556
     },
     {
       "id": "probankrotstvoru/9489",
@@ -506,7 +506,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.19,
+      "priorityScore": 28.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -564,7 +564,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.27,
+      "priorityScore": 26.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -621,7 +621,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 25.32,
+      "priorityScore": 25.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -688,7 +688,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 24.66,
+      "priorityScore": 24.56,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Налоги",
@@ -738,7 +738,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 23.12,
+      "priorityScore": 23.02,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
