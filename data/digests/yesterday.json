@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-02T20:10:11.058Z",
+  "generatedAt": "2026-04-02T20:56:47.995Z",
   "totalPosts": 48,
   "topPosts": [
     {
@@ -62,7 +62,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 38.09,
+      "priorityScore": 38,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -122,7 +122,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 33.56,
+      "priorityScore": 33.47,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -166,7 +166,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1060,
+      "viewCount": 1070,
       "tgLink": "https://t.me/subsidiarka_kdl/4417",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -181,17 +181,17 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 31.99,
+      "priorityScore": 31.89,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 1060 просмотров"
+        "Охват в Telegram Web: 1070 просмотров"
       ],
       "digestSummary": "Истечение срока предъявления исполнительного листа не лишает кредитора права на субсидиарную ответственность контролирующего лица исключённого из ЕГРЮЛ общества#субсидиарная_ответственность#исключение_из_ЕГРЮЛФТС России ",
       "reactionCount": 6,
-      "engagementRate": 0.005660377358490566
+      "engagementRate": 0.005607476635514018
     },
     {
       "id": "bankrovert/673",
@@ -262,7 +262,7 @@
         "tax",
         "arbitration"
       ],
-      "priorityScore": 31.82,
+      "priorityScore": 31.72,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -312,7 +312,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1590,
+      "viewCount": 1600,
       "tgLink": "https://t.me/probankrotstvoru/9502",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -325,18 +325,18 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 31.21,
+      "priorityScore": 31.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Исполнение",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 1590 просмотров"
+        "Охват в Telegram Web: 1600 просмотров"
       ],
       "digestSummary": "Кассация: запрет на выезд повышает вероятность реального взыскания с КДЛВ деле о банкротстве АКБ «Мосуралбанк» КУ ГК «АСВ») подал заявление о привлечении контролирующих лиц к субсидиарной ответственности, в том числе Ана",
       "reactionCount": 15,
-      "engagementRate": 0.009433962264150943
+      "engagementRate": 0.009375
     },
     {
       "id": "zarbitrazhy/6859",
@@ -368,7 +368,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.01,
+      "priorityScore": 29.91,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -429,7 +429,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.83,
+      "priorityScore": 29.73,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -489,7 +489,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 29.71,
+      "priorityScore": 29.62,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -538,7 +538,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1020,
+      "viewCount": 1030,
       "tgLink": "https://t.me/subsidiarka_kdl/4418",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -551,17 +551,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.81,
+      "priorityScore": 28.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 1020 просмотров"
+        "Охват в Telegram Web: 1030 просмотров"
       ],
       "digestSummary": "Кассация: подача иска о субсидиарке фиксирует осведомленность КУ для целей иска об убыткахЕсли КУ подал заявление о субсидиарной ответственности, он уже знал о фактах и срок давности по убыткам с теми же основаниями тече",
       "reactionCount": 8,
-      "engagementRate": 0.00784313725490196
+      "engagementRate": 0.007766990291262136
     },
     {
       "id": "probankrotstvoru/9500",
@@ -609,7 +609,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.77,
+      "priorityScore": 28.68,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -674,7 +674,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 28.31,
+      "priorityScore": 28.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -710,7 +710,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2660,
+      "viewCount": 2670,
       "tgLink": "https://t.me/sudpraktik/3481",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -723,17 +723,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.95,
+      "priorityScore": 26.85,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 2660 просмотров"
+        "Охват в Telegram Web: 2670 просмотров"
       ],
       "digestSummary": "Добросовестный цессионарий вправе рассчитывать на судебную защиту в том объеме, в котором ею обладал цедент на момент уступки Суть требования: о взыскании убытков. Решение суда: дело направлено на новое рассмотрение. Обо",
       "reactionCount": 7,
-      "engagementRate": 0.002631578947368421
+      "engagementRate": 0.0026217228464419477
     }
   ],
   "topTopics": [
