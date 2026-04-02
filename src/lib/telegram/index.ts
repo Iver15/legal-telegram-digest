@@ -119,6 +119,14 @@ function getImageLoading(index: number): 'eager' | 'lazy' {
   return index > 15 ? 'lazy' : 'eager'
 }
 
+function buildTelegramPostLink(channel: string | undefined, id: string | undefined): string | undefined {
+  if (!channel || !id)
+    return undefined
+
+  const postNumericId = id.includes('/') ? id.split('/').pop() : id
+  return postNumericId ? `https://t.me/${channel}/${postNumericId}` : undefined
+}
+
 function getStyleDimension(style: string | undefined, property: 'width' | 'height'): number | null {
   const value = style?.match(STYLE_DIMENSION_REGEX[property])?.[1]
   return value ? Math.round(Number(value)) : null
@@ -576,6 +584,7 @@ async function extractPost($: CheerioAPI, item: AnyNode | null, options: Extract
     content: contentHtml,
     reactions: reactionsEnabled ? getReactions($, message, staticProxy) : [],
     viewCount: getViewCount(message),
+    tgLink: buildTelegramPostLink(channel, id),
   }
 }
 

@@ -154,6 +154,12 @@ function getImageLoading(index: number): 'eager' | 'lazy' {
   return index > 15 ? 'lazy' : 'eager'
 }
 
+function buildTelegramPostLink(channel: string | undefined, id: string | undefined): string | undefined {
+  if (!channel || !id) return undefined
+  const postNumericId = id.includes('/') ? id.split('/').pop() : id
+  return postNumericId ? `https://t.me/${channel}/${postNumericId}` : undefined
+}
+
 function getStyleDimension(style: string | undefined, property: 'width' | 'height'): number | null {
   const value = style?.match(STYLE_DIMENSION_REGEX[property])?.[1]
   return value ? Math.round(Number(value)) : null
@@ -506,6 +512,7 @@ async function extractPost($: CheerioAPI, item: AnyNode | null, index: number): 
     content: contentHtml,
     reactions: getReactions($, message),
     viewCount: getViewCount(message),
+    tgLink: buildTelegramPostLink(CHANNEL, id),
   }
 }
 
@@ -638,6 +645,10 @@ async function main() {
   const channelDefinitions = new Map<string, ChannelDefinition>(enabledChannels.map((channel) => [channel.channel, channel]))
   existingPosts = existingPosts
     .filter((post) => !post.channel || channelDefinitions.has(post.channel))
+    .map((post) => ({
+      ...post,
+      tgLink: post.tgLink || buildTelegramPostLink(post.channel, post.id),
+    }))
     .map((post) => enrichLegalPost(post, post.channel ? channelDefinitions.get(post.channel) : undefined))
   const existingIds = new Set(existingPosts.map(p => p.id))
 
@@ -681,7 +692,10 @@ async function main() {
     if (seen.has(p.id)) return false
     seen.add(p.id)
     return true
-  })
+  }).map(post => ({
+    ...post,
+    tgLink: post.tgLink || buildTelegramPostLink(post.channel, post.id),
+  }))
 
   const digests = buildAllDigestPayloads(dedupedPosts, registry)
 

@@ -51,6 +51,7 @@ export interface Post {
   /** Channel display title */
   channelTitle?: string
   channelAvatar?: string
+  tgLink?: string
   category?: string
   group?: string
   legalTopics?: string[]
