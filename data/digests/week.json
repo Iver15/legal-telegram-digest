@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-02T08:01:42.535Z",
-  "totalPosts": 301,
+  "generatedAt": "2026-04-02T08:08:24.496Z",
+  "totalPosts": 300,
   "topPosts": [
     {
       "id": "probankrotstvoru/9499",
@@ -47,7 +47,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1170,
+      "viewCount": 1180,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -61,19 +61,19 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 39.57,
+      "priorityScore": 39.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 1170 просмотров",
+        "Охват в Telegram Web: 1180 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Last call! Банкротный день — завтра, 2 апреляБанкротство в корпоративной структуре: контроль, сделки, субсидиарная ответственность 09:30 — 15:00 Финансовый университет при Правительстве РФМосква, ул. Верхняя Масловка, д.",
       "reactionCount": 19,
-      "engagementRate": 0.01623931623931624
+      "engagementRate": 0.016101694915254237
     },
     {
       "id": "probankrotstvoru/9504",
@@ -117,7 +117,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 427,
+      "viewCount": 438,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -137,12 +137,12 @@
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 25 реакций",
-        "Охват в Telegram Web: 427 просмотров",
-        "Сильная отдача аудитории: 5,9% реакций к просмотрам"
+        "Охват в Telegram Web: 438 просмотров",
+        "Сильная отдача аудитории: 5,7% реакций к просмотрам"
       ],
       "digestSummary": "Запускаем новый отраслевой портал — PROналоги Редакция PROбанкротство расширяет экосистему и запускает специализированный проект, посвященный налогам, финансам и управлению рисками.Решение о запуске связано с усиливающим",
       "reactionCount": 25,
-      "engagementRate": 0.0585480093676815
+      "engagementRate": 0.05707762557077625
     },
     {
       "id": "probankrotstvoru/9496",
@@ -189,7 +189,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 35.18,
+      "priorityScore": 35.17,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -253,7 +253,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.56,
+      "priorityScore": 34.55,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -311,7 +311,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.56,
+      "priorityScore": 33.55,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -443,7 +443,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 309,
+      "viewCount": 310,
       "channel": "bankrovert",
       "channelTitle": "Банкроверт",
       "category": "bankruptcy",
@@ -455,19 +455,19 @@
         "tax",
         "arbitration"
       ],
-      "priorityScore": 33.07,
+      "priorityScore": 33.06,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 23 реакций",
-        "Охват в Telegram Web: 309 просмотров",
+        "Охват в Telegram Web: 310 просмотров",
         "Сильная отдача аудитории: 7,4% реакций к просмотрам"
       ],
       "digestSummary": "⚡В Государственную Думу внесен Законопроект, изменяющий правила налогообложения для должников-банкротов.Согласно законопроекту, с момента введения конкурсного производства должник освобождается от уплаты налогов на прибы",
       "reactionCount": 23,
-      "engagementRate": 0.0744336569579288
+      "engagementRate": 0.07419354838709677
     },
     {
       "id": "probankrotstvoru/9502",
@@ -505,7 +505,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1350,
+      "viewCount": 1360,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -517,19 +517,19 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 32.71,
+      "priorityScore": 32.69,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Исполнение",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 1350 просмотров",
+        "Охват в Telegram Web: 1360 просмотров",
         "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: запрет на выезд повышает вероятность реального взыскания с КДЛВ деле о банкротстве АКБ «Мосуралбанк» КУ ГК «АСВ») подал заявление о привлечении контролирующих лиц к субсидиарной ответственности, в том числе Ана",
       "reactionCount": 14,
-      "engagementRate": 0.01037037037037037
+      "engagementRate": 0.010294117647058823
     },
     {
       "id": "probankrotstvoru/9485",
@@ -623,7 +623,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.49,
+      "priorityScore": 31.48,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -683,7 +683,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.45,
+      "priorityScore": 31.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -729,7 +729,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1240,
+      "viewCount": 1250,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -742,40 +742,40 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.35,
+      "priorityScore": 31.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 1240 просмотров"
+        "Охват в Telegram Web: 1250 просмотров"
       ],
       "digestSummary": "Кассация: снижение зарплаты до МРОТ при банкротстве противоречит нормам праваВ деле о банкротстве общества «Энергомир» КУ оспорила перечисления в пользу Александра Лебедева на сумму 4,1 млн рублей, указав на вывод активо",
       "reactionCount": 11,
-      "engagementRate": 0.008870967741935484
+      "engagementRate": 0.0088
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 245
+      "count": 244
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 239
+      "count": 238
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 226
+      "count": 225
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 220
+      "count": 219
     },
     {
       "id": "enforcement",
@@ -785,7 +785,7 @@
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 50
+      "count": 49
     },
     {
       "id": "tax",
@@ -797,7 +797,7 @@
     {
       "channel": "probankrotstvoru",
       "title": "PROбанкротство",
-      "count": 50
+      "count": 49
     },
     {
       "channel": "orpauradio",
