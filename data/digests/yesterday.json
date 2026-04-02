@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-01T23:56:25.075Z",
+  "generatedAt": "2026-04-02T01:22:03.699Z",
   "totalPosts": 38,
   "topPosts": [
     {
@@ -54,7 +54,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.61,
+      "priorityScore": 35.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -141,7 +141,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.16,
+      "priorityScore": 30.98,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -186,7 +186,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1600,
+      "viewCount": 1610,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -198,19 +198,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.11,
+      "priorityScore": 30.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 1600 просмотров",
+        "Охват в Telegram Web: 1610 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: подача иска о субсидиарке фиксирует осведомленность КУ для целей иска об убыткахОбщество «МФ Инвест» было признано банкротом в ноябре 2015 года Единственным активом должника являлся молокозавод «Валетта» в Серб",
       "reactionCount": 17,
-      "engagementRate": 0.010625
+      "engagementRate": 0.010559006211180125
     },
     {
       "id": "probankrotstvoru/9487",
@@ -260,7 +260,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.01,
+      "priorityScore": 29.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -316,7 +316,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1290,
+      "viewCount": 1300,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -329,19 +329,19 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 29.85,
+      "priorityScore": 29.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Комплаенс",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 1290 просмотров",
+        "Охват в Telegram Web: 1300 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Банкротство в корпоративной структуре: контроль, сделки, субсидиарная ответственностьПродолжаем знакомить со спикерами Банкротного дня, который пройдет уже в этот четверг.Светлана Карелина, доктор юридических наук, профе",
       "reactionCount": 15,
-      "engagementRate": 0.011627906976744186
+      "engagementRate": 0.011538461538461539
     },
     {
       "id": "probankrotstvoru/9491",
@@ -386,7 +386,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.76,
+      "priorityScore": 29.58,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -445,7 +445,7 @@
         "bankruptcy",
         "enforcement"
       ],
-      "priorityScore": 28.29,
+      "priorityScore": 28.11,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
@@ -506,7 +506,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 27.84,
+      "priorityScore": 27.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -564,7 +564,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.92,
+      "priorityScore": 25.74,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -621,7 +621,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 24.97,
+      "priorityScore": 24.79,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -688,7 +688,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 24.31,
+      "priorityScore": 24.13,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Налоги",
@@ -738,7 +738,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 22.76,
+      "priorityScore": 22.58,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
