@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-02T08:08:24.496Z",
-  "totalPosts": 300,
+  "generatedAt": "2026-04-02T08:17:09.176Z",
+  "totalPosts": 301,
   "topPosts": [
     {
       "id": "probankrotstvoru/9499",
@@ -61,7 +61,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 39.56,
+      "priorityScore": 39.55,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -117,7 +117,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 438,
+      "viewCount": 462,
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
       "category": "bankruptcy",
@@ -137,12 +137,12 @@
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 25 реакций",
-        "Охват в Telegram Web: 438 просмотров",
-        "Сильная отдача аудитории: 5,7% реакций к просмотрам"
+        "Охват в Telegram Web: 462 просмотров",
+        "Сильная отдача аудитории: 5,4% реакций к просмотрам"
       ],
       "digestSummary": "Запускаем новый отраслевой портал — PROналоги Редакция PROбанкротство расширяет экосистему и запускает специализированный проект, посвященный налогам, финансам и управлению рисками.Решение о запуске связано с усиливающим",
       "reactionCount": 25,
-      "engagementRate": 0.05707762557077625
+      "engagementRate": 0.05411255411255411
     },
     {
       "id": "probankrotstvoru/9496",
@@ -189,7 +189,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 35.17,
+      "priorityScore": 35.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -253,7 +253,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.55,
+      "priorityScore": 34.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -297,7 +297,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 965,
+      "viewCount": 969,
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
       "category": "bankruptcy",
@@ -311,17 +311,17 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.55,
+      "priorityScore": 33.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 965 просмотров"
+        "Охват в Telegram Web: 969 просмотров"
       ],
       "digestSummary": "Истечение срока предъявления исполнительного листа не лишает кредитора права на субсидиарную ответственность контролирующего лица исключённого из ЕГРЮЛ общества#субсидиарная_ответственность#исключение_из_ЕГРЮЛФТС России ",
       "reactionCount": 6,
-      "engagementRate": 0.0062176165803108805
+      "engagementRate": 0.006191950464396285
     },
     {
       "id": "tgnspau/1303",
@@ -455,7 +455,7 @@
         "tax",
         "arbitration"
       ],
-      "priorityScore": 33.06,
+      "priorityScore": 33.04,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -517,7 +517,7 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 32.69,
+      "priorityScore": 32.67,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -623,7 +623,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.48,
+      "priorityScore": 31.46,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -683,7 +683,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.44,
+      "priorityScore": 31.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -742,7 +742,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.33,
+      "priorityScore": 31.31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -760,12 +760,12 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 244
+      "count": 245
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 238
+      "count": 239
     },
     {
       "id": "arbitration",
@@ -775,17 +775,17 @@
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 219
+      "count": 220
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 144
+      "count": 145
     },
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 49
+      "count": 50
     },
     {
       "id": "tax",
@@ -802,7 +802,7 @@
     {
       "channel": "orpauradio",
       "title": "Первый радиоканал АУ и юристов",
-      "count": 32
+      "count": 33
     },
     {
       "channel": "vZone1413",
