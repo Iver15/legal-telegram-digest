@@ -357,6 +357,140 @@
       ],
       "priorityBoost": 1.5,
       "enabled": false
+    },
+    {
+      "channel": "bankrotstvo_mustknow",
+      "title": "Bankrotstvo Must Know",
+      "category": "bankruptcy",
+      "group": "bankruptcy_core",
+      "topics": [
+        "bankruptcy",
+        "courts"
+      ],
+      "priorityBoost": 2.0,
+      "enabled": true
+    },
+    {
+      "channel": "subsidiarka_kdl",
+      "title": "Субсидиарка КДЛ",
+      "category": "bankruptcy",
+      "group": "bankruptcy_core",
+      "topics": [
+        "bankruptcy",
+        "courts",
+        "enforcement"
+      ],
+      "priorityBoost": 2.2,
+      "enabled": true
+    },
+    {
+      "channel": "BankruptcyClub",
+      "title": "Bankruptcy Club",
+      "category": "bankruptcy",
+      "group": "bankruptcy_core",
+      "topics": [
+        "bankruptcy",
+        "arbitration",
+        "courts"
+      ],
+      "priorityBoost": 2.0,
+      "enabled": true
+    },
+    {
+      "channel": "sudpraktik_bankrot_demo",
+      "title": "Судпрактик Банкротство",
+      "category": "bankruptcy",
+      "group": "public_sources",
+      "topics": [
+        "bankruptcy",
+        "courts"
+      ],
+      "priorityBoost": 1.9,
+      "enabled": true
+    },
+    {
+      "channel": "vs_court",
+      "title": "VS Court",
+      "category": "courts",
+      "group": "public_sources",
+      "topics": [
+        "courts",
+        "arbitration"
+      ],
+      "priorityBoost": 2.0,
+      "enabled": true
+    },
+    {
+      "channel": "tgnspau",
+      "title": "НСПАУ",
+      "category": "bankruptcy",
+      "group": "public_sources",
+      "topics": [
+        "bankruptcy",
+        "enforcement"
+      ],
+      "priorityBoost": 1.8,
+      "enabled": true
+    },
+    {
+      "channel": "bankruptcyboutique",
+      "title": "Bankruptcy Boutique",
+      "category": "bankruptcy",
+      "group": "practical_law",
+      "topics": [
+        "bankruptcy",
+        "arbitration"
+      ],
+      "priorityBoost": 1.9,
+      "enabled": true
+    },
+    {
+      "channel": "insolvencylaw",
+      "title": "Insolvency Law",
+      "category": "bankruptcy",
+      "group": "practical_law",
+      "topics": [
+        "bankruptcy",
+        "courts"
+      ],
+      "priorityBoost": 1.9,
+      "enabled": true
+    },
+    {
+      "channel": "bankrovert",
+      "title": "Bankrovert",
+      "category": "bankruptcy",
+      "group": "practical_law",
+      "topics": [
+        "bankruptcy",
+        "courts"
+      ],
+      "priorityBoost": 1.7,
+      "enabled": true
+    },
+    {
+      "channel": "fondsrd",
+      "title": "Фонд СРД",
+      "category": "bankruptcy",
+      "group": "public_sources",
+      "topics": [
+        "bankruptcy",
+        "enforcement"
+      ],
+      "priorityBoost": 1.6,
+      "enabled": true
+    },
+    {
+      "channel": "bankrotalk",
+      "title": "BankroTalk",
+      "category": "bankruptcy",
+      "group": "bankruptcy_core",
+      "topics": [
+        "bankruptcy",
+        "arbitration"
+      ],
+      "priorityBoost": 1.8,
+      "enabled": true
     }
   ]
 }
