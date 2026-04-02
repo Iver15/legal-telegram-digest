@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-02T21:32:51.633Z",
+  "generatedAt": "2026-04-02T22:04:16.461Z",
   "totalPosts": 48,
   "topPosts": [
     {
@@ -62,7 +62,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 37.92,
+      "priorityScore": 37.86,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -122,7 +122,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 33.38,
+      "priorityScore": 33.32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -181,7 +181,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 31.82,
+      "priorityScore": 31.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -262,7 +262,7 @@
         "tax",
         "arbitration"
       ],
-      "priorityScore": 31.64,
+      "priorityScore": 31.58,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -325,7 +325,7 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 31.03,
+      "priorityScore": 30.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -368,7 +368,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 29.84,
+      "priorityScore": 29.77,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -429,7 +429,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.65,
+      "priorityScore": 29.58,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -489,7 +489,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 29.53,
+      "priorityScore": 29.47,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -551,7 +551,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.63,
+      "priorityScore": 28.57,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -609,7 +609,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.6,
+      "priorityScore": 28.54,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -662,7 +662,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1630,
+      "viewCount": 1640,
       "tgLink": "https://t.me/probankrotstvoru/9503",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -674,18 +674,18 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 28.14,
+      "priorityScore": 28.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 1630 просмотров"
+        "Охват в Telegram Web: 1640 просмотров"
       ],
       "digestSummary": "Верховный Суд ограничил применение сальдирования к платежам в банкротствеВ деле о банкротстве общества «АРКС МТ» КУ Павел Александров оспорил платежи в пользу субподрядчика общества «ЭдвансСтрой» на общую сумму 626,2 млн",
       "reactionCount": 15,
-      "engagementRate": 0.009202453987730062
+      "engagementRate": 0.009146341463414634
     },
     {
       "id": "sudpraktik/3481",
@@ -723,7 +723,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.78,
+      "priorityScore": 26.71,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
