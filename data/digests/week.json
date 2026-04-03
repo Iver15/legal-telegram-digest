@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-03T22:27:43.854Z",
+  "generatedAt": "2026-04-03T23:04:24.785Z",
   "totalPosts": 297,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 762,
+      "viewCount": 765,
       "tgLink": "https://t.me/probankrotstvoru/9523",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -55,19 +55,19 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 38.4,
+      "priorityScore": 38.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 762 просмотров",
+        "Охват в Telegram Web: 765 просмотров",
         "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: пропуск срока на исполнение не лишает права на субсидиарный искОбщество «Терра» не исполнило обязательства по госконтракту перед ФТС России и в 2017 году суд взыскал с общества 291,7 тыс. рублей неустойки. Испо",
       "reactionCount": 15,
-      "engagementRate": 0.01968503937007874
+      "engagementRate": 0.0196078431372549
     },
     {
       "id": "probankrotstvoru/9499",
@@ -112,7 +112,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1370,
+      "viewCount": 1380,
       "tgLink": "https://t.me/probankrotstvoru/9499",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -127,19 +127,19 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 36.19,
+      "priorityScore": 36.18,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 1370 просмотров",
+        "Охват в Telegram Web: 1380 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Last call! Банкротный день — завтра, 2 апреляБанкротство в корпоративной структуре: контроль, сделки, субсидиарная ответственность 09:30 — 15:00 Финансовый университет при Правительстве РФМосква, ул. Верхняя Масловка, д.",
       "reactionCount": 19,
-      "engagementRate": 0.013868613138686132
+      "engagementRate": 0.013768115942028985
     },
     {
       "id": "tgnspau/1309",
@@ -178,7 +178,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 176,
+      "viewCount": 179,
       "tgLink": "https://t.me/tgnspau/1309",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -192,18 +192,18 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 35.87,
+      "priorityScore": 35.8,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 176 просмотров",
-        "Сильная отдача аудитории: 2,3% реакций к просмотрам"
+        "Охват в Telegram Web: 179 просмотров",
+        "Сильная отдача аудитории: 2,2% реакций к просмотрам"
       ],
       "digestSummary": "ФНС в банкротстве: эволюция привилегий.2. апреля в Финансовом университете при Правительстве РФ в Москве прошел Банкротный день в рамках Международного налогового форума.С докладом в числе других уважаемых экспертов выст",
       "reactionCount": 4,
-      "engagementRate": 0.022727272727272728
+      "engagementRate": 0.0223463687150838
     },
     {
       "id": "bankrovert/675",
@@ -241,7 +241,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.38,
+      "priorityScore": 34.3,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -295,7 +295,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.04,
+      "priorityScore": 33.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -410,7 +410,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2560,
+      "viewCount": 2570,
       "tgLink": "https://t.me/legally_bald/1131",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -424,17 +424,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.38,
+      "priorityScore": 33.31,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 2560 просмотров"
+        "Охват в Telegram Web: 2570 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 8,
-      "engagementRate": 0.003125
+      "engagementRate": 0.0031128404669260703
     },
     {
       "id": "probankrotstvoru/9525",
@@ -477,7 +477,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 764,
+      "viewCount": 768,
       "tgLink": "https://t.me/probankrotstvoru/9525",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -490,18 +490,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.15,
+      "priorityScore": 33.06,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 764 просмотров",
+        "Охват в Telegram Web: 768 просмотров",
         "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: срок давности по субсидиарке не течет при конфликте интересов управляющегоКУ общества «Интерстрой» Герман Титов, утвержденный в марте 2023 года, обратился с заявлением о привлечении к субсидиарной ответственнос",
       "reactionCount": 8,
-      "engagementRate": 0.010471204188481676
+      "engagementRate": 0.010416666666666666
     },
     {
       "id": "probankrotstvoru/9508",
@@ -549,7 +549,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 33.09,
+      "priorityScore": 33.02,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -598,7 +598,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 504,
+      "viewCount": 507,
       "tgLink": "https://t.me/probankrotstvoru/9527",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -611,18 +611,18 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.85,
+      "priorityScore": 32.78,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 504 просмотров",
+        "Охват в Telegram Web: 507 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "⚡️Собрали дайджест интересных материалов СМИ о банкротстве за 30 марта — 3 апреляАктуальные и свежие статьи отрасли банкротства, а также кейсы, исследования, обзоры и новеллы законодательства.Суд взыскал с экс-гендиректо",
       "reactionCount": 8,
-      "engagementRate": 0.015873015873015872
+      "engagementRate": 0.015779092702169626
     },
     {
       "id": "probankrotstvoru/9519",
@@ -655,7 +655,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 967,
+      "viewCount": 969,
       "tgLink": "https://t.me/probankrotstvoru/9519",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -668,18 +668,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.78,
+      "priorityScore": 32.7,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 967 просмотров",
+        "Охват в Telegram Web: 969 просмотров",
         "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: вознаграждение КУ могут снизить за бездействие при взыскании дебиторкиПосле завершения конкурсного производства в отношении общества «Тепловик» АУ Алексей Ноздря и Юлия Травкина обратились с заявлениями о взыск",
       "reactionCount": 10,
-      "engagementRate": 0.010341261633919338
+      "engagementRate": 0.010319917440660475
     },
     {
       "id": "orpauradio/9275",
@@ -703,7 +703,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 924,
+      "viewCount": 925,
       "tgLink": "https://t.me/orpauradio/9275",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -717,17 +717,17 @@
         "courts",
         "tax"
       ],
-      "priorityScore": 32.64,
+      "priorityScore": 32.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 924 просмотров"
+        "Охват в Telegram Web: 925 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 2,
-      "engagementRate": 0.0021645021645021645
+      "engagementRate": 0.002162162162162162
     }
   ],
   "topTopics": [
