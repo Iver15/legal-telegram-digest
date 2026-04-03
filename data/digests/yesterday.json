@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-02T23:29:11.495Z",
+  "generatedAt": "2026-04-03T00:00:16.377Z",
   "totalPosts": 48,
   "topPosts": [
     {
@@ -62,7 +62,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 37.68,
+      "priorityScore": 37.62,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -122,7 +122,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 33.14,
+      "priorityScore": 33.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -181,7 +181,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 31.57,
+      "priorityScore": 31.51,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -249,7 +249,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 377,
+      "viewCount": 378,
       "tgLink": "https://t.me/bankrovert/673",
       "channel": "bankrovert",
       "channelTitle": "Банкроверт",
@@ -262,19 +262,19 @@
         "tax",
         "arbitration"
       ],
-      "priorityScore": 31.4,
+      "priorityScore": 31.34,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 25 реакций",
-        "Охват в Telegram Web: 377 просмотров",
+        "Охват в Telegram Web: 378 просмотров",
         "Сильная отдача аудитории: 6,6% реакций к просмотрам"
       ],
       "digestSummary": "⚡В Государственную Думу внесен Законопроект, изменяющий правила налогообложения для должников-банкротов.Согласно законопроекту, с момента введения конкурсного производства должник освобождается от уплаты налогов на прибы",
       "reactionCount": 25,
-      "engagementRate": 0.06631299734748011
+      "engagementRate": 0.06613756613756613
     },
     {
       "id": "probankrotstvoru/9502",
@@ -325,7 +325,7 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 30.79,
+      "priorityScore": 30.72,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -368,7 +368,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 29.59,
+      "priorityScore": 29.53,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -429,7 +429,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.4,
+      "priorityScore": 29.34,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -489,7 +489,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 29.29,
+      "priorityScore": 29.23,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -551,7 +551,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.39,
+      "priorityScore": 28.32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -609,7 +609,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.36,
+      "priorityScore": 28.3,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -674,7 +674,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.89,
+      "priorityScore": 27.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -723,7 +723,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.53,
+      "priorityScore": 26.47,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
