@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-03T20:01:23.037Z",
+  "generatedAt": "2026-04-03T20:37:59.222Z",
   "totalPosts": 297,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 741,
+      "viewCount": 750,
       "tgLink": "https://t.me/probankrotstvoru/9523",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -55,19 +55,19 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 38.7,
+      "priorityScore": 38.62,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 741 просмотров",
+        "Охват в Telegram Web: 750 просмотров",
         "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: пропуск срока на исполнение не лишает права на субсидиарный искОбщество «Терра» не исполнило обязательства по госконтракту перед ФТС России и в 2017 году суд взыскал с общества 291,7 тыс. рублей неустойки. Испо",
       "reactionCount": 15,
-      "engagementRate": 0.020242914979757085
+      "engagementRate": 0.02
     },
     {
       "id": "probankrotstvoru/9499",
@@ -178,7 +178,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 155,
+      "viewCount": 165,
       "tgLink": "https://t.me/tgnspau/1309",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -192,18 +192,18 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 36.14,
+      "priorityScore": 36.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 155 просмотров",
-        "Сильная отдача аудитории: 2,6% реакций к просмотрам"
+        "Охват в Telegram Web: 165 просмотров",
+        "Сильная отдача аудитории: 2,4% реакций к просмотрам"
       ],
       "digestSummary": "ФНС в банкротстве: эволюция привилегий.2. апреля в Финансовом университете при Правительстве РФ в Москве прошел Банкротный день в рамках Международного налогового форума.С докладом в числе других уважаемых экспертов выст",
       "reactionCount": 4,
-      "engagementRate": 0.025806451612903226
+      "engagementRate": 0.024242424242424242
     },
     {
       "id": "bankrovert/675",
@@ -241,7 +241,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.68,
+      "priorityScore": 34.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -281,7 +281,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 396,
+      "viewCount": 399,
       "tgLink": "https://t.me/BankruptcyClub/991",
       "channel": "BankruptcyClub",
       "channelTitle": "Банкротный Клуб",
@@ -295,18 +295,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.36,
+      "priorityScore": 34.27,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 396 просмотров",
+        "Охват в Telegram Web: 399 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 5,
-      "engagementRate": 0.012626262626262626
+      "engagementRate": 0.012531328320802004
     },
     {
       "id": "probankrotstvoru/9493",
@@ -410,7 +410,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2550,
+      "viewCount": 2560,
       "tgLink": "https://t.me/legally_bald/1131",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -424,17 +424,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.69,
+      "priorityScore": 33.61,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 2550 просмотров"
+        "Охват в Telegram Web: 2560 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 8,
-      "engagementRate": 0.003137254901960784
+      "engagementRate": 0.003125
     },
     {
       "id": "probankrotstvoru/9525",
@@ -477,7 +477,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 733,
+      "viewCount": 746,
       "tgLink": "https://t.me/probankrotstvoru/9525",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -490,18 +490,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.5,
+      "priorityScore": 33.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 733 просмотров",
+        "Охват в Telegram Web: 746 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: срок давности по субсидиарке не течет при конфликте интересов управляющегоКУ общества «Интерстрой» Герман Титов, утвержденный в марте 2023 года, обратился с заявлением о привлечении к субсидиарной ответственнос",
       "reactionCount": 8,
-      "engagementRate": 0.010914051841746248
+      "engagementRate": 0.010723860589812333
     },
     {
       "id": "probankrotstvoru/9508",
@@ -535,7 +535,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2570,
+      "viewCount": 2580,
       "tgLink": "https://t.me/probankrotstvoru/9508",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -549,18 +549,18 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 33.4,
+      "priorityScore": 33.32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 2570 просмотров"
+        "Охват в Telegram Web: 2580 просмотров"
       ],
       "digestSummary": "Ошибки арбитражных управляющих, которые могут привести к дисквалификацииДисквалификация арбитражного управляющего сегодня перестала быть исключительной мерой за грубые нарушения. Судебная практика показывает, что «тригге",
       "reactionCount": 15,
-      "engagementRate": 0.005836575875486381
+      "engagementRate": 0.005813953488372093
     },
     {
       "id": "probankrotstvoru/9527",
@@ -598,7 +598,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 453,
+      "viewCount": 475,
       "tgLink": "https://t.me/probankrotstvoru/9527",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -611,18 +611,18 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 33.12,
+      "priorityScore": 33.06,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 453 просмотров",
-        "Сильная отдача аудитории: 1,8% реакций к просмотрам"
+        "Охват в Telegram Web: 475 просмотров",
+        "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "⚡️Собрали дайджест интересных материалов СМИ о банкротстве за 30 марта — 3 апреляАктуальные и свежие статьи отрасли банкротства, а также кейсы, исследования, обзоры и новеллы законодательства.Суд взыскал с экс-гендиректо",
       "reactionCount": 8,
-      "engagementRate": 0.017660044150110375
+      "engagementRate": 0.016842105263157894
     },
     {
       "id": "probankrotstvoru/9519",
@@ -655,7 +655,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 950,
+      "viewCount": 956,
       "tgLink": "https://t.me/probankrotstvoru/9519",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -668,18 +668,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.1,
+      "priorityScore": 33.02,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 950 просмотров",
-        "Сильная отдача аудитории: 1,1% реакций к просмотрам"
+        "Охват в Telegram Web: 956 просмотров",
+        "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: вознаграждение КУ могут снизить за бездействие при взыскании дебиторкиПосле завершения конкурсного производства в отношении общества «Тепловик» АУ Алексей Ноздря и Юлия Травкина обратились с заявлениями о взыск",
       "reactionCount": 10,
-      "engagementRate": 0.010526315789473684
+      "engagementRate": 0.010460251046025104
     },
     {
       "id": "orpauradio/9275",
@@ -703,7 +703,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 920,
+      "viewCount": 922,
       "tgLink": "https://t.me/orpauradio/9275",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -717,17 +717,17 @@
         "courts",
         "tax"
       ],
-      "priorityScore": 32.94,
+      "priorityScore": 32.87,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 920 просмотров"
+        "Охват в Telegram Web: 922 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 2,
-      "engagementRate": 0.002173913043478261
+      "engagementRate": 0.0021691973969631237
     }
   ],
   "topTopics": [
