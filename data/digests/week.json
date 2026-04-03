@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-03T21:53:48.305Z",
+  "generatedAt": "2026-04-03T22:27:43.854Z",
   "totalPosts": 297,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 758,
+      "viewCount": 762,
       "tgLink": "https://t.me/probankrotstvoru/9523",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -55,19 +55,19 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 38.47,
+      "priorityScore": 38.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 758 просмотров",
+        "Охват в Telegram Web: 762 просмотров",
         "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: пропуск срока на исполнение не лишает права на субсидиарный искОбщество «Терра» не исполнило обязательства по госконтракту перед ФТС России и в 2017 году суд взыскал с общества 291,7 тыс. рублей неустойки. Испо",
       "reactionCount": 15,
-      "engagementRate": 0.01978891820580475
+      "engagementRate": 0.01968503937007874
     },
     {
       "id": "probankrotstvoru/9499",
@@ -178,7 +178,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 175,
+      "viewCount": 176,
       "tgLink": "https://t.me/tgnspau/1309",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -192,18 +192,18 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 35.94,
+      "priorityScore": 35.87,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 175 просмотров",
+        "Охват в Telegram Web: 176 просмотров",
         "Сильная отдача аудитории: 2,3% реакций к просмотрам"
       ],
       "digestSummary": "ФНС в банкротстве: эволюция привилегий.2. апреля в Финансовом университете при Правительстве РФ в Москве прошел Банкротный день в рамках Международного налогового форума.С докладом в числе других уважаемых экспертов выст",
       "reactionCount": 4,
-      "engagementRate": 0.022857142857142857
+      "engagementRate": 0.022727272727272728
     },
     {
       "id": "bankrovert/675",
@@ -241,7 +241,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.45,
+      "priorityScore": 34.38,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -295,7 +295,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.11,
+      "priorityScore": 34.04,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -424,7 +424,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.46,
+      "priorityScore": 33.38,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -477,7 +477,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 759,
+      "viewCount": 764,
       "tgLink": "https://t.me/probankrotstvoru/9525",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -490,18 +490,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.23,
+      "priorityScore": 33.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 759 просмотров",
-        "Сильная отдача аудитории: 1,1% реакций к просмотрам"
+        "Охват в Telegram Web: 764 просмотров",
+        "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: срок давности по субсидиарке не течет при конфликте интересов управляющегоКУ общества «Интерстрой» Герман Титов, утвержденный в марте 2023 года, обратился с заявлением о привлечении к субсидиарной ответственнос",
       "reactionCount": 8,
-      "engagementRate": 0.010540184453227932
+      "engagementRate": 0.010471204188481676
     },
     {
       "id": "probankrotstvoru/9508",
@@ -549,7 +549,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 33.16,
+      "priorityScore": 33.09,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -598,7 +598,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 497,
+      "viewCount": 504,
       "tgLink": "https://t.me/probankrotstvoru/9527",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -611,18 +611,18 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.92,
+      "priorityScore": 32.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 497 просмотров",
+        "Охват в Telegram Web: 504 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "⚡️Собрали дайджест интересных материалов СМИ о банкротстве за 30 марта — 3 апреляАктуальные и свежие статьи отрасли банкротства, а также кейсы, исследования, обзоры и новеллы законодательства.Суд взыскал с экс-гендиректо",
       "reactionCount": 8,
-      "engagementRate": 0.01609657947686117
+      "engagementRate": 0.015873015873015872
     },
     {
       "id": "probankrotstvoru/9519",
@@ -655,7 +655,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 964,
+      "viewCount": 967,
       "tgLink": "https://t.me/probankrotstvoru/9519",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -668,18 +668,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.85,
+      "priorityScore": 32.78,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 964 просмотров",
+        "Охват в Telegram Web: 967 просмотров",
         "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: вознаграждение КУ могут снизить за бездействие при взыскании дебиторкиПосле завершения конкурсного производства в отношении общества «Тепловик» АУ Алексей Ноздря и Юлия Травкина обратились с заявлениями о взыск",
       "reactionCount": 10,
-      "engagementRate": 0.01037344398340249
+      "engagementRate": 0.010341261633919338
     },
     {
       "id": "orpauradio/9275",
@@ -717,7 +717,7 @@
         "courts",
         "tax"
       ],
-      "priorityScore": 32.71,
+      "priorityScore": 32.64,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
