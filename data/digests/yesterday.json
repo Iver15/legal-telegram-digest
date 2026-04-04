@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-04T05:06:02.212Z",
-  "totalPosts": 57,
+  "generatedAt": "2026-04-04T06:15:13.818Z",
+  "totalPosts": 55,
   "topPosts": [
     {
       "id": "bankrovert/675",
@@ -40,7 +40,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.55,
+      "priorityScore": 33.41,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -80,7 +80,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 406,
+      "viewCount": 408,
       "tgLink": "https://t.me/BankruptcyClub/991",
       "channel": "BankruptcyClub",
       "channelTitle": "Банкротный Клуб",
@@ -94,18 +94,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.19,
+      "priorityScore": 33.04,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 406 просмотров",
+        "Охват в Telegram Web: 408 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 5,
-      "engagementRate": 0.012315270935960592
+      "engagementRate": 0.012254901960784314
     },
     {
       "id": "legally_bald/1131",
@@ -144,7 +144,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2590,
+      "viewCount": 2600,
       "tgLink": "https://t.me/legally_bald/1131",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -158,17 +158,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.55,
+      "priorityScore": 32.41,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 2590 просмотров"
+        "Охват в Telegram Web: 2600 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 8,
-      "engagementRate": 0.003088803088803089
+      "engagementRate": 0.003076923076923077
     },
     {
       "id": "probankrotstvoru/9508",
@@ -202,7 +202,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2600,
+      "viewCount": 2620,
       "tgLink": "https://t.me/probankrotstvoru/9508",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -216,18 +216,18 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 32.26,
+      "priorityScore": 32.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 2600 просмотров"
+        "Охват в Telegram Web: 2620 просмотров"
       ],
       "digestSummary": "Ошибки арбитражных управляющих, которые могут привести к дисквалификацииДисквалификация арбитражного управляющего сегодня перестала быть исключительной мерой за грубые нарушения. Судебная практика показывает, что «тригге",
       "reactionCount": 15,
-      "engagementRate": 0.0057692307692307696
+      "engagementRate": 0.0057251908396946565
     },
     {
       "id": "orpauradio/9275",
@@ -251,7 +251,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 929,
+      "viewCount": 939,
       "tgLink": "https://t.me/orpauradio/9275",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -265,17 +265,17 @@
         "courts",
         "tax"
       ],
-      "priorityScore": 31.81,
+      "priorityScore": 31.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 929 просмотров"
+        "Охват в Telegram Web: 939 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 2,
-      "engagementRate": 0.002152852529601722
+      "engagementRate": 0.002129925452609159
     },
     {
       "id": "fedresurs_insolvency/2760",
@@ -307,7 +307,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.29,
+      "priorityScore": 31.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -375,7 +375,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 30.58,
+      "priorityScore": 30.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -420,7 +420,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1280,
+      "viewCount": 1290,
       "tgLink": "https://t.me/probankrotstvoru/9506",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -433,19 +433,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.23,
+      "priorityScore": 30.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 1280 просмотров",
+        "Охват в Telegram Web: 1290 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Конституционный Суд отказал дочерям должника в жалобе на взыскание акций Конституционный Суд РФ признал, что проверка факта оформления акций «для вида» и их принадлежности — не входит в его полномочия. Судебные органы ра",
       "reactionCount": 18,
-      "engagementRate": 0.0140625
+      "engagementRate": 0.013953488372093023
     },
     {
       "id": "bankrotstvo_mustknow/455",
@@ -482,7 +482,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 153,
+      "viewCount": 154,
       "tgLink": "https://t.me/bankrotstvo_mustknow/455",
       "channel": "bankrotstvo_mustknow",
       "channelTitle": "Банкротство | Взгляд эксперта",
@@ -496,18 +496,18 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 30.19,
+      "priorityScore": 30.04,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 153 просмотров",
+        "Охват в Telegram Web: 154 просмотров",
         "Сильная отдача аудитории: 5,2% реакций к просмотрам"
       ],
       "digestSummary": "​​🧑‍🧑‍🧒‍🧒 Когда семейный бюджет отвечает по долгам КДЛАнна Никитина, юрист практики банкротства и антикризисной защиты бизнеса, анализирует подход судов на примере постановления АС Западно-Сибирского округаот 06.03.2",
       "reactionCount": 8,
-      "engagementRate": 0.05228758169934641
+      "engagementRate": 0.05194805194805195
     },
     {
       "id": "shapovalovagroup/1262",
@@ -531,7 +531,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 350,
+      "viewCount": 351,
       "tgLink": "https://t.me/shapovalovagroup/1262",
       "channel": "shapovalovagroup",
       "channelTitle": "Защита арбитражных управляющих",
@@ -545,17 +545,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.15,
+      "priorityScore": 30,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 350 просмотров"
+        "Охват в Telegram Web: 351 просмотров"
       ],
       "digestSummary": "Ошибки арбитражных управляющих, которые могут привести к дисквалификацииДисквалификация арбитражного управляющего сегодня перестала быть исключительной мерой за грубые нарушения. Судебная практика показывает, что «тригге",
       "reactionCount": 3,
-      "engagementRate": 0.008571428571428572
+      "engagementRate": 0.008547008547008548
     },
     {
       "id": "orpauradio/9276",
@@ -579,7 +579,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1010,
+      "viewCount": 1030,
       "tgLink": "https://t.me/orpauradio/9276",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -593,17 +593,17 @@
         "compliance",
         "courts"
       ],
-      "priorityScore": 29.74,
+      "priorityScore": 29.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 1010 просмотров"
+        "Охват в Telegram Web: 1030 просмотров"
       ],
       "digestSummary": "Ошибки арбитражных управляющих, которые могут привести к дисквалификацииДисквалификация арбитражного управляющего сегодня перестала быть исключительной мерой за грубые нарушения. Судебная практика показывает, что «тригге",
       "reactionCount": 2,
-      "engagementRate": 0.0019801980198019802
+      "engagementRate": 0.001941747572815534
     },
     {
       "id": "probankrotstvoru/9515",
@@ -649,7 +649,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 28.53,
+      "priorityScore": 28.38,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -666,22 +666,22 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 53
+      "count": 50
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 47
+      "count": 45
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 44
+      "count": 42
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 40
+      "count": 37
     },
     {
       "id": "enforcement",
@@ -691,12 +691,12 @@
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 14
+      "count": 12
     },
     {
       "id": "tax",
       "label": "Налоги",
-      "count": 12
+      "count": 9
     }
   ],
   "topChannels": [
@@ -708,17 +708,7 @@
     {
       "channel": "orpauradio",
       "title": "Первый радиоканал АУ и юристов",
-      "count": 5
-    },
-    {
-      "channel": "corplawpro",
-      "title": "Корпоративные споры • Case by Case",
-      "count": 4
-    },
-    {
-      "channel": "subsidiarka_kdl",
-      "title": "Субсидиарная ответственность • Case by Case",
-      "count": 4
+      "count": 6
     },
     {
       "channel": "Shokobear",
@@ -731,8 +721,18 @@
       "count": 4
     },
     {
-      "channel": "bankrovert",
-      "title": "Банкроверт",
+      "channel": "legally_bald",
+      "title": "Legally_bald (Даниил Савченко)",
+      "count": 3
+    },
+    {
+      "channel": "corplawpro",
+      "title": "Корпоративные споры • Case by Case",
+      "count": 3
+    },
+    {
+      "channel": "subsidiarka_kdl",
+      "title": "Субсидиарная ответственность • Case by Case",
       "count": 3
     },
     {
