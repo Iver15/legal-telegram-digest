@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-04T23:28:01.166Z",
+  "generatedAt": "2026-04-04T23:56:27.338Z",
   "totalPosts": 294,
   "topPosts": [
     {
@@ -47,7 +47,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 38.94,
+      "priorityScore": 38.87,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -182,7 +182,7 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 35.34,
+      "priorityScore": 35.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -298,7 +298,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 281,
+      "viewCount": 282,
       "tgLink": "https://t.me/tgnspau/1309",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -312,18 +312,18 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 32.88,
+      "priorityScore": 32.82,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 281 просмотров",
+        "Охват в Telegram Web: 282 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "ФНС в банкротстве: эволюция привилегий.2. апреля в Финансовом университете при Правительстве РФ в Москве прошел Банкротный день в рамках Международного налогового форума.С докладом в числе других уважаемых экспертов выст",
       "reactionCount": 4,
-      "engagementRate": 0.014234875444839857
+      "engagementRate": 0.014184397163120567
     },
     {
       "id": "BankruptcyClub/991",
@@ -588,7 +588,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2760,
+      "viewCount": 2770,
       "tgLink": "https://t.me/probankrotstvoru/9508",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -609,11 +609,11 @@
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 2760 просмотров"
+        "Охват в Telegram Web: 2770 просмотров"
       ],
       "digestSummary": "Ошибки арбитражных управляющих, которые могут привести к дисквалификацииДисквалификация арбитражного управляющего сегодня перестала быть исключительной мерой за грубые нарушения. Судебная практика показывает, что «тригге",
       "reactionCount": 15,
-      "engagementRate": 0.005434782608695652
+      "engagementRate": 0.005415162454873646
     },
     {
       "id": "probankrotstvoru/9485",
