@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-04T22:59:51.057Z",
+  "generatedAt": "2026-04-04T23:28:01.166Z",
   "totalPosts": 294,
   "topPosts": [
     {
@@ -32,7 +32,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 722,
+      "viewCount": 724,
       "tgLink": "https://t.me/probankrotstvoru/9528",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -47,17 +47,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 39,
+      "priorityScore": 38.94,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 722 просмотров"
+        "Охват в Telegram Web: 724 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеКоллизия в законодательстве о банкротстве: разрешить ее может только Верховный СудРеальная проблема заключается не в теорети",
       "reactionCount": 6,
-      "engagementRate": 0.008310249307479225
+      "engagementRate": 0.008287292817679558
     },
     {
       "id": "probankrotstvoru/9499",
@@ -182,7 +182,7 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 35.4,
+      "priorityScore": 35.34,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -233,7 +233,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1730,
+      "viewCount": 1740,
       "tgLink": "https://t.me/probankrotstvoru/9493",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -247,19 +247,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.77,
+      "priorityScore": 33.76,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 21 реакций",
-        "Охват в Telegram Web: 1730 просмотров",
+        "Охват в Telegram Web: 1740 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Восемь месяцев бездействия управляющего обернулись убытками в 74,5 млн рублейВ августе 2020 года суд ввел наблюдение в отношении общества «Стройсвет», а в марте 2021 года признал его банкротом. КУ утвердили Алину Асееву,",
       "reactionCount": 21,
-      "engagementRate": 0.012138728323699421
+      "engagementRate": 0.01206896551724138
     },
     {
       "id": "tgnspau/1309",
@@ -312,7 +312,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 32.94,
+      "priorityScore": 32.88,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
