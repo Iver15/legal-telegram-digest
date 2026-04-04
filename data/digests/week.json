@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-04T21:58:14.280Z",
+  "generatedAt": "2026-04-04T22:24:38.564Z",
   "totalPosts": 294,
   "topPosts": [
     {
@@ -32,7 +32,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 712,
+      "viewCount": 718,
       "tgLink": "https://t.me/probankrotstvoru/9528",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -47,17 +47,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 39.14,
+      "priorityScore": 39.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 712 просмотров"
+        "Охват в Telegram Web: 718 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеКоллизия в законодательстве о банкротстве: разрешить ее может только Верховный СудРеальная проблема заключается не в теорети",
       "reactionCount": 6,
-      "engagementRate": 0.008426966292134831
+      "engagementRate": 0.008356545961002786
     },
     {
       "id": "probankrotstvoru/9499",
@@ -182,7 +182,7 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 35.53,
+      "priorityScore": 35.47,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -312,7 +312,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 33.07,
+      "priorityScore": 33.02,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
