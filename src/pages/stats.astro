@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/base.astro'
+import { Icon } from 'astro-icon/components'
 import { getAllCategories, getAllChannels, getAllPosts, getChannelData, getDigestTitle } from '../lib/data'
 import { formatCompactNumberRu, formatPercentRu } from '../lib/metrics'
 
@@ -52,10 +53,11 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
 
 <Layout channel={channel}>
   <div class="page-stack">
-    <section class="stats-hero page-hero">
+    <section class="stats-hero page-hero hero-card--index" style="position:relative;overflow:hidden;">
+      <div class="hero-card__accent-glow" aria-hidden="true"></div>
       <div class="page-hero__header">
         <div class="page-hero__copy">
-          <p class="page-hero__eyebrow">Охват и объём</p>
+          <p class="page-hero__eyebrow"><span aria-hidden="true">&#128202;</span> Охват и объём</p>
           <h1 class="page-hero__title">Статистика покрытия</h1>
           <p class="page-hero__description stats-hero__text">
             Следи за тем, какие каналы реально двигают ленту: по объёму, охвату и вовлечённости.
@@ -70,29 +72,59 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
     </section>
 
     <div class="stats-grid metric-grid">
-      <article class="stats-box metric-card">
-        <strong>{allPosts.length}</strong>
-        <span>Всего постов</span>
+      <article class="stats-box metric-card metric-card--featured">
+        <div class="metric-card__icon-wrap" aria-hidden="true">
+          <Icon name="ri:article-line" class="metric-card__icon" />
+        </div>
+        <div class="metric-card__content">
+          <strong>{allPosts.length}</strong>
+          <span>Всего постов</span>
+        </div>
       </article>
-      <article class="stats-box metric-card">
-        <strong>{channels.length}</strong>
-        <span>Активных каналов</span>
+      <article class="stats-box metric-card metric-card--featured">
+        <div class="metric-card__icon-wrap" aria-hidden="true">
+          <Icon name="ri:broadcast-line" class="metric-card__icon" />
+        </div>
+        <div class="metric-card__content">
+          <strong>{channels.length}</strong>
+          <span>Активных каналов</span>
+        </div>
       </article>
-      <article class="stats-box metric-card">
-        <strong>{categories.length}</strong>
-        <span>Категорий</span>
+      <article class="stats-box metric-card metric-card--featured">
+        <div class="metric-card__icon-wrap" aria-hidden="true">
+          <Icon name="ri:folder-line" class="metric-card__icon" />
+        </div>
+        <div class="metric-card__content">
+          <strong>{categories.length}</strong>
+          <span>Категорий</span>
+        </div>
       </article>
-      <article class="stats-box metric-card">
-        <strong>{postsWithViews.length}</strong>
-        <span>Постов с охватом</span>
+      <article class="stats-box metric-card metric-card--featured">
+        <div class="metric-card__icon-wrap" aria-hidden="true">
+          <Icon name="ri:eye-line" class="metric-card__icon" />
+        </div>
+        <div class="metric-card__content">
+          <strong>{postsWithViews.length}</strong>
+          <span>Постов с охватом</span>
+        </div>
       </article>
-      <article class="stats-box metric-card">
-        <strong>{formatCompactNumberRu(averageViews)}</strong>
-        <span>Средний охват</span>
+      <article class="stats-box metric-card metric-card--featured">
+        <div class="metric-card__icon-wrap" aria-hidden="true">
+          <Icon name="ri:group-line" class="metric-card__icon" />
+        </div>
+        <div class="metric-card__content">
+          <strong>{formatCompactNumberRu(averageViews)}</strong>
+          <span>Средний охват</span>
+        </div>
       </article>
-      <article class="stats-box metric-card">
-        <strong>{formatPercentRu(averageEngagement, 1)}</strong>
-        <span>Средняя вовлечённость</span>
+      <article class="stats-box metric-card metric-card--featured">
+        <div class="metric-card__icon-wrap" aria-hidden="true">
+          <Icon name="ri:pulse-line" class="metric-card__icon" />
+        </div>
+        <div class="metric-card__content">
+          <strong>{formatPercentRu(averageEngagement, 1)}</strong>
+          <span>Средняя вовлечённость</span>
+        </div>
       </article>
     </div>
 

@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/base.astro'
+import { Icon } from 'astro-icon/components'
 import { getAllChannels, getAllPosts, getChannelData, getDigestTitle } from '../lib/data'
 import { formatCompactNumberRu, formatPercentRu } from '../lib/metrics'
 
@@ -56,10 +57,11 @@ const avgCoverage = rows.length ? rows.reduce((sum, row) => sum + row.viewCovera
 
 <Layout channel={channel}>
   <div class="page-stack">
-    <section class="compare-hero page-hero">
+    <section class="compare-hero page-hero hero-card--index" style="position:relative;overflow:hidden;">
+      <div class="hero-card__accent-glow" aria-hidden="true"></div>
       <div class="page-hero__header">
         <div class="page-hero__copy">
-          <p class="page-hero__eyebrow">Сводка источников</p>
+          <p class="page-hero__eyebrow"><span aria-hidden="true">&#9878;</span> Сводка источников</p>
           <h1 class="page-hero__title">Сравнение каналов</h1>
           <p class="page-hero__description compare-hero__text">
             Сравнение активных источников: объём, средний юридический приоритет, охват на пост и вовлечённость
@@ -73,15 +75,37 @@ const avgCoverage = rows.length ? rows.reduce((sum, row) => sum + row.viewCovera
         </div>
       </div>
       <div class="compare-hero__stats metric-grid">
-        <article class="metric-card"><strong>{rows.length}</strong><span>каналов</span></article>
-        <article class="metric-card">
-          <strong>{avgPriority.toFixed(2)}</strong><span>ср. приоритет</span>
+        <article class="metric-card metric-card--featured">
+          <div class="metric-card__icon-wrap" aria-hidden="true">
+            <Icon name="ri:broadcast-line" class="metric-card__icon" />
+          </div>
+          <div class="metric-card__content">
+            <strong>{rows.length}</strong><span>каналов</span>
+          </div>
         </article>
-        <article class="metric-card">
-          <strong>{formatPercentRu(avgCoverage, 0)}</strong><span>покрытие просмотров</span>
+        <article class="metric-card metric-card--featured">
+          <div class="metric-card__icon-wrap" aria-hidden="true">
+            <Icon name="ri:scales-3-line" class="metric-card__icon" />
+          </div>
+          <div class="metric-card__content">
+            <strong>{avgPriority.toFixed(2)}</strong><span>ср. приоритет</span>
+          </div>
         </article>
-        <article class="metric-card">
-          <strong>{withViews.length}</strong><span>каналов с охватом</span>
+        <article class="metric-card metric-card--featured">
+          <div class="metric-card__icon-wrap" aria-hidden="true">
+            <Icon name="ri:eye-line" class="metric-card__icon" />
+          </div>
+          <div class="metric-card__content">
+            <strong>{formatPercentRu(avgCoverage, 0)}</strong><span>покрытие просмотров</span>
+          </div>
+        </article>
+        <article class="metric-card metric-card--featured">
+          <div class="metric-card__icon-wrap" aria-hidden="true">
+            <Icon name="ri:line-chart-line" class="metric-card__icon" />
+          </div>
+          <div class="metric-card__content">
+            <strong>{withViews.length}</strong><span>каналов с охватом</span>
+          </div>
         </article>
       </div>
     </section>

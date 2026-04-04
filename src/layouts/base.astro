@@ -1,6 +1,7 @@
 ---
 import '../styles/app.css'
 import { SEO } from 'astro-seo'
+import { Icon } from 'astro-icon/components'
 import backToTopIcon from '../assets/back-to-top.svg'
 import type { NavItem } from '../types'
 import { getSiteMeta } from '../lib/data'
@@ -286,7 +287,22 @@ const mobileDockLinkCurrentClass = 'mobile-dock__link--active'
       </div>
       <div id="back-to-top-wrapper">
         <a href="#main-content" id="back-to-top" class={backToTopClass} aria-label="Наверх">
-          <img {...backToTopIcon} class={backToTopIconClass} alt="" />
+          <svg class="back-to-top__ring" viewBox="0 0 36 36" width="40" height="40">
+            <circle cx="18" cy="18" r="16" fill="none" stroke="var(--color-line)" stroke-width="2"></circle>
+            <circle
+              id="btt-progress"
+              cx="18"
+              cy="18"
+              r="16"
+              fill="none"
+              stroke="var(--color-accent)"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-dasharray="100.53"
+              stroke-dashoffset="100.53"
+              transform="rotate(-90 18 18)"></circle>
+          </svg>
+          <Icon name="ri:arrow-up-line" class="back-to-top__icon" />
         </a>
       </div>
     </main>
@@ -295,31 +311,82 @@ const mobileDockLinkCurrentClass = 'mobile-dock__link--active'
         <a
           href={SITE_URL}
           class:list={[mobileDockLinkClass, currentPathname === siteRootPathname && mobileDockLinkCurrentClass]}
-          >Лента</a
         >
+          <Icon name="ri:newspaper-line" class="mobile-dock__icon" />
+          <span>Лента</span>
+        </a>
         <a
           href={`${SITE_URL}digests/`}
           class:list={[mobileDockLinkClass, currentPathname === digestsPathname && mobileDockLinkCurrentClass]}
-          >Дайджесты</a
         >
+          <Icon name="ri:calendar-line" class="mobile-dock__icon" />
+          <span>Дайджесты</span>
+        </a>
         <a
           href={`${SITE_URL}hot/`}
-          class:list={[mobileDockLinkClass, currentPathname === hotPathname && mobileDockLinkCurrentClass]}>Главное</a
+          class:list={[mobileDockLinkClass, currentPathname === hotPathname && mobileDockLinkCurrentClass]}
         >
+          <Icon name="ri:fire-line" class="mobile-dock__icon" />
+          <span>Главное</span>
+        </a>
         <a
           href={`${SITE_URL}compare/`}
           class:list={[mobileDockLinkClass, currentPathname === comparePathname && mobileDockLinkCurrentClass]}
-          >Сравнить</a
         >
+          <Icon name="ri:scales-3-line" class="mobile-dock__icon" />
+          <span>Сравнить</span>
+        </a>
         <a
           href={`${SITE_URL}stats/`}
-          class:list={[mobileDockLinkClass, currentPathname === statsPathname && mobileDockLinkCurrentClass]}>Стат.</a
+          class:list={[mobileDockLinkClass, currentPathname === statsPathname && mobileDockLinkCurrentClass]}
         >
+          <Icon name="ri:bar-chart-box-line" class="mobile-dock__icon" />
+          <span>Стат.</span>
+        </a>
       </div>
     </nav>
 
     <Fragment set:html={FOOTER_INJECT} />
 
+    <script is:inline>
+      /* eslint-disable no-var, vars-on-top, antfu/if-newline, prefer-arrow-callback */
+      // Image gallery: collage with "show more" for >4 images
+      ;(function () {
+        var containers = document.querySelectorAll('.image-list-container')
+        containers.forEach(function (container) {
+          var buttons = container.querySelectorAll('.image-preview-button')
+          if (buttons.length <= 4) return
+          container.classList.add('image-list-has-more')
+          var fourth = buttons[3]
+          if (fourth) fourth.setAttribute('data-remaining', `+${buttons.length - 3}`)
+          var toggle = document.createElement('button')
+          toggle.className = 'image-gallery-toggle'
+          toggle.textContent = `Показать все ${buttons.length} фото`
+          toggle.type = 'button'
+          container.parentNode.insertBefore(toggle, container.nextSibling)
+          toggle.addEventListener('click', function () {
+            var expanded = container.classList.toggle('image-gallery-expanded')
+            toggle.textContent = expanded ? 'Свернуть' : `Показать все ${buttons.length} фото`
+          })
+        })
+      })()
+      ;(function () {
+        var ring = document.getElementById('btt-progress')
+        if (!ring) return
+        var circumference = 2 * Math.PI * 16
+        ring.style.strokeDasharray = circumference
+        ring.style.strokeDashoffset = circumference
+        window.addEventListener(
+          'scroll',
+          function () {
+            var h = document.documentElement.scrollHeight - window.innerHeight
+            var pct = h > 0 ? window.scrollY / h : 0
+            ring.style.strokeDashoffset = circumference * (1 - pct)
+          },
+          { passive: true },
+        )
+      })()
+    </script>
     <script is:inline src={`${import.meta.env.BASE_URL}pwa.js`}></script>
     <div id="install-banner" class="install-banner">
       <div class="install-banner__copy">

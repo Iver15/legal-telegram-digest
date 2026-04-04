@@ -313,7 +313,9 @@
     .image-list-container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: masonry;
+      gap: 6px;
+      border-radius: var(--radius-media);
+      overflow: hidden;
 
       &.image-list-odd {
         :first-child {
@@ -324,6 +326,71 @@
 
     .image-list-container img {
       margin-bottom: 0;
+      border-radius: 0;
+      border: none;
+      box-shadow: none;
+    }
+
+    /* Collage: show max 4 images, collapse rest */
+    .image-list-container .image-preview-button:nth-child(n + 5) {
+      display: none;
+    }
+
+    .image-list-container .image-preview-button:nth-child(4) {
+      position: relative;
+    }
+
+    /* Counter overlay on 4th image when more exist */
+    .image-list-container.image-list-has-more .image-preview-button:nth-child(4)::after {
+      content: attr(data-remaining);
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.55);
+      color: #fff;
+      font-size: 1.4rem;
+      font-weight: 800;
+      pointer-events: none;
+      backdrop-filter: blur(2px);
+    }
+
+    /* Expanded state — show all images */
+    .image-list-container.image-gallery-expanded .image-preview-button:nth-child(n + 5) {
+      display: block;
+    }
+
+    .image-list-container.image-gallery-expanded .image-preview-button:nth-child(4)::after {
+      display: none;
+    }
+
+    /* Gallery toggle button */
+    .image-gallery-toggle {
+      display: none;
+      width: 100%;
+      padding: 0.55rem 0;
+      margin-top: 6px;
+      border: 1px solid var(--color-line);
+      border-radius: 12px;
+      background: color-mix(in srgb, var(--color-surface) 92%, transparent);
+      color: var(--color-accent);
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 160ms ease;
+    }
+
+    .image-gallery-toggle:hover {
+      background: color-mix(in srgb, var(--color-accent) 8%, var(--color-surface));
+    }
+
+    .image-list-has-more + .image-gallery-toggle {
+      display: block;
+    }
+
+    .image-gallery-expanded + .image-gallery-toggle {
+      display: block;
     }
 
     .tgme_widget_message_link_preview {
@@ -789,27 +856,106 @@
 @media (max-width: 720px) {
   @layer components {
     .content {
-      font-size: 0.98rem;
-      line-height: 1.68;
+      font-size: 0.96rem;
+      line-height: 1.64;
+      overflow-wrap: break-word;
+      word-break: break-word;
 
       > * + * {
         margin-top: 0.8rem;
       }
     }
-  }
-}
-
-@media (max-width: 720px) {
-  @layer components {
-    .content {
-      font-size: 0.96rem;
-      line-height: 1.64;
-    }
 
     .content img:not(.tg-emoji):not(.sticker):not(.link_preview_image):not(.modal-img),
     .content figure {
       width: 100%;
+      max-width: 100%;
       max-height: none;
+      border-radius: 12px;
+    }
+
+    .content > iframe {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .content pre {
+      max-width: 100%;
+      font-size: 0.82em;
+    }
+
+    .content table {
+      max-width: 100%;
+      font-size: 0.85rem;
+    }
+
+    .content blockquote {
+      padding: 0.7rem 0.8rem;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .content .image-list-container {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      gap: 4px;
+      border-radius: 12px;
+      scrollbar-width: none;
+    }
+
+    .content .image-list-container::-webkit-scrollbar {
+      display: none;
+    }
+
+    .content .image-list-container .image-preview-button {
+      min-width: 75vw;
+      max-width: 85vw;
+      flex-shrink: 0;
+      scroll-snap-align: center;
+    }
+
+    .content .image-list-container .image-preview-button:nth-child(n + 5) {
+      display: block;
+    }
+
+    .content .image-list-container .image-preview-button:nth-child(4)::after {
+      display: none;
+    }
+
+    .content .image-list-container .image-preview-wrap img {
+      width: 100%;
+      height: auto;
+      max-height: 60vh;
+      object-fit: cover;
+    }
+
+    .content .image-list-container.image-list-odd :first-child {
+      grid-column: auto;
+    }
+
+    .content .image-gallery-toggle {
+      display: none;
+    }
+
+    .content .image-list-container + .image-scroll-hint {
+      display: flex;
+      justify-content: center;
+      gap: 4px;
+      margin-top: 6px;
+    }
+
+    .content .tgme_widget_message_document_wrap,
+    .content .tgme_widget_message_poll,
+    .content .tgme_widget_message_reply {
+      padding: 0.7rem 0.8rem;
+    }
+
+    .content .modal__surface {
+      padding: 12px 8px 8px;
+      max-width: calc(100vw - 16px);
+      max-height: calc(100dvh - 16px);
     }
   }
 }

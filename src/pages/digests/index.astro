@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/base.astro'
+import { Icon } from 'astro-icon/components'
 import { getChannelData, getDigestPayload, getDigestTitle } from '../../lib/data'
 
 const channel = getChannelData()
@@ -16,13 +17,14 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
 
 <Layout channel={channel}>
   <div class="page-stack">
-    <section class="page-hero">
+    <section class="page-hero hero-card--index" style="position:relative;overflow:hidden;">
+      <div class="hero-card__accent-glow" aria-hidden="true"></div>
       <div class="page-hero__header">
         <div class="page-hero__copy">
-          <p class="page-hero__eyebrow">Собранные периоды</p>
+          <p class="page-hero__eyebrow"><span aria-hidden="true">&#128240;</span> Собранные периоды</p>
           <h1 class="page-hero__title">Готовые дайджесты</h1>
           <p class="page-hero__description">
-            После синхронизации здесь появляются собранные дайджесты по периодам и их JSON-версии.
+            Собранные дайджесты по периодам — юридический приоритет, свежесть и сигналы аудитории.
           </p>
         </div>
         <div class="page-hero__nav">
@@ -30,6 +32,21 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
           <a href={`${SITE_URL}hot/`} class="nav-pill">Главное</a>
           <a href={`${SITE_URL}compare/`} class="nav-pill">Сравнить</a>
         </div>
+      </div>
+      <div class="metric-grid">
+        {
+          digests.map((digest) => (
+            <article class="metric-card metric-card--featured">
+              <div class="metric-card__icon-wrap" aria-hidden="true">
+                <Icon name="ri:file-list-3-line" class="metric-card__icon" />
+              </div>
+              <div class="metric-card__content">
+                <strong>{digest.totalPosts}</strong>
+                <span>{digest.label}</span>
+              </div>
+            </article>
+          ))
+        }
       </div>
     </section>
 
@@ -44,7 +61,9 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
                   {digest.totalPosts} постов · обновлено {new Date(digest.generatedAt).toLocaleString('ru-RU')}
                 </p>
               </div>
-              <a href={`${SITE_URL}digests/${digest.id}.json`}>JSON</a>
+              <a href={`${SITE_URL}digests/${digest.id}.json`} class="digest-json-link">
+                <Icon name="ri:code-s-slash-line" class="digest-json-link__icon" /> JSON
+              </a>
             </div>
             <div class="digest-pill-row">
               {digest.topTopics.slice(0, 5).map((topic) => (
@@ -97,6 +116,30 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     color: var(--color-muted);
     font-size: 0.84rem;
     line-height: 1.45;
+  }
+  .digest-json-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.32rem 0.62rem;
+    border: 1px solid var(--color-line);
+    border-radius: 999px;
+    background: var(--color-chip);
+    color: var(--color-muted);
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: all 160ms ease;
+  }
+  .digest-json-link:hover {
+    background: color-mix(in srgb, var(--color-accent) 12%, var(--color-surface));
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+  .digest-json-link__icon {
+    width: 0.85rem;
+    height: 0.85rem;
   }
   .digest-pill-row {
     display: flex;

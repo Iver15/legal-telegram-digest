@@ -31,6 +31,9 @@ const viewCount = post.viewCount
 const engagementRate = post.engagementRate
 const hasSignals = reactionCount > 0 || Boolean(viewCount) || typeof engagementRate === 'number'
 const channelAvatar = post.channelAvatar
+const wordCount = (post.text || '').split(/\s+/).filter(Boolean).length
+const readingMinutes = Math.max(1, Math.round(wordCount / 200))
+const isNew = datetime.isAfter(dayjs().subtract(3, 'h'))
 ---
 
 <article
@@ -62,7 +65,15 @@ const channelAvatar = post.channelAvatar
         </div>
         <div class="mt-1.5 flex flex-wrap items-center gap-2 text-[12px] text-dim">
           <span>{timeago}</span>
-          {post.category && <span class="badge">{post.category}</span>}
+          <span>· {readingMinutes} мин</span>
+          {isNew && <span class="badge badge--new">new</span>}
+          {
+            post.category && (
+              <span class="badge" data-cat={post.category}>
+                {post.category}
+              </span>
+            )
+          }
         </div>
       </div>
     </div>
