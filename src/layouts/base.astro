@@ -144,7 +144,17 @@ const mobileDockLinkCurrentClass = 'mobile-dock__link--active'
           <slot name="aside">
             <div class={asideInnerClass}>
               <section class="brand-card">
-                <p class="brand-card__eyebrow">Юридический дайджест</p>
+                <div class="brand-card__top-row">
+                  <p class="brand-card__eyebrow">Юридический дайджест</p>
+                  <button
+                    id="theme-toggle"
+                    onclick="toggleTheme()"
+                    class="theme-toggle-btn"
+                    aria-label="Переключить тему"
+                  >
+                    &#127769;
+                  </button>
+                </div>
                 <h1 class="brand-card__title">{siteMeta.shortTitle || siteMeta.title}</h1>
                 <p class="brand-card__description">{siteMeta.description}</p>
                 <div class="brand-card__meta">

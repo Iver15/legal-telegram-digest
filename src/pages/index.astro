@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/base.astro'
 import Item from '../components/item.astro'
+import { Icon } from 'astro-icon/components'
 import {
   getAllCategories,
   getAllChannels,
@@ -33,33 +34,56 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
 
 <Layout channel={channel}>
   <div class="page-stack">
-    <section class="hero-card page-hero">
+    <section class="hero-card page-hero hero-card--index">
+      <div class="hero-card__accent-glow" aria-hidden="true"></div>
       <div class="hero-card__copy">
-        <p class="page-hero__eyebrow">Юридический Telegram-дайджест</p>
+        <p class="page-hero__eyebrow">
+          <span class="page-hero__eyebrow-icon" aria-hidden="true">&#9878;</span> Юридический Telegram-дайджест
+        </p>
         <h1 class="page-hero__title">{site.title}</h1>
         <p class="page-hero__description">{site.description}</p>
+        <div class="hero-card__quick-links">
+          <a href={`${SITE_URL}hot/`} class="hero-quick-link">Главное</a>
+          <a href={`${SITE_URL}digests/`} class="hero-quick-link">Дайджесты</a>
+          <a href={`${SITE_URL}compare/`} class="hero-quick-link">Каналы</a>
+        </div>
       </div>
       <div class="hero-card__stats metric-grid">
-        <article class="metric-card">
-          <strong>{allPosts.length}</strong>
-          <span>постов в базе</span>
+        <article class="metric-card metric-card--featured">
+          <div class="metric-card__icon-wrap" aria-hidden="true">
+            <Icon name="ri:database-2-line" class="metric-card__icon" />
+          </div>
+          <div class="metric-card__content">
+            <strong>{allPosts.length}</strong>
+            <span>постов в базе</span>
+          </div>
         </article>
-        <article class="metric-card">
-          <strong>{channels.length}</strong>
-          <span>каналов включено</span>
+        <article class="metric-card metric-card--featured">
+          <div class="metric-card__icon-wrap" aria-hidden="true">
+            <Icon name="ri:broadcast-line" class="metric-card__icon" />
+          </div>
+          <div class="metric-card__content">
+            <strong>{channels.length}</strong>
+            <span>каналов включено</span>
+          </div>
         </article>
-        <article class="metric-card">
-          <strong>{todayDigest?.totalPosts || 0}</strong>
-          <span>постов за 24 часа</span>
+        <article class="metric-card metric-card--featured">
+          <div class="metric-card__icon-wrap" aria-hidden="true">
+            <Icon name="ri:time-line" class="metric-card__icon" />
+          </div>
+          <div class="metric-card__content">
+            <strong>{todayDigest?.totalPosts || 0}</strong>
+            <span>постов за 24 часа</span>
+          </div>
         </article>
       </div>
     </section>
 
     <section class="summary-section-grid">
-      <article class="summary-card surface-card section-stack">
+      <article class="summary-card surface-card section-stack summary-card--highlight">
         <div class="summary-card__head panel-title-row">
-          <h2>Главное за сегодня</h2>
-          <a href={`${SITE_URL}digests/`}>все дайджесты</a>
+          <h2><span class="summary-card__head-dot" aria-hidden="true"></span> Главное за сегодня</h2>
+          <a href={`${SITE_URL}digests/`} class="summary-card__link">все дайджесты &rarr;</a>
         </div>
         <p class="summary-card__note">
           {todayDigest?.totalPosts || 0} постов за последние 24 часа. Сортировка учитывает юридическую релевантность, свежесть
@@ -81,8 +105,8 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
 
       <article class="summary-card surface-card section-stack">
         <div class="summary-card__head panel-title-row">
-          <h2>Каналы</h2>
-          <a href={`${SITE_URL}compare/`}>сравнить</a>
+          <h2>Каналы <span class="summary-card__count-badge">{channels.length}</span></h2>
+          <a href={`${SITE_URL}compare/`} class="summary-card__link">сравнить &rarr;</a>
         </div>
         <div class="summary-list">
           {
@@ -115,44 +139,56 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
       </article>
     </section>
 
-    <section class="summary-card surface-card section-stack">
+    <section class="filter-section surface-card section-stack">
       <div class="summary-card__head panel-title-row">
         <h2>Фильтры ленты</h2>
         <span class="text-dim">быстрый отбор по периоду, каналу и теме</span>
       </div>
-      <div class="filter-row">
-        <button class="filter-btn active" data-period="all" onclick="filterPeriod('all')">Все</button>
-        <button class="filter-btn" data-period="24h" onclick="filterPeriod('24h')">24ч</button>
-        <button class="filter-btn" data-period="3d" onclick="filterPeriod('3d')">3 дня</button>
-        <button class="filter-btn" data-period="7d" onclick="filterPeriod('7d')">Неделя</button>
+      <div class="filter-group">
+        <span class="filter-group__label">Период</span>
+        <div class="filter-row filter-row--segmented">
+          <button class="filter-btn active" data-period="all" onclick="filterPeriod('all')">Все</button>
+          <button class="filter-btn" data-period="24h" onclick="filterPeriod('24h')">24ч</button>
+          <button class="filter-btn" data-period="3d" onclick="filterPeriod('3d')">3 дня</button>
+          <button class="filter-btn" data-period="7d" onclick="filterPeriod('7d')">Неделя</button>
+        </div>
       </div>
-      <div class="filter-row">
-        <button class="channel-btn active" data-channel="all" onclick="filterChannel('all')">Все каналы</button>
-        {
-          channels.slice(0, 8).map((item) => (
-            <button class="channel-btn" data-channel={item.name} onclick={`filterChannel('${item.name}')`}>
-              @{item.name}
-            </button>
-          ))
-        }
+      <div class="filter-group">
+        <span class="filter-group__label">Канал</span>
+        <div class="filter-row">
+          <button class="channel-btn active" data-channel="all" onclick="filterChannel('all')">Все каналы</button>
+          {
+            channels.slice(0, 8).map((item) => (
+              <button class="channel-btn" data-channel={item.name} onclick={`filterChannel('${item.name}')`}>
+                @{item.name}
+              </button>
+            ))
+          }
+        </div>
       </div>
-      <div class="filter-row">
-        <button class="topic-btn active" data-topic="all" onclick="filterTopic('all')">Все темы</button>
-        {
-          categories.slice(0, 8).map((category) => (
-            <button class="topic-btn" data-topic={category.id} onclick={`filterTopic('${category.id}')`}>
-              {category.label}
-            </button>
-          ))
-        }
+      <div class="filter-group">
+        <span class="filter-group__label">Тема</span>
+        <div class="filter-row">
+          <button class="topic-btn active" data-topic="all" onclick="filterTopic('all')">Все темы</button>
+          {
+            categories.slice(0, 8).map((category) => (
+              <button class="topic-btn" data-topic={category.id} onclick={`filterTopic('${category.id}')`}>
+                {category.label}
+              </button>
+            ))
+          }
+        </div>
       </div>
-      <input
-        id="digest-search"
-        type="search"
-        placeholder="Поиск по теме, каналу, статье или кейсу"
-        oninput="filterSearch(this.value)"
-        class="search-input"
-      />
+      <div class="filter-group">
+        <span class="filter-group__label">Поиск</span>
+        <input
+          id="digest-search"
+          type="search"
+          placeholder="Поиск по теме, каналу, статье или кейсу"
+          oninput="filterSearch(this.value)"
+          class="search-input search-input--enhanced"
+        />
+      </div>
     </section>
 
     <section class="summary-section-grid">
@@ -161,7 +197,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
           <h2>Темы недели</h2>
           <span class="text-dim">{weekDigest?.totalPosts || 0} материалов</span>
         </div>
-        <div class="summary-pill-row">
+        <div class="summary-pill-row summary-pill-row--topics">
           {
             (weekDigest?.topTopics || []).map((topic) => (
               <a class="summary-pill" href={`${SITE_URL}search/%23${topic.id}`}>
@@ -179,10 +215,14 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
         </div>
         <div class="summary-list">
           {
-            (weekDigest?.topChannels || []).map((item) => {
+            (weekDigest?.topChannels || []).map((item, index) => {
               const meta = channelMap.get(item.channel)
               return (
-                <a href={`${SITE_URL}search/${item.channel}`} class="summary-list__item summary-list__item--channel">
+                <a
+                  href={`${SITE_URL}search/${item.channel}`}
+                  class="summary-list__item summary-list__item--channel summary-list__item--ranked"
+                >
+                  <span class="summary-list__rank">{index + 1}</span>
                   <div class="summary-list__row">
                     {meta?.avatar && (
                       <img
@@ -211,6 +251,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     <section class="feed-section">
       <div class="panel-title-row">
         <h2>Лента постов</h2>
+        <span class="text-dim">{posts.length} материалов</span>
       </div>
       <ol id="posts-list" class="feed-list" aria-label="Посты">
         {
@@ -252,6 +293,28 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     gap: var(--panel-gap);
     grid-template-columns: minmax(0, 1.8fr) minmax(16rem, 1fr);
   }
+  .hero-card--index {
+    position: relative;
+    overflow: hidden;
+    padding: clamp(1.2rem, 1vw + 1rem, 1.6rem);
+    border-radius: 28px;
+    background:
+      radial-gradient(ellipse 60% 50% at 10% 0%, rgba(143, 59, 38, 0.14), transparent),
+      radial-gradient(ellipse 40% 40% at 90% 100%, rgba(143, 59, 38, 0.07), transparent),
+      linear-gradient(160deg, var(--color-surface), color-mix(in srgb, var(--color-surface) 72%, var(--color-paper)));
+    box-shadow: var(--shadow-soft);
+  }
+  .hero-card__accent-glow {
+    position: absolute;
+    top: -40%;
+    left: -10%;
+    width: 50%;
+    height: 80%;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(143, 59, 38, 0.12), transparent 70%);
+    pointer-events: none;
+    filter: blur(40px);
+  }
   .hero-card__eyebrow {
     margin: 0 0 0.35rem;
     color: var(--color-accent);
@@ -260,11 +323,42 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     text-transform: uppercase;
     letter-spacing: 0.08em;
   }
+  .page-hero__eyebrow-icon {
+    font-size: 1em;
+    margin-right: 0.15em;
+    vertical-align: -0.05em;
+  }
   .hero-card h1 {
     margin: 0;
   }
   .hero-card__description {
     margin-top: 0.45rem;
+  }
+  .hero-card__quick-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.8rem;
+  }
+  .hero-quick-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.4rem 0.78rem;
+    border: 1px solid color-mix(in srgb, var(--color-accent) 25%, var(--color-line));
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--color-accent) 8%, var(--color-surface));
+    color: var(--color-accent);
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 180ms ease;
+  }
+  .hero-quick-link:hover {
+    background: color-mix(in srgb, var(--color-accent) 16%, var(--color-surface));
+    transform: translateY(-1px);
+    text-decoration: none;
+    color: var(--color-accent-strong);
   }
   .hero-card__stats {
     align-content: start;
@@ -272,11 +366,95 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
   .hero-card__stats .metric-card {
     background: color-mix(in srgb, var(--color-surface) 88%, transparent);
   }
+  .metric-card--featured {
+    display: flex;
+    align-items: center;
+    gap: 0.72rem;
+    padding: 0.85rem 1rem;
+    border: 1px solid color-mix(in srgb, var(--color-accent) 10%, var(--color-line));
+    background: linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--color-accent) 6%, var(--color-surface)),
+      var(--color-surface)
+    );
+    transition:
+      transform 200ms ease,
+      border-color 200ms ease,
+      box-shadow 200ms ease;
+  }
+  .metric-card--featured:hover {
+    transform: translateY(-2px);
+    border-color: color-mix(in srgb, var(--color-accent) 22%, var(--color-line));
+    box-shadow: var(--shadow-soft), var(--shadow-lift);
+  }
+  .metric-card__icon-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 12px;
+    background: color-mix(in srgb, var(--color-accent) 12%, transparent);
+    flex-shrink: 0;
+  }
+  .metric-card__icon {
+    width: 1.15rem;
+    height: 1.15rem;
+    color: var(--color-accent);
+  }
+  .metric-card__content {
+    display: grid;
+    gap: 0.15rem;
+  }
+  .metric-card__content strong {
+    font-size: clamp(1.18rem, 1vw + 0.9rem, 1.48rem);
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
   .summary-card__head {
     margin-bottom: 0;
   }
   .summary-card__head h2 {
     font-size: 1.02rem;
+  }
+  .summary-card--highlight {
+    border-left: 3px solid var(--color-accent);
+  }
+  .summary-card__head-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--color-accent);
+    margin-right: 0.3rem;
+    vertical-align: middle;
+    animation: pulse-dot 2s ease-in-out infinite;
+  }
+  .summary-card__link {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    text-decoration: none;
+    transition: color 150ms ease;
+  }
+  .summary-card__link:hover {
+    color: var(--color-accent-strong);
+    text-decoration: none;
+  }
+  .summary-card__count-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.5rem;
+    height: 1.35rem;
+    padding: 0 0.38rem;
+    border-radius: 999px;
+    background: var(--color-chip);
+    color: var(--color-muted);
+    font-size: 0.72rem;
+    font-weight: 700;
+    vertical-align: middle;
+    margin-left: 0.35rem;
   }
   .summary-card__note {
     margin: 0;
@@ -301,6 +479,21 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     color: var(--color-heading);
     font-size: 0.82rem;
     text-decoration: none;
+    transition: all 160ms ease;
+  }
+  .summary-pill:hover {
+    background: color-mix(in srgb, var(--color-accent) 18%, var(--color-surface));
+    border-color: color-mix(in srgb, var(--color-accent) 28%, var(--color-line));
+    transform: translateY(-1px);
+    text-decoration: none;
+    color: var(--color-heading);
+  }
+  .summary-pill-row--topics .summary-pill:first-child,
+  .summary-pill-row--topics .summary-pill:nth-child(2) {
+    font-size: 0.88rem;
+    padding: 0.44rem 0.82rem;
+    font-weight: 700;
+    border-color: color-mix(in srgb, var(--color-accent) 20%, var(--color-line));
   }
   .summary-list {
     display: grid;
@@ -326,6 +519,28 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
   .summary-list__item:hover {
     transform: translateY(-1px);
     border-color: color-mix(in srgb, var(--color-accent) 24%, var(--color-line));
+    background: color-mix(in srgb, var(--color-accent) 5%, var(--color-surface));
+  }
+  .summary-list__item--ranked {
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+  }
+  .summary-list__rank {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 8px;
+    background: var(--color-chip);
+    color: var(--color-muted);
+    font-size: 0.72rem;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+  }
+  .summary-list__item--ranked:first-child .summary-list__rank {
+    background: color-mix(in srgb, var(--color-accent) 16%, transparent);
+    color: var(--color-accent);
   }
   .summary-list__item strong {
     color: var(--color-heading);
@@ -351,6 +566,38 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     font-size: 0.82rem;
     line-height: 1.45;
   }
+  .filter-group {
+    display: grid;
+    gap: 0.45rem;
+  }
+  .filter-group__label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-muted);
+  }
+  .filter-row--segmented {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    gap: 0;
+    background: color-mix(in srgb, var(--color-code) 80%, transparent);
+    border: 1px solid var(--color-line);
+    border-radius: 999px;
+    padding: 3px;
+  }
+  .filter-row--segmented .filter-btn {
+    border: none;
+    background: transparent;
+    border-radius: 999px;
+    min-height: 2rem;
+    transition: all 200ms ease;
+  }
+  .filter-row--segmented .filter-btn.active {
+    background: var(--color-accent);
+    color: #fff;
+    box-shadow: 0 1px 3px rgba(143, 59, 38, 0.25);
+  }
   .filter-btn,
   .channel-btn,
   .topic-btn,
@@ -368,6 +615,19 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     font-weight: 700;
     cursor: pointer;
     text-decoration: none;
+    transition: all 160ms ease;
+  }
+  .filter-btn:not(.active):hover,
+  .channel-btn:not(.active):hover,
+  .topic-btn:not(.active):hover {
+    background: color-mix(in srgb, var(--color-accent) 8%, var(--color-surface));
+    border-color: color-mix(in srgb, var(--color-accent) 20%, var(--color-line));
+    transform: translateY(-1px);
+  }
+  .filter-btn:active,
+  .channel-btn:active,
+  .topic-btn:active {
+    transform: scale(0.96);
   }
   .filter-btn.active,
   .channel-btn.active,
@@ -375,6 +635,29 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     background: var(--color-accent);
     border-color: var(--color-accent);
     color: #fff;
+  }
+  .load-more-link {
+    padding: 0.6rem 1.6rem;
+    font-size: 0.88rem;
+    box-shadow: var(--shadow-soft);
+    transition: all 200ms ease;
+  }
+  .load-more-link:hover {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: #fff;
+    transform: translateY(-1px);
+    text-decoration: none;
+  }
+  .search-input--enhanced {
+    border-radius: 999px;
+    padding: 0.72rem 1.1rem;
+    transition: all 200ms ease;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.04);
+  }
+  .search-input--enhanced:focus {
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-accent) 12%, transparent);
   }
   .feed-section {
     display: grid;
@@ -403,8 +686,47 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     .hero-card {
       grid-template-columns: 1fr;
     }
+    .hero-card--index {
+      padding: 1rem;
+      border-radius: 22px;
+    }
+    .hero-card__stats.metric-grid {
+      display: flex;
+      gap: 0.6rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      padding-bottom: 0.25rem;
+      scrollbar-width: none;
+    }
+    .hero-card__stats.metric-grid::-webkit-scrollbar {
+      display: none;
+    }
+    .hero-card__stats .metric-card--featured {
+      min-width: 10rem;
+      flex-shrink: 0;
+      scroll-snap-align: start;
+    }
+    .filter-row:not(.filter-row--segmented) {
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      -webkit-overflow-scrolling: touch;
+      padding-bottom: 0.2rem;
+      scrollbar-width: none;
+    }
+    .filter-row:not(.filter-row--segmented)::-webkit-scrollbar {
+      display: none;
+    }
+    .filter-row .channel-btn,
+    .filter-row .topic-btn {
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
     .summary-list__item {
       padding: 0.85rem 0.9rem;
+    }
+    .page-stack > * {
+      animation-duration: 250ms;
     }
   }
 </style>

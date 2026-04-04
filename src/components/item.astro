@@ -1,5 +1,6 @@
 ---
 import dayjs from '../lib/dayjs'
+import { Icon } from 'astro-icon/components'
 import { formatCompactNumberRu, formatPercentRu, getReactionCount } from '../lib/metrics'
 
 const locale = import.meta.env.LOCALE || 'ru'
@@ -33,7 +34,11 @@ const channelAvatar = post.channelAvatar
 ---
 
 <article
-  class:list={['post-card transition duration-200', collapsible && 'post-card--collapsible']}
+  class:list={[
+    'post-card transition duration-200',
+    collapsible && 'post-card--collapsible',
+    priorityScore >= 7 && 'post-card--high-priority',
+  ]}
   style={{ 'view-transition-name': `post-${post.id}` }}
 >
   <header class="post-card__header">
@@ -82,17 +87,42 @@ const channelAvatar = post.channelAvatar
         {legalTopics.slice(0, 4).map((topic) => (
           <span class="badge">#{topic}</span>
         ))}
-        {priorityScore > 0 && <span class="badge">приоритет {priorityScore.toFixed(1)}</span>}
+        {priorityScore > 0 && (
+          <span
+            class:list={[
+              'priority-badge',
+              priorityScore >= 7 && 'priority-badge--high',
+              priorityScore >= 4 && priorityScore < 7 && 'priority-badge--medium',
+            ]}
+          >
+            {priorityScore.toFixed(1)}
+          </span>
+        )}
       </div>
     )
   }
 
   {
     hasSignals && (
-      <div class="post-card__signals">
-        {typeof viewCount === 'number' && <span class="badge">👁 {formatCompactNumberRu(viewCount)}</span>}
-        {reactionCount > 0 && <span class="badge">❤ {formatCompactNumberRu(reactionCount)}</span>}
-        {typeof engagementRate === 'number' && <span class="badge">ER {formatPercentRu(engagementRate, 1)}</span>}
+      <div class="post-card__signals-bar">
+        {typeof viewCount === 'number' && (
+          <span class="signal-chip signal-chip--views">
+            <Icon name="ri:eye-line" class="signal-chip__icon" />
+            {formatCompactNumberRu(viewCount)}
+          </span>
+        )}
+        {reactionCount > 0 && (
+          <span class="signal-chip signal-chip--reactions">
+            <Icon name="ri:heart-line" class="signal-chip__icon" />
+            {formatCompactNumberRu(reactionCount)}
+          </span>
+        )}
+        {typeof engagementRate === 'number' && (
+          <span class="signal-chip signal-chip--er">
+            <Icon name="ri:bar-chart-line" class="signal-chip__icon" />
+            {formatPercentRu(engagementRate, 1)}
+          </span>
+        )}
       </div>
     )
   }

@@ -32,6 +32,8 @@ const paginationPlaceholderClass = 'inline-block min-w-[6.5rem]'
     }
   </ol>
 
+  <slot name="footer" />
+
   <nav class={paginationClass} aria-label="Навигация по страницам">
     {
       before && beforeCursor > 1 ? (

@@ -1,8 +1,10 @@
 ---
 import type { GetStaticPaths } from 'astro'
-import voidFile from '../../assets/void.png'
+import { Icon } from 'astro-icon/components'
 import List from '../../components/list.astro'
 import { getAllPostIds, getChannelData, getPost } from '../../lib/data'
+import { formatCompactNumberRu, formatPercentRu } from '../../lib/metrics'
+import dayjs from '../../lib/dayjs'
 
 export const getStaticPaths: GetStaticPaths = () => {
   return getAllPostIds().map((id) => ({ params: { id } }))
@@ -23,40 +25,462 @@ const channel = {
 }
 
 const SITE_URL = import.meta.env.BASE_URL ?? '/'
-const breadcrumbClass = 'mb-5 py-[10px] font-semibold'
-const breadcrumbListClass = 'm-0 flex list-none items-center p-0'
-const breadcrumbLinkClass = 'inline-flex items-center no-underline'
-const breadcrumbAvatarClass = 'block h-5 w-5 rounded-full border-2 border-white object-cover shadow-soft'
-const breadcrumbTitleClass = 'ml-[10px] flex-1 text-[14px] text-heading'
+const locale = import.meta.env.LOCALE || 'ru'
+const timezone = import.meta.env.TIMEZONE || 'Europe/Moscow'
+locale && dayjs.locale(locale)
+
+const datetime = dayjs(post.datetime).tz(timezone)
+const formattedDate = datetime.format('D MMMM YYYY, HH:mm')
+
+const allIds = getAllPostIds()
+const currentIndex = allIds.indexOf(id!)
+const prevId = currentIndex > 0 ? allIds[currentIndex - 1] : null
+const nextId = currentIndex < allIds.length - 1 ? allIds[currentIndex + 1] : null
+const prevPost = prevId ? getPost(prevId) : null
+const nextPost = nextId ? getPost(nextId) : null
+
+const legalTopics = post.legalTopics || []
+const priorityScore = post.priorityScore || 0
+const viewCount = post.viewCount
+const reactionCount = post.reactionCount
+const engagementRate = post.engagementRate
+const hasSignals =
+  (reactionCount && reactionCount > 0) || typeof viewCount === 'number' || typeof engagementRate === 'number'
+const channelAvatar = post.channelAvatar
+const tgChannel = post.channel || ''
+const postNumericId = post.id.includes('/') ? post.id.split('/').pop() : post.id
+const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
 ---
 
 <List channel={channel} before={false} after={false} isItem={true} pageHeading={post.title || channel.title}>
-  <section slot="header" class="mb-5 rounded-[22px] border border-line bg-card p-4 sm:p-5">
-    <nav aria-label="Хлебные крошки" class="mb-4">
-      <a
-        href={SITE_URL}
-        class="inline-flex items-center gap-2 text-sm font-semibold text-dim no-underline hover:no-underline"
-      >
-        <span class="text-lg">&larr;</span> Назад к ленте
+  <section slot="header" class="post-detail-header">
+    <nav class="post-detail-nav" aria-label="Навигация">
+      <a href={SITE_URL} class="post-detail-back">
+        <Icon name="ri:arrow-left-line" class="post-detail-back__icon" />
+        Назад к ленте
       </a>
+      <div class="post-detail-nav__actions">
+        <a
+          href={tgLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="post-detail-tg-link"
+          title="Открыть в Telegram"
+        >
+          <Icon name="ri:telegram-line" class="post-detail-tg-link__icon" />
+          Telegram
+        </a>
+      </div>
     </nav>
-    <div class="flex flex-wrap items-center gap-2">
-      {post.channel && <span class="badge">@{post.channel}</span>}
-      {post.category && <span class="badge">{post.category}</span>}
-      {post.priorityScore && <span class="badge">приоритет {post.priorityScore.toFixed(1)}</span>}
-    </div>
-    <h1 class="mt-3 font-[var(--font-display)] text-[clamp(1.7rem,3vw,2.4rem)] leading-[1.05] text-heading">
-      {post.title || channel.title}
-    </h1>
-    {post.datetime && <p class="mt-3 text-sm text-dim">{new Date(post.datetime).toLocaleString('ru-RU')}</p>}
-    <div class="mt-3 flex flex-wrap items-center gap-2">
-      {typeof post.viewCount === 'number' && <span class="badge">👁 {post.viewCount.toLocaleString('ru-RU')}</span>}
+
+    <div class="post-detail-channel">
       {
-        typeof post.reactionCount === 'number' && post.reactionCount > 0 && (
-          <span class="badge">❤ {post.reactionCount.toLocaleString('ru-RU')}</span>
+        channelAvatar && (
+          <img
+            src={channelAvatar}
+            alt={post.channelTitle || tgChannel}
+            class="post-detail-channel__avatar"
+            loading="lazy"
+            width="44"
+            height="44"
+          />
         )
       }
-      {typeof post.engagementRate === 'number' && <span class="badge">ER {post.engagementRate.toFixed(2)}%</span>}
+      <div class="post-detail-channel__info">
+        <strong class="post-detail-channel__title">{post.channelTitle || 'Канал'}</strong>
+        {tgChannel && <span class="post-detail-channel__handle">@{tgChannel}</span>}
+      </div>
+      {post.category && <span class="badge">{post.category}</span>}
     </div>
+
+    <h1 class="post-detail-title">
+      {post.title || channel.title}
+    </h1>
+
+    <div class="post-detail-meta">
+      {post.datetime && <span class="post-detail-date">{formattedDate}</span>}
+      {
+        legalTopics.length > 0 &&
+          legalTopics.slice(0, 4).map((topic) => (
+            <a href={`${SITE_URL}search/%23${topic}`} class="badge hover:no-underline">
+              #{topic}
+            </a>
+          ))
+      }
+      {
+        priorityScore > 0 && (
+          <span
+            class:list={[
+              'priority-badge',
+              priorityScore >= 7 && 'priority-badge--high',
+              priorityScore >= 4 && priorityScore < 7 && 'priority-badge--medium',
+            ]}
+          >
+            {priorityScore.toFixed(1)}
+          </span>
+        )
+      }
+    </div>
+
+    {
+      hasSignals && (
+        <div class="post-detail-signals">
+          {typeof viewCount === 'number' && (
+            <span class="signal-chip signal-chip--views">
+              <Icon name="ri:eye-line" class="signal-chip__icon" />
+              {formatCompactNumberRu(viewCount)}
+            </span>
+          )}
+          {reactionCount && reactionCount > 0 && (
+            <span class="signal-chip signal-chip--reactions">
+              <Icon name="ri:heart-line" class="signal-chip__icon" />
+              {formatCompactNumberRu(reactionCount)}
+            </span>
+          )}
+          {typeof engagementRate === 'number' && (
+            <span class="signal-chip signal-chip--er">
+              <Icon name="ri:bar-chart-line" class="signal-chip__icon" />
+              {formatPercentRu(engagementRate, 1)}
+            </span>
+          )}
+        </div>
+      )
+    }
   </section>
+
+  <div slot="footer" class="post-detail-footer-wrap">
+    <a href={tgLink} target="_blank" rel="noopener noreferrer" class="post-detail-cta">
+      <Icon name="ri:telegram-line" class="post-detail-cta__icon" />
+      <span class="post-detail-cta__text">Читать оригинал в Telegram</span>
+      <Icon name="ri:external-link-line" class="post-detail-cta__external" />
+    </a>
+
+    <nav class="post-detail-pager" aria-label="Навигация между постами">
+      {
+        prevPost ? (
+          <a href={`${SITE_URL}posts/${prevId}`} class="post-detail-pager__link post-detail-pager__link--prev">
+            <Icon name="ri:arrow-left-s-line" class="post-detail-pager__arrow" />
+            <div class="post-detail-pager__text">
+              <span class="post-detail-pager__label">Новее</span>
+              <span class="post-detail-pager__title">{prevPost.title || prevPost.channelTitle || prevId}</span>
+            </div>
+          </a>
+        ) : (
+          <span />
+        )
+      }
+      {
+        nextPost ? (
+          <a href={`${SITE_URL}posts/${nextId}`} class="post-detail-pager__link post-detail-pager__link--next">
+            <div class="post-detail-pager__text" style="text-align:right">
+              <span class="post-detail-pager__label">Старше</span>
+              <span class="post-detail-pager__title">{nextPost.title || nextPost.channelTitle || nextId}</span>
+            </div>
+            <Icon name="ri:arrow-right-s-line" class="post-detail-pager__arrow" />
+          </a>
+        ) : (
+          <span />
+        )
+      }
+    </nav>
+  </div>
 </List>
+
+<style is:global>
+  .post-detail-header {
+    display: grid;
+    gap: 0.85rem;
+    margin-bottom: 1.25rem;
+    padding: clamp(1rem, 0.7vw + 0.84rem, 1.4rem);
+    border: 1px solid var(--color-line);
+    border-radius: 24px;
+    background:
+      radial-gradient(ellipse 50% 40% at 5% 0%, rgba(143, 59, 38, 0.08), transparent),
+      linear-gradient(160deg, var(--color-surface), color-mix(in srgb, var(--color-surface) 80%, var(--color-paper)));
+    box-shadow: var(--shadow-soft);
+  }
+
+  .post-detail-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .post-detail-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--color-muted);
+    text-decoration: none;
+    transition: color 150ms ease;
+  }
+
+  .post-detail-back:hover {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  .post-detail-back__icon {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .post-detail-tg-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.38rem 0.72rem;
+    border: 1px solid color-mix(in srgb, var(--color-accent) 20%, var(--color-line));
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--color-accent) 8%, var(--color-surface));
+    color: var(--color-accent);
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 180ms ease;
+  }
+
+  .post-detail-tg-link:hover {
+    background: color-mix(in srgb, var(--color-accent) 16%, var(--color-surface));
+    transform: translateY(-1px);
+    text-decoration: none;
+    color: var(--color-accent-strong);
+  }
+
+  .post-detail-tg-link__icon {
+    width: 0.95rem;
+    height: 0.95rem;
+  }
+
+  .post-detail-channel {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    flex-wrap: wrap;
+  }
+
+  .post-detail-channel__avatar {
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 999px;
+    object-fit: cover;
+    border: 1px solid var(--color-line);
+    box-shadow: var(--shadow-soft);
+    flex-shrink: 0;
+  }
+
+  .post-detail-channel__info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.3rem 0.45rem;
+    min-width: 0;
+    flex: 1;
+  }
+
+  .post-detail-channel__title {
+    color: var(--color-heading);
+    font-size: 0.96rem;
+    font-weight: 700;
+  }
+
+  .post-detail-channel__handle {
+    color: var(--color-muted);
+    font-size: 0.82rem;
+    font-weight: 600;
+  }
+
+  .post-detail-title {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: clamp(1.55rem, 2.5vw + 0.5rem, 2.3rem);
+    line-height: 1.08;
+    color: var(--color-heading);
+    text-wrap: balance;
+  }
+
+  .post-detail-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.45rem;
+  }
+
+  .post-detail-date {
+    color: var(--color-muted);
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-right: 0.2rem;
+  }
+
+  .post-detail-signals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+  }
+
+  .post-detail-footer-wrap {
+    display: grid;
+    gap: 0;
+  }
+
+  .post-detail-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    margin-top: 1.5rem;
+    padding: 0.85rem 1.2rem;
+    border: 1px solid color-mix(in srgb, var(--color-accent) 25%, var(--color-line));
+    border-radius: 18px;
+    background: linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--color-accent) 8%, var(--color-surface)),
+      color-mix(in srgb, var(--color-accent) 4%, var(--color-surface))
+    );
+    color: var(--color-accent);
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 200ms ease;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .post-detail-cta:hover {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: #fff;
+    transform: translateY(-2px);
+    text-decoration: none;
+    box-shadow:
+      var(--shadow-soft),
+      0 6px 20px rgba(143, 59, 38, 0.15);
+  }
+
+  .post-detail-cta:hover .post-detail-cta__icon,
+  .post-detail-cta:hover .post-detail-cta__external {
+    color: #fff;
+  }
+
+  .post-detail-cta__icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: var(--color-accent);
+    transition: color 200ms ease;
+  }
+
+  .post-detail-cta__text {
+    line-height: 1;
+  }
+
+  .post-detail-cta__external {
+    width: 0.85rem;
+    height: 0.85rem;
+    color: var(--color-muted);
+    opacity: 0.6;
+    transition:
+      color 200ms ease,
+      opacity 200ms ease;
+  }
+
+  .post-detail-cta:hover .post-detail-cta__external {
+    opacity: 1;
+  }
+
+  .post-detail-pager {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .post-detail-pager__link {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 0.85rem 1rem;
+    border: 1px solid var(--color-line);
+    border-radius: 18px;
+    background: color-mix(in srgb, var(--color-surface) 95%, transparent);
+    color: inherit;
+    text-decoration: none;
+    transition: all 180ms ease;
+    box-shadow: var(--shadow-soft);
+    min-width: 0;
+  }
+
+  .post-detail-pager__link:hover {
+    transform: translateY(-2px);
+    border-color: color-mix(in srgb, var(--color-accent) 22%, var(--color-line));
+    text-decoration: none;
+    box-shadow:
+      var(--shadow-soft),
+      0 4px 12px rgba(143, 59, 38, 0.06);
+  }
+
+  .post-detail-pager__link--next {
+    justify-content: flex-end;
+  }
+
+  .post-detail-pager__arrow {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: var(--color-muted);
+    flex-shrink: 0;
+  }
+
+  .post-detail-pager__text {
+    display: grid;
+    gap: 0.15rem;
+    min-width: 0;
+  }
+
+  .post-detail-pager__label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-accent);
+  }
+
+  .post-detail-pager__title {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--color-heading);
+    line-height: 1.35;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  @media (max-width: 720px) {
+    .post-detail-header {
+      padding: 1rem;
+      border-radius: 20px;
+    }
+
+    .post-detail-title {
+      font-size: clamp(1.3rem, 4vw, 1.8rem);
+      line-height: 1.12;
+    }
+
+    .post-detail-pager {
+      grid-template-columns: 1fr;
+    }
+
+    .post-detail-pager__link--next {
+      justify-content: flex-start;
+      flex-direction: row-reverse;
+    }
+
+    .post-detail-pager__link--next .post-detail-pager__text {
+      text-align: left !important;
+    }
+  }
+</style>

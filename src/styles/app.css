@@ -25,6 +25,8 @@
   --color-chip: rgba(143, 59, 38, 0.08);
   --color-chip-strong: rgba(143, 59, 38, 0.14);
   --shadow-soft: 0 1px 2px rgba(29, 17, 9, 0.04), 0 8px 24px rgba(50, 28, 15, 0.06), 0 18px 48px rgba(56, 34, 22, 0.08);
+  --shadow-lift: 0 4px 12px rgba(143, 59, 38, 0.06);
+  --color-accent-glow: rgba(143, 59, 38, 0.08);
   --radius-panel: 18px;
   --radius-media: 18px;
 }
@@ -64,6 +66,7 @@
     font-family: var(--font-sans);
     background-image:
       radial-gradient(circle at top left, rgba(143, 59, 38, 0.06), transparent 26%),
+      radial-gradient(circle at bottom right, rgba(143, 59, 38, 0.04), transparent 20%),
       radial-gradient(circle at top right, rgba(66, 48, 41, 0.05), transparent 24%),
       linear-gradient(180deg, rgba(255, 255, 255, 0.18), transparent 24rem);
   }
@@ -148,6 +151,33 @@ html[data-theme='dark'] {
   --color-chip: rgba(255, 185, 145, 0.1);
   --color-chip-strong: rgba(255, 185, 145, 0.18);
   --shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.18), 0 12px 36px rgba(0, 0, 0, 0.28), 0 28px 70px rgba(0, 0, 0, 0.34);
+  --shadow-lift: 0 4px 12px rgba(242, 163, 126, 0.04);
+  --color-accent-glow: rgba(242, 163, 126, 0.06);
+}
+
+html[data-theme='dark'] .signal-chip--reactions {
+  background: rgba(231, 76, 60, 0.12);
+  color: #f0a89f;
+}
+
+html[data-theme='dark'] .signal-chip--er {
+  background: rgba(46, 204, 113, 0.1);
+  color: #7fd4a5;
+}
+
+html[data-theme='dark'] .priority-badge--medium {
+  background: rgba(230, 126, 34, 0.14);
+  color: #e8b07a;
+}
+
+html[data-theme='dark'] .post-card:hover {
+  box-shadow:
+    var(--shadow-soft),
+    0 6px 20px rgba(242, 163, 126, 0.04);
+}
+
+html[data-theme='dark'] .hero-card__accent-glow {
+  background: radial-gradient(circle, rgba(242, 163, 126, 0.1), transparent 70%);
 }
 
 @layer components {
@@ -158,6 +188,18 @@ html[data-theme='dark'] {
   .sidebar-nav-active {
     background: var(--color-chip-strong);
     border-color: color-mix(in srgb, var(--color-accent) 22%, var(--color-line));
+    position: relative;
+  }
+
+  .sidebar-nav-active::before {
+    content: '';
+    position: absolute;
+    left: -1px;
+    top: 25%;
+    bottom: 25%;
+    width: 3px;
+    border-radius: 0 3px 3px 0;
+    background: var(--color-accent);
   }
 
   .badge {
@@ -252,9 +294,56 @@ html[data-theme='dark'] {
     transform: translateY(-1px);
   }
 
+  @keyframes fadeSlideUp {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes pulse-dot {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.35;
+    }
+  }
+
   .page-stack {
     display: grid;
     gap: var(--section-gap);
+  }
+
+  .page-stack > * {
+    animation: fadeSlideUp 400ms ease both;
+  }
+
+  .page-stack > *:nth-child(1) {
+    animation-delay: 0ms;
+  }
+  .page-stack > *:nth-child(2) {
+    animation-delay: 60ms;
+  }
+  .page-stack > *:nth-child(3) {
+    animation-delay: 120ms;
+  }
+  .page-stack > *:nth-child(4) {
+    animation-delay: 180ms;
+  }
+  .page-stack > *:nth-child(5) {
+    animation-delay: 240ms;
+  }
+  .page-stack > *:nth-child(6) {
+    animation-delay: 300ms;
+  }
+  .page-stack > *:nth-child(7) {
+    animation-delay: 360ms;
   }
 
   .surface-card {
@@ -525,6 +614,39 @@ html[data-theme='dark'] {
     box-shadow: var(--shadow-soft);
   }
 
+  .brand-card__top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.4rem;
+  }
+
+  .theme-toggle-btn {
+    appearance: none;
+    border: 1px solid var(--color-line);
+    border-radius: 10px;
+    background: color-mix(in srgb, var(--color-surface) 90%, transparent);
+    width: 2rem;
+    height: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 160ms ease;
+    padding: 0;
+    line-height: 1;
+  }
+
+  .theme-toggle-btn:hover {
+    background: var(--color-chip-strong);
+    transform: rotate(15deg);
+  }
+
+  .brand-card__top-row .brand-card__eyebrow {
+    margin: 0;
+  }
+
   .brand-card__eyebrow {
     margin: 0 0 0.4rem;
     font-size: 0.72rem;
@@ -565,15 +687,42 @@ html[data-theme='dark'] {
     background: color-mix(in srgb, var(--color-surface) 95%, transparent);
     box-shadow: var(--shadow-soft);
     overflow: hidden;
+    transition:
+      transform 200ms ease,
+      box-shadow 200ms ease,
+      border-color 200ms ease;
+  }
+
+  .post-card:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      var(--shadow-soft),
+      0 6px 20px rgba(143, 59, 38, 0.06);
   }
 
   .post-card::before {
     content: '';
     position: absolute;
     inset: 0 0 auto 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--color-accent), color-mix(in srgb, var(--color-accent) 15%, transparent));
+    opacity: 0.5;
+    transition:
+      opacity 200ms ease,
+      height 200ms ease;
+  }
+
+  .post-card:hover::before {
+    opacity: 1;
+  }
+
+  .post-card--high-priority {
+    border-color: color-mix(in srgb, var(--color-accent) 20%, var(--color-line));
+  }
+
+  .post-card--high-priority::before {
     height: 3px;
-    background: linear-gradient(90deg, var(--color-accent), color-mix(in srgb, var(--color-accent) 20%, transparent));
-    opacity: 0.7;
+    opacity: 0.85;
   }
 
   .post-card__header {
@@ -624,6 +773,68 @@ html[data-theme='dark'] {
     flex-wrap: wrap;
     gap: 0.45rem;
     padding: 0.62rem var(--post-card-x) 0;
+  }
+
+  .post-card__signals-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    padding: 0.62rem var(--post-card-x) 0;
+  }
+
+  .signal-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.22rem 0.55rem;
+    border-radius: 8px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .signal-chip__icon {
+    width: 0.85rem;
+    height: 0.85rem;
+  }
+
+  .signal-chip--views {
+    background: color-mix(in srgb, var(--color-accent) 8%, transparent);
+    color: var(--color-muted);
+  }
+
+  .signal-chip--reactions {
+    background: rgba(231, 76, 60, 0.08);
+    color: #b05545;
+  }
+
+  .signal-chip--er {
+    background: rgba(46, 204, 113, 0.08);
+    color: #3d8f5f;
+  }
+
+  .priority-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2rem;
+    padding: 0.18rem 0.42rem;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+    background: var(--color-chip);
+    color: var(--color-muted);
+  }
+
+  .priority-badge--high {
+    background: color-mix(in srgb, var(--color-accent) 16%, transparent);
+    color: var(--color-accent);
+  }
+
+  .priority-badge--medium {
+    background: rgba(230, 126, 34, 0.12);
+    color: #a0673a;
   }
 
   .post-card__body {

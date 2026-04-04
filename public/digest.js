@@ -4,10 +4,17 @@ var currentChannel = 'all'
 var currentTopic = 'all'
 var currentSearch = ''
 
+function scrollActiveIntoView(btn) {
+  if (window.innerWidth <= 720 && btn) {
+    btn.scrollIntoView({ inline: 'center', behavior: 'smooth', block: 'nearest' })
+  }
+}
+
 function filterPeriod(period) {
   currentPeriod = period
   document.querySelectorAll('.filter-btn').forEach(function (b) {
     b.classList.toggle('active', b.dataset.period === period)
+    if (b.dataset.period === period) scrollActiveIntoView(b)
   })
   applyFilters()
 }
@@ -16,6 +23,7 @@ function filterChannel(ch) {
   currentChannel = ch
   document.querySelectorAll('.channel-btn').forEach(function (b) {
     b.classList.toggle('active', b.dataset.channel === ch)
+    if (b.dataset.channel === ch) scrollActiveIntoView(b)
   })
   applyFilters()
 }
@@ -29,6 +37,7 @@ function filterTopic(topic) {
   currentTopic = topic
   document.querySelectorAll('.topic-btn').forEach(function (b) {
     b.classList.toggle('active', b.dataset.topic === topic)
+    if (b.dataset.topic === topic) scrollActiveIntoView(b)
   })
   applyFilters()
 }
