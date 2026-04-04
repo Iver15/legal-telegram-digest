@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-04T19:06:13.570Z",
+  "generatedAt": "2026-04-04T19:47:20.852Z",
   "totalPosts": 294,
   "topPosts": [
     {
@@ -32,7 +32,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 682,
+      "viewCount": 687,
       "tgLink": "https://t.me/probankrotstvoru/9528",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -47,17 +47,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 39.54,
+      "priorityScore": 39.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 682 просмотров"
+        "Охват в Telegram Web: 687 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеКоллизия в законодательстве о банкротстве: разрешить ее может только Верховный СудРеальная проблема заключается не в теорети",
       "reactionCount": 6,
-      "engagementRate": 0.008797653958944282
+      "engagementRate": 0.008733624454148471
     },
     {
       "id": "probankrotstvoru/9499",
@@ -168,7 +168,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 923,
+      "viewCount": 924,
       "tgLink": "https://t.me/probankrotstvoru/9523",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -182,19 +182,19 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 35.88,
+      "priorityScore": 35.79,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 923 просмотров",
+        "Охват в Telegram Web: 924 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: пропуск срока на исполнение не лишает права на субсидиарный искОбщество «Терра» не исполнило обязательства по госконтракту перед ФТС России и в 2017 году суд взыскал с общества 291,7 тыс. рублей неустойки. Испо",
       "reactionCount": 15,
-      "engagementRate": 0.016251354279523293
+      "engagementRate": 0.016233766233766232
     },
     {
       "id": "probankrotstvoru/9493",
@@ -312,7 +312,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 33.43,
+      "priorityScore": 33.35,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -352,7 +352,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 417,
+      "viewCount": 419,
       "tgLink": "https://t.me/BankruptcyClub/991",
       "channel": "BankruptcyClub",
       "channelTitle": "Банкротный Клуб",
@@ -372,12 +372,12 @@
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 417 просмотров",
+        "Охват в Telegram Web: 419 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 5,
-      "engagementRate": 0.011990407673860911
+      "engagementRate": 0.011933174224343675
     },
     {
       "id": "bankrovert/675",
