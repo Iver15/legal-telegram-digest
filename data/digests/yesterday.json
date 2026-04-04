@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-04T21:26:10.760Z",
+  "generatedAt": "2026-04-04T21:58:14.279Z",
   "totalPosts": 57,
   "topPosts": [
     {
@@ -55,7 +55,7 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 35.59,
+      "priorityScore": 35.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -120,7 +120,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 33.14,
+      "priorityScore": 33.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -187,7 +187,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.46,
+      "priorityScore": 30.39,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -235,7 +235,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 898,
+      "viewCount": 900,
       "tgLink": "https://t.me/probankrotstvoru/9527",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -248,19 +248,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.42,
+      "priorityScore": 30.35,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 898 просмотров",
+        "Охват в Telegram Web: 900 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "⚡️Собрали дайджест интересных материалов СМИ о банкротстве за 30 марта — 3 апреляАктуальные и свежие статьи отрасли банкротства, а также кейсы, исследования, обзоры и новеллы законодательства.Суд взыскал с экс-гендиректо",
       "reactionCount": 12,
-      "engagementRate": 0.013363028953229399
+      "engagementRate": 0.013333333333333334
     },
     {
       "id": "probankrotstvoru/9519",
@@ -306,7 +306,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.01,
+      "priorityScore": 29.95,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -350,7 +350,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 29.38,
+      "priorityScore": 29.31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -403,7 +403,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1170,
+      "viewCount": 1180,
       "tgLink": "https://t.me/probankrotstvoru/9524",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -416,19 +416,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.9,
+      "priorityScore": 28.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 1170 просмотров",
+        "Охват в Telegram Web: 1180 просмотров",
         "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "ТОП-5 кейсов неделиМы спросили топов банкротства, что зацепило их на этой неделе и что точно нужно узнать и вам.🔺 Алена Ермоленко из Orlova\\ErmolenkoПро кейс о подсудности рассмотрения дела об оспаривании отчуждения акц",
       "reactionCount": 12,
-      "engagementRate": 0.010256410256410256
+      "engagementRate": 0.010169491525423728
     },
     {
       "id": "bankrotstvo_mustknow/456",
@@ -476,7 +476,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28.68,
+      "priorityScore": 28.62,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -519,7 +519,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 28.32,
+      "priorityScore": 28.26,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -573,7 +573,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.89,
+      "priorityScore": 26.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -614,7 +614,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 25.97,
+      "priorityScore": 25.91,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Суды",
@@ -662,7 +662,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 25.69,
+      "priorityScore": 25.62,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",

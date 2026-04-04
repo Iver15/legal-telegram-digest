@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-04T21:26:10.761Z",
+  "generatedAt": "2026-04-04T21:58:14.280Z",
   "totalPosts": 294,
   "topPosts": [
     {
@@ -32,7 +32,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 708,
+      "viewCount": 712,
       "tgLink": "https://t.me/probankrotstvoru/9528",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -47,17 +47,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 39.21,
+      "priorityScore": 39.14,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 708 просмотров"
+        "Охват в Telegram Web: 712 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеКоллизия в законодательстве о банкротстве: разрешить ее может только Верховный СудРеальная проблема заключается не в теорети",
       "reactionCount": 6,
-      "engagementRate": 0.00847457627118644
+      "engagementRate": 0.008426966292134831
     },
     {
       "id": "probankrotstvoru/9499",
@@ -182,7 +182,7 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 35.59,
+      "priorityScore": 35.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -312,7 +312,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 33.14,
+      "priorityScore": 33.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -701,7 +701,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1020,
+      "viewCount": 1030,
       "tgLink": "https://t.me/orpauradio/9275",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -721,11 +721,11 @@
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1020 просмотров"
+        "Охват в Telegram Web: 1030 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 2,
-      "engagementRate": 0.00196078431372549
+      "engagementRate": 0.001941747572815534
     }
   ],
   "topTopics": [
