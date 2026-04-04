@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-04T17:37:47.321Z",
+  "generatedAt": "2026-04-04T18:05:41.681Z",
   "totalPosts": 58,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 918,
+      "viewCount": 920,
       "tgLink": "https://t.me/probankrotstvoru/9523",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -55,19 +55,19 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 36.06,
+      "priorityScore": 36,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 918 просмотров",
+        "Охват в Telegram Web: 920 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: пропуск срока на исполнение не лишает права на субсидиарный искОбщество «Терра» не исполнило обязательства по госконтракту перед ФТС России и в 2017 году суд взыскал с общества 291,7 тыс. рублей неустойки. Испо",
       "reactionCount": 15,
-      "engagementRate": 0.016339869281045753
+      "engagementRate": 0.016304347826086956
     },
     {
       "id": "tgnspau/1309",
@@ -106,7 +106,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 275,
+      "viewCount": 276,
       "tgLink": "https://t.me/tgnspau/1309",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -120,18 +120,18 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 33.61,
+      "priorityScore": 33.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 275 просмотров",
-        "Сильная отдача аудитории: 1,5% реакций к просмотрам"
+        "Охват в Telegram Web: 276 просмотров",
+        "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "ФНС в банкротстве: эволюция привилегий.2. апреля в Финансовом университете при Правительстве РФ в Москве прошел Банкротный день в рамках Международного налогового форума.С докладом в числе других уважаемых экспертов выст",
       "reactionCount": 4,
-      "engagementRate": 0.014545454545454545
+      "engagementRate": 0.014492753623188406
     },
     {
       "id": "probankrotstvoru/9525",
@@ -187,7 +187,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.95,
+      "priorityScore": 30.9,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -235,7 +235,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 876,
+      "viewCount": 883,
       "tgLink": "https://t.me/probankrotstvoru/9527",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -248,19 +248,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.94,
+      "priorityScore": 30.87,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 876 просмотров",
+        "Охват в Telegram Web: 883 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "⚡️Собрали дайджест интересных материалов СМИ о банкротстве за 30 марта — 3 апреляАктуальные и свежие статьи отрасли банкротства, а также кейсы, исследования, обзоры и новеллы законодательства.Суд взыскал с экс-гендиректо",
       "reactionCount": 12,
-      "engagementRate": 0.0136986301369863
+      "engagementRate": 0.013590033975084938
     },
     {
       "id": "probankrotstvoru/9519",
@@ -306,7 +306,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.5,
+      "priorityScore": 30.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -350,7 +350,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 29.85,
+      "priorityScore": 29.79,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -403,7 +403,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1080,
+      "viewCount": 1090,
       "tgLink": "https://t.me/probankrotstvoru/9524",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -416,19 +416,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.47,
+      "priorityScore": 29.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 1080 просмотров",
+        "Охват в Telegram Web: 1090 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "ТОП-5 кейсов неделиМы спросили топов банкротства, что зацепило их на этой неделе и что точно нужно узнать и вам.🔺 Алена Ермоленко из Orlova\\ErmolenkoПро кейс о подсудности рассмотрения дела об оспаривании отчуждения акц",
       "reactionCount": 12,
-      "engagementRate": 0.011111111111111112
+      "engagementRate": 0.011009174311926606
     },
     {
       "id": "bankrotstvo_mustknow/456",
@@ -476,7 +476,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 29.16,
+      "priorityScore": 29.1,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -519,7 +519,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 28.79,
+      "priorityScore": 28.74,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -561,7 +561,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2210,
+      "viewCount": 2220,
       "tgLink": "https://t.me/probankrotstvoru/9516",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -573,18 +573,18 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.38,
+      "priorityScore": 27.32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 2210 просмотров"
+        "Охват в Telegram Web: 2220 просмотров"
       ],
       "digestSummary": "Верховный Суд оценит стандарт доказывания при возврате займа наличными на 110 млн рублейИгорь Пестриков в сентябре 2021 года предоставил Тамаре Бихнер заём на 110 млн рублей сроком на 10 лет под 5% годовых с уплатой проц",
       "reactionCount": 15,
-      "engagementRate": 0.006787330316742082
+      "engagementRate": 0.006756756756756757
     },
     {
       "id": "zarbitrazhy/6860",
@@ -614,7 +614,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 26.45,
+      "priorityScore": 26.39,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Суды",
@@ -662,7 +662,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.16,
+      "priorityScore": 26.1,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",

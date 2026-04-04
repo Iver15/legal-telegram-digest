@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-04T17:37:47.321Z",
+  "generatedAt": "2026-04-04T18:05:41.681Z",
   "totalPosts": 294,
   "topPosts": [
     {
@@ -32,7 +32,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 646,
+      "viewCount": 661,
       "tgLink": "https://t.me/probankrotstvoru/9528",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -47,17 +47,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 39.77,
+      "priorityScore": 39.69,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 646 просмотров"
+        "Охват в Telegram Web: 661 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеКоллизия в законодательстве о банкротстве: разрешить ее может только Верховный СудРеальная проблема заключается не в теорети",
       "reactionCount": 6,
-      "engagementRate": 0.009287925696594427
+      "engagementRate": 0.009077155824508321
     },
     {
       "id": "probankrotstvoru/9499",
@@ -168,7 +168,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 918,
+      "viewCount": 920,
       "tgLink": "https://t.me/probankrotstvoru/9523",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -182,19 +182,19 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 36.06,
+      "priorityScore": 36,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 918 просмотров",
+        "Охват в Telegram Web: 920 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: пропуск срока на исполнение не лишает права на субсидиарный искОбщество «Терра» не исполнило обязательства по госконтракту перед ФТС России и в 2017 году суд взыскал с общества 291,7 тыс. рублей неустойки. Испо",
       "reactionCount": 15,
-      "engagementRate": 0.016339869281045753
+      "engagementRate": 0.016304347826086956
     },
     {
       "id": "probankrotstvoru/9493",
@@ -298,7 +298,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 275,
+      "viewCount": 276,
       "tgLink": "https://t.me/tgnspau/1309",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -312,18 +312,18 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 33.61,
+      "priorityScore": 33.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 275 просмотров",
-        "Сильная отдача аудитории: 1,5% реакций к просмотрам"
+        "Охват в Telegram Web: 276 просмотров",
+        "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "ФНС в банкротстве: эволюция привилегий.2. апреля в Финансовом университете при Правительстве РФ в Москве прошел Банкротный день в рамках Международного налогового форума.С докладом в числе других уважаемых экспертов выст",
       "reactionCount": 4,
-      "engagementRate": 0.014545454545454545
+      "engagementRate": 0.014492753623188406
     },
     {
       "id": "BankruptcyClub/991",
@@ -588,7 +588,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2740,
+      "viewCount": 2750,
       "tgLink": "https://t.me/probankrotstvoru/9508",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -602,18 +602,18 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 31.67,
+      "priorityScore": 31.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 2740 просмотров"
+        "Охват в Telegram Web: 2750 просмотров"
       ],
       "digestSummary": "Ошибки арбитражных управляющих, которые могут привести к дисквалификацииДисквалификация арбитражного управляющего сегодня перестала быть исключительной мерой за грубые нарушения. Судебная практика показывает, что «тригге",
       "reactionCount": 15,
-      "engagementRate": 0.005474452554744526
+      "engagementRate": 0.005454545454545455
     },
     {
       "id": "probankrotstvoru/9485",
