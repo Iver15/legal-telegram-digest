@@ -697,16 +697,23 @@ async function main() {
     tgLink: post.tgLink || buildTelegramPostLink(post.channel, post.id),
   }))
 
-  const digests = buildAllDigestPayloads(dedupedPosts, registry)
+  // Retention: keep only posts from the last 14 days
+  const RETENTION_DAYS = Number(process.env.RETENTION_DAYS) || 14
+  const retentionCutoff = Date.now() - RETENTION_DAYS * 24 * 60 * 60 * 1000
+  const beforeRetention = dedupedPosts.length
+  const retainedPosts = dedupedPosts.filter(p => new Date(p.datetime).getTime() >= retentionCutoff)
+  console.log(`Retention: ${RETENTION_DAYS} days, removed ${beforeRetention - retainedPosts.length} old posts, kept ${retainedPosts.length}`)
 
-  writeFileSync(POSTS_FILE, JSON.stringify(dedupedPosts, null, 2))
+  const digests = buildAllDigestPayloads(retainedPosts, registry)
+
+  writeFileSync(POSTS_FILE, JSON.stringify(retainedPosts, null, 2))
   writeFileSync(CHANNEL_FILE, JSON.stringify(channelsMeta, null, 2))
   writeFileSync(NEW_POSTS_FILE, JSON.stringify(newPosts, null, 2))
   for (const [period, payload] of Object.entries(digests)) {
     writeFileSync(resolve(DIGESTS_DIR, `${period}.json`), JSON.stringify(payload, null, 2))
   }
 
-  console.log(`Total posts saved: ${dedupedPosts.length}`)
+  console.log(`Total posts saved: ${retainedPosts.length}`)
   console.log(`Channels: ${Object.keys(channelsMeta).join(', ')}`)
 }
 
