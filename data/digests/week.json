@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-04T13:42:45.373Z",
-  "totalPosts": 298,
+  "generatedAt": "2026-04-04T14:24:30.400Z",
+  "totalPosts": 296,
   "topPosts": [
     {
       "id": "probankrotstvoru/9528",
@@ -32,7 +32,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 484,
+      "viewCount": 524,
       "tgLink": "https://t.me/probankrotstvoru/9528",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -47,18 +47,18 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 40.61,
+      "priorityScore": 40.41,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 484 просмотров",
-        "Сильная отдача аудитории: 1,2% реакций к просмотрам"
+        "Охват в Telegram Web: 524 просмотров",
+        "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеКоллизия в законодательстве о банкротстве: разрешить ее может только Верховный СудРеальная проблема заключается не в теорети",
       "reactionCount": 6,
-      "engagementRate": 0.012396694214876033
+      "engagementRate": 0.011450381679389313
     },
     {
       "id": "probankrotstvoru/9523",
@@ -97,7 +97,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 880,
+      "viewCount": 885,
       "tgLink": "https://t.me/probankrotstvoru/9523",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -111,19 +111,19 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 36.54,
+      "priorityScore": 36.46,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 880 просмотров",
+        "Охват в Telegram Web: 885 просмотров",
         "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: пропуск срока на исполнение не лишает права на субсидиарный искОбщество «Терра» не исполнило обязательства по госконтракту перед ФТС России и в 2017 году суд взыскал с общества 291,7 тыс. рублей неустойки. Испо",
       "reactionCount": 15,
-      "engagementRate": 0.017045454545454544
+      "engagementRate": 0.01694915254237288
     },
     {
       "id": "probankrotstvoru/9499",
@@ -234,7 +234,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 265,
+      "viewCount": 266,
       "tgLink": "https://t.me/tgnspau/1309",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -248,18 +248,18 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 34.09,
+      "priorityScore": 34.01,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 265 просмотров",
+        "Охват в Telegram Web: 266 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "ФНС в банкротстве: эволюция привилегий.2. апреля в Финансовом университете при Правительстве РФ в Москве прошел Банкротный день в рамках Международного налогового форума.С докладом в числе других уважаемых экспертов выст",
       "reactionCount": 4,
-      "engagementRate": 0.01509433962264151
+      "engagementRate": 0.015037593984962405
     },
     {
       "id": "probankrotstvoru/9493",
@@ -416,7 +416,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.42,
+      "priorityScore": 32.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -584,7 +584,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2710,
+      "viewCount": 2720,
       "tgLink": "https://t.me/probankrotstvoru/9508",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -605,11 +605,11 @@
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 2710 просмотров"
+        "Охват в Telegram Web: 2720 просмотров"
       ],
       "digestSummary": "Ошибки арбитражных управляющих, которые могут привести к дисквалификацииДисквалификация арбитражного управляющего сегодня перестала быть исключительной мерой за грубые нарушения. Судебная практика показывает, что «тригге",
       "reactionCount": 15,
-      "engagementRate": 0.005535055350553505
+      "engagementRate": 0.0055147058823529415
     },
     {
       "id": "probankrotstvoru/9485",
@@ -648,7 +648,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1700,
+      "viewCount": 1710,
       "tgLink": "https://t.me/probankrotstvoru/9485",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -669,11 +669,11 @@
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 1700 просмотров"
+        "Охват в Telegram Web: 1710 просмотров"
       ],
       "digestSummary": "Банкротство в корпоративной структуре: контроль, сделки, субсидиарная ответственностьПродолжаем знакомить со спикерами Банкротного дня в рамках Международного налогового форума.Вадим Мартаков, руководитель департамента ф",
       "reactionCount": 14,
-      "engagementRate": 0.00823529411764706
+      "engagementRate": 0.008187134502923977
     },
     {
       "id": "probankrotstvoru/9527",
@@ -711,7 +711,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 809,
+      "viewCount": 821,
       "tgLink": "https://t.me/probankrotstvoru/9527",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -724,46 +724,46 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.49,
+      "priorityScore": 31.41,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 809 просмотров",
+        "Охват в Telegram Web: 821 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "⚡️Собрали дайджест интересных материалов СМИ о банкротстве за 30 марта — 3 апреляАктуальные и свежие статьи отрасли банкротства, а также кейсы, исследования, обзоры и новеллы законодательства.Суд взыскал с экс-гендиректо",
       "reactionCount": 12,
-      "engagementRate": 0.014833127317676144
+      "engagementRate": 0.014616321559074299
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 254
+      "count": 252
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 236
+      "count": 234
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 229
+      "count": 227
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 214
+      "count": 212
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 139
+      "count": 138
     },
     {
       "id": "tax",
@@ -793,13 +793,13 @@
       "count": 17
     },
     {
-      "channel": "vZone1413",
-      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 16
-    },
-    {
       "channel": "subsidiarka_kdl",
       "title": "Субсидиарная ответственность • Case by Case",
+      "count": 15
+    },
+    {
+      "channel": "vZone1413",
+      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
       "count": 15
     },
     {
