@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-05T09:27:30.973Z",
-  "totalPosts": 298,
+  "generatedAt": "2026-04-05T10:04:50.311Z",
+  "totalPosts": 297,
   "topPosts": [
     {
       "id": "probankrotstvoru/9528",
@@ -32,7 +32,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 845,
+      "viewCount": 851,
       "tgLink": "https://t.me/probankrotstvoru/9528",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -47,17 +47,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 37.57,
+      "priorityScore": 37.48,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 845 просмотров"
+        "Охват в Telegram Web: 851 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеКоллизия в законодательстве о банкротстве: разрешить ее может только Верховный СудРеальная проблема заключается не в теорети",
       "reactionCount": 6,
-      "engagementRate": 0.007100591715976331
+      "engagementRate": 0.007050528789659225
     },
     {
       "id": "probankrotstvoru/9499",
@@ -168,7 +168,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 956,
+      "viewCount": 958,
       "tgLink": "https://t.me/probankrotstvoru/9523",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -182,19 +182,19 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 34.1,
+      "priorityScore": 34.02,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 956 просмотров",
+        "Охват в Telegram Web: 958 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: пропуск срока на исполнение не лишает права на субсидиарный искОбщество «Терра» не исполнило обязательства по госконтракту перед ФТС России и в 2017 году суд взыскал с общества 291,7 тыс. рублей неустойки. Испо",
       "reactionCount": 15,
-      "engagementRate": 0.015690376569037656
+      "engagementRate": 0.015657620041753653
     },
     {
       "id": "probankrotstvoru/9493",
@@ -288,7 +288,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 429,
+      "viewCount": 430,
       "tgLink": "https://t.me/BankruptcyClub/991",
       "channel": "BankruptcyClub",
       "channelTitle": "Банкротный Клуб",
@@ -302,18 +302,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.58,
+      "priorityScore": 32.57,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 429 просмотров",
+        "Охват в Telegram Web: 430 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 5,
-      "engagementRate": 0.011655011655011656
+      "engagementRate": 0.011627906976744186
     },
     {
       "id": "bankrovert/675",
@@ -666,7 +666,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 31.57,
+      "priorityScore": 31.49,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -732,27 +732,27 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 251
+      "count": 250
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 235
+      "count": 234
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 227
+      "count": 226
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 213
+      "count": 212
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 141
+      "count": 140
     },
     {
       "id": "tax",
@@ -769,7 +769,7 @@
     {
       "channel": "probankrotstvoru",
       "title": "PROбанкротство",
-      "count": 53
+      "count": 52
     },
     {
       "channel": "orpauradio",
