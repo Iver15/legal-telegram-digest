@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-05T17:57:50.727Z",
+  "generatedAt": "2026-04-05T18:35:04.943Z",
   "totalPosts": 307,
   "topPosts": [
     {
@@ -37,7 +37,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 959,
+      "viewCount": 965,
       "tgLink": "https://t.me/probankrotstvoru/9528",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -52,17 +52,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 36.67,
+      "priorityScore": 36.59,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 959 просмотров"
+        "Охват в Telegram Web: 965 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеКоллизия в законодательстве о банкротстве: разрешить ее может только Верховный СудРеальная проблема заключается не в теорети",
       "reactionCount": 7,
-      "engagementRate": 0.0072992700729927005
+      "engagementRate": 0.007253886010362694
     },
     {
       "id": "probankrotstvoru/9499",
@@ -238,7 +238,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 990,
+      "viewCount": 991,
       "tgLink": "https://t.me/probankrotstvoru/9523",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -259,12 +259,12 @@
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 990 просмотров",
+        "Охват в Telegram Web: 991 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: пропуск срока на исполнение не лишает права на субсидиарный искОбщество «Терра» не исполнило обязательства по госконтракту перед ФТС России и в 2017 году суд взыскал с общества 291,7 тыс. рублей неустойки. Испо",
       "reactionCount": 15,
-      "engagementRate": 0.015151515151515152
+      "engagementRate": 0.015136226034308779
     },
     {
       "id": "BankruptcyClub/991",
