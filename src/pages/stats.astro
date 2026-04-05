@@ -1,6 +1,5 @@
 ---
 import Layout from '../layouts/base.astro'
-import { Icon } from 'astro-icon/components'
 import { getAllCategories, getAllChannels, getAllPosts, getChannelData, getDigestTitle } from '../lib/data'
 import { formatCompactNumberRu, formatPercentRu } from '../lib/metrics'
 
@@ -35,11 +34,7 @@ const channelSignals = channels.map((item) => {
     channelPostsWithViews.length > 0
       ? channelPostsWithViews.reduce((sum, post) => sum + (post.engagementRate || 0), 0) / channelPostsWithViews.length
       : undefined
-  return {
-    ...item,
-    avgViews,
-    avgEngagement,
-  }
+  return { ...item, avgViews, avgEngagement }
 })
 const channelsByViews = channelSignals
   .filter((item) => item.avgViews)
@@ -53,15 +48,12 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
 
 <Layout channel={channel}>
   <div class="page-stack">
-    <section class="stats-hero page-hero hero-card--index" style="position:relative;overflow:hidden;">
-      <div class="hero-card__accent-glow" aria-hidden="true"></div>
+    <section class="page-hero">
       <div class="page-hero__header">
         <div class="page-hero__copy">
-          <p class="page-hero__eyebrow"><span aria-hidden="true">&#128202;</span> Охват и объём</p>
+          <p class="page-hero__eyebrow">Охват и объём</p>
           <h1 class="page-hero__title">Статистика покрытия</h1>
-          <p class="page-hero__description stats-hero__text">
-            Следи за тем, какие каналы реально двигают ленту: по объёму, охвату и вовлечённости.
-          </p>
+          <p class="page-hero__description">Какие каналы реально двигают ленту: по объёму, охвату и вовлечённости.</p>
         </div>
         <div class="page-hero__nav">
           <a href={SITE_URL} class="nav-pill">Лента</a>
@@ -71,78 +63,27 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
       </div>
     </section>
 
-    <div class="stats-grid metric-grid">
-      <article class="stats-box metric-card metric-card--featured">
-        <div class="metric-card__icon-wrap" aria-hidden="true">
-          <Icon name="ri:article-line" class="metric-card__icon" />
-        </div>
-        <div class="metric-card__content">
-          <strong>{allPosts.length}</strong>
-          <span>Всего постов</span>
-        </div>
+    <div class="metric-grid">
+      <article class="metric-card"><strong>{allPosts.length}</strong><span>Всего постов</span></article>
+      <article class="metric-card"><strong>{channels.length}</strong><span>Активных каналов</span></article>
+      <article class="metric-card"><strong>{categories.length}</strong><span>Категорий</span></article>
+      <article class="metric-card"><strong>{postsWithViews.length}</strong><span>Постов с охватом</span></article>
+      <article class="metric-card">
+        <strong>{formatCompactNumberRu(averageViews)}</strong><span>Средний охват</span>
       </article>
-      <article class="stats-box metric-card metric-card--featured">
-        <div class="metric-card__icon-wrap" aria-hidden="true">
-          <Icon name="ri:broadcast-line" class="metric-card__icon" />
-        </div>
-        <div class="metric-card__content">
-          <strong>{channels.length}</strong>
-          <span>Активных каналов</span>
-        </div>
-      </article>
-      <article class="stats-box metric-card metric-card--featured">
-        <div class="metric-card__icon-wrap" aria-hidden="true">
-          <Icon name="ri:folder-line" class="metric-card__icon" />
-        </div>
-        <div class="metric-card__content">
-          <strong>{categories.length}</strong>
-          <span>Категорий</span>
-        </div>
-      </article>
-      <article class="stats-box metric-card metric-card--featured">
-        <div class="metric-card__icon-wrap" aria-hidden="true">
-          <Icon name="ri:eye-line" class="metric-card__icon" />
-        </div>
-        <div class="metric-card__content">
-          <strong>{postsWithViews.length}</strong>
-          <span>Постов с охватом</span>
-        </div>
-      </article>
-      <article class="stats-box metric-card metric-card--featured">
-        <div class="metric-card__icon-wrap" aria-hidden="true">
-          <Icon name="ri:group-line" class="metric-card__icon" />
-        </div>
-        <div class="metric-card__content">
-          <strong>{formatCompactNumberRu(averageViews)}</strong>
-          <span>Средний охват</span>
-        </div>
-      </article>
-      <article class="stats-box metric-card metric-card--featured">
-        <div class="metric-card__icon-wrap" aria-hidden="true">
-          <Icon name="ri:pulse-line" class="metric-card__icon" />
-        </div>
-        <div class="metric-card__content">
-          <strong>{formatPercentRu(averageEngagement, 1)}</strong>
-          <span>Средняя вовлечённость</span>
-        </div>
+      <article class="metric-card">
+        <strong>{formatPercentRu(averageEngagement, 1)}</strong><span>Средняя вовлечённость</span>
       </article>
     </div>
 
-    <section class="stats-section surface-card section-stack">
-      <h2>Посты по каналам</h2>
+    <section class="surface-card section-stack">
+      <h2 style="margin:0;font-size:1.02rem;">Посты по каналам</h2>
       {
         channels.map((item) => (
           <div class="stats-bar-row">
             <span class="stats-channel">
               {item.avatar && (
-                <img
-                  src={item.avatar}
-                  alt={item.title}
-                  class="stats-channel__avatar"
-                  loading="lazy"
-                  width="28"
-                  height="28"
-                />
+                <img src={item.avatar} alt={item.title} class="stats-avatar" loading="lazy" width="28" height="28" />
               )}
               <span>@{item.name}</span>
             </span>
@@ -155,8 +96,8 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
       }
     </section>
 
-    <section class="stats-section surface-card section-stack">
-      <h2>Посты по темам</h2>
+    <section class="surface-card section-stack">
+      <h2 style="margin:0;font-size:1.02rem;">Посты по темам</h2>
       {
         categories.map((item) => (
           <div class="stats-bar-row">
@@ -172,20 +113,13 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
 
     {
       channelsByViews.length > 0 && (
-        <section class="stats-section surface-card section-stack">
-          <h2>Средний охват по каналам</h2>
+        <section class="surface-card section-stack">
+          <h2 style="margin:0;font-size:1.02rem;">Средний охват по каналам</h2>
           {channelsByViews.map((item) => (
             <div class="stats-bar-row">
               <span class="stats-channel">
                 {item.avatar && (
-                  <img
-                    src={item.avatar}
-                    alt={item.title}
-                    class="stats-channel__avatar"
-                    loading="lazy"
-                    width="28"
-                    height="28"
-                  />
+                  <img src={item.avatar} alt={item.title} class="stats-avatar" loading="lazy" width="28" height="28" />
                 )}
                 <span>@{item.name}</span>
               </span>
@@ -204,20 +138,13 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
 
     {
       channelsByEngagement.length > 0 && (
-        <section class="stats-section surface-card section-stack">
-          <h2>Средняя вовлечённость по каналам</h2>
+        <section class="surface-card section-stack">
+          <h2 style="margin:0;font-size:1.02rem;">Средняя вовлечённость по каналам</h2>
           {channelsByEngagement.map((item) => (
             <div class="stats-bar-row">
               <span class="stats-channel">
                 {item.avatar && (
-                  <img
-                    src={item.avatar}
-                    alt={item.title}
-                    class="stats-channel__avatar"
-                    loading="lazy"
-                    width="28"
-                    height="28"
-                  />
+                  <img src={item.avatar} alt={item.title} class="stats-avatar" loading="lazy" width="28" height="28" />
                 )}
                 <span>@{item.name}</span>
               </span>
@@ -234,35 +161,13 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
       )
     }
 
-    <p class="text-dim stats-note">
+    <p class="text-dim" style="margin:0;font-size:0.84rem;line-height:1.55;">
       Всего зафиксировано {formatCompactNumberRu(totalKnownViews)} просмотров в постах, где Telegram Web Preview показал счётчик.
-      Подписчики из web preview пока не используются: этот счётчик оформлен как UI-метка и может меняться по локали и типу
-      страницы.
     </p>
   </div>
 </Layout>
 
 <style>
-  .stats-grid {
-    gap: 0.75rem;
-  }
-  .stats-box strong {
-    display: block;
-    font-size: 1.45rem;
-    color: var(--color-heading);
-  }
-  .stats-box span {
-    color: var(--color-muted);
-    font-size: 0.82rem;
-  }
-  .stats-section {
-    background: color-mix(in srgb, var(--color-surface) 92%, transparent);
-  }
-  .stats-section h2 {
-    margin: 0;
-    font-size: 1.02rem;
-    color: var(--color-heading);
-  }
   .stats-bar-row {
     display: grid;
     gap: 0.7rem;
@@ -283,23 +188,27 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
   }
   .stats-bar-track {
     height: 12px;
-    background: var(--color-line);
-    border-radius: 999px;
+    background: var(--color-line-light);
     overflow: hidden;
-    box-shadow: inset 0 1px 1px rgba(29, 17, 9, 0.05);
   }
   .stats-bar-fill {
     height: 100%;
     min-width: 4px;
+    background: var(--color-heading);
+  }
+  .stats-channel {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+  .stats-avatar {
+    width: 28px;
+    height: 28px;
     border-radius: 999px;
-    background: linear-gradient(90deg, var(--color-accent), color-mix(in srgb, var(--color-accent) 60%, #f3c2ad));
+    object-fit: cover;
+    border: 1px solid var(--color-line-light);
   }
-  .stats-note {
-    margin: 0;
-    font-size: 0.84rem;
-    line-height: 1.55;
-  }
-  @media (max-width: 720px) {
+  @media (max-width: 768px) {
     .stats-bar-row {
       grid-template-columns: 1fr;
       gap: 0.45rem;
@@ -307,23 +216,5 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
     .stats-bar-row strong {
       text-align: left;
     }
-    .stats-note {
-      margin-bottom: 0.8rem;
-    }
-  }
-  .stats-hero__text {
-    margin: 0;
-  }
-  .stats-channel {
-    display: flex;
-    align-items: center;
-    gap: 0.55rem;
-  }
-  .stats-channel__avatar {
-    width: 28px;
-    height: 28px;
-    border-radius: 999px;
-    object-fit: cover;
-    border: 1px solid var(--color-line);
   }
 </style>

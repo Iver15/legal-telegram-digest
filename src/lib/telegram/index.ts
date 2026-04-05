@@ -20,6 +20,8 @@ const CONTENT_URL_REGEX = /(url\(["'])((https?:)?\/\/)/g
 const CONTENT_BREAK_REGEX = /(?:<br\s*\/?>\s*){2,}/gi
 const CONTENT_LEADING_BREAK_REGEX = /^(?:<br\s*\/?>\s*)+/i
 const CONTENT_TRAILING_BREAK_REGEX = /(?:<br\s*\/?>\s*)+$/i
+const CONTENT_STYLE_MEDIA_REGEX = /url\((['"]?)([^)"']+)\1\)/gi
+const ABSOLUTE_ASSET_URL_REGEX = /^(?:\/\/|[a-z]+:\/\/)/i
 const EMPTY_PARAGRAPH_REGEX = /<p>(?:\s|&nbsp;|<br\s*\/?>)*<\/p>/gi
 const EMPTY_BLOCKQUOTE_REGEX = /<blockquote[^>]*>\s*<\/blockquote>/gi
 const WRAPPED_MEDIA_REGEX = /<p>\s*(<(?:figure|img|video|audio|blockquote|pre)[\s\S]*?)<\/p>/gi
@@ -197,6 +199,25 @@ function getRequestHeaders(request: Request): Record<string, string> {
   }
 
   return headers
+}
+
+function shouldPrefixStaticAssetUrl(value: string | undefined): value is string {
+  if (!value) {
+    return false
+  }
+
+  return !ABSOLUTE_ASSET_URL_REGEX.test(value)
+    && !value.startsWith('data:')
+    && !value.startsWith('#')
+}
+
+function prefixStaticAssetUrl(value: string | undefined, staticProxy: string): string | undefined {
+  if (!shouldPrefixStaticAssetUrl(value) || !staticProxy) {
+    return value
+  }
+
+  const normalizedPrefix = staticProxy.endsWith('/') ? staticProxy.slice(0, -1) : staticProxy
+  return value.startsWith('/') ? `${normalizedPrefix}${value}` : `${normalizedPrefix}/${value}`
 }
 
 async function hydrateTgEmoji($: CheerioAPI, content: MessageSelection, options: StaticProxyOptions = {}): Promise<void> {
@@ -395,6 +416,25 @@ async function modifyHTMLContent($: CheerioAPI, content: MessageSelection, optio
   for (const linkNode of content.find('a').toArray()) {
     const link = $(linkNode)
     link.attr('title', link.text()).removeAttr('onclick')
+  }
+
+  for (const assetNode of content.find('img, video, audio, source').toArray()) {
+    const asset = $(assetNode)
+
+    for (const attribute of ['src', 'poster'] as const) {
+      const value = prefixStaticAssetUrl(asset.attr(attribute), staticProxy)
+      if (value) {
+        asset.attr(attribute, value)
+      }
+    }
+
+    const style = asset.attr('style')
+    if (style?.includes('url(')) {
+      asset.attr('style', style.replace(CONTENT_STYLE_MEDIA_REGEX, (_match, quote: '"' | '\'' | '', url: string) => {
+        const prefixedUrl = prefixStaticAssetUrl(url, staticProxy) ?? url
+        return `url(${quote}${prefixedUrl}${quote})`
+      }))
+    }
   }
 
   for (const [blockquoteIndex, blockquoteNode] of content.find('blockquote[expandable]').toArray().entries()) {

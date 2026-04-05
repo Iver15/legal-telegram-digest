@@ -19,7 +19,7 @@ export const GET: APIRoute = async (context) => {
     description: channel.description,
     home_page_url: requestUrl.toString(),
     items: posts.map(item => ({
-      url: `${requestUrl.toString()}posts/${item.id}`,
+      url: `${requestUrl.toString()}posts/${item.id}/`,
       title: item.title,
       date_published: new Date(item.datetime),
       tags: item.tags,

@@ -21,7 +21,7 @@ export const GET: APIRoute = async (context) => {
     site: requestUrl.origin,
     trailingSlash: false,
     items: posts.map(item => ({
-      link: `posts/${item.id}`,
+      link: `posts/${item.id}/`,
       title: item.title,
       pubDate: new Date(item.datetime),
       content: sanitizeHtml(item.content, {

@@ -20,106 +20,81 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
 ---
 
 <Layout channel={channel}>
-  <div class="page-stack">
-    <section class="page-hero lite-hero">
-      <div class="page-hero__header">
-        <div class="page-hero__copy">
-          <p class="page-hero__eyebrow">Быстрое чтение</p>
-          <h1 class="page-hero__title">Компактный режим</h1>
-          <p class="page-hero__description">Плотный режим для быстрого чтения с телефона и слабого интернета.</p>
-        </div>
-        <div class="page-hero__nav">
-          <a href={SITE_URL} class="nav-pill">Лента</a>
-          <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
-          <a href={`${SITE_URL}hot/`} class="nav-pill">Главное</a>
-        </div>
-      </div>
-
-      <div class="lite-filter-row">
-        <button class="filter-btn active" data-period="all" onclick="filterPeriod('all')">Все</button>
-        <button class="filter-btn" data-period="24h" onclick="filterPeriod('24h')">24ч</button>
-        <button class="filter-btn" data-period="3d" onclick="filterPeriod('3d')">3д</button>
-        <button class="filter-btn" data-period="7d" onclick="filterPeriod('7d')">7д</button>
-      </div>
-
-      <div class="lite-filter-row">
-        <button class="channel-btn active" data-channel="all" onclick="filterChannel('all')">Все каналы</button>
-        {
-          channels.slice(0, 8).map((item) => (
-            <button class="channel-btn" data-channel={item.name} onclick={`filterChannel('${item.name}')`}>
-              @{item.name}
-            </button>
-          ))
-        }
-      </div>
-
-      <div class="lite-filter-row">
-        <button class="topic-btn active" data-topic="all" onclick="filterTopic('all')">Все темы</button>
-        {
-          categories.slice(0, 8).map((item) => (
-            <button class="topic-btn" data-topic={item.id} onclick={`filterTopic('${item.id}')`}>
-              {item.label}
-            </button>
-          ))
-        }
-      </div>
-
+  <!-- COMMAND BAR for lite mode -->
+  <div slot="command-bar" class="command-bar">
+    <div class="cmd-row">
+      <span class="cmd-label">Период:</span>
+      <button class="filter-btn active" data-period="all" onclick="filterPeriod('all')">Все</button>
+      <button class="filter-btn" data-period="24h" onclick="filterPeriod('24h')">24ч</button>
+      <button class="filter-btn" data-period="3d" onclick="filterPeriod('3d')">3д</button>
+      <button class="filter-btn" data-period="7d" onclick="filterPeriod('7d')">7д</button>
+    </div>
+    <div class="cmd-row">
+      <span class="cmd-label">Канал:</span>
+      <button class="channel-btn active" data-channel="all" onclick="filterChannel('all')">Все</button>
+      {
+        channels.slice(0, 8).map((item) => (
+          <button class="channel-btn" data-channel={item.name} onclick={`filterChannel('${item.name}')`}>
+            @{item.name}
+          </button>
+        ))
+      }
+    </div>
+    <div class="cmd-row">
+      <span class="cmd-label">Тема:</span>
+      <button class="topic-btn active" data-topic="all" onclick="filterTopic('all')">Все</button>
+      {
+        categories.slice(0, 8).map((item) => (
+          <button class="topic-btn" data-topic={item.id} onclick={`filterTopic('${item.id}')`}>
+            {item.label}
+          </button>
+        ))
+      }
       <input
         id="digest-search"
         type="search"
-        placeholder="Поиск по теме, каналу или ключевому слову"
+        class="cmd-search"
+        placeholder="ПОИСК..."
         oninput="filterSearch(this.value)"
-        class="search-input lite-search-input"
+        style="width:160px;"
       />
-    </section>
-
-    <div id="posts-list" class="lite-list">
-      {
-        allPosts.map((post) => {
-          const preview = post.text?.slice(0, 170) || ''
-          const dt = dayjs(post.datetime)
-          const timeago = dt.isBefore(dayjs().subtract(3, 'd')) ? dt.format('DD.MM') : dt.fromNow()
-          const reactionCount = post.reactionCount || 0
-          return (
-            <a
-              href={`${SITE_URL}posts/${post.id}`}
-              class="digest-post lite-item divider"
-              data-channel={post.channel || ''}
-              data-datetime={post.datetime}
-              data-text={`${post.text?.toLowerCase().slice(0, 500) || ''} ${(post.tags || []).join(' ').toLowerCase()}`}
-              data-topic={(post.legalTopics || []).join(' ')}
-            >
-              <span class="lite-item__meta text-dim">
-                @{post.channel} · {post.category || 'общее'} · {timeago}
-                {reactionCount ? ` · ${reactionCount} реакц.` : ''}
-              </span>
-              <span class="lite-item__text text-body">
-                {preview}
-                {preview.length >= 170 ? '…' : ''}
-              </span>
-            </a>
-          )
-        })
-      }
     </div>
-
-    <p id="no-results" class="lite-empty text-dim">По текущим фильтрам ничего не найдено.</p>
   </div>
+
+  <div id="posts-list" class="lite-list">
+    {
+      allPosts.map((post) => {
+        const preview = post.text?.slice(0, 170) || ''
+        const dt = dayjs(post.datetime)
+        const timeago = dt.isBefore(dayjs().subtract(3, 'd')) ? dt.format('DD.MM') : dt.fromNow()
+        const reactionCount = post.reactionCount || 0
+        return (
+          <a
+            href={`${SITE_URL}posts/${post.id}/`}
+            class="digest-post lite-item"
+            data-channel={post.channel || ''}
+            data-datetime={post.datetime}
+            data-text={`${post.text?.toLowerCase().slice(0, 500) || ''} ${(post.tags || []).join(' ').toLowerCase()}`}
+            data-topic={(post.legalTopics || []).join(' ')}
+          >
+            <span class="text-dim" style="font-size:0.72rem;line-height:1.45;">
+              @{post.channel} · {post.category || 'общее'} · {timeago}
+              {reactionCount ? ` · ${reactionCount} реакц.` : ''}
+            </span>
+            <span class="text-body" style="display:block;">
+              {preview}
+              {preview.length >= 170 ? '…' : ''}
+            </span>
+          </a>
+        )
+      })
+    }
+  </div>
+
+  <p id="no-results" class="feed-empty">По текущим фильтрам ничего не найдено.</p>
 </Layout>
 
-<style is:global>
-  .lite-hero {
-    gap: var(--panel-gap);
-  }
-  .lite-filter-row {
-    display: flex;
-    gap: 0.42rem;
-    flex-wrap: wrap;
-  }
-  .lite-search-input {
-    font-size: 0.82rem;
-    padding: 0.56rem 0.82rem;
-  }
+<style>
   .lite-list {
     font-size: 0.85rem;
     line-height: 1.58;
@@ -128,41 +103,13 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     display: grid;
     gap: 0.26rem;
     padding: 0.8rem 0;
+    border-bottom: 1px solid var(--color-line-light);
     text-decoration: none;
     color: inherit;
   }
-  .lite-item__meta {
-    font-size: 0.72rem;
-    line-height: 1.45;
-  }
-  .lite-item__text {
-    display: block;
-  }
-  .lite-empty {
-    display: none;
-    text-align: center;
-    padding: 1.25rem 0 0.5rem;
-    font-size: 0.82rem;
-  }
-  .filter-btn,
-  .channel-btn,
-  .topic-btn {
-    min-height: 1.9rem;
-    padding: 0.26rem 0.62rem;
-    border: 1px solid var(--color-line);
-    border-radius: 999px;
-    background: var(--color-surface);
-    color: var(--color-heading);
-    font-size: 0.72rem;
-    font-weight: 700;
-    cursor: pointer;
-  }
-  .filter-btn.active,
-  .channel-btn.active,
-  .topic-btn.active {
-    background: var(--color-accent);
-    color: #fff;
-    border-color: var(--color-accent);
+  .lite-item:hover {
+    background: var(--color-chip);
+    text-decoration: none;
   }
 </style>
 

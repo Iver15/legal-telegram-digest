@@ -1,7 +1,6 @@
 ---
 import Layout from '../layouts/base.astro'
 import Item from '../components/item.astro'
-import { Icon } from 'astro-icon/components'
 import { getChannelData, getDigestTitle, getTopPosts } from '../lib/data'
 import { formatCompactNumberRu, formatPercentRu } from '../lib/metrics'
 
@@ -27,16 +26,12 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
 
 <Layout channel={channel}>
   <div class="page-stack">
-    <section class="page-hero hero-card--index" style="position:relative;overflow:hidden;">
-      <div class="hero-card__accent-glow" aria-hidden="true"></div>
+    <section class="page-hero">
       <div class="page-hero__header">
         <div class="page-hero__copy">
-          <p class="page-hero__eyebrow"><span aria-hidden="true">&#128293;</span> Рейтинг ленты</p>
+          <p class="page-hero__eyebrow">Рейтинг ленты</p>
           <h1 class="page-hero__title">Главное в ленте</h1>
-          <p class="page-hero__description">
-            Сначала юридический приоритет и свежесть, затем охват и отдача реакции там, где Telegram Web показывает
-            просмотры.
-          </p>
+          <p class="page-hero__description">Сначала юридический приоритет и свежесть, затем охват и отдача реакции.</p>
         </div>
         <div class="page-hero__nav">
           <a href={SITE_URL} class="nav-pill">Лента</a>
@@ -46,47 +41,27 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
         </div>
       </div>
 
-      <div class="hot-summary metric-grid">
-        <article class="metric-card metric-card--featured">
-          <div class="metric-card__icon-wrap" aria-hidden="true">
-            <Icon name="ri:trophy-line" class="metric-card__icon" />
-          </div>
-          <div class="metric-card__content">
-            <strong>{hotPosts.length}</strong>
-            <span>постов в рейтинге</span>
-          </div>
+      <div class="metric-grid">
+        <article class="metric-card">
+          <strong>{hotPosts.length}</strong>
+          <span>постов в рейтинге</span>
         </article>
-        <article class="metric-card metric-card--featured">
-          <div class="metric-card__icon-wrap" aria-hidden="true">
-            <Icon name="ri:eye-line" class="metric-card__icon" />
-          </div>
-          <div class="metric-card__content">
-            <strong>{postsWithViews.length}</strong>
-            <span>с известным охватом</span>
-          </div>
+        <article class="metric-card">
+          <strong>{postsWithViews.length}</strong>
+          <span>с известным охватом</span>
         </article>
-        <article class="metric-card metric-card--featured">
-          <div class="metric-card__icon-wrap" aria-hidden="true">
-            <Icon name="ri:group-line" class="metric-card__icon" />
-          </div>
-          <div class="metric-card__content">
-            <strong>{formatCompactNumberRu(averageViews)}</strong>
-            <span>средний охват</span>
-          </div>
+        <article class="metric-card">
+          <strong>{formatCompactNumberRu(averageViews)}</strong>
+          <span>средний охват</span>
         </article>
-        <article class="metric-card metric-card--featured">
-          <div class="metric-card__icon-wrap" aria-hidden="true">
-            <Icon name="ri:pulse-line" class="metric-card__icon" />
-          </div>
-          <div class="metric-card__content">
-            <strong>{formatPercentRu(averageEngagement, 1)}</strong>
-            <span>средняя вовлечённость</span>
-          </div>
+        <article class="metric-card">
+          <strong>{formatPercentRu(averageEngagement, 1)}</strong>
+          <span>средняя вовлечённость</span>
         </article>
       </div>
     </section>
 
-    <ol class="hot-list" aria-label="Главные посты">
+    <ol class="feed-list" aria-label="Главные посты">
       {
         hotPosts.map((post) => (
           <li>
@@ -97,13 +72,3 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     </ol>
   </div>
 </Layout>
-
-<style>
-  .hot-list {
-    margin: 0;
-    display: grid;
-    gap: 0.85rem;
-    list-style: none;
-    padding: 0;
-  }
-</style>

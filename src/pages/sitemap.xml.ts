@@ -7,7 +7,7 @@ export const GET: APIRoute = async (Astro) => {
 
   const xmlUrls = posts.map(post => `
     <url>
-      <loc>${url.origin}/posts/${post.id}</loc>
+      <loc>${url.origin}/posts/${post.id}/</loc>
       <lastmod>${new Date(post.datetime).toISOString()}</lastmod>
     </url>
   `).join('')

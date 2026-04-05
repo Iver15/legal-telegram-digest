@@ -5,6 +5,7 @@ import List from '../../components/list.astro'
 import { getAllPostIds, getChannelData, getPost } from '../../lib/data'
 import { formatCompactNumberRu, formatPercentRu } from '../../lib/metrics'
 import dayjs from '../../lib/dayjs'
+import { getPostDisplayTitle } from '../../lib/ui'
 
 export const getStaticPaths: GetStaticPaths = () => {
   return getAllPostIds().map((id) => ({ params: { id } }))
@@ -18,10 +19,15 @@ if (!post) {
   return Astro.redirect('/')
 }
 
+const displayTitle = getPostDisplayTitle(post, channelInfo?.title || 'Пост')
+
 const channel = {
   ...(channelInfo || {}),
   posts: [post],
-  seo: post,
+  seo: {
+    ...post,
+    title: displayTitle,
+  },
 }
 
 const SITE_URL = import.meta.env.BASE_URL ?? '/'
@@ -54,25 +60,19 @@ const postNumericId = post.id.includes('/') ? post.id.split('/').pop() : post.id
 const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
 ---
 
-<List channel={channel} before={false} after={false} isItem={true} pageHeading={post.title || channel.title}>
+<List channel={channel} before={false} after={false} isItem={true} pageHeading={displayTitle}>
   <section slot="header" class="post-detail-header">
-    <nav class="post-detail-nav" aria-label="Навигация">
+    <nav class="post-detail-nav">
       <a href={SITE_URL} class="post-detail-back">
-        <Icon name="ri:arrow-left-line" class="post-detail-back__icon" />
+        <Icon name="ri:arrow-left-line" style="width:1rem;height:1rem;" />
         Назад к ленте
       </a>
-      <div class="post-detail-nav__actions">
-        <button class="post-detail-share-btn" title="Скопировать ссылку" onclick="copyPostLink(this)">
-          <Icon name="ri:link" class="post-detail-share-btn__icon" />
+      <div class="post-detail-actions">
+        <button class="post-detail-share" title="Скопировать ссылку" onclick="copyPostLink(this)">
+          <Icon name="ri:link" style="width:1rem;height:1rem;" />
         </button>
-        <a
-          href={tgLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="post-detail-tg-link"
-          title="Открыть в Telegram"
-        >
-          <Icon name="ri:telegram-line" class="post-detail-tg-link__icon" />
+        <a href={tgLink} target="_blank" rel="noopener noreferrer" class="post-detail-tg">
+          <Icon name="ri:telegram-line" style="width:0.95rem;height:0.95rem;" />
           Telegram
         </a>
       </div>
@@ -84,16 +84,22 @@ const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
           <img
             src={channelAvatar}
             alt={post.channelTitle || tgChannel}
-            class="post-detail-channel__avatar"
+            class="post-detail-avatar"
             loading="lazy"
             width="44"
             height="44"
           />
         )
       }
-      <div class="post-detail-channel__info">
-        <strong class="post-detail-channel__title">{post.channelTitle || 'Канал'}</strong>
-        {tgChannel && <span class="post-detail-channel__handle">@{tgChannel}</span>}
+      <div>
+        <strong style="color:var(--color-heading);font-size:0.96rem;">{post.channelTitle || 'Канал'}</strong>
+        {
+          tgChannel && (
+            <span class="text-dim" style="font-size:0.82rem;margin-left:0.4rem;">
+              @{tgChannel}
+            </span>
+          )
+        }
       </div>
       {
         post.category && (
@@ -104,17 +110,21 @@ const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
       }
     </div>
 
-    <h1 class="post-detail-title">
-      {post.title || channel.title}
-    </h1>
+    <h1 class="post-detail-title">{displayTitle}</h1>
 
     <div class="post-detail-meta">
-      {post.datetime && <span class="post-detail-date">{formattedDate}</span>}
-      <span class="post-detail-date">· {readingMinutes} мин чтения</span>
+      {
+        post.datetime && (
+          <span class="text-dim" style="font-size:0.85rem;">
+            {formattedDate}
+          </span>
+        )
+      }
+      <span class="text-dim" style="font-size:0.85rem;">· {readingMinutes} мин чтения</span>
       {
         legalTopics.length > 0 &&
           legalTopics.slice(0, 4).map((topic) => (
-            <a href={`${SITE_URL}search/%23${topic}`} class="badge hover:no-underline">
+            <a href={`${SITE_URL}search/%23${topic}/`} class="badge">
               #{topic}
             </a>
           ))
@@ -160,21 +170,26 @@ const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
     }
   </section>
 
-  <div slot="footer" class="post-detail-footer-wrap">
+  <div slot="footer">
     <a href={tgLink} target="_blank" rel="noopener noreferrer" class="post-detail-cta">
-      <Icon name="ri:telegram-line" class="post-detail-cta__icon" />
-      <span class="post-detail-cta__text">Читать оригинал в Telegram</span>
-      <Icon name="ri:external-link-line" class="post-detail-cta__external" />
+      <Icon name="ri:telegram-line" style="width:1.25rem;height:1.25rem;" />
+      Читать оригинал в Telegram
+      <Icon name="ri:external-link-line" style="width:0.85rem;height:0.85rem;opacity:0.6;" />
     </a>
 
-    <nav class="post-detail-pager" aria-label="Навигация между постами">
+    <nav class="post-detail-pager">
       {
         prevPost ? (
-          <a href={`${SITE_URL}posts/${prevId}`} class="post-detail-pager__link post-detail-pager__link--prev">
-            <Icon name="ri:arrow-left-s-line" class="post-detail-pager__arrow" />
-            <div class="post-detail-pager__text">
-              <span class="post-detail-pager__label">Новее</span>
-              <span class="post-detail-pager__title">{prevPost.title || prevPost.channelTitle || prevId}</span>
+          <a href={`${SITE_URL}posts/${prevId}/`} class="post-detail-pager-link">
+            <Icon
+              name="ri:arrow-left-s-line"
+              style="width:1.25rem;height:1.25rem;color:var(--color-muted);flex-shrink:0;"
+            />
+            <div>
+              <span class="post-detail-pager-label">Новее</span>
+              <span class="post-detail-pager-title">
+                {getPostDisplayTitle(prevPost, prevPost.channelTitle || prevId || 'Пост')}
+              </span>
             </div>
           </a>
         ) : (
@@ -183,12 +198,21 @@ const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
       }
       {
         nextPost ? (
-          <a href={`${SITE_URL}posts/${nextId}`} class="post-detail-pager__link post-detail-pager__link--next">
-            <div class="post-detail-pager__text" style="text-align:right">
-              <span class="post-detail-pager__label">Старше</span>
-              <span class="post-detail-pager__title">{nextPost.title || nextPost.channelTitle || nextId}</span>
+          <a
+            href={`${SITE_URL}posts/${nextId}/`}
+            class="post-detail-pager-link"
+            style="text-align:right;justify-content:flex-end;"
+          >
+            <div>
+              <span class="post-detail-pager-label">Старше</span>
+              <span class="post-detail-pager-title">
+                {getPostDisplayTitle(nextPost, nextPost.channelTitle || nextId || 'Пост')}
+              </span>
             </div>
-            <Icon name="ri:arrow-right-s-line" class="post-detail-pager__arrow" />
+            <Icon
+              name="ri:arrow-right-s-line"
+              style="width:1.25rem;height:1.25rem;color:var(--color-muted);flex-shrink:0;"
+            />
           </a>
         ) : (
           <span />
@@ -201,9 +225,8 @@ const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
 <div
   class="reading-progress"
   id="reading-progress"
-  aria-hidden="true"
-  data-prev={prevId ? `${SITE_URL}posts/${prevId}` : ''}
-  data-next={nextId ? `${SITE_URL}posts/${nextId}` : ''}
+  data-prev={prevId ? `${SITE_URL}posts/${prevId}/` : ''}
+  data-next={nextId ? `${SITE_URL}posts/${nextId}/` : ''}
 >
 </div>
 <div class="copy-toast" id="copy-toast">Ссылка скопирована</div>
@@ -232,7 +255,6 @@ const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
       }
     })
   }
-  // Keyboard navigation: k = newer, j = older
   document.addEventListener('keydown', function (e) {
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return
     var el = document.getElementById('reading-progress')
@@ -249,24 +271,21 @@ const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
     left: 0;
     width: 0;
     height: 3px;
-    background: linear-gradient(90deg, var(--color-accent), var(--color-accent-strong));
+    background: var(--color-accent);
     z-index: 1300;
     transition: width 80ms linear;
     pointer-events: none;
   }
-
   .copy-toast {
     position: fixed;
     bottom: 6rem;
     left: 50%;
     transform: translateX(-50%) translateY(1rem);
     padding: 0.6rem 1.1rem;
-    border-radius: 12px;
     background: var(--color-heading);
     color: var(--color-paper);
     font-size: 0.85rem;
     font-weight: 600;
-    box-shadow: var(--shadow-soft);
     opacity: 0;
     pointer-events: none;
     transition:
@@ -274,37 +293,9 @@ const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
       transform 200ms ease;
     z-index: 1300;
   }
-
   .copy-toast--visible {
     opacity: 1;
     transform: translateX(-50%) translateY(0);
-  }
-
-  .post-detail-share-btn {
-    appearance: none;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 2.1rem;
-    height: 2.1rem;
-    border: 1px solid var(--color-line);
-    border-radius: 10px;
-    background: color-mix(in srgb, var(--color-surface) 90%, transparent);
-    color: var(--color-muted);
-    cursor: pointer;
-    transition: all 160ms ease;
-    padding: 0;
-  }
-
-  .post-detail-share-btn:hover {
-    background: var(--color-chip-strong);
-    color: var(--color-accent);
-    border-color: color-mix(in srgb, var(--color-accent) 20%, var(--color-line));
-  }
-
-  .post-detail-share-btn__icon {
-    width: 1rem;
-    height: 1rem;
   }
 
   .post-detail-header {
@@ -313,13 +304,8 @@ const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
     margin-bottom: 1.25rem;
     padding: clamp(1rem, 0.7vw + 0.84rem, 1.4rem);
     border: 1px solid var(--color-line);
-    border-radius: 24px;
-    background:
-      radial-gradient(ellipse 50% 40% at 5% 0%, rgba(143, 59, 38, 0.08), transparent),
-      linear-gradient(160deg, var(--color-surface), color-mix(in srgb, var(--color-surface) 80%, var(--color-paper)));
-    box-shadow: var(--shadow-soft);
+    background: var(--color-surface);
   }
-
   .post-detail-nav {
     display: flex;
     align-items: center;
@@ -327,7 +313,6 @@ const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
     gap: 0.75rem;
     flex-wrap: wrap;
   }
-
   .post-detail-back {
     display: inline-flex;
     align-items: center;
@@ -336,116 +321,80 @@ const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
     font-weight: 600;
     color: var(--color-muted);
     text-decoration: none;
-    transition: color 150ms ease;
   }
-
   .post-detail-back:hover {
     color: var(--color-accent);
     text-decoration: none;
   }
-
-  .post-detail-back__icon {
-    width: 1rem;
-    height: 1rem;
+  .post-detail-actions {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
   }
-
-  .post-detail-tg-link {
+  .post-detail-share {
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    border: 1px solid var(--color-line);
+    background: transparent;
+    color: var(--color-muted);
+    cursor: pointer;
+    padding: 0;
+  }
+  .post-detail-share:hover {
+    background: var(--color-chip);
+    color: var(--color-accent);
+  }
+  .post-detail-tg {
     display: inline-flex;
     align-items: center;
     gap: 0.35rem;
     padding: 0.38rem 0.72rem;
-    border: 1px solid color-mix(in srgb, var(--color-accent) 20%, var(--color-line));
-    border-radius: 999px;
-    background: color-mix(in srgb, var(--color-accent) 8%, var(--color-surface));
+    border: 1px solid var(--color-line);
+    background: transparent;
     color: var(--color-accent);
     font-size: 0.82rem;
     font-weight: 700;
     text-decoration: none;
-    transition: all 180ms ease;
   }
-
-  .post-detail-tg-link:hover {
-    background: color-mix(in srgb, var(--color-accent) 16%, var(--color-surface));
-    transform: translateY(-1px);
+  .post-detail-tg:hover {
+    background: var(--color-chip);
     text-decoration: none;
-    color: var(--color-accent-strong);
   }
-
-  .post-detail-tg-link__icon {
-    width: 0.95rem;
-    height: 0.95rem;
-  }
-
   .post-detail-channel {
     display: flex;
     align-items: center;
     gap: 0.65rem;
     flex-wrap: wrap;
   }
-
-  .post-detail-channel__avatar {
+  .post-detail-avatar {
     width: 2.75rem;
     height: 2.75rem;
     border-radius: 999px;
     object-fit: cover;
     border: 1px solid var(--color-line);
-    box-shadow: var(--shadow-soft);
     flex-shrink: 0;
   }
-
-  .post-detail-channel__info {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 0.3rem 0.45rem;
-    min-width: 0;
-    flex: 1;
-  }
-
-  .post-detail-channel__title {
-    color: var(--color-heading);
-    font-size: 0.96rem;
-    font-weight: 700;
-  }
-
-  .post-detail-channel__handle {
-    color: var(--color-muted);
-    font-size: 0.82rem;
-    font-weight: 600;
-  }
-
   .post-detail-title {
     margin: 0;
     font-family: var(--font-display);
     font-size: clamp(1.55rem, 2.5vw + 0.5rem, 2.3rem);
     line-height: 1.08;
     color: var(--color-heading);
-    text-wrap: balance;
   }
-
   .post-detail-meta {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 0.45rem;
   }
-
-  .post-detail-date {
-    color: var(--color-muted);
-    font-size: 0.85rem;
-    font-weight: 500;
-    margin-right: 0.2rem;
-  }
-
   .post-detail-signals {
     display: flex;
     flex-wrap: wrap;
     gap: 0.55rem;
-  }
-
-  .post-detail-footer-wrap {
-    display: grid;
-    gap: 0;
   }
 
   .post-detail-cta {
@@ -455,60 +404,18 @@ const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
     gap: 0.6rem;
     margin-top: 1.5rem;
     padding: 0.85rem 1.2rem;
-    border: 1px solid color-mix(in srgb, var(--color-accent) 25%, var(--color-line));
-    border-radius: 18px;
-    background: linear-gradient(
-      135deg,
-      color-mix(in srgb, var(--color-accent) 8%, var(--color-surface)),
-      color-mix(in srgb, var(--color-accent) 4%, var(--color-surface))
-    );
+    border: 1px solid var(--color-line);
+    background: var(--color-surface);
     color: var(--color-accent);
     font-size: 0.95rem;
     font-weight: 700;
     text-decoration: none;
-    transition: all 200ms ease;
-    box-shadow: var(--shadow-soft);
   }
-
   .post-detail-cta:hover {
     background: var(--color-accent);
     border-color: var(--color-accent);
     color: #fff;
-    transform: translateY(-2px);
     text-decoration: none;
-    box-shadow:
-      var(--shadow-soft),
-      0 6px 20px rgba(143, 59, 38, 0.15);
-  }
-
-  .post-detail-cta:hover .post-detail-cta__icon,
-  .post-detail-cta:hover .post-detail-cta__external {
-    color: #fff;
-  }
-
-  .post-detail-cta__icon {
-    width: 1.25rem;
-    height: 1.25rem;
-    color: var(--color-accent);
-    transition: color 200ms ease;
-  }
-
-  .post-detail-cta__text {
-    line-height: 1;
-  }
-
-  .post-detail-cta__external {
-    width: 0.85rem;
-    height: 0.85rem;
-    color: var(--color-muted);
-    opacity: 0.6;
-    transition:
-      color 200ms ease,
-      opacity 200ms ease;
-  }
-
-  .post-detail-cta:hover .post-detail-cta__external {
-    opacity: 1;
   }
 
   .post-detail-pager {
@@ -518,57 +425,31 @@ const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
     margin-top: 1rem;
     margin-bottom: 0.5rem;
   }
-
-  .post-detail-pager__link {
+  .post-detail-pager-link {
     display: flex;
     align-items: center;
     gap: 0.65rem;
     padding: 0.85rem 1rem;
     border: 1px solid var(--color-line);
-    border-radius: 18px;
-    background: color-mix(in srgb, var(--color-surface) 95%, transparent);
+    background: var(--color-surface);
     color: inherit;
     text-decoration: none;
-    transition: all 180ms ease;
-    box-shadow: var(--shadow-soft);
     min-width: 0;
   }
-
-  .post-detail-pager__link:hover {
-    transform: translateY(-2px);
-    border-color: color-mix(in srgb, var(--color-accent) 22%, var(--color-line));
+  .post-detail-pager-link:hover {
+    border-color: var(--color-accent);
     text-decoration: none;
-    box-shadow:
-      var(--shadow-soft),
-      0 4px 12px rgba(143, 59, 38, 0.06);
   }
-
-  .post-detail-pager__link--next {
-    justify-content: flex-end;
-  }
-
-  .post-detail-pager__arrow {
-    width: 1.25rem;
-    height: 1.25rem;
-    color: var(--color-muted);
-    flex-shrink: 0;
-  }
-
-  .post-detail-pager__text {
-    display: grid;
-    gap: 0.15rem;
-    min-width: 0;
-  }
-
-  .post-detail-pager__label {
+  .post-detail-pager-label {
+    font-family: var(--font-mono);
     font-size: 0.72rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--color-accent);
+    display: block;
   }
-
-  .post-detail-pager__title {
+  .post-detail-pager-title {
     font-size: 0.88rem;
     font-weight: 600;
     color: var(--color-heading);
@@ -579,110 +460,41 @@ const tgLink = `https://t.me/${tgChannel}/${postNumericId}`
     overflow: hidden;
   }
 
-  @media (max-width: 720px) {
+  @media (max-width: 768px) {
     .post-detail-header {
       padding: 0.85rem;
-      border-radius: 16px;
       gap: 0.65rem;
     }
-
-    .post-detail-nav {
-      gap: 0.5rem;
-    }
-
-    .post-detail-back {
-      font-size: 0.82rem;
-    }
-
-    .post-detail-tg-link {
-      font-size: 0.75rem;
-      padding: 0.3rem 0.6rem;
-    }
-
-    .post-detail-channel__avatar {
-      width: 2.25rem;
-      height: 2.25rem;
-    }
-
-    .post-detail-channel__title {
-      font-size: 0.88rem;
-    }
-
     .post-detail-title {
       font-size: clamp(1.15rem, 4.5vw, 1.6rem);
       line-height: 1.15;
     }
-
-    .post-detail-meta {
-      gap: 0.35rem;
+    .post-detail-avatar {
+      width: 2.25rem;
+      height: 2.25rem;
     }
-
-    .post-detail-date {
-      font-size: 0.78rem;
-    }
-
     .post-detail-cta {
       padding: 0.72rem 1rem;
       font-size: 0.88rem;
-      border-radius: 14px;
     }
-
-    .post-detail-cta__icon {
-      width: 1.1rem;
-      height: 1.1rem;
-    }
-
     .post-detail-pager {
       grid-template-columns: 1fr;
       gap: 0.5rem;
     }
-
-    .post-detail-pager__link {
+    .post-detail-pager-link {
       padding: 0.7rem 0.85rem;
-      border-radius: 14px;
     }
-
-    .post-detail-pager__link--next {
-      justify-content: flex-start;
-      flex-direction: row-reverse;
-    }
-
-    .post-detail-pager__link--next .post-detail-pager__text {
-      text-align: left !important;
-    }
-
-    .post-detail-pager__title {
-      font-size: 0.82rem;
+    .post-detail-pager-title {
       -webkit-line-clamp: 1;
+      font-size: 0.82rem;
     }
-
     .reading-progress {
       height: 2px;
     }
-
     .copy-toast {
       bottom: 7rem;
       font-size: 0.8rem;
       padding: 0.5rem 0.9rem;
-    }
-
-    .post-detail-share-btn {
-      width: 1.9rem;
-      height: 1.9rem;
-    }
-  }
-
-  @media (max-width: 400px) {
-    .post-detail-header {
-      padding: 0.7rem;
-    }
-
-    .post-detail-title {
-      font-size: 1.1rem;
-    }
-
-    .post-detail-nav__actions {
-      gap: 0.3rem;
     }
   }
 </style>
