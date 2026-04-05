@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-05T16:58:02.463Z",
-  "totalPosts": 305,
+  "generatedAt": "2026-04-05T17:26:11.152Z",
+  "totalPosts": 307,
   "topPosts": [
     {
       "id": "probankrotstvoru/9528",
@@ -37,7 +37,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 953,
+      "viewCount": 956,
       "tgLink": "https://t.me/probankrotstvoru/9528",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -52,17 +52,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 36.8,
+      "priorityScore": 36.74,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 953 просмотров"
+        "Охват в Telegram Web: 956 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеКоллизия в законодательстве о банкротстве: разрешить ее может только Верховный СудРеальная проблема заключается не в теорети",
       "reactionCount": 7,
-      "engagementRate": 0.007345225603357817
+      "engagementRate": 0.007322175732217573
     },
     {
       "id": "probankrotstvoru/9499",
@@ -238,7 +238,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 988,
+      "viewCount": 989,
       "tgLink": "https://t.me/probankrotstvoru/9523",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -259,12 +259,12 @@
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 988 просмотров",
+        "Охват в Telegram Web: 989 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: пропуск срока на исполнение не лишает права на субсидиарный искОбщество «Терра» не исполнило обязательства по госконтракту перед ФТС России и в 2017 году суд взыскал с общества 291,7 тыс. рублей неустойки. Испо",
       "reactionCount": 15,
-      "engagementRate": 0.015182186234817813
+      "engagementRate": 0.015166835187057633
     },
     {
       "id": "BankruptcyClub/991",
@@ -411,7 +411,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2800,
+      "viewCount": 2810,
       "tgLink": "https://t.me/legally_bald/1131",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -431,11 +431,11 @@
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 2800 просмотров"
+        "Охват в Telegram Web: 2810 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 8,
-      "engagementRate": 0.002857142857142857
+      "engagementRate": 0.0028469750889679717
     },
     {
       "id": "probankrotstvoru/9496",
@@ -730,22 +730,22 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 256
+      "count": 258
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 243
+      "count": 245
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 234
+      "count": 236
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 220
+      "count": 222
     },
     {
       "id": "enforcement",
@@ -755,7 +755,7 @@
     {
       "id": "tax",
       "label": "Налоги",
-      "count": 58
+      "count": 59
     },
     {
       "id": "compliance",
@@ -777,7 +777,7 @@
     {
       "channel": "vZone1413",
       "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 17
+      "count": 19
     },
     {
       "channel": "corplawpro",
