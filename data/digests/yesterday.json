@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-05T21:27:48.478Z",
+  "generatedAt": "2026-04-05T21:56:40.727Z",
   "totalPosts": 21,
   "topPosts": [
     {
@@ -37,7 +37,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 985,
+      "viewCount": 987,
       "tgLink": "https://t.me/probankrotstvoru/9528",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -52,17 +52,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 36.21,
+      "priorityScore": 36.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 985 просмотров"
+        "Охват в Telegram Web: 987 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеКоллизия в законодательстве о банкротстве: разрешить ее может только Верховный СудРеальная проблема заключается не в теорети",
       "reactionCount": 7,
-      "engagementRate": 0.007106598984771574
+      "engagementRate": 0.0070921985815602835
     },
     {
       "id": "subsidiarka_kdl/4427",
@@ -98,7 +98,7 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 22.33,
+      "priorityScore": 22.27,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -157,7 +157,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 22.19,
+      "priorityScore": 22.13,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -220,7 +220,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 22.18,
+      "priorityScore": 22.12,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -284,7 +284,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 21.72,
+      "priorityScore": 21.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -326,7 +326,7 @@
         "courts",
         "tax"
       ],
-      "priorityScore": 21.44,
+      "priorityScore": 21.38,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -373,7 +373,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 711,
+      "viewCount": 712,
       "tgLink": "https://t.me/educatedyoungman/895",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -385,19 +385,19 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 21.16,
+      "priorityScore": 21.1,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 711 просмотров",
+        "Охват в Telegram Web: 712 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "💳 Число банкротств среди зумеров в России выросло в 9 раз за два годаЭксперты связывают это со слабым финансовым планированием и спокойным отношением к долгам.Рост банкротств влияет на рынок: банки повышают ставки из-за",
       "reactionCount": 11,
-      "engagementRate": 0.015471167369901548
+      "engagementRate": 0.01544943820224719
     },
     {
       "id": "probankrotstvoru/9529",
@@ -441,7 +441,7 @@
         "courts",
         "tax"
       ],
-      "priorityScore": 20.49,
+      "priorityScore": 20.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -487,7 +487,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 19.28,
+      "priorityScore": 19.22,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -518,7 +518,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 922,
+      "viewCount": 925,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2606",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -529,17 +529,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 17.88,
+      "priorityScore": 17.82,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 922 просмотров"
+        "Охват в Telegram Web: 925 просмотров"
       ],
       "digestSummary": "«Новости банкротство» О предложениях по формированию резервов на возможные потери по ипотечным жилищным ссудам должников-банкротов, урегулированным посредством отдельных мировых соглашений (планов реструктуризации) Банк ",
       "reactionCount": 1,
-      "engagementRate": 0.0010845986984815619
+      "engagementRate": 0.001081081081081081
     },
     {
       "id": "bankruptcyboutique/544",
@@ -567,7 +567,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 16.47,
+      "priorityScore": 16.41,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -614,7 +614,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1240,
+      "viewCount": 1250,
       "tgLink": "https://t.me/orpauradio/9282",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -626,17 +626,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 16.14,
+      "priorityScore": 16.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 1240 просмотров"
+        "Охват в Telegram Web: 1250 просмотров"
       ],
       "digestSummary": "А помните \"великолепную десятку\" АУ - специалистов по потоковым физикам? Посмотрим, как у них дела.1. Теплов Алексей Сергеевич - всё ок.2. Степанова Ксения Алексеевна - исключена из СРО по собственному желанию с 12.01.20",
       "reactionCount": 11,
-      "engagementRate": 0.008870967741935484
+      "engagementRate": 0.0088
     }
   ],
   "topTopics": [
