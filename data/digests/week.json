@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-05T15:38:19.966Z",
-  "totalPosts": 297,
+  "generatedAt": "2026-04-05T16:08:29.162Z",
+  "totalPosts": 298,
   "topPosts": [
     {
       "id": "probankrotstvoru/9528",
@@ -37,7 +37,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 941,
+      "viewCount": 946,
       "tgLink": "https://t.me/probankrotstvoru/9528",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -52,17 +52,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 36.97,
+      "priorityScore": 36.91,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 941 просмотров"
+        "Охват в Telegram Web: 946 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеКоллизия в законодательстве о банкротстве: разрешить ее может только Верховный СудРеальная проблема заключается не в теорети",
       "reactionCount": 7,
-      "engagementRate": 0.007438894792773645
+      "engagementRate": 0.007399577167019027
     },
     {
       "id": "probankrotstvoru/9499",
@@ -238,7 +238,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 984,
+      "viewCount": 986,
       "tgLink": "https://t.me/probankrotstvoru/9523",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -259,12 +259,12 @@
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 984 просмотров",
+        "Охват в Telegram Web: 986 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: пропуск срока на исполнение не лишает права на субсидиарный искОбщество «Терра» не исполнило обязательства по госконтракту перед ФТС России и в 2017 году суд взыскал с общества 291,7 тыс. рублей неустойки. Испо",
       "reactionCount": 15,
-      "engagementRate": 0.01524390243902439
+      "engagementRate": 0.015212981744421906
     },
     {
       "id": "BankruptcyClub/991",
@@ -293,7 +293,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 433,
+      "viewCount": 434,
       "tgLink": "https://t.me/BankruptcyClub/991",
       "channel": "BankruptcyClub",
       "channelTitle": "Банкротный Клуб",
@@ -313,12 +313,12 @@
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 433 просмотров",
+        "Охват в Telegram Web: 434 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 5,
-      "engagementRate": 0.011547344110854504
+      "engagementRate": 0.01152073732718894
     },
     {
       "id": "bankrovert/675",
@@ -735,17 +735,17 @@
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 235
+      "count": 236
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 226
+      "count": 227
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 213
+      "count": 214
     },
     {
       "id": "enforcement",
