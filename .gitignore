@@ -33,3 +33,29 @@ pnpm-debug.log*
 
 .agents
 .claude
+
+# local prototype concepts and screenshots
+prototypes/concept-a-editorial.html
+prototypes/concept-b-brutalist.html
+prototypes/concept-c-magazine.html
+prototypes/screenshot-avatars.png
+prototypes/screenshot-digests-mobile.png
+prototypes/screenshot-hot-mobile-v2.png
+prototypes/screenshot-hot-mobile-v3.png
+prototypes/screenshot-hot-mobile-v4.png
+prototypes/screenshot-image-fit.png
+prototypes/screenshot-image-fit2.png
+prototypes/screenshot-image-gallery.png
+prototypes/screenshot-image-loaded.png
+prototypes/screenshot-image-loaded2.png
+prototypes/screenshot-images-fixed.png
+prototypes/screenshot-index-feed-v4.png
+prototypes/screenshot-links-styled.png
+prototypes/screenshot-links.png
+prototypes/screenshot-links2.png
+prototypes/screenshot-mobile-v3-feed.png
+prototypes/screenshot-mobile-v3-top.png
+prototypes/screenshot-mobile-v4-top.png
+prototypes/screenshot-mobile-v5-feed.png
+prototypes/screenshot-mobile-v5-top.png
+prototypes/screenshot-polish-mobile.png

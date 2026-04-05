@@ -1,5 +1,4 @@
 import { env } from 'node:process'
-import tailwindcss from '@tailwindcss/vite'
 import astroIcon from 'astro-icon'
 import { defineConfig } from 'astro/config'
 
@@ -10,7 +9,4 @@ export default defineConfig({
   base: env.BASE_PATH || '/legal-telegram-digest/',
   trailingSlash: 'always',
   integrations: [astroIcon()],
-  vite: {
-    plugins: [tailwindcss()],
-  },
 })

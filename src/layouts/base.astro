@@ -2,7 +2,6 @@
 import '../styles/app.css'
 import { SEO } from 'astro-seo'
 import { Icon } from 'astro-icon/components'
-import backToTopIcon from '../assets/back-to-top.svg'
 import type { NavItem } from '../types'
 import { getSiteMeta } from '../lib/data'
 
@@ -89,29 +88,7 @@ const navs: NavItem[] = (import.meta.env.NAVS || '')
 const PUSH_SERVER_URL = import.meta.env.PUSH_SERVER_URL || ''
 const VAPID_PUBLIC_KEY = import.meta.env.VAPID_PUBLIC_KEY || ''
 
-const layoutShellClass = 'layout-shell px-3 py-3 sm:px-4 sm:py-4 xl:px-5 xl:py-[1.15rem]'
-const layoutGridClass =
-  'layout-grid reader-shell-card mx-auto grid w-full max-w-[var(--page-max-width)] grid-cols-1 gap-4 p-3 sm:p-4 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-5 lg:p-5 xl:grid-cols-[minmax(0,1fr)_320px] xl:gap-5 xl:p-6'
-const mainPanelClass = 'layout-main w-full min-w-0 pb-4 lg:pb-6'
-const asidePanelClass = 'w-full min-w-0 lg:sticky lg:top-6 lg:self-start'
-const asideInnerClass = 'relative grid gap-4 overflow-y-visible lg:max-h-[calc(100dvh-3rem)] lg:overflow-y-auto lg:pr-1'
-const navListClass = 'm-0 flex list-none flex-wrap gap-2 pl-0 lg:grid lg:gap-2'
-const navItemClass = 'flex items-center text-[14px] leading-none lg:text-[15px] lg:leading-normal'
-const navLinkClass =
-  'sidebar-nav-link flex-1 inline-flex items-center rounded-[14px] border border-line px-3 py-[0.7rem] text-heading no-underline transition-[background-color,box-shadow,border-color] duration-150 ease-in-out hover:no-underline hover:shadow-soft'
-const navLinkCurrentClass = 'sidebar-nav-active shadow-soft'
-const skipLinkClass =
-  'pointer-events-none absolute left-5 top-0 z-[1100] -translate-y-full rounded-panel bg-heading px-3 py-2 text-sm text-white no-underline transition-transform duration-150 focus-visible:pointer-events-auto focus-visible:translate-y-5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-heading'
-const searchFormClass = 'rounded-[18px] border border-line bg-code/80 p-2 text-muted shadow-soft backdrop-blur'
-const searchInputClass =
-  'box-border w-full rounded-[14px] border border-transparent bg-transparent px-3 py-2 text-[15px] leading-[1.6] text-muted outline-none placeholder:text-muted focus-visible:border-heading focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 focus-visible:outline-heading lg:text-[13px]'
-const footerClass = 'hidden px-2 pt-1 text-[13px] leading-[1.6] text-footer lg:block'
-const backToTopClass =
-  'pointer-events-auto z-[1000] flex h-10 w-10 items-center justify-center rounded-full border border-line bg-code/95 text-[24px] opacity-90 shadow-soft backdrop-blur transition-transform duration-300 hover:-translate-y-[3px] active:translate-y-px'
-const backToTopIconClass = 'h-auto w-auto [filter:var(--icon-secondary-filter)]'
-const mobileDockClass = 'mobile-dock lg:hidden'
-const mobileDockLinkClass = 'mobile-dock__link'
-const mobileDockLinkCurrentClass = 'mobile-dock__link--active'
+const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2-digit', year: 'numeric' })
 ---
 
 <!doctype html>
@@ -119,7 +96,7 @@ const mobileDockLinkCurrentClass = 'mobile-dock__link--active'
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#f4f1ec" />
+    <meta name="theme-color" content="#FFFFFF" />
     <link rel="alternate" type="application/rss+xml" title={channel?.title} href={RSS_URL} />
     <SEO
       titleTemplate={hasCustomTitle ? `%s | ${siteTitle}` : undefined}
@@ -135,210 +112,146 @@ const mobileDockLinkCurrentClass = 'mobile-dock__link--active'
   </head>
 
   <body>
-    <a href="#main-content" class={skipLinkClass}>Перейти к содержимому</a>
-    <main id="main-content" class={layoutShellClass}>
-      <div class={layoutGridClass}>
-        <div class={mainPanelClass}>
-          <slot />
+    <a href="#main-content" class="skip-link">Перейти к содержимому</a>
+
+    <div class="page">
+      <!-- HEADER -->
+      <header class="page-header">
+        <div class="page-header__top">
+          <span class="page-header__label">Юридический Telegram-дайджест</span>
+          <span class="page-header__date">{today}</span>
         </div>
-        <aside class={asidePanelClass}>
-          <slot name="aside">
-            <div class={asideInnerClass}>
-              <section class="brand-card">
-                <div class="brand-card__top-row">
-                  <p class="brand-card__eyebrow">Юридический дайджест</p>
-                  <button
-                    id="theme-toggle"
-                    onclick="toggleTheme()"
-                    class="theme-toggle-btn"
-                    aria-label="Переключить тему"
-                  >
-                    &#127769;
-                  </button>
-                </div>
-                <h1 class="brand-card__title">{siteMeta.shortTitle || siteMeta.title}</h1>
-                <p class="brand-card__description">{siteMeta.description}</p>
-                <div class="brand-card__meta">
-                  <span class="badge">публичные каналы</span>
-                  <span class="badge">юридический дайджест</span>
-                  <span class="badge">мобильный режим</span>
-                </div>
-              </section>
-              <nav aria-label="Основная навигация">
-                <ul class={navListClass}>
-                  <li class={navItemClass}>
-                    <a
-                      href={SITE_URL}
-                      title={channel?.title}
-                      class:list={[navLinkClass, currentPathname === siteRootPathname && navLinkCurrentClass]}
-                    >
-                      Лента
-                    </a>
-                  </li>
-                  {
-                    TAGS ? (
-                      <li class={navItemClass}>
-                        <a
-                          href={`${SITE_URL}tags`}
-                          title="Теги"
-                          class:list={[navLinkClass, currentPathname === tagsPathname && navLinkCurrentClass]}
-                        >
-                          Теги
-                        </a>
-                      </li>
-                    ) : null
-                  }
-                  {
-                    LINKS ? (
-                      <li class={navItemClass}>
-                        <a
-                          href={`${SITE_URL}links`}
-                          title="Ссылки"
-                          class:list={[navLinkClass, currentPathname === linksPathname && navLinkCurrentClass]}
-                        >
-                          Ссылки
-                        </a>
-                      </li>
-                    ) : null
-                  }
-                  <li class={navItemClass}>
-                    <a
-                      href={`${SITE_URL}digests/`}
-                      title="Дайджесты"
-                      class:list={[navLinkClass, currentPathname === digestsPathname && navLinkCurrentClass]}
-                    >
-                      Дайджесты
-                    </a>
-                  </li>
-                  <li class={navItemClass}>
-                    <a
-                      href={`${SITE_URL}hot/`}
-                      title="Главное"
-                      class:list={[navLinkClass, currentPathname === hotPathname && navLinkCurrentClass]}
-                    >
-                      Главное
-                    </a>
-                  </li>
-                  <li class={navItemClass}>
-                    <a
-                      href={`${SITE_URL}compare/`}
-                      title="Сравнить"
-                      class:list={[navLinkClass, currentPathname === comparePathname && navLinkCurrentClass]}
-                    >
-                      Сравнить
-                    </a>
-                  </li>
-                  <li class={navItemClass}>
-                    <a
-                      href={`${SITE_URL}stats/`}
-                      title="Статистика"
-                      class:list={[navLinkClass, currentPathname === statsPathname && navLinkCurrentClass]}
-                    >
-                      Статистика
-                    </a>
-                  </li>
-                  {
-                    navs.map((nav) => (
-                      <li class={navItemClass}>
-                        <a
-                          href={nav.href}
-                          title={nav.title}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class={navLinkClass}
-                        >
-                          {nav.title}
-                        </a>
-                      </li>
-                    ))
-                  }
-                </ul>
-              </nav>
+        <h1 class="page-header__title">{siteMeta.shortTitle || siteMeta.title}</h1>
+        <slot name="metrics" />
+      </header>
 
-              <form class={searchFormClass} action={`${SITE_URL}search/result`} method="get" role="search">
-                <label class="sr-only" for="search-query">Поиск</label>
-                <input
-                  id="search-query"
-                  class={searchInputClass}
-                  type="search"
-                  name="q"
-                  placeholder="Поиск по каналу, теме или ключевому слову"
-                  autocomplete="off"
-                  inputmode="search"
-                  spellcheck={false}
-                />
-              </form>
+      <!-- COMMAND BAR (optional, provided by pages) -->
+      <slot name="command-bar" />
 
-              <footer class={footerClass}>
-                Основано на
-                <a
-                  href="https://github.com/miantiao-me/BroadcastChannel"
-                  title="BroadcastChannel"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  BroadcastChannel
-                </a>
-                .
-              </footer>
-            </div>
-          </slot>
-        </aside>
-      </div>
-      <div id="back-to-top-wrapper">
-        <a href="#main-content" id="back-to-top" class={backToTopClass} aria-label="Наверх">
-          <svg class="back-to-top__ring" viewBox="0 0 36 36" width="40" height="40">
-            <circle cx="18" cy="18" r="16" fill="none" stroke="var(--color-line)" stroke-width="2"></circle>
-            <circle
-              id="btt-progress"
-              cx="18"
-              cy="18"
-              r="16"
-              fill="none"
-              stroke="var(--color-accent)"
-              stroke-width="2.5"
-              stroke-linecap="round"
-              stroke-dasharray="100.53"
-              stroke-dashoffset="100.53"
-              transform="rotate(-90 18 18)"></circle>
-          </svg>
-          <Icon name="ri:arrow-up-line" class="back-to-top__icon" />
-        </a>
-      </div>
-    </main>
-    <nav class={mobileDockClass} aria-label="Быстрая навигация">
+      <!-- MAIN CONTENT -->
+      <main class="page-main" id="main-content">
+        <slot />
+      </main>
+
+      <!-- SIDEBAR -->
+      <aside class="page-sidebar">
+        <div class="sidebar__section">
+          <div class="sidebar__label">Система</div>
+          <div class="sidebar__title">{siteMeta.shortTitle || 'Юрдайджест'}</div>
+          <p class="sidebar__description">{siteMeta.description}</p>
+        </div>
+
+        <div class="sidebar__section">
+          <div class="sidebar__label">Навигация</div>
+          <ul class="sidebar-nav">
+            <li class:list={[currentPathname === siteRootPathname && 'active']}>
+              <a href={SITE_URL}>Лента</a>
+            </li>
+            <li class:list={[currentPathname === digestsPathname && 'active']}>
+              <a href={`${SITE_URL}digests/`}>Дайджесты</a>
+            </li>
+            <li class:list={[currentPathname === hotPathname && 'active']}>
+              <a href={`${SITE_URL}hot/`}>Главное</a>
+            </li>
+            <li class:list={[currentPathname === comparePathname && 'active']}>
+              <a href={`${SITE_URL}compare/`}>Сравнить</a>
+            </li>
+            <li class:list={[currentPathname === statsPathname && 'active']}>
+              <a href={`${SITE_URL}stats/`}>Статистика</a>
+            </li>
+            {
+              TAGS ? (
+                <li class:list={[currentPathname === tagsPathname && 'active']}>
+                  <a href={`${SITE_URL}tags`}>Теги</a>
+                </li>
+              ) : null
+            }
+            {
+              LINKS ? (
+                <li class:list={[currentPathname === linksPathname && 'active']}>
+                  <a href={`${SITE_URL}links`}>Ссылки</a>
+                </li>
+              ) : null
+            }
+            {
+              navs.map((nav) => (
+                <li>
+                  <a href={nav.href} target="_blank" rel="noopener noreferrer">
+                    {nav.title}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+
+        <div class="sidebar__section">
+          <div class="sidebar__label">Поиск</div>
+          <form action={`${SITE_URL}search/result`} method="get" role="search">
+            <label class="sr-only" for="search-query">Поиск</label>
+            <input
+              id="search-query"
+              class="sidebar-search"
+              type="search"
+              name="q"
+              placeholder="Поиск по каналу, теме..."
+              autocomplete="off"
+              inputmode="search"
+              spellcheck={false}
+            />
+          </form>
+        </div>
+
+        <button id="theme-toggle" class="theme-btn" onclick="toggleTheme()">Dark / Light</button>
+
+        <div class="sidebar-footer">
+          Основано на
+          <a href="https://github.com/miantiao-me/BroadcastChannel" target="_blank" rel="noopener noreferrer">
+            BroadcastChannel
+          </a>.
+        </div>
+      </aside>
+
+      <!-- FOOTER -->
+      <footer class="page-footer">
+        Transfer Channel RSS &middot; {siteMeta.shortTitle || siteMeta.title} &middot; {new Date().getFullYear()}
+      </footer>
+    </div>
+
+    <!-- MOBILE DOCK -->
+    <nav class="mobile-dock" aria-label="Быстрая навигация">
       <div class="mobile-dock__inner">
         <a
           href={SITE_URL}
-          class:list={[mobileDockLinkClass, currentPathname === siteRootPathname && mobileDockLinkCurrentClass]}
+          class:list={['mobile-dock__link', currentPathname === siteRootPathname && 'mobile-dock__link--active']}
         >
           <Icon name="ri:newspaper-line" class="mobile-dock__icon" />
           <span>Лента</span>
         </a>
         <a
           href={`${SITE_URL}digests/`}
-          class:list={[mobileDockLinkClass, currentPathname === digestsPathname && mobileDockLinkCurrentClass]}
+          class:list={['mobile-dock__link', currentPathname === digestsPathname && 'mobile-dock__link--active']}
         >
           <Icon name="ri:calendar-line" class="mobile-dock__icon" />
           <span>Дайджесты</span>
         </a>
         <a
           href={`${SITE_URL}hot/`}
-          class:list={[mobileDockLinkClass, currentPathname === hotPathname && mobileDockLinkCurrentClass]}
+          class:list={['mobile-dock__link', currentPathname === hotPathname && 'mobile-dock__link--active']}
         >
           <Icon name="ri:fire-line" class="mobile-dock__icon" />
           <span>Главное</span>
         </a>
         <a
           href={`${SITE_URL}compare/`}
-          class:list={[mobileDockLinkClass, currentPathname === comparePathname && mobileDockLinkCurrentClass]}
+          class:list={['mobile-dock__link', currentPathname === comparePathname && 'mobile-dock__link--active']}
         >
           <Icon name="ri:scales-3-line" class="mobile-dock__icon" />
           <span>Сравнить</span>
         </a>
         <a
           href={`${SITE_URL}stats/`}
-          class:list={[mobileDockLinkClass, currentPathname === statsPathname && mobileDockLinkCurrentClass]}
+          class:list={['mobile-dock__link', currentPathname === statsPathname && 'mobile-dock__link--active']}
         >
           <Icon name="ri:bar-chart-box-line" class="mobile-dock__icon" />
           <span>Стат.</span>
@@ -346,28 +259,100 @@ const mobileDockLinkCurrentClass = 'mobile-dock__link--active'
       </div>
     </nav>
 
+    <div id="back-to-top-wrapper">
+      <a href="#main-content" id="back-to-top" aria-label="Наверх">
+        <svg class="back-to-top__ring" viewBox="0 0 36 36" width="40" height="40">
+          <circle cx="18" cy="18" r="16" fill="none" stroke="var(--color-line-light)" stroke-width="2"></circle>
+          <circle
+            id="btt-progress"
+            cx="18"
+            cy="18"
+            r="16"
+            fill="none"
+            stroke="var(--color-accent)"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-dasharray="100.53"
+            stroke-dashoffset="100.53"
+            transform="rotate(-90 18 18)"></circle>
+        </svg>
+        <Icon name="ri:arrow-up-line" class="back-to-top__icon" />
+      </a>
+    </div>
+
     <Fragment set:html={FOOTER_INJECT} />
 
     <script is:inline>
       /* eslint-disable no-var, vars-on-top, antfu/if-newline, prefer-arrow-callback */
-      // Image gallery: collage with "show more" for >4 images
+      // Image gallery: horizontal carousel for posts with multiple images
       ;(function () {
         var containers = document.querySelectorAll('.image-list-container')
         containers.forEach(function (container) {
           var buttons = container.querySelectorAll('.image-preview-button')
-          if (buttons.length <= 4) return
-          container.classList.add('image-list-has-more')
-          var fourth = buttons[3]
-          if (fourth) fourth.setAttribute('data-remaining', `+${buttons.length - 3}`)
-          var toggle = document.createElement('button')
-          toggle.className = 'image-gallery-toggle'
-          toggle.textContent = `Показать все ${buttons.length} фото`
-          toggle.type = 'button'
-          container.parentNode.insertBefore(toggle, container.nextSibling)
-          toggle.addEventListener('click', function () {
-            var expanded = container.classList.toggle('image-gallery-expanded')
-            toggle.textContent = expanded ? 'Свернуть' : `Показать все ${buttons.length} фото`
+          if (buttons.length <= 1 || !container.parentNode) return
+
+          container.setAttribute('data-carousel', 'true')
+
+          var shell = document.createElement('div')
+          shell.className = 'image-gallery-shell'
+          container.parentNode.insertBefore(shell, container)
+          shell.appendChild(container)
+
+          var prev = document.createElement('button')
+          prev.className = 'image-gallery-nav image-gallery-nav--prev'
+          prev.type = 'button'
+          prev.setAttribute('aria-label', 'Предыдущее изображение')
+          prev.innerHTML = '&#8249;'
+
+          var next = document.createElement('button')
+          next.className = 'image-gallery-nav image-gallery-nav--next'
+          next.type = 'button'
+          next.setAttribute('aria-label', 'Следующее изображение')
+          next.innerHTML = '&#8250;'
+
+          var status = document.createElement('div')
+          status.className = 'image-gallery-status'
+
+          shell.appendChild(prev)
+          shell.appendChild(next)
+          shell.appendChild(status)
+
+          function getCurrentIndex() {
+            var index = Math.round(container.scrollLeft / Math.max(container.clientWidth, 1))
+            return Math.max(0, Math.min(index, buttons.length - 1))
+          }
+
+          function updateState() {
+            var index = getCurrentIndex()
+            status.textContent = `${index + 1} / ${buttons.length}`
+            prev.disabled = index === 0
+            next.disabled = index >= buttons.length - 1
+          }
+
+          function scrollToIndex(index) {
+            var target = buttons[index]
+            if (!target) return
+            target.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })
+          }
+
+          prev.addEventListener('click', function () {
+            scrollToIndex(getCurrentIndex() - 1)
           })
+
+          next.addEventListener('click', function () {
+            scrollToIndex(getCurrentIndex() + 1)
+          })
+
+          container.addEventListener(
+            'scroll',
+            function () {
+              window.requestAnimationFrame(updateState)
+            },
+            { passive: true },
+          )
+
+          window.addEventListener('resize', updateState, { passive: true })
+          updateState()
         })
       })()
       ;(function () {

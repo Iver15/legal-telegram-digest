@@ -45,7 +45,7 @@
     "title": "Robakidze",
     "description": "\"Тот, кто ожидает завтрашнего дня без волнения, счастливо и мирно владеет сегодняшним. Кто говорит себе: я прожил свое, – для того каждый новый день составляет чистую прибыль\"Lucius Annaeus Sĕnĕca minor",
     "descriptionHTML": "\"Тот, кто ожидает завтрашнего дня без волнения, счастливо и мирно владеет сегодняшним. Кто говорит себе: я прожил свое, – для того каждый новый день составляет чистую прибыль\"<br><br>Lucius Annaeus Sĕnĕca minor",
-    "avatar": "https://cdn4.telesco.pe/file/bECiPt4PLbIdlrQu4pKFxJegTTA612t9KHmBXcUWKvgiKJaX2AOEQcyoG_LVR8NPsgYpL3KBWUh_a5obUcFPBvnJCjFgitF_87nLo1Pt1phfSYeSI8zNhz_3cdWRWZxdJ7Gl_RV_tOA6bJaNst4X4aD5q_30IyGv2YSG3AIPweUUkWtXyXOq6a-xARuoyyb_9xqTj_BBsFKtoyGdLVoW7gDWP9aw14NAMIuqVVyg6TvABuVqzLjTJ7zQOC6bCjYUgcP7TYxqI8JB7oN6mZQofOeVHw_d55LxOUh2fk1zfFGn5ZeO_zjkzQw24LC75xQJsX73sXh6xLv6ZjgJ7sMqNQ.jpg"
+    "avatar": "https://cdn4.telesco.pe/file/vUACThQ_Ln3-nWAHVCvJF91TVw_tKdUYMC5ifvLYiQ1cLMF6a-8F8fCrqn3HoATW1tM3jCwVX0TYIZ2uZwXVooL8asD6isYwxRSDfaCymfWcLZ2xgL26v7SOMTj7PTVoqBHKyA5PucN3iniAqRNF05RReikt34-oq_6BietU69TTdMhbkzVdHWvQpKkzuvGHtuhDroNP78-UntPqouV2YrJXBRKuVbiYm9K9WqOyeGuCQ8d242C3bhoLPWSzAEXLju0cvPhR2lyJH_G25Tpt7J3jZs8pBDFQoM0MrJgGW-4UAHmqfvvlUpT40xwPE7ro5qrD5i3rcOtIK8XziVvtGw.jpg"
   },
   "bankrotnews": {
     "title": "Банкротство.Новости",
@@ -64,6 +64,12 @@
     "description": "Здесь все о банкротстве: судебная практика, законодательные изменения, новости и юридические тонкости.Автор канала - Сергей Домнин, арбитражный управляющий.https://domnin.ru",
     "descriptionHTML": "Здесь все о банкротстве: судебная практика, законодательные изменения, новости и юридические тонкости.<br><br>Автор канала - Сергей Домнин, арбитражный управляющий.<br><a href=\"https://domnin.ru/\" target=\"_blank\" rel=\"noopener\">https://domnin.ru</a>",
     "avatar": "https://cdn4.telesco.pe/file/COHw1_Kae9wfGhctF-d004AWEVhh2RcCQhRi3n-NHSjmaFiWf90w7vG4j5dvioVuzHtAkqsXu-E0fMvD43oE9AHQ7B7LEYEoSgXBI3YAVOHn0IlKK8lYWV5Yji15L4aDHT2SAzszoUGC0ujfh-NWHambZJIvGRwNdTAPkTGeu0sCeTdV6xkD89xC0TV6LEn___GnnQewy7Ymh8ziUAW9V0K8zYEcF8UixFRdjctYob0CvlRaXjjAyRAsNrZPftYhRRSXjGaSPW68aJ0pNjowVtlzf3dgO7bzam_3wUmt9l5l9zYkElp15pkquBVFB57rRpBXMXeBvZlUjeya4E77Dg.jpg"
+  },
+  "sotbi_law": {
+    "title": "Сотби",
+    "description": "Юридическая компания «Сотби»Банкротство, управление активами, сложные судебные споры, корпоративное право.«Лучше быть, чем казаться».На канале публикуем полезную аналитику, разборы интересных кейсов, новости банкротстваsotbi.ru",
+    "descriptionHTML": "Юридическая компания «Сотби»<br><br>Банкротство, управление активами, сложные судебные споры, корпоративное право.<br><br>«Лучше быть, чем казаться».<br><br>На канале публикуем полезную аналитику, разборы интересных кейсов, новости банкротства<br><br><a href=\"http://sotbi.ru/\" target=\"_blank\" rel=\"noopener\">sotbi.ru</a>",
+    "avatar": "https://cdn4.telesco.pe/file/B7K3ICNtS2QhEn7scDHOigRY1H3P4NfstsSrF47z304FJyw7ZnAfLlM94CEqJInogIqoGVtmpzjeH0Lu-RuUWICtVe5W7PF70yNyyoysC1M9xABDz1ot6BtdBM1zzYMQ-gA7I_JxbGa4MDrwrZguXv9VWnKF68fIyazHUpaHvI4rcV-hp6i03JkpQK-xCqfPFBNzW2PMjwQjcQ2dH04zzRxDmP0pJQDJWPamWquq83RNNxFiCgXU7XiGU9t5YENySbS7_78v2tSwMTYgUco45en8tCrYAUFHV5Rxx2MHJxU_AhhOh0F2hhz1uNTdS3eRGhfrl2KPIQ_Fn1I1w5VSjw.jpg"
   },
   "fedresurs_insolvency": {
     "title": "Федресурс: банкротные новости",
@@ -147,7 +153,7 @@
     "title": "Судебная практика по банкротству",
     "description": "MAX - https://max.ru/sudpraktik_bankrot_demoАнализ судебной практики - @sudpraktik_analiz_bot.Реклама:@reklama_sp_botиhttps://telega.in/c/sudpraktik_bankrot_demoРКН - https://gosuslugi.ru/snet/679cdc3a7d9f3353ff8d70a4",
     "descriptionHTML": "MAX - <a href=\"https://max.ru/sudpraktik_bankrot_demo\" target=\"_blank\" rel=\"noopener\">https://max.ru/sudpraktik_bankrot_demo</a><br><br>Анализ судебной практики - <a href=\"https://t.me/sudpraktik_analiz_bot\" target=\"_blank\">@sudpraktik_analiz_bot</a>.<br><br>Реклама:<br><a href=\"https://t.me/reklama_sp_bot\" target=\"_blank\">@reklama_sp_bot</a><br>и<br><a href=\"https://telega.in/c/sudpraktik_bankrot_demo\" target=\"_blank\" rel=\"noopener\">https://telega.in/c/sudpraktik_bankrot_demo</a><br><br>РКН - <a href=\"https://gosuslugi.ru/snet/679cdc3a7d9f3353ff8d70a4\" target=\"_blank\" rel=\"noopener\">https://gosuslugi.ru/snet/679cdc3a7d9f3353ff8d70a4</a>",
-    "avatar": "https://cdn4.telesco.pe/file/D9KobO2QBc0WRXZWvUaM-bh4lWugXRvDcpAgBehSZG84C90bTin5SOhLVD7Z4guahptfm4YQpMO0-xUAic5ShYuT56Nms8W12ifrrsEDWl2w9adr6x_GN_ZitWXleJ1Tk8EaJW4zD-PPpAddmc21DdKyfbnotRQhPXx9JrpmvCfNSn5RhgEjNwcIE9DLYvTdp0t3TwLVYiajzndhfeuDKi0J2RxxCruADoMxT1WMJnEe0pEdsVK_b8c-EIdXANPwOXgJFROP6TlTaFPVSNdwgFkMF_kzU-IfpHnA_aakdQ6TspLy6eCEkzbPEYzPad70hV8PaqofxEoJdRYbrIXz3Q.jpg"
+    "avatar": "https://cdn4.telesco.pe/file/trJ6mf_ywMFfh7JD7gdThbJH_CFu8hhZUD6HPg1BnWrpVSWZD55ZcWRdw0BfDtKFELxzXImhFtFp8o6HBzBIr1AQ5Axbdhp2Zl7_Kp22I2tLMGLnbT-XCg3hOoN5osPVPY0ui-9vfcsHY0ghW_aTyJNjDgzTgIicaJ4RyfVq0GLsvkOdfpvRBXshoe6_hA8ZrJEvGxhTfUjfnRvk4pGkTubem65oMvwsUF_muaPIXjVBDDGOMlKC_SC7wCS8GtG5rVv30VM951OfnVfAQyVMxaiGwucDIGLFLHyuDzaNgc94cfEAmSBpybK4sjLevU3aiqxMCCQytHmxImsvP5c30A.jpg"
   },
   "vs_court": {
     "title": "Судебная практика СКЭС ВС РФ",

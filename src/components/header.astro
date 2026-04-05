@@ -1,7 +1,6 @@
 ---
 import { Icon } from 'astro-icon/components'
 import voidFile from '../assets/void.png'
-import { siteTitleStyle } from '../lib/ui'
 
 const SITE_URL = import.meta.env.BASE_URL ?? '/'
 const RSS_URL = `${SITE_URL}rss.xml`
@@ -14,18 +13,6 @@ const DISCORD = import.meta.env.DISCORD
 const MASTODON = import.meta.env.MASTODON
 const BLUESKY = import.meta.env.BLUESKY
 const hideDescription = import.meta.env.HIDE_DESCRIPTION
-
-const headerMainClass =
-  'mb-3 flex items-center rounded-[20px] border border-line bg-[color-mix(in_srgb,var(--color-surface)_92%,transparent)] p-3 font-semibold shadow-soft max-sm:px-3 max-sm:py-2.5'
-const avatarClass = 'block h-10 w-10 rounded-full border-[3px] border-white object-cover shadow-soft'
-const titleWrapClass = 'ml-[10px] min-w-0 flex-1 pr-[10px] text-[20px]'
-const titleLinkClass = 'text-heading no-underline hover:text-ink hover:underline'
-const iconNavClass = 'flex items-center gap-[2px]'
-const socialLinkClass = 'group p-1 no-underline'
-const socialIconClass =
-  'h-[1em] w-[1em] align-bottom [filter:var(--icon-secondary-filter)] group-hover:[filter:var(--icon-hover-filter)]'
-const introClass =
-  'mb-4 break-words rounded-[20px] border border-line bg-code/85 px-5 py-3 text-base leading-[1.65] text-muted shadow-soft max-sm:my-4 max-sm:px-4'
 
 const socialLinks = [
   {
@@ -87,46 +74,42 @@ const socialLinks = [
 ].filter(Boolean)
 ---
 
-<header>
-  <div class={headerMainClass}>
-    <a href={SITE_URL} title={channel?.title}>
-      <img
-        src={channel?.avatar?.startsWith('http') ? channel?.avatar : voidFile.src}
-        alt={channel?.title}
-        loading="eager"
-        fetchpriority="high"
-        width="40"
-        height="40"
-        class={avatarClass}
-      />
-    </a>
-    <div class={titleWrapClass}>
-      <a href={SITE_URL} class={titleLinkClass} style={siteTitleStyle} title={channel?.title}>
-        {channel?.title}
-      </a>
-    </div>
-    <nav class={iconNavClass} aria-label="Ссылки канала">
-      {
-        socialLinks.map((item) => (
-          <a
-            href={item.href}
-            title={item.title}
-            target="_blank"
-            rel={item.rel}
-            type={item.type}
-            aria-label={item.label}
-            class={socialLinkClass}
-          >
-            <Icon name={item.icon} class={socialIconClass} aria-hidden="true" />
-          </a>
-        ))
-      }
-    </nav>
-  </div>
+<header class="channel-header">
+  <a href={SITE_URL} title={channel?.title}>
+    <img
+      src={channel?.avatar?.startsWith('http') ? channel?.avatar : voidFile.src}
+      alt={channel?.title}
+      loading="eager"
+      fetchpriority="high"
+      width="40"
+      height="40"
+      class="channel-header__avatar"
+    />
+  </a>
+  <a href={SITE_URL} class="channel-header__title" title={channel?.title}>
+    {channel?.title}
+  </a>
+  <nav class="channel-header__nav" aria-label="Ссылки канала">
+    {
+      socialLinks.map((item) => (
+        <a
+          href={item.href}
+          title={item.title}
+          target="_blank"
+          rel={item.rel}
+          type={item.type}
+          aria-label={item.label}
+          class="channel-header__social"
+        >
+          <Icon name={item.icon} class="channel-header__social-icon" aria-hidden="true" />
+        </a>
+      ))
+    }
+  </nav>
 </header>
 
 {
   hideDescription !== 'true' && channel?.descriptionHTML && channel?.descriptionHTML.length > 0 && (
-    <div class:list={[introClass, 'content']} set:html={channel?.descriptionHTML} />
+    <div class="channel-intro content" set:html={channel?.descriptionHTML} />
   )
 }

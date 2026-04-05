@@ -11,7 +11,10 @@
 - сохраняет просмотры постов из Telegram Web Preview, если счётчик реально присутствует в HTML;
 - считает вторичные сигналы ранжирования: реакции, охват, вовлечённость `reactions/views`;
 - строит дайджесты `today` / `yesterday` / `week`;
-- показывает web reader, hot posts, compare, stats и JSON digest endpoints.
+- нормализует неровный Telegram HTML в более предсказуемую типографику;
+- собирает digest-подобные посты в секции и emoji-списки;
+- превращает посты с несколькими изображениями в карусель вместо длинной простыни;
+- показывает web reader, дайджесты, главное, сравнение, статистику, страницы каналов и JSON digest endpoints.
 
 ## Основа
 
@@ -36,9 +39,18 @@ pnpm run build
 ## Структура данных
 
 - `data/channels.json` — site + категории + список каналов
+- `data/channel.json` — агрегированная мета основного сайта и собранные метаданные каналов
 - `data/posts.json` — нормализованные посты
 - `data/new-posts.json` — новые посты последнего fetch
 - `data/digests/*.json` — готовые digest snapshots
+
+## Что нормализуется при fetch/render
+
+- legacy-разметка Telegram с `br br`, смешанными inline- и block-узлами и неаккуратными абзацами;
+- эмодзи Telegram (`tg-emoji`) и media URLs;
+- digest-посты с псевдо-разделителями и emoji-маркерами;
+- несколько изображений в одном посте, чтобы они отображались как карусель;
+- ссылки и внутренние маршруты в формате Astro с `trailingSlash: 'always'`.
 
 ### Ограничение по Telegram-счётчикам
 
@@ -49,10 +61,12 @@ pnpm run build
 ## Быстрый старт
 
 ```bash
-cd /root/projects/legal-telegram-digest
+git clone <your-fork-or-repo-url>
+cd legal-telegram-digest
 cp .env.example .env
 pnpm install
 pnpm run fetch
+pnpm run dev
 pnpm run build
 pnpm run preview
 ```
@@ -82,14 +96,17 @@ pnpm run preview
 
 ## Маршруты интерфейса
 
-- `/` — главная reader-страница
+- `/` — главная feed-first страница с фильтрами по периоду, каналу, теме и тексту
 - `/digests/` — карточки дайджестов
 - `/digests/today.json` — JSON дайджест за сегодня
 - `/digests/week.json` — JSON дайджест за неделю
-- `/hot/` — горячие посты
-- `/compare/` — сравнение каналов
-- `/stats/` — coverage statistics
+- `/hot/` — главное по legal-first ранжированию
+- `/compare/` — сравнение каналов с сортировкой по столбцам
+- `/channels/{channel}/` — страница автора/канала только с его постами
+- `/stats/` — статистика покрытия, вовлечённости и объёма
 - `/lite/` — компактный режим чтения
+- `/search/{query}/` — поиск по тегам и текстовым совпадениям
+- `/posts/{channel}/{id}/` — отдельный пост
 
 ## Что осталось под пользователя
 
@@ -104,6 +121,9 @@ pnpm run preview
 # обновить кэш каналов
 pnpm run fetch
 
+# поднять локальную разработку
+pnpm run dev
+
 # пересобрать reader
 pnpm run build
 
@@ -113,4 +133,4 @@ pnpm run preview
 
 ## Примечание
 
-Текущий проект — pragmatic v1: сначала рабочий legal reader, потом тонкая доводка под конкретный список каналов Юрия.
+Текущий проект — pragmatic legal reader: сначала сбор и нормализация публичных Telegram-постов, затем поверх них статический интерфейс с фильтрами, рейтингом, сравнением каналов и отдельными страницами авторов.

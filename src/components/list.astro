@@ -4,17 +4,11 @@ import Header from '../components/header.astro'
 import Item from '../components/item.astro'
 
 const SITE_URL = import.meta.env.BASE_URL ?? '/'
-const { channel, before = true, after = true, isItem = false, pageHeading } = Astro.props
+const { channel, before = true, after = true, isItem = false, pageHeading, paginationBase = SITE_URL } = Astro.props
 const posts = channel.posts ?? []
 
 const beforeCursor = posts[posts.length - 1]?.id
 const afterCursor = posts[0]?.id
-const itemsClass = 'm-0 grid list-none gap-[0.8rem] pl-0'
-const paginationClass = 'mt-5 mb-1 flex items-center gap-3'
-const paginationLinkClass =
-  'inline-flex min-h-10 min-w-[6.5rem] items-center justify-center rounded-[30px] border border-muted px-4 py-[0.45rem] text-[14px] font-medium text-muted no-underline hover:text-accent hover:no-underline active:bg-line'
-const paginationInfoClass = 'flex-1 text-center align-middle text-[12px] font-medium text-muted'
-const paginationPlaceholderClass = 'inline-block min-w-[6.5rem]'
 ---
 
 <Layout channel={channel}>
@@ -22,7 +16,7 @@ const paginationPlaceholderClass = 'inline-block min-w-[6.5rem]'
   <slot name="header">
     <Header channel={channel} />
   </slot>
-  <ol class={itemsClass} aria-label={isItem ? 'Пост' : 'Посты'}>
+  <ol class="feed-list" aria-label={isItem ? 'Пост' : 'Посты'}>
     {
       posts.map((post) => (
         <li>
@@ -34,29 +28,25 @@ const paginationPlaceholderClass = 'inline-block min-w-[6.5rem]'
 
   <slot name="footer" />
 
-  <nav class={paginationClass} aria-label="Навигация по страницам">
+  <nav class="list-pagination" aria-label="Навигация по страницам">
     {
-      before && beforeCursor > 1 ? (
-        <a href={`${SITE_URL}before/${beforeCursor}`} title="Назад" class={paginationLinkClass}>
+      before && beforeCursor ? (
+        <a href={`${paginationBase}before/${beforeCursor}/`} title="Назад" class="list-pagination__link">
           Назад
         </a>
       ) : (
-        <span class={paginationPlaceholderClass} aria-hidden="true">
-          &nbsp;
-        </span>
+        <span class="list-pagination__spacer">&nbsp;</span>
       )
     }
 
-    <div class={paginationInfoClass}></div>
+    <div class="list-pagination__spacer"></div>
     {
       after && afterCursor ? (
-        <a href={`${SITE_URL}after/${afterCursor}`} title="Дальше" class={paginationLinkClass}>
+        <a href={`${paginationBase}after/${afterCursor}/`} title="Дальше" class="list-pagination__link">
           Дальше
         </a>
       ) : (
-        <span class={paginationPlaceholderClass} aria-hidden="true">
-          &nbsp;
-        </span>
+        <span class="list-pagination__spacer">&nbsp;</span>
       )
     }
   </nav>

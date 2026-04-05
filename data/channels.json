@@ -179,6 +179,19 @@
       "enabled": true
     },
     {
+      "channel": "sotbi_law",
+      "title": "Сотби",
+      "category": "bankruptcy",
+      "group": "practical_law",
+      "topics": [
+        "bankruptcy",
+        "arbitration",
+        "courts"
+      ],
+      "priorityBoost": 1.8,
+      "enabled": true
+    },
+    {
       "channel": "fedresurs_insolvency",
       "title": "Fedresurs Insolvency",
       "category": "bankruptcy",

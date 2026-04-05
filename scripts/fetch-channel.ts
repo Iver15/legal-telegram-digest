@@ -41,6 +41,7 @@ import 'prismjs-components-importer/cjs/prism-lua'
 import type { ChannelDefinition, ChannelRegistry, Post, Reaction } from '../src/types'
 import { buildAllDigestPayloads, enrichLegalPost, normalizeChannelRegistry } from '../src/lib/legal'
 import { parseTelegramCounter } from '../src/lib/metrics'
+import { normalizePostContentMediaUrls } from '../src/lib/ui'
 
 // --- Types ---
 
@@ -67,6 +68,7 @@ const STATIC_PROXY = ''
 const DOWNLOAD_MEDIA = process.env.DOWNLOAD_MEDIA !== 'false'
 const MEDIA_DIR = resolve(__dirname, '..', 'public', 'media')
 const MEDIA_BASE_URL = 'media/'
+const PUBLIC_BASE_PATH = process.env.BASE_PATH || '/legal-telegram-digest/'
 
 // --- Media download ---
 
@@ -598,6 +600,11 @@ async function fetchChannelPosts(channelName: string, maxPages: number): Promise
       }
     }
   }
+
+  allFetchedPosts = allFetchedPosts.map(post => ({
+    ...post,
+    content: normalizePostContentMediaUrls(post.content, PUBLIC_BASE_PATH),
+  }))
 
   return { posts: allFetchedPosts, channel: channelInfo }
 }

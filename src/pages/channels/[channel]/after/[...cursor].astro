@@ -1,0 +1,46 @@
+---
+import type { GetStaticPaths } from 'astro'
+import List from '../../../../components/list.astro'
+import { getAllPosts, getAllChannels, getChannelData } from '../../../../lib/data'
+
+export const getStaticPaths: GetStaticPaths = () => {
+  return getAllPosts()
+    .filter((post) => post.channel)
+    .map((post) => ({
+      params: {
+        channel: post.channel!,
+        cursor: post.id,
+      },
+    }))
+}
+
+const channelName = Astro.params.channel || ''
+const cursor = Astro.params.cursor || ''
+const pageSize = 20
+const channelPosts = getAllPosts().filter((post) => post.channel === channelName)
+const cursorIndex = channelPosts.findIndex((post) => post.id === cursor)
+const channelMeta = getAllChannels().find((channel) => channel.name === channelName)
+const channel = getChannelData({ channel: channelName, after: cursor })
+const displayTitle = channelMeta?.title || `@${channelName}`
+const postCount = channelMeta?.postCount ?? 0
+const paginationBase = `${import.meta.env.BASE_URL ?? '/'}channels/${channelName}/`
+const hasOlder = cursorIndex !== -1
+const hasNewer = cursorIndex > pageSize
+
+channel.title = displayTitle
+channel.description = `Посты канала @${channelName}`
+channel.descriptionHTML = `<p>Лента канала <strong>@${channelName}</strong>${postCount > 0 ? ` · ${postCount} постов в архиве` : ''}.</p>`
+channel.avatar = channelMeta?.avatar
+channel.seo = {
+  title: `${displayTitle} (@${channelName})`,
+  noindex: true,
+}
+---
+
+<List
+  channel={channel}
+  after={hasNewer}
+  before={hasOlder}
+  paginationBase={paginationBase}
+  pageHeading={`Канал: @${channelName}`}
+/>

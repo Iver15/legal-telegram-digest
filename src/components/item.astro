@@ -31,91 +31,64 @@ const viewCount = post.viewCount
 const engagementRate = post.engagementRate
 const hasSignals = reactionCount > 0 || Boolean(viewCount) || typeof engagementRate === 'number'
 const channelAvatar = post.channelAvatar
+const isNew = datetime.isAfter(dayjs().subtract(3, 'h'))
 const wordCount = (post.text || '').split(/\s+/).filter(Boolean).length
 const readingMinutes = Math.max(1, Math.round(wordCount / 200))
-const isNew = datetime.isAfter(dayjs().subtract(3, 'h'))
+
+const priorityLevel = priorityScore >= 7 ? 'high' : priorityScore >= 4 ? 'medium' : ''
 ---
 
-<article
-  class:list={[
-    'post-card transition duration-200',
-    collapsible && 'post-card--collapsible',
-    priorityScore >= 7 && 'post-card--high-priority',
-  ]}
-  style={{ 'view-transition-name': `post-${post.id}` }}
->
-  <header class="post-card__header">
-    <div class="flex min-w-0 items-start gap-3">
+<article class="feed-item-card" style={{ 'view-transition-name': `post-${post.id}` }}>
+  <!-- Header row: avatar + channel + time + badges + actions -->
+  <div class="feed-item-card__header">
+    {
+      channelAvatar && (
+        <img
+          src={channelAvatar}
+          alt={post.channelTitle || post.channel}
+          class="feed-item-card__avatar"
+          loading="lazy"
+          width="28"
+          height="28"
+        />
+      )
+    }
+    <div class="feed-item-card__meta">
+      <span class="feed-item-card__source">@{post.channel}</span>
+      <span class="feed-item-card__time">{timeago}</span>
+      <span class="feed-item-card__time">· {readingMinutes} мин</span>
+      {isNew && <span class="badge badge--new">new</span>}
       {
-        channelAvatar && (
-          <img
-            src={channelAvatar}
-            alt={post.channelTitle || post.channel || 'Канал'}
-            class="mt-0.5 h-11 w-11 shrink-0 rounded-full border border-line object-cover shadow-soft"
-            loading="lazy"
-            width="44"
-            height="44"
-          />
+        post.category && (
+          <span class="badge" data-cat={post.category}>
+            {post.category}
+          </span>
         )
       }
-      <div class="min-w-0 flex-1">
-        <div class="post-card__channel-line">
-          <span class="post-card__channel-title">{post.channelTitle || 'Канал'}</span>
-          {post.channel && <span class="post-card__channel-handle">@{post.channel}</span>}
-        </div>
-        <div class="mt-1.5 flex flex-wrap items-center gap-2 text-[12px] text-dim">
-          <span>{timeago}</span>
-          <span>· {readingMinutes} мин</span>
-          {isNew && <span class="badge badge--new">new</span>}
-          {
-            post.category && (
-              <span class="badge" data-cat={post.category}>
-                {post.category}
-              </span>
-            )
-          }
-        </div>
-      </div>
-    </div>
-    <div class="post-card__actions">
-      <a href={`${SITE_URL}posts/${post.id}`} title="Открыть карточку поста" class="post-card__telegram badge">читать</a
-      >
-      <a
-        href={tgLink}
-        target="_blank"
-        rel="noopener noreferrer"
-        title="Открыть в Telegram"
-        class="post-card__telegram badge"
-      >
-        Telegram
-      </a>
-    </div>
-  </header>
-
-  {
-    (post.category || legalTopics.length > 0 || priorityScore > 0) && (
-      <div class="post-card__meta">
-        {legalTopics.slice(0, 4).map((topic) => (
-          <span class="badge">#{topic}</span>
-        ))}
-        {priorityScore > 0 && (
+      {
+        priorityScore > 0 && (
           <span
             class:list={[
               'priority-badge',
-              priorityScore >= 7 && 'priority-badge--high',
-              priorityScore >= 4 && priorityScore < 7 && 'priority-badge--medium',
+              priorityLevel === 'high' && 'priority-badge--high',
+              priorityLevel === 'medium' && 'priority-badge--medium',
             ]}
           >
             {priorityScore.toFixed(1)}
           </span>
-        )}
-      </div>
-    )
-  }
+        )
+      }
+    </div>
+    <div class="feed-item-card__actions">
+      <a href={`${SITE_URL}posts/${post.id}/`} class="badge">читать</a>
+      <a href={tgLink} target="_blank" rel="noopener noreferrer" class="badge">Telegram</a>
+    </div>
+  </div>
 
+  <!-- Signals -->
   {
     hasSignals && (
-      <div class="post-card__signals-bar">
+      <div class="feed-item-card__signals">
         {typeof viewCount === 'number' && (
           <span class="signal-chip signal-chip--views">
             <Icon name="ri:eye-line" class="signal-chip__icon" />
@@ -138,75 +111,68 @@ const isNew = datetime.isAfter(dayjs().subtract(3, 'h'))
     )
   }
 
+  <!-- Full content (HTML preserved from source) -->
   {
     collapsible ? (
       <>
-        <div class="post-card__preview text-[15px] leading-[1.75] text-body">{summary}</div>
+        <div class="feed-item-card__body">{summary}</div>
         {hasContent && (
-          <details class="post-card__details">
-            <summary class="post-card__summary-toggle">Развернуть полностью</summary>
-            <div class="post-card__details-content content" set:html={post.content} />
+          <details class="feed-item-card__details">
+            <summary class="feed-item-card__toggle">Развернуть полностью</summary>
+            <div class="feed-item-card__body content" set:html={post.content} />
           </details>
         )}
       </>
     ) : hasContent ? (
-      <div
-        class:list={['post-card__body content', !hasReactions && !hasTags && !COMMENTS && !hasSignals && 'pb-6']}
-        set:html={post.content}
-      />
+      <div class="feed-item-card__body content" set:html={post.content} />
     ) : (
-      <div class="post-card__body pt-3 text-[15px] leading-[1.7] text-dim">{summary}</div>
+      <div class="feed-item-card__body">{summary}</div>
     )
   }
 
+  <!-- Reactions -->
   {
     hasReactions && (
-      <div class="post-card__footer pt-0">
+      <div class="feed-item-card__footer">
         {post.reactions.map((reaction) => (
-          <span
-            class:list={[
-              'inline-flex items-center gap-1 rounded-full border border-line bg-code px-2.5 py-1 text-[12px] text-muted',
-              reaction.isPaid && 'border-[rgba(255,196,0,0.35)] bg-[rgba(255,196,0,0.12)] text-[#9a6a00]',
-            ]}
-          >
-            <span class="inline-flex items-center text-[14px] leading-none">
-              {reaction.isPaid ? (
-                '\u2B50'
-              ) : reaction.emojiImage ? (
-                <img
-                  src={reaction.emojiImage}
-                  alt={reaction.emoji || 'emoji'}
-                  loading="lazy"
-                  width="20"
-                  height="20"
-                  class="block h-[1em] w-[1em]"
-                />
-              ) : (
-                reaction.emoji
-              )}
-            </span>
-            <span class="font-medium opacity-80 [font-variant-numeric:tabular-nums]">{reaction.count}</span>
+          <span class="badge">
+            {reaction.isPaid ? (
+              '\u2B50'
+            ) : reaction.emojiImage ? (
+              <img
+                src={reaction.emojiImage}
+                alt={reaction.emoji || 'emoji'}
+                loading="lazy"
+                width="16"
+                height="16"
+                style="width:1em;height:1em;vertical-align:-0.15em;"
+              />
+            ) : (
+              reaction.emoji
+            )}
+            {reaction.count}
           </span>
         ))}
       </div>
     )
   }
 
+  <!-- Tags -->
   {
     hasTags && (
-      <footer class="post-card__footer pt-0">
+      <div class="feed-item-card__footer">
         {post.tags.map((tag) => (
-          <a href={`${SITE_URL}search/%23${tag}`} title={tag} class="badge hover:no-underline">
+          <a href={`${SITE_URL}search/%23${tag}/`} class="badge">
             {tag}
           </a>
         ))}
-      </footer>
+      </div>
     )
   }
 
   {
     COMMENTS && isItem && (
-      <section class="post-card__body pt-0" aria-label="Comments">
+      <section class="feed-item-card__body" aria-label="Comments">
         <script
           is:inline
           async

@@ -1,11 +1,27 @@
 ---
 import type { GetStaticPaths } from 'astro'
 import List from '../../components/list.astro'
-import { getAllTags, getChannelData } from '../../lib/data'
+import { getAllChannels, getAllTags, getChannelData } from '../../lib/data'
 
 export const getStaticPaths: GetStaticPaths = () => {
   const tags = getAllTags()
-  return tags.flatMap((tag) => [{ params: { q: `#${tag}` } }, { params: { q: tag } }, { params: { q: `%23${tag}` } }])
+  const channels = getAllChannels()
+    .map((channel) => channel.name)
+    .filter(Boolean)
+
+  const entries = new Set<string>()
+
+  for (const tag of tags) {
+    entries.add(`#${tag}`)
+    entries.add(tag)
+    entries.add(`%23${tag}`)
+  }
+
+  for (const channel of channels) {
+    entries.add(channel)
+  }
+
+  return Array.from(entries).map((q) => ({ params: { q } }))
 }
 
 const q = decodeURIComponent(Astro.params.q || '')
