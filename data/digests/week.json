@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-05T13:43:49.020Z",
+  "generatedAt": "2026-04-05T14:23:21.884Z",
   "totalPosts": 295,
   "topPosts": [
     {
@@ -37,7 +37,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 926,
+      "viewCount": 929,
       "tgLink": "https://t.me/probankrotstvoru/9528",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -52,17 +52,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 37.22,
+      "priorityScore": 37.14,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 926 просмотров"
+        "Охват в Telegram Web: 929 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеКоллизия в законодательстве о банкротстве: разрешить ее может только Верховный СудРеальная проблема заключается не в теорети",
       "reactionCount": 7,
-      "engagementRate": 0.00755939524838013
+      "engagementRate": 0.007534983853606028
     },
     {
       "id": "probankrotstvoru/9499",
@@ -238,7 +238,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 977,
+      "viewCount": 979,
       "tgLink": "https://t.me/probankrotstvoru/9523",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -259,12 +259,12 @@
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 977 просмотров",
+        "Охват в Telegram Web: 979 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: пропуск срока на исполнение не лишает права на субсидиарный искОбщество «Терра» не исполнило обязательства по госконтракту перед ФТС России и в 2017 году суд взыскал с общества 291,7 тыс. рублей неустойки. Испо",
       "reactionCount": 15,
-      "engagementRate": 0.015353121801432957
+      "engagementRate": 0.015321756894790603
     },
     {
       "id": "BankruptcyClub/991",
@@ -529,7 +529,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2820,
+      "viewCount": 2830,
       "tgLink": "https://t.me/probankrotstvoru/9508",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -550,11 +550,11 @@
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 2820 просмотров"
+        "Охват в Telegram Web: 2830 просмотров"
       ],
       "digestSummary": "Ошибки арбитражных управляющих, которые могут привести к дисквалификацииДисквалификация арбитражного управляющего сегодня перестала быть исключительной мерой за грубые нарушения. Судебная практика показывает, что «тригге",
       "reactionCount": 15,
-      "engagementRate": 0.005319148936170213
+      "engagementRate": 0.00530035335689046
     },
     {
       "id": "probankrotstvoru/9485",
@@ -705,7 +705,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 297,
+      "viewCount": 298,
       "tgLink": "https://t.me/tgnspau/1309",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -719,18 +719,18 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 31.01,
+      "priorityScore": 30.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 297 просмотров",
+        "Охват в Telegram Web: 298 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "ФНС в банкротстве: эволюция привилегий.2. апреля в Финансовом университете при Правительстве РФ в Москве прошел Банкротный день в рамках Международного налогового форума.С докладом в числе других уважаемых экспертов выст",
       "reactionCount": 4,
-      "engagementRate": 0.013468013468013467
+      "engagementRate": 0.013422818791946308
     }
   ],
   "topTopics": [
@@ -742,22 +742,22 @@
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 232
+      "count": 233
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 224
+      "count": 223
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 210
+      "count": 211
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 138
+      "count": 137
     },
     {
       "id": "tax",
@@ -767,7 +767,7 @@
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 55
+      "count": 56
     }
   ],
   "topChannels": [
@@ -779,7 +779,7 @@
     {
       "channel": "orpauradio",
       "title": "Первый радиоканал АУ и юристов",
-      "count": 31
+      "count": 30
     },
     {
       "channel": "corplawpro",
