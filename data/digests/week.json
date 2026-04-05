@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-05T15:30:14.726Z",
-  "totalPosts": 298,
+  "generatedAt": "2026-04-05T15:38:19.966Z",
+  "totalPosts": 297,
   "topPosts": [
     {
       "id": "probankrotstvoru/9528",
@@ -52,7 +52,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 36.99,
+      "priorityScore": 36.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -293,7 +293,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 432,
+      "viewCount": 433,
       "tgLink": "https://t.me/BankruptcyClub/991",
       "channel": "BankruptcyClub",
       "channelTitle": "Банкротный Клуб",
@@ -307,18 +307,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.57,
+      "priorityScore": 32.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 432 просмотров",
+        "Охват в Telegram Web: 433 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 5,
-      "engagementRate": 0.011574074074074073
+      "engagementRate": 0.011547344110854504
     },
     {
       "id": "bankrovert/675",
@@ -735,7 +735,7 @@
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 236
+      "count": 235
     },
     {
       "id": "bankruptcy",
@@ -745,7 +745,7 @@
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 214
+      "count": 213
     },
     {
       "id": "enforcement",
@@ -760,7 +760,7 @@
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 56
+      "count": 55
     }
   ],
   "topChannels": [
