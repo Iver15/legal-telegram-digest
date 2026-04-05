@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-05T23:00:33.806Z",
+  "generatedAt": "2026-04-05T23:33:51.441Z",
   "totalPosts": 24,
   "topPosts": [
     {
@@ -30,7 +30,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 693,
+      "viewCount": 695,
       "tgLink": "https://t.me/probankrotstvoru/9532",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -42,17 +42,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.8,
+      "priorityScore": 26.73,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 693 просмотров"
+        "Охват в Telegram Web: 695 просмотров"
       ],
       "digestSummary": "Мартовский дайджест Весной даже время оттаяло и побежало быстрее: март промелькнул — моргнуть не успели. А что же мы успели сделать за этот месяц в канале?Посмотреть в записи много полезных вебинаров. Защита прав кредито",
       "reactionCount": 4,
-      "engagementRate": 0.005772005772005772
+      "engagementRate": 0.0057553956834532375
     },
     {
       "id": "vZone1413/8822",
@@ -80,7 +80,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 414,
+      "viewCount": 421,
       "tgLink": "https://t.me/vZone1413/8822",
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
@@ -93,17 +93,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 24.96,
+      "priorityScore": 24.88,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 414 просмотров"
+        "Охват в Telegram Web: 421 просмотров"
       ],
       "digestSummary": "Суд - АУ предоставлено право на получение информации в отношении принадлежащих соответствующему должнику объектов движимого и недвижимого имущества. Для проведения всего комплекса мероприятий по формированию КМ управляющ",
       "reactionCount": 2,
-      "engagementRate": 0.004830917874396135
+      "engagementRate": 0.004750593824228029
     },
     {
       "id": "orpauradio/9284",
@@ -118,8 +118,14 @@
       ],
       "text": "План реструктуризации долгов гражданина: последствия исполнения и судьба непогашенного остатка (Верховный Суд РФ)https://zakon.ru/blog/2026/04/02/plan_restrukturizacii_dolgov_grazhdanina_posledstviya_ispolneniya_i_sudba_nepogashennogo_ostatka_ver",
       "content": "<p>План реструктуризации долгов гражданина: последствия исполнения и судьба непогашенного остатка (Верховный Суд РФ)<br><a href=\"https://zakon.ru/blog/2026/04/02/plan_restrukturizacii_dolgov_grazhdanina_posledstviya_ispolneniya_i_sudba_nepogashennogo_ostatka_ver\" target=\"_blank\" rel=\"noopener\" title=\"https://zakon.ru/blog/2026/04/02/plan_restrukturizacii_dolgov_grazhdanina_posledstviya_ispolneniya_i_sudba_nepogashennogo_ostatka_ver\">https://zakon.ru/blog/2026/04/02/plan_restrukturizacii_dolgov_grazhdanina_posledstviya_ispolneniya_i_sudba_nepogashennogo_ostatka_ver</a></p>",
-      "reactions": [],
-      "viewCount": 693,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "1",
+          "isPaid": false
+        }
+      ],
+      "viewCount": 708,
       "tgLink": "https://t.me/orpauradio/9284",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -131,17 +137,17 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 23.9,
+      "priorityScore": 24.13,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 693 просмотров"
+        "Охват в Telegram Web: 708 просмотров"
       ],
       "digestSummary": "План реструктуризации долгов гражданина: последствия исполнения и судьба непогашенного остатка (Верховный Суд РФ)https://zakon.ru/blog/2026/04/02/plan_restrukturizacii_dolgov_grazhdanina_posledstviya_ispolneniya_i_sudba_",
-      "reactionCount": 0,
-      "engagementRate": 0
+      "reactionCount": 1,
+      "engagementRate": 0.0014124293785310734
     },
     {
       "id": "probankrotstvoru/9530",
@@ -173,7 +179,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 734,
+      "viewCount": 735,
       "tgLink": "https://t.me/probankrotstvoru/9530",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -185,17 +191,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 23.15,
+      "priorityScore": 23.09,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 734 просмотров"
+        "Охват в Telegram Web: 735 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС разберется в конкуренции покупателей требований о субсидиарной ответственностиСуды признали автоматический переход требования из субсидиарной ответственн",
       "reactionCount": 4,
-      "engagementRate": 0.005449591280653951
+      "engagementRate": 0.005442176870748299
     },
     {
       "id": "vZone1413/8819",
@@ -211,7 +217,7 @@
       "text": "12ААС - Судом первой инстанции обоснованно указано, что вменяемое ФУ правонарушение является малозначительным, поскольку не содержит какой-либо угрозы охраняемым общественным отношениям; не причинило вреда интересам граждан, общества и государства; не повлекло неблагоприятных последствий; не привело к затягиванию процедуры банкротства, нарушения прав должника и кредиторов не допущено.Саратов А12-32896/2025 03.04.26г.",
       "content": "<p>12ААС - Судом первой инстанции обоснованно указано, что вменяемое ФУ правонарушение является малозначительным, поскольку не содержит какой-либо угрозы охраняемым общественным отношениям; не причинило вреда интересам граждан, общества и государства; не повлекло неблагоприятных последствий; не привело к затягиванию процедуры банкротства, нарушения прав должника и кредиторов не допущено.<br>Саратов <a href=\"https://ras.arbitr.ru/Document/Pdf/92e7e609-15fa-41b6-b98a-9fa71ed83976/50b63c59-e13f-45ce-92ab-8abe8803846e/%D0%9012-32896-2025__20260403.pdf?isAddStamp=True\" target=\"_blank\" rel=\"noopener\" title=\"А12-32896/2025\">А12-32896/2025</a> 03.04.26г.</p>",
       "reactions": [],
-      "viewCount": 336,
+      "viewCount": 341,
       "tgLink": "https://t.me/vZone1413/8819",
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
@@ -223,13 +229,13 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 20.65,
+      "priorityScore": 20.58,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 336 просмотров"
+        "Охват в Telegram Web: 341 просмотров"
       ],
       "digestSummary": "12ААС - Судом первой инстанции обоснованно указано, что вменяемое ФУ правонарушение является малозначительным, поскольку не содержит какой-либо угрозы охраняемым общественным отношениям; не причинило вреда интересам граж",
       "reactionCount": 0,
@@ -247,8 +253,14 @@
       ],
       "text": "Субсидиарная ответственность как инструмент взыскания в банкротстве: тенденции и возможности экспертизыhttps://zakon.ru/blog/2026/4/1/subsidiarnaya_otvetstvennost_kak_instrument_vzyskaniya_v_bankrotstve_tendencii_i_vozmozhnosti_eksper",
       "content": "<p>Субсидиарная ответственность как инструмент взыскания в банкротстве: тенденции и возможности экспертизы<br><a href=\"https://zakon.ru/blog/2026/4/1/subsidiarnaya_otvetstvennost_kak_instrument_vzyskaniya_v_bankrotstve_tendencii_i_vozmozhnosti_eksper\" target=\"_blank\" rel=\"noopener\" title=\"https://zakon.ru/blog/2026/4/1/subsidiarnaya_otvetstvennost_kak_instrument_vzyskaniya_v_bankrotstve_tendencii_i_vozmozhnosti_eksper\">https://zakon.ru/blog/2026/4/1/subsidiarnaya_otvetstvennost_kak_instrument_vzyskaniya_v_bankrotstve_tendencii_i_vozmozhnosti_eksper</a></p>",
-      "reactions": [],
-      "viewCount": 696,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "1",
+          "isPaid": false
+        }
+      ],
+      "viewCount": 712,
       "tgLink": "https://t.me/orpauradio/9285",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -259,17 +271,17 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 20.2,
+      "priorityScore": 20.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Исполнение",
-        "Охват в Telegram Web: 696 просмотров"
+        "Охват в Telegram Web: 712 просмотров"
       ],
       "digestSummary": "Субсидиарная ответственность как инструмент взыскания в банкротстве: тенденции и возможности экспертизыhttps://zakon.ru/blog/2026/4/1/subsidiarnaya_otvetstvennost_kak_instrument_vzyskaniya_v_bankrotstve_tendencii_i_vozmo",
-      "reactionCount": 0,
-      "engagementRate": 0
+      "reactionCount": 1,
+      "engagementRate": 0.0014044943820224719
     },
     {
       "id": "disputesandsanctions/2420",
@@ -290,7 +302,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 150,
+      "viewCount": 151,
       "tgLink": "https://t.me/disputesandsanctions/2420",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -301,17 +313,17 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 19.65,
+      "priorityScore": 19.59,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 150 просмотров",
-        "Сильная отдача аудитории: 4,7% реакций к просмотрам"
+        "Охват в Telegram Web: 151 просмотров",
+        "Сильная отдача аудитории: 4,6% реакций к просмотрам"
       ],
       "digestSummary": "Воскресное - Испано-французский поцелуйПока в других пабликах обсуждается вопрос о том насколько поцелуй руки, \"насильно данный\", можно рассматривать как насилие в половой сфере, вспоминается ровно обратный случай.Так по",
       "reactionCount": 7,
-      "engagementRate": 0.04666666666666667
+      "engagementRate": 0.046357615894039736
     },
     {
       "id": "bankruptcyboutique/545",
@@ -339,7 +351,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 19.35,
+      "priorityScore": 19.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -381,7 +393,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 422,
+      "viewCount": 428,
       "tgLink": "https://t.me/vZone1413/8821",
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
@@ -393,16 +405,16 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 18.11,
+      "priorityScore": 18.03,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 422 просмотров"
+        "Охват в Telegram Web: 428 просмотров"
       ],
       "digestSummary": "Суд - Признать незаконным письмо УМВД РФ от 29.01.2026 с отказом в предоставлении сведений в отношении авто. Взыскать с МВД в пользу АУ 10 т.р. госпошлины.Томск А67-710/2026 31.03.26г.",
       "reactionCount": 4,
-      "engagementRate": 0.009478672985781991
+      "engagementRate": 0.009345794392523364
     },
     {
       "id": "vZone1413/8815",
@@ -423,7 +435,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 393,
+      "viewCount": 396,
       "tgLink": "https://t.me/vZone1413/8815",
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
@@ -434,16 +446,16 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 17.72,
+      "priorityScore": 17.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 393 просмотров"
+        "Охват в Telegram Web: 396 просмотров"
       ],
       "digestSummary": "12.04.2023г. Образцова И.Л. заключила договор оказания юридических услуг с ООО \"СПБАУ\". Генеральным директором которого является Степанов Р.С. 20.10.2023г. Образцова И.Л. признана банкротом, и в отношении неё введена про",
       "reactionCount": 1,
-      "engagementRate": 0.002544529262086514
+      "engagementRate": 0.0025252525252525255
     },
     {
       "id": "vZone1413/8814",
@@ -464,7 +476,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 427,
+      "viewCount": 431,
       "tgLink": "https://t.me/vZone1413/8814",
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
@@ -475,16 +487,16 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 17.69,
+      "priorityScore": 17.62,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 427 просмотров"
+        "Охват в Telegram Web: 431 просмотров"
       ],
       "digestSummary": "15ААС - По общему правилу в силу п.4 ст.20.3 ЗОБа при проведении процедур, применяемых в деле о банкротстве, АУ обязан действовать добросовестно и разумно в интересах должника, кредиторов и общества. Применительно к деят",
       "reactionCount": 1,
-      "engagementRate": 0.00234192037470726
+      "engagementRate": 0.002320185614849188
     },
     {
       "id": "vZone1413/8823",
@@ -511,7 +523,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 408,
+      "viewCount": 413,
       "tgLink": "https://t.me/vZone1413/8823",
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
@@ -523,16 +535,16 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 17.27,
+      "priorityScore": 17.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 408 просмотров"
+        "Охват в Telegram Web: 413 просмотров"
       ],
       "digestSummary": "Суд - ФУ посредством использования интернет-приемной обратился в ГИБДД с запросом от 23.01.2026 о предоставлении информации: - о транспортных средствах, зарегистрированных на Должника; - о наличии арестов, залогов, иных ",
       "reactionCount": 2,
-      "engagementRate": 0.004901960784313725
+      "engagementRate": 0.004842615012106538
     }
   ],
   "topTopics": [

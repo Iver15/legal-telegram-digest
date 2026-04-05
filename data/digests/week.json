@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-05T23:00:33.807Z",
+  "generatedAt": "2026-04-05T23:33:51.442Z",
   "totalPosts": 307,
   "topPosts": [
     {
@@ -124,7 +124,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 36.02,
+      "priorityScore": 35.95,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
