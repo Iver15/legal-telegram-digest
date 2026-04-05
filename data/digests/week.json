@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-05T22:24:28.242Z",
-  "totalPosts": 306,
+  "generatedAt": "2026-04-05T23:00:33.807Z",
+  "totalPosts": 307,
   "topPosts": [
     {
       "id": "probankrotstvoru/9499",
@@ -124,7 +124,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 36.09,
+      "priorityScore": 36.02,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -411,7 +411,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2820,
+      "viewCount": 2830,
       "tgLink": "https://t.me/legally_bald/1131",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -431,11 +431,11 @@
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 2820 просмотров"
+        "Охват в Telegram Web: 2830 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 8,
-      "engagementRate": 0.0028368794326241137
+      "engagementRate": 0.0028268551236749115
     },
     {
       "id": "probankrotstvoru/9496",
@@ -740,7 +740,7 @@
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 235
+      "count": 236
     },
     {
       "id": "ai_law",
@@ -750,7 +750,7 @@
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 138
+      "count": 139
     },
     {
       "id": "tax",
@@ -772,7 +772,7 @@
     {
       "channel": "orpauradio",
       "title": "Первый радиоканал АУ и юристов",
-      "count": 29
+      "count": 30
     },
     {
       "channel": "vZone1413",
