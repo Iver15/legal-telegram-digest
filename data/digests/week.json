@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-06T00:01:57.187Z",
-  "totalPosts": 307,
+  "generatedAt": "2026-04-06T02:17:47.332Z",
+  "totalPosts": 309,
   "topPosts": [
     {
       "id": "probankrotstvoru/9499",
@@ -109,7 +109,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 989,
+      "viewCount": 994,
       "tgLink": "https://t.me/probankrotstvoru/9528",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -124,17 +124,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 35.89,
+      "priorityScore": 35.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 989 просмотров"
+        "Охват в Telegram Web: 994 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеКоллизия в законодательстве о банкротстве: разрешить ее может только Верховный СудРеальная проблема заключается не в теорети",
       "reactionCount": 7,
-      "engagementRate": 0.007077856420626896
+      "engagementRate": 0.007042253521126761
     },
     {
       "id": "probankrotstvoru/9493",
@@ -411,7 +411,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2830,
+      "viewCount": 2840,
       "tgLink": "https://t.me/legally_bald/1131",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -425,17 +425,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32,
+      "priorityScore": 31.99,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 2830 просмотров"
+        "Охват в Telegram Web: 2840 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 8,
-      "engagementRate": 0.0028268551236749115
+      "engagementRate": 0.0028169014084507044
     },
     {
       "id": "probankrotstvoru/9496",
@@ -529,7 +529,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2870,
+      "viewCount": 2880,
       "tgLink": "https://t.me/probankrotstvoru/9508",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -550,11 +550,11 @@
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 2870 просмотров"
+        "Охват в Telegram Web: 2880 просмотров"
       ],
       "digestSummary": "Ошибки арбитражных управляющих, которые могут привести к дисквалификацииДисквалификация арбитражного управляющего сегодня перестала быть исключительной мерой за грубые нарушения. Судебная практика показывает, что «тригге",
       "reactionCount": 15,
-      "engagementRate": 0.005226480836236934
+      "engagementRate": 0.005208333333333333
     },
     {
       "id": "probankrotstvoru/9485",
@@ -642,7 +642,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1070,
+      "viewCount": 1080,
       "tgLink": "https://t.me/orpauradio/9275",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -662,11 +662,11 @@
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1070 просмотров"
+        "Охват в Telegram Web: 1080 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 2,
-      "engagementRate": 0.001869158878504673
+      "engagementRate": 0.001851851851851852
     },
     {
       "id": "subsidiarka_kdl/4417",
@@ -730,22 +730,22 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 258
+      "count": 257
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 246
+      "count": 248
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 236
+      "count": 238
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 222
+      "count": 223
     },
     {
       "id": "enforcement",
@@ -777,7 +777,7 @@
     {
       "channel": "vZone1413",
       "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 20
+      "count": 22
     },
     {
       "channel": "corplawpro",
