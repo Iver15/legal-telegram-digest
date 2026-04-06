@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-06T23:00:22.326Z",
+  "generatedAt": "2026-04-06T23:32:19.886Z",
   "totalPosts": 300,
   "topPosts": [
     {
@@ -46,7 +46,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 818,
+      "viewCount": 820,
       "tgLink": "https://t.me/probankrotstvoru/9540",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -60,19 +60,19 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 37.46,
+      "priorityScore": 37.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 818 просмотров",
+        "Охват в Telegram Web: 820 просмотров",
         "Сильная отдача аудитории: 2,3% реакций к просмотрам"
       ],
       "digestSummary": "2 апреля прошел «Банкротный день» в рамках Международного налогового форума — и стало окончательно понятно: правила игры изменились.Сегодня банкротство — точка, где сходятся: налоговые споры интересы государства ответств",
       "reactionCount": 19,
-      "engagementRate": 0.023227383863080684
+      "engagementRate": 0.023170731707317073
     },
     {
       "id": "probankrotstvoru/9499",
@@ -179,7 +179,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1230,
+      "viewCount": 1240,
       "tgLink": "https://t.me/probankrotstvoru/9528",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -194,17 +194,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 34.94,
+      "priorityScore": 34.93,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 1230 просмотров"
+        "Охват в Telegram Web: 1240 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеКоллизия в законодательстве о банкротстве: разрешить ее может только Верховный СудРеальная проблема заключается не в теорети",
       "reactionCount": 9,
-      "engagementRate": 0.007317073170731708
+      "engagementRate": 0.007258064516129033
     },
     {
       "id": "probankrotstvoru/9493",
@@ -330,7 +330,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.65,
+      "priorityScore": 33.59,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -453,7 +453,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 33.46,
+      "priorityScore": 33.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -548,7 +548,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 188,
+      "viewCount": 189,
       "tgLink": "https://t.me/bankrovert/675",
       "channel": "bankrovert",
       "channelTitle": "Банкроверт",
@@ -562,18 +562,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.19,
+      "priorityScore": 32.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 188 просмотров",
+        "Охват в Telegram Web: 189 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 3,
-      "engagementRate": 0.015957446808510637
+      "engagementRate": 0.015873015873015872
     },
     {
       "id": "legally_bald/1131",
@@ -741,7 +741,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.69,
+      "priorityScore": 31.63,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
