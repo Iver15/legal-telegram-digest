@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-06T21:35:20.600Z",
+  "generatedAt": "2026-04-06T22:04:49.651Z",
   "totalPosts": 23,
   "topPosts": [
     {
@@ -47,7 +47,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.51,
+      "priorityScore": 25.45,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -86,7 +86,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 855,
+      "viewCount": 857,
       "tgLink": "https://t.me/vZone1413/8822",
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
@@ -99,17 +99,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 22.27,
+      "priorityScore": 22.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 855 просмотров"
+        "Охват в Telegram Web: 857 просмотров"
       ],
       "digestSummary": "Суд - АУ предоставлено право на получение информации в отношении принадлежащих соответствующему должнику объектов движимого и недвижимого имущества. Для проведения всего комплекса мероприятий по формированию КМ управляющ",
       "reactionCount": 3,
-      "engagementRate": 0.0035087719298245615
+      "engagementRate": 0.003500583430571762
     },
     {
       "id": "probankrotstvoru/9530",
@@ -153,7 +153,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 21.71,
+      "priorityScore": 21.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -198,7 +198,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 21.45,
+      "priorityScore": 21.39,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -236,7 +236,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 17.98,
+      "priorityScore": 17.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -278,7 +278,7 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 17.76,
+      "priorityScore": 17.7,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -325,7 +325,7 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 17.55,
+      "priorityScore": 17.48,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -364,7 +364,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 16.6,
+      "priorityScore": 16.54,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -410,7 +410,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 595,
+      "viewCount": 596,
       "tgLink": "https://t.me/vZone1413/8815",
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
@@ -421,16 +421,16 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 15.91,
+      "priorityScore": 15.84,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 595 просмотров"
+        "Охват в Telegram Web: 596 просмотров"
       ],
       "digestSummary": "12.04.2023г. Образцова И.Л. заключила договор оказания юридических услуг с ООО \"СПБАУ\". Генеральным директором которого является Степанов Р.С. 20.10.2023г. Образцова И.Л. признана банкротом, и в отношении неё введена про",
       "reactionCount": 4,
-      "engagementRate": 0.0067226890756302525
+      "engagementRate": 0.006711409395973154
     },
     {
       "id": "vZone1413/8814",
@@ -451,7 +451,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 655,
+      "viewCount": 656,
       "tgLink": "https://t.me/vZone1413/8814",
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
@@ -462,16 +462,16 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 15.2,
+      "priorityScore": 15.14,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 655 просмотров"
+        "Охват в Telegram Web: 656 просмотров"
       ],
       "digestSummary": "15ААС - По общему правилу в силу п.4 ст.20.3 ЗОБа при проведении процедур, применяемых в деле о банкротстве, АУ обязан действовать добросовестно и разумно в интересах должника, кредиторов и общества. Применительно к деят",
       "reactionCount": 2,
-      "engagementRate": 0.0030534351145038168
+      "engagementRate": 0.003048780487804878
     },
     {
       "id": "vZone1413/8821",
@@ -503,7 +503,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 888,
+      "viewCount": 889,
       "tgLink": "https://t.me/vZone1413/8821",
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
@@ -515,16 +515,16 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 15.07,
+      "priorityScore": 15.01,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 888 просмотров"
+        "Охват в Telegram Web: 889 просмотров"
       ],
       "digestSummary": "Суд - Признать незаконным письмо УМВД РФ от 29.01.2026 с отказом в предоставлении сведений в отношении авто. Взыскать с МВД в пользу АУ 10 т.р. госпошлины.Томск А67-710/2026 31.03.26г.",
       "reactionCount": 5,
-      "engagementRate": 0.00563063063063063
+      "engagementRate": 0.00562429696287964
     },
     {
       "id": "Compliance_Practice/3034",
@@ -593,7 +593,7 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 14.51,
+      "priorityScore": 14.44,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
