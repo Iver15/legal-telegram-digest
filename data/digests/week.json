@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-06T23:32:19.886Z",
+  "generatedAt": "2026-04-07T00:02:02.746Z",
   "totalPosts": 300,
   "topPosts": [
     {
@@ -46,7 +46,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 820,
+      "viewCount": 822,
       "tgLink": "https://t.me/probankrotstvoru/9540",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -60,19 +60,19 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 37.4,
+      "priorityScore": 37.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 820 просмотров",
+        "Охват в Telegram Web: 822 просмотров",
         "Сильная отдача аудитории: 2,3% реакций к просмотрам"
       ],
       "digestSummary": "2 апреля прошел «Банкротный день» в рамках Международного налогового форума — и стало окончательно понятно: правила игры изменились.Сегодня банкротство — точка, где сходятся: налоговые споры интересы государства ответств",
       "reactionCount": 19,
-      "engagementRate": 0.023170731707317073
+      "engagementRate": 0.023114355231143552
     },
     {
       "id": "probankrotstvoru/9499",
@@ -330,7 +330,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.59,
+      "priorityScore": 33.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -440,7 +440,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1110,
+      "viewCount": 1120,
       "tgLink": "https://t.me/probankrotstvoru/9535",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -453,19 +453,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 33.4,
+      "priorityScore": 33.32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 1110 просмотров",
+        "Охват в Telegram Web: 1120 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд рассмотрит влияние реформы СФР на очередность требований в банкротствеВ деле о банкротстве Николая Кудрявцева ФНС России потребовала включить в реестр недоимки по страховым взносам. Арбитражный суд Архангел",
       "reactionCount": 13,
-      "engagementRate": 0.011711711711711712
+      "engagementRate": 0.011607142857142858
     },
     {
       "id": "BankruptcyClub/991",
@@ -741,7 +741,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.63,
+      "priorityScore": 31.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",

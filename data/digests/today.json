@@ -1,8 +1,8 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-06T23:32:19.885Z",
-  "totalPosts": 41,
+  "generatedAt": "2026-04-07T00:02:02.745Z",
+  "totalPosts": 40,
   "topPosts": [
     {
       "id": "probankrotstvoru/9540",
@@ -46,7 +46,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 820,
+      "viewCount": 822,
       "tgLink": "https://t.me/probankrotstvoru/9540",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -60,19 +60,19 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 37.4,
+      "priorityScore": 37.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 820 просмотров",
+        "Охват в Telegram Web: 822 просмотров",
         "Сильная отдача аудитории: 2,3% реакций к просмотрам"
       ],
       "digestSummary": "2 апреля прошел «Банкротный день» в рамках Международного налогового форума — и стало окончательно понятно: правила игры изменились.Сегодня банкротство — точка, где сходятся: налоговые споры интересы государства ответств",
       "reactionCount": 19,
-      "engagementRate": 0.023170731707317073
+      "engagementRate": 0.023114355231143552
     },
     {
       "id": "probankrotstvoru/9537",
@@ -133,7 +133,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.59,
+      "priorityScore": 33.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -178,7 +178,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1110,
+      "viewCount": 1120,
       "tgLink": "https://t.me/probankrotstvoru/9535",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -191,19 +191,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 33.4,
+      "priorityScore": 33.32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 1110 просмотров",
+        "Охват в Telegram Web: 1120 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд рассмотрит влияние реформы СФР на очередность требований в банкротствеВ деле о банкротстве Николая Кудрявцева ФНС России потребовала включить в реестр недоимки по страховым взносам. Арбитражный суд Архангел",
       "reactionCount": 13,
-      "engagementRate": 0.011711711711711712
+      "engagementRate": 0.011607142857142858
     },
     {
       "id": "probankrotstvoru/9534",
@@ -249,7 +249,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.63,
+      "priorityScore": 31.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -301,7 +301,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 839,
+      "viewCount": 841,
       "tgLink": "https://t.me/corplawpro/5868",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -315,17 +315,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 29.95,
+      "priorityScore": 29.88,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 839 просмотров"
+        "Охват в Telegram Web: 841 просмотров"
       ],
       "digestSummary": "Удовлетворение требований участника общества о предоставлении документов признано преждевременным без проверки объективной возможности их передачи#корпоративные_спорыРаенко Н.В., являясь участником ООО «Элегант-Мода» с д",
       "reactionCount": 5,
-      "engagementRate": 0.0059594755661501785
+      "engagementRate": 0.005945303210463734
     },
     {
       "id": "sudpraktik_bankrot_demo/2608",
@@ -363,7 +363,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 29.4,
+      "priorityScore": 29.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -403,7 +403,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.3,
+      "priorityScore": 29.24,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -430,12 +430,12 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "161",
+          "count": "162",
           "isPaid": false
         },
         {
           "emoji": "👏",
-          "count": "19",
+          "count": "20",
           "isPaid": false
         },
         {
@@ -454,7 +454,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 9160,
+      "viewCount": 9210,
       "tgLink": "https://t.me/sovetsudey/843",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -465,19 +465,19 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.86,
+      "priorityScore": 28.8,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 203 реакций",
-        "Охват в Telegram Web: 9160 просмотров",
+        "Высокая вовлечённость: 205 реакций",
+        "Охват в Telegram Web: 9210 просмотров",
         "Сильная отдача аудитории: 2,2% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд РФ напомнил, что потребитель вправе сам выбирать суд для защиты своих прав. Покупательница квартиры подала иск к застройщику по месту жительства, однако первая инстанция вернула заявление, сославшись на усл",
-      "reactionCount": 203,
-      "engagementRate": 0.022161572052401747
+      "reactionCount": 205,
+      "engagementRate": 0.02225841476655809
     },
     {
       "id": "probankrotstvoru/9539",
@@ -510,7 +510,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 872,
+      "viewCount": 875,
       "tgLink": "https://t.me/probankrotstvoru/9539",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -523,18 +523,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.85,
+      "priorityScore": 28.78,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 872 просмотров",
+        "Охват в Telegram Web: 875 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд проверит, сохраняется ли ипотека при перестройке заложенного зданияВ 2013 году украинский «Банк Форум» выдал кредит обществу «Золотой Экватор», обеспеченный ипотекой на автозаправочную станцию в Крыму, прин",
       "reactionCount": 10,
-      "engagementRate": 0.011467889908256881
+      "engagementRate": 0.011428571428571429
     },
     {
       "id": "probankrotstvoru/9533",
@@ -583,7 +583,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 28.48,
+      "priorityScore": 28.42,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -625,7 +625,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 28.32,
+      "priorityScore": 28.26,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Арбитраж",
@@ -684,7 +684,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.86,
+      "priorityScore": 27.8,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -701,7 +701,7 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 34
+      "count": 33
     },
     {
       "id": "ai_law",
@@ -711,27 +711,27 @@
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 31
+      "count": 30
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 29
+      "count": 28
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 20
-    },
-    {
-      "id": "tax",
-      "label": "Налоги",
-      "count": 8
+      "count": 19
     },
     {
       "id": "compliance",
       "label": "Комплаенс",
       "count": 8
+    },
+    {
+      "id": "tax",
+      "label": "Налоги",
+      "count": 7
     }
   ],
   "topChannels": [
@@ -741,11 +741,6 @@
       "count": 8
     },
     {
-      "channel": "vZone1413",
-      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 4
-    },
-    {
       "channel": "subsidiarka_kdl",
       "title": "Субсидиарная ответственность • Case by Case",
       "count": 3
@@ -753,6 +748,11 @@
     {
       "channel": "sovetsudey",
       "title": "Верховный Суд России",
+      "count": 3
+    },
+    {
+      "channel": "vZone1413",
+      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
       "count": 3
     },
     {
