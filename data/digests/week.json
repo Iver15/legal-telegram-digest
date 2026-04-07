@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-07T20:42:38.278Z",
+  "generatedAt": "2026-04-07T21:34:13.202Z",
   "totalPosts": 291,
   "topPosts": [
     {
@@ -111,19 +111,19 @@
           "isPaid": false
         },
         {
-          "emoji": "👍",
-          "count": "1",
-          "isPaid": false
-        },
-        {
           "emoji": "",
           "emojiId": "5415620539513340005",
           "emojiImage": "https://t.me/i/emoji/5415620539513340005.webp",
+          "count": "2",
+          "isPaid": false
+        },
+        {
+          "emoji": "👍",
           "count": "1",
           "isPaid": false
         }
       ],
-      "viewCount": 55,
+      "viewCount": 56,
       "tgLink": "https://t.me/sotbi_law/162",
       "channel": "sotbi_law",
       "channelTitle": "Сотби",
@@ -137,18 +137,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.15,
+      "priorityScore": 35.14,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 55 просмотров",
-        "Сильная отдача аудитории: 14,5% реакций к просмотрам"
+        "Охват в Telegram Web: 56 просмотров",
+        "Сильная отдача аудитории: 16,1% реакций к просмотрам"
       ],
       "digestSummary": "Что предлагает новая реформа банкротства: комментарий партнера «Сотби» Антона Красникова для издания КоммерсантъВ деловом издании Коммерсантъ вышли два материала (первый и второй) с разбором реформы законодательства о ба",
-      "reactionCount": 8,
-      "engagementRate": 0.14545454545454545
+      "reactionCount": 9,
+      "engagementRate": 0.16071428571428573
     },
     {
       "id": "probankrotstvoru/9528",
@@ -266,7 +266,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 34.9,
+      "priorityScore": 34.79,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -308,7 +308,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 968,
+      "viewCount": 981,
       "tgLink": "https://t.me/subsidiarka_kdl/4436",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -322,17 +322,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 34.85,
+      "priorityScore": 34.74,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 968 просмотров"
+        "Охват в Telegram Web: 981 просмотров"
       ],
       "digestSummary": "Привлечение контролирующих лиц исключённого из ЕГРЮЛ общества к субсидиарной ответственности признано преждевременным без установления причин объективного банкротства и конкретных неправомерных действий каждого из ответч",
       "reactionCount": 2,
-      "engagementRate": 0.002066115702479339
+      "engagementRate": 0.0020387359836901123
     },
     {
       "id": "probankrotstvoru/9546",
@@ -365,7 +365,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 978,
+      "viewCount": 990,
       "tgLink": "https://t.me/probankrotstvoru/9546",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -378,19 +378,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.51,
+      "priorityScore": 34.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 978 просмотров",
+        "Охват в Telegram Web: 990 просмотров",
         "Сильная отдача аудитории: 1,8% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд защитил приобретателя, проверившего реестр залогов по доступным даннымОбщество «Банк \"Финансовая Корпорация Открытие\"» (правопреемник — общества «БМ-Банк») заключило с компанией «Кама-Грузовик» договор зало",
       "reactionCount": 18,
-      "engagementRate": 0.018404907975460124
+      "engagementRate": 0.01818181818181818
     },
     {
       "id": "probankrotstvoru/9547",
@@ -423,7 +423,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 891,
+      "viewCount": 911,
       "tgLink": "https://t.me/probankrotstvoru/9547",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -436,19 +436,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 34.13,
+      "priorityScore": 33.99,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 891 просмотров",
+        "Охват в Telegram Web: 911 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: бездействие КУ по инвентаризации нарушает права кредиторов на субсидиаркуОбщество «Трансгазсервис» признали банкротом в августе 2023 года. Первый КУ Алексей Катаев провел частичную инвентаризацию имущества и оп",
       "reactionCount": 11,
-      "engagementRate": 0.012345679012345678
+      "engagementRate": 0.012074643249176729
     },
     {
       "id": "probankrotstvoru/9523",
@@ -546,7 +546,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1100,
+      "viewCount": 1110,
       "tgLink": "https://t.me/probankrotstvoru/9545",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -559,19 +559,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.16,
+      "priorityScore": 33.04,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 1100 просмотров",
+        "Охват в Telegram Web: 1110 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: сокрытие должником доходов через карту друга — основание для взыскания убытковФУ Егора Волкова обнаружил, что должник ведет деятельность в интернете как эксперт по недвижимости и собирает «донаты» на банковскую",
       "reactionCount": 13,
-      "engagementRate": 0.011818181818181818
+      "engagementRate": 0.011711711711711712
     },
     {
       "id": "probankrotstvoru/9544",
@@ -617,7 +617,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.97,
+      "priorityScore": 32.86,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -674,7 +674,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.89,
+      "priorityScore": 32.78,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -715,7 +715,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 529,
+      "viewCount": 530,
       "tgLink": "https://t.me/BankruptcyClub/991",
       "channel": "BankruptcyClub",
       "channelTitle": "Банкротный Клуб",
@@ -735,11 +735,11 @@
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 529 просмотров"
+        "Охват в Telegram Web: 530 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за март 2026I. ВС разъяснил вопросы течения срока исковой давности по требованию о взыскании долга при оспаривании зачета в банкротстве // Кейс месяца – Дело ООО “СК “Татдорстрой”Верховный",
       "reactionCount": 5,
-      "engagementRate": 0.00945179584120983
+      "engagementRate": 0.009433962264150943
     }
   ],
   "topTopics": [
