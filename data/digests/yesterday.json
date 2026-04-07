@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-07T23:00:36.496Z",
+  "generatedAt": "2026-04-07T23:37:29.191Z",
   "totalPosts": 41,
   "topPosts": [
     {
@@ -60,7 +60,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 34.61,
+      "priorityScore": 34.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -133,7 +133,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.03,
+      "priorityScore": 30.95,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -191,7 +191,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.23,
+      "priorityScore": 30.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -235,7 +235,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1320,
+      "viewCount": 1330,
       "tgLink": "https://t.me/probankrotstvoru/9534",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -248,18 +248,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.71,
+      "priorityScore": 28.63,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 1320 просмотров"
+        "Охват в Telegram Web: 1330 просмотров"
       ],
       "digestSummary": "Верховный Суд разъяснит пределы диспозитивности при обращении взыскания на залогВ марте 2024 года общество «ИВК АИР ГРУПП» заключило с «ИРМАСТ-ТЕХНОРЕСУРС» договор поручительства с залогом имущества, обеспечивающий обяза",
       "reactionCount": 12,
-      "engagementRate": 0.00909090909090909
+      "engagementRate": 0.009022556390977444
     },
     {
       "id": "corplawpro/5868",
@@ -313,7 +313,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 26.92,
+      "priorityScore": 26.85,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -361,7 +361,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.64,
+      "priorityScore": 26.57,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -401,7 +401,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.42,
+      "priorityScore": 26.35,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -428,7 +428,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "207",
+          "count": "208",
           "isPaid": false
         },
         {
@@ -463,19 +463,19 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 25.93,
+      "priorityScore": 25.85,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 262 реакций",
+        "Высокая вовлечённость: 263 реакций",
         "Охват в Telegram Web: 14100 просмотров",
         "Сильная отдача аудитории: 1,9% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд РФ напомнил, что потребитель вправе сам выбирать суд для защиты своих прав. Покупательница квартиры подала иск к застройщику по месту жительства, однако первая инстанция вернула заявление, сославшись на усл",
-      "reactionCount": 262,
-      "engagementRate": 0.01858156028368794
+      "reactionCount": 263,
+      "engagementRate": 0.018652482269503546
     },
     {
       "id": "zarbitrazhy/6863",
@@ -505,7 +505,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 25.53,
+      "priorityScore": 25.45,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Арбитраж",
@@ -561,7 +561,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.5,
+      "priorityScore": 25.42,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -620,7 +620,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.34,
+      "priorityScore": 25.27,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -668,7 +668,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1340,
+      "viewCount": 1350,
       "tgLink": "https://t.me/probankrotstvoru/9538",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -680,17 +680,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.15,
+      "priorityScore": 25.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 1340 просмотров"
+        "Охват в Telegram Web: 1350 просмотров"
       ],
       "digestSummary": "ВС указал на необходимость оценки экономического смысла сделки между связанными лицамиОбщество СКФ «Спецстрой» в рамках госконтракта на строительство поликлиники в Сахалинской области заключило договор поставки с обществ",
       "reactionCount": 10,
-      "engagementRate": 0.007462686567164179
+      "engagementRate": 0.007407407407407408
     }
   ],
   "topTopics": [
