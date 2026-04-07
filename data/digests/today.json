@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-07T22:10:00.996Z",
+  "generatedAt": "2026-04-07T23:00:36.495Z",
   "totalPosts": 42,
   "topPosts": [
     {
@@ -65,7 +65,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.07,
+      "priorityScore": 34.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -106,7 +106,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 983,
+      "viewCount": 988,
       "tgLink": "https://t.me/subsidiarka_kdl/4436",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -120,17 +120,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 34.67,
+      "priorityScore": 34.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 983 просмотров"
+        "Охват в Telegram Web: 988 просмотров"
       ],
       "digestSummary": "Привлечение контролирующих лиц исключённого из ЕГРЮЛ общества к субсидиарной ответственности признано преждевременным без установления причин объективного банкротства и конкретных неправомерных действий каждого из ответч",
       "reactionCount": 2,
-      "engagementRate": 0.002034587995930824
+      "engagementRate": 0.0020242914979757085
     },
     {
       "id": "probankrotstvoru/9546",
@@ -163,7 +163,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 992,
+      "viewCount": 995,
       "tgLink": "https://t.me/probankrotstvoru/9546",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -176,19 +176,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.33,
+      "priorityScore": 34.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 992 просмотров",
+        "Охват в Telegram Web: 995 просмотров",
         "Сильная отдача аудитории: 1,8% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд защитил приобретателя, проверившего реестр залогов по доступным даннымОбщество «Банк \"Финансовая Корпорация Открытие\"» (правопреемник — общества «БМ-Банк») заключило с компанией «Кама-Грузовик» договор зало",
       "reactionCount": 18,
-      "engagementRate": 0.018145161290322582
+      "engagementRate": 0.018090452261306532
     },
     {
       "id": "probankrotstvoru/9547",
@@ -221,7 +221,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 914,
+      "viewCount": 919,
       "tgLink": "https://t.me/probankrotstvoru/9547",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -234,19 +234,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 33.91,
+      "priorityScore": 33.8,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 914 просмотров",
+        "Охват в Telegram Web: 919 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: бездействие КУ по инвентаризации нарушает права кредиторов на субсидиаркуОбщество «Трансгазсервис» признали банкротом в августе 2023 года. Первый КУ Алексей Катаев провел частичную инвентаризацию имущества и оп",
       "reactionCount": 11,
-      "engagementRate": 0.012035010940919038
+      "engagementRate": 0.011969532100108813
     },
     {
       "id": "probankrotstvoru/9545",
@@ -292,7 +292,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.96,
+      "priorityScore": 32.86,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -350,7 +350,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.77,
+      "priorityScore": 32.67,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -407,7 +407,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.71,
+      "priorityScore": 32.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -447,7 +447,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 619,
+      "viewCount": 629,
       "tgLink": "https://t.me/subsidiarka_kdl/4438",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -460,17 +460,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.12,
+      "priorityScore": 32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 619 просмотров"
+        "Охват в Telegram Web: 629 просмотров"
       ],
       "digestSummary": "Кассация: отсутствие образования у номинала не снижает его ответственность за банкротствоНоминальный руководитель без образования и опыта, назначенный бенефициаром-сокамерником, не вправе ссылаться на свой формальный ста",
       "reactionCount": 6,
-      "engagementRate": 0.009693053311793215
+      "engagementRate": 0.009538950715421303
     },
     {
       "id": "probankrotstvoru/9542",
@@ -518,7 +518,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.7,
+      "priorityScore": 31.59,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -597,7 +597,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 31.27,
+      "priorityScore": 31.16,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
@@ -655,7 +655,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 30.79,
+      "priorityScore": 30.68,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -699,7 +699,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 719,
+      "viewCount": 730,
       "tgLink": "https://t.me/probankrotstvoru/9548",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -712,19 +712,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.48,
+      "priorityScore": 30.38,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 719 просмотров",
+        "Охват в Telegram Web: 730 просмотров",
         "Сильная отдача аудитории: 2,1% реакций к просмотрам"
       ],
       "digestSummary": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club. 24 апреля (Пт) | Москва, ул. Большая Никитская 17 стр.2 14:30 - 21:00 Участие бесплатное | регистрация обязательнаПрактикум ",
       "reactionCount": 15,
-      "engagementRate": 0.02086230876216968
+      "engagementRate": 0.02054794520547945
     }
   ],
   "topTopics": [
