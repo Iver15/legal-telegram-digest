@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-08T20:11:37.228Z",
+  "generatedAt": "2026-04-08T21:06:05.117Z",
   "totalPosts": 42,
   "topPosts": [
     {
@@ -48,7 +48,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.66,
+      "priorityScore": 32.55,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -93,7 +93,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1350,
+      "viewCount": 1360,
       "tgLink": "https://t.me/probankrotstvoru/9547",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -106,19 +106,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.49,
+      "priorityScore": 32.38,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 20 реакций",
-        "Охват в Telegram Web: 1350 просмотров",
+        "Охват в Telegram Web: 1360 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: бездействие КУ по инвентаризации нарушает права кредиторов на субсидиаркуОбщество «Трансгазсервис» признали банкротом в августе 2023 года. Первый КУ Алексей Катаев провел частичную инвентаризацию имущества и оп",
       "reactionCount": 20,
-      "engagementRate": 0.014814814814814815
+      "engagementRate": 0.014705882352941176
     },
     {
       "id": "sotbi_law/162",
@@ -181,7 +181,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.38,
+      "priorityScore": 32.26,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -236,7 +236,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 31.92,
+      "priorityScore": 31.81,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -292,7 +292,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.54,
+      "priorityScore": 31.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -350,7 +350,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.27,
+      "priorityScore": 31.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -408,7 +408,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.71,
+      "priorityScore": 30.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -468,7 +468,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.7,
+      "priorityScore": 30.59,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -521,7 +521,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.4,
+      "priorityScore": 29.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -577,7 +577,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.71,
+      "priorityScore": 28.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -612,7 +612,7 @@
         },
         {
           "emoji": "👍",
-          "count": "178",
+          "count": "180",
           "isPaid": false
         },
         {
@@ -651,7 +651,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 16200,
+      "viewCount": 16300,
       "tgLink": "https://t.me/sovetsudey/844",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -663,19 +663,19 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28.51,
+      "priorityScore": 28.4,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 255 реакций",
-        "Охват в Telegram Web: 16200 просмотров",
+        "Высокая вовлечённость: 257 реакций",
+        "Охват в Telegram Web: 16300 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Совершение действий, не соответствующих морально-этическим нормам и высоким стандартам поведения, несовместимо с высоким званием судьи, напомнил ВС РФ, рассмотрев жалобу бывшего мирового судьи. ККС Самарской области лиши",
-      "reactionCount": 255,
-      "engagementRate": 0.01574074074074074
+      "reactionCount": 257,
+      "engagementRate": 0.01576687116564417
     },
     {
       "id": "bankruptcyboutique/546",
@@ -708,7 +708,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 260,
+      "viewCount": 261,
       "tgLink": "https://t.me/bankruptcyboutique/546",
       "channel": "bankruptcyboutique",
       "channelTitle": "Bankruptcy Boutique",
@@ -721,18 +721,18 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 28.44,
+      "priorityScore": 28.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 260 просмотров",
+        "Охват в Telegram Web: 261 просмотров",
         "Сильная отдача аудитории: 3,8% реакций к просмотрам"
       ],
       "digestSummary": "Р.К. Лотфуллин \"Кодекс субсидиарной ответственности\" (2026)Настало время для обзора новинки, о которой много говорили на просторах интернета. В первую очередь, наверное, из-за цены, чего греха таить. Прочитать никто ещё ",
       "reactionCount": 10,
-      "engagementRate": 0.038461538461538464
+      "engagementRate": 0.038314176245210725
     }
   ],
   "topTopics": [

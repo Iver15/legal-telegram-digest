@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-08T20:11:37.229Z",
+  "generatedAt": "2026-04-08T21:06:05.118Z",
   "totalPosts": 284,
   "topPosts": [
     {
@@ -36,7 +36,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 902,
+      "viewCount": 934,
       "tgLink": "https://t.me/probankrotstvoru/9556",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -50,17 +50,17 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 37.36,
+      "priorityScore": 37.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Налоги",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 902 просмотров"
+        "Охват в Telegram Web: 934 просмотров"
       ],
       "digestSummary": "Верховный Суд разрешил понуждать к выставлению счетов-фактур в судебном порядкеОбщество ГК «Строительное управление-555» заключило с компанией «ГарантСтрой» три договора подряда на общую сумму около 240 млн рублей. После",
       "reactionCount": 7,
-      "engagementRate": 0.007760532150776054
+      "engagementRate": 0.007494646680942184
     },
     {
       "id": "probankrotstvoru/9528",
@@ -151,7 +151,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 240,
+      "viewCount": 241,
       "tgLink": "https://t.me/orpau/1546",
       "channel": "orpau",
       "channelTitle": "ОРПАУ - Общероссийский профсоюз арбитражных управляющих",
@@ -165,18 +165,18 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 36.03,
+      "priorityScore": 35.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 240 просмотров",
+        "Охват в Telegram Web: 241 просмотров",
         "Сильная отдача аудитории: 2,1% реакций к просмотрам"
       ],
       "digestSummary": "ПРАКТИКА БАНКРОТСТВА 2026 \"Новые векторы - прозрачность процедур и усиление контроля\"Коллеги, приглашаем вас на VII Ежегодную конференцию \"Практика банкротства Сего_Дня\". Событие, которое объединяет практиков! Локация: М",
       "reactionCount": 5,
-      "engagementRate": 0.020833333333333332
+      "engagementRate": 0.02074688796680498
     },
     {
       "id": "probankrotstvoru/9551",
@@ -224,7 +224,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1120,
+      "viewCount": 1130,
       "tgLink": "https://t.me/probankrotstvoru/9551",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -237,19 +237,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.84,
+      "priorityScore": 34.73,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 31 реакций",
-        "Охват в Telegram Web: 1120 просмотров",
-        "Сильная отдача аудитории: 2,8% реакций к просмотрам"
+        "Охват в Telegram Web: 1130 просмотров",
+        "Сильная отдача аудитории: 2,7% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд отменил отказ в иске к Финляндии о выкупе недвижимости российских гражданАлександр и Елена Цветковы в 2017 году приобрели земельный участок с домом в Финляндии за 180 тыс. евро. После введения Финляндией в ",
       "reactionCount": 31,
-      "engagementRate": 0.027678571428571427
+      "engagementRate": 0.02743362831858407
     },
     {
       "id": "probankrotstvoru/9550",
@@ -282,7 +282,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1140,
+      "viewCount": 1150,
       "tgLink": "https://t.me/probankrotstvoru/9550",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -295,19 +295,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.55,
+      "priorityScore": 34.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 23 реакций",
-        "Охват в Telegram Web: 1140 просмотров",
+        "Охват в Telegram Web: 1150 просмотров",
         "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд защитил заимодавцев от произвольной оценки доказательств судомЮлия Савостина и Елена Буякевич предоставили займы брату Николаю Лыкову на покупку квартиры и автомобиля: 2,1 млн рублей и 3,2 млн рублей соотве",
       "reactionCount": 23,
-      "engagementRate": 0.02017543859649123
+      "engagementRate": 0.02
     },
     {
       "id": "probankrotstvoru/9549",
@@ -345,7 +345,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1170,
+      "viewCount": 1180,
       "tgLink": "https://t.me/probankrotstvoru/9549",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -358,19 +358,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.42,
+      "priorityScore": 34.31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 20 реакций",
-        "Охват в Telegram Web: 1170 просмотров",
+        "Охват в Telegram Web: 1180 просмотров",
         "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "КС: норма о договорной подсудности не нарушает права ответчика по иску об убыткахКонституционный Суд отказал в рассмотрении жалобы Руслана Абушахманова на ст. 37 АПК РФ о договорной подсудности. Абушахманов занимал должн",
       "reactionCount": 20,
-      "engagementRate": 0.017094017094017096
+      "engagementRate": 0.01694915254237288
     },
     {
       "id": "probankrotstvoru/9523",
@@ -551,7 +551,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.66,
+      "priorityScore": 32.55,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -596,7 +596,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1350,
+      "viewCount": 1360,
       "tgLink": "https://t.me/probankrotstvoru/9547",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -609,19 +609,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.49,
+      "priorityScore": 32.38,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 20 реакций",
-        "Охват в Telegram Web: 1350 просмотров",
+        "Охват в Telegram Web: 1360 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: бездействие КУ по инвентаризации нарушает права кредиторов на субсидиаркуОбщество «Трансгазсервис» признали банкротом в августе 2023 года. Первый КУ Алексей Катаев провел частичную инвентаризацию имущества и оп",
       "reactionCount": 20,
-      "engagementRate": 0.014814814814814815
+      "engagementRate": 0.014705882352941176
     },
     {
       "id": "sotbi_law/162",
@@ -684,7 +684,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.38,
+      "priorityScore": 32.26,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
