@@ -1,8 +1,8 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-08T00:10:30.969Z",
-  "totalPosts": 42,
+  "generatedAt": "2026-04-08T03:35:27.339Z",
+  "totalPosts": 43,
   "topPosts": [
     {
       "id": "sotbi_law/162",
@@ -51,7 +51,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 57,
+      "viewCount": 58,
       "tgLink": "https://t.me/sotbi_law/162",
       "channel": "sotbi_law",
       "channelTitle": "Сотби",
@@ -65,18 +65,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.82,
+      "priorityScore": 34.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 57 просмотров",
-        "Сильная отдача аудитории: 15,8% реакций к просмотрам"
+        "Охват в Telegram Web: 58 просмотров",
+        "Сильная отдача аудитории: 15,5% реакций к просмотрам"
       ],
       "digestSummary": "Что предлагает новая реформа банкротства: комментарий партнера «Сотби» Антона Красникова для издания КоммерсантъВ деловом издании Коммерсантъ вышли два материала (первый и второй) с разбором реформы законодательства о ба",
       "reactionCount": 9,
-      "engagementRate": 0.15789473684210525
+      "engagementRate": 0.15517241379310345
     },
     {
       "id": "subsidiarka_kdl/4436",
@@ -106,7 +106,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 993,
+      "viewCount": 1010,
       "tgLink": "https://t.me/subsidiarka_kdl/4436",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -120,17 +120,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 34.41,
+      "priorityScore": 33.99,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 993 просмотров"
+        "Охват в Telegram Web: 1010 просмотров"
       ],
       "digestSummary": "Привлечение контролирующих лиц исключённого из ЕГРЮЛ общества к субсидиарной ответственности признано преждевременным без установления причин объективного банкротства и конкретных неправомерных действий каждого из ответч",
       "reactionCount": 2,
-      "engagementRate": 0.002014098690835851
+      "engagementRate": 0.0019801980198019802
     },
     {
       "id": "probankrotstvoru/9546",
@@ -163,7 +163,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1000,
+      "viewCount": 1030,
       "tgLink": "https://t.me/probankrotstvoru/9546",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -176,19 +176,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.08,
+      "priorityScore": 33.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 1000 просмотров",
-        "Сильная отдача аудитории: 1,8% реакций к просмотрам"
+        "Охват в Telegram Web: 1030 просмотров",
+        "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд защитил приобретателя, проверившего реестр залогов по доступным даннымОбщество «Банк \"Финансовая Корпорация Открытие\"» (правопреемник — общества «БМ-Банк») заключило с компанией «Кама-Грузовик» договор зало",
       "reactionCount": 18,
-      "engagementRate": 0.018
+      "engagementRate": 0.017475728155339806
     },
     {
       "id": "probankrotstvoru/9547",
@@ -221,7 +221,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 929,
+      "viewCount": 962,
       "tgLink": "https://t.me/probankrotstvoru/9547",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -234,19 +234,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 33.64,
+      "priorityScore": 33.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 929 просмотров",
-        "Сильная отдача аудитории: 1,2% реакций к просмотрам"
+        "Охват в Telegram Web: 962 просмотров",
+        "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: бездействие КУ по инвентаризации нарушает права кредиторов на субсидиаркуОбщество «Трансгазсервис» признали банкротом в августе 2023 года. Первый КУ Алексей Катаев провел частичную инвентаризацию имущества и оп",
       "reactionCount": 11,
-      "engagementRate": 0.011840688912809472
+      "engagementRate": 0.011434511434511435
     },
     {
       "id": "probankrotstvoru/9545",
@@ -279,7 +279,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1110,
+      "viewCount": 1140,
       "tgLink": "https://t.me/probankrotstvoru/9545",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -292,19 +292,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.71,
+      "priorityScore": 32.25,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 1110 просмотров",
-        "Сильная отдача аудитории: 1,2% реакций к просмотрам"
+        "Охват в Telegram Web: 1140 просмотров",
+        "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: сокрытие должником доходов через карту друга — основание для взыскания убытковФУ Егора Волкова обнаружил, что должник ведет деятельность в интернете как эксперт по недвижимости и собирает «донаты» на банковскую",
       "reactionCount": 13,
-      "engagementRate": 0.011711711711711712
+      "engagementRate": 0.011403508771929825
     },
     {
       "id": "probankrotstvoru/9544",
@@ -337,7 +337,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1160,
+      "viewCount": 1180,
       "tgLink": "https://t.me/probankrotstvoru/9544",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -350,18 +350,18 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.52,
+      "priorityScore": 32.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 1160 просмотров"
+        "Охват в Telegram Web: 1180 просмотров"
       ],
       "digestSummary": "Кассация: расписка между родственниками не доказывает возврат дивидендов в кассу должникаОбщество «Виаси» в период с декабря 2019 года по февраль 2020 года перечислило своему финансовому директору Кириллу Исаеву около 11",
       "reactionCount": 11,
-      "engagementRate": 0.009482758620689655
+      "engagementRate": 0.009322033898305085
     },
     {
       "id": "probankrotstvoru/9543",
@@ -394,7 +394,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1100,
+      "viewCount": 1110,
       "tgLink": "https://t.me/probankrotstvoru/9543",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -407,19 +407,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.44,
+      "priorityScore": 32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 1100 просмотров",
+        "Охват в Telegram Web: 1110 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Банкротство и ненормативные правовые акты Что общего между сделками и ненормативными правовыми актами? А как эти понятия влияют на спор о банкротстве и налоговые аресты?Недавние разъяснения Верховного Суда РФ от 19 ноябр",
       "reactionCount": 14,
-      "engagementRate": 0.012727272727272728
+      "engagementRate": 0.012612612612612612
     },
     {
       "id": "subsidiarka_kdl/4438",
@@ -443,11 +443,11 @@
         },
         {
           "emoji": "❤️",
-          "count": "2",
+          "count": "3",
           "isPaid": false
         }
       ],
-      "viewCount": 644,
+      "viewCount": 712,
       "tgLink": "https://t.me/subsidiarka_kdl/4438",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -460,17 +460,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.83,
+      "priorityScore": 31.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 644 просмотров"
+        "Охват в Telegram Web: 712 просмотров"
       ],
       "digestSummary": "Кассация: отсутствие образования у номинала не снижает его ответственность за банкротствоНоминальный руководитель без образования и опыта, назначенный бенефициаром-сокамерником, не вправе ссылаться на свой формальный ста",
-      "reactionCount": 6,
-      "engagementRate": 0.009316770186335404
+      "reactionCount": 7,
+      "engagementRate": 0.009831460674157303
     },
     {
       "id": "probankrotstvoru/9542",
@@ -504,7 +504,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1100,
+      "viewCount": 1110,
       "tgLink": "https://t.me/probankrotstvoru/9542",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -518,17 +518,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.44,
+      "priorityScore": 31.01,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 1100 просмотров"
+        "Охват в Telegram Web: 1110 просмотров"
       ],
       "digestSummary": "Кассация: отсутствие образования у номинала не снижает его ответственность за банкротствоВ деле о банкротстве общества «Сиблес» КУ Инга Короткова обратилась с заявлением о привлечении к субсидиарной ответственности бывши",
       "reactionCount": 9,
-      "engagementRate": 0.008181818181818182
+      "engagementRate": 0.008108108108108109
     },
     {
       "id": "sovetsudey/844",
@@ -551,7 +551,7 @@
         },
         {
           "emoji": "👍",
-          "count": "157",
+          "count": "161",
           "isPaid": false
         },
         {
@@ -566,7 +566,7 @@
         },
         {
           "emoji": "👏",
-          "count": "14",
+          "count": "15",
           "isPaid": false
         },
         {
@@ -585,7 +585,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 11700,
+      "viewCount": 11900,
       "tgLink": "https://t.me/sovetsudey/844",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -597,19 +597,19 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 31.01,
+      "priorityScore": 30.59,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 227 реакций",
-        "Охват в Telegram Web: 11700 просмотров",
+        "Высокая вовлечённость: 232 реакций",
+        "Охват в Telegram Web: 11900 просмотров",
         "Сильная отдача аудитории: 1,9% реакций к просмотрам"
       ],
       "digestSummary": "Совершение действий, не соответствующих морально-этическим нормам и высоким стандартам поведения, несовместимо с высоким званием судьи, напомнил ВС РФ, рассмотрев жалобу бывшего мирового судьи. ККС Самарской области лиши",
-      "reactionCount": 227,
-      "engagementRate": 0.0194017094017094
+      "reactionCount": 232,
+      "engagementRate": 0.019495798319327733
     },
     {
       "id": "bankruptcyboutique/546",
@@ -642,7 +642,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 182,
+      "viewCount": 183,
       "tgLink": "https://t.me/bankruptcyboutique/546",
       "channel": "bankruptcyboutique",
       "channelTitle": "Bankruptcy Boutique",
@@ -655,18 +655,18 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 30.54,
+      "priorityScore": 30.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 182 просмотров",
+        "Охват в Telegram Web: 183 просмотров",
         "Сильная отдача аудитории: 3,8% реакций к просмотрам"
       ],
       "digestSummary": "Р.К. Лотфуллин \"Кодекс субсидиарной ответственности\" (2026)Настало время для обзора новинки, о которой много говорили на просторах интернета. В первую очередь, наверное, из-за цены, чего греха таить. Прочитать никто ещё ",
       "reactionCount": 7,
-      "engagementRate": 0.038461538461538464
+      "engagementRate": 0.03825136612021858
     },
     {
       "id": "probankrotstvoru/9548",
@@ -699,7 +699,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 742,
+      "viewCount": 794,
       "tgLink": "https://t.me/probankrotstvoru/9548",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -712,26 +712,31 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.24,
+      "priorityScore": 29.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 742 просмотров",
-        "Сильная отдача аудитории: 2,0% реакций к просмотрам"
+        "Охват в Telegram Web: 794 просмотров",
+        "Сильная отдача аудитории: 1,9% реакций к просмотрам"
       ],
       "digestSummary": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club. 24 апреля (Пт) | Москва, ул. Большая Никитская 17 стр.2 14:30 - 21:00 Участие бесплатное | регистрация обязательнаПрактикум ",
       "reactionCount": 15,
-      "engagementRate": 0.02021563342318059
+      "engagementRate": 0.018891687657430732
     }
   ],
   "topTopics": [
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 38
+      "count": 39
+    },
+    {
+      "id": "courts",
+      "label": "Суды",
+      "count": 35
     },
     {
       "id": "bankruptcy",
@@ -739,14 +744,9 @@
       "count": 34
     },
     {
-      "id": "courts",
-      "label": "Суды",
-      "count": 34
-    },
-    {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 32
+      "count": 33
     },
     {
       "id": "enforcement",
@@ -756,12 +756,12 @@
     {
       "id": "tax",
       "label": "Налоги",
-      "count": 12
+      "count": 13
     },
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 4
+      "count": 5
     }
   ],
   "topChannels": [
@@ -774,6 +774,11 @@
       "channel": "orpauradio",
       "title": "Первый радиоканал АУ и юристов",
       "count": 4
+    },
+    {
+      "channel": "corplawpro",
+      "title": "Корпоративные споры • Case by Case",
+      "count": 3
     },
     {
       "channel": "subsidiarka_kdl",
@@ -794,11 +799,6 @@
       "channel": "fedresurs_insolvency",
       "title": "Федресурс: банкротные новости",
       "count": 3
-    },
-    {
-      "channel": "corplawpro",
-      "title": "Корпоративные споры • Case by Case",
-      "count": 2
     },
     {
       "channel": "insolvencylaw",
