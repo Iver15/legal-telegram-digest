@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-07T23:37:29.191Z",
+  "generatedAt": "2026-04-08T00:10:30.970Z",
   "totalPosts": 291,
   "topPosts": [
     {
@@ -197,7 +197,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.89,
+      "priorityScore": 34.82,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -266,7 +266,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 34.53,
+      "priorityScore": 34.46,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -308,7 +308,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 990,
+      "viewCount": 993,
       "tgLink": "https://t.me/subsidiarka_kdl/4436",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -322,17 +322,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 34.48,
+      "priorityScore": 34.41,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 990 просмотров"
+        "Охват в Telegram Web: 993 просмотров"
       ],
       "digestSummary": "Привлечение контролирующих лиц исключённого из ЕГРЮЛ общества к субсидиарной ответственности признано преждевременным без установления причин объективного банкротства и конкретных неправомерных действий каждого из ответч",
       "reactionCount": 2,
-      "engagementRate": 0.00202020202020202
+      "engagementRate": 0.002014098690835851
     },
     {
       "id": "probankrotstvoru/9546",
@@ -365,7 +365,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 999,
+      "viewCount": 1000,
       "tgLink": "https://t.me/probankrotstvoru/9546",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -378,19 +378,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.15,
+      "priorityScore": 34.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 999 просмотров",
+        "Охват в Telegram Web: 1000 просмотров",
         "Сильная отдача аудитории: 1,8% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд защитил приобретателя, проверившего реестр залогов по доступным даннымОбщество «Банк \"Финансовая Корпорация Открытие\"» (правопреемник — общества «БМ-Банк») заключило с компанией «Кама-Грузовик» договор зало",
       "reactionCount": 18,
-      "engagementRate": 0.018018018018018018
+      "engagementRate": 0.018
     },
     {
       "id": "probankrotstvoru/9547",
@@ -423,7 +423,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 923,
+      "viewCount": 929,
       "tgLink": "https://t.me/probankrotstvoru/9547",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -436,19 +436,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 33.71,
+      "priorityScore": 33.64,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 923 просмотров",
+        "Охват в Telegram Web: 929 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: бездействие КУ по инвентаризации нарушает права кредиторов на субсидиаркуОбщество «Трансгазсервис» признали банкротом в августе 2023 года. Первый КУ Алексей Катаев провел частичную инвентаризацию имущества и оп",
       "reactionCount": 11,
-      "engagementRate": 0.011917659804983749
+      "engagementRate": 0.011840688912809472
     },
     {
       "id": "probankrotstvoru/9523",
@@ -559,7 +559,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.78,
+      "priorityScore": 32.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -617,7 +617,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.59,
+      "priorityScore": 32.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -674,7 +674,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.51,
+      "priorityScore": 32.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",

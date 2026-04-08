@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-07T23:37:29.191Z",
-  "totalPosts": 41,
+  "generatedAt": "2026-04-08T00:10:30.969Z",
+  "totalPosts": 38,
   "topPosts": [
     {
       "id": "probankrotstvoru/9540",
@@ -60,7 +60,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 34.53,
+      "priorityScore": 34.46,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -133,7 +133,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.95,
+      "priorityScore": 30.88,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -191,7 +191,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.15,
+      "priorityScore": 30.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -248,7 +248,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.63,
+      "priorityScore": 28.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -313,7 +313,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 26.85,
+      "priorityScore": 26.78,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -361,7 +361,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.57,
+      "priorityScore": 26.5,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -401,7 +401,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.35,
+      "priorityScore": 26.28,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -463,7 +463,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 25.85,
+      "priorityScore": 25.78,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -505,7 +505,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 25.45,
+      "priorityScore": 25.38,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Арбитраж",
@@ -561,7 +561,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.42,
+      "priorityScore": 25.35,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -620,7 +620,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.27,
+      "priorityScore": 25.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -680,7 +680,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.07,
+      "priorityScore": 25,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -697,37 +697,37 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 34
+      "count": 33
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 32
+      "count": 31
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 31
+      "count": 28
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 29
+      "count": 26
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 20
-    },
-    {
-      "id": "tax",
-      "label": "Налоги",
-      "count": 8
+      "count": 19
     },
     {
       "id": "compliance",
       "label": "Комплаенс",
       "count": 8
+    },
+    {
+      "id": "tax",
+      "label": "Налоги",
+      "count": 7
     }
   ],
   "topChannels": [
@@ -735,11 +735,6 @@
       "channel": "probankrotstvoru",
       "title": "PROбанкротство",
       "count": 8
-    },
-    {
-      "channel": "vZone1413",
-      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 4
     },
     {
       "channel": "subsidiarka_kdl",
@@ -769,6 +764,11 @@
     {
       "channel": "corplawpro",
       "title": "Корпоративные споры • Case by Case",
+      "count": 2
+    },
+    {
+      "channel": "vs_court",
+      "title": "Судебная практика СКЭС ВС РФ",
       "count": 2
     }
   ]
