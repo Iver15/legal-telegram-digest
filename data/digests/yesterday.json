@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-08T22:41:38.853Z",
+  "generatedAt": "2026-04-08T23:27:15.252Z",
   "totalPosts": 42,
   "topPosts": [
     {
@@ -48,7 +48,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.35,
+      "priorityScore": 32.25,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -106,7 +106,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.18,
+      "priorityScore": 32.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -181,7 +181,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.06,
+      "priorityScore": 31.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -236,7 +236,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 31.61,
+      "priorityScore": 31.51,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -279,7 +279,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1410,
+      "viewCount": 1420,
       "tgLink": "https://t.me/probankrotstvoru/9545",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -292,19 +292,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.23,
+      "priorityScore": 31.14,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 22 реакций",
-        "Охват в Telegram Web: 1410 просмотров",
-        "Сильная отдача аудитории: 1,6% реакций к просмотрам"
+        "Охват в Telegram Web: 1420 просмотров",
+        "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: сокрытие должником доходов через карту друга — основание для взыскания убытковФУ Егора Волкова обнаружил, что должник ведет деятельность в интернете как эксперт по недвижимости и собирает «донаты» на банковскую",
       "reactionCount": 22,
-      "engagementRate": 0.015602836879432624
+      "engagementRate": 0.015492957746478873
     },
     {
       "id": "probankrotstvoru/9544",
@@ -350,7 +350,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.96,
+      "priorityScore": 30.86,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -408,7 +408,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.4,
+      "priorityScore": 30.3,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -468,7 +468,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.37,
+      "priorityScore": 30.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -521,7 +521,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.08,
+      "priorityScore": 28.98,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -577,7 +577,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.4,
+      "priorityScore": 28.31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -663,7 +663,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28.2,
+      "priorityScore": 28.1,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
@@ -721,7 +721,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 28.13,
+      "priorityScore": 28.03,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
