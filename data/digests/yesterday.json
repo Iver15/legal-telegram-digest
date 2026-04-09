@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-09T00:01:35.367Z",
+  "generatedAt": "2026-04-09T01:53:01.391Z",
   "totalPosts": 42,
   "topPosts": [
     {
@@ -35,7 +35,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1320,
+      "viewCount": 1330,
       "tgLink": "https://t.me/probankrotstvoru/9546",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -48,19 +48,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.18,
+      "priorityScore": 31.95,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 28 реакций",
-        "Охват в Telegram Web: 1320 просмотров",
+        "Охват в Telegram Web: 1330 просмотров",
         "Сильная отдача аудитории: 2,1% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд защитил приобретателя, проверившего реестр залогов по доступным даннымОбщество «Банк \"Финансовая Корпорация Открытие\"» (правопреемник — общества «БМ-Банк») заключило с компанией «Кама-Грузовик» договор зало",
       "reactionCount": 28,
-      "engagementRate": 0.021212121212121213
+      "engagementRate": 0.021052631578947368
     },
     {
       "id": "probankrotstvoru/9547",
@@ -106,7 +106,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.01,
+      "priorityScore": 31.78,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -181,7 +181,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.9,
+      "priorityScore": 31.67,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -236,7 +236,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 31.44,
+      "priorityScore": 31.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -292,7 +292,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.07,
+      "priorityScore": 30.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -350,7 +350,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.79,
+      "priorityScore": 30.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -408,7 +408,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.23,
+      "priorityScore": 30,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -468,7 +468,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.21,
+      "priorityScore": 29.98,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -521,7 +521,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 28.91,
+      "priorityScore": 28.68,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -564,7 +564,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1340,
+      "viewCount": 1350,
       "tgLink": "https://t.me/probankrotstvoru/9548",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -577,19 +577,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.24,
+      "priorityScore": 28.01,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 23 реакций",
-        "Охват в Telegram Web: 1340 просмотров",
+        "Охват в Telegram Web: 1350 просмотров",
         "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club. 24 апреля (Пт) | Москва, ул. Большая Никитская 17 стр.2 14:30 - 21:00 Участие бесплатное | регистрация обязательнаПрактикум ",
       "reactionCount": 23,
-      "engagementRate": 0.017164179104477612
+      "engagementRate": 0.017037037037037038
     },
     {
       "id": "sovetsudey/844",
@@ -612,7 +612,7 @@
         },
         {
           "emoji": "👍",
-          "count": "181",
+          "count": "184",
           "isPaid": false
         },
         {
@@ -651,7 +651,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 16300,
+      "viewCount": 16400,
       "tgLink": "https://t.me/sovetsudey/844",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -663,19 +663,19 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28.03,
+      "priorityScore": 27.8,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 258 реакций",
-        "Охват в Telegram Web: 16300 просмотров",
+        "Высокая вовлечённость: 261 реакций",
+        "Охват в Telegram Web: 16400 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Совершение действий, не соответствующих морально-этическим нормам и высоким стандартам поведения, несовместимо с высоким званием судьи, напомнил ВС РФ, рассмотрев жалобу бывшего мирового судьи. ККС Самарской области лиши",
-      "reactionCount": 258,
-      "engagementRate": 0.015828220858895705
+      "reactionCount": 261,
+      "engagementRate": 0.015914634146341464
     },
     {
       "id": "bankruptcyboutique/546",
@@ -708,7 +708,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 261,
+      "viewCount": 262,
       "tgLink": "https://t.me/bankruptcyboutique/546",
       "channel": "bankruptcyboutique",
       "channelTitle": "Bankruptcy Boutique",
@@ -721,18 +721,18 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 27.96,
+      "priorityScore": 27.73,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 261 просмотров",
+        "Охват в Telegram Web: 262 просмотров",
         "Сильная отдача аудитории: 3,8% реакций к просмотрам"
       ],
       "digestSummary": "Р.К. Лотфуллин \"Кодекс субсидиарной ответственности\" (2026)Настало время для обзора новинки, о которой много говорили на просторах интернета. В первую очередь, наверное, из-за цены, чего греха таить. Прочитать никто ещё ",
       "reactionCount": 10,
-      "engagementRate": 0.038314176245210725
+      "engagementRate": 0.03816793893129771
     }
   ],
   "topTopics": [
