@@ -1,8 +1,8 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-09T22:28:39.453Z",
-  "totalPosts": 63,
+  "generatedAt": "2026-04-09T23:11:38.278Z",
+  "totalPosts": 67,
   "topPosts": [
     {
       "id": "domnin_sa/539",
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 453,
+      "viewCount": 454,
       "tgLink": "https://t.me/domnin_sa/539",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -55,19 +55,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 37,
+      "priorityScore": 36.91,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 21 реакций",
-        "Охват в Telegram Web: 453 просмотров",
+        "Охват в Telegram Web: 454 просмотров",
         "Сильная отдача аудитории: 4,6% реакций к просмотрам"
       ],
       "digestSummary": "И снова Домнин про проценты АУ, или Читаем минипроект с лупой Реформа процентного вознаграждения АУ состоит в разделении оснований для его начисления и лимитировании размера выплаты по каждому основанию. Таких оснований ",
       "reactionCount": 21,
-      "engagementRate": 0.046357615894039736
+      "engagementRate": 0.046255506607929514
     },
     {
       "id": "probankrotstvoru/9563",
@@ -115,7 +115,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.45,
+      "priorityScore": 36.36,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -177,7 +177,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.92,
+      "priorityScore": 35.84,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -250,7 +250,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 35.5,
+      "priorityScore": 35.41,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -294,7 +294,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 966,
+      "viewCount": 969,
       "tgLink": "https://t.me/probankrotstvoru/9564",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -307,19 +307,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.12,
+      "priorityScore": 34.03,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 966 просмотров",
+        "Охват в Telegram Web: 969 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Кассация взыскала с арбитражного управляющего 16,1 тыс. долларов убытковВ рамках дела о банкротстве Алексея Соловьева ФУ Александр Кируша потребовал взыскать убытки с предыдущего управляющего Григория Погосяна. Ранее суд",
       "reactionCount": 12,
-      "engagementRate": 0.012422360248447204
+      "engagementRate": 0.01238390092879257
     },
     {
       "id": "probankrotstvoru/9566",
@@ -362,7 +362,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 709,
+      "viewCount": 715,
       "tgLink": "https://t.me/probankrotstvoru/9566",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -375,19 +375,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.94,
+      "priorityScore": 33.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 20 реакций",
-        "Охват в Telegram Web: 709 просмотров",
+        "Охват в Telegram Web: 715 просмотров",
         "Сильная отдача аудитории: 2,8% реакций к просмотрам"
       ],
       "digestSummary": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club.Знакомим вас со спикерами предстоящего практикума.Диана Скворцова, юрист, эксперт Отдела по судебному взысканию проблемной за",
       "reactionCount": 20,
-      "engagementRate": 0.028208744710860368
+      "engagementRate": 0.027972027972027972
     },
     {
       "id": "probankrotstvoru/9558",
@@ -438,7 +438,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.94,
+      "priorityScore": 33.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -489,7 +489,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 841,
+      "viewCount": 843,
       "tgLink": "https://t.me/probankrotstvoru/9565",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -503,19 +503,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.86,
+      "priorityScore": 33.77,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Налоги",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 841 просмотров",
+        "Охват в Telegram Web: 843 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: осведомленность ФНС о приоритетных кредиторах — обязательное условие оспариванияВ деле о банкротстве общества «Элит-Групп» КУ оспорил безакцептное списание 1,39 млн рублей в пользу ИФНС по г. Домодедово Московс",
       "reactionCount": 13,
-      "engagementRate": 0.015457788347205707
+      "engagementRate": 0.01542111506524318
     },
     {
       "id": "probankrotstvoru/9559",
@@ -554,7 +554,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1140,
+      "viewCount": 1150,
       "tgLink": "https://t.me/probankrotstvoru/9559",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -568,19 +568,19 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.83,
+      "priorityScore": 33.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 20 реакций",
-        "Охват в Telegram Web: 1140 просмотров",
-        "Сильная отдача аудитории: 1,8% реакций к просмотрам"
+        "Охват в Telegram Web: 1150 просмотров",
+        "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "Реформа банкротства: между восстановлением и ускоренной ликвидациейНовая редакция закона о банкротстве — это не просто набор точечных изменений, а масштабная попытка переосмыслить всю логику института банкротства. Законо",
       "reactionCount": 20,
-      "engagementRate": 0.017543859649122806
+      "engagementRate": 0.017391304347826087
     },
     {
       "id": "probankrotstvoru/9562",
@@ -628,7 +628,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.48,
+      "priorityScore": 33.39,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -671,7 +671,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.96,
+      "priorityScore": 32.88,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Арбитраж",
@@ -736,7 +736,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.74,
+      "priorityScore": 30.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -754,27 +754,27 @@
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 56
+      "count": 60
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 51
+      "count": 55
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 50
+      "count": 53
     },
     {
       "id": "courts",
       "label": "Суды",
-      "count": 49
+      "count": 51
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 34
+      "count": 35
     },
     {
       "id": "compliance",
@@ -791,7 +791,7 @@
     {
       "channel": "vZone1413",
       "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 10
+      "count": 14
     },
     {
       "channel": "probankrotstvoru",
