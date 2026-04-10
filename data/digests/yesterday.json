@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-10T21:34:14.231Z",
+  "generatedAt": "2026-04-10T22:07:09.436Z",
   "totalPosts": 63,
   "topPosts": [
     {
@@ -60,7 +60,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.68,
+      "priorityScore": 34.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -120,7 +120,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.51,
+      "priorityScore": 33.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -168,7 +168,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 157,
+      "viewCount": 158,
       "tgLink": "https://t.me/bankrotstvo_mustknow/462",
       "channel": "bankrotstvo_mustknow",
       "channelTitle": "Банкротство | Взгляд эксперта",
@@ -182,19 +182,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.18,
+      "priorityScore": 33.12,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 157 просмотров",
-        "Сильная отдача аудитории: 9,6% реакций к просмотрам"
+        "Охват в Telegram Web: 158 просмотров",
+        "Сильная отдача аудитории: 9,5% реакций к просмотрам"
       ],
       "digestSummary": "​​💰 Банкротство и трудовые выплаты: можно ли «срезать» зарплату до МРОТ?Анна Никитина, юрист практики банкротства и антикризисной защиты бизнеса, об оспаривании зарплаты топ-менеджера на примере постановления АС Московс",
       "reactionCount": 15,
-      "engagementRate": 0.09554140127388536
+      "engagementRate": 0.0949367088607595
     },
     {
       "id": "sovetsudey/851",
@@ -255,7 +255,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 32.57,
+      "priorityScore": 32.5,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -322,7 +322,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.53,
+      "priorityScore": 31.46,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -387,7 +387,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 31.19,
+      "priorityScore": 31.12,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -450,7 +450,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31,
+      "priorityScore": 30.93,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -508,7 +508,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.9,
+      "priorityScore": 30.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -572,7 +572,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.77,
+      "priorityScore": 30.7,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Налоги",
@@ -632,7 +632,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.61,
+      "priorityScore": 30.54,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -675,7 +675,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.14,
+      "priorityScore": 30.07,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Арбитраж",
@@ -740,7 +740,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.12,
+      "priorityScore": 28.05,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
