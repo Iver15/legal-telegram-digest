@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-09T23:57:44.764Z",
+  "generatedAt": "2026-04-10T01:29:58.664Z",
   "totalPosts": 296,
   "topPosts": [
     {
@@ -32,16 +32,21 @@
         },
         {
           "emoji": "🤔",
-          "count": "5",
+          "count": "6",
           "isPaid": false
         },
         {
           "emoji": "❤️",
           "count": "1",
           "isPaid": false
+        },
+        {
+          "emoji": "🙊",
+          "count": "1",
+          "isPaid": false
         }
       ],
-      "viewCount": 457,
+      "viewCount": 464,
       "tgLink": "https://t.me/domnin_sa/539",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -55,19 +60,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.82,
+      "priorityScore": 36.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 21 реакций",
-        "Охват в Telegram Web: 457 просмотров",
-        "Сильная отдача аудитории: 4,6% реакций к просмотрам"
+        "Высокая вовлечённость: 23 реакций",
+        "Охват в Telegram Web: 464 просмотров",
+        "Сильная отдача аудитории: 5,0% реакций к просмотрам"
       ],
       "digestSummary": "И снова Домнин про проценты АУ, или Читаем минипроект с лупой Реформа процентного вознаграждения АУ состоит в разделении оснований для его начисления и лимитировании размера выплаты по каждому основанию. Таких оснований ",
-      "reactionCount": 21,
-      "engagementRate": 0.045951859956236324
+      "reactionCount": 23,
+      "engagementRate": 0.04956896551724138
     },
     {
       "id": "probankrotstvoru/9563",
@@ -101,7 +106,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 967,
+      "viewCount": 970,
       "tgLink": "https://t.me/probankrotstvoru/9563",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -115,19 +120,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.26,
+      "priorityScore": 36.06,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 967 просмотров",
+        "Охват в Telegram Web: 970 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: несколько действий управляющего образуют единый случай причинения убытковВ период с 2016 по 2021 год Станислав Кафлевский исполнял обязанности АУ в деле о банкротстве общества «Промко» и допустил ряд нарушений,",
       "reactionCount": 12,
-      "engagementRate": 0.012409513960703205
+      "engagementRate": 0.012371134020618556
     },
     {
       "id": "probankrotstvoru/9528",
@@ -239,7 +244,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.74,
+      "priorityScore": 35.55,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -312,7 +317,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 35.3,
+      "priorityScore": 35.11,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -371,7 +376,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 35.11,
+      "priorityScore": 34.91,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -480,7 +485,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 972,
+      "viewCount": 975,
       "tgLink": "https://t.me/probankrotstvoru/9564",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -493,19 +498,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.93,
+      "priorityScore": 33.73,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 972 просмотров",
+        "Охват в Telegram Web: 975 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Кассация взыскала с арбитражного управляющего 16,1 тыс. долларов убытковВ рамках дела о банкротстве Алексея Соловьева ФУ Александр Кируша потребовал взыскать убытки с предыдущего управляющего Григория Погосяна. Ранее суд",
       "reactionCount": 12,
-      "engagementRate": 0.012345679012345678
+      "engagementRate": 0.012307692307692308
     },
     {
       "id": "probankrotstvoru/9566",
@@ -548,7 +553,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 722,
+      "viewCount": 737,
       "tgLink": "https://t.me/probankrotstvoru/9566",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -561,19 +566,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.76,
+      "priorityScore": 33.57,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 20 реакций",
-        "Охват в Telegram Web: 722 просмотров",
-        "Сильная отдача аудитории: 2,8% реакций к просмотрам"
+        "Охват в Telegram Web: 737 просмотров",
+        "Сильная отдача аудитории: 2,7% реакций к просмотрам"
       ],
       "digestSummary": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club.Знакомим вас со спикерами предстоящего практикума.Диана Скворцова, юрист, эксперт Отдела по судебному взысканию проблемной за",
       "reactionCount": 20,
-      "engagementRate": 0.027700831024930747
+      "engagementRate": 0.027137042062415198
     },
     {
       "id": "probankrotstvoru/9558",
@@ -624,7 +629,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.76,
+      "priorityScore": 33.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -675,7 +680,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 848,
+      "viewCount": 855,
       "tgLink": "https://t.me/probankrotstvoru/9565",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -689,19 +694,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.67,
+      "priorityScore": 33.48,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Налоги",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 848 просмотров",
+        "Охват в Telegram Web: 855 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: осведомленность ФНС о приоритетных кредиторах — обязательное условие оспариванияВ деле о банкротстве общества «Элит-Групп» КУ оспорил безакцептное списание 1,39 млн рублей в пользу ИФНС по г. Домодедово Московс",
       "reactionCount": 13,
-      "engagementRate": 0.015330188679245283
+      "engagementRate": 0.0152046783625731
     },
     {
       "id": "probankrotstvoru/9559",
@@ -754,7 +759,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.65,
+      "priorityScore": 33.46,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
