@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-11T21:33:33.260Z",
+  "generatedAt": "2026-04-11T22:00:57.944Z",
   "totalPosts": 61,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 892,
+      "viewCount": 893,
       "tgLink": "https://t.me/probankrotstvoru/9580",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -55,19 +55,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.29,
+      "priorityScore": 34.24,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 892 просмотров",
+        "Охват в Telegram Web: 893 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "⚡️Собрали дайджест интересных материалов СМИ о банкротстве за 6-10 апреляАктуальные и свежие статьи отрасли банкротства, а также кейсы, исследования, обзоры и новеллы законодательства.Кассационная инстанция оставила в си",
       "reactionCount": 13,
-      "engagementRate": 0.014573991031390135
+      "engagementRate": 0.014557670772676373
     },
     {
       "id": "probankrotstvoru/9577",
@@ -113,7 +113,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.88,
+      "priorityScore": 31.82,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -176,7 +176,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.56,
+      "priorityScore": 31.5,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -234,7 +234,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.5,
+      "priorityScore": 31.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -294,7 +294,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.15,
+      "priorityScore": 31.1,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -352,7 +352,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.87,
+      "priorityScore": 30.81,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -415,7 +415,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.21,
+      "priorityScore": 30.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -475,7 +475,7 @@
         "arbitration",
         "compliance"
       ],
-      "priorityScore": 29.65,
+      "priorityScore": 29.59,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -521,7 +521,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 794,
+      "viewCount": 795,
       "tgLink": "https://t.me/corplawpro/5880",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -535,17 +535,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 29.65,
+      "priorityScore": 29.59,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 794 просмотров"
+        "Охват в Telegram Web: 795 просмотров"
       ],
       "digestSummary": "Личный фонд: как сохранить контроль и не потерять защитуОдин из главных запросов при создании личного фонда звучит так: «Хочу передать имущество в фонд, но сохранить контроль над ним». Это понятное желание. И закон даёт ",
       "reactionCount": 3,
-      "engagementRate": 0.003778337531486146
+      "engagementRate": 0.0037735849056603774
     },
     {
       "id": "probankrotstvoru/9574",
@@ -591,7 +591,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.98,
+      "priorityScore": 28.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -665,7 +665,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28.35,
+      "priorityScore": 28.29,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -735,7 +735,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 27.61,
+      "priorityScore": 27.55,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
