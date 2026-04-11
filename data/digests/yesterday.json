@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-11T21:00:36.284Z",
+  "generatedAt": "2026-04-11T21:33:33.260Z",
   "totalPosts": 61,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 891,
+      "viewCount": 892,
       "tgLink": "https://t.me/probankrotstvoru/9580",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -55,19 +55,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.36,
+      "priorityScore": 34.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 891 просмотров",
+        "Охват в Telegram Web: 892 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "⚡️Собрали дайджест интересных материалов СМИ о банкротстве за 6-10 апреляАктуальные и свежие статьи отрасли банкротства, а также кейсы, исследования, обзоры и новеллы законодательства.Кассационная инстанция оставила в си",
       "reactionCount": 13,
-      "engagementRate": 0.014590347923681257
+      "engagementRate": 0.014573991031390135
     },
     {
       "id": "probankrotstvoru/9577",
@@ -113,7 +113,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.95,
+      "priorityScore": 31.88,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -176,7 +176,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.62,
+      "priorityScore": 31.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -221,7 +221,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 852,
+      "viewCount": 853,
       "tgLink": "https://t.me/probankrotstvoru/9579",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -234,19 +234,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.57,
+      "priorityScore": 31.5,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 852 просмотров",
+        "Охват в Telegram Web: 853 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд уточнит пределы солидарной ответственности должника и поручителяАКБ «Банк на Красных Воротах» в лице КУ (ГК «АСВ») обратился с иском к обществу «Издательский дом «АСТ-Пресс» о взыскании неустойки в размере ",
       "reactionCount": 14,
-      "engagementRate": 0.01643192488262911
+      "engagementRate": 0.016412661195779603
     },
     {
       "id": "probankrotstvoru/9575",
@@ -294,7 +294,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.22,
+      "priorityScore": 31.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -352,7 +352,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.93,
+      "priorityScore": 30.87,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -415,7 +415,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.27,
+      "priorityScore": 30.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -475,7 +475,7 @@
         "arbitration",
         "compliance"
       ],
-      "priorityScore": 29.72,
+      "priorityScore": 29.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -521,7 +521,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 793,
+      "viewCount": 794,
       "tgLink": "https://t.me/corplawpro/5880",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -535,17 +535,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 29.72,
+      "priorityScore": 29.65,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 793 просмотров"
+        "Охват в Telegram Web: 794 просмотров"
       ],
       "digestSummary": "Личный фонд: как сохранить контроль и не потерять защитуОдин из главных запросов при создании личного фонда звучит так: «Хочу передать имущество в фонд, но сохранить контроль над ним». Это понятное желание. И закон даёт ",
       "reactionCount": 3,
-      "engagementRate": 0.0037831021437578815
+      "engagementRate": 0.003778337531486146
     },
     {
       "id": "probankrotstvoru/9574",
@@ -591,7 +591,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.04,
+      "priorityScore": 28.98,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -644,7 +644,7 @@
         },
         {
           "emoji": "🤔",
-          "count": "6",
+          "count": "7",
           "isPaid": false
         },
         {
@@ -665,19 +665,19 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28.41,
+      "priorityScore": 28.35,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 165 реакций",
+        "Высокая вовлечённость: 166 реакций",
         "Охват в Telegram Web: 10900 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Жительница Краснодарского края получила земельный участок в порядке компенсации ущерба по приговору суда. При этом она не могла в полном объеме использовать свое имущество, поскольку часть территории огорожена забором и ",
-      "reactionCount": 165,
-      "engagementRate": 0.015137614678899083
+      "reactionCount": 166,
+      "engagementRate": 0.015229357798165137
     },
     {
       "id": "subsidiarka_kdl/4447",
@@ -735,7 +735,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 27.68,
+      "priorityScore": 27.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
