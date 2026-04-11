@@ -1,8 +1,8 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-11T18:36:07.594Z",
-  "totalPosts": 21,
+  "generatedAt": "2026-04-11T19:15:34.618Z",
+  "totalPosts": 22,
   "topPosts": [
     {
       "id": "probankrotstvoru/9581",
@@ -30,7 +30,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 669,
+      "viewCount": 686,
       "tgLink": "https://t.me/probankrotstvoru/9581",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -43,17 +43,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 33.12,
+      "priorityScore": 33.01,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 669 просмотров"
+        "Охват в Telegram Web: 686 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеБанкротство и ненормативные правовые актыВ статье Ильи Шевченко, к.ю.н., судьи Арбитражного суда города Санкт-Петербурга и Л",
       "reactionCount": 6,
-      "engagementRate": 0.008968609865470852
+      "engagementRate": 0.008746355685131196
     },
     {
       "id": "subsidiarka_kdl/4455",
@@ -77,7 +77,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 569,
+      "viewCount": 580,
       "tgLink": "https://t.me/subsidiarka_kdl/4455",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -91,17 +91,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 29.64,
+      "priorityScore": 29.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 569 просмотров"
+        "Охват в Telegram Web: 580 просмотров"
       ],
       "digestSummary": "Личные фонды в суде: первые делаЛичные фонды существуют в России с марта 2022 года. Судебная практика только начинает формироваться, но она уже есть. И первые дела дают важные ориентиры о том, как суды понимают природу э",
       "reactionCount": 1,
-      "engagementRate": 0.0017574692442882249
+      "engagementRate": 0.0017241379310344827
     },
     {
       "id": "subsidiarka_kdl/4449",
@@ -124,7 +124,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 600,
+      "viewCount": 610,
       "tgLink": "https://t.me/subsidiarka_kdl/4449",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -137,17 +137,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 29.33,
+      "priorityScore": 29.24,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 600 просмотров"
+        "Охват в Telegram Web: 610 просмотров"
       ],
       "digestSummary": "📣 Подготовили дайджест самых интересных судебных кейсов и новостей о субсидиарной ответственности за эту неделю!📎 Оставление заявления о субсидиарной ответственности без рассмотрения в связи с погашением требований тре",
       "reactionCount": 2,
-      "engagementRate": 0.0033333333333333335
+      "engagementRate": 0.003278688524590164
     },
     {
       "id": "vZone1413/8849",
@@ -165,7 +165,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "7",
+          "count": "8",
           "isPaid": false
         },
         {
@@ -174,7 +174,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 397,
+      "viewCount": 400,
       "tgLink": "https://t.me/vZone1413/8849",
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
@@ -186,18 +186,18 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 23.34,
+      "priorityScore": 23.35,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 397 просмотров",
-        "Сильная отдача аудитории: 2,0% реакций к просмотрам"
+        "Охват в Telegram Web: 400 просмотров",
+        "Сильная отдача аудитории: 2,3% реакций к просмотрам"
       ],
       "digestSummary": "20ААС - Определением апелляционного суда от 05.02.2026 ФУ предложено представить пояснения в отношении открытия расчетного должнику счета в ПАО «Совкомбанк». ФУ пояснил что, в ПАО «Совкомбанк» разработан и внедрен сервис",
-      "reactionCount": 8,
-      "engagementRate": 0.020151133501259445
+      "reactionCount": 9,
+      "engagementRate": 0.0225
     },
     {
       "id": "bankrovert/688",
@@ -230,7 +230,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 94,
+      "viewCount": 108,
       "tgLink": "https://t.me/bankrovert/688",
       "channel": "bankrovert",
       "channelTitle": "Банкроверт",
@@ -242,18 +242,18 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 23.27,
+      "priorityScore": 23.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 94 просмотров",
-        "Сильная отдача аудитории: 5,3% реакций к просмотрам"
+        "Охват в Telegram Web: 108 просмотров",
+        "Сильная отдача аудитории: 4,6% реакций к просмотрам"
       ],
       "digestSummary": "Рубрика #Субботнее_чтение, выпуск № 17 сезона 25/26.Этика процента. Сборник, включающий две работы: Джона Локка \"Некоторые последствия снижения процентной ставки и повышения ценности денег\" и Иеремии Бентама \"В защиту ро",
       "reactionCount": 5,
-      "engagementRate": 0.05319148936170213
+      "engagementRate": 0.046296296296296294
     },
     {
       "id": "disputesandsanctions/2426",
@@ -281,7 +281,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 129,
+      "viewCount": 134,
       "tgLink": "https://t.me/disputesandsanctions/2426",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -294,18 +294,18 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 22.59,
+      "priorityScore": 22.52,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Исполнение",
-        "Охват в Telegram Web: 129 просмотров",
-        "Сильная отдача аудитории: 3,9% реакций к просмотрам"
+        "Охват в Telegram Web: 134 просмотров",
+        "Сильная отдача аудитории: 3,7% реакций к просмотрам"
       ],
       "digestSummary": "бар Б.Э. Нольде -Коллизия юрисдикций и коллизия законовВот как Б.Э. Нольде объясняет различие между коллизией юрисдикций и коллизией законов.Единственное, важно помнить, что коллизия юрисдикций не ограничивается только с",
       "reactionCount": 5,
-      "engagementRate": 0.03875968992248062
+      "engagementRate": 0.03731343283582089
     },
     {
       "id": "sudpraktik_bankrot_demo/2614",
@@ -331,7 +331,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 599,
+      "viewCount": 610,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2614",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -342,17 +342,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 21.85,
+      "priorityScore": 21.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 599 просмотров"
+        "Охват в Telegram Web: 610 просмотров"
       ],
       "digestSummary": "Дайджест на тему «Подозрительность сделки в деле о банкротстве»Квалифицирующими признаками подозрительной сделки, указанной в пункте 2 статьи 61.2 Закона о банкротстве, являются ее направленность на причинение вреда имущ",
       "reactionCount": 4,
-      "engagementRate": 0.00667779632721202
+      "engagementRate": 0.006557377049180328
     },
     {
       "id": "bankruptcyboutique/550",
@@ -368,7 +368,7 @@
       "text": "Судья Борисова Е.Е. передала в Судебную коллегию по экономическим спорам ВС РФ дело по вопросу установления суммы процентов по вознаграждению арбитражного управляющего Курской А.О. размере 21 млн. руб., осуществлявшей полномочия ликвидатора в рамках принудительной ликвидации некоммерческой организации «Негосударственный пенсионный фонд «Достоинство» (заседание – 26.05.2026).https://ras.arbitr.ru/Document/Pdf/6bdd3677-db5a-4320-8a61-4ce6bbe36f5b/7a95b331-2bf3-4805-86ea-9ad423ee06ff/%D0%9040-190264-2018__20260410.pdf?isAddStamp=True",
       "content": "<p>Судья Борисова Е.Е. передала в Судебную коллегию по экономическим спорам ВС РФ дело по вопросу установления суммы процентов по вознаграждению арбитражного управляющего Курской А.О. размере 21 млн. руб., осуществлявшей полномочия ликвидатора в рамках принудительной ликвидации некоммерческой организации «Негосударственный пенсионный фонд «Достоинство» (заседание – 26.05.2026).</p><p><a href=\"https://ras.arbitr.ru/Document/Pdf/6bdd3677-db5a-4320-8a61-4ce6bbe36f5b/7a95b331-2bf3-4805-86ea-9ad423ee06ff/%D0%9040-190264-2018__20260410.pdf?isAddStamp=True\" target=\"_blank\" rel=\"noopener\" title=\"https://ras.arbitr.ru/Document/Pdf/6bdd3677-db5a-4320-8a61-4ce6bbe36f5b/7a95b331-2bf3-4805-86ea-9ad423ee06ff/%D0%9040-190264-2018__20260410.pdf?isAddStamp=True\">https://ras.arbitr.ru/Document/Pdf/6bdd3677-db5a-4320-8a61-4ce6bbe36f5b/7a95b331-2bf3-4805-86ea-9ad423ee06ff/%D0%9040-190264-2018__20260410.pdf?isAddStamp=True</a></p>",
       "reactions": [],
-      "viewCount": 161,
+      "viewCount": 168,
       "tgLink": "https://t.me/bankruptcyboutique/550",
       "channel": "bankruptcyboutique",
       "channelTitle": "Bankruptcy Boutique",
@@ -380,13 +380,13 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 20.99,
+      "priorityScore": 20.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 161 просмотров"
+        "Охват в Telegram Web: 168 просмотров"
       ],
       "digestSummary": "Судья Борисова Е.Е. передала в Судебную коллегию по экономическим спорам ВС РФ дело по вопросу установления суммы процентов по вознаграждению арбитражного управляющего Курской А.О. размере 21 млн. руб., осуществлявшей по",
       "reactionCount": 0,
@@ -413,7 +413,7 @@
         },
         {
           "emoji": "🔥",
-          "count": "5",
+          "count": "6",
           "isPaid": false
         },
         {
@@ -422,7 +422,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1370,
+      "viewCount": 1450,
       "tgLink": "https://t.me/lawegorov/3721",
       "channel": "lawegorov",
       "channelTitle": "AVE in Law",
@@ -434,17 +434,17 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 20.3,
+      "priorityScore": 20.33,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
-        "Высокая вовлечённость: 41 реакций",
-        "Охват в Telegram Web: 1370 просмотров",
-        "Сильная отдача аудитории: 3,0% реакций к просмотрам"
+        "Высокая вовлечённость: 42 реакций",
+        "Охват в Telegram Web: 1450 просмотров",
+        "Сильная отдача аудитории: 2,9% реакций к просмотрам"
       ],
       "digestSummary": "В мае у меня будет важная беседа с разработчиками первого текста действующего ГК. Предполагаю поговорить пока только по части первой ГК. Чтобы не забыть ничего важного, спрошу и здесь тоже - что бы вы спросили у разработ",
-      "reactionCount": 41,
-      "engagementRate": 0.029927007299270073
+      "reactionCount": 42,
+      "engagementRate": 0.028965517241379312
     },
     {
       "id": "bankrovert/687",
@@ -475,7 +475,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 137,
+      "viewCount": 139,
       "tgLink": "https://t.me/bankrovert/687",
       "channel": "bankrovert",
       "channelTitle": "Банкроверт",
@@ -486,17 +486,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 19.37,
+      "priorityScore": 19.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 137 просмотров",
-        "Сильная отдача аудитории: 4,4% реакций к просмотрам"
+        "Охват в Telegram Web: 139 просмотров",
+        "Сильная отдача аудитории: 4,3% реакций к просмотрам"
       ],
       "digestSummary": "❗Внимание, конкурс! По случаю Дня космонавтики, который завтра, вот такой филателистический конкурс. В 1967 г. вышла космическая серия марок, художником, кстати, был Алексей Леонов. Одну из которых вы видите на картинке.",
       "reactionCount": 6,
-      "engagementRate": 0.043795620437956206
+      "engagementRate": 0.04316546762589928
     },
     {
       "id": "sudpraktik/3492",
@@ -518,7 +518,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1360,
+      "viewCount": 1400,
       "tgLink": "https://t.me/sudpraktik/3492",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -530,16 +530,16 @@
         "bankruptcy",
         "tax"
       ],
-      "priorityScore": 17.58,
+      "priorityScore": 17.5,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Налоги",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 1360 просмотров"
+        "Охват в Telegram Web: 1400 просмотров"
       ],
       "digestSummary": "КОНКУРЕНЦИЯ СУДЕБНО-ПРАВОВЫХ ПОЗИЦИЙ Обращаем внимание, что в судебной практике сложилось несколько позиций по вопросу о том, применяется ли освобождение от НДС за прошлые периоды, если уведомление подано после выявления",
       "reactionCount": 2,
-      "engagementRate": 0.0014705882352941176
+      "engagementRate": 0.0014285714285714286
     },
     {
       "id": "domnin_sa/540",
@@ -580,7 +580,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 438,
+      "viewCount": 449,
       "tgLink": "https://t.me/domnin_sa/540",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -591,29 +591,29 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 17.37,
+      "priorityScore": 17.3,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 438 просмотров",
-        "Сильная отдача аудитории: 4,1% реакций к просмотрам"
+        "Охват в Telegram Web: 449 просмотров",
+        "Сильная отдача аудитории: 4,0% реакций к просмотрам"
       ],
       "digestSummary": "Ты суслика видишь?А он есть (с) Кажется, что ВС РФ хочет сказать, что за погашение требований в порядке ликвидационной квоты арбитражному управляющему также положено процентное вознаграждение https://ras.arbitr.ru/Docume",
       "reactionCount": 18,
-      "engagementRate": 0.0410958904109589
+      "engagementRate": 0.0400890868596882
     }
   ],
   "topTopics": [
     {
-      "id": "courts",
-      "label": "Суды",
+      "id": "bankruptcy",
+      "label": "Банкротство",
       "count": 18
     },
     {
-      "id": "bankruptcy",
-      "label": "Банкротство",
-      "count": 17
+      "id": "courts",
+      "label": "Суды",
+      "count": 18
     },
     {
       "id": "arbitration",
@@ -628,7 +628,7 @@
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 5
+      "count": 6
     },
     {
       "id": "tax",
@@ -668,6 +668,11 @@
       "count": 2
     },
     {
+      "channel": "tgnspau",
+      "title": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
+      "count": 1
+    },
+    {
       "channel": "disputesandsanctions",
       "title": "LetterRogatory v.2",
       "count": 1
@@ -675,11 +680,6 @@
     {
       "channel": "lawegorov",
       "title": "AVE in Law",
-      "count": 1
-    },
-    {
-      "channel": "domnin_sa",
-      "title": "domnin.sa | Сергей Дóмнин",
       "count": 1
     }
   ]
