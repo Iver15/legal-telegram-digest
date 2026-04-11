@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-11T00:03:39.928Z",
+  "generatedAt": "2026-04-11T02:17:30.868Z",
   "totalPosts": 68,
   "topPosts": [
     {
@@ -60,7 +60,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.37,
+      "priorityScore": 34.09,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -120,7 +120,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.2,
+      "priorityScore": 32.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -182,7 +182,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.88,
+      "priorityScore": 32.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -255,7 +255,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 32.26,
+      "priorityScore": 31.98,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -322,7 +322,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.21,
+      "priorityScore": 30.93,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -387,7 +387,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 30.88,
+      "priorityScore": 30.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -450,7 +450,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.69,
+      "priorityScore": 30.41,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -508,7 +508,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.58,
+      "priorityScore": 30.3,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -572,7 +572,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.45,
+      "priorityScore": 30.17,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Налоги",
@@ -632,7 +632,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.29,
+      "priorityScore": 30.01,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -675,7 +675,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 29.83,
+      "priorityScore": 29.55,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Арбитраж",
@@ -727,7 +727,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 99,
+      "viewCount": 100,
       "tgLink": "https://t.me/sotbi_law/163",
       "channel": "sotbi_law",
       "channelTitle": "Сотби",
@@ -740,18 +740,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.81,
+      "priorityScore": 27.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 99 просмотров",
-        "Сильная отдача аудитории: 6,1% реакций к просмотрам"
+        "Охват в Telegram Web: 100 просмотров",
+        "Сильная отдача аудитории: 6,0% реакций к просмотрам"
       ],
       "digestSummary": "Можно ли лишиться возможности взыскания долга, если долг был заявлен в рамках банкротного, а не гражданского спора? Дело ООО «Агрохолдинг «Молоко Бурятии»Кредитор подал заявление о банкротстве должника и включил в него к",
       "reactionCount": 6,
-      "engagementRate": 0.06060606060606061
+      "engagementRate": 0.06
     }
   ],
   "topTopics": [
