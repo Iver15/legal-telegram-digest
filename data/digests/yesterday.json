@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-11T23:03:55.137Z",
-  "totalPosts": 58,
+  "generatedAt": "2026-04-11T23:39:05.416Z",
+  "totalPosts": 56,
   "topPosts": [
     {
       "id": "probankrotstvoru/9580",
@@ -55,7 +55,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.11,
+      "priorityScore": 34.03,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -113,7 +113,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.69,
+      "priorityScore": 31.62,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -176,7 +176,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.37,
+      "priorityScore": 31.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -234,7 +234,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.31,
+      "priorityScore": 31.24,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -294,7 +294,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.97,
+      "priorityScore": 30.89,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -352,7 +352,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.67,
+      "priorityScore": 30.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -415,7 +415,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.02,
+      "priorityScore": 29.95,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -475,7 +475,7 @@
         "arbitration",
         "compliance"
       ],
-      "priorityScore": 29.46,
+      "priorityScore": 29.39,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -521,7 +521,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 796,
+      "viewCount": 797,
       "tgLink": "https://t.me/corplawpro/5880",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -535,17 +535,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 29.46,
+      "priorityScore": 29.39,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 796 просмотров"
+        "Охват в Telegram Web: 797 просмотров"
       ],
       "digestSummary": "Личный фонд: как сохранить контроль и не потерять защитуОдин из главных запросов при создании личного фонда звучит так: «Хочу передать имущество в фонд, но сохранить контроль над ним». Это понятное желание. И закон даёт ",
       "reactionCount": 3,
-      "engagementRate": 0.0037688442211055275
+      "engagementRate": 0.0037641154328732747
     },
     {
       "id": "probankrotstvoru/9574",
@@ -591,7 +591,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.79,
+      "priorityScore": 28.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -653,7 +653,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 10900,
+      "viewCount": 11000,
       "tgLink": "https://t.me/sovetsudey/854",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -665,19 +665,19 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28.16,
+      "priorityScore": 28.08,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 166 реакций",
-        "Охват в Telegram Web: 10900 просмотров",
+        "Охват в Telegram Web: 11000 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Жительница Краснодарского края получила земельный участок в порядке компенсации ущерба по приговору суда. При этом она не могла в полном объеме использовать свое имущество, поскольку часть территории огорожена забором и ",
       "reactionCount": 166,
-      "engagementRate": 0.015229357798165137
+      "engagementRate": 0.01509090909090909
     },
     {
       "id": "subsidiarka_kdl/4447",
@@ -735,7 +735,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 27.42,
+      "priorityScore": 27.35,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -752,27 +752,27 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 51
+      "count": 49
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 47
+      "count": 45
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 41
+      "count": 39
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 39
+      "count": 38
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 32
+      "count": 31
     },
     {
       "id": "tax",
