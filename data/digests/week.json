@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-12T09:07:04.540Z",
-  "totalPosts": 294,
+  "generatedAt": "2026-04-12T10:02:59.025Z",
+  "totalPosts": 293,
   "topPosts": [
     {
       "id": "probankrotstvoru/9540",
@@ -106,7 +106,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1720,
+      "viewCount": 1730,
       "tgLink": "https://t.me/probankrotstvoru/9556",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -120,18 +120,18 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 33.19,
+      "priorityScore": 33.18,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Налоги",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 1720 просмотров"
+        "Охват в Telegram Web: 1730 просмотров"
       ],
       "digestSummary": "Верховный Суд разрешил понуждать к выставлению счетов-фактур в судебном порядкеОбщество ГК «Строительное управление-555» заключило с компанией «ГарантСтрой» три договора подряда на общую сумму около 240 млн рублей. После",
       "reactionCount": 15,
-      "engagementRate": 0.00872093023255814
+      "engagementRate": 0.008670520231213872
     },
     {
       "id": "domnin_sa/539",
@@ -175,7 +175,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1020,
+      "viewCount": 1030,
       "tgLink": "https://t.me/domnin_sa/539",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -196,12 +196,12 @@
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 28 реакций",
-        "Охват в Telegram Web: 1020 просмотров",
+        "Охват в Telegram Web: 1030 просмотров",
         "Сильная отдача аудитории: 2,7% реакций к просмотрам"
       ],
       "digestSummary": "И снова Домнин про проценты АУ, или Читаем минипроект с лупой Реформа процентного вознаграждения АУ состоит в разделении оснований для его начисления и лимитировании размера выплаты по каждому основанию. Таких оснований ",
       "reactionCount": 28,
-      "engagementRate": 0.027450980392156862
+      "engagementRate": 0.027184466019417475
     },
     {
       "id": "probankrotstvoru/9580",
@@ -240,7 +240,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 952,
+      "viewCount": 960,
       "tgLink": "https://t.me/probankrotstvoru/9580",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -254,19 +254,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.78,
+      "priorityScore": 32.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 952 просмотров",
+        "Охват в Telegram Web: 960 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "⚡️Собрали дайджест интересных материалов СМИ о банкротстве за 6-10 апреляАктуальные и свежие статьи отрасли банкротства, а также кейсы, исследования, обзоры и новеллы законодательства.Кассационная инстанция оставила в си",
       "reactionCount": 13,
-      "engagementRate": 0.01365546218487395
+      "engagementRate": 0.013541666666666667
     },
     {
       "id": "bankrotstvo_mustknow/462",
@@ -470,7 +470,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 136,
+      "viewCount": 145,
       "tgLink": "https://t.me/bankruptcyboutique/551",
       "channel": "bankruptcyboutique",
       "channelTitle": "Bankruptcy Boutique",
@@ -483,18 +483,18 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 31.53,
+      "priorityScore": 31.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 136 просмотров",
-        "Сильная отдача аудитории: 2,2% реакций к просмотрам"
+        "Охват в Telegram Web: 145 просмотров",
+        "Сильная отдача аудитории: 2,1% реакций к просмотрам"
       ],
       "digestSummary": "В Судебную коллегию по экономическим спорам ВС РФ переданы 4 банкротных дела:1️⃣ по вопросу об отмене обеспечительных мер в виде ареста акций должника, находящихся в собственности Республики Башкортостан, по спору о прив",
       "reactionCount": 3,
-      "engagementRate": 0.022058823529411766
+      "engagementRate": 0.020689655172413793
     },
     {
       "id": "sovetsudey/851",
@@ -518,7 +518,7 @@
         },
         {
           "emoji": "👍",
-          "count": "83",
+          "count": "84",
           "isPaid": false
         },
         {
@@ -555,18 +555,18 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 31.35,
+      "priorityScore": 31.36,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
-        "Высокая вовлечённость: 111 реакций",
+        "Высокая вовлечённость: 112 реакций",
         "Охват в Telegram Web: 13500 просмотров"
       ],
       "digestSummary": "Верховный Суд рассмотрел жалобу жителя Ульяновской области, которому при покупке автомобиля дополнительно навязали заключение опционного договора. В иске он потребовал вернуть ему денежные средства и расторгнуть соглашен",
-      "reactionCount": 111,
-      "engagementRate": 0.008222222222222223
+      "reactionCount": 112,
+      "engagementRate": 0.008296296296296296
     },
     {
       "id": "probankrotstvoru/9581",
@@ -594,7 +594,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 847,
+      "viewCount": 870,
       "tgLink": "https://t.me/probankrotstvoru/9581",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -607,17 +607,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.11,
+      "priorityScore": 30.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 847 просмотров"
+        "Охват в Telegram Web: 870 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеБанкротство и ненормативные правовые актыВ статье Ильи Шевченко, к.ю.н., судьи Арбитражного суда города Санкт-Петербурга и Л",
       "reactionCount": 6,
-      "engagementRate": 0.0070838252656434475
+      "engagementRate": 0.006896551724137931
     },
     {
       "id": "subsidiarka_kdl/4436",
@@ -751,22 +751,22 @@
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 226
+      "count": 225
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 144
+      "count": 143
     },
     {
       "id": "tax",
       "label": "Налоги",
-      "count": 52
+      "count": 51
     },
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 44
+      "count": 43
     }
   ],
   "topChannels": [
