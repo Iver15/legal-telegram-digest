@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-12T23:06:34.041Z",
+  "generatedAt": "2026-04-12T23:56:23.237Z",
   "totalPosts": 22,
   "topPosts": [
     {
@@ -30,7 +30,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 978,
+      "viewCount": 981,
       "tgLink": "https://t.me/probankrotstvoru/9581",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -43,17 +43,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.27,
+      "priorityScore": 29.17,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 978 просмотров"
+        "Охват в Telegram Web: 981 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на порталеБанкротство и ненормативные правовые актыВ статье Ильи Шевченко, к.ю.н., судьи Арбитражного суда города Санкт-Петербурга и Л",
       "reactionCount": 6,
-      "engagementRate": 0.006134969325153374
+      "engagementRate": 0.0061162079510703364
     },
     {
       "id": "subsidiarka_kdl/4455",
@@ -96,7 +96,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 26.63,
+      "priorityScore": 26.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -129,7 +129,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 804,
+      "viewCount": 805,
       "tgLink": "https://t.me/subsidiarka_kdl/4449",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -142,17 +142,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 25.73,
+      "priorityScore": 25.63,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 804 просмотров"
+        "Охват в Telegram Web: 805 просмотров"
       ],
       "digestSummary": "📣 Подготовили дайджест самых интересных судебных кейсов и новостей о субсидиарной ответственности за эту неделю!📎 Оставление заявления о субсидиарной ответственности без рассмотрения в связи с погашением требований тре",
       "reactionCount": 2,
-      "engagementRate": 0.0024875621890547263
+      "engagementRate": 0.002484472049689441
     },
     {
       "id": "vZone1413/8849",
@@ -179,7 +179,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 669,
+      "viewCount": 670,
       "tgLink": "https://t.me/vZone1413/8849",
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
@@ -191,19 +191,19 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 20.23,
+      "priorityScore": 20.13,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 669 просмотров",
+        "Охват в Telegram Web: 670 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "20ААС - Определением апелляционного суда от 05.02.2026 ФУ предложено представить пояснения в отношении открытия расчетного должнику счета в ПАО «Совкомбанк». ФУ пояснил что, в ПАО «Совкомбанк» разработан и внедрен сервис",
       "reactionCount": 11,
-      "engagementRate": 0.016442451420029897
+      "engagementRate": 0.016417910447761194
     },
     {
       "id": "bankrovert/688",
@@ -248,7 +248,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 19.89,
+      "priorityScore": 19.79,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -287,7 +287,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 285,
+      "viewCount": 288,
       "tgLink": "https://t.me/disputesandsanctions/2426",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -300,18 +300,18 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 19.37,
+      "priorityScore": 19.27,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Исполнение",
-        "Охват в Telegram Web: 285 просмотров",
+        "Охват в Telegram Web: 288 просмотров",
         "Сильная отдача аудитории: 2,1% реакций к просмотрам"
       ],
       "digestSummary": "бар Б.Э. Нольде -Коллизия юрисдикций и коллизия законовВот как Б.Э. Нольде объясняет различие между коллизией юрисдикций и коллизией законов.Единственное, важно помнить, что коллизия юрисдикций не ограничивается только с",
       "reactionCount": 6,
-      "engagementRate": 0.021052631578947368
+      "engagementRate": 0.020833333333333332
     },
     {
       "id": "sudpraktik_bankrot_demo/2614",
@@ -337,7 +337,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 838,
+      "viewCount": 842,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2614",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -348,17 +348,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 18.12,
+      "priorityScore": 18.01,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 838 просмотров"
+        "Охват в Telegram Web: 842 просмотров"
       ],
       "digestSummary": "Дайджест на тему «Подозрительность сделки в деле о банкротстве»Квалифицирующими признаками подозрительной сделки, указанной в пункте 2 статьи 61.2 Закона о банкротстве, являются ее направленность на причинение вреда имущ",
       "reactionCount": 4,
-      "engagementRate": 0.00477326968973747
+      "engagementRate": 0.004750593824228029
     },
     {
       "id": "lawegorov/3721",
@@ -395,7 +395,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2440,
+      "viewCount": 2450,
       "tgLink": "https://t.me/lawegorov/3721",
       "channel": "lawegorov",
       "channelTitle": "AVE in Law",
@@ -407,17 +407,17 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 17.81,
+      "priorityScore": 17.71,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 58 реакций",
-        "Охват в Telegram Web: 2440 просмотров",
+        "Охват в Telegram Web: 2450 просмотров",
         "Сильная отдача аудитории: 2,4% реакций к просмотрам"
       ],
       "digestSummary": "В мае у меня будет важная беседа с разработчиками первого текста действующего ГК. Предполагаю поговорить пока только по части первой ГК. Чтобы не забыть ничего важного, спрошу и здесь тоже - что бы вы спросили у разработ",
       "reactionCount": 58,
-      "engagementRate": 0.023770491803278688
+      "engagementRate": 0.0236734693877551
     },
     {
       "id": "bankruptcyboutique/550",
@@ -445,7 +445,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 17.56,
+      "priorityScore": 17.46,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -497,7 +497,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 16,
+      "priorityScore": 15.9,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -546,7 +546,7 @@
         "bankruptcy",
         "tax"
       ],
-      "priorityScore": 14.41,
+      "priorityScore": 14.3,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Налоги",
@@ -607,7 +607,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 14.22,
+      "priorityScore": 14.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
