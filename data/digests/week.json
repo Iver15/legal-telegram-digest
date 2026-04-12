@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-12T18:49:30.945Z",
-  "totalPosts": 283,
+  "generatedAt": "2026-04-12T19:33:34.664Z",
+  "totalPosts": 286,
   "topPosts": [
     {
       "id": "probankrotstvoru/9540",
@@ -175,7 +175,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1080,
+      "viewCount": 1090,
       "tgLink": "https://t.me/domnin_sa/539",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -189,19 +189,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.92,
+      "priorityScore": 32.93,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 28 реакций",
-        "Охват в Telegram Web: 1080 просмотров",
+        "Охват в Telegram Web: 1090 просмотров",
         "Сильная отдача аудитории: 2,6% реакций к просмотрам"
       ],
       "digestSummary": "И снова Домнин про проценты АУ, или Читаем минипроект с лупой Реформа процентного вознаграждения АУ состоит в разделении оснований для его начисления и лимитировании размера выплаты по каждому основанию. Таких оснований ",
       "reactionCount": 28,
-      "engagementRate": 0.025925925925925925
+      "engagementRate": 0.025688073394495414
     },
     {
       "id": "bankrotstvo_mustknow/462",
@@ -362,7 +362,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1260,
+      "viewCount": 1270,
       "tgLink": "https://t.me/probankrotstvoru/9563",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -376,19 +376,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.78,
+      "priorityScore": 31.77,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 1260 просмотров",
+        "Охват в Telegram Web: 1270 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: несколько действий управляющего образуют единый случай причинения убытковВ период с 2016 по 2021 год Станислав Кафлевский исполнял обязанности АУ в деле о банкротстве общества «Промко» и допустил ряд нарушений,",
       "reactionCount": 14,
-      "engagementRate": 0.011111111111111112
+      "engagementRate": 0.011023622047244094
     },
     {
       "id": "orpau/1546",
@@ -466,7 +466,7 @@
         },
         {
           "emoji": "👍",
-          "count": "87",
+          "count": "88",
           "isPaid": false
         },
         {
@@ -503,18 +503,18 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 31.37,
+      "priorityScore": 31.38,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
-        "Высокая вовлечённость: 116 реакций",
+        "Высокая вовлечённость: 117 реакций",
         "Охват в Telegram Web: 13900 просмотров"
       ],
       "digestSummary": "Верховный Суд рассмотрел жалобу жителя Ульяновской области, которому при покупке автомобиля дополнительно навязали заключение опционного договора. В иске он потребовал вернуть ему денежные средства и расторгнуть соглашен",
-      "reactionCount": 116,
-      "engagementRate": 0.008345323741007195
+      "reactionCount": 117,
+      "engagementRate": 0.00841726618705036
     },
     {
       "id": "probankrotstvoru/9584",
@@ -542,7 +542,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 669,
+      "viewCount": 690,
       "tgLink": "https://t.me/probankrotstvoru/9584",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -555,17 +555,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.92,
+      "priorityScore": 30.81,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 669 просмотров"
+        "Охват в Telegram Web: 690 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВерховный Суд разъяснит пределы диспозитивности при обращении взыскания на залогКредитор потребовал обратить взыскание на технику стоимостью 22 млн рублей п",
       "reactionCount": 4,
-      "engagementRate": 0.005979073243647235
+      "engagementRate": 0.005797101449275362
     },
     {
       "id": "subsidiarka_kdl/4436",
@@ -595,7 +595,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1440,
+      "viewCount": 1450,
       "tgLink": "https://t.me/subsidiarka_kdl/4436",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -615,11 +615,11 @@
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1440 просмотров"
+        "Охват в Telegram Web: 1450 просмотров"
       ],
       "digestSummary": "Привлечение контролирующих лиц исключённого из ЕГРЮЛ общества к субсидиарной ответственности признано преждевременным без установления причин объективного банкротства и конкретных неправомерных действий каждого из ответч",
       "reactionCount": 2,
-      "engagementRate": 0.001388888888888889
+      "engagementRate": 0.001379310344827586
     },
     {
       "id": "probankrotstvoru/9546",
@@ -757,22 +757,22 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 236
+      "count": 238
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 225
+      "count": 228
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 220
+      "count": 222
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 216
+      "count": 217
     },
     {
       "id": "enforcement",
@@ -782,12 +782,12 @@
     {
       "id": "tax",
       "label": "Налоги",
-      "count": 50
+      "count": 51
     },
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 43
+      "count": 44
     }
   ],
   "topChannels": [
