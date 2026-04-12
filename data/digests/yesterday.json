@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-12T21:53:40.627Z",
+  "generatedAt": "2026-04-12T22:27:54.004Z",
   "totalPosts": 22,
   "topPosts": [
     {
@@ -43,7 +43,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.42,
+      "priorityScore": 29.35,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -82,7 +82,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 914,
+      "viewCount": 915,
       "tgLink": "https://t.me/subsidiarka_kdl/4455",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -96,17 +96,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 26.78,
+      "priorityScore": 26.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 914 просмотров"
+        "Охват в Telegram Web: 915 просмотров"
       ],
       "digestSummary": "Личные фонды в суде: первые делаЛичные фонды существуют в России с марта 2022 года. Судебная практика только начинает формироваться, но она уже есть. И первые дела дают важные ориентиры о том, как суды понимают природу э",
       "reactionCount": 3,
-      "engagementRate": 0.0032822757111597373
+      "engagementRate": 0.003278688524590164
     },
     {
       "id": "subsidiarka_kdl/4449",
@@ -142,7 +142,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 25.88,
+      "priorityScore": 25.81,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -179,7 +179,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 659,
+      "viewCount": 665,
       "tgLink": "https://t.me/vZone1413/8849",
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
@@ -191,19 +191,19 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 20.38,
+      "priorityScore": 20.31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 659 просмотров",
+        "Охват в Telegram Web: 665 просмотров",
         "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "20ААС - Определением апелляционного суда от 05.02.2026 ФУ предложено представить пояснения в отношении открытия расчетного должнику счета в ПАО «Совкомбанк». ФУ пояснил что, в ПАО «Совкомбанк» разработан и внедрен сервис",
       "reactionCount": 11,
-      "engagementRate": 0.01669195751138088
+      "engagementRate": 0.016541353383458645
     },
     {
       "id": "bankrovert/688",
@@ -236,7 +236,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 177,
+      "viewCount": 178,
       "tgLink": "https://t.me/bankrovert/688",
       "channel": "bankrovert",
       "channelTitle": "Банкроверт",
@@ -248,18 +248,18 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 20.04,
+      "priorityScore": 19.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 177 просмотров",
+        "Охват в Telegram Web: 178 просмотров",
         "Сильная отдача аудитории: 2,8% реакций к просмотрам"
       ],
       "digestSummary": "Рубрика #Субботнее_чтение, выпуск № 17 сезона 25/26.Этика процента. Сборник, включающий две работы: Джона Локка \"Некоторые последствия снижения процентной ставки и повышения ценности денег\" и Иеремии Бентама \"В защиту ро",
       "reactionCount": 5,
-      "engagementRate": 0.02824858757062147
+      "engagementRate": 0.028089887640449437
     },
     {
       "id": "disputesandsanctions/2426",
@@ -287,7 +287,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 282,
+      "viewCount": 283,
       "tgLink": "https://t.me/disputesandsanctions/2426",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -300,18 +300,18 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 19.51,
+      "priorityScore": 19.44,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Исполнение",
-        "Охват в Telegram Web: 282 просмотров",
+        "Охват в Telegram Web: 283 просмотров",
         "Сильная отдача аудитории: 2,1% реакций к просмотрам"
       ],
       "digestSummary": "бар Б.Э. Нольде -Коллизия юрисдикций и коллизия законовВот как Б.Э. Нольде объясняет различие между коллизией юрисдикций и коллизией законов.Единственное, важно помнить, что коллизия юрисдикций не ограничивается только с",
       "reactionCount": 6,
-      "engagementRate": 0.02127659574468085
+      "engagementRate": 0.02120141342756184
     },
     {
       "id": "sudpraktik_bankrot_demo/2614",
@@ -348,7 +348,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 18.27,
+      "priorityScore": 18.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -395,7 +395,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2420,
+      "viewCount": 2430,
       "tgLink": "https://t.me/lawegorov/3721",
       "channel": "lawegorov",
       "channelTitle": "AVE in Law",
@@ -407,17 +407,17 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 17.96,
+      "priorityScore": 17.89,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 58 реакций",
-        "Охват в Telegram Web: 2420 просмотров",
+        "Охват в Telegram Web: 2430 просмотров",
         "Сильная отдача аудитории: 2,4% реакций к просмотрам"
       ],
       "digestSummary": "В мае у меня будет важная беседа с разработчиками первого текста действующего ГК. Предполагаю поговорить пока только по части первой ГК. Чтобы не забыть ничего важного, спрошу и здесь тоже - что бы вы спросили у разработ",
       "reactionCount": 58,
-      "engagementRate": 0.023966942148760332
+      "engagementRate": 0.023868312757201648
     },
     {
       "id": "bankruptcyboutique/550",
@@ -445,7 +445,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 17.71,
+      "priorityScore": 17.64,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -486,7 +486,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 184,
+      "viewCount": 185,
       "tgLink": "https://t.me/bankrovert/687",
       "channel": "bankrovert",
       "channelTitle": "Банкроверт",
@@ -497,17 +497,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 16.15,
+      "priorityScore": 16.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 184 просмотров",
+        "Охват в Telegram Web: 185 просмотров",
         "Сильная отдача аудитории: 3,8% реакций к просмотрам"
       ],
       "digestSummary": "❗Внимание, конкурс! По случаю Дня космонавтики, который завтра, вот такой филателистический конкурс. В 1967 г. вышла космическая серия марок, художником, кстати, был Алексей Леонов. Одну из которых вы видите на картинке.",
       "reactionCount": 7,
-      "engagementRate": 0.03804347826086957
+      "engagementRate": 0.03783783783783784
     },
     {
       "id": "sudpraktik/3492",
@@ -546,7 +546,7 @@
         "bankruptcy",
         "tax"
       ],
-      "priorityScore": 14.56,
+      "priorityScore": 14.49,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Налоги",
@@ -607,7 +607,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 14.37,
+      "priorityScore": 14.3,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",

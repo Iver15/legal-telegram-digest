@@ -1,8 +1,8 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-12T21:53:40.627Z",
-  "totalPosts": 14,
+  "generatedAt": "2026-04-12T22:27:54.003Z",
+  "totalPosts": 18,
   "topPosts": [
     {
       "id": "probankrotstvoru/9584",
@@ -30,7 +30,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 722,
+      "viewCount": 723,
       "tgLink": "https://t.me/probankrotstvoru/9584",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -43,17 +43,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.5,
+      "priorityScore": 30.42,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 722 просмотров"
+        "Охват в Telegram Web: 723 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВерховный Суд разъяснит пределы диспозитивности при обращении взыскания на залогКредитор потребовал обратить взыскание на технику стоимостью 22 млн рублей п",
       "reactionCount": 4,
-      "engagementRate": 0.00554016620498615
+      "engagementRate": 0.005532503457814661
     },
     {
       "id": "bankruptcyboutique/551",
@@ -94,7 +94,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 30.05,
+      "priorityScore": 29.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -156,7 +156,7 @@
         "bankruptcy",
         "courts"
       ],
-      "priorityScore": 26.57,
+      "priorityScore": 26.5,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -204,7 +204,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 609,
+      "viewCount": 612,
       "tgLink": "https://t.me/subsidiarka_kdl/4456",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -217,17 +217,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 26.43,
+      "priorityScore": 26.36,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 609 просмотров"
+        "Охват в Telegram Web: 612 просмотров"
       ],
       "digestSummary": "Личный фонд создан. Кто может его атаковать и какСоздание личного фонда не означает, что активы защищены автоматически. У трёх категорий лиц есть конкретные правовые инструменты, чтобы оспорить структуру, добраться до им",
       "reactionCount": 4,
-      "engagementRate": 0.006568144499178982
+      "engagementRate": 0.006535947712418301
     },
     {
       "id": "disputesandsanctions/2427",
@@ -249,7 +249,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 153,
+      "viewCount": 156,
       "tgLink": "https://t.me/disputesandsanctions/2427",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -261,19 +261,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 24.96,
+      "priorityScore": 24.89,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 153 просмотров",
-        "Сильная отдача аудитории: 9,2% реакций к просмотрам"
+        "Охват в Telegram Web: 156 просмотров",
+        "Сильная отдача аудитории: 9,0% реакций к просмотрам"
       ],
       "digestSummary": "Воскресное - (Пред)пасхальное чудоКак известно, конкурс Виллема Виса проводится в пасхальную неделю, которая в некотором роде выступает аналогом наших майских праздниках.Также конкурс Виллема Виса славится или, правильне",
       "reactionCount": 14,
-      "engagementRate": 0.0915032679738562
+      "engagementRate": 0.08974358974358974
     },
     {
       "id": "probankrotstvoru/9583",
@@ -312,7 +312,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 21.68,
+      "priorityScore": 21.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -323,6 +323,44 @@
       "digestSummary": "[Вебинар] Когда нарушение антимонопольного права приводит к требованию о перечислении дохода, а когда — к наложению штрафаЕсли действия компании были оценены как нарушение, какие последствия могут наступить: перечисление",
       "reactionCount": 3,
       "engagementRate": 0.0038119440914866584
+    },
+    {
+      "id": "vZone1413/8855",
+      "title": "Суд - При наличии противодействия со стороны должника и залогового кредитора, ФУ должен был в разумный срок обратиться в арбитражный суд за разрешением соответствующих разногласий и обеспечения своего доступа в жилище должника.Саратов А12-27263/2025 10.04.26г.",
+      "type": "text",
+      "datetime": "2026-04-12T22:19:25+00:00",
+      "tags": [
+        "bankruptcy",
+        "arbitration",
+        "ai_law",
+        "courts"
+      ],
+      "text": "Суд - При наличии противодействия со стороны должника и залогового кредитора, ФУ должен был в разумный срок обратиться в арбитражный суд за разрешением соответствующих разногласий и обеспечения своего доступа в жилище должника.Саратов А12-27263/2025 10.04.26г.",
+      "content": "<p>Суд - При наличии противодействия со стороны должника и залогового кредитора, ФУ должен был в разумный срок обратиться в арбитражный суд за разрешением соответствующих разногласий и обеспечения своего доступа в жилище должника.<br>Саратов <a href=\"https://ras.arbitr.ru/Document/Pdf/619a4eb5-4ecb-42e4-820b-28f608cf22eb/9ad3948a-7b27-4586-9a03-ac330ee7b425/%D0%9012-27263-2025__20260410.pdf?isAddStamp=True\" target=\"_blank\" rel=\"noopener\" title=\"А12-27263/2025\">А12-27263/2025</a> 10.04.26г.</p>",
+      "reactions": [],
+      "viewCount": 14,
+      "tgLink": "https://t.me/vZone1413/8855",
+      "channel": "vZone1413",
+      "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
+      "category": "bankruptcy",
+      "group": "practical_law",
+      "legalTopics": [
+        "bankruptcy",
+        "arbitration",
+        "ai_law",
+        "courts"
+      ],
+      "priorityScore": 20.31,
+      "priorityReasons": [
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Арбитраж",
+        "Совпадение по теме: Суды",
+        "Охват в Telegram Web: 14 просмотров"
+      ],
+      "digestSummary": "Суд - При наличии противодействия со стороны должника и залогового кредитора, ФУ должен был в разумный срок обратиться в арбитражный суд за разрешением соответствующих разногласий и обеспечения своего доступа в жилище до",
+      "reactionCount": 0,
+      "engagementRate": 0
     },
     {
       "id": "tgnspau/1313",
@@ -353,7 +391,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 205,
+      "viewCount": 206,
       "tgLink": "https://t.me/tgnspau/1313",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -364,17 +402,17 @@
         "enforcement",
         "arbitration"
       ],
-      "priorityScore": 18.83,
+      "priorityScore": 18.76,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 205 просмотров",
+        "Охват в Telegram Web: 206 просмотров",
         "Сильная отдача аудитории: 4,9% реакций к просмотрам"
       ],
       "digestSummary": "🌻 Светлой Пасхи!Мы говорим: «Христос Воскресе!» и эти слова объединяют людей, независимо от профессии, статуса и обстоятельств. Пасха – это про торжество жизни. Про надежду там, где её, казалось бы, уже не осталось. Ещё",
       "reactionCount": 10,
-      "engagementRate": 0.04878048780487805
+      "engagementRate": 0.04854368932038835
     },
     {
       "id": "lawegorov/3723",
@@ -391,7 +429,7 @@
       "reactions": [
         {
           "emoji": "❤️",
-          "count": "22",
+          "count": "23",
           "isPaid": false
         },
         {
@@ -400,7 +438,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 730,
+      "viewCount": 761,
       "tgLink": "https://t.me/lawegorov/3723",
       "channel": "lawegorov",
       "channelTitle": "AVE in Law",
@@ -411,17 +449,52 @@
         "courts",
         "bankruptcy"
       ],
-      "priorityScore": 17.64,
+      "priorityScore": 17.69,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Суды",
-        "Высокая вовлечённость: 25 реакций",
-        "Охват в Telegram Web: 730 просмотров",
+        "Высокая вовлечённость: 26 реакций",
+        "Охват в Telegram Web: 761 просмотров",
         "Сильная отдача аудитории: 3,4% реакций к просмотрам"
       ],
       "digestSummary": "Рубрика \"Если с другом выйду я, а медведь - без друга!\" -2. Дорогие друзья и коллеги, сегодня я уже обращался к вам со словами благодарности, но с учетом полученных многих сотен мейлов, звонков и сообщений со словами под",
-      "reactionCount": 25,
-      "engagementRate": 0.03424657534246575
+      "reactionCount": 26,
+      "engagementRate": 0.03416557161629435
+    },
+    {
+      "id": "vZone1413/8856",
+      "title": "Суд - ФУ являющийся профессиональным участником отношений в рамках дел о банкротстве, должен обеспечивать своевременное выполнение своих обязанностей, отслеживать корреспонденцию от РР, поступающую на официальный адрес электронной почты АУ, в том числе, попавшую в СПАМ-папку.Саратов А12-27263/2025 10.04.26г.",
+      "type": "text",
+      "datetime": "2026-04-12T22:22:46+00:00",
+      "tags": [
+        "bankruptcy",
+        "arbitration",
+        "courts"
+      ],
+      "text": "Суд - ФУ являющийся профессиональным участником отношений в рамках дел о банкротстве, должен обеспечивать своевременное выполнение своих обязанностей, отслеживать корреспонденцию от РР, поступающую на официальный адрес электронной почты АУ, в том числе, попавшую в СПАМ-папку.Саратов А12-27263/2025 10.04.26г.",
+      "content": "<p>Суд - ФУ являющийся профессиональным участником отношений в рамках дел о банкротстве, должен обеспечивать своевременное выполнение своих обязанностей, отслеживать корреспонденцию от РР, поступающую на официальный адрес электронной почты АУ, в том числе, попавшую в СПАМ-папку.<br>Саратов <a href=\"https://ras.arbitr.ru/Document/Pdf/619a4eb5-4ecb-42e4-820b-28f608cf22eb/9ad3948a-7b27-4586-9a03-ac330ee7b425/%D0%9012-27263-2025__20260410.pdf?isAddStamp=True\" target=\"_blank\" rel=\"noopener\" title=\"А12-27263/2025\">А12-27263/2025</a> 10.04.26г.</p>",
+      "reactions": [],
+      "viewCount": 12,
+      "tgLink": "https://t.me/vZone1413/8856",
+      "channel": "vZone1413",
+      "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
+      "category": "bankruptcy",
+      "group": "practical_law",
+      "legalTopics": [
+        "bankruptcy",
+        "arbitration",
+        "courts"
+      ],
+      "priorityScore": 16.07,
+      "priorityReasons": [
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Банкротство",
+        "Совпадение по теме: Суды",
+        "Охват в Telegram Web: 12 просмотров"
+      ],
+      "digestSummary": "Суд - ФУ являющийся профессиональным участником отношений в рамках дел о банкротстве, должен обеспечивать своевременное выполнение своих обязанностей, отслеживать корреспонденцию от РР, поступающую на официальный адрес э",
+      "reactionCount": 0,
+      "engagementRate": 0
     },
     {
       "id": "Shokobear/3872",
@@ -452,7 +525,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 951,
+      "viewCount": 955,
       "tgLink": "https://t.me/Shokobear/3872",
       "channel": "Shokobear",
       "channelTitle": "Shokobear (Олег Зайцев о банкротстве)",
@@ -463,16 +536,16 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 15.61,
+      "priorityScore": 15.54,
       "priorityReasons": [
         "Категория канала: courts",
         "Высокая вовлечённость: 74 реакций",
-        "Охват в Telegram Web: 951 просмотров",
-        "Сильная отдача аудитории: 7,8% реакций к просмотрам"
+        "Охват в Telegram Web: 955 просмотров",
+        "Сильная отдача аудитории: 7,7% реакций к просмотрам"
       ],
       "digestSummary": "Мы с мишкой Шоко поздравляем всех православных христиан с Пасхой - днем, когда Христос воскрес и дал надежду всем верующим в него на вечную жизнь! Христос дал людям гораздо больше чем право, но и просил гораздо больше. Б",
       "reactionCount": 74,
-      "engagementRate": 0.07781282860147214
+      "engagementRate": 0.0774869109947644
     },
     {
       "id": "insolvencylaw/601",
@@ -488,7 +561,7 @@
       "reactions": [
         {
           "emoji": "❤️",
-          "count": "50",
+          "count": "51",
           "isPaid": false
         },
         {
@@ -522,7 +595,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 370,
+      "viewCount": 373,
       "tgLink": "https://t.me/insolvencylaw/601",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -532,137 +605,38 @@
         "bankruptcy",
         "courts"
       ],
-      "priorityScore": 15.44,
+      "priorityScore": 15.37,
       "priorityReasons": [
         "Категория канала: bankruptcy",
-        "Высокая вовлечённость: 72 реакций",
-        "Охват в Telegram Web: 370 просмотров",
-        "Сильная отдача аудитории: 19,5% реакций к просмотрам"
+        "Высокая вовлечённость: 73 реакций",
+        "Охват в Telegram Web: 373 просмотров",
+        "Сильная отдача аудитории: 19,6% реакций к просмотрам"
       ],
       "digestSummary": "Христос Воскресе!",
-      "reactionCount": 72,
-      "engagementRate": 0.1945945945945946
-    },
-    {
-      "id": "legally_bald/1149",
-      "title": "Воистину, пытлив ум ребенка🙂Всех с Днём космонавтики",
-      "type": "text",
-      "datetime": "2026-04-12T15:28:40+00:00",
-      "tags": [
-        "arbitration",
-        "courts"
-      ],
-      "text": "Воистину, пытлив ум ребенка🙂Всех с Днём космонавтики",
-      "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-1149-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Воистину, пытлив ум ребенка🙂Всех с Днём космонавтики\">\n        <img src=\"/legal-telegram-digest/media/01ca5db2cbea5f466ae0189776cf19d4.jpg\" alt=\"Воистину, пытлив ум ребенка🙂Всех с Днём космонавтики\" width=\"599\" height=\"799\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-1149-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-1149-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-1149-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"/legal-telegram-digest/media/01ca5db2cbea5f466ae0189776cf19d4.jpg\" alt=\"Воистину, пытлив ум ребенка🙂Всех с Днём космонавтики\" width=\"599\" height=\"799\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><p>Воистину, пытлив ум ребенка<i class=\"emoji\"><b>🙂</b></i></p><p>Всех с Днём космонавтики<img class=\"tg-emoji\" src=\"/legal-telegram-digest/media/fc320da400ce35c37872dc9309082a7b.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
-      "reactions": [
-        {
-          "emoji": "🤣",
-          "count": "15",
-          "isPaid": false
-        },
-        {
-          "emoji": "🔥",
-          "count": "9",
-          "isPaid": false
-        },
-        {
-          "emoji": "⚡",
-          "count": "1",
-          "isPaid": false
-        },
-        {
-          "emoji": "🍾",
-          "count": "1",
-          "isPaid": false
-        },
-        {
-          "emoji": "💊",
-          "count": "1",
-          "isPaid": false
-        }
-      ],
-      "viewCount": 433,
-      "tgLink": "https://t.me/legally_bald/1149",
-      "channel": "legally_bald",
-      "channelTitle": "Legally_bald (Даниил Савченко)",
-      "category": "arbitration",
-      "group": "practical_law",
-      "legalTopics": [
-        "arbitration",
-        "courts"
-      ],
-      "priorityScore": 13.55,
-      "priorityReasons": [
-        "Категория канала: arbitration",
-        "Высокая вовлечённость: 27 реакций",
-        "Охват в Telegram Web: 433 просмотров",
-        "Сильная отдача аудитории: 6,2% реакций к просмотрам"
-      ],
-      "digestSummary": "Воистину, пытлив ум ребенка🙂Всех с Днём космонавтики",
-      "reactionCount": 27,
-      "engagementRate": 0.06235565819861432
-    },
-    {
-      "id": "lawegorov/3722",
-      "title": "Абсолютно неправосудное решение, на мой взгляд. Сведение счетов какое-то. Или попытка прихлопнуть ярких, чтобы другие боялись. Пока выглядит именно так со стороны",
-      "type": "text",
-      "datetime": "2026-04-12T19:20:53+00:00",
-      "tags": [
-        "arbitration",
-        "courts",
-        "bankruptcy"
-      ],
-      "text": "Абсолютно неправосудное решение, на мой взгляд. Сведение счетов какое-то. Или попытка прихлопнуть ярких, чтобы другие боялись. Пока выглядит именно так со стороны",
-      "content": "<p>Абсолютно неправосудное решение, на мой взгляд. Сведение счетов какое-то. Или попытка прихлопнуть ярких, чтобы другие боялись. Пока выглядит именно так со стороны</p>",
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "1",
-          "isPaid": false
-        }
-      ],
-      "viewCount": 936,
-      "tgLink": "https://t.me/lawegorov/3722",
-      "channel": "lawegorov",
-      "channelTitle": "AVE in Law",
-      "category": "arbitration",
-      "group": "practical_law",
-      "legalTopics": [
-        "arbitration",
-        "courts",
-        "bankruptcy"
-      ],
-      "priorityScore": 13.47,
-      "priorityReasons": [
-        "Категория канала: arbitration",
-        "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 936 просмотров"
-      ],
-      "digestSummary": "Абсолютно неправосудное решение, на мой взгляд. Сведение счетов какое-то. Или попытка прихлопнуть ярких, чтобы другие боялись. Пока выглядит именно так со стороны",
-      "reactionCount": 1,
-      "engagementRate": 0.0010683760683760685
+      "reactionCount": 73,
+      "engagementRate": 0.19571045576407506
     }
   ],
   "topTopics": [
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 13
-    },
-    {
-      "id": "courts",
-      "label": "Суды",
-      "count": 11
+      "count": 17
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 11
+      "count": 15
+    },
+    {
+      "id": "courts",
+      "label": "Суды",
+      "count": 14
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 7
+      "count": 9
     },
     {
       "id": "enforcement",
@@ -682,6 +656,11 @@
   ],
   "topChannels": [
     {
+      "channel": "vZone1413",
+      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
+      "count": 6
+    },
+    {
       "channel": "lawegorov",
       "title": "AVE in Law",
       "count": 2
@@ -689,11 +668,6 @@
     {
       "channel": "probankrotstvoru",
       "title": "PROбанкротство",
-      "count": 2
-    },
-    {
-      "channel": "vZone1413",
-      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
       "count": 2
     },
     {
