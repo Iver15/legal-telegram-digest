@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-12T19:33:34.664Z",
+  "generatedAt": "2026-04-12T20:04:06.810Z",
   "totalPosts": 286,
   "topPosts": [
     {
@@ -542,7 +542,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 690,
+      "viewCount": 697,
       "tgLink": "https://t.me/probankrotstvoru/9584",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -555,17 +555,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.81,
+      "priorityScore": 30.74,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 690 просмотров"
+        "Охват в Telegram Web: 697 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВерховный Суд разъяснит пределы диспозитивности при обращении взыскания на залогКредитор потребовал обратить взыскание на технику стоимостью 22 млн рублей п",
       "reactionCount": 4,
-      "engagementRate": 0.005797101449275362
+      "engagementRate": 0.005738880918220947
     },
     {
       "id": "subsidiarka_kdl/4436",
