@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-13T17:39:54.802Z",
+  "generatedAt": "2026-04-13T18:52:19.420Z",
   "totalPosts": 46,
   "topPosts": [
     {
@@ -35,9 +35,14 @@
           "emoji": "🤔",
           "count": "1",
           "isPaid": false
+        },
+        {
+          "emoji": "👌",
+          "count": "1",
+          "isPaid": false
         }
       ],
-      "viewCount": 598,
+      "viewCount": 632,
       "tgLink": "https://t.me/subsidiarka_kdl/4459",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -52,17 +57,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 38.8,
+      "priorityScore": 38.95,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 598 просмотров"
+        "Охват в Telegram Web: 632 просмотров"
       ],
       "digestSummary": "Личные фонды 2026: для кого, зачем и как?Состоялась дискуссия о личных фондах как инструменте структурирования частного капитала — разобрали правовую конструкцию, реальные кейсы из практики, риски оспаривания и актуальну",
-      "reactionCount": 3,
-      "engagementRate": 0.005016722408026756
+      "reactionCount": 4,
+      "engagementRate": 0.006329113924050633
     },
     {
       "id": "corplawpro/5892",
@@ -87,7 +92,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 415,
+      "viewCount": 454,
       "tgLink": "https://t.me/corplawpro/5892",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -102,17 +107,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 38.07,
+      "priorityScore": 37.92,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 415 просмотров"
+        "Охват в Telegram Web: 454 просмотров"
       ],
       "digestSummary": "Личные фонды 2026: для кого, зачем и как?Состоялась дискуссия о личных фондах как инструменте структурирования частного капитала — разобрали правовую конструкцию, реальные кейсы из практики, риски оспаривания и актуальну",
       "reactionCount": 1,
-      "engagementRate": 0.0024096385542168677
+      "engagementRate": 0.0022026431718061676
     },
     {
       "id": "corplawpro/5889",
@@ -152,7 +157,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 36.25,
+      "priorityScore": 36.1,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
@@ -196,7 +201,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 35.97,
+      "priorityScore": 35.82,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -239,7 +244,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 741,
+      "viewCount": 812,
       "tgLink": "https://t.me/probankrotstvoru/9591",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -252,19 +257,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 35.03,
+      "priorityScore": 34.9,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 741 просмотров",
-        "Сильная отдача аудитории: 2,6% реакций к просмотрам"
+        "Охват в Telegram Web: 812 просмотров",
+        "Сильная отдача аудитории: 2,3% реакций к просмотрам"
       ],
       "digestSummary": "Кассация подтвердила отстранение управляющего и взыскание с него 40 млн рублей убытковОбщество «Мособлтрастинвест» было признано банкротом в сентябре 2009 года. КУ Дмитрий Филатов был утвержден в апреле 2016 года. Минмос",
       "reactionCount": 19,
-      "engagementRate": 0.02564102564102564
+      "engagementRate": 0.023399014778325122
     },
     {
       "id": "probankrotstvoru/9586",
@@ -297,7 +302,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1030,
+      "viewCount": 1060,
       "tgLink": "https://t.me/probankrotstvoru/9586",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -310,19 +315,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.84,
+      "priorityScore": 33.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 1030 просмотров",
-        "Сильная отдача аудитории: 1,4% реакций к просмотрам"
+        "Охват в Telegram Web: 1060 просмотров",
+        "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: суды должны установить причины банкротства при привлечении КДЛ к ответственностиОбщество «Норд» обратилось с иском о привлечении к субсидиарной ответственности бывших контролирующих лиц общества «СудТехСервис» ",
       "reactionCount": 14,
-      "engagementRate": 0.013592233009708738
+      "engagementRate": 0.013207547169811321
     },
     {
       "id": "probankrotstvoru/9589",
@@ -355,7 +360,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 937,
+      "viewCount": 975,
       "tgLink": "https://t.me/probankrotstvoru/9589",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -368,19 +373,75 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.43,
+      "priorityScore": 30.3,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 21 реакций",
-        "Охват в Telegram Web: 937 просмотров",
+        "Охват в Telegram Web: 975 просмотров",
         "Сильная отдача аудитории: 2,2% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: повышенный стандарт доказывания требует обоснования аффилированностиОбщество «Дел-мир» было признано банкротом в июле 2024 года. КУ Сергей Водолазский оспорил платежи на 5,2 млн рублей в пользу ТК «Грани», указ",
       "reactionCount": 21,
-      "engagementRate": 0.022411953041622197
+      "engagementRate": 0.021538461538461538
+    },
+    {
+      "id": "probankrotstvoru/9588",
+      "title": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club. 24 апреля (Пт) | Москва, ул. Большая Никитская 17 стр.2 14:30 - 21:00 Участие бесплатное | регистрация обязательна ЗарегистрироватьсяПрактикум RECOVERY club — это профессиональная площадка, где участники разберут конкретные кейсы из своей практики и обсудят вопросы: субсидиарная ответственность и изъятие активов в пользу государства; внебанкротная субсидиарная ответственность, плюсы и минусы; действия/бездействие, которые могут быть квалифицированы как основание для субсидиарной ответственности, проблема оправдания «делового решения»; субсидиарная ответственность за неподачу заявления о банкротстве; cубсидиарная ответственность за ИИ: почему отсутствие системы управления становится личным риском руководителя; и, конечно, самые яркие и неожиданные кейсы от ведущих практиков.К нам уже присоединились юристы ведущих банков, холдингов и компаний: ",
+      "type": "text",
+      "datetime": "2026-04-13T11:04:10+00:00",
+      "tags": [
+        "bankruptcy",
+        "arbitration",
+        "courts",
+        "ai_law"
+      ],
+      "text": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club. 24 апреля (Пт) | Москва, ул. Большая Никитская 17 стр.2 14:30 - 21:00 Участие бесплатное | регистрация обязательна ЗарегистрироватьсяПрактикум RECOVERY club — это профессиональная площадка, где участники разберут конкретные кейсы из своей практики и обсудят вопросы: субсидиарная ответственность и изъятие активов в пользу государства; внебанкротная субсидиарная ответственность, плюсы и минусы; действия/бездействие, которые могут быть квалифицированы как основание для субсидиарной ответственности, проблема оправдания «делового решения»; субсидиарная ответственность за неподачу заявления о банкротстве; cубсидиарная ответственность за ИИ: почему отсутствие системы управления становится личным риском руководителя; и, конечно, самые яркие и неожиданные кейсы от ведущих практиков.К нам уже присоединились юристы ведущих банков, холдингов и компаний: \n      \n       Центральный банк Российской Федерации Сбербанк ВЭБ.РФ АСВ  СИБУР Ростелеком Траст  Мособлбанк Т-Банк  МКБ  Согаз Банк Инго Легион (АКБ Легион) Москвич  Сибур-РТ ТЗ ФРТ КРЦ Лада АТБ  Влад-ДВ Национальная мясная корпорация АГГРО УК Бёрдз ОсноваСтрой ПКФ Экосталь Формастоун МПС Оникс Росфармация ЛАНИТ СПК Терралинити ТМКБ Союз ПК Сфера СК Партнер АйТиКом Эдвансстрой ИФГ Агастон ТД Квартал\n      Expand hidden content\n     Мероприятие закрыто для представителей юридических компаний, консультантов, арбитражных управляющих, адвокатов и частнопрактикующих юристов. Стать членом Клуба♟ Стать экспертом Клуба Стать спикером мероприятия",
+      "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-9588-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club. 24 апреля (Пт) | Москва, ул. Большая Никитская 17 стр.2 14:30 - 21:00 Участие бесплатное | регистрация обязательна ЗарегистрироватьсяПрактикум RECOVERY club — это профессиональная площадка, где участники разберут конкретные кейсы из своей практики и обсудят вопросы: субсидиарная ответственность и изъятие активов в пользу государства; внебанкротная субсидиарная ответственность, плюсы и минусы; действия/бездействие, которые могут быть квалифицированы как основание для субсидиарной ответственности, проблема оправдания «делового решения»; субсидиарная ответственность за неподачу заявления о банкротстве; cубсидиарная ответственность за ИИ: почему отсутствие системы управления становится личным риском руководителя; и, конечно, самые яркие и неожиданные кейсы от ведущих практиков.К нам уже присоединились юристы ведущих банков, холдингов и компаний: \">\n        <img src=\"/legal-telegram-digest/media/1b6ab0585f3b36ae5689b0eaffa85f0f.jpg\" alt=\"Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club. 24 апреля (Пт) | Москва, ул. Большая Никитская 17 стр.2 14:30 - 21:00 Участие бесплатное | регистрация обязательна ЗарегистрироватьсяПрактикум RECOVERY club — это профессиональная площадка, где участники разберут конкретные кейсы из своей практики и обсудят вопросы: субсидиарная ответственность и изъятие активов в пользу государства; внебанкротная субсидиарная ответственность, плюсы и минусы; действия/бездействие, которые могут быть квалифицированы как основание для субсидиарной ответственности, проблема оправдания «делового решения»; субсидиарная ответственность за неподачу заявления о банкротстве; cубсидиарная ответственность за ИИ: почему отсутствие системы управления становится личным риском руководителя; и, конечно, самые яркие и неожиданные кейсы от ведущих практиков.К нам уже присоединились юристы ведущих банков, холдингов и компаний: \" width=\"800\" height=\"720\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-9588-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-9588-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-9588-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"/legal-telegram-digest/media/1b6ab0585f3b36ae5689b0eaffa85f0f.jpg\" alt=\"Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club. 24 апреля (Пт) | Москва, ул. Большая Никитская 17 стр.2 14:30 - 21:00 Участие бесплатное | регистрация обязательна ЗарегистрироватьсяПрактикум RECOVERY club — это профессиональная площадка, где участники разберут конкретные кейсы из своей практики и обсудят вопросы: субсидиарная ответственность и изъятие активов в пользу государства; внебанкротная субсидиарная ответственность, плюсы и минусы; действия/бездействие, которые могут быть квалифицированы как основание для субсидиарной ответственности, проблема оправдания «делового решения»; субсидиарная ответственность за неподачу заявления о банкротстве; cубсидиарная ответственность за ИИ: почему отсутствие системы управления становится личным риском руководителя; и, конечно, самые яркие и неожиданные кейсы от ведущих практиков.К нам уже присоединились юристы ведущих банков, холдингов и компаний: \" width=\"800\" height=\"720\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>Субсидиарная ответственность: тренды и кейсы</b><br>Практикум Клуба системных кредиторов RECOVERY club.<br><br><blockquote><img class=\"tg-emoji\" src=\"/legal-telegram-digest/media/61a1f5d26989555ca817016424e1f90c.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> <i>24 апреля (Пт) | Москва</i>, <i>ул. Большая Никитская 17 стр.2<br></i><i><img class=\"tg-emoji\" src=\"/legal-telegram-digest/media/fdf98122e0d30eee484110925d1c01eb.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"></i><i> 14:30 - 21:00</i><br><img class=\"tg-emoji\" src=\"/legal-telegram-digest/media/e10f4319f6065948b35e0a1a1af65f03.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><i> Участие бесплатное | регистрация обязательна</i><br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5312048833394387701.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> <a href=\"https://probankrotstvo.ru/events/subsidiarnaia-otvetstvennost-trendy-i-keisy-praktikum-recovery-club-1219\" target=\"_blank\" rel=\"noopener\" title=\"Зарегистрироваться\"><b>Зарегистрироваться</b></a></blockquote><br><br>Практикум RECOVERY club — это профессиональная площадка, где участники разберут конкретные кейсы из своей практики и обсудят вопросы:<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/6064137902307150182.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> субсидиарная ответственность и изъятие активов в пользу государства;<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/6064137902307150182.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> внебанкротная субсидиарная ответственность, плюсы и минусы;<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/6064137902307150182.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> действия/бездействие, которые могут быть квалифицированы как основание для субсидиарной ответственности, проблема оправдания «делового решения»;<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/6064137902307150182.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> субсидиарная ответственность за неподачу заявления о банкротстве;<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/6064137902307150182.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> cубсидиарная ответственность за ИИ: почему отсутствие системы управления становится личным риском руководителя;<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/6064137902307150182.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> и, конечно, самые яркие и неожиданные кейсы от ведущих практиков.<br><br>К нам уже присоединились юристы ведущих банков, холдингов и компаний: <br><div class=\"tg-expandable\">\n      <input type=\"checkbox\" id=\"expand-16-0\" class=\"tg-expandable__checkbox\" aria-label=\"Expand hidden content\" aria-controls=\"expand-16-0-content\">\n      <div id=\"expand-16-0-content\" class=\"tg-expandable__content\"><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Центральный банк Российской Федерации<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Сбербанк<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> <a href=\"http://%D0%92%D0%AD%D0%91.%D0%A0%D0%A4/\" target=\"_blank\" rel=\"noopener\" title=\"ВЭБ.РФ\">ВЭБ.РФ</a><br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> АСВ <br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> СИБУР<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Ростелеком<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Траст <br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Мособлбанк<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Т-Банк <br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> МКБ <br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Согаз<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Банк Инго<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Легион (АКБ Легион)<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Москвич <br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Сибур-РТ<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> ТЗ ФРТ<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> КРЦ Лада<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> АТБ <br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Влад-ДВ<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Национальная мясная корпорация АГГРО<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> УК Бёрдз<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> ОсноваСтрой<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> ПКФ Экосталь<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Формастоун<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> МПС<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Оникс<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Росфармация<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> ЛАНИТ<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> СПК<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Терралинити<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> ТМКБ Союз<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> ПК Сфера<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> СК Партнер<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> АйТиКом<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Эдвансстрой<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> ИФГ Агастон<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> ТД Квартал</div>\n      <label for=\"expand-16-0\" class=\"tg-expandable__toggle\"><span class=\"sr-only\">Expand hidden content</span></label>\n    </div><br><br><i><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5436238611622148426.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"></i><i> Мероприятие закрыто для представителей юридических компаний, консультантов, арбитражных управляющих, адвокатов и частнопрактикующих юристов.</i><br><br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5312048833394387701.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> <a href=\"https://probankrotstvo.ru/s/dNWHHb\" target=\"_blank\" rel=\"noopener\" title=\"Стать членом Клуба\">Стать членом Клуба</a><br><a href=\"https://probankrotstvo.ru/page/recoveryclub/membership?popup=recoveryclub_expert\" target=\"_blank\" rel=\"noopener\" title=\"♟ Стать экспертом Клуба\"><i class=\"emoji\"><b>♟</b></i> Стать экспертом Клуба</a><br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5312381147898980446.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> <a href=\"https://t.me/recovery_club\" target=\"_blank\" rel=\"noopener\" title=\"Стать спикером мероприятия\">Стать спикером мероприятия</a>",
+      "reactions": [
+        {
+          "emoji": "⚡",
+          "count": "7",
+          "isPaid": false
+        },
+        {
+          "emoji": "👍",
+          "count": "5",
+          "isPaid": false
+        },
+        {
+          "emoji": "🔥",
+          "count": "4",
+          "isPaid": false
+        }
+      ],
+      "viewCount": 919,
+      "tgLink": "https://t.me/probankrotstvoru/9588",
+      "channel": "probankrotstvoru",
+      "channelTitle": "PROбанкротство",
+      "category": "bankruptcy",
+      "group": "bankruptcy_core",
+      "legalTopics": [
+        "bankruptcy",
+        "arbitration",
+        "courts",
+        "ai_law"
+      ],
+      "priorityScore": 30.15,
+      "priorityReasons": [
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Арбитраж",
+        "Совпадение по теме: Банкротство",
+        "Высокая вовлечённость: 16 реакций",
+        "Охват в Telegram Web: 919 просмотров",
+        "Сильная отдача аудитории: 1,7% реакций к просмотрам"
+      ],
+      "digestSummary": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club. 24 апреля (Пт) | Москва, ул. Большая Никитская 17 стр.2 14:30 - 21:00 Участие бесплатное | регистрация обязательна Зарегистр",
+      "reactionCount": 16,
+      "engagementRate": 0.017410228509249184
     },
     {
       "id": "probankrotstvoru/9590",
@@ -413,7 +474,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 819,
+      "viewCount": 865,
       "tgLink": "https://t.me/probankrotstvoru/9590",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -426,19 +487,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.08,
+      "priorityScore": 29.94,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 819 просмотров",
-        "Сильная отдача аудитории: 2,0% реакций к просмотрам"
+        "Охват в Telegram Web: 865 просмотров",
+        "Сильная отдача аудитории: 1,8% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: дата согласия на финансирование не ограничивает период взыскания расходовОбщество «ТрансАвто» было признано банкротом в марте 2023 года, а конкурсное производство завершилось в сентябре 2024 года. АУ Сергей Игл",
       "reactionCount": 16,
-      "engagementRate": 0.019536019536019536
+      "engagementRate": 0.018497109826589597
     },
     {
       "id": "probankrotstvoru/9587",
@@ -470,7 +531,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 908,
+      "viewCount": 942,
       "tgLink": "https://t.me/probankrotstvoru/9587",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -482,75 +543,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 30.04,
+      "priorityScore": 29.9,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 908 просмотров",
+        "Охват в Telegram Web: 942 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: нужно оценить план выхода из кризиса при привлечении КДЛ к ответственностиКУ общества Компания «ГСК» обратился с заявлением о привлечении к субсидиарной ответственности бывших участников и руководителя — Рафаэл",
       "reactionCount": 14,
-      "engagementRate": 0.015418502202643172
-    },
-    {
-      "id": "probankrotstvoru/9588",
-      "title": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club. 24 апреля (Пт) | Москва, ул. Большая Никитская 17 стр.2 14:30 - 21:00 Участие бесплатное | регистрация обязательна ЗарегистрироватьсяПрактикум RECOVERY club — это профессиональная площадка, где участники разберут конкретные кейсы из своей практики и обсудят вопросы: субсидиарная ответственность и изъятие активов в пользу государства; внебанкротная субсидиарная ответственность, плюсы и минусы; действия/бездействие, которые могут быть квалифицированы как основание для субсидиарной ответственности, проблема оправдания «делового решения»; субсидиарная ответственность за неподачу заявления о банкротстве; cубсидиарная ответственность за ИИ: почему отсутствие системы управления становится личным риском руководителя; и, конечно, самые яркие и неожиданные кейсы от ведущих практиков.К нам уже присоединились юристы ведущих банков, холдингов и компаний: ",
-      "type": "text",
-      "datetime": "2026-04-13T11:04:10+00:00",
-      "tags": [
-        "bankruptcy",
-        "arbitration",
-        "courts",
-        "ai_law"
-      ],
-      "text": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club. 24 апреля (Пт) | Москва, ул. Большая Никитская 17 стр.2 14:30 - 21:00 Участие бесплатное | регистрация обязательна ЗарегистрироватьсяПрактикум RECOVERY club — это профессиональная площадка, где участники разберут конкретные кейсы из своей практики и обсудят вопросы: субсидиарная ответственность и изъятие активов в пользу государства; внебанкротная субсидиарная ответственность, плюсы и минусы; действия/бездействие, которые могут быть квалифицированы как основание для субсидиарной ответственности, проблема оправдания «делового решения»; субсидиарная ответственность за неподачу заявления о банкротстве; cубсидиарная ответственность за ИИ: почему отсутствие системы управления становится личным риском руководителя; и, конечно, самые яркие и неожиданные кейсы от ведущих практиков.К нам уже присоединились юристы ведущих банков, холдингов и компаний: \n      \n       Центральный банк Российской Федерации Сбербанк ВЭБ.РФ АСВ  СИБУР Ростелеком Траст  Мособлбанк Т-Банк  МКБ  Согаз Банк Инго Легион (АКБ Легион) Москвич  Сибур-РТ ТЗ ФРТ КРЦ Лада АТБ  Влад-ДВ Национальная мясная корпорация АГГРО УК Бёрдз ОсноваСтрой ПКФ Экосталь Формастоун МПС Оникс Росфармация ЛАНИТ СПК Терралинити ТМКБ Союз ПК Сфера СК Партнер АйТиКом Эдвансстрой ИФГ Агастон ТД Квартал\n      Expand hidden content\n     Мероприятие закрыто для представителей юридических компаний, консультантов, арбитражных управляющих, адвокатов и частнопрактикующих юристов. Стать членом Клуба♟ Стать экспертом Клуба Стать спикером мероприятия",
-      "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-9588-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club. 24 апреля (Пт) | Москва, ул. Большая Никитская 17 стр.2 14:30 - 21:00 Участие бесплатное | регистрация обязательна ЗарегистрироватьсяПрактикум RECOVERY club — это профессиональная площадка, где участники разберут конкретные кейсы из своей практики и обсудят вопросы: субсидиарная ответственность и изъятие активов в пользу государства; внебанкротная субсидиарная ответственность, плюсы и минусы; действия/бездействие, которые могут быть квалифицированы как основание для субсидиарной ответственности, проблема оправдания «делового решения»; субсидиарная ответственность за неподачу заявления о банкротстве; cубсидиарная ответственность за ИИ: почему отсутствие системы управления становится личным риском руководителя; и, конечно, самые яркие и неожиданные кейсы от ведущих практиков.К нам уже присоединились юристы ведущих банков, холдингов и компаний: \">\n        <img src=\"/legal-telegram-digest/media/1b6ab0585f3b36ae5689b0eaffa85f0f.jpg\" alt=\"Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club. 24 апреля (Пт) | Москва, ул. Большая Никитская 17 стр.2 14:30 - 21:00 Участие бесплатное | регистрация обязательна ЗарегистрироватьсяПрактикум RECOVERY club — это профессиональная площадка, где участники разберут конкретные кейсы из своей практики и обсудят вопросы: субсидиарная ответственность и изъятие активов в пользу государства; внебанкротная субсидиарная ответственность, плюсы и минусы; действия/бездействие, которые могут быть квалифицированы как основание для субсидиарной ответственности, проблема оправдания «делового решения»; субсидиарная ответственность за неподачу заявления о банкротстве; cубсидиарная ответственность за ИИ: почему отсутствие системы управления становится личным риском руководителя; и, конечно, самые яркие и неожиданные кейсы от ведущих практиков.К нам уже присоединились юристы ведущих банков, холдингов и компаний: \" width=\"800\" height=\"720\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-9588-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-9588-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-9588-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"/legal-telegram-digest/media/1b6ab0585f3b36ae5689b0eaffa85f0f.jpg\" alt=\"Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club. 24 апреля (Пт) | Москва, ул. Большая Никитская 17 стр.2 14:30 - 21:00 Участие бесплатное | регистрация обязательна ЗарегистрироватьсяПрактикум RECOVERY club — это профессиональная площадка, где участники разберут конкретные кейсы из своей практики и обсудят вопросы: субсидиарная ответственность и изъятие активов в пользу государства; внебанкротная субсидиарная ответственность, плюсы и минусы; действия/бездействие, которые могут быть квалифицированы как основание для субсидиарной ответственности, проблема оправдания «делового решения»; субсидиарная ответственность за неподачу заявления о банкротстве; cубсидиарная ответственность за ИИ: почему отсутствие системы управления становится личным риском руководителя; и, конечно, самые яркие и неожиданные кейсы от ведущих практиков.К нам уже присоединились юристы ведущих банков, холдингов и компаний: \" width=\"800\" height=\"720\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><b>Субсидиарная ответственность: тренды и кейсы</b><br>Практикум Клуба системных кредиторов RECOVERY club.<br><br><blockquote><img class=\"tg-emoji\" src=\"/legal-telegram-digest/media/61a1f5d26989555ca817016424e1f90c.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> <i>24 апреля (Пт) | Москва</i>, <i>ул. Большая Никитская 17 стр.2<br></i><i><img class=\"tg-emoji\" src=\"/legal-telegram-digest/media/fdf98122e0d30eee484110925d1c01eb.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"></i><i> 14:30 - 21:00</i><br><img class=\"tg-emoji\" src=\"/legal-telegram-digest/media/e10f4319f6065948b35e0a1a1af65f03.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><i> Участие бесплатное | регистрация обязательна</i><br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5312048833394387701.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> <a href=\"https://probankrotstvo.ru/events/subsidiarnaia-otvetstvennost-trendy-i-keisy-praktikum-recovery-club-1219\" target=\"_blank\" rel=\"noopener\" title=\"Зарегистрироваться\"><b>Зарегистрироваться</b></a></blockquote><br><br>Практикум RECOVERY club — это профессиональная площадка, где участники разберут конкретные кейсы из своей практики и обсудят вопросы:<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/6064137902307150182.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> субсидиарная ответственность и изъятие активов в пользу государства;<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/6064137902307150182.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> внебанкротная субсидиарная ответственность, плюсы и минусы;<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/6064137902307150182.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> действия/бездействие, которые могут быть квалифицированы как основание для субсидиарной ответственности, проблема оправдания «делового решения»;<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/6064137902307150182.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> субсидиарная ответственность за неподачу заявления о банкротстве;<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/6064137902307150182.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> cубсидиарная ответственность за ИИ: почему отсутствие системы управления становится личным риском руководителя;<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/6064137902307150182.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> и, конечно, самые яркие и неожиданные кейсы от ведущих практиков.<br><br>К нам уже присоединились юристы ведущих банков, холдингов и компаний: <br><div class=\"tg-expandable\">\n      <input type=\"checkbox\" id=\"expand-16-0\" class=\"tg-expandable__checkbox\" aria-label=\"Expand hidden content\" aria-controls=\"expand-16-0-content\">\n      <div id=\"expand-16-0-content\" class=\"tg-expandable__content\"><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Центральный банк Российской Федерации<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Сбербанк<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> <a href=\"http://%D0%92%D0%AD%D0%91.%D0%A0%D0%A4/\" target=\"_blank\" rel=\"noopener\" title=\"ВЭБ.РФ\">ВЭБ.РФ</a><br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> АСВ <br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> СИБУР<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Ростелеком<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Траст <br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Мособлбанк<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Т-Банк <br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> МКБ <br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Согаз<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Банк Инго<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Легион (АКБ Легион)<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Москвич <br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Сибур-РТ<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> ТЗ ФРТ<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> КРЦ Лада<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> АТБ <br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Влад-ДВ<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Национальная мясная корпорация АГГРО<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> УК Бёрдз<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> ОсноваСтрой<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> ПКФ Экосталь<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Формастоун<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> МПС<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Оникс<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Росфармация<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> ЛАНИТ<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> СПК<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Терралинити<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> ТМКБ Союз<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> ПК Сфера<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> СК Партнер<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> АйТиКом<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> Эдвансстрой<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> ИФГ Агастон<br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5359791775756071126.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> ТД Квартал</div>\n      <label for=\"expand-16-0\" class=\"tg-expandable__toggle\"><span class=\"sr-only\">Expand hidden content</span></label>\n    </div><br><br><i><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5436238611622148426.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"></i><i> Мероприятие закрыто для представителей юридических компаний, консультантов, арбитражных управляющих, адвокатов и частнопрактикующих юристов.</i><br><br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5312048833394387701.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> <a href=\"https://probankrotstvo.ru/s/dNWHHb\" target=\"_blank\" rel=\"noopener\" title=\"Стать членом Клуба\">Стать членом Клуба</a><br><a href=\"https://probankrotstvo.ru/page/recoveryclub/membership?popup=recoveryclub_expert\" target=\"_blank\" rel=\"noopener\" title=\"♟ Стать экспертом Клуба\"><i class=\"emoji\"><b>♟</b></i> Стать экспертом Клуба</a><br><img class=\"tg-emoji\" src=\"https://t.me/i/emoji/5312381147898980446.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"> <a href=\"https://t.me/recovery_club\" target=\"_blank\" rel=\"noopener\" title=\"Стать спикером мероприятия\">Стать спикером мероприятия</a>",
-      "reactions": [
-        {
-          "emoji": "⚡",
-          "count": "6",
-          "isPaid": false
-        },
-        {
-          "emoji": "👍",
-          "count": "4",
-          "isPaid": false
-        },
-        {
-          "emoji": "🔥",
-          "count": "2",
-          "isPaid": false
-        }
-      ],
-      "viewCount": 886,
-      "tgLink": "https://t.me/probankrotstvoru/9588",
-      "channel": "probankrotstvoru",
-      "channelTitle": "PROбанкротство",
-      "category": "bankruptcy",
-      "group": "bankruptcy_core",
-      "legalTopics": [
-        "bankruptcy",
-        "arbitration",
-        "courts",
-        "ai_law"
-      ],
-      "priorityScore": 29.79,
-      "priorityReasons": [
-        "Категория канала: bankruptcy",
-        "Совпадение по теме: AI+Law",
-        "Совпадение по теме: Арбитраж",
-        "Совпадение по теме: Банкротство",
-        "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 886 просмотров",
-        "Сильная отдача аудитории: 1,4% реакций к просмотрам"
-      ],
-      "digestSummary": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club. 24 апреля (Пт) | Москва, ул. Большая Никитская 17 стр.2 14:30 - 21:00 Участие бесплатное | регистрация обязательна Зарегистр",
-      "reactionCount": 12,
-      "engagementRate": 0.013544018058690745
+      "engagementRate": 0.014861995753715499
     },
     {
       "id": "sudpraktik_bankrot_demo/2615",
@@ -576,7 +581,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 709,
+      "viewCount": 737,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2615",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -589,17 +594,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.73,
+      "priorityScore": 29.58,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 709 просмотров"
+        "Охват в Telegram Web: 737 просмотров"
       ],
       "digestSummary": "Поскольку единый страховой взнос уплачивается в связи с осуществлением работающими застрахованными гражданами трудовой и сходной с ней деятельности и выступает материальной гарантией социального обеспечения для этих граж",
       "reactionCount": 1,
-      "engagementRate": 0.0014104372355430183
+      "engagementRate": 0.0013568521031207597
     },
     {
       "id": "vs_court/4922",
@@ -616,7 +621,7 @@
       "text": "Третье лицо может погасить просроченную задолженность в любое времяОпределение от 03.04.2026 по делу А41-56760/2021 (305-ЭС22-29127 (8))Фабула дела: Общество, будучи третьим лицом, произвело исполнение просроченного денежного обязательства перед Банком в соответствии с подп. 1 п. 2 ст. 313 ГК в отсутствие соглашения между ними о последствиях такого исполнения. Впоследствии Общество в рамках дела о банкротстве Должника обратилось с заявлением о процессуальной замене Кредитора – Банка - в реестре требований кредиторов Должника. Позиции судов: 🔸Суды первой и апелляционной инстанций произвели замену Кредитора. Суды исходили из того, что исполнение обязательств третьим лицом за должника влечет замену в обязательстве прежнего кредитора на третье лицо, в том числе, и во взаимоотношениях с поручителем. 🔸Суд кассационной инстанции судебные акты отменил, в удовлетворении заявления Общества о процессуальном правопреемстве отказал. Суд указал, что с учетом введенной в отношении Должника процедуры банкротства правопреемство могло состояться лишь при условии заключения между Банком и заявителем договора уступки права Позиция Верховного суда: Поскольку применительно к положениям подп. 1 п. 2 ст. 313 ГК фактически происходит принудительный выкуп задолженности по номинальной стоимости требования, суд не лишен возможности признать на основании статьи 10 ГК РФ переход прав кредитора к третьему лицу несостоявшимся, если установит, что, исполняя обязательство за должника, третье лицо действовало недобросовестно, исключительно с намерением причинить вред кредитору или должнику по этому обязательству (абз. 3 п. 21 постановления № 54). При этом необходимо учитывать, что единственным условием принятия исполнения, предложенного за должника третьим лицом, является просрочка исполнения денежного обязательства. Исходя из прямого толкования положений подп. 1 п. 2 ст. 313 ГК, третье лицо не должно обосновывать разумный экономический интерес в выкупе такого требования, из чего следует, что его добросовестность и разумность действий предполагается, пока не доказано обратное. Постановление суда округа отменено, судебные акты нижестоящих судов оставлены в силе. 📌Лучшая судебная практика в канале Судебная практика СКЭС ВС РФ❗️Сообщество о кассационном обжаловании в ВС РФ – присоединиться",
       "content": "<p><b>Третье лицо может погасить просроченную задолженность в любое время</b></p><p><i>Определение от 03.04.2026 по делу </i>А41-56760/2021 <i>(</i>305-ЭС22-29127 (8)<i>)</i></p><p><b>Фабула дела:</b><br>&nbsp;<br><b>Общество</b>, будучи третьим лицом, произвело исполнение просроченного денежного обязательства перед <b>Банком</b> в соответствии с подп. 1 п. 2 ст. 313 ГК в отсутствие соглашения между ними о последствиях такого исполнения.<br>&nbsp;<br>Впоследствии Общество в рамках дела о банкротстве <b>Должника</b> обратилось с заявлением о процессуальной замене Кредитора – Банка - в реестре требований кредиторов Должника.<br>&nbsp;<br><b>Позиции судов:</b><br>&nbsp;<br><i class=\"emoji\"><b>🔸</b></i><b>Суды первой и апелляционной инстанций</b> произвели замену Кредитора.<br>&nbsp;<br>Суды исходили из того, что исполнение обязательств третьим лицом за должника влечет замену в обязательстве прежнего кредитора на третье лицо, в том числе, и во взаимоотношениях с поручителем.<br>&nbsp;<br><i class=\"emoji\"><b>🔸</b></i><b>Суд кассационной инстанции</b> судебные акты отменил, в удовлетворении заявления Общества о процессуальном правопреемстве отказал.<br>&nbsp;<br>Суд указал, что с учетом введенной в отношении Должника процедуры банкротства правопреемство могло состояться лишь при условии заключения между Банком и заявителем договора уступки права<br>&nbsp;<br><b>Позиция Верховного суда:</b><br>&nbsp;<br>Поскольку применительно к положениям подп. 1 п. 2 ст. 313 ГК фактически происходит принудительный выкуп задолженности по номинальной стоимости требования, суд не лишен возможности признать на основании статьи 10 ГК РФ переход прав кредитора к третьему лицу несостоявшимся, если установит, что, исполняя обязательство за должника, третье лицо действовало недобросовестно, исключительно с намерением причинить вред кредитору или должнику по этому обязательству (абз. 3 п. 21 постановления № 54).<br>&nbsp;<br>При этом необходимо учитывать, что единственным условием принятия исполнения, предложенного за должника третьим лицом, является просрочка исполнения денежного обязательства.<br>&nbsp;<br>Исходя из прямого толкования положений подп. 1 п. 2 ст. 313 ГК, третье лицо не должно обосновывать разумный экономический интерес в выкупе такого требования, из чего следует, что его добросовестность и разумность действий предполагается, пока не доказано обратное.<br>&nbsp;<b><br>Постановление суда округа отменено, судебные акты нижестоящих судов оставлены в силе.<br></b>&nbsp;<br><i class=\"emoji\"><b>📌</b></i>Лучшая судебная практика в канале <a href=\"https://t.me/vs_court\" target=\"_blank\" rel=\"noopener\" title=\"Судебная практика СКЭС ВС РФ\">Судебная практика СКЭС ВС РФ</a></p><p><i class=\"emoji\"><b>❗️</b></i>Сообщество о кассационном обжаловании в ВС РФ – <a href=\"https://t.me/tribute/app?startapp=e5B\" target=\"_blank\" rel=\"noopener\" title=\"присоединиться\">присоединиться</a></p>",
       "reactions": [],
-      "viewCount": 5660,
+      "viewCount": 5810,
       "tgLink": "https://t.me/vs_court/4922",
       "channel": "vs_court",
       "channelTitle": "Судебная практика СКЭС ВС РФ",
@@ -629,13 +634,13 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.65,
+      "priorityScore": 29.5,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 5660 просмотров"
+        "Охват в Telegram Web: 5810 просмотров"
       ],
       "digestSummary": "Третье лицо может погасить просроченную задолженность в любое времяОпределение от 03.04.2026 по делу А41-56760/2021 (305-ЭС22-29127 (8))Фабула дела: Общество, будучи третьим лицом, произвело исполнение просроченного дене",
       "reactionCount": 0,
