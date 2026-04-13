@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-12T23:56:23.238Z",
-  "totalPosts": 291,
+  "generatedAt": "2026-04-13T01:50:33.094Z",
+  "totalPosts": 287,
   "topPosts": [
     {
       "id": "probankrotstvoru/9540",
@@ -490,7 +490,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 13900,
+      "viewCount": 14000,
       "tgLink": "https://t.me/sovetsudey/851",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -503,18 +503,18 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 31.39,
+      "priorityScore": 31.38,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 118 реакций",
-        "Охват в Telegram Web: 13900 просмотров"
+        "Охват в Telegram Web: 14000 просмотров"
       ],
       "digestSummary": "Верховный Суд рассмотрел жалобу жителя Ульяновской области, которому при покупке автомобиля дополнительно навязали заключение опционного договора. В иске он потребовал вернуть ему денежные средства и расторгнуть соглашен",
       "reactionCount": 118,
-      "engagementRate": 0.008489208633093525
+      "engagementRate": 0.00842857142857143
     },
     {
       "id": "subsidiarka_kdl/4436",
@@ -769,32 +769,32 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 242
+      "count": 241
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 234
+      "count": 230
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 227
+      "count": 223
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 221
+      "count": 219
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 145
+      "count": 144
     },
     {
       "id": "tax",
       "label": "Налоги",
-      "count": 51
+      "count": 50
     },
     {
       "id": "compliance",
@@ -811,7 +811,7 @@
     {
       "channel": "vZone1413",
       "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 32
+      "count": 28
     },
     {
       "channel": "subsidiarka_kdl",
