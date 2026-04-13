@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-13T15:05:05.899Z",
-  "totalPosts": 13,
+  "generatedAt": "2026-04-13T16:27:28.979Z",
+  "totalPosts": 14,
   "topPosts": [
     {
       "id": "probankrotstvoru/9584",
@@ -35,7 +35,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1220,
+      "viewCount": 1230,
       "tgLink": "https://t.me/probankrotstvoru/9584",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -48,18 +48,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.91,
+      "priorityScore": 29.73,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 1220 просмотров"
+        "Охват в Telegram Web: 1230 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВерховный Суд разъяснит пределы диспозитивности при обращении взыскания на залогКредитор потребовал обратить взыскание на технику стоимостью 22 млн рублей п",
       "reactionCount": 12,
-      "engagementRate": 0.009836065573770493
+      "engagementRate": 0.00975609756097561
     },
     {
       "id": "bankruptcyboutique/551",
@@ -87,7 +87,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 216,
+      "viewCount": 220,
       "tgLink": "https://t.me/bankruptcyboutique/551",
       "channel": "bankruptcyboutique",
       "channelTitle": "Bankruptcy Boutique",
@@ -100,18 +100,18 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 27.87,
+      "priorityScore": 27.67,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 216 просмотров",
+        "Охват в Telegram Web: 220 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "В Судебную коллегию по экономическим спорам ВС РФ переданы 4 банкротных дела:1️⃣ по вопросу об отмене обеспечительных мер в виде ареста акций должника, находящихся в собственности Республики Башкортостан, по спору о прив",
       "reactionCount": 3,
-      "engagementRate": 0.013888888888888888
+      "engagementRate": 0.013636363636363636
     },
     {
       "id": "corplawpro/5888",
@@ -162,7 +162,7 @@
         "bankruptcy",
         "courts"
       ],
-      "priorityScore": 24.23,
+      "priorityScore": 24.06,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -223,7 +223,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 24.17,
+      "priorityScore": 24,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -265,7 +265,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1140,
+      "viewCount": 1160,
       "tgLink": "https://t.me/probankrotstvoru/9583",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -277,17 +277,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 21.04,
+      "priorityScore": 20.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 1140 просмотров"
+        "Охват в Telegram Web: 1160 просмотров"
       ],
       "digestSummary": "[Вебинар] Когда нарушение антимонопольного права приводит к требованию о перечислении дохода, а когда — к наложению штрафаЕсли действия компании были оценены как нарушение, какие последствия могут наступить: перечисление",
       "reactionCount": 10,
-      "engagementRate": 0.008771929824561403
+      "engagementRate": 0.008620689655172414
     },
     {
       "id": "bankrovert/688",
@@ -332,7 +332,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 17.95,
+      "priorityScore": 17.78,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -374,7 +374,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 232,
+      "viewCount": 233,
       "tgLink": "https://t.me/tgnspau/1313",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -385,18 +385,18 @@
         "enforcement",
         "arbitration"
       ],
-      "priorityScore": 16.92,
+      "priorityScore": 16.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 232 просмотров",
+        "Охват в Telegram Web: 233 просмотров",
         "Сильная отдача аудитории: 5,2% реакций к просмотрам"
       ],
       "digestSummary": "🌻 Светлой Пасхи!Мы говорим: «Христос Воскресе!» и эти слова объединяют людей, независимо от профессии, статуса и обстоятельств. Пасха – это про торжество жизни. Про надежду там, где её, казалось бы, уже не осталось. Ещё",
       "reactionCount": 12,
-      "engagementRate": 0.05172413793103448
+      "engagementRate": 0.05150214592274678
     },
     {
       "id": "Shokobear/3872",
@@ -413,12 +413,12 @@
       "reactions": [
         {
           "emoji": "❤️",
-          "count": "57",
+          "count": "58",
           "isPaid": false
         },
         {
           "emoji": "🔥",
-          "count": "18",
+          "count": "19",
           "isPaid": false
         },
         {
@@ -427,7 +427,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1180,
+      "viewCount": 1200,
       "tgLink": "https://t.me/Shokobear/3872",
       "channel": "Shokobear",
       "channelTitle": "Shokobear (Олег Зайцев о банкротстве)",
@@ -438,16 +438,16 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 13.52,
+      "priorityScore": 13.36,
       "priorityReasons": [
         "Категория канала: courts",
-        "Высокая вовлечённость: 81 реакций",
-        "Охват в Telegram Web: 1180 просмотров",
+        "Высокая вовлечённость: 83 реакций",
+        "Охват в Telegram Web: 1200 просмотров",
         "Сильная отдача аудитории: 6,9% реакций к просмотрам"
       ],
       "digestSummary": "Мы с мишкой Шоко поздравляем всех православных христиан с Пасхой - днем, когда Христос воскрес и дал надежду всем верующим в него на вечную жизнь! Христос дал людям гораздо больше чем право, но и просил гораздо больше. Б",
-      "reactionCount": 81,
-      "engagementRate": 0.06864406779661017
+      "reactionCount": 83,
+      "engagementRate": 0.06916666666666667
     },
     {
       "id": "insolvencylaw/601",
@@ -463,7 +463,7 @@
       "reactions": [
         {
           "emoji": "❤️",
-          "count": "54",
+          "count": "55",
           "isPaid": false
         },
         {
@@ -472,12 +472,12 @@
           "isPaid": false
         },
         {
-          "emoji": "👍",
-          "count": "6",
+          "emoji": "🙏",
+          "count": "7",
           "isPaid": false
         },
         {
-          "emoji": "🙏",
+          "emoji": "👍",
           "count": "6",
           "isPaid": false
         },
@@ -497,7 +497,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 453,
+      "viewCount": 457,
       "tgLink": "https://t.me/insolvencylaw/601",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -507,16 +507,75 @@
         "bankruptcy",
         "courts"
       ],
-      "priorityScore": 13.35,
+      "priorityScore": 13.19,
       "priorityReasons": [
         "Категория канала: bankruptcy",
-        "Высокая вовлечённость: 77 реакций",
-        "Охват в Telegram Web: 453 просмотров",
-        "Сильная отдача аудитории: 17,0% реакций к просмотрам"
+        "Высокая вовлечённость: 79 реакций",
+        "Охват в Telegram Web: 457 просмотров",
+        "Сильная отдача аудитории: 17,3% реакций к просмотрам"
       ],
       "digestSummary": "Христос Воскресе!",
-      "reactionCount": 77,
-      "engagementRate": 0.16997792494481237
+      "reactionCount": 79,
+      "engagementRate": 0.17286652078774617
+    },
+    {
+      "id": "legally_bald/1149",
+      "title": "Воистину, пытлив ум ребенка🙂Всех с Днём космонавтики",
+      "type": "text",
+      "datetime": "2026-04-12T15:28:40+00:00",
+      "tags": [
+        "arbitration",
+        "courts"
+      ],
+      "text": "Воистину, пытлив ум ребенка🙂Всех с Днём космонавтики",
+      "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-1149-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Воистину, пытлив ум ребенка🙂Всех с Днём космонавтики\">\n        <img src=\"/legal-telegram-digest/media/a93257a4f9848673d3046cbb58521501.jpg\" alt=\"Воистину, пытлив ум ребенка🙂Всех с Днём космонавтики\" width=\"599\" height=\"799\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-1149-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-1149-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-1149-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"/legal-telegram-digest/media/a93257a4f9848673d3046cbb58521501.jpg\" alt=\"Воистину, пытлив ум ребенка🙂Всех с Днём космонавтики\" width=\"599\" height=\"799\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><p>Воистину, пытлив ум ребенка<i class=\"emoji\"><b>🙂</b></i></p><p>Всех с Днём космонавтики<img class=\"tg-emoji\" src=\"/legal-telegram-digest/media/fc320da400ce35c37872dc9309082a7b.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "reactions": [
+        {
+          "emoji": "🤣",
+          "count": "17",
+          "isPaid": false
+        },
+        {
+          "emoji": "🔥",
+          "count": "9",
+          "isPaid": false
+        },
+        {
+          "emoji": "💊",
+          "count": "2",
+          "isPaid": false
+        },
+        {
+          "emoji": "⚡",
+          "count": "1",
+          "isPaid": false
+        },
+        {
+          "emoji": "🍾",
+          "count": "1",
+          "isPaid": false
+        }
+      ],
+      "viewCount": 700,
+      "tgLink": "https://t.me/legally_bald/1149",
+      "channel": "legally_bald",
+      "channelTitle": "Legally_bald (Даниил Савченко)",
+      "category": "arbitration",
+      "group": "practical_law",
+      "legalTopics": [
+        "arbitration",
+        "courts"
+      ],
+      "priorityScore": 11.68,
+      "priorityReasons": [
+        "Категория канала: arbitration",
+        "Высокая вовлечённость: 30 реакций",
+        "Охват в Telegram Web: 700 просмотров",
+        "Сильная отдача аудитории: 4,3% реакций к просмотрам"
+      ],
+      "digestSummary": "Воистину, пытлив ум ребенка🙂Всех с Днём космонавтики",
+      "reactionCount": 30,
+      "engagementRate": 0.04285714285714286
     },
     {
       "id": "vZone1413/8851",
@@ -543,7 +602,7 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 10.14,
+      "priorityScore": 9.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -566,7 +625,7 @@
       "text": "Суд - Признать нотариальное соглашение о выплате Должником алиментов на одного ребенка 120 т.р. в месяц недействительным.Пермь 06.04.26г. А50-9938/2024",
       "content": "<p>Суд - Признать нотариальное соглашение о выплате Должником алиментов на одного ребенка 120 т.р. в месяц недействительным.<br>Пермь 06.04.26г. <a href=\"https://kad.arbitr.ru/Document/Pdf/64d533ba-84e6-48f5-9e6c-121fd642f3fc/48fa5349-c7ba-49da-a518-4e74b0a85ad2/A50-9938-2024_20260406_Opredelenie.pdf?isAddStamp=True\" target=\"_blank\" rel=\"noopener\" title=\"А50-9938/2024\">А50-9938/2024</a></p>",
       "reactions": [],
-      "viewCount": 676,
+      "viewCount": 686,
       "tgLink": "https://t.me/vZone1413/8850",
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
@@ -577,68 +636,15 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 8.15,
+      "priorityScore": 7.98,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 676 просмотров"
+        "Охват в Telegram Web: 686 просмотров"
       ],
       "digestSummary": "Суд - Признать нотариальное соглашение о выплате Должником алиментов на одного ребенка 120 т.р. в месяц недействительным.Пермь 06.04.26г. А50-9938/2024",
       "reactionCount": 0,
       "engagementRate": 0
-    },
-    {
-      "id": "tgnspau/1312",
-      "title": "Друзья❗️Вот канал  НСПАУ в МАХВ нем есть всё, что мы размещаем здесь. Если у Вас есть затруднения с  telegram - подписывайтесь и читайте новости и мнения в МАХ  ",
-      "type": "text",
-      "datetime": "2026-04-11T18:40:16+00:00",
-      "tags": [
-        "bankruptcy",
-        "enforcement"
-      ],
-      "text": "Друзья❗️Вот канал  НСПАУ в МАХВ нем есть всё, что мы размещаем здесь. Если у Вас есть затруднения с  telegram - подписывайтесь и читайте новости и мнения в МАХ  https://max.ru/join/JGgBmP0DdC3exDgiTQI90C-YM2NzvMS4i1lyriXRn1Y",
-      "content": "<p>Друзья<i class=\"emoji\"><b>❗️</b></i><br><a href=\"https://max.ru/join/JGgBmP0DdC3exDgiTQI90C-YM2NzvMS4i1lyriXRn1Y\" target=\"_blank\" rel=\"noopener\" title=\"Вот канал  НСПАУ в МАХ\">Вот канал  НСПАУ в МАХ</a><br>В нем есть всё, что мы размещаем здесь. Если у Вас есть затруднения с  telegram - подписывайтесь и читайте новости и мнения в МАХ <img class=\"tg-emoji\" src=\"/legal-telegram-digest/media/afef045fb32ffe7b4e2da54025f0b4c7.webp\" alt=\"\" loading=\"lazy\" width=\"20\" height=\"20\"><br> <a href=\"https://max.ru/join/JGgBmP0DdC3exDgiTQI90C-YM2NzvMS4i1lyriXRn1Y\" target=\"_blank\" rel=\"noopener\" title=\"https://max.ru/join/JGgBmP0DdC3exDgiTQI90C-YM2NzvMS4i1lyriXRn1Y\">https://max.ru/join/JGgBmP0DdC3exDgiTQI90C-YM2NzvMS4i1lyriXRn1Y</a></p>",
-      "reactions": [
-        {
-          "emoji": "🤬",
-          "count": "5",
-          "isPaid": false
-        },
-        {
-          "emoji": "👍",
-          "count": "1",
-          "isPaid": false
-        },
-        {
-          "emoji": "🔥",
-          "count": "1",
-          "isPaid": false
-        },
-        {
-          "emoji": "🤝",
-          "count": "1",
-          "isPaid": false
-        }
-      ],
-      "viewCount": 291,
-      "tgLink": "https://t.me/tgnspau/1312",
-      "channel": "tgnspau",
-      "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
-      "category": "bankruptcy",
-      "group": "public_sources",
-      "legalTopics": [
-        "bankruptcy",
-        "enforcement"
-      ],
-      "priorityScore": 6.78,
-      "priorityReasons": [
-        "Категория канала: bankruptcy",
-        "Охват в Telegram Web: 291 просмотров",
-        "Сильная отдача аудитории: 2,7% реакций к просмотрам"
-      ],
-      "digestSummary": "Друзья❗️Вот канал НСПАУ в МАХВ нем есть всё, что мы размещаем здесь. Если у Вас есть затруднения с telegram - подписывайтесь и читайте новости и мнения в МАХ https://max.ru/join/JGgBmP0DdC3exDgiTQI90C-YM2NzvMS4i1lyriXRn1",
-      "reactionCount": 8,
-      "engagementRate": 0.027491408934707903
     }
   ],
   "topTopics": [
@@ -648,14 +654,14 @@
       "count": 12
     },
     {
-      "id": "courts",
-      "label": "Суды",
-      "count": 10
-    },
-    {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 10
+      "count": 11
+    },
+    {
+      "id": "courts",
+      "label": "Суды",
+      "count": 11
     },
     {
       "id": "ai_law",
@@ -695,6 +701,11 @@
       "count": 2
     },
     {
+      "channel": "legally_bald",
+      "title": "Legally_bald (Даниил Савченко)",
+      "count": 1
+    },
+    {
       "channel": "insolvencylaw",
       "title": "Частное право от Евгения Суворова",
       "count": 1
@@ -707,11 +718,6 @@
     {
       "channel": "Shokobear",
       "title": "Shokobear (Олег Зайцев о банкротстве)",
-      "count": 1
-    },
-    {
-      "channel": "corplawpro",
-      "title": "Корпоративные споры • Case by Case",
       "count": 1
     }
   ]
