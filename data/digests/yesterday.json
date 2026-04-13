@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-13T22:41:11.654Z",
+  "generatedAt": "2026-04-13T23:33:10.492Z",
   "totalPosts": 20,
   "topPosts": [
     {
@@ -48,7 +48,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.92,
+      "priorityScore": 28.81,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -100,7 +100,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 26.89,
+      "priorityScore": 26.78,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -162,7 +162,7 @@
         "bankruptcy",
         "courts"
       ],
-      "priorityScore": 23.28,
+      "priorityScore": 23.18,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -223,7 +223,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 23.22,
+      "priorityScore": 23.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -272,7 +272,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 23,
+      "priorityScore": 22.89,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -328,7 +328,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 20.05,
+      "priorityScore": 19.94,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -366,7 +366,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 18.38,
+      "priorityScore": 18.27,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -413,7 +413,7 @@
         "courts",
         "bankruptcy"
       ],
-      "priorityScore": 17.28,
+      "priorityScore": 17.18,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Суды",
@@ -455,7 +455,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 15.99,
+      "priorityScore": 15.88,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -495,7 +495,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 242,
+      "viewCount": 243,
       "tgLink": "https://t.me/tgnspau/1313",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -506,18 +506,18 @@
         "enforcement",
         "arbitration"
       ],
-      "priorityScore": 15.98,
+      "priorityScore": 15.87,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 242 просмотров",
-        "Сильная отдача аудитории: 5,0% реакций к просмотрам"
+        "Охват в Telegram Web: 243 просмотров",
+        "Сильная отдача аудитории: 4,9% реакций к просмотрам"
       ],
       "digestSummary": "🌻 Светлой Пасхи!Мы говорим: «Христос Воскресе!» и эти слова объединяют людей, независимо от профессии, статуса и обстоятельств. Пасха – это про торжество жизни. Про надежду там, где её, казалось бы, уже не осталось. Ещё",
       "reactionCount": 12,
-      "engagementRate": 0.049586776859504134
+      "engagementRate": 0.04938271604938271
     },
     {
       "id": "vZone1413/8858",
@@ -551,7 +551,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 14.91,
+      "priorityScore": 14.8,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -586,7 +586,7 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 14.72,
+      "priorityScore": 14.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
