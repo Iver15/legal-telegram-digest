@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-13T21:04:04.262Z",
+  "generatedAt": "2026-04-13T21:51:29.427Z",
   "totalPosts": 287,
   "topPosts": [
     {
@@ -42,7 +42,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 681,
+      "viewCount": 691,
       "tgLink": "https://t.me/subsidiarka_kdl/4459",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -57,17 +57,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 38.63,
+      "priorityScore": 38.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 681 просмотров"
+        "Охват в Telegram Web: 691 просмотров"
       ],
       "digestSummary": "Личные фонды 2026: для кого, зачем и как?Состоялась дискуссия о личных фондах как инструменте структурирования частного капитала — разобрали правовую конструкцию, реальные кейсы из практики, риски оспаривания и актуальну",
       "reactionCount": 4,
-      "engagementRate": 0.005873715124816446
+      "engagementRate": 0.005788712011577424
     },
     {
       "id": "corplawpro/5892",
@@ -92,7 +92,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 498,
+      "viewCount": 500,
       "tgLink": "https://t.me/corplawpro/5892",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -107,17 +107,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 37.65,
+      "priorityScore": 37.55,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 498 просмотров"
+        "Охват в Telegram Web: 500 просмотров"
       ],
       "digestSummary": "Личные фонды 2026: для кого, зачем и как?Состоялась дискуссия о личных фондах как инструменте структурирования частного капитала — разобрали правовую конструкцию, реальные кейсы из практики, риски оспаривания и актуальну",
       "reactionCount": 1,
-      "engagementRate": 0.002008032128514056
+      "engagementRate": 0.002
     },
     {
       "id": "corplawpro/5889",
@@ -157,7 +157,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 35.83,
+      "priorityScore": 35.73,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
@@ -201,7 +201,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 35.55,
+      "priorityScore": 35.45,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -244,7 +244,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 913,
+      "viewCount": 925,
       "tgLink": "https://t.me/probankrotstvoru/9591",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -257,19 +257,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.67,
+      "priorityScore": 34.57,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 913 просмотров",
+        "Охват в Telegram Web: 925 просмотров",
         "Сильная отдача аудитории: 2,1% реакций к просмотрам"
       ],
       "digestSummary": "Кассация подтвердила отстранение управляющего и взыскание с него 40 млн рублей убытковОбщество «Мособлтрастинвест» было признано банкротом в сентябре 2009 года. КУ Дмитрий Филатов был утвержден в апреле 2016 года. Минмос",
       "reactionCount": 19,
-      "engagementRate": 0.0208105147864184
+      "engagementRate": 0.02054054054054054
     },
     {
       "id": "probankrotstvoru/9586",
@@ -302,7 +302,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1090,
+      "viewCount": 1100,
       "tgLink": "https://t.me/probankrotstvoru/9586",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -315,19 +315,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.33,
+      "priorityScore": 33.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 1090 просмотров",
+        "Охват в Telegram Web: 1100 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: суды должны установить причины банкротства при привлечении КДЛ к ответственностиОбщество «Норд» обратилось с иском о привлечении к субсидиарной ответственности бывших контролирующих лиц общества «СудТехСервис» ",
       "reactionCount": 14,
-      "engagementRate": 0.012844036697247707
+      "engagementRate": 0.012727272727272728
     },
     {
       "id": "probankrotstvoru/9556",

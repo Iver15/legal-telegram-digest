@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-13T21:04:04.261Z",
+  "generatedAt": "2026-04-13T21:51:29.427Z",
   "totalPosts": 14,
   "topPosts": [
     {
@@ -48,7 +48,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.12,
+      "priorityScore": 29.02,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -100,7 +100,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 27.09,
+      "priorityScore": 27,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -162,7 +162,7 @@
         "bankruptcy",
         "courts"
       ],
-      "priorityScore": 23.49,
+      "priorityScore": 23.39,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -223,7 +223,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 23.43,
+      "priorityScore": 23.32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -260,7 +260,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 337,
+      "viewCount": 338,
       "tgLink": "https://t.me/disputesandsanctions/2427",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -272,19 +272,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 23.2,
+      "priorityScore": 23.1,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 23 реакций",
-        "Охват в Telegram Web: 337 просмотров",
+        "Охват в Telegram Web: 338 просмотров",
         "Сильная отдача аудитории: 6,8% реакций к просмотрам"
       ],
       "digestSummary": "Воскресное - (Пред)пасхальное чудоКак известно, конкурс Виллема Виса проводится в пасхальную неделю, которая в некотором роде выступает аналогом наших майских праздниках.Также конкурс Виллема Виса славится или, правильне",
       "reactionCount": 23,
-      "engagementRate": 0.06824925816023739
+      "engagementRate": 0.06804733727810651
     },
     {
       "id": "probankrotstvoru/9583",
@@ -328,7 +328,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 20.26,
+      "priorityScore": 20.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -364,7 +364,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1580,
+      "viewCount": 1590,
       "tgLink": "https://t.me/lawegorov/3723",
       "channel": "lawegorov",
       "channelTitle": "AVE in Law",
@@ -375,17 +375,17 @@
         "courts",
         "bankruptcy"
       ],
-      "priorityScore": 17.49,
+      "priorityScore": 17.39,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 57 реакций",
-        "Охват в Telegram Web: 1580 просмотров",
+        "Охват в Telegram Web: 1590 просмотров",
         "Сильная отдача аудитории: 3,6% реакций к просмотрам"
       ],
       "digestSummary": "Рубрика \"Если с другом выйду я, а медведь - без друга!\" -2. Дорогие друзья и коллеги, сегодня я уже обращался к вам со словами благодарности, но с учетом полученных многих сотен мейлов, звонков и сообщений со словами под",
       "reactionCount": 57,
-      "engagementRate": 0.036075949367088606
+      "engagementRate": 0.035849056603773584
     },
     {
       "id": "tgnspau/1313",
@@ -427,7 +427,7 @@
         "enforcement",
         "arbitration"
       ],
-      "priorityScore": 16.18,
+      "priorityScore": 16.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -480,7 +480,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 12.79,
+      "priorityScore": 12.69,
       "priorityReasons": [
         "Категория канала: courts",
         "Высокая вовлечённость: 83 реакций",
@@ -515,7 +515,7 @@
         },
         {
           "emoji": "🙏",
-          "count": "7",
+          "count": "8",
           "isPaid": false
         },
         {
@@ -539,7 +539,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 466,
+      "viewCount": 468,
       "tgLink": "https://t.me/insolvencylaw/601",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -549,16 +549,16 @@
         "bankruptcy",
         "courts"
       ],
-      "priorityScore": 12.61,
+      "priorityScore": 12.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
-        "Высокая вовлечённость: 79 реакций",
-        "Охват в Telegram Web: 466 просмотров",
-        "Сильная отдача аудитории: 17,0% реакций к просмотрам"
+        "Высокая вовлечённость: 80 реакций",
+        "Охват в Telegram Web: 468 просмотров",
+        "Сильная отдача аудитории: 17,1% реакций к просмотрам"
       ],
       "digestSummary": "Христос Воскресе!",
-      "reactionCount": 79,
-      "engagementRate": 0.16952789699570817
+      "reactionCount": 80,
+      "engagementRate": 0.17094017094017094
     },
     {
       "id": "lawegorov/3722",
@@ -584,7 +584,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1960,
+      "viewCount": 1970,
       "tgLink": "https://t.me/lawegorov/3722",
       "channel": "lawegorov",
       "channelTitle": "AVE in Law",
@@ -595,16 +595,16 @@
         "courts",
         "bankruptcy"
       ],
-      "priorityScore": 12.61,
+      "priorityScore": 12.5,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 1960 просмотров"
+        "Охват в Telegram Web: 1970 просмотров"
       ],
       "digestSummary": "Абсолютно неправосудное решение, на мой взгляд. Сведение счетов какое-то. Или попытка прихлопнуть ярких, чтобы другие боялись. Пока выглядит именно так со стороны",
       "reactionCount": 12,
-      "engagementRate": 0.006122448979591836
+      "engagementRate": 0.006091370558375634
     },
     {
       "id": "legally_bald/1149",
@@ -654,7 +654,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 11.11,
+      "priorityScore": 11.01,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Высокая вовлечённость: 30 реакций",
