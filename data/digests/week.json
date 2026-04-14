@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-13T23:33:10.493Z",
+  "generatedAt": "2026-04-14T00:09:51.328Z",
   "totalPosts": 287,
   "topPosts": [
     {
@@ -42,7 +42,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 696,
+      "viewCount": 697,
       "tgLink": "https://t.me/subsidiarka_kdl/4459",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -57,17 +57,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 38.31,
+      "priorityScore": 38.23,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 696 просмотров"
+        "Охват в Telegram Web: 697 просмотров"
       ],
       "digestSummary": "Личные фонды 2026: для кого, зачем и как?Состоялась дискуссия о личных фондах как инструменте структурирования частного капитала — разобрали правовую конструкцию, реальные кейсы из практики, риски оспаривания и актуальну",
       "reactionCount": 4,
-      "engagementRate": 0.005747126436781609
+      "engagementRate": 0.005738880918220947
     },
     {
       "id": "corplawpro/5892",
@@ -92,7 +92,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 511,
+      "viewCount": 513,
       "tgLink": "https://t.me/corplawpro/5892",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -107,17 +107,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 37.34,
+      "priorityScore": 37.26,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 511 просмотров"
+        "Охват в Telegram Web: 513 просмотров"
       ],
       "digestSummary": "Личные фонды 2026: для кого, зачем и как?Состоялась дискуссия о личных фондах как инструменте структурирования частного капитала — разобрали правовую конструкцию, реальные кейсы из практики, риски оспаривания и актуальну",
       "reactionCount": 1,
-      "engagementRate": 0.0019569471624266144
+      "engagementRate": 0.001949317738791423
     },
     {
       "id": "corplawpro/5889",
@@ -157,7 +157,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 35.52,
+      "priorityScore": 35.44,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
@@ -201,7 +201,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 35.24,
+      "priorityScore": 35.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -244,7 +244,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 945,
+      "viewCount": 952,
       "tgLink": "https://t.me/probankrotstvoru/9591",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -257,19 +257,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.37,
+      "priorityScore": 34.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 945 просмотров",
+        "Охват в Telegram Web: 952 просмотров",
         "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "Кассация подтвердила отстранение управляющего и взыскание с него 40 млн рублей убытковОбщество «Мособлтрастинвест» было признано банкротом в сентябре 2009 года. КУ Дмитрий Филатов был утвержден в апреле 2016 года. Минмос",
       "reactionCount": 19,
-      "engagementRate": 0.020105820105820106
+      "engagementRate": 0.01995798319327731
     },
     {
       "id": "probankrotstvoru/9556",
@@ -303,7 +303,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1840,
+      "viewCount": 1850,
       "tgLink": "https://t.me/probankrotstvoru/9556",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -317,18 +317,18 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 33.13,
+      "priorityScore": 33.12,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Налоги",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 1840 просмотров"
+        "Охват в Telegram Web: 1850 просмотров"
       ],
       "digestSummary": "Верховный Суд разрешил понуждать к выставлению счетов-фактур в судебном порядкеОбщество ГК «Строительное управление-555» заключило с компанией «ГарантСтрой» три договора подряда на общую сумму около 240 млн рублей. После",
       "reactionCount": 15,
-      "engagementRate": 0.008152173913043478
+      "engagementRate": 0.008108108108108109
     },
     {
       "id": "domnin_sa/539",
@@ -444,7 +444,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.01,
+      "priorityScore": 32.93,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -495,7 +495,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1220,
+      "viewCount": 1230,
       "tgLink": "https://t.me/probankrotstvoru/9580",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -509,19 +509,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.03,
+      "priorityScore": 32.02,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 1220 просмотров",
+        "Охват в Telegram Web: 1230 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "⚡️Собрали дайджест интересных материалов СМИ о банкротстве за 6-10 апреляАктуальные и свежие статьи отрасли банкротства, а также кейсы, исследования, обзоры и новеллы законодательства.Кассационная инстанция оставила в си",
       "reactionCount": 15,
-      "engagementRate": 0.012295081967213115
+      "engagementRate": 0.012195121951219513
     },
     {
       "id": "bankrotstvo_mustknow/462",
