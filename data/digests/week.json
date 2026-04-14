@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-14T20:19:59.107Z",
-  "totalPosts": 291,
+  "generatedAt": "2026-04-14T21:12:18.991Z",
+  "totalPosts": 292,
   "topPosts": [
     {
       "id": "probankrotstvoru/9600",
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 656,
+      "viewCount": 685,
       "tgLink": "https://t.me/probankrotstvoru/9600",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -55,19 +55,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 37.89,
+      "priorityScore": 37.79,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 656 просмотров",
-        "Сильная отдача аудитории: 1,7% реакций к просмотрам"
+        "Охват в Telegram Web: 685 просмотров",
+        "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club.Продолжаем знакомить вас со спикерами предстоящего практикума. Павел Кирсанов, управляющий партнер офиса КА «Регионсервис» в ",
       "reactionCount": 11,
-      "engagementRate": 0.01676829268292683
+      "engagementRate": 0.016058394160583942
     },
     {
       "id": "subsidiarka_kdl/4459",
@@ -107,7 +107,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 991,
+      "viewCount": 993,
       "tgLink": "https://t.me/subsidiarka_kdl/4459",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -122,17 +122,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 35.58,
+      "priorityScore": 35.47,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 991 просмотров"
+        "Охват в Telegram Web: 993 просмотров"
       ],
       "digestSummary": "Личные фонды 2026: для кого, зачем и как?Состоялась дискуссия о личных фондах как инструменте структурирования частного капитала — разобрали правовую конструкцию, реальные кейсы из практики, риски оспаривания и актуальну",
       "reactionCount": 4,
-      "engagementRate": 0.004036326942482341
+      "engagementRate": 0.004028197381671702
     },
     {
       "id": "subsidiarka_kdl/4461",
@@ -163,7 +163,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 936,
+      "viewCount": 946,
       "tgLink": "https://t.me/subsidiarka_kdl/4461",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -177,17 +177,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 35.1,
+      "priorityScore": 34.98,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 936 просмотров"
+        "Охват в Telegram Web: 946 просмотров"
       ],
       "digestSummary": "Супруга контролирующего лица, зарегистрировавшая на себя компанию — получателя выведенных активов, обязана сама доказать добросовестность приобретения#субсидиарная_ответственность #перевод_бизнесаКонкурсный управляющий О",
       "reactionCount": 7,
-      "engagementRate": 0.007478632478632479
+      "engagementRate": 0.007399577167019027
     },
     {
       "id": "corplawpro/5892",
@@ -212,7 +212,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 897,
+      "viewCount": 903,
       "tgLink": "https://t.me/corplawpro/5892",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -227,17 +227,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 34.79,
+      "priorityScore": 34.68,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 897 просмотров"
+        "Охват в Telegram Web: 903 просмотров"
       ],
       "digestSummary": "Личные фонды 2026: для кого, зачем и как?Состоялась дискуссия о личных фондах как инструменте структурирования частного капитала — разобрали правовую конструкцию, реальные кейсы из практики, риски оспаривания и актуальну",
       "reactionCount": 1,
-      "engagementRate": 0.0011148272017837235
+      "engagementRate": 0.0011074197120708748
     },
     {
       "id": "probankrotstvoru/9598",
@@ -270,7 +270,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 744,
+      "viewCount": 760,
       "tgLink": "https://t.me/probankrotstvoru/9598",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -283,19 +283,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.39,
+      "priorityScore": 34.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 744 просмотров",
-        "Сильная отдача аудитории: 2,2% реакций к просмотрам"
+        "Охват в Telegram Web: 760 просмотров",
+        "Сильная отдача аудитории: 2,1% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: установление цели причинения вреда обязывает рассмотреть вопрос об убыткахКУ общества «Строительно-промышленная корпорация «Возрождение» Евгений Григорьев обратился с заявлением о привлечении директора Сергея А",
       "reactionCount": 16,
-      "engagementRate": 0.021505376344086023
+      "engagementRate": 0.021052631578947368
     },
     {
       "id": "probankrotstvoru/9594",
@@ -328,7 +328,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 999,
+      "viewCount": 1000,
       "tgLink": "https://t.me/probankrotstvoru/9594",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -341,19 +341,19 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 33.91,
+      "priorityScore": 33.8,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 22 реакций",
-        "Охват в Telegram Web: 999 просмотров",
+        "Охват в Telegram Web: 1000 просмотров",
         "Сильная отдача аудитории: 2,2% реакций к просмотрам"
       ],
       "digestSummary": "Трансграничное банкротство иностранных должников в РФ: актуальные подходы практикиВ свете изменений международной ситуации российские арбитражные суды все чаще рассматривают дела о банкротстве иностранных компаний. В ста",
       "reactionCount": 22,
-      "engagementRate": 0.022022022022022022
+      "engagementRate": 0.022
     },
     {
       "id": "probankrotstvoru/9596",
@@ -386,7 +386,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 944,
+      "viewCount": 954,
       "tgLink": "https://t.me/probankrotstvoru/9596",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -399,19 +399,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.55,
+      "priorityScore": 33.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 944 просмотров",
+        "Охват в Telegram Web: 954 просмотров",
         "Сильная отдача аудитории: 1,8% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: платежеспособность дебиторов оценивается на момент возможного взысканияКУ общества «Охрана» Ольга Жудинкова обратилась с заявлением о взыскании 4,8 млн рублей убытков с контролирующих лиц за невзыскание дебитор",
       "reactionCount": 17,
-      "engagementRate": 0.018008474576271187
+      "engagementRate": 0.01781970649895178
     },
     {
       "id": "probankrotstvoru/9599",
@@ -444,7 +444,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 615,
+      "viewCount": 635,
       "tgLink": "https://t.me/probankrotstvoru/9599",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -457,18 +457,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.41,
+      "priorityScore": 33.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 615 просмотров",
-        "Сильная отдача аудитории: 1,5% реакций к просмотрам"
+        "Охват в Telegram Web: 635 просмотров",
+        "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Какие события нельзя пропустить во второй половине апреля? Подборка от PROбанкротствоМероприятия14-16 апреля | Минский международный антикризисный Конгресс «Парадная Ассамблея» Международный форум арбитражных управляющих",
       "reactionCount": 9,
-      "engagementRate": 0.014634146341463415
+      "engagementRate": 0.014173228346456693
     },
     {
       "id": "probankrotstvoru/9556",
@@ -643,7 +643,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.95,
+      "priorityScore": 32.84,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -695,7 +695,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 32.92,
+      "priorityScore": 32.81,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
@@ -727,22 +727,22 @@
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 219
+      "count": 220
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 138
+      "count": 139
     },
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 53
+      "count": 54
     },
     {
       "id": "tax",
       "label": "Налоги",
-      "count": 44
+      "count": 45
     }
   ],
   "topChannels": [
