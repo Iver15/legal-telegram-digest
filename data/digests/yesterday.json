@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-14T22:09:37.345Z",
-  "totalPosts": 42,
+  "generatedAt": "2026-04-14T23:06:16.441Z",
+  "totalPosts": 37,
   "topPosts": [
     {
       "id": "subsidiarka_kdl/4459",
@@ -57,7 +57,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 35.35,
+      "priorityScore": 35.23,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -107,7 +107,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 34.57,
+      "priorityScore": 34.45,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -157,7 +157,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 32.69,
+      "priorityScore": 32.57,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
@@ -201,7 +201,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 32.41,
+      "priorityScore": 32.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -257,7 +257,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.74,
+      "priorityScore": 31.62,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -315,7 +315,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.17,
+      "priorityScore": 30.06,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -373,7 +373,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.99,
+      "priorityScore": 26.87,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -429,7 +429,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.69,
+      "priorityScore": 26.57,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -487,7 +487,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.34,
+      "priorityScore": 26.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -538,7 +538,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 26.23,
+      "priorityScore": 26.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -592,7 +592,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.2,
+      "priorityScore": 26.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -634,7 +634,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.09,
+      "priorityScore": 25.97,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -649,24 +649,24 @@
   ],
   "topTopics": [
     {
-      "id": "bankruptcy",
-      "label": "Банкротство",
-      "count": 34
-    },
-    {
       "id": "courts",
       "label": "Суды",
-      "count": 34
+      "count": 31
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 34
+      "count": 30
+    },
+    {
+      "id": "bankruptcy",
+      "label": "Банкротство",
+      "count": 29
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 32
+      "count": 27
     },
     {
       "id": "enforcement",
@@ -686,14 +686,14 @@
   ],
   "topChannels": [
     {
-      "channel": "vZone1413",
-      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 10
-    },
-    {
       "channel": "probankrotstvoru",
       "title": "PROбанкротство",
       "count": 7
+    },
+    {
+      "channel": "vZone1413",
+      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
+      "count": 5
     },
     {
       "channel": "subsidiarka_kdl",
