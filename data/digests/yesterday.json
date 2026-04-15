@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-15T19:48:28.126Z",
+  "generatedAt": "2026-04-15T20:33:09.372Z",
   "totalPosts": 46,
   "topPosts": [
     {
@@ -55,7 +55,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.73,
+      "priorityScore": 34.63,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -97,7 +97,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1140,
+      "viewCount": 1150,
       "tgLink": "https://t.me/subsidiarka_kdl/4461",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -111,17 +111,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 32.26,
+      "priorityScore": 32.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1140 просмотров"
+        "Охват в Telegram Web: 1150 просмотров"
       ],
       "digestSummary": "Супруга контролирующего лица, зарегистрировавшая на себя компанию — получателя выведенных активов, обязана сама доказать добросовестность приобретения#субсидиарная_ответственность #перевод_бизнесаКонкурсный управляющий О",
       "reactionCount": 8,
-      "engagementRate": 0.007017543859649123
+      "engagementRate": 0.006956521739130435
     },
     {
       "id": "probankrotstvoru/9598",
@@ -167,7 +167,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.57,
+      "priorityScore": 31.48,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -225,7 +225,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 31.02,
+      "priorityScore": 30.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -283,7 +283,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.68,
+      "priorityScore": 30.59,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -346,7 +346,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30,
+      "priorityScore": 29.9,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -404,7 +404,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.84,
+      "priorityScore": 29.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -465,7 +465,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.53,
+      "priorityScore": 29.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -524,7 +524,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.28,
+      "priorityScore": 28.18,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -581,7 +581,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 27.36,
+      "priorityScore": 27.26,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -617,7 +617,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1090,
+      "viewCount": 1100,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2616",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -630,17 +630,17 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.72,
+      "priorityScore": 26.63,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1090 просмотров"
+        "Охват в Telegram Web: 1100 просмотров"
       ],
       "digestSummary": "После начала расчетов должник более не отвечает перед участниками строительства, поскольку он нашел приемлемый для кредиторов выход из сложившейся ситуации. По этой причине пунктом 6 статьи 201.15-2 Закона о банкротстве ",
       "reactionCount": 1,
-      "engagementRate": 0.0009174311926605505
+      "engagementRate": 0.0009090909090909091
     },
     {
       "id": "disputesandsanctions/2429",
@@ -676,7 +676,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 25.44,
+      "priorityScore": 25.34,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
