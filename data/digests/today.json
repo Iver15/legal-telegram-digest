@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-15T22:13:24.852Z",
+  "generatedAt": "2026-04-15T23:06:09.187Z",
   "totalPosts": 46,
   "topPosts": [
     {
@@ -48,7 +48,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.25,
+      "priorityScore": 33.14,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -98,7 +98,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 846,
+      "viewCount": 850,
       "tgLink": "https://t.me/probankrotstvoru/9607",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -111,19 +111,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.84,
+      "priorityScore": 32.73,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 846 просмотров",
+        "Охват в Telegram Web: 850 просмотров",
         "Сильная отдача аудитории: 1,9% реакций к просмотрам"
       ],
       "digestSummary": "ВС решит спор о продаже электросетевого имущества в одном лоте с очистными сооружениямиВ рамках банкротства общества «Самарский подшипниковый завод» — субъекта естественной монополии в сфере передачи электроэнергии — КУ ",
       "reactionCount": 16,
-      "engagementRate": 0.018912529550827423
+      "engagementRate": 0.018823529411764704
     },
     {
       "id": "insolvencylaw/603",
@@ -151,7 +151,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 291,
+      "viewCount": 292,
       "tgLink": "https://t.me/insolvencylaw/603",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -164,18 +164,18 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 31.08,
+      "priorityScore": 30.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 291 просмотров",
+        "Охват в Telegram Web: 292 просмотров",
         "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Конвертация долга в капитал как эффективное и внесудебное средство увеличения объема удовлетворения кредитора несостоятельного должникаНеплатежеспособность должника предполагает, что кредитор будет получать удовлетворени",
       "reactionCount": 3,
-      "engagementRate": 0.010309278350515464
+      "engagementRate": 0.010273972602739725
     },
     {
       "id": "probankrotstvoru/9609",
@@ -208,7 +208,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 671,
+      "viewCount": 683,
       "tgLink": "https://t.me/probankrotstvoru/9609",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -221,19 +221,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.43,
+      "priorityScore": 29.32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Исполнение",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 671 просмотров",
+        "Охват в Telegram Web: 683 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "ВС оценит соразмерность ареста акций при привлечении региона к субсидиаркеВ рамках дела о банкротстве общества «Башкиравтодор» рассматривается заявление о привлечении к субсидиарной ответственности мажоритарных акционеро",
       "reactionCount": 11,
-      "engagementRate": 0.01639344262295082
+      "engagementRate": 0.016105417276720352
     },
     {
       "id": "probankrotstvoru/9608",
@@ -265,7 +265,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 797,
+      "viewCount": 803,
       "tgLink": "https://t.me/probankrotstvoru/9608",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -277,19 +277,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 29.3,
+      "priorityScore": 29.19,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 797 просмотров",
+        "Охват в Telegram Web: 803 просмотров",
         "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "ВС проверит расчет вознаграждения управляющего при выплате ликвидационной квотыВ 2018 году Банк России обратился в суд с заявлением о принудительной ликвидации НПФ «Достоинство». Ликвидатором назначили Анастасию Курскую.",
       "reactionCount": 16,
-      "engagementRate": 0.020075282308657464
+      "engagementRate": 0.019925280199252802
     },
     {
       "id": "probankrotstvoru/9605",
@@ -321,7 +321,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 830,
+      "viewCount": 834,
       "tgLink": "https://t.me/probankrotstvoru/9605",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -333,19 +333,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 29.26,
+      "priorityScore": 29.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 830 просмотров",
+        "Охват в Telegram Web: 834 просмотров",
         "Сильная отдача аудитории: 1,8% реакций к просмотрам"
       ],
       "digestSummary": "Можно ли привлечь КДЛ к субсидиарной ответственности, не доказывая его убыточные действия?24 апреля тему «Внебанкротная субсидиарная ответственность, плюсы и минусы» на практикуме RECOVERY club разберет Руслан Остроумов,",
       "reactionCount": 15,
-      "engagementRate": 0.018072289156626505
+      "engagementRate": 0.017985611510791366
     },
     {
       "id": "sudpraktik_bankrot_demo/2617",
@@ -375,7 +375,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 811,
+      "viewCount": 814,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2617",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -388,17 +388,17 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 29.22,
+      "priorityScore": 29.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 811 просмотров"
+        "Охват в Telegram Web: 814 просмотров"
       ],
       "digestSummary": "Согласно сложившейся судебной практике сальдирование имеет место тогда, когда в рамках одного договора (либо нескольких взаимосвязанных договоров) определяется завершающая обязанность сторон при прекращении договорных от",
       "reactionCount": 3,
-      "engagementRate": 0.0036991368680641184
+      "engagementRate": 0.0036855036855036856
     },
     {
       "id": "corplawpro/5897",
@@ -431,7 +431,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 488,
+      "viewCount": 493,
       "tgLink": "https://t.me/corplawpro/5897",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -444,18 +444,18 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 29.14,
+      "priorityScore": 29.01,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 488 просмотров",
+        "Охват в Telegram Web: 493 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Корпоративные споры в практике Верховного Суда — 23 апреляВторая часть разбора определений СКЭС за II полугодие 2025 года. На этот раз — пять дел, в которых Верховный Суд формулирует стандарты доказывания и процессуальны",
       "reactionCount": 6,
-      "engagementRate": 0.012295081967213115
+      "engagementRate": 0.012170385395537525
     },
     {
       "id": "sovetsudey/869",
@@ -472,7 +472,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "69",
+          "count": "70",
           "isPaid": false
         },
         {
@@ -501,7 +501,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 6730,
+      "viewCount": 6840,
       "tgLink": "https://t.me/sovetsudey/869",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -512,19 +512,19 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 29.03,
+      "priorityScore": 28.91,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Высокая вовлечённость: 95 реакций",
-        "Охват в Telegram Web: 6730 просмотров",
+        "Высокая вовлечённость: 96 реакций",
+        "Охват в Telegram Web: 6840 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Продажа земельной доли лицу, не являющемуся совладельцем участка, без ее выдела в натуре запрещена, разъяснил ВС РФ. Один из собственников сельскохозяйственных угодий был признан банкротом, финансовый управляющий продал ",
-      "reactionCount": 95,
-      "engagementRate": 0.01411589895988113
+      "reactionCount": 96,
+      "engagementRate": 0.014035087719298246
     },
     {
       "id": "sotbi_law/169",
@@ -573,7 +573,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 53,
+      "viewCount": 54,
       "tgLink": "https://t.me/sotbi_law/169",
       "channel": "sotbi_law",
       "channelTitle": "Сотби",
@@ -586,19 +586,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.35,
+      "priorityScore": 28.24,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 53 просмотров",
-        "Сильная отдача аудитории: 22,6% реакций к просмотрам"
+        "Охват в Telegram Web: 54 просмотров",
+        "Сильная отдача аудитории: 22,2% реакций к просмотрам"
       ],
       "digestSummary": "Позиция Конституционного суда РФ по солидарной уступке требований в банкротстве Дело ПАО «Сбербанк России»Сбербанк попытался оспорить в Конституционном суде РФ подход, при котором в случае продажи требования о привлечени",
       "reactionCount": 12,
-      "engagementRate": 0.22641509433962265
+      "engagementRate": 0.2222222222222222
     },
     {
       "id": "probankrotstvoru/9603",
@@ -642,7 +642,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.98,
+      "priorityScore": 27.87,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -686,7 +686,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 914,
+      "viewCount": 917,
       "tgLink": "https://t.me/probankrotstvoru/9604",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -698,17 +698,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.74,
+      "priorityScore": 27.63,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 914 просмотров"
+        "Охват в Telegram Web: 917 просмотров"
       ],
       "digestSummary": "ВС разъяснит, когда цессионарий вправе требовать выплаты от Фонда дольщиковОбщество «ЖК \"Весенний\"» было признано банкротом и в отношении него открыто конкурсное производство. Тамара Гарина приобрела право требования на ",
       "reactionCount": 8,
-      "engagementRate": 0.0087527352297593
+      "engagementRate": 0.008724100327153763
     }
   ],
   "topTopics": [

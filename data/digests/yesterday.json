@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-15T22:13:24.852Z",
+  "generatedAt": "2026-04-15T23:06:09.187Z",
   "totalPosts": 47,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1340,
+      "viewCount": 1350,
       "tgLink": "https://t.me/probankrotstvoru/9600",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -55,18 +55,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.43,
+      "priorityScore": 34.31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 1340 просмотров"
+        "Охват в Telegram Web: 1350 просмотров"
       ],
       "digestSummary": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club.Продолжаем знакомить вас со спикерами предстоящего практикума. Павел Кирсанов, управляющий партнер офиса КА «Регионсервис» в ",
       "reactionCount": 13,
-      "engagementRate": 0.009701492537313432
+      "engagementRate": 0.00962962962962963
     },
     {
       "id": "subsidiarka_kdl/4461",
@@ -111,7 +111,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 31.95,
+      "priorityScore": 31.84,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -154,7 +154,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1090,
+      "viewCount": 1100,
       "tgLink": "https://t.me/probankrotstvoru/9598",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -167,19 +167,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.27,
+      "priorityScore": 31.17,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 1090 просмотров",
+        "Охват в Telegram Web: 1100 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: установление цели причинения вреда обязывает рассмотреть вопрос об убыткахКУ общества «Строительно-промышленная корпорация «Возрождение» Евгений Григорьев обратился с заявлением о привлечении директора Сергея А",
       "reactionCount": 16,
-      "engagementRate": 0.014678899082568808
+      "engagementRate": 0.014545454545454545
     },
     {
       "id": "probankrotstvoru/9594",
@@ -225,7 +225,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 30.72,
+      "priorityScore": 30.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -283,7 +283,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.38,
+      "priorityScore": 30.27,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -346,7 +346,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.7,
+      "priorityScore": 29.59,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -391,7 +391,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1040,
+      "viewCount": 1050,
       "tgLink": "https://t.me/probankrotstvoru/9599",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -404,17 +404,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.54,
+      "priorityScore": 29.42,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 1040 просмотров"
+        "Охват в Telegram Web: 1050 просмотров"
       ],
       "digestSummary": "Какие события нельзя пропустить во второй половине апреля? Подборка от PROбанкротствоМероприятия14-16 апреля | Минский международный антикризисный Конгресс «Парадная Ассамблея» Международный форум арбитражных управляющих",
       "reactionCount": 9,
-      "engagementRate": 0.008653846153846154
+      "engagementRate": 0.008571428571428572
     },
     {
       "id": "probankrotstvoru/9592",
@@ -465,7 +465,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.21,
+      "priorityScore": 29.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -524,7 +524,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 27.98,
+      "priorityScore": 27.87,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -581,7 +581,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 27.05,
+      "priorityScore": 26.94,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -630,7 +630,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.42,
+      "priorityScore": 26.31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -676,7 +676,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 25.14,
+      "priorityScore": 25.03,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
