@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-15T17:11:43.029Z",
+  "generatedAt": "2026-04-15T18:18:45.897Z",
   "totalPosts": 44,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1320,
+      "viewCount": 1330,
       "tgLink": "https://t.me/probankrotstvoru/9600",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -55,18 +55,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.07,
+      "priorityScore": 34.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 1320 просмотров"
+        "Охват в Telegram Web: 1330 просмотров"
       ],
       "digestSummary": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club.Продолжаем знакомить вас со спикерами предстоящего практикума. Павел Кирсанов, управляющий партнер офиса КА «Регионсервис» в ",
       "reactionCount": 13,
-      "engagementRate": 0.009848484848484848
+      "engagementRate": 0.009774436090225564
     },
     {
       "id": "subsidiarka_kdl/4461",
@@ -111,7 +111,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 32.59,
+      "priorityScore": 32.45,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -167,7 +167,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.9,
+      "priorityScore": 31.76,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -212,7 +212,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1150,
+      "viewCount": 1160,
       "tgLink": "https://t.me/probankrotstvoru/9594",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -225,19 +225,19 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 31.34,
+      "priorityScore": 31.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 22 реакций",
-        "Охват в Telegram Web: 1150 просмотров",
+        "Охват в Telegram Web: 1160 просмотров",
         "Сильная отдача аудитории: 1,9% реакций к просмотрам"
       ],
       "digestSummary": "Трансграничное банкротство иностранных должников в РФ: актуальные подходы практикиВ свете изменений международной ситуации российские арбитражные суды все чаще рассматривают дела о банкротстве иностранных компаний. В ста",
       "reactionCount": 22,
-      "engagementRate": 0.019130434782608695
+      "engagementRate": 0.01896551724137931
     },
     {
       "id": "probankrotstvoru/9596",
@@ -283,7 +283,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.01,
+      "priorityScore": 30.87,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -333,7 +333,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1180,
+      "viewCount": 1190,
       "tgLink": "https://t.me/probankrotstvoru/9593",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -346,19 +346,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.35,
+      "priorityScore": 30.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 1180 просмотров",
+        "Охват в Telegram Web: 1190 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: дополнительные требования собрания не влекут автоматическое отстранение АУМарина Розанова была признана банкротом в феврале 2024 года. Кредитор Анатолий Кукса обратился с заявлением об отстранении ФУ Алексея Бу",
       "reactionCount": 14,
-      "engagementRate": 0.011864406779661017
+      "engagementRate": 0.011764705882352941
     },
     {
       "id": "probankrotstvoru/9599",
@@ -404,7 +404,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.18,
+      "priorityScore": 30.04,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -465,7 +465,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.86,
+      "priorityScore": 29.72,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -524,7 +524,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.6,
+      "priorityScore": 28.46,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -581,7 +581,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 27.68,
+      "priorityScore": 27.54,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -630,7 +630,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 27.04,
+      "priorityScore": 26.9,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -663,7 +663,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 255,
+      "viewCount": 256,
       "tgLink": "https://t.me/disputesandsanctions/2429",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -676,17 +676,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 25.77,
+      "priorityScore": 25.62,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 255 просмотров"
+        "Охват в Telegram Web: 256 просмотров"
       ],
       "digestSummary": "НЕДЕЛЯ ДО III МЕЖДУНАРОДНОГО ФОРУМА DRC «ВРЕМЯ СТРОИТЬ»Уважаемые коллеги, ровно через неделю мы стартуем с III международным Форумом DRC «Время строить: управление строительными контрактами и разрешение строительных спор",
       "reactionCount": 1,
-      "engagementRate": 0.00392156862745098
+      "engagementRate": 0.00390625
     }
   ],
   "topTopics": [
