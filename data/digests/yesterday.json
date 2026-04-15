@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-15T20:33:09.372Z",
-  "totalPosts": 46,
+  "generatedAt": "2026-04-15T21:29:56.922Z",
+  "totalPosts": 47,
   "topPosts": [
     {
       "id": "probankrotstvoru/9600",
@@ -55,7 +55,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.63,
+      "priorityScore": 34.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -111,7 +111,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 32.16,
+      "priorityScore": 32.04,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -167,7 +167,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.48,
+      "priorityScore": 31.36,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -212,7 +212,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1160,
+      "viewCount": 1170,
       "tgLink": "https://t.me/probankrotstvoru/9594",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -225,19 +225,19 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 30.92,
+      "priorityScore": 30.81,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 22 реакций",
-        "Охват в Telegram Web: 1160 просмотров",
+        "Охват в Telegram Web: 1170 просмотров",
         "Сильная отдача аудитории: 1,9% реакций к просмотрам"
       ],
       "digestSummary": "Трансграничное банкротство иностранных должников в РФ: актуальные подходы практикиВ свете изменений международной ситуации российские арбитражные суды все чаще рассматривают дела о банкротстве иностранных компаний. В ста",
       "reactionCount": 22,
-      "engagementRate": 0.01896551724137931
+      "engagementRate": 0.018803418803418803
     },
     {
       "id": "probankrotstvoru/9596",
@@ -283,7 +283,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.59,
+      "priorityScore": 30.47,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -346,7 +346,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.9,
+      "priorityScore": 29.79,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -404,7 +404,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.75,
+      "priorityScore": 29.63,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -452,7 +452,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1340,
+      "viewCount": 1350,
       "tgLink": "https://t.me/probankrotstvoru/9592",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -465,19 +465,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.43,
+      "priorityScore": 29.3,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 1340 просмотров",
+        "Охват в Telegram Web: 1350 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: обязанность по рекультивации является текущей при расторжении договораДепартамент лесного комплекса Тюменской области обратился с иском к обществу «Горизонт» о расторжении договора аренды лесного участка и обяз",
       "reactionCount": 15,
-      "engagementRate": 0.011194029850746268
+      "engagementRate": 0.011111111111111112
     },
     {
       "id": "bankrotstvo_mustknow/467",
@@ -524,7 +524,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.18,
+      "priorityScore": 28.06,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -581,7 +581,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 27.26,
+      "priorityScore": 27.14,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -630,7 +630,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.63,
+      "priorityScore": 26.51,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -676,7 +676,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 25.34,
+      "priorityScore": 25.23,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
@@ -691,14 +691,14 @@
   ],
   "topTopics": [
     {
-      "id": "courts",
-      "label": "Суды",
+      "id": "ai_law",
+      "label": "AI+Law",
       "count": 39
     },
     {
-      "id": "ai_law",
-      "label": "AI+Law",
-      "count": 38
+      "id": "courts",
+      "label": "Суды",
+      "count": 39
     },
     {
       "id": "arbitration",
@@ -713,17 +713,17 @@
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 17
+      "count": 18
     },
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 12
+      "count": 13
     },
     {
       "id": "tax",
       "label": "Налоги",
-      "count": 6
+      "count": 7
     }
   ],
   "topChannels": [
@@ -763,8 +763,8 @@
       "count": 3
     },
     {
-      "channel": "shapovalovagroup",
-      "title": "Защита арбитражных управляющих",
+      "channel": "Compliance_Practice",
+      "title": "Compliance practice",
       "count": 2
     }
   ]
