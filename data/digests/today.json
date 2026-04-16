@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-16T18:23:55.600Z",
+  "generatedAt": "2026-04-16T19:45:46.774Z",
   "totalPosts": 33,
   "topPosts": [
     {
@@ -36,7 +36,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 709,
+      "viewCount": 754,
       "tgLink": "https://t.me/probankrotstvoru/9616",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -50,19 +50,19 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 37.77,
+      "priorityScore": 37.62,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 709 просмотров",
-        "Сильная отдача аудитории: 2,3% реакций к просмотрам"
+        "Охват в Telegram Web: 754 просмотров",
+        "Сильная отдача аудитории: 2,1% реакций к просмотрам"
       ],
       "digestSummary": "Кассация признала за должником право на долю, оформленную на другаОбщество КБ «БФГ-Кредит» оспорило приобретение Владимиром Долинским 100% доли в уставном капитале общества «Юрга ЛТД» у Татьяны Мальцевой (тещи должника Ю",
       "reactionCount": 16,
-      "engagementRate": 0.022566995768688293
+      "engagementRate": 0.021220159151193633
     },
     {
       "id": "bankrotstvo_mustknow/469",
@@ -98,7 +98,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 125,
+      "viewCount": 130,
       "tgLink": "https://t.me/bankrotstvo_mustknow/469",
       "channel": "bankrotstvo_mustknow",
       "channelTitle": "Банкротство | Взгляд эксперта",
@@ -112,18 +112,18 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 36.32,
+      "priorityScore": 36.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 125 просмотров",
-        "Сильная отдача аудитории: 6,4% реакций к просмотрам"
+        "Охват в Telegram Web: 130 просмотров",
+        "Сильная отдача аудитории: 6,2% реакций к просмотрам"
       ],
       "digestSummary": "​​🕐 Как и когда возникает право на подачу заявления о банкротстве Кирилл Карпов, старший юрист практики банкротства и антикризисной защиты бизнеса, рассказывает о том, когда у лица появляется право на подачу заявления о",
       "reactionCount": 8,
-      "engagementRate": 0.064
+      "engagementRate": 0.06153846153846154
     },
     {
       "id": "probankrotstvoru/9613",
@@ -161,7 +161,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1010,
+      "viewCount": 1030,
       "tgLink": "https://t.me/probankrotstvoru/9613",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -174,19 +174,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 35.08,
+      "priorityScore": 34.91,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 21 реакций",
-        "Охват в Telegram Web: 1010 просмотров",
-        "Сильная отдача аудитории: 2,1% реакций к просмотрам"
+        "Охват в Telegram Web: 1030 просмотров",
+        "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "Кассация защитила управляющего от иска кредитора о взыскании убытковОбщество «Престорусь» потребовало взыскать с бывшего КУ общества «ЛЗСК» Евгения Ратникова 12,1 млн рублей убытков — стоимость улучшений и затрат на соде",
       "reactionCount": 21,
-      "engagementRate": 0.020792079207920793
+      "engagementRate": 0.020388349514563107
     },
     {
       "id": "probankrotstvoru/9612",
@@ -224,7 +224,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1000,
+      "viewCount": 1020,
       "tgLink": "https://t.me/probankrotstvoru/9612",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -237,19 +237,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.29,
+      "priorityScore": 34.12,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 1000 просмотров",
+        "Охват в Telegram Web: 1020 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: отказ в экзекватуре — основание для пересмотра субсидиарной ответственностиОбщество «Прогресс» было признано банкротом, а Арутюн Карапетян и Андрей Черкасов были привлечены к субсидиарной ответственности на 2,7",
       "reactionCount": 15,
-      "engagementRate": 0.015
+      "engagementRate": 0.014705882352941176
     },
     {
       "id": "probankrotstvoru/9614",
@@ -282,7 +282,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 959,
+      "viewCount": 1040,
       "tgLink": "https://t.me/probankrotstvoru/9614",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -295,19 +295,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.2,
+      "priorityScore": 31.05,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 26 реакций",
-        "Охват в Telegram Web: 959 просмотров",
-        "Сильная отдача аудитории: 2,7% реакций к просмотрам"
+        "Охват в Telegram Web: 1040 просмотров",
+        "Сильная отдача аудитории: 2,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: явные противоречия в реестре обязывают управляющего перепроверить данныеВ банкротстве общества «Авиакомпания \"ВИМ-АВИА\"» КУ Анастасия Стручалина потребовала взыскать с бывшего управляющего Александра Максимова ",
       "reactionCount": 26,
-      "engagementRate": 0.027111574556830033
+      "engagementRate": 0.025
     },
     {
       "id": "insolvencylaw/604",
@@ -341,7 +341,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 282,
+      "viewCount": 288,
       "tgLink": "https://t.me/insolvencylaw/604",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -355,18 +355,18 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 30.97,
+      "priorityScore": 30.81,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 282 просмотров",
+        "Охват в Telegram Web: 288 просмотров",
         "Сильная отдача аудитории: 2,1% реакций к просмотрам"
       ],
       "digestSummary": "Секундарное обеспечение исполнения обязательств как единственный способ эффективных международных расчетов или как не зависеть от «заморозки» средств в иностранной юрисдикции Как осуществляется международный платеж в тех",
       "reactionCount": 6,
-      "engagementRate": 0.02127659574468085
+      "engagementRate": 0.020833333333333332
     },
     {
       "id": "probankrotstvoru/9617",
@@ -398,7 +398,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 504,
+      "viewCount": 585,
       "tgLink": "https://t.me/probankrotstvoru/9617",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -410,19 +410,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 30.65,
+      "priorityScore": 30.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 504 просмотров",
-        "Сильная отдача аудитории: 2,6% реакций к просмотрам"
+        "Охват в Telegram Web: 585 просмотров",
+        "Сильная отдача аудитории: 2,2% реакций к просмотрам"
       ],
       "digestSummary": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club.Продолжаем знакомить вас со спикерами предстоящего практикума. Дмитрий Клеточкин, адвокат, партнер, глава практики «Реструкту",
       "reactionCount": 13,
-      "engagementRate": 0.025793650793650792
+      "engagementRate": 0.022222222222222223
     },
     {
       "id": "probankrotstvoru/9615",
@@ -459,7 +459,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 815,
+      "viewCount": 848,
       "tgLink": "https://t.me/probankrotstvoru/9615",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -471,19 +471,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 30.29,
+      "priorityScore": 30.13,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 815 просмотров",
+        "Охват в Telegram Web: 848 просмотров",
         "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: добросовестность директора опровергается уклонением от передачи документовКУ общества «Корпорация Роснефтегаз» потребовал взыскать 160,7 млн рублей убытков с контролирующих лиц, указав, что инкассированные дене",
       "reactionCount": 14,
-      "engagementRate": 0.01717791411042945
+      "engagementRate": 0.01650943396226415
     },
     {
       "id": "sudpraktik/3497",
@@ -515,7 +515,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1680,
+      "viewCount": 1740,
       "tgLink": "https://t.me/sudpraktik/3497",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -529,17 +529,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.85,
+      "priorityScore": 28.67,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 1680 просмотров"
+        "Охват в Telegram Web: 1740 просмотров"
       ],
       "digestSummary": "Операции по реализации услуг по обращению с ТКО, осуществляемые региональным оператором по обращению с ТКО, освобождаются от обложения НДС только при условии установления публичными органами предельного единого (применяе",
       "reactionCount": 4,
-      "engagementRate": 0.002380952380952381
+      "engagementRate": 0.0022988505747126436
     },
     {
       "id": "probankrotstvoru/9611",
@@ -571,7 +571,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 938,
+      "viewCount": 953,
       "tgLink": "https://t.me/probankrotstvoru/9611",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -583,19 +583,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 28.78,
+      "priorityScore": 28.58,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 938 просмотров",
+        "Охват в Telegram Web: 953 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "[Памятка] Как распознать ценовое злоупотребление монополистаКонтрагент запросил за товар или услугу подозрительно много, а другого поставщика нет? Проверьте: не исключено, что цена монопольно высокая! Это значит, что вы ",
       "reactionCount": 13,
-      "engagementRate": 0.013859275053304905
+      "engagementRate": 0.013641133263378805
     },
     {
       "id": "subsidiarka_kdl/4466",
@@ -618,7 +618,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 616,
+      "viewCount": 644,
       "tgLink": "https://t.me/subsidiarka_kdl/4466",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -631,17 +631,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 27.97,
+      "priorityScore": 27.78,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 616 просмотров"
+        "Охват в Telegram Web: 644 просмотров"
       ],
       "digestSummary": "Корпоративные споры в практике Верховного Суда — 23 апреляВторая часть разбора определений СКЭС за II полугодие 2025 года. На этот раз — пять дел, в которых Верховный Суд формулирует стандарты доказывания и процессуальны",
       "reactionCount": 3,
-      "engagementRate": 0.00487012987012987
+      "engagementRate": 0.004658385093167702
     },
     {
       "id": "subsidiarka_kdl/4465",
@@ -675,7 +675,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 745,
+      "viewCount": 766,
       "tgLink": "https://t.me/subsidiarka_kdl/4465",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -687,39 +687,39 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 27.9,
+      "priorityScore": 27.7,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 745 просмотров"
+        "Охват в Telegram Web: 766 просмотров"
       ],
       "digestSummary": "Судебные расходы лица, не признанного контролирующим должника, подлежат возмещению в составе пятой очереди текущих платежей, а не применительно к п. 3 ст. 137 Закона о банкротстве#судебные_расходы #банкротство Сенников С",
       "reactionCount": 6,
-      "engagementRate": 0.008053691275167786
+      "engagementRate": 0.007832898172323759
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 30
+      "count": 31
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 27
+      "count": 28
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 26
+      "count": 25
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 23
+      "count": 24
     },
     {
       "id": "enforcement",
@@ -729,12 +729,12 @@
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 4
+      "count": 5
     },
     {
       "id": "tax",
       "label": "Налоги",
-      "count": 3
+      "count": 4
     }
   ],
   "topChannels": [
@@ -742,11 +742,6 @@
       "channel": "probankrotstvoru",
       "title": "PROбанкротство",
       "count": 8
-    },
-    {
-      "channel": "orpauradio",
-      "title": "Первый радиоканал АУ и юристов",
-      "count": 4
     },
     {
       "channel": "subsidiarka_kdl",
@@ -759,9 +754,19 @@
       "count": 3
     },
     {
+      "channel": "orpauradio",
+      "title": "Первый радиоканал АУ и юристов",
+      "count": 3
+    },
+    {
       "channel": "bankrotstvo_mustknow",
       "title": "Банкротство | Взгляд эксперта",
       "count": 2
+    },
+    {
+      "channel": "Compliance_Practice",
+      "title": "Compliance practice",
+      "count": 1
     },
     {
       "channel": "legally_bald",
@@ -771,11 +776,6 @@
     {
       "channel": "vs_court",
       "title": "Судебная практика СКЭС ВС РФ",
-      "count": 1
-    },
-    {
-      "channel": "fedresurs_insolvency",
-      "title": "Федресурс: банкротные новости",
       "count": 1
     }
   ]
