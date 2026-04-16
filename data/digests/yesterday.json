@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-16T19:45:46.774Z",
-  "totalPosts": 45,
+  "generatedAt": "2026-04-16T20:34:06.347Z",
+  "totalPosts": 46,
   "topPosts": [
     {
       "id": "probankrotstvoru/9602",
@@ -48,7 +48,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.57,
+      "priorityScore": 30.47,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -98,7 +98,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1120,
+      "viewCount": 1130,
       "tgLink": "https://t.me/probankrotstvoru/9607",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -111,19 +111,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.33,
+      "priorityScore": 30.23,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 1120 просмотров",
+        "Охват в Telegram Web: 1130 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "ВС решит спор о продаже электросетевого имущества в одном лоте с очистными сооружениямиВ рамках банкротства общества «Самарский подшипниковый завод» — субъекта естественной монополии в сфере передачи электроэнергии — КУ ",
       "reactionCount": 17,
-      "engagementRate": 0.015178571428571428
+      "engagementRate": 0.01504424778761062
     },
     {
       "id": "insolvencylaw/603",
@@ -156,7 +156,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 411,
+      "viewCount": 412,
       "tgLink": "https://t.me/insolvencylaw/603",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -169,18 +169,18 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 29.75,
+      "priorityScore": 29.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 411 просмотров",
+        "Охват в Telegram Web: 412 просмотров",
         "Сильная отдача аудитории: 2,4% реакций к просмотрам"
       ],
       "digestSummary": "Конвертация долга в капитал как эффективное и внесудебное средство увеличения объема удовлетворения кредитора несостоятельного должникаНеплатежеспособность должника предполагает, что кредитор будет получать удовлетворени",
       "reactionCount": 10,
-      "engagementRate": 0.024330900243309004
+      "engagementRate": 0.024271844660194174
     },
     {
       "id": "probankrotstvoru/9609",
@@ -226,7 +226,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.06,
+      "priorityScore": 26.96,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -282,7 +282,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.82,
+      "priorityScore": 26.72,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -337,7 +337,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.71,
+      "priorityScore": 26.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -391,7 +391,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.63,
+      "priorityScore": 26.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -436,7 +436,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 823,
+      "viewCount": 827,
       "tgLink": "https://t.me/corplawpro/5897",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -449,17 +449,17 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 26.44,
+      "priorityScore": 26.34,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 823 просмотров"
+        "Охват в Telegram Web: 827 просмотров"
       ],
       "digestSummary": "Корпоративные споры в практике Верховного Суда — 23 апреляВторая часть разбора определений СКЭС за II полугодие 2025 года. На этот раз — пять дел, в которых Верховный Суд формулирует стандарты доказывания и процессуальны",
       "reactionCount": 8,
-      "engagementRate": 0.009720534629404616
+      "engagementRate": 0.009673518742442563
     },
     {
       "id": "sovetsudey/869",
@@ -505,7 +505,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 12100,
+      "viewCount": 12200,
       "tgLink": "https://t.me/sovetsudey/869",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -516,19 +516,19 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 25.98,
+      "priorityScore": 25.87,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 140 реакций",
-        "Охват в Telegram Web: 12100 просмотров",
-        "Сильная отдача аудитории: 1,2% реакций к просмотрам"
+        "Охват в Telegram Web: 12200 просмотров",
+        "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Продажа земельной доли лицу, не являющемуся совладельцем участка, без ее выдела в натуре запрещена, разъяснил ВС РФ. Один из собственников сельскохозяйственных угодий был признан банкротом, финансовый управляющий продал ",
       "reactionCount": 140,
-      "engagementRate": 0.011570247933884297
+      "engagementRate": 0.011475409836065573
     },
     {
       "id": "sotbi_law/169",
@@ -577,7 +577,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 62,
+      "viewCount": 63,
       "tgLink": "https://t.me/sotbi_law/169",
       "channel": "sotbi_law",
       "channelTitle": "Сотби",
@@ -590,19 +590,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.7,
+      "priorityScore": 25.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 62 просмотров",
-        "Сильная отдача аудитории: 19,4% реакций к просмотрам"
+        "Охват в Telegram Web: 63 просмотров",
+        "Сильная отдача аудитории: 19,0% реакций к просмотрам"
       ],
       "digestSummary": "Позиция Конституционного суда РФ по солидарной уступке требований в банкротстве Дело ПАО «Сбербанк России»Сбербанк попытался оспорить в Конституционном суде РФ подход, при котором в случае продажи требования о привлечени",
       "reactionCount": 12,
-      "engagementRate": 0.1935483870967742
+      "engagementRate": 0.19047619047619047
     },
     {
       "id": "probankrotstvoru/9603",
@@ -646,7 +646,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.47,
+      "priorityScore": 25.37,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -710,7 +710,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 24.9,
+      "priorityScore": 24.8,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -737,7 +737,7 @@
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 32
+      "count": 33
     },
     {
       "id": "ai_law",
@@ -747,7 +747,7 @@
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 16
+      "count": 17
     },
     {
       "id": "compliance",
@@ -787,6 +787,11 @@
       "count": 3
     },
     {
+      "channel": "orpauradio",
+      "title": "Первый радиоканал АУ и юристов",
+      "count": 2
+    },
+    {
       "channel": "corplawpro",
       "title": "Корпоративные споры • Case by Case",
       "count": 2
@@ -794,11 +799,6 @@
     {
       "channel": "sudpraktik",
       "title": "СУДЕБНАЯ ПРАКТИКА",
-      "count": 2
-    },
-    {
-      "channel": "subsidiarka_kdl",
-      "title": "Субсидиарная ответственность • Case by Case",
       "count": 2
     }
   ]
