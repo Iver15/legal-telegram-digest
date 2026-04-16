@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-16T15:59:00.676Z",
+  "generatedAt": "2026-04-16T17:03:28.204Z",
   "totalPosts": 33,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 37.89,
+      "priorityScore": 37.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -112,7 +112,7 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 36.61,
+      "priorityScore": 36.47,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -174,7 +174,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 35.35,
+      "priorityScore": 35.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -237,7 +237,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.57,
+      "priorityScore": 34.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -297,7 +297,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 31.26,
+      "priorityScore": 31.12,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -354,7 +354,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.24,
+      "priorityScore": 31.1,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -415,7 +415,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 30.34,
+      "priorityScore": 30.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -471,7 +471,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 30.29,
+      "priorityScore": 30.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -528,7 +528,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 29.15,
+      "priorityScore": 29.01,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
@@ -582,7 +582,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 29.12,
+      "priorityScore": 28.98,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -630,7 +630,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.31,
+      "priorityScore": 28.17,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -686,7 +686,7 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 28.25,
+      "priorityScore": 28.12,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",

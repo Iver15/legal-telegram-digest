@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-16T15:59:00.677Z",
-  "totalPosts": 277,
+  "generatedAt": "2026-04-16T17:03:28.205Z",
+  "totalPosts": 274,
   "topPosts": [
     {
       "id": "probankrotstvoru/9616",
@@ -50,7 +50,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 37.89,
+      "priorityScore": 37.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -112,7 +112,7 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 36.61,
+      "priorityScore": 36.47,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -174,7 +174,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 35.35,
+      "priorityScore": 35.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -237,7 +237,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.57,
+      "priorityScore": 34.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -411,7 +411,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.13,
+      "priorityScore": 32.12,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -628,7 +628,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 31.26,
+      "priorityScore": 31.12,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -685,7 +685,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.24,
+      "priorityScore": 31.1,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -704,27 +704,27 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 230
+      "count": 227
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 215
+      "count": 212
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 214
+      "count": 212
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 199
+      "count": 196
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 116
+      "count": 114
     },
     {
       "id": "compliance",
@@ -756,7 +756,7 @@
     {
       "channel": "subsidiarka_kdl",
       "title": "Субсидиарная ответственность • Case by Case",
-      "count": 17
+      "count": 16
     },
     {
       "channel": "legally_bald",
