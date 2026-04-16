@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-16T21:13:59.101Z",
+  "generatedAt": "2026-04-16T22:01:35.315Z",
   "totalPosts": 46,
   "topPosts": [
     {
@@ -48,7 +48,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.38,
+      "priorityScore": 30.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -111,7 +111,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.15,
+      "priorityScore": 30.05,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -169,7 +169,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 29.57,
+      "priorityScore": 29.47,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -226,7 +226,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.86,
+      "priorityScore": 26.76,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -282,7 +282,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.64,
+      "priorityScore": 26.54,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -324,7 +324,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1080,
+      "viewCount": 1090,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2617",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -337,17 +337,17 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.53,
+      "priorityScore": 26.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1080 просмотров"
+        "Охват в Telegram Web: 1090 просмотров"
       ],
       "digestSummary": "Согласно сложившейся судебной практике сальдирование имеет место тогда, когда в рамках одного договора (либо нескольких взаимосвязанных договоров) определяется завершающая обязанность сторон при прекращении договорных от",
       "reactionCount": 4,
-      "engagementRate": 0.003703703703703704
+      "engagementRate": 0.003669724770642202
     },
     {
       "id": "probankrotstvoru/9605",
@@ -391,7 +391,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.45,
+      "priorityScore": 26.35,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -436,7 +436,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 829,
+      "viewCount": 831,
       "tgLink": "https://t.me/corplawpro/5897",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -449,17 +449,17 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 26.25,
+      "priorityScore": 26.15,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 829 просмотров"
+        "Охват в Telegram Web: 831 просмотров"
       ],
       "digestSummary": "Корпоративные споры в практике Верховного Суда — 23 апреляВторая часть разбора определений СКЭС за II полугодие 2025 года. На этот раз — пять дел, в которых Верховный Суд формулирует стандарты доказывания и процессуальны",
       "reactionCount": 8,
-      "engagementRate": 0.009650180940892641
+      "engagementRate": 0.009626955475330927
     },
     {
       "id": "sovetsudey/869",
@@ -505,7 +505,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 12200,
+      "viewCount": 12300,
       "tgLink": "https://t.me/sovetsudey/869",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -516,19 +516,19 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 25.79,
+      "priorityScore": 25.68,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 140 реакций",
-        "Охват в Telegram Web: 12200 просмотров",
+        "Охват в Telegram Web: 12300 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Продажа земельной доли лицу, не являющемуся совладельцем участка, без ее выдела в натуре запрещена, разъяснил ВС РФ. Один из собственников сельскохозяйственных угодий был признан банкротом, финансовый управляющий продал ",
       "reactionCount": 140,
-      "engagementRate": 0.011475409836065573
+      "engagementRate": 0.011382113821138212
     },
     {
       "id": "sotbi_law/169",
@@ -590,7 +590,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.52,
+      "priorityScore": 25.42,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -646,7 +646,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.29,
+      "priorityScore": 25.19,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -710,7 +710,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 24.71,
+      "priorityScore": 24.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
