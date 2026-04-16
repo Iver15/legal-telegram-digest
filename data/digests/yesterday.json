@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-16T22:01:35.315Z",
+  "generatedAt": "2026-04-16T22:41:28.336Z",
   "totalPosts": 46,
   "topPosts": [
     {
@@ -48,7 +48,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.28,
+      "priorityScore": 30.19,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -111,7 +111,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.05,
+      "priorityScore": 29.96,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -169,7 +169,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 29.47,
+      "priorityScore": 29.39,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -226,7 +226,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.76,
+      "priorityScore": 26.68,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -270,7 +270,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1170,
+      "viewCount": 1180,
       "tgLink": "https://t.me/probankrotstvoru/9608",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -282,19 +282,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.54,
+      "priorityScore": 26.46,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 1170 просмотров",
-        "Сильная отдача аудитории: 1,5% реакций к просмотрам"
+        "Охват в Telegram Web: 1180 просмотров",
+        "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "ВС проверит расчет вознаграждения управляющего при выплате ликвидационной квотыВ 2018 году Банк России обратился в суд с заявлением о принудительной ликвидации НПФ «Достоинство». Ликвидатором назначили Анастасию Курскую.",
       "reactionCount": 17,
-      "engagementRate": 0.01452991452991453
+      "engagementRate": 0.01440677966101695
     },
     {
       "id": "sudpraktik_bankrot_demo/2617",
@@ -337,7 +337,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.43,
+      "priorityScore": 26.34,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -379,7 +379,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1050,
+      "viewCount": 1060,
       "tgLink": "https://t.me/probankrotstvoru/9605",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -391,19 +391,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.35,
+      "priorityScore": 26.25,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 1050 просмотров",
+        "Охват в Telegram Web: 1060 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Можно ли привлечь КДЛ к субсидиарной ответственности, не доказывая его убыточные действия?24 апреля тему «Внебанкротная субсидиарная ответственность, плюсы и минусы» на практикуме RECOVERY club разберет Руслан Остроумов,",
       "reactionCount": 15,
-      "engagementRate": 0.014285714285714285
+      "engagementRate": 0.014150943396226415
     },
     {
       "id": "corplawpro/5897",
@@ -449,7 +449,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 26.15,
+      "priorityScore": 26.07,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Суды",
@@ -516,7 +516,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 25.68,
+      "priorityScore": 25.59,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -590,7 +590,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.42,
+      "priorityScore": 25.34,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -646,7 +646,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.19,
+      "priorityScore": 25.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -710,7 +710,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 24.61,
+      "priorityScore": 24.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
