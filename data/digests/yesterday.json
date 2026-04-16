@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-16T00:01:39.659Z",
+  "generatedAt": "2026-04-16T02:31:03.445Z",
   "totalPosts": 47,
   "topPosts": [
     {
@@ -55,7 +55,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.19,
+      "priorityScore": 33.88,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -111,7 +111,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 31.72,
+      "priorityScore": 31.41,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -167,7 +167,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.05,
+      "priorityScore": 30.74,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -225,7 +225,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 30.49,
+      "priorityScore": 30.18,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -283,7 +283,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.16,
+      "priorityScore": 29.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -346,7 +346,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.47,
+      "priorityScore": 29.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -404,7 +404,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.31,
+      "priorityScore": 29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -465,7 +465,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.99,
+      "priorityScore": 28.68,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -524,7 +524,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 27.75,
+      "priorityScore": 27.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -581,7 +581,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 26.83,
+      "priorityScore": 26.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -617,7 +617,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1100,
+      "viewCount": 1110,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2616",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -630,17 +630,17 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.19,
+      "priorityScore": 25.88,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1100 просмотров"
+        "Охват в Telegram Web: 1110 просмотров"
       ],
       "digestSummary": "После начала расчетов должник более не отвечает перед участниками строительства, поскольку он нашел приемлемый для кредиторов выход из сложившейся ситуации. По этой причине пунктом 6 статьи 201.15-2 Закона о банкротстве ",
       "reactionCount": 1,
-      "engagementRate": 0.0009090909090909091
+      "engagementRate": 0.0009009009009009009
     },
     {
       "id": "disputesandsanctions/2429",
@@ -663,7 +663,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 257,
+      "viewCount": 258,
       "tgLink": "https://t.me/disputesandsanctions/2429",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -676,17 +676,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 24.91,
+      "priorityScore": 24.6,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 257 просмотров"
+        "Охват в Telegram Web: 258 просмотров"
       ],
       "digestSummary": "НЕДЕЛЯ ДО III МЕЖДУНАРОДНОГО ФОРУМА DRC «ВРЕМЯ СТРОИТЬ»Уважаемые коллеги, ровно через неделю мы стартуем с III международным Форумом DRC «Время строить: управление строительными контрактами и разрешение строительных спор",
       "reactionCount": 1,
-      "engagementRate": 0.0038910505836575876
+      "engagementRate": 0.003875968992248062
     }
   ],
   "topTopics": [
