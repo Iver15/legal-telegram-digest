@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-16T20:34:06.347Z",
+  "generatedAt": "2026-04-16T21:13:59.101Z",
   "totalPosts": 46,
   "topPosts": [
     {
@@ -35,7 +35,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1280,
+      "viewCount": 1290,
       "tgLink": "https://t.me/probankrotstvoru/9602",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -48,19 +48,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.47,
+      "priorityScore": 30.38,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 1280 просмотров",
+        "Охват в Telegram Web: 1290 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "ВС разъяснит права залогодержателя на доходы от сдачи заложенного имущества в арендуИП Константин Мезенин выдал займы ИП Леониду Земкину под залог нежилых помещений, принадлежащих ИП Анаит Аракелян. Заемщик не вернул дол",
       "reactionCount": 18,
-      "engagementRate": 0.0140625
+      "engagementRate": 0.013953488372093023
     },
     {
       "id": "probankrotstvoru/9607",
@@ -111,7 +111,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.23,
+      "priorityScore": 30.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -156,7 +156,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 412,
+      "viewCount": 414,
       "tgLink": "https://t.me/insolvencylaw/603",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -169,18 +169,18 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 29.65,
+      "priorityScore": 29.57,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 412 просмотров",
+        "Охват в Telegram Web: 414 просмотров",
         "Сильная отдача аудитории: 2,4% реакций к просмотрам"
       ],
       "digestSummary": "Конвертация долга в капитал как эффективное и внесудебное средство увеличения объема удовлетворения кредитора несостоятельного должникаНеплатежеспособность должника предполагает, что кредитор будет получать удовлетворени",
       "reactionCount": 10,
-      "engagementRate": 0.024271844660194174
+      "engagementRate": 0.024154589371980676
     },
     {
       "id": "probankrotstvoru/9609",
@@ -213,7 +213,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1200,
+      "viewCount": 1210,
       "tgLink": "https://t.me/probankrotstvoru/9609",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -226,19 +226,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.96,
+      "priorityScore": 26.86,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Исполнение",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 1200 просмотров",
-        "Сильная отдача аудитории: 1,3% реакций к просмотрам"
+        "Охват в Telegram Web: 1210 просмотров",
+        "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "ВС оценит соразмерность ареста акций при привлечении региона к субсидиаркеВ рамках дела о банкротстве общества «Башкиравтодор» рассматривается заявление о привлечении к субсидиарной ответственности мажоритарных акционеро",
       "reactionCount": 15,
-      "engagementRate": 0.0125
+      "engagementRate": 0.012396694214876033
     },
     {
       "id": "probankrotstvoru/9608",
@@ -282,7 +282,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.72,
+      "priorityScore": 26.64,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -337,7 +337,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.61,
+      "priorityScore": 26.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -391,7 +391,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.53,
+      "priorityScore": 26.45,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -436,7 +436,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 827,
+      "viewCount": 829,
       "tgLink": "https://t.me/corplawpro/5897",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -449,17 +449,17 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 26.34,
+      "priorityScore": 26.25,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 827 просмотров"
+        "Охват в Telegram Web: 829 просмотров"
       ],
       "digestSummary": "Корпоративные споры в практике Верховного Суда — 23 апреляВторая часть разбора определений СКЭС за II полугодие 2025 года. На этот раз — пять дел, в которых Верховный Суд формулирует стандарты доказывания и процессуальны",
       "reactionCount": 8,
-      "engagementRate": 0.009673518742442563
+      "engagementRate": 0.009650180940892641
     },
     {
       "id": "sovetsudey/869",
@@ -516,7 +516,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 25.87,
+      "priorityScore": 25.79,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -590,7 +590,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.6,
+      "priorityScore": 25.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -646,7 +646,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.37,
+      "priorityScore": 25.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -697,7 +697,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1030,
+      "viewCount": 1040,
       "tgLink": "https://t.me/subsidiarka_kdl/4463",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -710,34 +710,34 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 24.8,
+      "priorityScore": 24.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1030 просмотров"
+        "Охват в Telegram Web: 1040 просмотров"
       ],
       "digestSummary": "Субсидиарная ответственность за совершение сделок не может быть установлена без указания их вида, даты и лица, их совершившего#субсидиарная_ответственностьКонкурсный управляющий ООО «Евростиль» обратился с заявлением о п",
       "reactionCount": 7,
-      "engagementRate": 0.006796116504854369
+      "engagementRate": 0.006730769230769231
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 40
+      "count": 41
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 34
+      "count": 35
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 33
+      "count": 34
     },
     {
       "id": "ai_law",
@@ -747,29 +747,29 @@
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 17
+      "count": 16
     },
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 8
+      "count": 7
     },
     {
       "id": "tax",
       "label": "Налоги",
-      "count": 4
+      "count": 3
     }
   ],
   "topChannels": [
     {
-      "channel": "probankrotstvoru",
-      "title": "PROбанкротство",
+      "channel": "lawegorov",
+      "title": "AVE in Law",
       "count": 7
     },
     {
-      "channel": "lawegorov",
-      "title": "AVE in Law",
-      "count": 6
+      "channel": "probankrotstvoru",
+      "title": "PROбанкротство",
+      "count": 7
     },
     {
       "channel": "sovetsudey",
@@ -782,11 +782,6 @@
       "count": 3
     },
     {
-      "channel": "Compliance_Practice",
-      "title": "Compliance practice",
-      "count": 3
-    },
-    {
       "channel": "orpauradio",
       "title": "Первый радиоканал АУ и юристов",
       "count": 2
@@ -794,6 +789,11 @@
     {
       "channel": "corplawpro",
       "title": "Корпоративные споры • Case by Case",
+      "count": 2
+    },
+    {
+      "channel": "Compliance_Practice",
+      "title": "Compliance practice",
       "count": 2
     },
     {
