@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-16T22:41:28.336Z",
+  "generatedAt": "2026-04-16T23:30:03.512Z",
   "totalPosts": 46,
   "topPosts": [
     {
@@ -48,7 +48,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.19,
+      "priorityScore": 30.1,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -111,7 +111,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.96,
+      "priorityScore": 29.87,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -169,7 +169,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 29.39,
+      "priorityScore": 29.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -226,7 +226,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.68,
+      "priorityScore": 26.58,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -282,7 +282,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.46,
+      "priorityScore": 26.36,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -337,7 +337,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.34,
+      "priorityScore": 26.24,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -391,7 +391,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.25,
+      "priorityScore": 26.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -449,7 +449,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 26.07,
+      "priorityScore": 25.97,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Суды",
@@ -476,7 +476,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "105",
+          "count": "106",
           "isPaid": false
         },
         {
@@ -516,19 +516,19 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 25.59,
+      "priorityScore": 25.5,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Высокая вовлечённость: 140 реакций",
+        "Высокая вовлечённость: 141 реакций",
         "Охват в Telegram Web: 12300 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Продажа земельной доли лицу, не являющемуся совладельцем участка, без ее выдела в натуре запрещена, разъяснил ВС РФ. Один из собственников сельскохозяйственных угодий был признан банкротом, финансовый управляющий продал ",
-      "reactionCount": 140,
-      "engagementRate": 0.011382113821138212
+      "reactionCount": 141,
+      "engagementRate": 0.011463414634146341
     },
     {
       "id": "sotbi_law/169",
@@ -590,7 +590,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.34,
+      "priorityScore": 25.24,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -646,7 +646,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.11,
+      "priorityScore": 25.01,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -710,7 +710,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 24.53,
+      "priorityScore": 24.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",

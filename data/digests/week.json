@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-16T22:41:28.336Z",
-  "totalPosts": 264,
+  "generatedAt": "2026-04-16T23:30:03.512Z",
+  "totalPosts": 259,
   "topPosts": [
     {
       "id": "probankrotstvoru/9616",
@@ -36,7 +36,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 797,
+      "viewCount": 804,
       "tgLink": "https://t.me/probankrotstvoru/9616",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -50,19 +50,19 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 37.27,
+      "priorityScore": 37.17,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 797 просмотров",
+        "Охват в Telegram Web: 804 просмотров",
         "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "Кассация признала за должником право на долю, оформленную на другаОбщество КБ «БФГ-Кредит» оспорило приобретение Владимиром Долинским 100% доли в уставном капитале общества «Юрга ЛТД» у Татьяны Мальцевой (тещи должника Ю",
       "reactionCount": 16,
-      "engagementRate": 0.020075282308657464
+      "engagementRate": 0.01990049751243781
     },
     {
       "id": "bankrotstvo_mustknow/469",
@@ -112,7 +112,7 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 35.8,
+      "priorityScore": 35.7,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -174,7 +174,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.55,
+      "priorityScore": 34.45,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -302,7 +302,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.76,
+      "priorityScore": 33.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -668,7 +668,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1100,
+      "viewCount": 1110,
       "tgLink": "https://t.me/probankrotstvoru/9614",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -681,46 +681,46 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.7,
+      "priorityScore": 30.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 26 реакций",
-        "Охват в Telegram Web: 1100 просмотров",
-        "Сильная отдача аудитории: 2,4% реакций к просмотрам"
+        "Охват в Telegram Web: 1110 просмотров",
+        "Сильная отдача аудитории: 2,3% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: явные противоречия в реестре обязывают управляющего перепроверить данныеВ банкротстве общества «Авиакомпания \"ВИМ-АВИА\"» КУ Анастасия Стручалина потребовала взыскать с бывшего управляющего Александра Максимова ",
       "reactionCount": 26,
-      "engagementRate": 0.023636363636363636
+      "engagementRate": 0.023423423423423424
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 226
+      "count": 223
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 202
+      "count": 197
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 201
+      "count": 196
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 193
+      "count": 190
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 113
+      "count": 111
     },
     {
       "id": "compliance",
@@ -740,14 +740,14 @@
       "count": 47
     },
     {
-      "channel": "vZone1413",
-      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 22
-    },
-    {
       "channel": "orpauradio",
       "title": "Первый радиоканал АУ и юристов",
       "count": 18
+    },
+    {
+      "channel": "vZone1413",
+      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
+      "count": 17
     },
     {
       "channel": "subsidiarka_kdl",
