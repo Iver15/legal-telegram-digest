@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-17T22:03:16.549Z",
+  "generatedAt": "2026-04-17T22:47:58.952Z",
   "totalPosts": 31,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 34.56,
+      "priorityScore": 34.47,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -112,7 +112,7 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 32.92,
+      "priorityScore": 32.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -174,7 +174,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.68,
+      "priorityScore": 31.59,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -237,7 +237,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.64,
+      "priorityScore": 30.55,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -283,7 +283,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 436,
+      "viewCount": 437,
       "tgLink": "https://t.me/insolvencylaw/604",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -297,18 +297,18 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 27.94,
+      "priorityScore": 27.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 436 просмотров",
+        "Охват в Telegram Web: 437 просмотров",
         "Сильная отдача аудитории: 2,1% реакций к просмотрам"
       ],
       "digestSummary": "Секундарное обеспечение исполнения обязательств как единственный способ эффективных международных расчетов или как не зависеть от «заморозки» средств в иностранной юрисдикции Как осуществляется международный платеж в тех",
       "reactionCount": 9,
-      "engagementRate": 0.020642201834862386
+      "engagementRate": 0.020594965675057208
     },
     {
       "id": "probankrotstvoru/9614",
@@ -354,7 +354,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.86,
+      "priorityScore": 27.77,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -398,7 +398,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1150,
+      "viewCount": 1160,
       "tgLink": "https://t.me/probankrotstvoru/9617",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -410,19 +410,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.84,
+      "priorityScore": 27.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 1150 просмотров",
+        "Охват в Telegram Web: 1160 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club.Продолжаем знакомить вас со спикерами предстоящего практикума. Дмитрий Клеточкин, адвокат, партнер, глава практики «Реструкту",
       "reactionCount": 17,
-      "engagementRate": 0.014782608695652174
+      "engagementRate": 0.014655172413793103
     },
     {
       "id": "probankrotstvoru/9615",
@@ -471,7 +471,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.6,
+      "priorityScore": 26.51,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -541,7 +541,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 26.31,
+      "priorityScore": 26.21,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -599,7 +599,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 25.71,
+      "priorityScore": 25.62,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
@@ -653,7 +653,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.08,
+      "priorityScore": 24.99,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -706,7 +706,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 24.66,
+      "priorityScore": 24.57,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
