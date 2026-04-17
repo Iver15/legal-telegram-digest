@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-16T23:30:03.512Z",
+  "generatedAt": "2026-04-17T00:08:15.909Z",
   "totalPosts": 46,
   "topPosts": [
     {
@@ -48,7 +48,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.1,
+      "priorityScore": 30.02,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -111,7 +111,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.87,
+      "priorityScore": 29.79,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -156,7 +156,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 414,
+      "viewCount": 415,
       "tgLink": "https://t.me/insolvencylaw/603",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -169,18 +169,18 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 29.29,
+      "priorityScore": 29.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 414 просмотров",
+        "Охват в Telegram Web: 415 просмотров",
         "Сильная отдача аудитории: 2,4% реакций к просмотрам"
       ],
       "digestSummary": "Конвертация долга в капитал как эффективное и внесудебное средство увеличения объема удовлетворения кредитора несостоятельного должникаНеплатежеспособность должника предполагает, что кредитор будет получать удовлетворени",
       "reactionCount": 10,
-      "engagementRate": 0.024154589371980676
+      "engagementRate": 0.024096385542168676
     },
     {
       "id": "probankrotstvoru/9609",
@@ -226,7 +226,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.58,
+      "priorityScore": 26.5,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -282,7 +282,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.36,
+      "priorityScore": 26.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -337,7 +337,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.24,
+      "priorityScore": 26.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -391,7 +391,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.15,
+      "priorityScore": 26.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -449,7 +449,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 25.97,
+      "priorityScore": 25.89,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Суды",
@@ -476,7 +476,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "106",
+          "count": "107",
           "isPaid": false
         },
         {
@@ -516,19 +516,19 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 25.5,
+      "priorityScore": 25.44,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Высокая вовлечённость: 141 реакций",
+        "Высокая вовлечённость: 142 реакций",
         "Охват в Telegram Web: 12300 просмотров",
-        "Сильная отдача аудитории: 1,1% реакций к просмотрам"
+        "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Продажа земельной доли лицу, не являющемуся совладельцем участка, без ее выдела в натуре запрещена, разъяснил ВС РФ. Один из собственников сельскохозяйственных угодий был признан банкротом, финансовый управляющий продал ",
-      "reactionCount": 141,
-      "engagementRate": 0.011463414634146341
+      "reactionCount": 142,
+      "engagementRate": 0.011544715447154472
     },
     {
       "id": "sotbi_law/169",
@@ -590,7 +590,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.24,
+      "priorityScore": 25.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -646,7 +646,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.01,
+      "priorityScore": 24.93,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -710,7 +710,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 24.43,
+      "priorityScore": 24.35,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
