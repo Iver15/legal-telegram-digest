@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-17T22:47:58.952Z",
+  "generatedAt": "2026-04-17T23:28:52.103Z",
   "totalPosts": 31,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 34.47,
+      "priorityScore": 34.39,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -112,7 +112,7 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 32.83,
+      "priorityScore": 32.74,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -174,7 +174,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.59,
+      "priorityScore": 31.5,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -237,7 +237,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.55,
+      "priorityScore": 30.47,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -283,7 +283,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 437,
+      "viewCount": 438,
       "tgLink": "https://t.me/insolvencylaw/604",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -297,18 +297,18 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 27.85,
+      "priorityScore": 27.77,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 437 просмотров",
+        "Охват в Telegram Web: 438 просмотров",
         "Сильная отдача аудитории: 2,1% реакций к просмотрам"
       ],
       "digestSummary": "Секундарное обеспечение исполнения обязательств как единственный способ эффективных международных расчетов или как не зависеть от «заморозки» средств в иностранной юрисдикции Как осуществляется международный платеж в тех",
       "reactionCount": 9,
-      "engagementRate": 0.020594965675057208
+      "engagementRate": 0.02054794520547945
     },
     {
       "id": "probankrotstvoru/9614",
@@ -354,7 +354,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.77,
+      "priorityScore": 27.68,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -410,7 +410,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.75,
+      "priorityScore": 27.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -471,7 +471,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.51,
+      "priorityScore": 26.42,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -527,7 +527,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1710,
+      "viewCount": 1720,
       "tgLink": "https://t.me/Compliance_Practice/3047",
       "channel": "Compliance_Practice",
       "channelTitle": "Compliance practice",
@@ -541,19 +541,19 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 26.21,
+      "priorityScore": 26.12,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Комплаенс",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 1710 просмотров",
-        "Сильная отдача аудитории: 1,1% реакций к просмотрам"
+        "Охват в Telegram Web: 1720 просмотров",
+        "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Созданная Россией криптобиржа Grinex, на которой торгуется используемая для обхода санкций криптовалюта A7A5, заявила о «масштабной кибератаке с признаками участия зарубежных спецслужб» и потере более миллиарда рублей, п",
       "reactionCount": 18,
-      "engagementRate": 0.010526315789473684
+      "engagementRate": 0.010465116279069767
     },
     {
       "id": "sudpraktik/3497",
@@ -599,7 +599,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 25.62,
+      "priorityScore": 25.54,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
@@ -653,7 +653,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 24.99,
+      "priorityScore": 24.9,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -693,7 +693,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 906,
+      "viewCount": 908,
       "tgLink": "https://t.me/subsidiarka_kdl/4466",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -706,17 +706,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 24.57,
+      "priorityScore": 24.48,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 906 просмотров"
+        "Охват в Telegram Web: 908 просмотров"
       ],
       "digestSummary": "Корпоративные споры в практике Верховного Суда — 23 апреляВторая часть разбора определений СКЭС за II полугодие 2025 года. На этот раз — пять дел, в которых Верховный Суд формулирует стандарты доказывания и процессуальны",
       "reactionCount": 4,
-      "engagementRate": 0.004415011037527594
+      "engagementRate": 0.004405286343612335
     }
   ],
   "topTopics": [
