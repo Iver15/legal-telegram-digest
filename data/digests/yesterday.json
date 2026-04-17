@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-17T21:12:52.867Z",
+  "generatedAt": "2026-04-17T22:03:16.549Z",
   "totalPosts": 31,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 34.67,
+      "priorityScore": 34.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -112,7 +112,7 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 33.03,
+      "priorityScore": 32.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -174,7 +174,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.78,
+      "priorityScore": 31.68,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -237,7 +237,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.75,
+      "priorityScore": 30.64,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -283,7 +283,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 433,
+      "viewCount": 436,
       "tgLink": "https://t.me/insolvencylaw/604",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -297,18 +297,18 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 28.05,
+      "priorityScore": 27.94,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 433 просмотров",
+        "Охват в Telegram Web: 436 просмотров",
         "Сильная отдача аудитории: 2,1% реакций к просмотрам"
       ],
       "digestSummary": "Секундарное обеспечение исполнения обязательств как единственный способ эффективных международных расчетов или как не зависеть от «заморозки» средств в иностранной юрисдикции Как осуществляется международный платеж в тех",
       "reactionCount": 9,
-      "engagementRate": 0.020785219399538105
+      "engagementRate": 0.020642201834862386
     },
     {
       "id": "probankrotstvoru/9614",
@@ -354,7 +354,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.97,
+      "priorityScore": 27.86,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -410,7 +410,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.94,
+      "priorityScore": 27.84,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -471,7 +471,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.71,
+      "priorityScore": 26.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -541,7 +541,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 26.41,
+      "priorityScore": 26.31,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -585,7 +585,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2490,
+      "viewCount": 2500,
       "tgLink": "https://t.me/sudpraktik/3497",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -599,17 +599,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 25.82,
+      "priorityScore": 25.71,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 2490 просмотров"
+        "Охват в Telegram Web: 2500 просмотров"
       ],
       "digestSummary": "Операции по реализации услуг по обращению с ТКО, осуществляемые региональным оператором по обращению с ТКО, освобождаются от обложения НДС только при условии установления публичными органами предельного единого (применяе",
       "reactionCount": 6,
-      "engagementRate": 0.0024096385542168677
+      "engagementRate": 0.0024
     },
     {
       "id": "probankrotstvoru/9611",
@@ -653,7 +653,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.19,
+      "priorityScore": 25.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -693,7 +693,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 904,
+      "viewCount": 906,
       "tgLink": "https://t.me/subsidiarka_kdl/4466",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -706,17 +706,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 24.77,
+      "priorityScore": 24.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 904 просмотров"
+        "Охват в Telegram Web: 906 просмотров"
       ],
       "digestSummary": "Корпоративные споры в практике Верховного Суда — 23 апреляВторая часть разбора определений СКЭС за II полугодие 2025 года. На этот раз — пять дел, в которых Верховный Суд формулирует стандарты доказывания и процессуальны",
       "reactionCount": 4,
-      "engagementRate": 0.004424778761061947
+      "engagementRate": 0.004415011037527594
     }
   ],
   "topTopics": [
