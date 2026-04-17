@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-17T20:31:56.086Z",
-  "totalPosts": 32,
+  "generatedAt": "2026-04-17T21:12:52.867Z",
+  "totalPosts": 31,
   "topPosts": [
     {
       "id": "probankrotstvoru/9616",
@@ -36,7 +36,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1160,
+      "viewCount": 1170,
       "tgLink": "https://t.me/probankrotstvoru/9616",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -50,19 +50,19 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 34.75,
+      "priorityScore": 34.67,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 1160 просмотров",
+        "Охват в Telegram Web: 1170 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация признала за должником право на долю, оформленную на другаОбщество КБ «БФГ-Кредит» оспорило приобретение Владимиром Долинским 100% доли в уставном капитале общества «Юрга ЛТД» у Татьяны Мальцевой (тещи должника Ю",
       "reactionCount": 17,
-      "engagementRate": 0.014655172413793103
+      "engagementRate": 0.01452991452991453
     },
     {
       "id": "bankrotstvo_mustknow/469",
@@ -112,7 +112,7 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 33.11,
+      "priorityScore": 33.03,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -174,7 +174,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.87,
+      "priorityScore": 31.78,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -237,7 +237,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.84,
+      "priorityScore": 30.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -297,7 +297,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 28.13,
+      "priorityScore": 28.05,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -354,7 +354,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.05,
+      "priorityScore": 27.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -410,7 +410,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 28.03,
+      "priorityScore": 27.94,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -459,7 +459,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1170,
+      "viewCount": 1180,
       "tgLink": "https://t.me/probankrotstvoru/9615",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -471,19 +471,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.81,
+      "priorityScore": 26.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 1170 просмотров",
+        "Охват в Telegram Web: 1180 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: добросовестность директора опровергается уклонением от передачи документовКУ общества «Корпорация Роснефтегаз» потребовал взыскать 160,7 млн рублей убытков с контролирующих лиц, указав, что инкассированные дене",
       "reactionCount": 14,
-      "engagementRate": 0.011965811965811967
+      "engagementRate": 0.011864406779661017
     },
     {
       "id": "Compliance_Practice/3047",
@@ -527,7 +527,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1700,
+      "viewCount": 1710,
       "tgLink": "https://t.me/Compliance_Practice/3047",
       "channel": "Compliance_Practice",
       "channelTitle": "Compliance practice",
@@ -541,19 +541,19 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 26.51,
+      "priorityScore": 26.41,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Комплаенс",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 1700 просмотров",
+        "Охват в Telegram Web: 1710 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Созданная Россией криптобиржа Grinex, на которой торгуется используемая для обхода санкций криптовалюта A7A5, заявила о «масштабной кибератаке с признаками участия зарубежных спецслужб» и потере более миллиарда рублей, п",
       "reactionCount": 18,
-      "engagementRate": 0.010588235294117647
+      "engagementRate": 0.010526315789473684
     },
     {
       "id": "sudpraktik/3497",
@@ -599,7 +599,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 25.91,
+      "priorityScore": 25.82,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
@@ -653,7 +653,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.27,
+      "priorityScore": 25.19,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -693,7 +693,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 901,
+      "viewCount": 904,
       "tgLink": "https://t.me/subsidiarka_kdl/4466",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -706,39 +706,39 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 24.85,
+      "priorityScore": 24.77,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 901 просмотров"
+        "Охват в Telegram Web: 904 просмотров"
       ],
       "digestSummary": "Корпоративные споры в практике Верховного Суда — 23 апреляВторая часть разбора определений СКЭС за II полугодие 2025 года. На этот раз — пять дел, в которых Верховный Суд формулирует стандарты доказывания и процессуальны",
       "reactionCount": 4,
-      "engagementRate": 0.004439511653718091
+      "engagementRate": 0.004424778761061947
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 31
+      "count": 30
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 28
+      "count": 27
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 24
+      "count": 23
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 24
+      "count": 23
     },
     {
       "id": "enforcement",
