@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-17T23:28:52.103Z",
+  "generatedAt": "2026-04-18T00:04:30.207Z",
   "totalPosts": 31,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 34.39,
+      "priorityScore": 34.31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -112,7 +112,7 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 32.74,
+      "priorityScore": 32.67,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -174,7 +174,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.5,
+      "priorityScore": 31.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -237,7 +237,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.47,
+      "priorityScore": 30.39,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -297,7 +297,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 27.77,
+      "priorityScore": 27.69,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -354,7 +354,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.68,
+      "priorityScore": 27.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -410,7 +410,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.66,
+      "priorityScore": 27.59,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -471,7 +471,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.42,
+      "priorityScore": 26.35,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -541,7 +541,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 26.12,
+      "priorityScore": 26.05,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -585,7 +585,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2500,
+      "viewCount": 2510,
       "tgLink": "https://t.me/sudpraktik/3497",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -599,17 +599,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 25.54,
+      "priorityScore": 25.46,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 2500 просмотров"
+        "Охват в Telegram Web: 2510 просмотров"
       ],
       "digestSummary": "Операции по реализации услуг по обращению с ТКО, осуществляемые региональным оператором по обращению с ТКО, освобождаются от обложения НДС только при условии установления публичными органами предельного единого (применяе",
       "reactionCount": 6,
-      "engagementRate": 0.0024
+      "engagementRate": 0.002390438247011952
     },
     {
       "id": "probankrotstvoru/9611",
@@ -653,7 +653,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 24.9,
+      "priorityScore": 24.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -706,7 +706,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 24.48,
+      "priorityScore": 24.41,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
