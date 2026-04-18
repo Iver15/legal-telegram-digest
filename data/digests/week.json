@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-18T19:38:21.921Z",
+  "generatedAt": "2026-04-18T20:10:29.307Z",
   "totalPosts": 237,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 34.51,
+      "priorityScore": 34.45,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -159,7 +159,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 32.81,
+      "priorityScore": 32.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -538,7 +538,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.24,
+      "priorityScore": 31.17,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -656,7 +656,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.34,
+      "priorityScore": 30.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
