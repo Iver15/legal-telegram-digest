@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-19T19:40:43.404Z",
+  "generatedAt": "2026-04-19T20:08:50.868Z",
   "totalPosts": 229,
   "topPosts": [
     {
@@ -205,7 +205,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 898,
+      "viewCount": 899,
       "tgLink": "https://t.me/probankrotstvoru/9628",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -226,12 +226,12 @@
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 898 просмотров",
+        "Охват в Telegram Web: 899 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: главбух-бенефициар может нести субсидиарную ответственностьКУ общества «Курскспецдорстрой» потребовал привлечь к субсидиарной ответственности бывших руководителей и контролирующих лиц за вывод активов. Суды при",
       "reactionCount": 13,
-      "engagementRate": 0.014476614699331848
+      "engagementRate": 0.014460511679644048
     },
     {
       "id": "probankrotstvoru/9600",
@@ -331,7 +331,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 165,
+      "viewCount": 166,
       "tgLink": "https://t.me/bankrotstvo_mustknow/469",
       "channel": "bankrotstvo_mustknow",
       "channelTitle": "Банкротство | Взгляд эксперта",
@@ -345,18 +345,18 @@
         "enforcement",
         "tax"
       ],
-      "priorityScore": 31.9,
+      "priorityScore": 31.91,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 165 просмотров",
+        "Охват в Telegram Web: 166 просмотров",
         "Сильная отдача аудитории: 4,8% реакций к просмотрам"
       ],
       "digestSummary": "​​🕐 Как и когда возникает право на подачу заявления о банкротстве Кирилл Карпов, старший юрист практики банкротства и антикризисной защиты бизнеса, рассказывает о том, когда у лица появляется право на подачу заявления о",
       "reactionCount": 8,
-      "engagementRate": 0.048484848484848485
+      "engagementRate": 0.04819277108433735
     },
     {
       "id": "corplawpro/5889",
@@ -600,7 +600,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 29.86,
+      "priorityScore": 29.8,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
