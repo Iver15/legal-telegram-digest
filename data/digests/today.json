@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-19T15:26:30.416Z",
+  "generatedAt": "2026-04-19T16:03:26.716Z",
   "totalPosts": 5,
   "topPosts": [
     {
@@ -36,7 +36,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 828,
+      "viewCount": 856,
       "tgLink": "https://t.me/Compliance_Practice/3049",
       "channel": "Compliance_Practice",
       "channelTitle": "Compliance practice",
@@ -50,19 +50,19 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 24.67,
+      "priorityScore": 24.61,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 828 просмотров",
-        "Сильная отдача аудитории: 2,1% реакций к просмотрам"
+        "Охват в Telegram Web: 856 просмотров",
+        "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "Цитата В последние дни появилось множество сообщений о том, что в России вступили в силу изменения в закон \"О Государственной границе\", позволяющие пограничникам требовать у граждан предоставить электронные устройства дл",
       "reactionCount": 17,
-      "engagementRate": 0.020531400966183576
+      "engagementRate": 0.01985981308411215
     },
     {
       "id": "probankrotstvoru/9634",
@@ -94,7 +94,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 646,
+      "viewCount": 661,
       "tgLink": "https://t.me/probankrotstvoru/9634",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -106,18 +106,18 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 24.63,
+      "priorityScore": 24.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 646 просмотров",
+        "Охват в Telegram Web: 661 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Навигатор для антимонопольных споров Академия Veta (при стратегическом партнерстве с PROбанкротство) запускает новый курс «Антимонопольные споры: практический навигатор для корпоративного юриста».Вот что о курсе говорит ",
       "reactionCount": 8,
-      "engagementRate": 0.01238390092879257
+      "engagementRate": 0.012102874432677761
     },
     {
       "id": "probankrotstvoru/9635",
@@ -139,7 +139,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 536,
+      "viewCount": 562,
       "tgLink": "https://t.me/probankrotstvoru/9635",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -151,17 +151,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 22.5,
+      "priorityScore": 22.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 536 просмотров"
+        "Охват в Telegram Web: 562 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС разъяснит права залогодержателя на доходы от сдачи заложенного имущества в арендуЗалогодатель без согласия залогодержателя сдавала помещения в аренду и п",
       "reactionCount": 1,
-      "engagementRate": 0.0018656716417910447
+      "engagementRate": 0.0017793594306049821
     },
     {
       "id": "legally_bald/1161",
@@ -201,7 +201,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 421,
+      "viewCount": 431,
       "tgLink": "https://t.me/legally_bald/1161",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -211,16 +211,16 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 15.91,
+      "priorityScore": 15.84,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Высокая вовлечённость: 69 реакций",
-        "Охват в Telegram Web: 421 просмотров",
-        "Сильная отдача аудитории: 16,4% реакций к просмотрам"
+        "Охват в Telegram Web: 431 просмотров",
+        "Сильная отдача аудитории: 16,0% реакций к просмотрам"
       ],
       "digestSummary": "Собачники, дайте огня🔥",
       "reactionCount": 69,
-      "engagementRate": 0.16389548693586697
+      "engagementRate": 0.16009280742459397
     },
     {
       "id": "legally_bald/1160",
@@ -240,7 +240,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 438,
+      "viewCount": 449,
       "tgLink": "https://t.me/legally_bald/1160",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -250,16 +250,16 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 12.21,
+      "priorityScore": 12.14,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 438 просмотров",
-        "Сильная отдача аудитории: 3,0% реакций к просмотрам"
+        "Охват в Telegram Web: 449 просмотров",
+        "Сильная отдача аудитории: 2,9% реакций к просмотрам"
       ],
       "digestSummary": "А теперь действительно важные новостиhttps://t.me/moscow/24703",
       "reactionCount": 13,
-      "engagementRate": 0.02968036529680365
+      "engagementRate": 0.028953229398663696
     }
   ],
   "topTopics": [
