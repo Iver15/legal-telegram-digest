@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-19T22:33:14.506Z",
+  "generatedAt": "2026-04-19T23:09:19.326Z",
   "totalPosts": 6,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 24.15,
+      "priorityScore": 24.08,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -99,7 +99,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 761,
+      "viewCount": 764,
       "tgLink": "https://t.me/probankrotstvoru/9634",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -111,18 +111,18 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 23.81,
+      "priorityScore": 23.73,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 761 просмотров",
+        "Охват в Telegram Web: 764 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Навигатор для антимонопольных споров Академия Veta (при стратегическом партнерстве с PROбанкротство) запускает новый курс «Антимонопольные споры: практический навигатор для корпоративного юриста».Вот что о курсе говорит ",
       "reactionCount": 9,
-      "engagementRate": 0.011826544021024968
+      "engagementRate": 0.011780104712041885
     },
     {
       "id": "probankrotstvoru/9635",
@@ -149,7 +149,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 704,
+      "viewCount": 707,
       "tgLink": "https://t.me/probankrotstvoru/9635",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -161,17 +161,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 21.93,
+      "priorityScore": 21.86,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 704 просмотров"
+        "Охват в Telegram Web: 707 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС разъяснит права залогодержателя на доходы от сдачи заложенного имущества в арендуЗалогодатель без согласия залогодержателя сдавала помещения в аренду и п",
       "reactionCount": 2,
-      "engagementRate": 0.002840909090909091
+      "engagementRate": 0.002828854314002829
     },
     {
       "id": "legally_bald/1161",
@@ -211,7 +211,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 491,
+      "viewCount": 493,
       "tgLink": "https://t.me/legally_bald/1161",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -221,16 +221,16 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 15.07,
+      "priorityScore": 15,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Высокая вовлечённость: 81 реакций",
-        "Охват в Telegram Web: 491 просмотров",
-        "Сильная отдача аудитории: 16,5% реакций к просмотрам"
+        "Охват в Telegram Web: 493 просмотров",
+        "Сильная отдача аудитории: 16,4% реакций к просмотрам"
       ],
       "digestSummary": "Собачники, дайте огня🔥",
       "reactionCount": 81,
-      "engagementRate": 0.164969450101833
+      "engagementRate": 0.1643002028397566
     },
     {
       "id": "disputesandsanctions/2438",
@@ -256,7 +256,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 162,
+      "viewCount": 164,
       "tgLink": "https://t.me/disputesandsanctions/2438",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -267,15 +267,15 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 11.55,
+      "priorityScore": 11.48,
       "priorityReasons": [
         "Категория канала: compliance",
-        "Охват в Telegram Web: 162 просмотров",
+        "Охват в Telegram Web: 164 просмотров",
         "Сильная отдача аудитории: 4,9% реакций к просмотрам"
       ],
       "digestSummary": "Воскресное - МЧП - Поводок Нет, потому что, продолжая метафору, МЧП – это не хвост, это – поводок, посредством которого правоприменитель решает, отпустить или удержать собаку, применить или воздержаться от применения соб",
       "reactionCount": 8,
-      "engagementRate": 0.04938271604938271
+      "engagementRate": 0.04878048780487805
     },
     {
       "id": "legally_bald/1160",
@@ -295,7 +295,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 507,
+      "viewCount": 509,
       "tgLink": "https://t.me/legally_bald/1160",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -305,16 +305,16 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 11.46,
+      "priorityScore": 11.39,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 507 просмотров",
+        "Охват в Telegram Web: 509 просмотров",
         "Сильная отдача аудитории: 2,8% реакций к просмотрам"
       ],
       "digestSummary": "А теперь действительно важные новостиhttps://t.me/moscow/24703",
       "reactionCount": 14,
-      "engagementRate": 0.027613412228796843
+      "engagementRate": 0.0275049115913556
     }
   ],
   "topTopics": [
