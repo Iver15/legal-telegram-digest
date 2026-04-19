@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-18T23:55:26.163Z",
+  "generatedAt": "2026-04-19T01:50:22.857Z",
   "totalPosts": 44,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 33.98,
+      "priorityScore": 33.74,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -108,7 +108,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.69,
+      "priorityScore": 30.45,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -171,7 +171,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.81,
+      "priorityScore": 29.57,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -231,7 +231,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 29.03,
+      "priorityScore": 28.79,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -291,7 +291,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28.71,
+      "priorityScore": 28.47,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -334,7 +334,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.65,
+      "priorityScore": 28.41,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -391,7 +391,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 11300,
+      "viewCount": 11400,
       "tgLink": "https://t.me/sovetsudey/873",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -403,19 +403,19 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.18,
+      "priorityScore": 27.93,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 148 реакций",
-        "Охват в Telegram Web: 11300 просмотров",
+        "Охват в Telegram Web: 11400 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд рассмотрел спор о продаже социально значимых объектов и указал на особый порядок их реализации. В рамках банкротства предприятия шесть земельных участков были проданы на торгах индивидуальному предпринимате",
       "reactionCount": 148,
-      "engagementRate": 0.013097345132743363
+      "engagementRate": 0.012982456140350877
     },
     {
       "id": "audamage/643",
@@ -447,7 +447,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 28.07,
+      "priorityScore": 27.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -494,7 +494,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 890,
+      "viewCount": 891,
       "tgLink": "https://t.me/probankrotstvoru/9626",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -506,19 +506,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.83,
+      "priorityScore": 27.59,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 890 просмотров",
+        "Охват в Telegram Web: 891 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "ВС проверит право инициатора проверки обжаловать отказ в привлечении АУ к ответственностиВ 2017 году суд признал Олега Архимандритова банкротом и ввел процедуру реализации имущества. ФУ утвердили Викторию Лобанову. Архим",
       "reactionCount": 14,
-      "engagementRate": 0.015730337078651686
+      "engagementRate": 0.015712682379349047
     },
     {
       "id": "subsidiarka_kdl/4468",
@@ -570,7 +570,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 27.53,
+      "priorityScore": 27.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -623,7 +623,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 27.18,
+      "priorityScore": 26.94,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -682,7 +682,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.08,
+      "priorityScore": 26.84,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
