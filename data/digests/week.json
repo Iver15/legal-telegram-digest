@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-19T22:00:14.275Z",
-  "totalPosts": 229,
+  "generatedAt": "2026-04-19T22:33:14.508Z",
+  "totalPosts": 224,
   "topPosts": [
     {
       "id": "subsidiarka_kdl/4459",
@@ -600,7 +600,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 29.57,
+      "priorityScore": 29.51,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -675,22 +675,22 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 201
+      "count": 197
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 182
+      "count": 179
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 179
+      "count": 174
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 169
+      "count": 164
     },
     {
       "id": "enforcement",
@@ -735,11 +735,6 @@
       "count": 12
     },
     {
-      "channel": "vZone1413",
-      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 11
-    },
-    {
       "channel": "orpauradio",
       "title": "Первый радиоканал АУ и юристов",
       "count": 10
@@ -748,6 +743,11 @@
       "channel": "lawegorov",
       "title": "AVE in Law",
       "count": 10
+    },
+    {
+      "channel": "Compliance_Practice",
+      "title": "Compliance practice",
+      "count": 9
     }
   ]
 }
