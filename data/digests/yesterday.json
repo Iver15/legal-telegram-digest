@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-20T21:12:36.686Z",
+  "generatedAt": "2026-04-20T22:06:12.111Z",
   "totalPosts": 6,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 21.55,
+      "priorityScore": 21.44,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -106,7 +106,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 21.47,
+      "priorityScore": 21.36,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -167,7 +167,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 21.19,
+      "priorityScore": 21.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -234,7 +234,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 12.36,
+      "priorityScore": 12.25,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Высокая вовлечённость: 90 реакций",
@@ -278,7 +278,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 9.13,
+      "priorityScore": 9.03,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Высокая вовлечённость: 18 реакций",
@@ -313,7 +313,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 320,
+      "viewCount": 322,
       "tgLink": "https://t.me/disputesandsanctions/2438",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -324,15 +324,15 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 8.92,
+      "priorityScore": 8.81,
       "priorityReasons": [
         "Категория канала: compliance",
-        "Охват в Telegram Web: 320 просмотров",
+        "Охват в Telegram Web: 322 просмотров",
         "Сильная отдача аудитории: 2,5% реакций к просмотрам"
       ],
       "digestSummary": "Воскресное - МЧП - Поводок Нет, потому что, продолжая метафору, МЧП – это не хвост, это – поводок, посредством которого правоприменитель решает, отпустить или удержать собаку, применить или воздержаться от применения соб",
       "reactionCount": 8,
-      "engagementRate": 0.025
+      "engagementRate": 0.024844720496894408
     }
   ],
   "topTopics": [
