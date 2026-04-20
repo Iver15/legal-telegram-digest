@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-20T19:47:27.917Z",
+  "generatedAt": "2026-04-20T20:32:20.141Z",
   "totalPosts": 6,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 21.73,
+      "priorityScore": 21.64,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -106,7 +106,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 21.65,
+      "priorityScore": 21.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -155,7 +155,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1160,
+      "viewCount": 1170,
       "tgLink": "https://t.me/probankrotstvoru/9634",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -167,19 +167,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 21.38,
+      "priorityScore": 21.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 1160 просмотров",
+        "Охват в Telegram Web: 1170 просмотров",
         "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Навигатор для антимонопольных споров Академия Veta (при стратегическом партнерстве с PROбанкротство) запускает новый курс «Антимонопольные споры: практический навигатор для корпоративного юриста».Вот что о курсе говорит ",
       "reactionCount": 12,
-      "engagementRate": 0.010344827586206896
+      "engagementRate": 0.010256410256410256
     },
     {
       "id": "legally_bald/1161",
@@ -224,7 +224,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 727,
+      "viewCount": 730,
       "tgLink": "https://t.me/legally_bald/1161",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -234,16 +234,16 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 12.53,
+      "priorityScore": 12.44,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Высокая вовлечённость: 90 реакций",
-        "Охват в Telegram Web: 727 просмотров",
-        "Сильная отдача аудитории: 12,4% реакций к просмотрам"
+        "Охват в Telegram Web: 730 просмотров",
+        "Сильная отдача аудитории: 12,3% реакций к просмотрам"
       ],
       "digestSummary": "Собачники, дайте огня🔥",
       "reactionCount": 90,
-      "engagementRate": 0.12379642365887207
+      "engagementRate": 0.1232876712328767
     },
     {
       "id": "legally_bald/1160",
@@ -268,7 +268,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 708,
+      "viewCount": 710,
       "tgLink": "https://t.me/legally_bald/1160",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -278,16 +278,16 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 9.31,
+      "priorityScore": 9.22,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 708 просмотров",
+        "Охват в Telegram Web: 710 просмотров",
         "Сильная отдача аудитории: 2,5% реакций к просмотрам"
       ],
       "digestSummary": "А теперь действительно важные новостиhttps://t.me/moscow/24703",
       "reactionCount": 18,
-      "engagementRate": 0.025423728813559324
+      "engagementRate": 0.02535211267605634
     },
     {
       "id": "disputesandsanctions/2438",
@@ -324,7 +324,7 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 9.1,
+      "priorityScore": 9.01,
       "priorityReasons": [
         "Категория канала: compliance",
         "Охват в Telegram Web: 319 просмотров",
