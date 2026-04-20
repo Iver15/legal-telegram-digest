@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-20T22:06:12.111Z",
+  "generatedAt": "2026-04-20T23:06:37.525Z",
   "totalPosts": 6,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 21.44,
+      "priorityScore": 21.32,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -94,7 +94,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1210,
+      "viewCount": 1220,
       "tgLink": "https://t.me/probankrotstvoru/9635",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -106,19 +106,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 21.36,
+      "priorityScore": 21.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 1210 просмотров",
+        "Охват в Telegram Web: 1220 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС разъяснит права залогодержателя на доходы от сдачи заложенного имущества в арендуЗалогодатель без согласия залогодержателя сдавала помещения в аренду и п",
       "reactionCount": 13,
-      "engagementRate": 0.010743801652892562
+      "engagementRate": 0.010655737704918032
     },
     {
       "id": "probankrotstvoru/9634",
@@ -167,7 +167,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 21.08,
+      "priorityScore": 20.95,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -224,7 +224,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 730,
+      "viewCount": 732,
       "tgLink": "https://t.me/legally_bald/1161",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -234,16 +234,16 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 12.25,
+      "priorityScore": 12.12,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Высокая вовлечённость: 90 реакций",
-        "Охват в Telegram Web: 730 просмотров",
+        "Охват в Telegram Web: 732 просмотров",
         "Сильная отдача аудитории: 12,3% реакций к просмотрам"
       ],
       "digestSummary": "Собачники, дайте огня🔥",
       "reactionCount": 90,
-      "engagementRate": 0.1232876712328767
+      "engagementRate": 0.12295081967213115
     },
     {
       "id": "legally_bald/1160",
@@ -268,7 +268,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 710,
+      "viewCount": 712,
       "tgLink": "https://t.me/legally_bald/1160",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -278,16 +278,16 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 9.03,
+      "priorityScore": 8.9,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 710 просмотров",
+        "Охват в Telegram Web: 712 просмотров",
         "Сильная отдача аудитории: 2,5% реакций к просмотрам"
       ],
       "digestSummary": "А теперь действительно важные новостиhttps://t.me/moscow/24703",
       "reactionCount": 18,
-      "engagementRate": 0.02535211267605634
+      "engagementRate": 0.025280898876404494
     },
     {
       "id": "disputesandsanctions/2438",
@@ -324,7 +324,7 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 8.81,
+      "priorityScore": 8.69,
       "priorityReasons": [
         "Категория канала: compliance",
         "Охват в Telegram Web: 322 просмотров",
