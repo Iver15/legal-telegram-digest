@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-21T22:02:40.906Z",
+  "generatedAt": "2026-04-21T22:38:50.536Z",
   "totalPosts": 60,
   "topPosts": [
     {
@@ -48,7 +48,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.79,
+      "priorityScore": 30.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -95,7 +95,7 @@
         "compliance",
         "courts"
       ],
-      "priorityScore": 30.68,
+      "priorityScore": 30.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -151,7 +151,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.32,
+      "priorityScore": 30.25,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -214,7 +214,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 30.26,
+      "priorityScore": 30.18,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -259,7 +259,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1170,
+      "viewCount": 1180,
       "tgLink": "https://t.me/probankrotstvoru/9641",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -272,19 +272,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.9,
+      "priorityScore": 29.82,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 1170 просмотров",
+        "Охват в Telegram Web: 1180 просмотров",
         "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Мировое соглашение без проверки долга не защищает кредитора в банкротствеИП Роман Сторожев заявил о включении в реестр требований кредиторов общества «Строинвестгарант» задолженности на 57 млн рублей по договорам субподр",
       "reactionCount": 12,
-      "engagementRate": 0.010256410256410256
+      "engagementRate": 0.010169491525423728
     },
     {
       "id": "subsidiarka_kdl/4476",
@@ -325,7 +325,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 930,
+      "viewCount": 932,
       "tgLink": "https://t.me/subsidiarka_kdl/4476",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -339,17 +339,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.34,
+      "priorityScore": 29.26,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 930 просмотров"
+        "Охват в Telegram Web: 932 просмотров"
       ],
       "digestSummary": "При определении размера субсидиарной ответственности суды обязаны исключить штрафы за налоговые правонарушения и исследовать аффилированность кредиторов с контролирующим лицом#субсидиарная_ответственность #размер_ответст",
       "reactionCount": 6,
-      "engagementRate": 0.0064516129032258064
+      "engagementRate": 0.006437768240343348
     },
     {
       "id": "probankrotstvoru/9637",
@@ -382,7 +382,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1160,
+      "viewCount": 1170,
       "tgLink": "https://t.me/probankrotstvoru/9637",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -395,19 +395,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.29,
+      "priorityScore": 29.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 1160 просмотров",
+        "Охват в Telegram Web: 1170 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "ВС защитил экспедитора от иска об убытках за успешно доставленный грузОбщество «ЭРЭЛ Логистик» обратилось в суд с иском к компании «Юнибалк» о взыскании 135,9 млн рублей убытков — стоимости 9,1 тыс. тонн угля, который от",
       "reactionCount": 15,
-      "engagementRate": 0.01293103448275862
+      "engagementRate": 0.01282051282051282
     },
     {
       "id": "sudpraktik_bankrot_demo/2622",
@@ -445,7 +445,7 @@
         "arbitration",
         "compliance"
       ],
-      "priorityScore": 28.19,
+      "priorityScore": 28.12,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -503,7 +503,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.93,
+      "priorityScore": 26.85,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Суды",
@@ -554,7 +554,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.77,
+      "priorityScore": 26.69,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -584,7 +584,7 @@
       "reactions": [
         {
           "emoji": "❤️",
-          "count": "4",
+          "count": "5",
           "isPaid": false
         },
         {
@@ -599,7 +599,7 @@
         },
         {
           "emoji": "👌",
-          "count": "2",
+          "count": "1",
           "isPaid": false
         },
         {
@@ -620,7 +620,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 26.18,
+      "priorityScore": 26.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -681,7 +681,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 26.15,
+      "priorityScore": 26.07,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Суды",
