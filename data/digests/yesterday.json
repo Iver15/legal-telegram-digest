@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-21T21:07:47.435Z",
-  "totalPosts": 59,
+  "generatedAt": "2026-04-21T22:02:40.906Z",
+  "totalPosts": 60,
   "topPosts": [
     {
       "id": "probankrotstvoru/9639",
@@ -48,7 +48,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.9,
+      "priorityScore": 30.79,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -95,7 +95,7 @@
         "compliance",
         "courts"
       ],
-      "priorityScore": 30.8,
+      "priorityScore": 30.68,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -151,7 +151,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.44,
+      "priorityScore": 30.32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -214,7 +214,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 30.37,
+      "priorityScore": 30.26,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -272,7 +272,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.02,
+      "priorityScore": 29.9,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -325,7 +325,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 923,
+      "viewCount": 930,
       "tgLink": "https://t.me/subsidiarka_kdl/4476",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -339,17 +339,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.45,
+      "priorityScore": 29.34,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 923 просмотров"
+        "Охват в Telegram Web: 930 просмотров"
       ],
       "digestSummary": "При определении размера субсидиарной ответственности суды обязаны исключить штрафы за налоговые правонарушения и исследовать аффилированность кредиторов с контролирующим лицом#субсидиарная_ответственность #размер_ответст",
       "reactionCount": 6,
-      "engagementRate": 0.0065005417118093175
+      "engagementRate": 0.0064516129032258064
     },
     {
       "id": "probankrotstvoru/9637",
@@ -395,7 +395,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.4,
+      "priorityScore": 29.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -445,7 +445,7 @@
         "arbitration",
         "compliance"
       ],
-      "priorityScore": 28.31,
+      "priorityScore": 28.19,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -490,7 +490,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 873,
+      "viewCount": 875,
       "tgLink": "https://t.me/corplawpro/5908",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -503,17 +503,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.05,
+      "priorityScore": 26.93,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 873 просмотров"
+        "Охват в Telegram Web: 875 просмотров"
       ],
       "digestSummary": "При признании соглашения о новации недействительным срок исковой давности по первоначальному обязательству исчисляется заново с даты вступления в силу решения о недействительности#исковая_давность #корпоративные_споры Од",
       "reactionCount": 7,
-      "engagementRate": 0.008018327605956471
+      "engagementRate": 0.008
     },
     {
       "id": "legally_bald/1163",
@@ -554,7 +554,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.88,
+      "priorityScore": 26.77,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -620,7 +620,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 26.3,
+      "priorityScore": 26.18,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -681,7 +681,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 26.26,
+      "priorityScore": 26.15,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Суды",
@@ -698,14 +698,14 @@
   ],
   "topTopics": [
     {
-      "id": "courts",
-      "label": "Суды",
+      "id": "bankruptcy",
+      "label": "Банкротство",
       "count": 47
     },
     {
-      "id": "bankruptcy",
-      "label": "Банкротство",
-      "count": 46
+      "id": "courts",
+      "label": "Суды",
+      "count": 47
     },
     {
       "id": "arbitration",
@@ -720,7 +720,7 @@
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 27
+      "count": 28
     },
     {
       "id": "compliance",
@@ -737,7 +737,7 @@
     {
       "channel": "orpauradio",
       "title": "Первый радиоканал АУ и юристов",
-      "count": 10
+      "count": 11
     },
     {
       "channel": "probankrotstvoru",
