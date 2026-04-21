@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-21T15:54:08.503Z",
-  "totalPosts": 55,
+  "generatedAt": "2026-04-21T16:51:55.370Z",
+  "totalPosts": 57,
   "topPosts": [
     {
       "id": "probankrotstvoru/9639",
@@ -35,7 +35,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1020,
+      "viewCount": 1030,
       "tgLink": "https://t.me/probankrotstvoru/9639",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -48,19 +48,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.55,
+      "priorityScore": 31.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 1020 просмотров",
-        "Сильная отдача аудитории: 1,9% реакций к просмотрам"
+        "Охват в Telegram Web: 1030 просмотров",
+        "Сильная отдача аудитории: 1,8% реакций к просмотрам"
       ],
       "digestSummary": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club.Модератор практикума: Денис Логинов, руководитель департамента по работе с проблемной дебиторской задолженностью, «ЭнергосбыТ",
       "reactionCount": 19,
-      "engagementRate": 0.018627450980392157
+      "engagementRate": 0.018446601941747572
     },
     {
       "id": "orpauradio/9320",
@@ -95,7 +95,7 @@
         "compliance",
         "courts"
       ],
-      "priorityScore": 31.45,
+      "priorityScore": 31.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -151,7 +151,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.12,
+      "priorityScore": 30.99,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -201,7 +201,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1260,
+      "viewCount": 1270,
       "tgLink": "https://t.me/probankrotstvoru/9643",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -214,19 +214,19 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 31.05,
+      "priorityScore": 30.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 1260 просмотров",
+        "Охват в Telegram Web: 1270 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "ВС проверит, отвечает ли заказчик за условия договора с третьим лицомКомпании «Южная транспортная логистическая компания» и «Маслоэкстракционный завод Юг Руси» в марте 2022 года заключили договор на предоставление вагоно",
       "reactionCount": 18,
-      "engagementRate": 0.014285714285714285
+      "engagementRate": 0.014173228346456693
     },
     {
       "id": "probankrotstvoru/9641",
@@ -259,7 +259,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1150,
+      "viewCount": 1160,
       "tgLink": "https://t.me/probankrotstvoru/9641",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -272,19 +272,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.69,
+      "priorityScore": 30.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 1150 просмотров",
+        "Охват в Telegram Web: 1160 просмотров",
         "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Мировое соглашение без проверки долга не защищает кредитора в банкротствеИП Роман Сторожев заявил о включении в реестр требований кредиторов общества «Строинвестгарант» задолженности на 57 млн рублей по договорам субподр",
       "reactionCount": 12,
-      "engagementRate": 0.010434782608695653
+      "engagementRate": 0.010344827586206896
     },
     {
       "id": "probankrotstvoru/9637",
@@ -330,7 +330,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.07,
+      "priorityScore": 29.95,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -383,7 +383,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 872,
+      "viewCount": 876,
       "tgLink": "https://t.me/subsidiarka_kdl/4476",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -397,17 +397,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.88,
+      "priorityScore": 29.76,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 872 просмотров"
+        "Охват в Telegram Web: 876 просмотров"
       ],
       "digestSummary": "При определении размера субсидиарной ответственности суды обязаны исключить штрафы за налоговые правонарушения и исследовать аффилированность кредиторов с контролирующим лицом#субсидиарная_ответственность #размер_ответст",
       "reactionCount": 5,
-      "engagementRate": 0.005733944954128441
+      "engagementRate": 0.005707762557077625
     },
     {
       "id": "sudpraktik_bankrot_demo/2622",
@@ -445,7 +445,7 @@
         "arbitration",
         "compliance"
       ],
-      "priorityScore": 28.97,
+      "priorityScore": 28.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -490,7 +490,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 856,
+      "viewCount": 860,
       "tgLink": "https://t.me/corplawpro/5908",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -503,17 +503,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.72,
+      "priorityScore": 27.59,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 856 просмотров"
+        "Охват в Telegram Web: 860 просмотров"
       ],
       "digestSummary": "При признании соглашения о новации недействительным срок исковой давности по первоначальному обязательству исчисляется заново с даты вступления в силу решения о недействительности#исковая_давность #корпоративные_споры Од",
       "reactionCount": 7,
-      "engagementRate": 0.008177570093457943
+      "engagementRate": 0.00813953488372093
     },
     {
       "id": "legally_bald/1163",
@@ -541,7 +541,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 666,
+      "viewCount": 671,
       "tgLink": "https://t.me/legally_bald/1163",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -554,17 +554,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.55,
+      "priorityScore": 27.42,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 666 просмотров"
+        "Охват в Telegram Web: 671 просмотров"
       ],
       "digestSummary": "Верховный Суд обсудил спор об оспаривании сделки купли-продажи квартиры в условиях неравноценности встречного исполненияВ деле о банкротстве гражданки Счастной Е.А. ВС защитил покупателя при отклонении цены сделки от рын",
       "reactionCount": 5,
-      "engagementRate": 0.0075075075075075074
+      "engagementRate": 0.007451564828614009
     },
     {
       "id": "bankrotstvo_mustknow/475",
@@ -608,7 +608,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 167,
+      "viewCount": 168,
       "tgLink": "https://t.me/bankrotstvo_mustknow/475",
       "channel": "bankrotstvo_mustknow",
       "channelTitle": "Банкротство | Взгляд эксперта",
@@ -620,19 +620,19 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 26.94,
+      "priorityScore": 26.82,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 167 просмотров",
-        "Сильная отдача аудитории: 7,2% реакций к просмотрам"
+        "Охват в Telegram Web: 168 просмотров",
+        "Сильная отдача аудитории: 7,1% реакций к просмотрам"
       ],
       "digestSummary": "Оспариваем сделки с единственным жильем правильно 🏡Анна Никитина, юрист практики банкротства и антикризисной защиты бизнеса, анализирует постановление АС Северо-Западного округа от 06.04.2026 по делу № А44-6078/2024 о м",
       "reactionCount": 12,
-      "engagementRate": 0.0718562874251497
+      "engagementRate": 0.07142857142857142
     },
     {
       "id": "educatedyoungman/905",
@@ -669,7 +669,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1030,
+      "viewCount": 1040,
       "tgLink": "https://t.me/educatedyoungman/905",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -681,31 +681,31 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 26.91,
+      "priorityScore": 26.79,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 20 реакций",
-        "Охват в Telegram Web: 1030 просмотров",
+        "Охват в Telegram Web: 1040 просмотров",
         "Сильная отдача аудитории: 1,9% реакций к просмотрам"
       ],
       "digestSummary": "Об учете контекста взаимоотношений сторон при оспаривании сделки как неравноценной (п. 1 ст. 61.2 ЗоБ).Существует давний спор, является ли оспаривание сделки по п. 1 ст. 61.2 ЗоБ объективным или субъективным, то есть име",
       "reactionCount": 20,
-      "engagementRate": 0.019417475728155338
+      "engagementRate": 0.019230769230769232
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 42
+      "count": 45
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 42
+      "count": 44
     },
     {
       "id": "arbitration",
@@ -720,12 +720,12 @@
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 25
+      "count": 26
     },
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 11
+      "count": 10
     },
     {
       "id": "tax",
@@ -745,9 +745,14 @@
       "count": 8
     },
     {
+      "channel": "Shokobear",
+      "title": "Shokobear (Олег Зайцев о банкротстве)",
+      "count": 3
+    },
+    {
       "channel": "disputesandsanctions",
       "title": "LetterRogatory v.2",
-      "count": 4
+      "count": 3
     },
     {
       "channel": "subsidiarka_kdl",
@@ -765,13 +770,8 @@
       "count": 3
     },
     {
-      "channel": "Shokobear",
-      "title": "Shokobear (Олег Зайцев о банкротстве)",
-      "count": 2
-    },
-    {
-      "channel": "corplawpro",
-      "title": "Корпоративные споры • Case by Case",
+      "channel": "bankruptcy_law_forever",
+      "title": "Банкротный Петербург (БП)",
       "count": 2
     }
   ]
