@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-21T19:02:28.029Z",
+  "generatedAt": "2026-04-21T20:05:22.203Z",
   "totalPosts": 59,
   "topPosts": [
     {
@@ -48,7 +48,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.16,
+      "priorityScore": 31.03,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -95,7 +95,7 @@
         "compliance",
         "courts"
       ],
-      "priorityScore": 31.06,
+      "priorityScore": 30.93,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -138,7 +138,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1220,
+      "viewCount": 1230,
       "tgLink": "https://t.me/probankrotstvoru/9642",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -151,19 +151,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.71,
+      "priorityScore": 30.57,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 1220 просмотров",
+        "Охват в Telegram Web: 1230 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: мировое соглашение не может обходить последствия недействительности торговВ 2021 году на торгах в рамках банкротства общества «Самородок-Союз ВМ» был реализован производственный комплекс в Усть-Лабинске. Победи",
       "reactionCount": 16,
-      "engagementRate": 0.013114754098360656
+      "engagementRate": 0.013008130081300813
     },
     {
       "id": "probankrotstvoru/9643",
@@ -201,7 +201,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1270,
+      "viewCount": 1280,
       "tgLink": "https://t.me/probankrotstvoru/9643",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -214,19 +214,19 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 30.65,
+      "priorityScore": 30.5,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 1270 просмотров",
+        "Охват в Telegram Web: 1280 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "ВС проверит, отвечает ли заказчик за условия договора с третьим лицомКомпании «Южная транспортная логистическая компания» и «Маслоэкстракционный завод Юг Руси» в марте 2022 года заключили договор на предоставление вагоно",
       "reactionCount": 18,
-      "engagementRate": 0.014173228346456693
+      "engagementRate": 0.0140625
     },
     {
       "id": "probankrotstvoru/9641",
@@ -272,7 +272,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.28,
+      "priorityScore": 30.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -330,7 +330,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.66,
+      "priorityScore": 29.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -383,7 +383,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 909,
+      "viewCount": 919,
       "tgLink": "https://t.me/subsidiarka_kdl/4476",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -397,17 +397,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.47,
+      "priorityScore": 29.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 909 просмотров"
+        "Охват в Telegram Web: 919 просмотров"
       ],
       "digestSummary": "При определении размера субсидиарной ответственности суды обязаны исключить штрафы за налоговые правонарушения и исследовать аффилированность кредиторов с контролирующим лицом#субсидиарная_ответственность #размер_ответст",
       "reactionCount": 5,
-      "engagementRate": 0.005500550055005501
+      "engagementRate": 0.00544069640914037
     },
     {
       "id": "sudpraktik_bankrot_demo/2622",
@@ -445,7 +445,7 @@
         "arbitration",
         "compliance"
       ],
-      "priorityScore": 28.57,
+      "priorityScore": 28.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -490,7 +490,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 868,
+      "viewCount": 872,
       "tgLink": "https://t.me/corplawpro/5908",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -503,17 +503,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.31,
+      "priorityScore": 27.18,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 868 просмотров"
+        "Охват в Telegram Web: 872 просмотров"
       ],
       "digestSummary": "При признании соглашения о новации недействительным срок исковой давности по первоначальному обязательству исчисляется заново с даты вступления в силу решения о недействительности#исковая_давность #корпоративные_споры Од",
       "reactionCount": 7,
-      "engagementRate": 0.008064516129032258
+      "engagementRate": 0.008027522935779817
     },
     {
       "id": "legally_bald/1163",
@@ -541,7 +541,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 673,
+      "viewCount": 674,
       "tgLink": "https://t.me/legally_bald/1163",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -554,17 +554,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.15,
+      "priorityScore": 27.01,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 673 просмотров"
+        "Охват в Telegram Web: 674 просмотров"
       ],
       "digestSummary": "Верховный Суд обсудил спор об оспаривании сделки купли-продажи квартиры в условиях неравноценности встречного исполненияВ деле о банкротстве гражданки Счастной Е.А. ВС защитил покупателя при отклонении цены сделки от рын",
       "reactionCount": 5,
-      "engagementRate": 0.007429420505200594
+      "engagementRate": 0.00741839762611276
     },
     {
       "id": "bankrotstvo_mustknow/475",
@@ -620,7 +620,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 26.56,
+      "priorityScore": 26.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -681,7 +681,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 26.52,
+      "priorityScore": 26.39,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Суды",
