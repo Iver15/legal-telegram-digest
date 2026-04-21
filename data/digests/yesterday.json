@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-21T00:01:06.674Z",
+  "generatedAt": "2026-04-21T02:12:22.835Z",
   "totalPosts": 6,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 21.19,
+      "priorityScore": 20.92,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -106,7 +106,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 21.11,
+      "priorityScore": 20.84,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -167,7 +167,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 20.84,
+      "priorityScore": 20.57,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -234,7 +234,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 12.01,
+      "priorityScore": 11.74,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Высокая вовлечённость: 90 реакций",
@@ -268,7 +268,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 713,
+      "viewCount": 714,
       "tgLink": "https://t.me/legally_bald/1160",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -278,16 +278,16 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 8.78,
+      "priorityScore": 8.51,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 713 просмотров",
+        "Охват в Telegram Web: 714 просмотров",
         "Сильная отдача аудитории: 2,5% реакций к просмотрам"
       ],
       "digestSummary": "А теперь действительно важные новостиhttps://t.me/moscow/24703",
       "reactionCount": 18,
-      "engagementRate": 0.025245441795231416
+      "engagementRate": 0.025210084033613446
     },
     {
       "id": "disputesandsanctions/2438",
@@ -313,7 +313,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 324,
+      "viewCount": 325,
       "tgLink": "https://t.me/disputesandsanctions/2438",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -324,15 +324,15 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 8.58,
+      "priorityScore": 8.3,
       "priorityReasons": [
         "Категория канала: compliance",
-        "Охват в Telegram Web: 324 просмотров",
+        "Охват в Telegram Web: 325 просмотров",
         "Сильная отдача аудитории: 2,5% реакций к просмотрам"
       ],
       "digestSummary": "Воскресное - МЧП - Поводок Нет, потому что, продолжая метафору, МЧП – это не хвост, это – поводок, посредством которого правоприменитель решает, отпустить или удержать собаку, применить или воздержаться от применения соб",
       "reactionCount": 8,
-      "engagementRate": 0.024691358024691357
+      "engagementRate": 0.024615384615384615
     }
   ],
   "topTopics": [
