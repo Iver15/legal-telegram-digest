@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-21T23:24:43.834Z",
+  "generatedAt": "2026-04-22T00:00:58.624Z",
   "totalPosts": 62,
   "topPosts": [
     {
@@ -38,7 +38,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 951,
+      "viewCount": 953,
       "tgLink": "https://t.me/subsidiarka_kdl/4480",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -52,17 +52,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 35.62,
+      "priorityScore": 35.54,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 951 просмотров"
+        "Охват в Telegram Web: 953 просмотров"
       ],
       "digestSummary": "Для принятия обеспечительных мер в виде запрета на выезд из России достаточно обоснования разумных подозрений в возможности сокрытия имущества, а не доказательств реальной угрозы неисполнения судебного акта#обеспечительн",
       "reactionCount": 6,
-      "engagementRate": 0.006309148264984227
+      "engagementRate": 0.0062959076600209865
     },
     {
       "id": "probankrotstvoru/9646",
@@ -100,7 +100,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1520,
+      "viewCount": 1530,
       "tgLink": "https://t.me/probankrotstvoru/9646",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -113,19 +113,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 34.07,
+      "priorityScore": 33.99,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 25 реакций",
-        "Охват в Telegram Web: 1520 просмотров",
+        "Охват в Telegram Web: 1530 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "РСПП раскритиковал новые поправки в Закон о банкротствеРСПП выступил с критикой масштабных поправок в ФЗ «О несостоятельности (банкротстве)», внесенных в Госдуму в марте 2026 года. В своей официальной позиции Союз заявил",
       "reactionCount": 25,
-      "engagementRate": 0.01644736842105263
+      "engagementRate": 0.016339869281045753
     },
     {
       "id": "probankrotstvoru/9652",
@@ -168,7 +168,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 799,
+      "viewCount": 800,
       "tgLink": "https://t.me/probankrotstvoru/9652",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -181,19 +181,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.94,
+      "priorityScore": 33.87,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 799 просмотров",
+        "Охват в Telegram Web: 800 просмотров",
         "Сильная отдача аудитории: 2,3% реакций к просмотрам"
       ],
       "digestSummary": "Апелляция взыскала с конкурсного управляющего 10,2 млн рублей убытковВ рамках банкротства общества «ЯрСтрой» КУ Николай Пашнев в октябре 2021 года заключил договор купли-продажи залогового имущества с обществом «Софкорн»",
       "reactionCount": 18,
-      "engagementRate": 0.02252816020025031
+      "engagementRate": 0.0225
     },
     {
       "id": "probankrotstvoru/9650",
@@ -249,7 +249,7 @@
         "compliance",
         "ai_law"
       ],
-      "priorityScore": 33.67,
+      "priorityScore": 33.59,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Комплаенс",
@@ -294,7 +294,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 850,
+      "viewCount": 851,
       "tgLink": "https://t.me/probankrotstvoru/9649",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -307,19 +307,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.58,
+      "priorityScore": 33.5,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 850 просмотров",
+        "Охват в Telegram Web: 851 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: взыскание убытков с управляющего — страховой случай по Закону о банкротствеОбщество «Рудо-Аква», признанное банкротом, взыскало через суд убытки с КУ Елены Прониной, которая переплатила привлеченному юристу 1,7",
       "reactionCount": 11,
-      "engagementRate": 0.012941176470588235
+      "engagementRate": 0.012925969447708578
     },
     {
       "id": "probankrotstvoru/9644",
@@ -365,7 +365,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.37,
+      "priorityScore": 33.3,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -409,7 +409,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 33.36,
+      "priorityScore": 33.29,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
@@ -452,7 +452,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 640,
+      "viewCount": 643,
       "tgLink": "https://t.me/probankrotstvoru/9653",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -465,19 +465,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.29,
+      "priorityScore": 33.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 640 просмотров",
+        "Охват в Telegram Web: 643 просмотров",
         "Сильная отдача аудитории: 2,3% реакций к просмотрам"
       ],
       "digestSummary": "Субсидиарная ответственность: тренды и кейсыПрактикум Клуба системных кредиторов RECOVERY club.Продолжаем знакомить вас со спикерами предстоящего практикума. Ярослав Понимаш, главный юрисконсульт АКБ «Алеф-Банк». Специал",
       "reactionCount": 15,
-      "engagementRate": 0.0234375
+      "engagementRate": 0.02332814930015552
     },
     {
       "id": "sudpraktik_bankrot_demo/2624",
@@ -504,7 +504,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 908,
+      "viewCount": 911,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2624",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -518,17 +518,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.04,
+      "priorityScore": 31.96,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 908 просмотров"
+        "Охват в Telegram Web: 911 просмотров"
       ],
       "digestSummary": "В системе действующего налогового законодательства обязанность по своевременной уплате налога в установленном законом размере, как и ответственность за ее неисполнение, возложена именно на налогоплательщика, который в то",
       "reactionCount": 1,
-      "engagementRate": 0.0011013215859030838
+      "engagementRate": 0.0010976948408342481
     },
     {
       "id": "subsidiarka_kdl/4481",
@@ -562,7 +562,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 964,
+      "viewCount": 967,
       "tgLink": "https://t.me/subsidiarka_kdl/4481",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -576,17 +576,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.82,
+      "priorityScore": 30.74,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 964 просмотров"
+        "Охват в Telegram Web: 967 просмотров"
       ],
       "digestSummary": "Кассация: владение акциями менее 10% может свидетельствовать об аффилированностиКассация отменила отказ в исключении требования из реестра, так как суды не проверили доводы об участии должника в органах управления кредит",
       "reactionCount": 3,
-      "engagementRate": 0.0031120331950207467
+      "engagementRate": 0.0031023784901758012
     },
     {
       "id": "corplawpro/5910",
@@ -622,7 +622,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 728,
+      "viewCount": 729,
       "tgLink": "https://t.me/corplawpro/5910",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -635,18 +635,18 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 30.7,
+      "priorityScore": 30.62,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 728 просмотров",
+        "Охват в Telegram Web: 729 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Привлечение адвокатом субисполнителей и выдача им доверенностей напрямую от доверителя не подтверждают мнимость договора на оказание юридических услуг#недействительность_сделок #корпоративный_конфликт #сделки_с_заинтерес",
       "reactionCount": 8,
-      "engagementRate": 0.01098901098901099
+      "engagementRate": 0.010973936899862825
     },
     {
       "id": "Shokobear/3883",
@@ -687,7 +687,7 @@
         "ai_law",
         "bankruptcy"
       ],
-      "priorityScore": 30.46,
+      "priorityScore": 30.39,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
