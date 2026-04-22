@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-22T21:41:47.143Z",
+  "generatedAt": "2026-04-22T22:33:10.711Z",
   "totalPosts": 271,
   "topPosts": [
     {
@@ -54,7 +54,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 36.76,
+      "priorityScore": 36.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -85,12 +85,12 @@
       "reactions": [
         {
           "emoji": "🤣",
-          "count": "82",
+          "count": "83",
           "isPaid": false
         },
         {
           "emoji": "👍",
-          "count": "62",
+          "count": "64",
           "isPaid": false
         },
         {
@@ -124,7 +124,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 9120,
+      "viewCount": 9210,
       "tgLink": "https://t.me/sovetsudey/887",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -137,19 +137,19 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 36.2,
+      "priorityScore": 36.09,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 181 реакций",
-        "Охват в Telegram Web: 9120 просмотров",
+        "Высокая вовлечённость: 184 реакций",
+        "Охват в Telegram Web: 9210 просмотров",
         "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "ВС России отказал компании Google Ireland Limited (Ирландия) в пересмотре судебных актов по делу о запрете ведения арбитражных разбирательств за рубежом. Ранее первая инстанция удовлетворила заявление российского обществ",
-      "reactionCount": 181,
-      "engagementRate": 0.019846491228070175
+      "reactionCount": 184,
+      "engagementRate": 0.01997828447339848
     },
     {
       "id": "domnin_sa/541",
@@ -205,7 +205,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.49,
+      "priorityScore": 34.38,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -268,7 +268,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.33,
+      "priorityScore": 34.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -335,7 +335,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 32.97,
+      "priorityScore": 32.86,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -388,7 +388,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 899,
+      "viewCount": 902,
       "tgLink": "https://t.me/probankrotstvoru/9660",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -401,19 +401,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.66,
+      "priorityScore": 32.55,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 899 просмотров",
+        "Охват в Telegram Web: 902 просмотров",
         "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "ВС проверит отказ в снижении неустойки при банкротстве гражданинаИван Цветков в мае 2021 года предоставил Виктории Стасевич заём на 300 тыс. рублей под 5% в месяц с неустойкой 1% в день за просрочку возврата. Стасевич об",
       "reactionCount": 15,
-      "engagementRate": 0.01668520578420467
+      "engagementRate": 0.01662971175166297
     },
     {
       "id": "probankrotstvoru/9628",
@@ -569,7 +569,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 228,
+      "viewCount": 229,
       "tgLink": "https://t.me/bankrotstvo_mustknow/469",
       "channel": "bankrotstvo_mustknow",
       "channelTitle": "Банкротство | Взгляд эксперта",
@@ -589,12 +589,12 @@
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 228 просмотров",
+        "Охват в Telegram Web: 229 просмотров",
         "Сильная отдача аудитории: 3,9% реакций к просмотрам"
       ],
       "digestSummary": "​​🕐 Как и когда возникает право на подачу заявления о банкротстве Кирилл Карпов, старший юрист практики банкротства и антикризисной защиты бизнеса, рассказывает о том, когда у лица появляется право на подачу заявления о",
       "reactionCount": 9,
-      "engagementRate": 0.039473684210526314
+      "engagementRate": 0.039301310043668124
     },
     {
       "id": "sovetsudey/886",
@@ -663,7 +663,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 32.02,
+      "priorityScore": 31.91,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -742,7 +742,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.01,
+      "priorityScore": 31.9,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -797,7 +797,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 679,
+      "viewCount": 685,
       "tgLink": "https://t.me/subsidiarka_kdl/4485",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -810,18 +810,18 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 31.79,
+      "priorityScore": 31.68,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 679 просмотров",
+        "Охват в Telegram Web: 685 просмотров",
         "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Апелляция взыскала с конкурсного управляющего 10,2 млн рублей убытковУправляющий зарегистрировал переход права собственности на залог без полной оплаты и суд признал это основанием для взыскания убытков в пользу залогово",
       "reactionCount": 7,
-      "engagementRate": 0.010309278350515464
+      "engagementRate": 0.010218978102189781
     }
   ],
   "topTopics": [
