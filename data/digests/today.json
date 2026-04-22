@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-22T19:56:36.799Z",
+  "generatedAt": "2026-04-22T20:46:11.724Z",
   "totalPosts": 57,
   "topPosts": [
     {
@@ -54,7 +54,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 36.88,
+      "priorityScore": 36.77,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -85,22 +85,22 @@
       "reactions": [
         {
           "emoji": "🤣",
-          "count": "81",
+          "count": "82",
           "isPaid": false
         },
         {
           "emoji": "👍",
-          "count": "60",
+          "count": "61",
+          "isPaid": false
+        },
+        {
+          "emoji": "❤️",
+          "count": "11",
           "isPaid": false
         },
         {
           "emoji": "👎",
           "count": "11",
-          "isPaid": false
-        },
-        {
-          "emoji": "❤️",
-          "count": "10",
           "isPaid": false
         },
         {
@@ -124,7 +124,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 8820,
+      "viewCount": 9010,
       "tgLink": "https://t.me/sovetsudey/887",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -137,19 +137,19 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 36.42,
+      "priorityScore": 36.31,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 177 реакций",
-        "Охват в Telegram Web: 8820 просмотров",
+        "Высокая вовлечённость: 180 реакций",
+        "Охват в Telegram Web: 9010 просмотров",
         "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "ВС России отказал компании Google Ireland Limited (Ирландия) в пересмотре судебных актов по делу о запрете ведения арбитражных разбирательств за рубежом. Ранее первая инстанция удовлетворила заявление российского обществ",
-      "reactionCount": 177,
-      "engagementRate": 0.020068027210884354
+      "reactionCount": 180,
+      "engagementRate": 0.01997780244173141
     },
     {
       "id": "domnin_sa/541",
@@ -192,7 +192,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 542,
+      "viewCount": 551,
       "tgLink": "https://t.me/domnin_sa/541",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -205,19 +205,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.71,
+      "priorityScore": 34.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 36 реакций",
-        "Охват в Telegram Web: 542 просмотров",
-        "Сильная отдача аудитории: 6,6% реакций к просмотрам"
+        "Охват в Telegram Web: 551 просмотров",
+        "Сильная отдача аудитории: 6,5% реакций к просмотрам"
       ],
       "digestSummary": "Make ТГП great again Судья Н. Ксенофонтова передала в СКЭС жалобу финансового управляющего на судебные акты о разрешении разногласий относительно того, текущими или реестровыми являются требования о возмещении кредитору ",
       "reactionCount": 36,
-      "engagementRate": 0.06642066420664207
+      "engagementRate": 0.06533575317604355
     },
     {
       "id": "probankrotstvoru/9657",
@@ -255,7 +255,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1020,
+      "viewCount": 1030,
       "tgLink": "https://t.me/probankrotstvoru/9657",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -268,19 +268,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.54,
+      "priorityScore": 34.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 21 реакций",
-        "Охват в Telegram Web: 1020 просмотров",
-        "Сильная отдача аудитории: 2,1% реакций к просмотрам"
+        "Охват в Telegram Web: 1030 просмотров",
+        "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "ВС проверит, можно ли списать долг за аварию при отсутствии страховкиЛеонид Королев, управляя мотоциклом без полиса ОСАГО, нарушил ПДД и повредил автомобиль Александра Сорокина. Волжский городской суд Волгоградской облас",
       "reactionCount": 21,
-      "engagementRate": 0.020588235294117647
+      "engagementRate": 0.020388349514563107
     },
     {
       "id": "probankrotstvoru/9660",
@@ -323,7 +323,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 870,
+      "viewCount": 889,
       "tgLink": "https://t.me/probankrotstvoru/9660",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -336,19 +336,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.87,
+      "priorityScore": 32.77,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 870 просмотров",
+        "Охват в Telegram Web: 889 просмотров",
         "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "ВС проверит отказ в снижении неустойки при банкротстве гражданинаИван Цветков в мае 2021 года предоставил Виктории Стасевич заём на 300 тыс. рублей под 5% в месяц с неустойкой 1% в день за просрочку возврата. Стасевич об",
       "reactionCount": 15,
-      "engagementRate": 0.017241379310344827
+      "engagementRate": 0.01687289088863892
     },
     {
       "id": "sovetsudey/886",
@@ -405,7 +405,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 10600,
+      "viewCount": 10700,
       "tgLink": "https://t.me/sovetsudey/886",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -417,19 +417,19 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 32.24,
+      "priorityScore": 32.14,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 163 реакций",
-        "Охват в Telegram Web: 10600 просмотров",
+        "Охват в Telegram Web: 10700 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "ВС России напомнил об обязанности судов приостанавливать производство по делу, если одна из сторон проходит службу в зоне СВО. Нижестоящие инстанции удовлетворили иск финансовой организации к военнослужащему о взыскании ",
       "reactionCount": 163,
-      "engagementRate": 0.015377358490566038
+      "engagementRate": 0.015233644859813085
     },
     {
       "id": "sotbi_law/173",
@@ -496,7 +496,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.22,
+      "priorityScore": 32.12,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -551,7 +551,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 648,
+      "viewCount": 668,
       "tgLink": "https://t.me/subsidiarka_kdl/4485",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -564,18 +564,18 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 32.07,
+      "priorityScore": 31.93,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 648 просмотров",
-        "Сильная отдача аудитории: 1,1% реакций к просмотрам"
+        "Охват в Telegram Web: 668 просмотров",
+        "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Апелляция взыскала с конкурсного управляющего 10,2 млн рублей убытковУправляющий зарегистрировал переход права собственности на залог без полной оплаты и суд признал это основанием для взыскания убытков в пользу залогово",
       "reactionCount": 7,
-      "engagementRate": 0.010802469135802469
+      "engagementRate": 0.010479041916167664
     },
     {
       "id": "probankrotstvoru/9656",
@@ -619,7 +619,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 31.03,
+      "priorityScore": 30.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -663,7 +663,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1170,
+      "viewCount": 1180,
       "tgLink": "https://t.me/probankrotstvoru/9655",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -675,19 +675,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 30.27,
+      "priorityScore": 30.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 1170 просмотров",
+        "Охват в Telegram Web: 1180 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "КС не нашел нарушений в сроках оспаривания подозрительных сделок должникаОбщество «МСП Банк» обратилось в Конституционный Суд с жалобой на п. 1 и 2 ст. 61.2 Закона о банкротстве. Банк выступал кредитором в деле о банкрот",
       "reactionCount": 16,
-      "engagementRate": 0.013675213675213675
+      "engagementRate": 0.013559322033898305
     },
     {
       "id": "sudpraktik_bankrot_demo/2625",
@@ -712,7 +712,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 715,
+      "viewCount": 726,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2625",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -725,17 +725,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.44,
+      "priorityScore": 29.34,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 715 просмотров"
+        "Охват в Telegram Web: 726 просмотров"
       ],
       "digestSummary": "Приоритет удовлетворения требований залогового кредитора реализован в банкротстве на принципе обособленности процедуры, касающейся судьбы залогового имущества, что подразумевает погашение за счет ценности этого имущества",
       "reactionCount": 1,
-      "engagementRate": 0.0013986013986013986
+      "engagementRate": 0.0013774104683195593
     },
     {
       "id": "probankrotstvoru/9659",
@@ -767,7 +767,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1100,
+      "viewCount": 1130,
       "tgLink": "https://t.me/probankrotstvoru/9659",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -779,17 +779,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 29.22,
+      "priorityScore": 29.09,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1100 просмотров"
+        "Охват в Telegram Web: 1130 просмотров"
       ],
       "digestSummary": "Финуправляющий не смог оспорить в КС отказ в банкротстве должникаКонституционный Суд отказал в принятии жалобы финуправляющего Владимира Косопалова на нормы Закона о банкротстве. Косопалов оспаривал абз. 8 ст. 2 и абз. 1",
       "reactionCount": 10,
-      "engagementRate": 0.00909090909090909
+      "engagementRate": 0.008849557522123894
     }
   ],
   "topTopics": [
