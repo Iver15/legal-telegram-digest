@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-22T22:33:10.711Z",
+  "generatedAt": "2026-04-22T23:31:28.152Z",
   "totalPosts": 62,
   "topPosts": [
     {
@@ -57,7 +57,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 32.86,
+      "priorityScore": 32.74,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -123,7 +123,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.27,
+      "priorityScore": 31.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -186,7 +186,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.06,
+      "priorityScore": 30.94,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -254,7 +254,7 @@
         "compliance",
         "ai_law"
       ],
-      "priorityScore": 30.75,
+      "priorityScore": 30.63,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Комплаенс",
@@ -312,7 +312,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.52,
+      "priorityScore": 30.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -356,7 +356,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 30.47,
+      "priorityScore": 30.35,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
@@ -412,7 +412,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.38,
+      "priorityScore": 30.26,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -469,7 +469,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.28,
+      "priorityScore": 30.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -522,7 +522,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 29.2,
+      "priorityScore": 29.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -585,7 +585,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 28.12,
+      "priorityScore": 28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -636,7 +636,7 @@
         "ai_law",
         "bankruptcy"
       ],
-      "priorityScore": 27.92,
+      "priorityScore": 27.8,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
@@ -684,7 +684,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 906,
+      "viewCount": 907,
       "tgLink": "https://t.me/corplawpro/5910",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -697,17 +697,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 27.83,
+      "priorityScore": 27.71,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 906 просмотров"
+        "Охват в Telegram Web: 907 просмотров"
       ],
       "digestSummary": "Привлечение адвокатом субисполнителей и выдача им доверенностей напрямую от доверителя не подтверждают мнимость договора на оказание юридических услуг#недействительность_сделок #корпоративный_конфликт #сделки_с_заинтерес",
       "reactionCount": 9,
-      "engagementRate": 0.009933774834437087
+      "engagementRate": 0.009922822491730982
     }
   ],
   "topTopics": [
