@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-23T17:01:00.291Z",
-  "totalPosts": 63,
+  "generatedAt": "2026-04-23T18:09:35.747Z",
+  "totalPosts": 60,
   "topPosts": [
     {
       "id": "sotbi_law/172",
@@ -40,7 +40,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 77,
+      "viewCount": 78,
       "tgLink": "https://t.me/sotbi_law/172",
       "channel": "sotbi_law",
       "channelTitle": "Сотби",
@@ -54,19 +54,19 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 34.4,
+      "priorityScore": 34.26,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 77 просмотров",
-        "Сильная отдача аудитории: 15,6% реакций к просмотрам"
+        "Охват в Telegram Web: 78 просмотров",
+        "Сильная отдача аудитории: 15,4% реакций к просмотрам"
       ],
       "digestSummary": "В долгах как в шелках: обзор новостей из СМИ, которые связаны со сферой банкротстваНесколько разнонаправленных тенденций могут привести к увеличению числа банкротств: общепит чаще закрывается, кредитные риски растут, а р",
       "reactionCount": 12,
-      "engagementRate": 0.15584415584415584
+      "engagementRate": 0.15384615384615385
     },
     {
       "id": "sovetsudey/887",
@@ -85,17 +85,17 @@
       "reactions": [
         {
           "emoji": "🤣",
-          "count": "104",
+          "count": "105",
           "isPaid": false
         },
         {
           "emoji": "👍",
-          "count": "73",
+          "count": "74",
           "isPaid": false
         },
         {
           "emoji": "👎",
-          "count": "14",
+          "count": "15",
           "isPaid": false
         },
         {
@@ -124,7 +124,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 13500,
+      "viewCount": 13600,
       "tgLink": "https://t.me/sovetsudey/887",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -137,19 +137,19 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 33.78,
+      "priorityScore": 33.64,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 222 реакций",
-        "Охват в Telegram Web: 13500 просмотров",
-        "Сильная отдача аудитории: 1,6% реакций к просмотрам"
+        "Высокая вовлечённость: 225 реакций",
+        "Охват в Telegram Web: 13600 просмотров",
+        "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "ВС России отказал компании Google Ireland Limited (Ирландия) в пересмотре судебных актов по делу о запрете ведения арбитражных разбирательств за рубежом. Ранее первая инстанция удовлетворила заявление российского обществ",
-      "reactionCount": 222,
-      "engagementRate": 0.016444444444444446
+      "reactionCount": 225,
+      "engagementRate": 0.016544117647058824
     },
     {
       "id": "domnin_sa/541",
@@ -192,7 +192,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 948,
+      "viewCount": 968,
       "tgLink": "https://t.me/domnin_sa/541",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -205,19 +205,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.34,
+      "priorityScore": 32.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 37 реакций",
-        "Охват в Telegram Web: 948 просмотров",
-        "Сильная отдача аудитории: 3,9% реакций к просмотрам"
+        "Охват в Telegram Web: 968 просмотров",
+        "Сильная отдача аудитории: 3,8% реакций к просмотрам"
       ],
       "digestSummary": "Make ТГП great again Судья Н. Ксенофонтова передала в СКЭС жалобу финансового управляющего на судебные акты о разрешении разногласий относительно того, текущими или реестровыми являются требования о возмещении кредитору ",
       "reactionCount": 37,
-      "engagementRate": 0.039029535864978905
+      "engagementRate": 0.038223140495867766
     },
     {
       "id": "probankrotstvoru/9657",
@@ -268,7 +268,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.16,
+      "priorityScore": 32.02,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -336,7 +336,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.53,
+      "priorityScore": 30.38,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -402,7 +402,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 72,
+      "viewCount": 74,
       "tgLink": "https://t.me/sotbi_law/173",
       "channel": "sotbi_law",
       "channelTitle": "Сотби",
@@ -415,19 +415,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.69,
+      "priorityScore": 29.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 72 просмотров",
-        "Сильная отдача аудитории: 18,1% реакций к просмотрам"
+        "Охват в Telegram Web: 74 просмотров",
+        "Сильная отдача аудитории: 17,6% реакций к просмотрам"
       ],
       "digestSummary": "Всегда ли судебные расходы — текущие платежи? Верховный суд РФ может скорректировать сложившуюся практикуВерховный суд РФ передал на рассмотрение судебной коллегии спор, который может повлиять на устоявшийся подход к ква",
       "reactionCount": 13,
-      "engagementRate": 0.18055555555555555
+      "engagementRate": 0.17567567567567569
     },
     {
       "id": "subsidiarka_kdl/4485",
@@ -465,7 +465,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1090,
+      "viewCount": 1100,
       "tgLink": "https://t.me/subsidiarka_kdl/4485",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -478,17 +478,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.98,
+      "priorityScore": 28.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1090 просмотров"
+        "Охват в Telegram Web: 1100 просмотров"
       ],
       "digestSummary": "Апелляция взыскала с конкурсного управляющего 10,2 млн рублей убытковУправляющий зарегистрировал переход права собственности на залог без полной оплаты и суд признал это основанием для взыскания убытков в пользу залогово",
       "reactionCount": 7,
-      "engagementRate": 0.006422018348623854
+      "engagementRate": 0.006363636363636364
     },
     {
       "id": "sovetsudey/886",
@@ -545,7 +545,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 20200,
+      "viewCount": 20300,
       "tgLink": "https://t.me/sovetsudey/886",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -557,18 +557,18 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28.94,
+      "priorityScore": 28.8,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 193 реакций",
-        "Охват в Telegram Web: 20200 просмотров"
+        "Охват в Telegram Web: 20300 просмотров"
       ],
       "digestSummary": "ВС России напомнил об обязанности судов приостанавливать производство по делу, если одна из сторон проходит службу в зоне СВО. Нижестоящие инстанции удовлетворили иск финансовой организации к военнослужащему о взыскании ",
       "reactionCount": 193,
-      "engagementRate": 0.009554455445544554
+      "engagementRate": 0.009507389162561577
     },
     {
       "id": "probankrotstvoru/9656",
@@ -617,7 +617,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 28.63,
+      "priorityScore": 28.49,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -678,7 +678,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.84,
+      "priorityScore": 27.7,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -727,7 +727,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1470,
+      "viewCount": 1480,
       "tgLink": "https://t.me/probankrotstvoru/9659",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -739,18 +739,18 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.94,
+      "priorityScore": 26.79,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 1470 просмотров"
+        "Охват в Telegram Web: 1480 просмотров"
       ],
       "digestSummary": "Финуправляющий не смог оспорить в КС отказ в банкротстве должникаКонституционный Суд отказал в принятии жалобы финуправляющего Владимира Косопалова на нормы Закона о банкротстве. Косопалов оспаривал абз. 8 ст. 2 и абз. 1",
       "reactionCount": 13,
-      "engagementRate": 0.008843537414965987
+      "engagementRate": 0.008783783783783784
     },
     {
       "id": "sudpraktik_bankrot_demo/2625",
@@ -775,7 +775,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 996,
+      "viewCount": 1000,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2625",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -788,34 +788,34 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 26.85,
+      "priorityScore": 26.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 996 просмотров"
+        "Охват в Telegram Web: 1000 просмотров"
       ],
       "digestSummary": "Приоритет удовлетворения требований залогового кредитора реализован в банкротстве на принципе обособленности процедуры, касающейся судьбы залогового имущества, что подразумевает погашение за счет ценности этого имущества",
       "reactionCount": 1,
-      "engagementRate": 0.001004016064257028
+      "engagementRate": 0.001
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 54
+      "count": 51
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 50
+      "count": 48
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 46
+      "count": 43
     },
     {
       "id": "ai_law",
@@ -825,7 +825,7 @@
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 30
+      "count": 29
     },
     {
       "id": "tax",
@@ -850,18 +850,13 @@
       "count": 7
     },
     {
-      "channel": "Shokobear",
-      "title": "Shokobear (Олег Зайцев о банкротстве)",
-      "count": 5
-    },
-    {
-      "channel": "subsidiarka_kdl",
-      "title": "Субсидиарная ответственность • Case by Case",
+      "channel": "legally_bald",
+      "title": "Legally_bald (Даниил Савченко)",
       "count": 4
     },
     {
-      "channel": "legally_bald",
-      "title": "Legally_bald (Даниил Савченко)",
+      "channel": "Shokobear",
+      "title": "Shokobear (Олег Зайцев о банкротстве)",
       "count": 4
     },
     {
@@ -872,6 +867,11 @@
     {
       "channel": "lawegorov",
       "title": "AVE in Law",
+      "count": 3
+    },
+    {
+      "channel": "subsidiarka_kdl",
+      "title": "Субсидиарная ответственность • Case by Case",
       "count": 3
     },
     {
