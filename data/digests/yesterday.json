@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-22T23:31:28.152Z",
+  "generatedAt": "2026-04-23T00:10:54.479Z",
   "totalPosts": 62,
   "topPosts": [
     {
@@ -57,7 +57,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 32.74,
+      "priorityScore": 32.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -123,7 +123,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.15,
+      "priorityScore": 31.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -186,7 +186,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.94,
+      "priorityScore": 30.86,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -254,7 +254,7 @@
         "compliance",
         "ai_law"
       ],
-      "priorityScore": 30.63,
+      "priorityScore": 30.55,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Комплаенс",
@@ -312,7 +312,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.4,
+      "priorityScore": 30.31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -356,7 +356,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 30.35,
+      "priorityScore": 30.26,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
@@ -399,7 +399,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1320,
+      "viewCount": 1330,
       "tgLink": "https://t.me/probankrotstvoru/9649",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -412,18 +412,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.26,
+      "priorityScore": 30.17,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 1320 просмотров"
+        "Охват в Telegram Web: 1330 просмотров"
       ],
       "digestSummary": "Кассация: взыскание убытков с управляющего — страховой случай по Закону о банкротствеОбщество «Рудо-Аква», признанное банкротом, взыскало через суд убытки с КУ Елены Прониной, которая переплатила привлеченному юристу 1,7",
       "reactionCount": 12,
-      "engagementRate": 0.00909090909090909
+      "engagementRate": 0.009022556390977444
     },
     {
       "id": "probankrotstvoru/9644",
@@ -469,7 +469,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.16,
+      "priorityScore": 30.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -522,7 +522,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 29.08,
+      "priorityScore": 29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -585,7 +585,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 28,
+      "priorityScore": 27.91,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -636,7 +636,7 @@
         "ai_law",
         "bankruptcy"
       ],
-      "priorityScore": 27.8,
+      "priorityScore": 27.71,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
@@ -697,7 +697,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 27.71,
+      "priorityScore": 27.62,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
