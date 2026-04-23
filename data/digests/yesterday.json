@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-23T21:32:01.019Z",
+  "generatedAt": "2026-04-23T22:12:06.219Z",
   "totalPosts": 57,
   "topPosts": [
     {
@@ -54,7 +54,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.84,
+      "priorityScore": 33.76,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -124,7 +124,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 13700,
+      "viewCount": 13800,
       "tgLink": "https://t.me/sovetsudey/887",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -137,19 +137,19 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 33.22,
+      "priorityScore": 33.14,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 226 реакций",
-        "Охват в Telegram Web: 13700 просмотров",
+        "Охват в Telegram Web: 13800 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "ВС России отказал компании Google Ireland Limited (Ирландия) в пересмотре судебных актов по делу о запрете ведения арбитражных разбирательств за рубежом. Ранее первая инстанция удовлетворила заявление российского обществ",
       "reactionCount": 226,
-      "engagementRate": 0.016496350364963504
+      "engagementRate": 0.0163768115942029
     },
     {
       "id": "domnin_sa/541",
@@ -192,7 +192,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1000,
+      "viewCount": 1010,
       "tgLink": "https://t.me/domnin_sa/541",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -205,19 +205,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.79,
+      "priorityScore": 31.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 37 реакций",
-        "Охват в Telegram Web: 1000 просмотров",
+        "Охват в Telegram Web: 1010 просмотров",
         "Сильная отдача аудитории: 3,7% реакций к просмотрам"
       ],
       "digestSummary": "Make ТГП great again Судья Н. Ксенофонтова передала в СКЭС жалобу финансового управляющего на судебные акты о разрешении разногласий относительно того, текущими или реестровыми являются требования о возмещении кредитору ",
       "reactionCount": 37,
-      "engagementRate": 0.037
+      "engagementRate": 0.03663366336633663
     },
     {
       "id": "probankrotstvoru/9657",
@@ -268,7 +268,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.6,
+      "priorityScore": 31.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -336,7 +336,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.96,
+      "priorityScore": 29.88,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -415,7 +415,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.24,
+      "priorityScore": 29.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -465,7 +465,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1110,
+      "viewCount": 1120,
       "tgLink": "https://t.me/subsidiarka_kdl/4485",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -478,17 +478,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.63,
+      "priorityScore": 28.54,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1110 просмотров"
+        "Охват в Telegram Web: 1120 просмотров"
       ],
       "digestSummary": "Апелляция взыскала с конкурсного управляющего 10,2 млн рублей убытковУправляющий зарегистрировал переход права собственности на залог без полной оплаты и суд признал это основанием для взыскания убытков в пользу залогово",
       "reactionCount": 8,
-      "engagementRate": 0.007207207207207207
+      "engagementRate": 0.007142857142857143
     },
     {
       "id": "sovetsudey/886",
@@ -557,7 +557,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28.37,
+      "priorityScore": 28.29,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -617,7 +617,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 28.07,
+      "priorityScore": 27.99,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -678,7 +678,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.26,
+      "priorityScore": 27.18,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -739,7 +739,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.36,
+      "priorityScore": 26.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -788,7 +788,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 26.29,
+      "priorityScore": 26.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
