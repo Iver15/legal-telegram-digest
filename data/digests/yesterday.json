@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-23T20:39:58.066Z",
+  "generatedAt": "2026-04-23T21:32:01.019Z",
   "totalPosts": 57,
   "topPosts": [
     {
@@ -54,7 +54,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.95,
+      "priorityScore": 33.84,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -137,7 +137,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 33.33,
+      "priorityScore": 33.22,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -205,7 +205,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.9,
+      "priorityScore": 31.79,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -268,7 +268,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.71,
+      "priorityScore": 31.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -336,7 +336,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.07,
+      "priorityScore": 29.96,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -415,7 +415,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.35,
+      "priorityScore": 29.24,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -478,7 +478,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.74,
+      "priorityScore": 28.63,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -506,7 +506,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "130",
+          "count": "131",
           "isPaid": false
         },
         {
@@ -545,7 +545,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 20400,
+      "viewCount": 20500,
       "tgLink": "https://t.me/sovetsudey/886",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -557,18 +557,18 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28.48,
+      "priorityScore": 28.37,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 194 реакций",
-        "Охват в Telegram Web: 20400 просмотров"
+        "Высокая вовлечённость: 195 реакций",
+        "Охват в Telegram Web: 20500 просмотров"
       ],
       "digestSummary": "ВС России напомнил об обязанности судов приостанавливать производство по делу, если одна из сторон проходит службу в зоне СВО. Нижестоящие инстанции удовлетворили иск финансовой организации к военнослужащему о взыскании ",
-      "reactionCount": 194,
-      "engagementRate": 0.009509803921568628
+      "reactionCount": 195,
+      "engagementRate": 0.00951219512195122
     },
     {
       "id": "probankrotstvoru/9656",
@@ -617,7 +617,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 28.18,
+      "priorityScore": 28.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -678,7 +678,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.37,
+      "priorityScore": 27.26,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -739,7 +739,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.47,
+      "priorityScore": 26.36,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -775,7 +775,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1010,
+      "viewCount": 1020,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2625",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -788,17 +788,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 26.4,
+      "priorityScore": 26.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 1010 просмотров"
+        "Охват в Telegram Web: 1020 просмотров"
       ],
       "digestSummary": "Приоритет удовлетворения требований залогового кредитора реализован в банкротстве на принципе обособленности процедуры, касающейся судьбы залогового имущества, что подразумевает погашение за счет ценности этого имущества",
       "reactionCount": 1,
-      "engagementRate": 0.0009900990099009901
+      "engagementRate": 0.000980392156862745
     }
   ],
   "topTopics": [
