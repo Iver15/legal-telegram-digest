@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-23T19:42:42.885Z",
+  "generatedAt": "2026-04-23T20:39:58.066Z",
   "totalPosts": 57,
   "topPosts": [
     {
@@ -54,7 +54,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 34.07,
+      "priorityScore": 33.95,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -137,7 +137,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 33.45,
+      "priorityScore": 33.33,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -192,7 +192,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 996,
+      "viewCount": 1000,
       "tgLink": "https://t.me/domnin_sa/541",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -205,19 +205,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.02,
+      "priorityScore": 31.9,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 37 реакций",
-        "Охват в Telegram Web: 996 просмотров",
+        "Охват в Telegram Web: 1000 просмотров",
         "Сильная отдача аудитории: 3,7% реакций к просмотрам"
       ],
       "digestSummary": "Make ТГП great again Судья Н. Ксенофонтова передала в СКЭС жалобу финансового управляющего на судебные акты о разрешении разногласий относительно того, текущими или реестровыми являются требования о возмещении кредитору ",
       "reactionCount": 37,
-      "engagementRate": 0.03714859437751004
+      "engagementRate": 0.037
     },
     {
       "id": "probankrotstvoru/9657",
@@ -255,7 +255,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1230,
+      "viewCount": 1240,
       "tgLink": "https://t.me/probankrotstvoru/9657",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -268,19 +268,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.82,
+      "priorityScore": 31.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 23 реакций",
-        "Охват в Telegram Web: 1230 просмотров",
+        "Охват в Telegram Web: 1240 просмотров",
         "Сильная отдача аудитории: 1,9% реакций к просмотрам"
       ],
       "digestSummary": "ВС проверит, можно ли списать долг за аварию при отсутствии страховкиЛеонид Королев, управляя мотоциклом без полиса ОСАГО, нарушил ПДД и повредил автомобиль Александра Сорокина. Волжский городской суд Волгоградской облас",
       "reactionCount": 23,
-      "engagementRate": 0.01869918699186992
+      "engagementRate": 0.018548387096774192
     },
     {
       "id": "probankrotstvoru/9660",
@@ -336,7 +336,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.19,
+      "priorityScore": 30.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -415,7 +415,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.47,
+      "priorityScore": 29.35,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -478,7 +478,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.86,
+      "priorityScore": 28.74,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -506,7 +506,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "129",
+          "count": "130",
           "isPaid": false
         },
         {
@@ -557,18 +557,18 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28.59,
+      "priorityScore": 28.48,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 193 реакций",
+        "Высокая вовлечённость: 194 реакций",
         "Охват в Telegram Web: 20400 просмотров"
       ],
       "digestSummary": "ВС России напомнил об обязанности судов приостанавливать производство по делу, если одна из сторон проходит службу в зоне СВО. Нижестоящие инстанции удовлетворили иск финансовой организации к военнослужащему о взыскании ",
-      "reactionCount": 193,
-      "engagementRate": 0.00946078431372549
+      "reactionCount": 194,
+      "engagementRate": 0.009509803921568628
     },
     {
       "id": "probankrotstvoru/9656",
@@ -605,7 +605,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1270,
+      "viewCount": 1280,
       "tgLink": "https://t.me/probankrotstvoru/9656",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -617,19 +617,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 28.3,
+      "priorityScore": 28.18,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 23 реакций",
-        "Охват в Telegram Web: 1270 просмотров",
+        "Охват в Telegram Web: 1280 просмотров",
         "Сильная отдача аудитории: 1,8% реакций к просмотрам"
       ],
       "digestSummary": "КС отказал кредитору в жалобе на пассивность финуправляющего в судеКонституционный Суд отказал в принятии жалобы Виктора Бутова на нормы Закона о банкротстве. Заявитель пытался взыскать убытки с АУ, исполнявшего обязанно",
       "reactionCount": 23,
-      "engagementRate": 0.01811023622047244
+      "engagementRate": 0.01796875
     },
     {
       "id": "probankrotstvoru/9655",
@@ -678,7 +678,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.49,
+      "priorityScore": 27.37,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -739,7 +739,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.59,
+      "priorityScore": 26.47,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -788,7 +788,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 26.52,
+      "priorityScore": 26.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
