@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-23T23:10:04.128Z",
-  "totalPosts": 305,
+  "generatedAt": "2026-04-24T00:05:34.540Z",
+  "totalPosts": 306,
   "topPosts": [
     {
       "id": "probankrotstvoru/9670",
@@ -36,7 +36,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 964,
+      "viewCount": 972,
       "tgLink": "https://t.me/probankrotstvoru/9670",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -50,17 +50,17 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 36.97,
+      "priorityScore": 36.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 964 просмотров"
+        "Охват в Telegram Web: 972 просмотров"
       ],
       "digestSummary": "Кассация: перемещение средств внутри группы не порождает долг перед кредиторомОбщество «СК \"УС-620\"» потребовало включить в реестр кредиторов банкротящегося общества «ЗЖБИ \"УС-620\"» 172,3 млн рублей долга по трем договор",
       "reactionCount": 7,
-      "engagementRate": 0.007261410788381743
+      "engagementRate": 0.00720164609053498
     },
     {
       "id": "sotbi_law/172",
@@ -112,7 +112,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.64,
+      "priorityScore": 33.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -195,7 +195,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 33.01,
+      "priorityScore": 32.9,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -241,7 +241,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 508,
+      "viewCount": 512,
       "tgLink": "https://t.me/corplawpro/5917",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -255,18 +255,18 @@
         "courts",
         "tax"
       ],
-      "priorityScore": 32.53,
+      "priorityScore": 32.41,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 508 просмотров",
+        "Охват в Telegram Web: 512 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Практика Верховного Суда по корпоративным спорам: второе полугодие 2025 года (часть 2)Состоялась вторая встреча по разбору практики Верховного Суда за второе полугодие 2025 года — обсудили шесть ключевых кейсов, затрагив",
       "reactionCount": 6,
-      "engagementRate": 0.011811023622047244
+      "engagementRate": 0.01171875
     },
     {
       "id": "probankrotstvoru/9628",
@@ -425,7 +425,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 566,
+      "viewCount": 569,
       "tgLink": "https://t.me/subsidiarka_kdl/4489",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -439,17 +439,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.88,
+      "priorityScore": 31.76,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 566 просмотров"
+        "Охват в Telegram Web: 569 просмотров"
       ],
       "digestSummary": "Практика Верховного Суда по корпоративным спорам: второе полугодие 2025 года (часть 2)Состоялась вторая встреча по разбору практики Верховного Суда за второе полугодие 2025 года — обсудили шесть ключевых кейсов, затрагив",
       "reactionCount": 4,
-      "engagementRate": 0.007067137809187279
+      "engagementRate": 0.007029876977152899
     },
     {
       "id": "probankrotstvoru/9666",
@@ -482,7 +482,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1030,
+      "viewCount": 1040,
       "tgLink": "https://t.me/probankrotstvoru/9666",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -495,19 +495,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.76,
+      "priorityScore": 31.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 1030 просмотров",
-        "Сильная отдача аудитории: 1,5% реакций к просмотрам"
+        "Охват в Telegram Web: 1040 просмотров",
+        "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "КС отказал в жалобе на двойную ответственность по кредитному договоруКонституционный Суд РФ отказал Мае Лазаревой в рассмотрении жалобы на ряд норм ГК и Закона о банкротстве. Заявительница оспаривала положения об исковой",
       "reactionCount": 15,
-      "engagementRate": 0.014563106796116505
+      "engagementRate": 0.014423076923076924
     },
     {
       "id": "domnin_sa/541",
@@ -563,7 +563,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.59,
+      "priorityScore": 31.48,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -626,7 +626,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.4,
+      "priorityScore": 31.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -670,7 +670,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 961,
+      "viewCount": 966,
       "tgLink": "https://t.me/probankrotstvoru/9668",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -682,19 +682,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 31.33,
+      "priorityScore": 31.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 961 просмотров",
+        "Охват в Telegram Web: 966 просмотров",
         "Сильная отдача аудитории: 1,9% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: непогашенный долг за несколько лет презюмирует неплатежеспособность должникаВ деле о банкротстве общества «Вудвилль» КУ Дмитрий Холев обратился с заявлением о привлечении к субсидиарной ответственности пятерых ",
       "reactionCount": 18,
-      "engagementRate": 0.018730489073881373
+      "engagementRate": 0.018633540372670808
     },
     {
       "id": "sotbi_law/174",
@@ -761,7 +761,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 31.19,
+      "priorityScore": 31.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -780,22 +780,22 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 246
+      "count": 247
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 242
+      "count": 243
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 230
+      "count": 231
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 212
+      "count": 213
     },
     {
       "id": "enforcement",
@@ -827,7 +827,7 @@
     {
       "channel": "vZone1413",
       "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 16
+      "count": 17
     },
     {
       "channel": "subsidiarka_kdl",

@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-23T23:10:04.127Z",
+  "generatedAt": "2026-04-24T00:05:34.539Z",
   "totalPosts": 56,
   "topPosts": [
     {
@@ -54,7 +54,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.64,
+      "priorityScore": 33.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -137,7 +137,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 33.01,
+      "priorityScore": 32.9,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -205,7 +205,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.59,
+      "priorityScore": 31.48,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -268,7 +268,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.4,
+      "priorityScore": 31.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -336,7 +336,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.76,
+      "priorityScore": 29.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -415,7 +415,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.04,
+      "priorityScore": 28.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -478,7 +478,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.42,
+      "priorityScore": 28.3,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -506,7 +506,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "131",
+          "count": "132",
           "isPaid": false
         },
         {
@@ -557,18 +557,18 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28.17,
+      "priorityScore": 28.06,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 195 реакций",
+        "Высокая вовлечённость: 196 реакций",
         "Охват в Telegram Web: 20500 просмотров"
       ],
       "digestSummary": "ВС России напомнил об обязанности судов приостанавливать производство по делу, если одна из сторон проходит службу в зоне СВО. Нижестоящие инстанции удовлетворили иск финансовой организации к военнослужащему о взыскании ",
-      "reactionCount": 195,
-      "engagementRate": 0.00951219512195122
+      "reactionCount": 196,
+      "engagementRate": 0.009560975609756097
     },
     {
       "id": "probankrotstvoru/9656",
@@ -617,7 +617,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.87,
+      "priorityScore": 27.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -678,7 +678,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.06,
+      "priorityScore": 26.94,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -739,7 +739,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.16,
+      "priorityScore": 26.04,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -788,7 +788,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 26.09,
+      "priorityScore": 25.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
