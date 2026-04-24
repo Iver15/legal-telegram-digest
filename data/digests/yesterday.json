@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-24T22:06:03.269Z",
+  "generatedAt": "2026-04-24T23:00:05.997Z",
   "totalPosts": 65,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.95,
+      "priorityScore": 33.84,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -94,7 +94,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 877,
+      "viewCount": 878,
       "tgLink": "https://t.me/corplawpro/5917",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -108,18 +108,18 @@
         "courts",
         "tax"
       ],
-      "priorityScore": 29.92,
+      "priorityScore": 29.8,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 877 просмотров",
+        "Охват в Telegram Web: 878 просмотров",
         "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Практика Верховного Суда по корпоративным спорам: второе полугодие 2025 года (часть 2)Состоялась вторая встреча по разбору практики Верховного Суда за второе полугодие 2025 года — обсудили шесть ключевых кейсов, затрагив",
       "reactionCount": 9,
-      "engagementRate": 0.010262257696693273
+      "engagementRate": 0.010250569476082005
     },
     {
       "id": "subsidiarka_kdl/4489",
@@ -148,7 +148,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 992,
+      "viewCount": 993,
       "tgLink": "https://t.me/subsidiarka_kdl/4489",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -162,17 +162,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 28.76,
+      "priorityScore": 28.64,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 992 просмотров"
+        "Охват в Telegram Web: 993 просмотров"
       ],
       "digestSummary": "Практика Верховного Суда по корпоративным спорам: второе полугодие 2025 года (часть 2)Состоялась вторая встреча по разбору практики Верховного Суда за второе полугодие 2025 года — обсудили шесть ключевых кейсов, затрагив",
       "reactionCount": 4,
-      "engagementRate": 0.004032258064516129
+      "engagementRate": 0.004028197381671702
     },
     {
       "id": "probankrotstvoru/9666",
@@ -218,7 +218,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.68,
+      "priorityScore": 28.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -297,7 +297,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 28.55,
+      "priorityScore": 28.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -353,7 +353,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 28.51,
+      "priorityScore": 28.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -449,7 +449,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28,
+      "priorityScore": 27.89,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
@@ -505,7 +505,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.8,
+      "priorityScore": 27.68,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -547,7 +547,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 27.15,
+      "priorityScore": 27.03,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -596,7 +596,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 26.22,
+      "priorityScore": 26.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -647,7 +647,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 25.75,
+      "priorityScore": 25.64,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -695,7 +695,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 25.69,
+      "priorityScore": 25.57,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",

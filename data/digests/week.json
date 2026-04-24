@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-24T22:06:03.270Z",
+  "generatedAt": "2026-04-24T23:00:05.998Z",
   "totalPosts": 316,
   "topPosts": [
     {
@@ -46,7 +46,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 749,
+      "viewCount": 751,
       "tgLink": "https://t.me/subsidiarka_kdl/4491",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -60,18 +60,18 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 35.15,
+      "priorityScore": 35.04,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 749 просмотров",
+        "Охват в Telegram Web: 751 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Минюст представил законопроект о реализации «роскошного» единственного жилья должника-банкротаМинюст России разместил на федеральном портале проектов НПА проект федерального закона о внесении изменений в Закон о банкротс",
       "reactionCount": 8,
-      "engagementRate": 0.010680907877169559
+      "engagementRate": 0.010652463382157125
     },
     {
       "id": "probankrotstvoru/9678",
@@ -104,7 +104,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 725,
+      "viewCount": 728,
       "tgLink": "https://t.me/probankrotstvoru/9678",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -117,19 +117,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 34.92,
+      "priorityScore": 34.8,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 725 просмотров",
+        "Охват в Telegram Web: 728 просмотров",
         "Сильная отдача аудитории: 1,9% реакций к просмотрам"
       ],
       "digestSummary": "ВС отказал «Групформедиа» в споре с «дочкой» Google на 157 млн рублейВерховный Суд РФ отказал рекламному агентству «Групформедиа» в пересмотре судебных актов по спору с обществом «Гугл» (российский структуры Google). Суд",
       "reactionCount": 14,
-      "engagementRate": 0.019310344827586208
+      "engagementRate": 0.019230769230769232
     },
     {
       "id": "probankrotstvoru/9677",
@@ -162,7 +162,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 822,
+      "viewCount": 825,
       "tgLink": "https://t.me/probankrotstvoru/9677",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -175,19 +175,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.13,
+      "priorityScore": 34.02,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 822 просмотров",
+        "Охват в Telegram Web: 825 просмотров",
         "Сильная отдача аудитории: 1,8% реакций к просмотрам"
       ],
       "digestSummary": "ВС запретил навязывать залоговому кредитору мировое соглашение с погашением 6% долгаАО «Банк \"Клиентский\"» выдал обществу «Ресторан \"Ла Делициа\"» кредит на 25 млн рублей, поручителем по которому выступила Светлана Карапе",
       "reactionCount": 15,
-      "engagementRate": 0.01824817518248175
+      "engagementRate": 0.01818181818181818
     },
     {
       "id": "probankrotstvoru/9680",
@@ -220,7 +220,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 811,
+      "viewCount": 814,
       "tgLink": "https://t.me/probankrotstvoru/9680",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -233,19 +233,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.02,
+      "priorityScore": 33.91,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 811 просмотров",
+        "Охват в Telegram Web: 814 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: управляющего от аффилированного кредитора нужно выбирать случайной выборкойИП Светлана Куманева обратилась с заявлением о признании общество «Геомин Менеджмент» банкротом, основывая требование на задолженности ",
       "reactionCount": 12,
-      "engagementRate": 0.014796547472256474
+      "engagementRate": 0.014742014742014743
     },
     {
       "id": "probankrotstvoru/9670",
@@ -293,7 +293,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.95,
+      "priorityScore": 33.84,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -336,7 +336,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 527,
+      "viewCount": 535,
       "tgLink": "https://t.me/probankrotstvoru/9682",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -349,19 +349,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 33.14,
+      "priorityScore": 33.03,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 527 просмотров",
+        "Охват в Telegram Web: 535 просмотров",
         "Сильная отдача аудитории: 2,1% реакций к просмотрам"
       ],
       "digestSummary": "⚡️Собрали дайджест интересных материалов СМИ о банкротстве за 20-24 апреляАктуальные и свежие статьи отрасли банкротства, а также кейсы, исследования, обзоры и новеллы законодательства.Суд в Москве по заявлению обанкроти",
       "reactionCount": 11,
-      "engagementRate": 0.020872865275142316
+      "engagementRate": 0.020560747663551402
     },
     {
       "id": "probankrotstvoru/9681",
@@ -394,7 +394,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 651,
+      "viewCount": 656,
       "tgLink": "https://t.me/probankrotstvoru/9681",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -407,18 +407,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.08,
+      "priorityScore": 32.96,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 651 просмотров",
+        "Охват в Telegram Web: 656 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: непогашенное залоговое требование имеет приоритет над конкурсной массойВ деле о банкротстве Рафаиля Абдрашитова залоговый кредитор Анвар Абдуразаков оставил за собой нереализованное на торгах залоговое имуществ",
       "reactionCount": 7,
-      "engagementRate": 0.010752688172043012
+      "engagementRate": 0.010670731707317074
     },
     {
       "id": "bankrotstvo_mustknow/479",
@@ -453,7 +453,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 98,
+      "viewCount": 100,
       "tgLink": "https://t.me/bankrotstvo_mustknow/479",
       "channel": "bankrotstvo_mustknow",
       "channelTitle": "Банкротство | Взгляд эксперта",
@@ -466,18 +466,18 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 32.39,
+      "priorityScore": 32.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 98 просмотров",
-        "Сильная отдача аудитории: 8,2% реакций к просмотрам"
+        "Охват в Telegram Web: 100 просмотров",
+        "Сильная отдача аудитории: 8,0% реакций к просмотрам"
       ],
       "digestSummary": "Нельзя оспорить сделку с покупателем, проявившем осмотрительность при покупке 🔍Кирилл Карпов, старший юрист практики банкротства и антикризисной защиты бизнеса, комментирует определение Верховного Суда РФ № 307-ЭС25-133",
       "reactionCount": 8,
-      "engagementRate": 0.08163265306122448
+      "engagementRate": 0.08
     },
     {
       "id": "insolvencylaw/611",
@@ -515,7 +515,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 351,
+      "viewCount": 354,
       "tgLink": "https://t.me/insolvencylaw/611",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -528,19 +528,19 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 32.33,
+      "priorityScore": 32.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 351 просмотров",
+        "Охват в Telegram Web: 354 просмотров",
         "Сильная отдача аудитории: 5,4% реакций к просмотрам"
       ],
       "digestSummary": "П. 4 ПП ВС РФ от 17.12.2024 № 40 или опять о математике (или логике? или опыте?)Названный пункт позволяет суду отказать во введении процедуры банкротства при рассмотрении заявления, если должник докажет, что с учетом пла",
       "reactionCount": 19,
-      "engagementRate": 0.05413105413105413
+      "engagementRate": 0.05367231638418079
     },
     {
       "id": "sotbi_law/172",
@@ -650,7 +650,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 168,
+      "viewCount": 169,
       "tgLink": "https://t.me/bankrotalk/213",
       "channel": "bankrotalk",
       "channelTitle": "Банкротный Talk",
@@ -664,19 +664,19 @@
         "compliance",
         "courts"
       ],
-      "priorityScore": 32.16,
+      "priorityScore": 32.04,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 168 просмотров",
+        "Охват в Telegram Web: 169 просмотров",
         "Сильная отдача аудитории: 7,7% реакций к просмотрам"
       ],
       "digestSummary": "«Финансовый управляющий — робкий завхоз с описью или полноправный вершитель корпоративных судеб?»Интересно? Вот и ведущим стало! Постарались найти ответы. Озадачились новыми вопросами, например, дилеммой - как защитить и",
       "reactionCount": 13,
-      "engagementRate": 0.07738095238095238
+      "engagementRate": 0.07692307692307693
     },
     {
       "id": "subsidiarka_kdl/4480",
