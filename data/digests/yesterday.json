@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-25T22:38:29.173Z",
+  "generatedAt": "2026-04-25T23:25:07.332Z",
   "totalPosts": 55,
   "topPosts": [
     {
@@ -65,7 +65,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 32.13,
+      "priorityScore": 32.04,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -121,7 +121,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32,
+      "priorityScore": 31.9,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -179,7 +179,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.21,
+      "priorityScore": 31.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -237,7 +237,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.92,
+      "priorityScore": 30.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -295,7 +295,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.44,
+      "priorityScore": 30.34,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -340,7 +340,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 898,
+      "viewCount": 899,
       "tgLink": "https://t.me/probankrotstvoru/9681",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -353,18 +353,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.21,
+      "priorityScore": 30.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 898 просмотров",
+        "Охват в Telegram Web: 899 просмотров",
         "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: непогашенное залоговое требование имеет приоритет над конкурсной массойВ деле о банкротстве Рафаиля Абдрашитова залоговый кредитор Анвар Абдуразаков оставил за собой нереализованное на торгах залоговое имуществ",
       "reactionCount": 9,
-      "engagementRate": 0.01002227171492205
+      "engagementRate": 0.010011123470522803
     },
     {
       "id": "insolvencylaw/611",
@@ -402,7 +402,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 433,
+      "viewCount": 434,
       "tgLink": "https://t.me/insolvencylaw/611",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -415,19 +415,19 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 29.53,
+      "priorityScore": 29.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 21 реакций",
-        "Охват в Telegram Web: 433 просмотров",
+        "Охват в Telegram Web: 434 просмотров",
         "Сильная отдача аудитории: 4,8% реакций к просмотрам"
       ],
       "digestSummary": "П. 4 ПП ВС РФ от 17.12.2024 № 40 или опять о математике (или логике? или опыте?)Названный пункт позволяет суду отказать во введении процедуры банкротства при рассмотрении заявления, если должник докажет, что с учетом пла",
       "reactionCount": 21,
-      "engagementRate": 0.04849884526558892
+      "engagementRate": 0.04838709677419355
     },
     {
       "id": "bankrotstvo_mustknow/479",
@@ -475,7 +475,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 29.49,
+      "priorityScore": 29.39,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -541,7 +541,7 @@
         "compliance",
         "courts"
       ],
-      "priorityScore": 29.34,
+      "priorityScore": 29.24,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -591,7 +591,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 739,
+      "viewCount": 740,
       "tgLink": "https://t.me/subsidiarka_kdl/4492",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -604,17 +604,17 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 28.42,
+      "priorityScore": 28.32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 739 просмотров"
+        "Охват в Telegram Web: 740 просмотров"
       ],
       "digestSummary": "Тенденции привлечения к субсидиарной ответственности 2026О дискуссииВ 2025 году число корпоративных банкротств упало до минимума за 10 лет — признано банкротами всего 6 477 компаний (−24,3% к прошлому году). Классическая",
       "reactionCount": 4,
-      "engagementRate": 0.005412719891745603
+      "engagementRate": 0.005405405405405406
     },
     {
       "id": "vs_court/4942",
@@ -644,7 +644,7 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 27.33,
+      "priorityScore": 27.24,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -697,7 +697,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 27.3,
+      "priorityScore": 27.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
