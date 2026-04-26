@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-26T20:26:44.193Z",
+  "generatedAt": "2026-04-26T21:07:08.069Z",
   "totalPosts": 7,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1130,
+      "viewCount": 1140,
       "tgLink": "https://t.me/lawegorov/3750",
       "channel": "lawegorov",
       "channelTitle": "AVE in Law",
@@ -55,19 +55,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.59,
+      "priorityScore": 36.51,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 1130 просмотров",
+        "Охват в Telegram Web: 1140 просмотров",
         "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "Судьба подарков должнику, находящемуся в банкротстве На ЧЧ в Клубе цивилистов в очередной раз вышли на обсуждение вопроса о том, какова должна быть судьба подарков третьих лиц, адресованных должнику, находящемуся в проце",
       "reactionCount": 19,
-      "engagementRate": 0.016814159292035398
+      "engagementRate": 0.016666666666666666
     },
     {
       "id": "educatedyoungman/910",
@@ -106,7 +106,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1800,
+      "viewCount": 1810,
       "tgLink": "https://t.me/educatedyoungman/910",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -120,19 +120,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.16,
+      "priorityScore": 36.06,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 24 реакций",
-        "Охват в Telegram Web: 1800 просмотров",
+        "Охват в Telegram Web: 1810 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Судьба подарков должнику, находящемуся в банкротстве На ЧЧ в Клубе цивилистов в очередной раз вышли на обсуждение вопроса о том, какова должна быть судьба подарков третьих лиц, адресованных должнику, находящемуся в проце",
       "reactionCount": 24,
-      "engagementRate": 0.013333333333333334
+      "engagementRate": 0.013259668508287293
     },
     {
       "id": "probankrotstvoru/9686",
@@ -164,7 +164,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 623,
+      "viewCount": 630,
       "tgLink": "https://t.me/probankrotstvoru/9686",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -176,17 +176,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.72,
+      "priorityScore": 27.62,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 623 просмотров"
+        "Охват в Telegram Web: 630 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС защитил экспедитора от иска об убытках за успешно доставленный грузВС признал соглашение об урегулировании с иностранным контрагентом недостаточным основ",
       "reactionCount": 6,
-      "engagementRate": 0.009630818619582664
+      "engagementRate": 0.009523809523809525
     },
     {
       "id": "disputesandsanctions/2456",
@@ -210,7 +210,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 130,
+      "viewCount": 132,
       "tgLink": "https://t.me/disputesandsanctions/2456",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -224,17 +224,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 25.33,
+      "priorityScore": 25.24,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 130 просмотров"
+        "Охват в Telegram Web: 132 просмотров"
       ],
       "digestSummary": "ВТАК (МКАС) - Гана - Признание и исполнениеОдин из первых задокументированных случаев признания и исполнения решения ВТАК (МКАС) за рубежом являлось дело В/О Разноэкспорт против Youngsters Ltd.Вызывает большой интерес, о",
       "reactionCount": 1,
-      "engagementRate": 0.007692307692307693
+      "engagementRate": 0.007575757575757576
     },
     {
       "id": "Compliance_Practice/3059",
@@ -270,7 +270,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1870,
+      "viewCount": 1880,
       "tgLink": "https://t.me/Compliance_Practice/3059",
       "channel": "Compliance_Practice",
       "channelTitle": "Compliance practice",
@@ -283,17 +283,17 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 22.27,
+      "priorityScore": 22.18,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Комплаенс",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 1870 просмотров"
+        "Охват в Telegram Web: 1880 просмотров"
       ],
       "digestSummary": "Почему азербайджанский Yelo Bank попал в санкции ЕСYelo Bank был основан в 1994 году как Ulpar Commercial Bank, переименован в Nikoil Bank в 2002 году, когда Nikoil Investment Banks Group/Lukoil приобрели контрольную дол",
       "reactionCount": 10,
-      "engagementRate": 0.0053475935828877
+      "engagementRate": 0.005319148936170213
     },
     {
       "id": "probankrotstvoru/9685",
@@ -324,7 +324,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 720,
+      "viewCount": 723,
       "tgLink": "https://t.me/probankrotstvoru/9685",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -335,17 +335,17 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 19.31,
+      "priorityScore": 19.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 720 просмотров",
-        "Сильная отдача аудитории: 1,3% реакций к просмотрам"
+        "Охват в Telegram Web: 723 просмотров",
+        "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Как быть, если вам навязывают невыгодные условия договора?Ответ кажется очевидным: не заключать его. Но что, если выбора нет? Например, контрагент — единственный в регионе поставщик необходимой вам услуги. Тогда вполне в",
       "reactionCount": 9,
-      "engagementRate": 0.0125
+      "engagementRate": 0.012448132780082987
     },
     {
       "id": "Shokobear/3895",
@@ -382,7 +382,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 13.23,
+      "priorityScore": 13.15,
       "priorityReasons": [
         "Категория канала: courts",
         "Высокая вовлечённость: 27 реакций",
