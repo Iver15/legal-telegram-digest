@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-26T10:32:22.413Z",
+  "generatedAt": "2026-04-26T11:16:26.969Z",
   "totalPosts": 322,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 424,
+      "viewCount": 469,
       "tgLink": "https://t.me/educatedyoungman/910",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -55,19 +55,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.69,
+      "priorityScore": 36.63,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 20 реакций",
-        "Охват в Telegram Web: 424 просмотров",
-        "Сильная отдача аудитории: 4,7% реакций к просмотрам"
+        "Охват в Telegram Web: 469 просмотров",
+        "Сильная отдача аудитории: 4,3% реакций к просмотрам"
       ],
       "digestSummary": "Судьба подарков должнику, находящемуся в банкротстве На ЧЧ в Клубе цивилистов в очередной раз вышли на обсуждение вопроса о том, какова должна быть судьба подарков третьих лиц, адресованных должнику, находящемуся в проце",
       "reactionCount": 20,
-      "engagementRate": 0.04716981132075472
+      "engagementRate": 0.042643923240938165
     },
     {
       "id": "sotbi_law/172",
@@ -512,7 +512,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 724,
+      "viewCount": 728,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2629",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -526,17 +526,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 30.62,
+      "priorityScore": 30.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 724 просмотров"
+        "Охват в Telegram Web: 728 просмотров"
       ],
       "digestSummary": "Дайджест на тему «взыскание неустойки в деле о банкротстве»Правила о моратории не применяются к лицам, в отношении которых на день введения моратория возбуждено дело о банкротстве, при этом на текущие платежи подлежит на",
       "reactionCount": 1,
-      "engagementRate": 0.0013812154696132596
+      "engagementRate": 0.0013736263736263737
     },
     {
       "id": "probankrotstvoru/9678",
@@ -569,7 +569,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 900,
+      "viewCount": 906,
       "tgLink": "https://t.me/probankrotstvoru/9678",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -582,19 +582,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.53,
+      "priorityScore": 30.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 900 просмотров",
+        "Охват в Telegram Web: 906 просмотров",
         "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "ВС отказал «Групформедиа» в споре с «дочкой» Google на 157 млн рублейВерховный Суд РФ отказал рекламному агентству «Групформедиа» в пересмотре судебных актов по спору с обществом «Гугл» (российский структуры Google). Суд",
       "reactionCount": 15,
-      "engagementRate": 0.016666666666666666
+      "engagementRate": 0.016556291390728478
     },
     {
       "id": "probankrotstvoru/9657",
@@ -690,7 +690,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1000,
+      "viewCount": 1020,
       "tgLink": "https://t.me/probankrotstvoru/9684",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -703,17 +703,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.88,
+      "priorityScore": 29.78,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1000 просмотров"
+        "Охват в Telegram Web: 1020 просмотров"
       ],
       "digestSummary": "Банкротство БеталинкИстория «Беталинка» стала классической российской драмой розничного бизнеса, которая началась с амбициозных планов и закончилась громким банкротством. Компания «Беталинк» была одним из крупнейших росс",
       "reactionCount": 6,
-      "engagementRate": 0.006
+      "engagementRate": 0.0058823529411764705
     },
     {
       "id": "probankrotstvoru/9677",
@@ -746,7 +746,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 975,
+      "viewCount": 979,
       "tgLink": "https://t.me/probankrotstvoru/9677",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -759,19 +759,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.73,
+      "priorityScore": 29.64,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 975 просмотров",
+        "Охват в Telegram Web: 979 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "ВС запретил навязывать залоговому кредитору мировое соглашение с погашением 6% долгаАО «Банк \"Клиентский\"» выдал обществу «Ресторан \"Ла Делициа\"» кредит на 25 млн рублей, поручителем по которому выступила Светлана Карапе",
       "reactionCount": 16,
-      "engagementRate": 0.01641025641025641
+      "engagementRate": 0.01634320735444331
     }
   ],
   "topTopics": [
