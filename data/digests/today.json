@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-26T18:02:51.123Z",
+  "generatedAt": "2026-04-26T18:47:19.298Z",
   "totalPosts": 9,
   "topPosts": [
     {
@@ -22,7 +22,7 @@
       "reactions": [
         {
           "emoji": "❤️",
-          "count": "10",
+          "count": "11",
           "isPaid": false
         },
         {
@@ -36,7 +36,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1040,
+      "viewCount": 1070,
       "tgLink": "https://t.me/lawegorov/3750",
       "channel": "lawegorov",
       "channelTitle": "AVE in Law",
@@ -50,19 +50,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.67,
+      "priorityScore": 36.68,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 1040 просмотров",
-        "Сильная отдача аудитории: 1,6% реакций к просмотрам"
+        "Высокая вовлечённость: 18 реакций",
+        "Охват в Telegram Web: 1070 просмотров",
+        "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "Судьба подарков должнику, находящемуся в банкротстве На ЧЧ в Клубе цивилистов в очередной раз вышли на обсуждение вопроса о том, какова должна быть судьба подарков третьих лиц, адресованных должнику, находящемуся в проце",
-      "reactionCount": 17,
-      "engagementRate": 0.016346153846153847
+      "reactionCount": 18,
+      "engagementRate": 0.016822429906542057
     },
     {
       "id": "educatedyoungman/910",
@@ -101,7 +101,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1660,
+      "viewCount": 1720,
       "tgLink": "https://t.me/educatedyoungman/910",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -115,19 +115,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.57,
+      "priorityScore": 36.43,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 24 реакций",
-        "Охват в Telegram Web: 1660 просмотров",
+        "Охват в Telegram Web: 1720 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Судьба подарков должнику, находящемуся в банкротстве На ЧЧ в Клубе цивилистов в очередной раз вышли на обсуждение вопроса о том, какова должна быть судьба подарков третьих лиц, адресованных должнику, находящемуся в проце",
       "reactionCount": 24,
-      "engagementRate": 0.014457831325301205
+      "engagementRate": 0.013953488372093023
     },
     {
       "id": "probankrotstvoru/9686",
@@ -159,7 +159,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 566,
+      "viewCount": 581,
       "tgLink": "https://t.me/probankrotstvoru/9686",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -171,18 +171,18 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 28.12,
+      "priorityScore": 28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 566 просмотров",
-        "Сильная отдача аудитории: 1,1% реакций к просмотрам"
+        "Охват в Telegram Web: 581 просмотров",
+        "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС защитил экспедитора от иска об убытках за успешно доставленный грузВС признал соглашение об урегулировании с иностранным контрагентом недостаточным основ",
       "reactionCount": 6,
-      "engagementRate": 0.01060070671378092
+      "engagementRate": 0.010327022375215147
     },
     {
       "id": "disputesandsanctions/2456",
@@ -206,7 +206,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 103,
+      "viewCount": 111,
       "tgLink": "https://t.me/disputesandsanctions/2456",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -220,17 +220,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 25.84,
+      "priorityScore": 25.67,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 103 просмотров"
+        "Охват в Telegram Web: 111 просмотров"
       ],
       "digestSummary": "ВТАК (МКАС) - Гана - Признание и исполнениеОдин из первых задокументированных случаев признания и исполнения решения ВТАК (МКАС) за рубежом являлось дело В/О Разноэкспорт против Youngsters Ltd.Вызывает большой интерес, о",
       "reactionCount": 1,
-      "engagementRate": 0.009708737864077669
+      "engagementRate": 0.009009009009009009
     },
     {
       "id": "Compliance_Practice/3059",
@@ -266,7 +266,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1790,
+      "viewCount": 1820,
       "tgLink": "https://t.me/Compliance_Practice/3059",
       "channel": "Compliance_Practice",
       "channelTitle": "Compliance practice",
@@ -279,17 +279,17 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 22.59,
+      "priorityScore": 22.49,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Комплаенс",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 1790 просмотров"
+        "Охват в Telegram Web: 1820 просмотров"
       ],
       "digestSummary": "Почему азербайджанский Yelo Bank попал в санкции ЕСYelo Bank был основан в 1994 году как Ulpar Commercial Bank, переименован в Nikoil Bank в 2002 году, когда Nikoil Investment Banks Group/Lukoil приобрели контрольную дол",
       "reactionCount": 10,
-      "engagementRate": 0.00558659217877095
+      "engagementRate": 0.005494505494505495
     },
     {
       "id": "probankrotstvoru/9685",
@@ -320,7 +320,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 686,
+      "viewCount": 698,
       "tgLink": "https://t.me/probankrotstvoru/9685",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -331,17 +331,17 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 19.68,
+      "priorityScore": 19.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 686 просмотров",
+        "Охват в Telegram Web: 698 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Как быть, если вам навязывают невыгодные условия договора?Ответ кажется очевидным: не заключать его. Но что, если выбора нет? Например, контрагент — единственный в регионе поставщик необходимой вам услуги. Тогда вполне в",
       "reactionCount": 9,
-      "engagementRate": 0.013119533527696793
+      "engagementRate": 0.012893982808022923
     },
     {
       "id": "Shokobear/3895",
@@ -367,7 +367,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1170,
+      "viewCount": 1190,
       "tgLink": "https://t.me/Shokobear/3895",
       "channel": "Shokobear",
       "channelTitle": "Shokobear (Олег Зайцев о банкротстве)",
@@ -378,16 +378,16 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 13.52,
+      "priorityScore": 13.43,
       "priorityReasons": [
         "Категория канала: courts",
         "Высокая вовлечённость: 27 реакций",
-        "Охват в Telegram Web: 1170 просмотров",
+        "Охват в Telegram Web: 1190 просмотров",
         "Сильная отдача аудитории: 2,3% реакций к просмотрам"
       ],
       "digestSummary": "Когда я учился в РШЧП (где-то в 2003-2005 годах), у нас вел курс по сравнительному деликтному праву замечательный преподаватель Владимир Жуков.Потом он куда-то пропал и уже много лет я, увы, ничего о нем не слышал.Если в",
       "reactionCount": 27,
-      "engagementRate": 0.023076923076923078
+      "engagementRate": 0.0226890756302521
     },
     {
       "id": "bankrovert/704",
@@ -417,7 +417,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 182,
+      "viewCount": 185,
       "tgLink": "https://t.me/bankrovert/704",
       "channel": "bankrovert",
       "channelTitle": "Банкроверт",
@@ -427,16 +427,16 @@
         "bankruptcy",
         "courts"
       ],
-      "priorityScore": 12.34,
+      "priorityScore": 12.25,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 182 просмотров",
+        "Охват в Telegram Web: 185 просмотров",
         "Сильная отдача аудитории: 2,7% реакций к просмотрам"
       ],
       "digestSummary": "Рубрика Субботнее чтение, выпуск № 18 сезона 25/26Силы мои и материалы для рубрики истощаются, так как все прочитанное в Новогодние праздники давно уже освещено у меня в канале, майские еще только впереди, а хочется пред",
       "reactionCount": 5,
-      "engagementRate": 0.027472527472527472
+      "engagementRate": 0.02702702702702703
     },
     {
       "id": "bankrovert/705",
@@ -466,7 +466,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 185,
+      "viewCount": 187,
       "tgLink": "https://t.me/bankrovert/705",
       "channel": "bankrovert",
       "channelTitle": "Банкроверт",
@@ -476,15 +476,15 @@
         "bankruptcy",
         "courts"
       ],
-      "priorityScore": 9.3,
+      "priorityScore": 9.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
-        "Охват в Telegram Web: 185 просмотров",
+        "Охват в Telegram Web: 187 просмотров",
         "Сильная отдача аудитории: 4,3% реакций к просмотрам"
       ],
       "digestSummary": "",
       "reactionCount": 8,
-      "engagementRate": 0.043243243243243246
+      "engagementRate": 0.0427807486631016
     }
   ],
   "topTopics": [
