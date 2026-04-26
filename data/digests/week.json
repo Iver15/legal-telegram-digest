@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-26T16:07:47.973Z",
-  "totalPosts": 324,
+  "generatedAt": "2026-04-26T17:04:30.597Z",
+  "totalPosts": 323,
   "topPosts": [
     {
       "id": "lawegorov/3750",
@@ -36,7 +36,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 903,
+      "viewCount": 981,
       "tgLink": "https://t.me/lawegorov/3750",
       "channel": "lawegorov",
       "channelTitle": "AVE in Law",
@@ -50,19 +50,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.76,
+      "priorityScore": 36.67,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 903 просмотров",
-        "Сильная отдача аудитории: 1,8% реакций к просмотрам"
+        "Охват в Telegram Web: 981 просмотров",
+        "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Судьба подарков должнику, находящемуся в банкротстве На ЧЧ в Клубе цивилистов в очередной раз вышли на обсуждение вопроса о том, какова должна быть судьба подарков третьих лиц, адресованных должнику, находящемуся в проце",
       "reactionCount": 16,
-      "engagementRate": 0.017718715393133997
+      "engagementRate": 0.0163098878695209
     },
     {
       "id": "educatedyoungman/910",
@@ -101,7 +101,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1500,
+      "viewCount": 1590,
       "tgLink": "https://t.me/educatedyoungman/910",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -115,19 +115,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.67,
+      "priorityScore": 36.57,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 23 реакций",
-        "Охват в Telegram Web: 1500 просмотров",
-        "Сильная отдача аудитории: 1,5% реакций к просмотрам"
+        "Охват в Telegram Web: 1590 просмотров",
+        "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Судьба подарков должнику, находящемуся в банкротстве На ЧЧ в Клубе цивилистов в очередной раз вышли на обсуждение вопроса о том, какова должна быть судьба подарков третьих лиц, адресованных должнику, находящемуся в проце",
       "reactionCount": 23,
-      "engagementRate": 0.015333333333333332
+      "engagementRate": 0.014465408805031447
     },
     {
       "id": "sotbi_law/172",
@@ -581,7 +581,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 925,
+      "viewCount": 927,
       "tgLink": "https://t.me/probankrotstvoru/9678",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -601,12 +601,12 @@
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 925 просмотров",
+        "Охват в Telegram Web: 927 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "ВС отказал «Групформедиа» в споре с «дочкой» Google на 157 млн рублейВерховный Суд РФ отказал рекламному агентству «Групформедиа» в пересмотре судебных актов по спору с обществом «Гугл» (российский структуры Google). Суд",
       "reactionCount": 15,
-      "engagementRate": 0.016216216216216217
+      "engagementRate": 0.016181229773462782
     },
     {
       "id": "probankrotstvoru/9657",
@@ -644,7 +644,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1370,
+      "viewCount": 1380,
       "tgLink": "https://t.me/probankrotstvoru/9657",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -664,12 +664,12 @@
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 23 реакций",
-        "Охват в Telegram Web: 1370 просмотров",
+        "Охват в Telegram Web: 1380 просмотров",
         "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "ВС проверит, можно ли списать долг за аварию при отсутствии страховкиЛеонид Королев, управляя мотоциклом без полиса ОСАГО, нарушил ПДД и повредил автомобиль Александра Сорокина. Волжский городской суд Волгоградской облас",
       "reactionCount": 23,
-      "engagementRate": 0.016788321167883213
+      "engagementRate": 0.016666666666666666
     },
     {
       "id": "sudpraktik_bankrot_demo/2629",
@@ -693,7 +693,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 770,
+      "viewCount": 778,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2629",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -707,17 +707,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 29.93,
+      "priorityScore": 29.81,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 770 просмотров"
+        "Охват в Telegram Web: 778 просмотров"
       ],
       "digestSummary": "Дайджест на тему «взыскание неустойки в деле о банкротстве»Правила о моратории не применяются к лицам, в отношении которых на день введения моратория возбуждено дело о банкротстве, при этом на текущие платежи подлежит на",
       "reactionCount": 1,
-      "engagementRate": 0.0012987012987012987
+      "engagementRate": 0.0012853470437017994
     },
     {
       "id": "orpauradio/9320",
@@ -779,12 +779,12 @@
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 244
+      "count": 243
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 226
+      "count": 225
     },
     {
       "id": "enforcement",
@@ -794,7 +794,7 @@
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 53
+      "count": 52
     },
     {
       "id": "tax",
@@ -836,7 +836,7 @@
     {
       "channel": "disputesandsanctions",
       "title": "LetterRogatory v.2",
-      "count": 15
+      "count": 14
     },
     {
       "channel": "corplawpro",
