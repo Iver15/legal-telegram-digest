@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-26T23:09:32.778Z",
+  "generatedAt": "2026-04-26T23:58:34.056Z",
   "totalPosts": 18,
   "topPosts": [
     {
@@ -40,7 +40,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 29.05,
+      "priorityScore": 28.95,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -96,7 +96,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.71,
+      "priorityScore": 28.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -154,7 +154,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.32,
+      "priorityScore": 27.22,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
@@ -213,7 +213,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 26.75,
+      "priorityScore": 26.65,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -260,7 +260,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 26.62,
+      "priorityScore": 26.52,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -294,7 +294,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 632,
+      "viewCount": 633,
       "tgLink": "https://t.me/subsidiarka_kdl/4493",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -308,17 +308,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 26.27,
+      "priorityScore": 26.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 632 просмотров"
+        "Охват в Telegram Web: 633 просмотров"
       ],
       "digestSummary": "📣 Подготовили дайджест самых интересных судебных кейсов и новостей о субсидиарной ответственности за эту неделю!📎 При определении размера субсидиарной ответственности суды обязаны исключить штрафы за налоговые правонар",
       "reactionCount": 3,
-      "engagementRate": 0.004746835443037975
+      "engagementRate": 0.004739336492890996
     },
     {
       "id": "lawegorov/3749",
@@ -372,7 +372,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 25.67,
+      "priorityScore": 25.57,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
@@ -416,7 +416,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 893,
+      "viewCount": 896,
       "tgLink": "https://t.me/probankrotstvoru/9683",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -428,17 +428,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.63,
+      "priorityScore": 25.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 893 просмотров"
+        "Охват в Telegram Web: 896 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новости мира банкротстваЦБ обсуждает новый подход к оценке закредитованностиС 2027 г. кредиторы лишатся возможности использовать неподтвержденные д",
       "reactionCount": 8,
-      "engagementRate": 0.008958566629339306
+      "engagementRate": 0.008928571428571428
     },
     {
       "id": "disputesandsanctions/2455",
@@ -477,7 +477,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 20.9,
+      "priorityScore": 20.8,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -532,7 +532,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 19.2,
+      "priorityScore": 19.09,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -577,7 +577,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 17.68,
+      "priorityScore": 17.57,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -626,7 +626,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 15.07,
+      "priorityScore": 14.97,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",

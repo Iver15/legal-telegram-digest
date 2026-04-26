@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-26T23:09:32.777Z",
+  "generatedAt": "2026-04-26T23:58:34.055Z",
   "totalPosts": 7,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1170,
+      "viewCount": 1180,
       "tgLink": "https://t.me/lawegorov/3750",
       "channel": "lawegorov",
       "channelTitle": "AVE in Law",
@@ -55,19 +55,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.26,
+      "priorityScore": 36.16,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 1170 просмотров",
+        "Охват в Telegram Web: 1180 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Судьба подарков должнику, находящемуся в банкротстве На ЧЧ в Клубе цивилистов в очередной раз вышли на обсуждение вопроса о том, какова должна быть судьба подарков третьих лиц, адресованных должнику, находящемуся в проце",
       "reactionCount": 19,
-      "engagementRate": 0.01623931623931624
+      "engagementRate": 0.016101694915254237
     },
     {
       "id": "educatedyoungman/910",
@@ -120,7 +120,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.77,
+      "priorityScore": 35.67,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -164,7 +164,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 645,
+      "viewCount": 652,
       "tgLink": "https://t.me/probankrotstvoru/9686",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -176,17 +176,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.34,
+      "priorityScore": 27.23,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 645 просмотров"
+        "Охват в Telegram Web: 652 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС защитил экспедитора от иска об убытках за успешно доставленный грузВС признал соглашение об урегулировании с иностранным контрагентом недостаточным основ",
       "reactionCount": 6,
-      "engagementRate": 0.009302325581395349
+      "engagementRate": 0.009202453987730062
     },
     {
       "id": "disputesandsanctions/2456",
@@ -224,7 +224,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 24.94,
+      "priorityScore": 24.83,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -283,7 +283,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 21.91,
+      "priorityScore": 21.81,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -324,7 +324,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 737,
+      "viewCount": 742,
       "tgLink": "https://t.me/probankrotstvoru/9685",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -335,17 +335,17 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 18.93,
+      "priorityScore": 18.82,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 737 просмотров",
+        "Охват в Telegram Web: 742 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Как быть, если вам навязывают невыгодные условия договора?Ответ кажется очевидным: не заключать его. Но что, если выбора нет? Например, контрагент — единственный в регионе поставщик необходимой вам услуги. Тогда вполне в",
       "reactionCount": 9,
-      "engagementRate": 0.012211668928086838
+      "engagementRate": 0.012129380053908356
     },
     {
       "id": "Shokobear/3895",
@@ -382,7 +382,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 13,
+      "priorityScore": 12.9,
       "priorityReasons": [
         "Категория канала: courts",
         "Высокая вовлечённость: 28 реакций",
