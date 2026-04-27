@@ -1,8 +1,8 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-27T01:56:36.874Z",
-  "totalPosts": 7,
+  "generatedAt": "2026-04-27T05:03:51.767Z",
+  "totalPosts": 12,
   "topPosts": [
     {
       "id": "lawegorov/3750",
@@ -22,7 +22,7 @@
       "reactions": [
         {
           "emoji": "❤️",
-          "count": "11",
+          "count": "12",
           "isPaid": false
         },
         {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1190,
+      "viewCount": 1250,
       "tgLink": "https://t.me/lawegorov/3750",
       "channel": "lawegorov",
       "channelTitle": "AVE in Law",
@@ -55,19 +55,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.92,
+      "priorityScore": 35.64,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 1190 просмотров",
+        "Высокая вовлечённость: 20 реакций",
+        "Охват в Telegram Web: 1250 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Судьба подарков должнику, находящемуся в банкротстве На ЧЧ в Клубе цивилистов в очередной раз вышли на обсуждение вопроса о том, какова должна быть судьба подарков третьих лиц, адресованных должнику, находящемуся в проце",
-      "reactionCount": 19,
-      "engagementRate": 0.015966386554621848
+      "reactionCount": 20,
+      "engagementRate": 0.016
     },
     {
       "id": "educatedyoungman/910",
@@ -87,7 +87,7 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "12",
+          "count": "13",
           "isPaid": false
         },
         {
@@ -106,7 +106,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1880,
+      "viewCount": 1940,
       "tgLink": "https://t.me/educatedyoungman/910",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -120,19 +120,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.4,
+      "priorityScore": 35.14,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 24 реакций",
-        "Охват в Telegram Web: 1880 просмотров",
+        "Высокая вовлечённость: 25 реакций",
+        "Охват в Telegram Web: 1940 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Судьба подарков должнику, находящемуся в банкротстве На ЧЧ в Клубе цивилистов в очередной раз вышли на обсуждение вопроса о том, какова должна быть судьба подарков третьих лиц, адресованных должнику, находящемуся в проце",
-      "reactionCount": 24,
-      "engagementRate": 0.01276595744680851
+      "reactionCount": 25,
+      "engagementRate": 0.01288659793814433
     },
     {
       "id": "probankrotstvoru/9686",
@@ -164,7 +164,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 658,
+      "viewCount": 697,
       "tgLink": "https://t.me/probankrotstvoru/9686",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -176,17 +176,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.97,
+      "priorityScore": 26.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 658 просмотров"
+        "Охват в Telegram Web: 697 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС защитил экспедитора от иска об убытках за успешно доставленный грузВС признал соглашение об урегулировании с иностранным контрагентом недостаточным основ",
       "reactionCount": 6,
-      "engagementRate": 0.00911854103343465
+      "engagementRate": 0.00860832137733142
     },
     {
       "id": "disputesandsanctions/2456",
@@ -210,7 +210,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 143,
+      "viewCount": 156,
       "tgLink": "https://t.me/disputesandsanctions/2456",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -224,17 +224,59 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 24.57,
+      "priorityScore": 24.13,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 143 просмотров"
+        "Охват в Telegram Web: 156 просмотров"
       ],
       "digestSummary": "ВТАК (МКАС) - Гана - Признание и исполнениеОдин из первых задокументированных случаев признания и исполнения решения ВТАК (МКАС) за рубежом являлось дело В/О Разноэкспорт против Youngsters Ltd.Вызывает большой интерес, о",
       "reactionCount": 1,
-      "engagementRate": 0.006993006993006993
+      "engagementRate": 0.00641025641025641
+    },
+    {
+      "id": "vZone1413/8888",
+      "title": "13ААС - Апелляция принимает во внимание, что жалоба в РР на АУ подана лицом, не участвующим в деле о банкротстве и в арбитражном процессе по делу о банкротстве, то есть не кредитором, не участником Общества, не представителем учредителей, работником и т.д., поименованных в ст. 34, 35 ЗОБа. Доказательств того, что действиями АУ причинен ущерб кредиторам должника или нарушены их права материалы дела не содержат.Санкт-Петербург 24.04.26г. А26-10764/2025",
+      "type": "text",
+      "datetime": "2026-04-27T03:52:38+00:00",
+      "tags": [
+        "bankruptcy",
+        "arbitration",
+        "courts"
+      ],
+      "text": "13ААС - Апелляция принимает во внимание, что жалоба в РР на АУ подана лицом, не участвующим в деле о банкротстве и в арбитражном процессе по делу о банкротстве, то есть не кредитором, не участником Общества, не представителем учредителей, работником и т.д., поименованных в ст. 34, 35 ЗОБа. Доказательств того, что действиями АУ причинен ущерб кредиторам должника или нарушены их права материалы дела не содержат.Санкт-Петербург 24.04.26г. А26-10764/2025",
+      "content": "<p>13ААС - Апелляция принимает во внимание, что жалоба в РР на АУ подана лицом, не участвующим в деле о банкротстве и в арбитражном процессе по делу о банкротстве, то есть не кредитором, не участником Общества, не представителем учредителей, работником и т.д., поименованных в ст. 34, 35 ЗОБа. Доказательств того, что действиями АУ причинен ущерб кредиторам должника или нарушены их права материалы дела не содержат.<br>Санкт-Петербург 24.04.26г. <a href=\"https://ras.arbitr.ru/Document/Pdf/85e43674-d975-4c8c-9ea3-97d770b7ecb5/24f050b3-d05b-434f-a2e3-c67bb1de3568/%D0%9026-10764-2025__20260424.pdf?isAddStamp=True\" target=\"_blank\" rel=\"noopener\" title=\"А26-10764/2025\">А26-10764/2025</a></p>",
+      "reactions": [
+        {
+          "emoji": "👏",
+          "count": "2",
+          "isPaid": false
+        }
+      ],
+      "viewCount": 221,
+      "tgLink": "https://t.me/vZone1413/8888",
+      "channel": "vZone1413",
+      "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
+      "category": "bankruptcy",
+      "group": "practical_law",
+      "legalTopics": [
+        "bankruptcy",
+        "arbitration",
+        "courts"
+      ],
+      "priorityScore": 22.46,
+      "priorityReasons": [
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Банкротство",
+        "Совпадение по теме: Арбитраж",
+        "Совпадение по теме: Суды",
+        "Охват в Telegram Web: 221 просмотров"
+      ],
+      "digestSummary": "13ААС - Апелляция принимает во внимание, что жалоба в РР на АУ подана лицом, не участвующим в деле о банкротстве и в арбитражном процессе по делу о банкротстве, то есть не кредитором, не участником Общества, не представи",
+      "reactionCount": 2,
+      "engagementRate": 0.00904977375565611
     },
     {
       "id": "Compliance_Practice/3059",
@@ -270,7 +312,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1960,
+      "viewCount": 2050,
       "tgLink": "https://t.me/Compliance_Practice/3059",
       "channel": "Compliance_Practice",
       "channelTitle": "Compliance practice",
@@ -283,17 +325,64 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 21.56,
+      "priorityScore": 21.15,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Комплаенс",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 1960 просмотров"
+        "Охват в Telegram Web: 2050 просмотров"
       ],
       "digestSummary": "Почему азербайджанский Yelo Bank попал в санкции ЕСYelo Bank был основан в 1994 году как Ulpar Commercial Bank, переименован в Nikoil Bank в 2002 году, когда Nikoil Investment Banks Group/Lukoil приобрели контрольную дол",
       "reactionCount": 10,
-      "engagementRate": 0.00510204081632653
+      "engagementRate": 0.004878048780487805
+    },
+    {
+      "id": "vZone1413/8887",
+      "title": "13ААС - Не опубликование сведений в ЕФРСБ не создало препятствий для производства по делу о банкротстве и при выполнении мероприятий, установленных ЗОБом. Санкт-Петербург 24.04.26г. А26-10764/2025",
+      "type": "text",
+      "datetime": "2026-04-27T03:50:37+00:00",
+      "tags": [
+        "bankruptcy",
+        "arbitration",
+        "ai_law"
+      ],
+      "text": "13ААС - Не опубликование сведений в ЕФРСБ не создало препятствий для производства по делу о банкротстве и при выполнении мероприятий, установленных ЗОБом. Санкт-Петербург 24.04.26г. А26-10764/2025",
+      "content": "<p>13ААС - Не опубликование сведений в ЕФРСБ не создало препятствий для производства по делу о банкротстве и при выполнении мероприятий, установленных ЗОБом.<br> Санкт-Петербург 24.04.26г. <a href=\"https://ras.arbitr.ru/Document/Pdf/85e43674-d975-4c8c-9ea3-97d770b7ecb5/24f050b3-d05b-434f-a2e3-c67bb1de3568/%D0%9026-10764-2025__20260424.pdf?isAddStamp=True\" target=\"_blank\" rel=\"noopener\" title=\"А26-10764/2025\">А26-10764/2025</a></p>",
+      "reactions": [
+        {
+          "emoji": "👏",
+          "count": "3",
+          "isPaid": false
+        },
+        {
+          "emoji": "❤️",
+          "count": "1",
+          "isPaid": false
+        }
+      ],
+      "viewCount": 218,
+      "tgLink": "https://t.me/vZone1413/8887",
+      "channel": "vZone1413",
+      "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
+      "category": "bankruptcy",
+      "group": "practical_law",
+      "legalTopics": [
+        "bankruptcy",
+        "arbitration",
+        "ai_law"
+      ],
+      "priorityScore": 20.54,
+      "priorityReasons": [
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Банкротство",
+        "Совпадение по теме: AI+Law",
+        "Охват в Telegram Web: 218 просмотров",
+        "Сильная отдача аудитории: 1,8% реакций к просмотрам"
+      ],
+      "digestSummary": "13ААС - Не опубликование сведений в ЕФРСБ не создало препятствий для производства по делу о банкротстве и при выполнении мероприятий, установленных ЗОБом. Санкт-Петербург 24.04.26г. А26-10764/2025",
+      "reactionCount": 4,
+      "engagementRate": 0.01834862385321101
     },
     {
       "id": "probankrotstvoru/9685",
@@ -324,7 +413,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 747,
+      "viewCount": 766,
       "tgLink": "https://t.me/probankrotstvoru/9685",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -335,17 +424,54 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 18.57,
+      "priorityScore": 18.14,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 747 просмотров",
+        "Охват в Telegram Web: 766 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Как быть, если вам навязывают невыгодные условия договора?Ответ кажется очевидным: не заключать его. Но что, если выбора нет? Например, контрагент — единственный в регионе поставщик необходимой вам услуги. Тогда вполне в",
       "reactionCount": 9,
-      "engagementRate": 0.012048192771084338
+      "engagementRate": 0.01174934725848564
+    },
+    {
+      "id": "vZone1413/8890",
+      "title": "❗️13ААС: АУ не опубликовал сведения о судебных актах суда кассационной инстанции, оставившем без изменения судебные акты суда апелляционной инстанции. Неопубликование сведений о принятии постановления кассационной инстанции не уменьшило объем информации, получаемой потенциально заинтересованным лицом об итоге судебного рассмотрения.Санкт-Петербург, 24.04.26 г. А26-10764/2025",
+      "type": "text",
+      "datetime": "2026-04-27T04:05:19+00:00",
+      "tags": [
+        "bankruptcy",
+        "arbitration",
+        "courts",
+        "ai_law"
+      ],
+      "text": "❗️13ААС: АУ не опубликовал сведения о судебных актах суда кассационной инстанции, оставившем без изменения судебные акты суда апелляционной инстанции. Неопубликование сведений о принятии постановления кассационной инстанции не уменьшило объем информации, получаемой потенциально заинтересованным лицом об итоге судебного рассмотрения.Санкт-Петербург, 24.04.26 г. А26-10764/2025",
+      "content": "<p><i class=\"emoji\"><b>❗️</b></i>13ААС: АУ не опубликовал сведения о судебных актах суда кассационной инстанции, оставившем без изменения судебные акты суда апелляционной инстанции. Неопубликование сведений о принятии постановления кассационной инстанции не уменьшило объем информации, получаемой потенциально заинтересованным лицом об итоге судебного рассмотрения.<br>Санкт-Петербург, 24.04.26 г. <a href=\"https://ras.arbitr.ru/Document/Pdf/85e43674-d975-4c8c-9ea3-97d770b7ecb5/24f050b3-d05b-434f-a2e3-c67bb1de3568/%D0%9026-10764-2025__20260424.pdf?isAddStamp=True\" target=\"_blank\" rel=\"noopener\" title=\"А26-10764/2025\">А26-10764/2025</a></p>",
+      "reactions": [],
+      "viewCount": 205,
+      "tgLink": "https://t.me/vZone1413/8890",
+      "channel": "vZone1413",
+      "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
+      "category": "bankruptcy",
+      "group": "practical_law",
+      "legalTopics": [
+        "bankruptcy",
+        "arbitration",
+        "courts",
+        "ai_law"
+      ],
+      "priorityScore": 17.85,
+      "priorityReasons": [
+        "Категория канала: bankruptcy",
+        "Совпадение по теме: Суды",
+        "Совпадение по теме: AI+Law",
+        "Охват в Telegram Web: 205 просмотров"
+      ],
+      "digestSummary": "❗️13ААС: АУ не опубликовал сведения о судебных актах суда кассационной инстанции, оставившем без изменения судебные акты суда апелляционной инстанции. Неопубликование сведений о принятии постановления кассационной инстан",
+      "reactionCount": 0,
+      "engagementRate": 0
     },
     {
       "id": "Shokobear/3895",
@@ -362,7 +488,7 @@
       "reactions": [
         {
           "emoji": "❤️",
-          "count": "23",
+          "count": "24",
           "isPaid": false
         },
         {
@@ -371,7 +497,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1270,
+      "viewCount": 1300,
       "tgLink": "https://t.me/Shokobear/3895",
       "channel": "Shokobear",
       "channelTitle": "Shokobear (Олег Зайцев о банкротстве)",
@@ -382,33 +508,113 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 12.65,
+      "priorityScore": 12.37,
       "priorityReasons": [
         "Категория канала: courts",
-        "Высокая вовлечённость: 28 реакций",
-        "Охват в Telegram Web: 1270 просмотров",
+        "Высокая вовлечённость: 29 реакций",
+        "Охват в Telegram Web: 1300 просмотров",
         "Сильная отдача аудитории: 2,2% реакций к просмотрам"
       ],
       "digestSummary": "Когда я учился в РШЧП (где-то в 2003-2005 годах), у нас вел курс по сравнительному деликтному праву замечательный преподаватель Владимир Жуков.Потом он куда-то пропал и уже много лет я, увы, ничего о нем не слышал.Если в",
-      "reactionCount": 28,
-      "engagementRate": 0.02204724409448819
+      "reactionCount": 29,
+      "engagementRate": 0.022307692307692306
+    },
+    {
+      "id": "vZone1413/8889",
+      "title": "Сокращенное наименование ААУ «Солидарность» прямо закреплено в ЕГРЮЛ.Санкт-Петербург 24.04.26г. А26-10764/2025",
+      "type": "text",
+      "datetime": "2026-04-27T03:54:43+00:00",
+      "tags": [
+        "bankruptcy",
+        "arbitration"
+      ],
+      "text": "Сокращенное наименование ААУ «Солидарность» прямо закреплено в ЕГРЮЛ.Санкт-Петербург 24.04.26г. А26-10764/2025",
+      "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-8889-0\" popovertargetaction=\"show\" aria-label=\"Open image preview: Сокращенное наименование ААУ «Солидарность» прямо закреплено в ЕГРЮЛ.Санкт-Петербург 24.04.26г. А26-10764/2025\">\n        <img src=\"/legal-telegram-digest/media/638b5d6d6e0c5762b6d69441eb89d782.jpg\" alt=\"Сокращенное наименование ААУ «Солидарность» прямо закреплено в ЕГРЮЛ.Санкт-Петербург 24.04.26г. А26-10764/2025\" width=\"552\" height=\"256\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-8889-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-8889-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-8889-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"/legal-telegram-digest/media/638b5d6d6e0c5762b6d69441eb89d782.jpg\" alt=\"Сокращенное наименование ААУ «Солидарность» прямо закреплено в ЕГРЮЛ.Санкт-Петербург 24.04.26г. А26-10764/2025\" width=\"552\" height=\"256\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div><p>Сокращенное наименование ААУ «Солидарность» прямо закреплено в ЕГРЮЛ.<br>Санкт-Петербург 24.04.26г. <a href=\"https://ras.arbitr.ru/Document/Pdf/85e43674-d975-4c8c-9ea3-97d770b7ecb5/24f050b3-d05b-434f-a2e3-c67bb1de3568/%D0%9026-10764-2025__20260424.pdf?isAddStamp=True\" target=\"_blank\" rel=\"noopener\" title=\"А26-10764/2025\">А26-10764/2025</a></p>",
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "5",
+          "isPaid": false
+        }
+      ],
+      "viewCount": 244,
+      "tgLink": "https://t.me/vZone1413/8889",
+      "channel": "vZone1413",
+      "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
+      "category": "bankruptcy",
+      "group": "practical_law",
+      "legalTopics": [
+        "bankruptcy",
+        "arbitration"
+      ],
+      "priorityScore": 11.63,
+      "priorityReasons": [
+        "Категория канала: bankruptcy",
+        "Охват в Telegram Web: 244 просмотров",
+        "Сильная отдача аудитории: 2,0% реакций к просмотрам"
+      ],
+      "digestSummary": "Сокращенное наименование ААУ «Солидарность» прямо закреплено в ЕГРЮЛ.Санкт-Петербург 24.04.26г. А26-10764/2025",
+      "reactionCount": 5,
+      "engagementRate": 0.020491803278688523
+    },
+    {
+      "id": "vZone1413/8886",
+      "title": "13ААС - Предупреждение АУ отменить! (12 нарушений).Санкт-Петербург 24.04.26г. А26-10764/2025",
+      "type": "text",
+      "datetime": "2026-04-27T03:45:57+00:00",
+      "tags": [
+        "bankruptcy",
+        "arbitration"
+      ],
+      "text": "13ААС - Предупреждение АУ отменить! (12 нарушений).Санкт-Петербург 24.04.26г. А26-10764/2025",
+      "content": "<p>13ААС - Предупреждение АУ отменить! (12 нарушений).<br>Санкт-Петербург 24.04.26г. <a href=\"https://ras.arbitr.ru/Document/Pdf/85e43674-d975-4c8c-9ea3-97d770b7ecb5/24f050b3-d05b-434f-a2e3-c67bb1de3568/%D0%9026-10764-2025__20260424.pdf?isAddStamp=True\" target=\"_blank\" rel=\"noopener\" title=\"А26-10764/2025\">А26-10764/2025</a></p>",
+      "reactions": [
+        {
+          "emoji": "👏",
+          "count": "1",
+          "isPaid": false
+        }
+      ],
+      "viewCount": 217,
+      "tgLink": "https://t.me/vZone1413/8886",
+      "channel": "vZone1413",
+      "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
+      "category": "bankruptcy",
+      "group": "practical_law",
+      "legalTopics": [
+        "bankruptcy",
+        "arbitration"
+      ],
+      "priorityScore": 9.82,
+      "priorityReasons": [
+        "Категория канала: bankruptcy",
+        "Охват в Telegram Web: 217 просмотров"
+      ],
+      "digestSummary": "13ААС - Предупреждение АУ отменить! (12 нарушений).Санкт-Петербург 24.04.26г. А26-10764/2025",
+      "reactionCount": 1,
+      "engagementRate": 0.004608294930875576
     }
   ],
   "topTopics": [
     {
-      "id": "courts",
-      "label": "Суды",
-      "count": 7
-    },
-    {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 6
+      "count": 11
+    },
+    {
+      "id": "bankruptcy",
+      "label": "Банкротство",
+      "count": 9
+    },
+    {
+      "id": "courts",
+      "label": "Суды",
+      "count": 9
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 5
+      "count": 7
     },
     {
       "id": "enforcement",
@@ -421,17 +627,17 @@
       "count": 4
     },
     {
-      "id": "bankruptcy",
-      "label": "Банкротство",
-      "count": 4
-    },
-    {
       "id": "compliance",
       "label": "Комплаенс",
       "count": 2
     }
   ],
   "topChannels": [
+    {
+      "channel": "vZone1413",
+      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
+      "count": 5
+    },
     {
       "channel": "probankrotstvoru",
       "title": "PROбанкротство",

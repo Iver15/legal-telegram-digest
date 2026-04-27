@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-27T01:56:36.875Z",
+  "generatedAt": "2026-04-27T05:03:51.768Z",
   "totalPosts": 18,
   "topPosts": [
     {
@@ -26,7 +26,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 816,
+      "viewCount": 830,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2629",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -40,17 +40,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 28.71,
+      "priorityScore": 28.32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 816 просмотров"
+        "Охват в Telegram Web: 830 просмотров"
       ],
       "digestSummary": "Дайджест на тему «взыскание неустойки в деле о банкротстве»Правила о моратории не применяются к лицам, в отношении которых на день введения моратория возбуждено дело о банкротстве, при этом на текущие платежи подлежит на",
       "reactionCount": 1,
-      "engagementRate": 0.0012254901960784314
+      "engagementRate": 0.0012048192771084338
     },
     {
       "id": "probankrotstvoru/9684",
@@ -83,7 +83,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1110,
+      "viewCount": 1120,
       "tgLink": "https://t.me/probankrotstvoru/9684",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -96,17 +96,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.36,
+      "priorityScore": 27.96,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1110 просмотров"
+        "Охват в Telegram Web: 1120 просмотров"
       ],
       "digestSummary": "Банкротство БеталинкИстория «Беталинка» стала классической российской драмой розничного бизнеса, которая началась с амбициозных планов и закончилась громким банкротством. Компания «Беталинк» была одним из крупнейших росс",
       "reactionCount": 8,
-      "engagementRate": 0.007207207207207207
+      "engagementRate": 0.007142857142857143
     },
     {
       "id": "corplawpro/5926",
@@ -140,7 +140,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 618,
+      "viewCount": 634,
       "tgLink": "https://t.me/corplawpro/5926",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -154,17 +154,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.97,
+      "priorityScore": 26.57,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 618 просмотров"
+        "Охват в Telegram Web: 634 просмотров"
       ],
       "digestSummary": "Тенденции привлечения к субсидиарной ответственности 2026О дискуссииВ 2025 году число корпоративных банкротств упало до минимума за 10 лет — признано банкротами всего 6 477 компаний (−24,3% к прошлому году). Классическая",
       "reactionCount": 3,
-      "engagementRate": 0.0048543689320388345
+      "engagementRate": 0.00473186119873817
     },
     {
       "id": "legally_bald/1175",
@@ -201,7 +201,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1630,
+      "viewCount": 1660,
       "tgLink": "https://t.me/legally_bald/1175",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -213,18 +213,18 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 26.4,
+      "priorityScore": 26,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 1630 просмотров"
+        "Охват в Telegram Web: 1660 просмотров"
       ],
       "digestSummary": "Убытки вместо конкурсного оспариванияВ деле о банкротстве общества «Дирекция капитального строительства фонда жилищного строительстваРеспублики Башкортостан» Верховный Суд обсудил можно ли вместо оспаривания сделки по из",
       "reactionCount": 12,
-      "engagementRate": 0.007361963190184049
+      "engagementRate": 0.007228915662650603
     },
     {
       "id": "Shokobear/3893",
@@ -247,7 +247,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1130,
+      "viewCount": 1150,
       "tgLink": "https://t.me/Shokobear/3893",
       "channel": "Shokobear",
       "channelTitle": "Shokobear (Олег Зайцев о банкротстве)",
@@ -260,17 +260,17 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 26.27,
+      "priorityScore": 25.87,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 1130 просмотров"
+        "Охват в Telegram Web: 1150 просмотров"
       ],
       "digestSummary": "Убытки вместо конкурсного оспариванияВ деле о банкротстве общества «Дирекция капитального строительства фонда жилищного строительстваРеспублики Башкортостан» Верховный Суд обсудил можно ли вместо оспаривания сделки по из",
       "reactionCount": 9,
-      "engagementRate": 0.007964601769911504
+      "engagementRate": 0.00782608695652174
     },
     {
       "id": "subsidiarka_kdl/4493",
@@ -294,7 +294,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 634,
+      "viewCount": 647,
       "tgLink": "https://t.me/subsidiarka_kdl/4493",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -308,17 +308,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 25.92,
+      "priorityScore": 25.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 634 просмотров"
+        "Охват в Telegram Web: 647 просмотров"
       ],
       "digestSummary": "📣 Подготовили дайджест самых интересных судебных кейсов и новостей о субсидиарной ответственности за эту неделю!📎 При определении размера субсидиарной ответственности суды обязаны исключить штрафы за налоговые правонар",
       "reactionCount": 3,
-      "engagementRate": 0.00473186119873817
+      "engagementRate": 0.00463678516228748
     },
     {
       "id": "lawegorov/3749",
@@ -360,7 +360,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1930,
+      "viewCount": 1950,
       "tgLink": "https://t.me/lawegorov/3749",
       "channel": "lawegorov",
       "channelTitle": "AVE in Law",
@@ -372,19 +372,19 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 25.32,
+      "priorityScore": 24.93,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 65 реакций",
-        "Охват в Telegram Web: 1930 просмотров",
-        "Сильная отдача аудитории: 3,4% реакций к просмотрам"
+        "Охват в Telegram Web: 1950 просмотров",
+        "Сильная отдача аудитории: 3,3% реакций к просмотрам"
       ],
       "digestSummary": "Судебный департамент удалил статистику начиная с 2005 года. Мы восстановили архив и опубликовали его в нашем каталогеНа этой неделе Судебный департамент при Верховном суде не опубликовал данные о судимости в России за 20",
       "reactionCount": 65,
-      "engagementRate": 0.03367875647668394
+      "engagementRate": 0.03333333333333333
     },
     {
       "id": "probankrotstvoru/9683",
@@ -416,7 +416,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 898,
+      "viewCount": 913,
       "tgLink": "https://t.me/probankrotstvoru/9683",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -428,17 +428,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.28,
+      "priorityScore": 24.87,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 898 просмотров"
+        "Охват в Telegram Web: 913 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новости мира банкротстваЦБ обсуждает новый подход к оценке закредитованностиС 2027 г. кредиторы лишатся возможности использовать неподтвержденные д",
       "reactionCount": 8,
-      "engagementRate": 0.008908685968819599
+      "engagementRate": 0.008762322015334063
     },
     {
       "id": "disputesandsanctions/2455",
@@ -465,7 +465,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 207,
+      "viewCount": 212,
       "tgLink": "https://t.me/disputesandsanctions/2455",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -477,18 +477,18 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 20.56,
+      "priorityScore": 20.18,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 207 просмотров",
-        "Сильная отдача аудитории: 2,9% реакций к просмотрам"
+        "Охват в Telegram Web: 212 просмотров",
+        "Сильная отдача аудитории: 2,8% реакций к просмотрам"
       ],
       "digestSummary": "ВТАК - Воспоминания - Дитер ШерВыше размещаю статью из зарадно-германского журнала за 1956 г., в котором адвокат Дитер Шер делился своими впечатлениями от разбирательства во ВТАК (правопредшественник МКАС)Вместе с процес",
       "reactionCount": 6,
-      "engagementRate": 0.028985507246376812
+      "engagementRate": 0.02830188679245283
     },
     {
       "id": "orpauradio/9356",
@@ -520,7 +520,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1540,
+      "viewCount": 1560,
       "tgLink": "https://t.me/orpauradio/9356",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -532,18 +532,18 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 19.05,
+      "priorityScore": 18.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 40 реакций",
-        "Охват в Telegram Web: 1540 просмотров",
+        "Охват в Telegram Web: 1560 просмотров",
         "Сильная отдача аудитории: 2,6% реакций к просмотрам"
       ],
       "digestSummary": "Итак, публикую скан Решения ВС РФ от 16.03.2026 с отметкой о вступлении в законную силу Можно скачать данное Решение с сайта суда. В Консультант+ оно так же добавлено",
       "reactionCount": 40,
-      "engagementRate": 0.025974025974025976
+      "engagementRate": 0.02564102564102564
     },
     {
       "id": "corplawpro/5920",
@@ -565,7 +565,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 640,
+      "viewCount": 653,
       "tgLink": "https://t.me/corplawpro/5920",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -577,17 +577,17 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 17.33,
+      "priorityScore": 16.94,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 640 просмотров"
+        "Охват в Telegram Web: 653 просмотров"
       ],
       "digestSummary": "📣 Подготовили дайджест самых интересных судебных кейсов и новостей по корпоративному праву за эту неделю!📎 При признании соглашения о новации недействительным срок исковой давности по первоначальному обязательству исчи",
       "reactionCount": 1,
-      "engagementRate": 0.0015625
+      "engagementRate": 0.0015313935681470138
     },
     {
       "id": "sudpraktik/3507",
@@ -614,7 +614,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1890,
+      "viewCount": 1940,
       "tgLink": "https://t.me/sudpraktik/3507",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -626,16 +626,16 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 14.72,
+      "priorityScore": 14.33,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 1890 просмотров"
+        "Охват в Telegram Web: 1940 просмотров"
       ],
       "digestSummary": "КОНКУРЕНЦИЯ СУДЕБНО-ПРАВОВЫХ ПОЗИЦИЙПо вопросу о том, может ли расцениваться принятие товара по товарной накладной, в которой цена не соответствует договору, как изменение цены, существует две позиции судов Позиция 1. Пр",
       "reactionCount": 7,
-      "engagementRate": 0.003703703703703704
+      "engagementRate": 0.0036082474226804126
     }
   ],
   "topTopics": [
