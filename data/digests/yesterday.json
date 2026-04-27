@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-27T20:58:07.063Z",
+  "generatedAt": "2026-04-27T21:51:46.825Z",
   "totalPosts": 7,
   "topPosts": [
     {
@@ -55,7 +55,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.68,
+      "priorityScore": 34.57,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -120,7 +120,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.18,
+      "priorityScore": 33.07,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -176,7 +176,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 24.63,
+      "priorityScore": 24.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -210,7 +210,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 283,
+      "viewCount": 285,
       "tgLink": "https://t.me/disputesandsanctions/2456",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -224,17 +224,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 22.51,
+      "priorityScore": 22.4,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 283 просмотров"
+        "Охват в Telegram Web: 285 просмотров"
       ],
       "digestSummary": "ВТАК (МКАС) - Гана - Признание и исполнениеОдин из первых задокументированных случаев признания и исполнения решения ВТАК (МКАС) за рубежом являлось дело В/О Разноэкспорт против Youngsters Ltd.Вызывает большой интерес, о",
       "reactionCount": 2,
-      "engagementRate": 0.007067137809187279
+      "engagementRate": 0.007017543859649123
     },
     {
       "id": "Compliance_Practice/3059",
@@ -283,7 +283,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 19.67,
+      "priorityScore": 19.56,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -336,7 +336,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 16.2,
+      "priorityScore": 16.09,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -383,7 +383,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 10.44,
+      "priorityScore": 10.33,
       "priorityReasons": [
         "Категория канала: courts",
         "Высокая вовлечённость: 29 реакций",
