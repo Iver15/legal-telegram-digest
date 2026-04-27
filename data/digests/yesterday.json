@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-27T22:46:09.239Z",
+  "generatedAt": "2026-04-27T23:40:35.523Z",
   "totalPosts": 7,
   "topPosts": [
     {
@@ -55,7 +55,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.46,
+      "priorityScore": 34.34,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -106,7 +106,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2740,
+      "viewCount": 2750,
       "tgLink": "https://t.me/educatedyoungman/910",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -120,19 +120,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.95,
+      "priorityScore": 32.83,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 28 реакций",
-        "Охват в Telegram Web: 2740 просмотров",
+        "Охват в Telegram Web: 2750 просмотров",
         "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Судьба подарков должнику, находящемуся в банкротстве На ЧЧ в Клубе цивилистов в очередной раз вышли на обсуждение вопроса о том, какова должна быть судьба подарков третьих лиц, адресованных должнику, находящемуся в проце",
       "reactionCount": 28,
-      "engagementRate": 0.010218978102189781
+      "engagementRate": 0.010181818181818183
     },
     {
       "id": "probankrotstvoru/9686",
@@ -176,7 +176,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 24.41,
+      "priorityScore": 24.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -224,7 +224,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 22.28,
+      "priorityScore": 22.17,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -270,7 +270,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2760,
+      "viewCount": 2770,
       "tgLink": "https://t.me/Compliance_Practice/3059",
       "channel": "Compliance_Practice",
       "channelTitle": "Compliance practice",
@@ -283,18 +283,18 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 19.45,
+      "priorityScore": 19.33,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Комплаенс",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 2760 просмотров"
+        "Охват в Telegram Web: 2770 просмотров"
       ],
       "digestSummary": "Почему азербайджанский Yelo Bank попал в санкции ЕСYelo Bank был основан в 1994 году как Ulpar Commercial Bank, переименован в Nikoil Bank в 2002 году, когда Nikoil Investment Banks Group/Lukoil приобрели контрольную дол",
       "reactionCount": 14,
-      "engagementRate": 0.005072463768115942
+      "engagementRate": 0.005054151624548736
     },
     {
       "id": "probankrotstvoru/9685",
@@ -336,7 +336,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 15.97,
+      "priorityScore": 15.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -383,7 +383,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 10.22,
+      "priorityScore": 10.11,
       "priorityReasons": [
         "Категория канала: courts",
         "Высокая вовлечённость: 29 реакций",
