@@ -1,8 +1,8 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-27T21:51:46.824Z",
-  "totalPosts": 51,
+  "generatedAt": "2026-04-27T22:46:09.238Z",
+  "totalPosts": 55,
   "topPosts": [
     {
       "id": "probankrotstvoru/9689",
@@ -50,7 +50,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.32,
+      "priorityScore": 36.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -86,7 +86,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 619,
+      "viewCount": 626,
       "tgLink": "https://t.me/educatedyoungman/911",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -100,18 +100,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.51,
+      "priorityScore": 35.4,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 619 просмотров",
-        "Сильная отдача аудитории: 1,5% реакций к просмотрам"
+        "Охват в Telegram Web: 626 просмотров",
+        "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Течение давности при последовательном рассмотрении требований истцаХорошо поспорили с уважаемым А.А. Павловым на подкасте Петербургской цивилистки, на котором вместе Д.В. Борейшо обсуждали определение Верховного Суда РФ ",
       "reactionCount": 9,
-      "engagementRate": 0.014539579967689823
+      "engagementRate": 0.01437699680511182
     },
     {
       "id": "probankrotstvoru/9692",
@@ -144,7 +144,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 796,
+      "viewCount": 799,
       "tgLink": "https://t.me/probankrotstvoru/9692",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -157,19 +157,19 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 35.17,
+      "priorityScore": 35.06,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Исполнение",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 796 просмотров",
+        "Охват в Telegram Web: 799 просмотров",
         "Сильная отдача аудитории: 1,9% реакций к просмотрам"
       ],
       "digestSummary": "Суд округа разъяснил стандарт доказывания при запрете на выезд для КДЛ банкаВ деле о банкротстве общества «Симбирск» апелляционный суд в 2020 году признал доказанным наличие оснований для привлечения десяти контролирующи",
       "reactionCount": 15,
-      "engagementRate": 0.018844221105527637
+      "engagementRate": 0.01877346683354193
     },
     {
       "id": "probankrotstvoru/9690",
@@ -215,7 +215,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.32,
+      "priorityScore": 34.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -265,7 +265,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 929,
+      "viewCount": 931,
       "tgLink": "https://t.me/probankrotstvoru/9691",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -278,19 +278,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 34.09,
+      "priorityScore": 33.98,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 929 просмотров",
+        "Охват в Telegram Web: 931 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "ВС решит спор о сальдо на 1,4 млрд рублей между лизингодателем и судовладельцемОбщество «ГТЛК» заключило с «Аврора-Шиппинг» пять договоров лизинга нефтеналивных судов. Лизингополучатель допустил просрочку платежей и «ГТЛ",
       "reactionCount": 14,
-      "engagementRate": 0.015069967707212056
+      "engagementRate": 0.015037593984962405
     },
     {
       "id": "probankrotstvoru/9693",
@@ -329,7 +329,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 635,
+      "viewCount": 646,
       "tgLink": "https://t.me/probankrotstvoru/9693",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -343,19 +343,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.78,
+      "priorityScore": 32.68,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 635 просмотров",
-        "Сильная отдача аудитории: 2,4% реакций к просмотрам"
+        "Охват в Telegram Web: 646 просмотров",
+        "Сильная отдача аудитории: 2,3% реакций к просмотрам"
       ],
       "digestSummary": "24 апреля практикум RECOVERY club снова собрал полный зал. Свежие позиции ВС, расширение круга привлекаемых лиц, усложнение стандартов доказывания — практика не стоит на месте. Мы собрали новых экспертов, свежие кейсы и ",
       "reactionCount": 15,
-      "engagementRate": 0.023622047244094488
+      "engagementRate": 0.02321981424148607
     },
     {
       "id": "probankrotstvoru/9688",
@@ -401,7 +401,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.78,
+      "priorityScore": 32.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -464,7 +464,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 243,
+      "viewCount": 245,
       "tgLink": "https://t.me/tgnspau/1323",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -478,18 +478,18 @@
         "compliance",
         "courts"
       ],
-      "priorityScore": 32.39,
+      "priorityScore": 32.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 243 просмотров",
+        "Охват в Telegram Web: 245 просмотров",
         "Сильная отдача аудитории: 3,7% реакций к просмотрам"
       ],
       "digestSummary": "Будущее отрасли арбитражного управления: стандарты, цифровизация и новая роль управляющегоНа площадке журнала \"Арбитражный управляющий\" с участием НСПАУ прошёл \"круглый стол\" - эксперты анализировали, предлагали и прогно",
       "reactionCount": 9,
-      "engagementRate": 0.037037037037037035
+      "engagementRate": 0.036734693877551024
     },
     {
       "id": "subsidiarka_kdl/4501",
@@ -527,7 +527,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 819,
+      "viewCount": 822,
       "tgLink": "https://t.me/subsidiarka_kdl/4501",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -540,17 +540,17 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 31.94,
+      "priorityScore": 31.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 819 просмотров"
+        "Охват в Telegram Web: 822 просмотров"
       ],
       "digestSummary": "«Тенденции привлечения к субсидиарной ответственности 2026» — дискуссия 29 апреляСпикером дискуссии выступит Анастасия Пылаева — управляющий партнёр PLVgroup, член Банкротного клуба. Анастасия специализируется на комплек",
       "reactionCount": 7,
-      "engagementRate": 0.008547008547008548
+      "engagementRate": 0.00851581508515815
     },
     {
       "id": "subsidiarka_kdl/4503",
@@ -583,7 +583,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 621,
+      "viewCount": 624,
       "tgLink": "https://t.me/subsidiarka_kdl/4503",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -596,17 +596,17 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 31.93,
+      "priorityScore": 31.81,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 621 просмотров"
+        "Охват в Telegram Web: 624 просмотров"
       ],
       "digestSummary": "Кассация признала расходы КДЛ на защиту от иска АСВ текущими платежамиКассация изменила постановление апелляции, подчеркнув, что судебные расходы ответчика, выигравшего спор в банкротстве, подлежат погашению в составе пя",
       "reactionCount": 5,
-      "engagementRate": 0.008051529790660225
+      "engagementRate": 0.008012820512820512
     },
     {
       "id": "sotbi_law/177",
@@ -646,7 +646,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 49,
+      "viewCount": 51,
       "tgLink": "https://t.me/sotbi_law/177",
       "channel": "sotbi_law",
       "channelTitle": "Сотби",
@@ -659,18 +659,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.82,
+      "priorityScore": 31.72,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 49 просмотров",
-        "Сильная отдача аудитории: 16,3% реакций к просмотрам"
+        "Охват в Telegram Web: 51 просмотров",
+        "Сильная отдача аудитории: 15,7% реакций к просмотрам"
       ],
       "digestSummary": "Может ли суд утвердить локальный план реструктуризации без согласия залогового кредитора? Дело о банкротстве Карапетян С. С. В реестр требований кредиторов должника было включено требование банка в размере ~ 326 млн руб.",
       "reactionCount": 8,
-      "engagementRate": 0.16326530612244897
+      "engagementRate": 0.1568627450980392
     },
     {
       "id": "bankrotstvo_mustknow/480",
@@ -705,7 +705,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 133,
+      "viewCount": 135,
       "tgLink": "https://t.me/bankrotstvo_mustknow/480",
       "channel": "bankrotstvo_mustknow",
       "channelTitle": "Банкротство | Взгляд эксперта",
@@ -718,40 +718,40 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.69,
+      "priorityScore": 31.58,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 133 просмотров",
-        "Сильная отдача аудитории: 3,8% реакций к просмотрам"
+        "Охват в Telegram Web: 135 просмотров",
+        "Сильная отдача аудитории: 3,7% реакций к просмотрам"
       ],
       "digestSummary": "Аффилированный кредитор не может выбрать арбитражного управляющего ⚔️Владимир Гоппе, специалист практики банкротства и антикризисной защиты бизнеса, об ограничении права аффилированного кредитора предлагать кандидатуру а",
       "reactionCount": 5,
-      "engagementRate": 0.03759398496240601
+      "engagementRate": 0.037037037037037035
     }
   ],
   "topTopics": [
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 42
+      "count": 46
     },
     {
       "id": "courts",
       "label": "Суды",
+      "count": 46
+    },
+    {
+      "id": "bankruptcy",
+      "label": "Банкротство",
       "count": 42
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 39
-    },
-    {
-      "id": "bankruptcy",
-      "label": "Банкротство",
-      "count": 38
+      "count": 41
     },
     {
       "id": "enforcement",
@@ -773,7 +773,7 @@
     {
       "channel": "vZone1413",
       "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 7
+      "count": 11
     },
     {
       "channel": "probankrotstvoru",

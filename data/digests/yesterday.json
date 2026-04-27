@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-27T21:51:46.825Z",
+  "generatedAt": "2026-04-27T22:46:09.239Z",
   "totalPosts": 7,
   "topPosts": [
     {
@@ -55,7 +55,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.57,
+      "priorityScore": 34.46,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -120,7 +120,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.07,
+      "priorityScore": 32.95,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -176,7 +176,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 24.52,
+      "priorityScore": 24.41,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -224,7 +224,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 22.4,
+      "priorityScore": 22.28,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -283,7 +283,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 19.56,
+      "priorityScore": 19.45,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -325,7 +325,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1120,
+      "viewCount": 1130,
       "tgLink": "https://t.me/probankrotstvoru/9685",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -336,17 +336,17 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 16.09,
+      "priorityScore": 15.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 1120 просмотров"
+        "Охват в Telegram Web: 1130 просмотров"
       ],
       "digestSummary": "Как быть, если вам навязывают невыгодные условия договора?Ответ кажется очевидным: не заключать его. Но что, если выбора нет? Например, контрагент — единственный в регионе поставщик необходимой вам услуги. Тогда вполне в",
       "reactionCount": 11,
-      "engagementRate": 0.009821428571428571
+      "engagementRate": 0.009734513274336283
     },
     {
       "id": "Shokobear/3895",
@@ -372,7 +372,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1590,
+      "viewCount": 1600,
       "tgLink": "https://t.me/Shokobear/3895",
       "channel": "Shokobear",
       "channelTitle": "Shokobear (Олег Зайцев о банкротстве)",
@@ -383,16 +383,16 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 10.33,
+      "priorityScore": 10.22,
       "priorityReasons": [
         "Категория канала: courts",
         "Высокая вовлечённость: 29 реакций",
-        "Охват в Telegram Web: 1590 просмотров",
+        "Охват в Telegram Web: 1600 просмотров",
         "Сильная отдача аудитории: 1,8% реакций к просмотрам"
       ],
       "digestSummary": "Когда я учился в РШЧП (где-то в 2003-2005 годах), у нас вел курс по сравнительному деликтному праву замечательный преподаватель Владимир Жуков.Потом он куда-то пропал и уже много лет я, увы, ничего о нем не слышал.Если в",
       "reactionCount": 29,
-      "engagementRate": 0.018238993710691823
+      "engagementRate": 0.018125
     }
   ],
   "topTopics": [

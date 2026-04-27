@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-27T21:51:46.826Z",
-  "totalPosts": 314,
+  "generatedAt": "2026-04-27T22:46:09.239Z",
+  "totalPosts": 318,
   "topPosts": [
     {
       "id": "probankrotstvoru/9689",
@@ -50,7 +50,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.32,
+      "priorityScore": 36.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -86,7 +86,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 619,
+      "viewCount": 626,
       "tgLink": "https://t.me/educatedyoungman/911",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -100,18 +100,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.51,
+      "priorityScore": 35.4,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 619 просмотров",
-        "Сильная отдача аудитории: 1,5% реакций к просмотрам"
+        "Охват в Telegram Web: 626 просмотров",
+        "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Течение давности при последовательном рассмотрении требований истцаХорошо поспорили с уважаемым А.А. Павловым на подкасте Петербургской цивилистки, на котором вместе Д.В. Борейшо обсуждали определение Верховного Суда РФ ",
       "reactionCount": 9,
-      "engagementRate": 0.014539579967689823
+      "engagementRate": 0.01437699680511182
     },
     {
       "id": "probankrotstvoru/9692",
@@ -144,7 +144,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 796,
+      "viewCount": 799,
       "tgLink": "https://t.me/probankrotstvoru/9692",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -157,19 +157,19 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 35.17,
+      "priorityScore": 35.06,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Исполнение",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 796 просмотров",
+        "Охват в Telegram Web: 799 просмотров",
         "Сильная отдача аудитории: 1,9% реакций к просмотрам"
       ],
       "digestSummary": "Суд округа разъяснил стандарт доказывания при запрете на выезд для КДЛ банкаВ деле о банкротстве общества «Симбирск» апелляционный суд в 2020 году признал доказанным наличие оснований для привлечения десяти контролирующи",
       "reactionCount": 15,
-      "engagementRate": 0.018844221105527637
+      "engagementRate": 0.01877346683354193
     },
     {
       "id": "lawegorov/3750",
@@ -222,7 +222,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.57,
+      "priorityScore": 34.46,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -280,7 +280,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.32,
+      "priorityScore": 34.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -330,7 +330,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 929,
+      "viewCount": 931,
       "tgLink": "https://t.me/probankrotstvoru/9691",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -343,19 +343,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 34.09,
+      "priorityScore": 33.98,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 929 просмотров",
+        "Охват в Telegram Web: 931 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "ВС решит спор о сальдо на 1,4 млрд рублей между лизингодателем и судовладельцемОбщество «ГТЛК» заключило с «Аврора-Шиппинг» пять договоров лизинга нефтеналивных судов. Лизингополучатель допустил просрочку платежей и «ГТЛ",
       "reactionCount": 14,
-      "engagementRate": 0.015069967707212056
+      "engagementRate": 0.015037593984962405
     },
     {
       "id": "educatedyoungman/910",
@@ -408,7 +408,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.07,
+      "priorityScore": 32.95,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -459,7 +459,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 635,
+      "viewCount": 646,
       "tgLink": "https://t.me/probankrotstvoru/9693",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -473,19 +473,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.78,
+      "priorityScore": 32.68,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 635 просмотров",
-        "Сильная отдача аудитории: 2,4% реакций к просмотрам"
+        "Охват в Telegram Web: 646 просмотров",
+        "Сильная отдача аудитории: 2,3% реакций к просмотрам"
       ],
       "digestSummary": "24 апреля практикум RECOVERY club снова собрал полный зал. Свежие позиции ВС, расширение круга привлекаемых лиц, усложнение стандартов доказывания — практика не стоит на месте. Мы собрали новых экспертов, свежие кейсы и ",
       "reactionCount": 15,
-      "engagementRate": 0.023622047244094488
+      "engagementRate": 0.02321981424148607
     },
     {
       "id": "probankrotstvoru/9688",
@@ -531,7 +531,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.78,
+      "priorityScore": 32.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -594,7 +594,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 243,
+      "viewCount": 245,
       "tgLink": "https://t.me/tgnspau/1323",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -608,18 +608,18 @@
         "compliance",
         "courts"
       ],
-      "priorityScore": 32.39,
+      "priorityScore": 32.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 243 просмотров",
+        "Охват в Telegram Web: 245 просмотров",
         "Сильная отдача аудитории: 3,7% реакций к просмотрам"
       ],
       "digestSummary": "Будущее отрасли арбитражного управления: стандарты, цифровизация и новая роль управляющегоНа площадке журнала \"Арбитражный управляющий\" с участием НСПАУ прошёл \"круглый стол\" - эксперты анализировали, предлагали и прогно",
       "reactionCount": 9,
-      "engagementRate": 0.037037037037037035
+      "engagementRate": 0.036734693877551024
     },
     {
       "id": "sotbi_law/172",
@@ -753,22 +753,22 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 258
+      "count": 262
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 245
+      "count": 249
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 243
+      "count": 247
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 226
+      "count": 228
     },
     {
       "id": "enforcement",
@@ -795,7 +795,7 @@
     {
       "channel": "vZone1413",
       "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 26
+      "count": 30
     },
     {
       "channel": "orpauradio",
