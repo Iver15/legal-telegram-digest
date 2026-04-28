@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-27T23:40:35.523Z",
+  "generatedAt": "2026-04-28T01:25:28.587Z",
   "totalPosts": 7,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1870,
+      "viewCount": 1880,
       "tgLink": "https://t.me/lawegorov/3750",
       "channel": "lawegorov",
       "channelTitle": "AVE in Law",
@@ -55,19 +55,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.34,
+      "priorityScore": 34.12,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 29 реакций",
-        "Охват в Telegram Web: 1870 просмотров",
-        "Сильная отдача аудитории: 1,6% реакций к просмотрам"
+        "Охват в Telegram Web: 1880 просмотров",
+        "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Судьба подарков должнику, находящемуся в банкротстве На ЧЧ в Клубе цивилистов в очередной раз вышли на обсуждение вопроса о том, какова должна быть судьба подарков третьих лиц, адресованных должнику, находящемуся в проце",
       "reactionCount": 29,
-      "engagementRate": 0.015508021390374332
+      "engagementRate": 0.015425531914893617
     },
     {
       "id": "educatedyoungman/910",
@@ -120,7 +120,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.83,
+      "priorityScore": 32.61,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -176,7 +176,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 24.29,
+      "priorityScore": 24.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -210,7 +210,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 285,
+      "viewCount": 286,
       "tgLink": "https://t.me/disputesandsanctions/2456",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -224,17 +224,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 22.17,
+      "priorityScore": 21.95,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 285 просмотров"
+        "Охват в Telegram Web: 286 просмотров"
       ],
       "digestSummary": "ВТАК (МКАС) - Гана - Признание и исполнениеОдин из первых задокументированных случаев признания и исполнения решения ВТАК (МКАС) за рубежом являлось дело В/О Разноэкспорт против Youngsters Ltd.Вызывает большой интерес, о",
       "reactionCount": 2,
-      "engagementRate": 0.007017543859649123
+      "engagementRate": 0.006993006993006993
     },
     {
       "id": "Compliance_Practice/3059",
@@ -283,7 +283,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 19.33,
+      "priorityScore": 19.11,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -336,7 +336,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 15.85,
+      "priorityScore": 15.63,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -383,7 +383,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 10.11,
+      "priorityScore": 9.89,
       "priorityReasons": [
         "Категория канала: courts",
         "Высокая вовлечённость: 29 реакций",
