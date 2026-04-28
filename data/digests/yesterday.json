@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-28T21:40:21.408Z",
-  "totalPosts": 51,
+  "generatedAt": "2026-04-28T22:41:29.908Z",
+  "totalPosts": 55,
   "topPosts": [
     {
       "id": "probankrotstvoru/9689",
@@ -50,7 +50,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.28,
+      "priorityScore": 33.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -95,7 +95,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1170,
+      "viewCount": 1180,
       "tgLink": "https://t.me/probankrotstvoru/9692",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -108,19 +108,19 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 32.51,
+      "priorityScore": 32.38,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Исполнение",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 1170 просмотров",
-        "Сильная отдача аудитории: 1,5% реакций к просмотрам"
+        "Охват в Telegram Web: 1180 просмотров",
+        "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Суд округа разъяснил стандарт доказывания при запрете на выезд для КДЛ банкаВ деле о банкротстве общества «Симбирск» апелляционный суд в 2020 году признал доказанным наличие оснований для привлечения десяти контролирующи",
       "reactionCount": 17,
-      "engagementRate": 0.01452991452991453
+      "engagementRate": 0.01440677966101695
     },
     {
       "id": "educatedyoungman/911",
@@ -144,7 +144,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 794,
+      "viewCount": 796,
       "tgLink": "https://t.me/educatedyoungman/911",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -158,18 +158,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.48,
+      "priorityScore": 32.34,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 794 просмотров",
+        "Охват в Telegram Web: 796 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Течение давности при последовательном рассмотрении требований истцаХорошо поспорили с уважаемым А.А. Павловым на подкасте Петербургской цивилистки, на котором вместе Д.В. Борейшо обсуждали определение Верховного Суда РФ ",
       "reactionCount": 10,
-      "engagementRate": 0.012594458438287154
+      "engagementRate": 0.01256281407035176
     },
     {
       "id": "probankrotstvoru/9690",
@@ -215,7 +215,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.45,
+      "priorityScore": 31.32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -278,7 +278,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.79,
+      "priorityScore": 30.67,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -343,7 +343,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.71,
+      "priorityScore": 30.58,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -411,7 +411,7 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 30.2,
+      "priorityScore": 30.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -474,7 +474,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 292,
+      "viewCount": 293,
       "tgLink": "https://t.me/tgnspau/1323",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -488,18 +488,18 @@
         "compliance",
         "courts"
       ],
-      "priorityScore": 29.57,
+      "priorityScore": 29.45,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 292 просмотров",
+        "Охват в Telegram Web: 293 просмотров",
         "Сильная отдача аудитории: 3,4% реакций к просмотрам"
       ],
       "digestSummary": "Будущее отрасли арбитражного управления: стандарты, цифровизация и новая роль управляющегоНа площадке журнала \"Арбитражный управляющий\" с участием НСПАУ прошёл \"круглый стол\" - эксперты анализировали, предлагали и прогно",
       "reactionCount": 10,
-      "engagementRate": 0.03424657534246575
+      "engagementRate": 0.034129692832764506
     },
     {
       "id": "probankrotstvoru/9688",
@@ -545,7 +545,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.57,
+      "priorityScore": 29.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -597,7 +597,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 76,
+      "viewCount": 77,
       "tgLink": "https://t.me/sotbi_law/177",
       "channel": "sotbi_law",
       "channelTitle": "Сотби",
@@ -610,19 +610,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.28,
+      "priorityScore": 29.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 76 просмотров",
-        "Сильная отдача аудитории: 14,5% реакций к просмотрам"
+        "Охват в Telegram Web: 77 просмотров",
+        "Сильная отдача аудитории: 14,3% реакций к просмотрам"
       ],
       "digestSummary": "Может ли суд утвердить локальный план реструктуризации без согласия залогового кредитора? Дело о банкротстве Карапетян С. С. В реестр требований кредиторов должника было включено требование банка в размере ~ 326 млн руб.",
       "reactionCount": 11,
-      "engagementRate": 0.14473684210526316
+      "engagementRate": 0.14285714285714285
     },
     {
       "id": "subsidiarka_kdl/4501",
@@ -678,7 +678,7 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 28.97,
+      "priorityScore": 28.84,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -741,7 +741,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.87,
+      "priorityScore": 28.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -759,22 +759,22 @@
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 42
+      "count": 46
     },
     {
       "id": "courts",
       "label": "Суды",
+      "count": 46
+    },
+    {
+      "id": "bankruptcy",
+      "label": "Банкротство",
       "count": 42
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 39
-    },
-    {
-      "id": "bankruptcy",
-      "label": "Банкротство",
-      "count": 38
+      "count": 41
     },
     {
       "id": "enforcement",
@@ -796,7 +796,7 @@
     {
       "channel": "vZone1413",
       "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 7
+      "count": 11
     },
     {
       "channel": "probankrotstvoru",
