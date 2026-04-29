@@ -1,8 +1,8 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-29T20:58:48.154Z",
-  "totalPosts": 71,
+  "generatedAt": "2026-04-29T21:55:42.174Z",
+  "totalPosts": 64,
   "topPosts": [
     {
       "id": "probankrotstvoru/9711",
@@ -36,7 +36,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 892,
+      "viewCount": 898,
       "tgLink": "https://t.me/probankrotstvoru/9711",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -50,19 +50,19 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 38.61,
+      "priorityScore": 38.49,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 892 просмотров",
+        "Охват в Telegram Web: 898 просмотров",
         "Сильная отдача аудитории: 1,8% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: формальная непередача документов не заменяет анализ причин банкротстваОбщество «Доступное жилье» выдавало денежные ссуды под залог недвижимости. В 2013 году банк «Пурпе» предложил компании профинансировать стро",
       "reactionCount": 16,
-      "engagementRate": 0.017937219730941704
+      "engagementRate": 0.017817371937639197
     },
     {
       "id": "subsidiarka_kdl/4508",
@@ -102,7 +102,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 37.14,
+      "priorityScore": 37.01,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -185,7 +185,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 8520,
+      "viewCount": 8600,
       "tgLink": "https://t.me/sovetsudey/904",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -198,18 +198,18 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 36.62,
+      "priorityScore": 36.49,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 80 реакций",
-        "Охват в Telegram Web: 8520 просмотров"
+        "Охват в Telegram Web: 8600 просмотров"
       ],
       "digestSummary": "Тематический обзор практики рассмотрения арбитражными судами споров, связанных с налогообложением имущества организаций, утвержден на заседании Президиума ВС РФ. Большая часть примеров направлена на обеспечение защиты пр",
       "reactionCount": 80,
-      "engagementRate": 0.009389671361502348
+      "engagementRate": 0.009302325581395349
     },
     {
       "id": "corplawpro/5931",
@@ -243,7 +243,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.44,
+      "priorityScore": 36.31,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -289,7 +289,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 957,
+      "viewCount": 958,
       "tgLink": "https://t.me/subsidiarka_kdl/4510",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -303,17 +303,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 34.63,
+      "priorityScore": 34.51,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 957 просмотров"
+        "Охват в Telegram Web: 958 просмотров"
       ],
       "digestSummary": "Уступка обычной (нереституционной) дебиторской задолженности должника не влечёт перехода к цессионарию права требования к КДЛ о субсидиарной ответственности#субсидиарная_ответственность #цессия В рамках дела о банкротств",
       "reactionCount": 5,
-      "engagementRate": 0.00522466039707419
+      "engagementRate": 0.005219206680584551
     },
     {
       "id": "probankrotstvoru/9707",
@@ -359,7 +359,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 34.27,
+      "priorityScore": 34.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -404,7 +404,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 822,
+      "viewCount": 826,
       "tgLink": "https://t.me/probankrotstvoru/9712",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -417,19 +417,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 34.17,
+      "priorityScore": 34.05,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 822 просмотров",
+        "Охват в Telegram Web: 826 просмотров",
         "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: аффилированный кредитор на 1 млрд рублей может быть понижен в очередиОбщество «Провидер» признали банкротом в марте 2024 года, утвердив КУ Анастасию Кабаеву. Общество «ПРОФ-С» заявило требование на 1,08 млрд ру",
       "reactionCount": 14,
-      "engagementRate": 0.0170316301703163
+      "engagementRate": 0.01694915254237288
     },
     {
       "id": "subsidiarka_kdl/4512",
@@ -454,7 +454,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 499,
+      "viewCount": 502,
       "tgLink": "https://t.me/subsidiarka_kdl/4512",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -469,17 +469,17 @@
         "arbitration",
         "compliance"
       ],
-      "priorityScore": 33.68,
+      "priorityScore": 33.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 499 просмотров"
+        "Охват в Telegram Web: 502 просмотров"
       ],
       "digestSummary": "Тренды субсидиарной ответственности 2026: четыре нестандартных направленияСостоялась дискуссия с Анастасией Пылаевой о ключевых тенденциях привлечения контролирующих лиц к ответственности — разобрали четыре нестандартных",
       "reactionCount": 1,
-      "engagementRate": 0.002004008016032064
+      "engagementRate": 0.00199203187250996
     },
     {
       "id": "corplawpro/5934",
@@ -503,7 +503,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 476,
+      "viewCount": 484,
       "tgLink": "https://t.me/corplawpro/5934",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -517,17 +517,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 33.66,
+      "priorityScore": 33.53,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 476 просмотров"
+        "Охват в Telegram Web: 484 просмотров"
       ],
       "digestSummary": "Тренды субсидиарной ответственности 2026: четыре нестандартных направленияСостоялась дискуссия с Анастасией Пылаевой о ключевых тенденциях привлечения контролирующих лиц к ответственности — разобрали четыре нестандартных",
       "reactionCount": 2,
-      "engagementRate": 0.004201680672268907
+      "engagementRate": 0.004132231404958678
     },
     {
       "id": "probankrotstvoru/9713",
@@ -560,7 +560,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 756,
+      "viewCount": 760,
       "tgLink": "https://t.me/probankrotstvoru/9713",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -573,19 +573,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.35,
+      "priorityScore": 33.23,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 756 просмотров",
-        "Сильная отдача аудитории: 1,9% реакций к просмотрам"
+        "Охват в Telegram Web: 760 просмотров",
+        "Сильная отдача аудитории: 1,8% реакций к просмотрам"
       ],
       "digestSummary": "Инвентаризация и анализ портфеля дебиторской задолженности предприятий-банкротовИнвентаризация дебиторской задолженности в банкротстве является ключевым этапом оценки реальной стоимости конкурсной массы. На практике имен",
       "reactionCount": 14,
-      "engagementRate": 0.018518518518518517
+      "engagementRate": 0.018421052631578946
     },
     {
       "id": "probankrotstvoru/9714",
@@ -618,7 +618,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 696,
+      "viewCount": 704,
       "tgLink": "https://t.me/probankrotstvoru/9714",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -631,18 +631,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.35,
+      "priorityScore": 32.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 696 просмотров",
+        "Охват в Telegram Web: 704 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "ВС разграничил убытки должника и вред кредиторам при изъятии финансированияОбщество «Дирекция капитального строительства фонда жилищного строительства Республики Башкортостан» признали банкротом в 2016 году. Одним из уча",
       "reactionCount": 10,
-      "engagementRate": 0.014367816091954023
+      "engagementRate": 0.014204545454545454
     },
     {
       "id": "subsidiarka_kdl/4511",
@@ -680,7 +680,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 724,
+      "viewCount": 726,
       "tgLink": "https://t.me/subsidiarka_kdl/4511",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -693,49 +693,49 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 31.67,
+      "priorityScore": 31.55,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 724 просмотров"
+        "Охват в Telegram Web: 726 просмотров"
       ],
       "digestSummary": "Суд округа разъяснил стандарт доказывания при запрете на выезд для КДЛ банкаСуды первой и апелляционной инстанций отказали АСВ в запрете на выезд для КДЛ банка, потребовав доказательств реальной угрозы. Кассация отменила",
       "reactionCount": 4,
-      "engagementRate": 0.0055248618784530384
+      "engagementRate": 0.005509641873278237
     }
   ],
   "topTopics": [
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 60
-    },
-    {
-      "id": "bankruptcy",
-      "label": "Банкротство",
-      "count": 59
+      "count": 54
     },
     {
       "id": "courts",
       "label": "Суды",
-      "count": 59
+      "count": 54
+    },
+    {
+      "id": "bankruptcy",
+      "label": "Банкротство",
+      "count": 52
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 54
+      "count": 51
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 25
+      "count": 23
     },
     {
       "id": "tax",
       "label": "Налоги",
-      "count": 14
+      "count": 13
     },
     {
       "id": "compliance",
@@ -747,7 +747,7 @@
     {
       "channel": "vZone1413",
       "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 15
+      "count": 9
     },
     {
       "channel": "probankrotstvoru",
