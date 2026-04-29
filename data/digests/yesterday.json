@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-28T23:39:03.116Z",
+  "generatedAt": "2026-04-29T01:28:07.911Z",
   "totalPosts": 60,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.02,
+      "priorityScore": 32.8,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -108,7 +108,7 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 32.26,
+      "priorityScore": 32.04,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -144,7 +144,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 796,
+      "viewCount": 798,
       "tgLink": "https://t.me/educatedyoungman/911",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -158,18 +158,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.22,
+      "priorityScore": 31.99,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 796 просмотров",
+        "Охват в Telegram Web: 798 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Течение давности при последовательном рассмотрении требований истцаХорошо поспорили с уважаемым А.А. Павловым на подкасте Петербургской цивилистки, на котором вместе Д.В. Борейшо обсуждали определение Верховного Суда РФ ",
       "reactionCount": 10,
-      "engagementRate": 0.01256281407035176
+      "engagementRate": 0.012531328320802004
     },
     {
       "id": "probankrotstvoru/9690",
@@ -215,7 +215,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.2,
+      "priorityScore": 30.98,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -278,7 +278,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.54,
+      "priorityScore": 30.32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -343,7 +343,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.46,
+      "priorityScore": 30.23,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -411,7 +411,7 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 29.95,
+      "priorityScore": 29.72,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -488,7 +488,7 @@
         "compliance",
         "courts"
       ],
-      "priorityScore": 29.33,
+      "priorityScore": 29.1,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -545,7 +545,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.32,
+      "priorityScore": 29.09,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -610,7 +610,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.03,
+      "priorityScore": 28.81,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -678,7 +678,7 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 28.72,
+      "priorityScore": 28.5,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -741,7 +741,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.63,
+      "priorityScore": 28.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
