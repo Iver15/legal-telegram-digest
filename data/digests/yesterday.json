@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-30T21:53:15.702Z",
+  "generatedAt": "2026-04-30T22:45:18.221Z",
   "totalPosts": 64,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 35.67,
+      "priorityScore": 35.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -102,7 +102,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 34.02,
+      "priorityScore": 33.91,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -146,7 +146,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.32,
+      "priorityScore": 33.21,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -175,7 +175,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "54",
+          "count": "55",
           "isPaid": false
         },
         {
@@ -242,18 +242,18 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 33.27,
+      "priorityScore": 33.18,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
-        "Высокая вовлечённость: 89 реакций",
+        "Высокая вовлечённость: 90 реакций",
         "Охват в Telegram Web: 11500 просмотров"
       ],
       "digestSummary": "Тематический обзор практики рассмотрения арбитражными судами споров, связанных с налогообложением имущества организаций, утвержден на заседании Президиума ВС РФ. Большая часть примеров направлена на обеспечение защиты пр",
-      "reactionCount": 89,
-      "engagementRate": 0.007739130434782609
+      "reactionCount": 90,
+      "engagementRate": 0.00782608695652174
     },
     {
       "id": "subsidiarka_kdl/4512",
@@ -293,7 +293,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 812,
+      "viewCount": 813,
       "tgLink": "https://t.me/subsidiarka_kdl/4512",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -308,17 +308,17 @@
         "arbitration",
         "compliance"
       ],
-      "priorityScore": 31.7,
+      "priorityScore": 31.59,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 812 просмотров"
+        "Охват в Telegram Web: 813 просмотров"
       ],
       "digestSummary": "Тренды субсидиарной ответственности 2026: четыре нестандартных направленияСостоялась дискуссия с Анастасией Пылаевой о ключевых тенденциях привлечения контролирующих лиц к ответственности — разобрали четыре нестандартных",
       "reactionCount": 5,
-      "engagementRate": 0.006157635467980296
+      "engagementRate": 0.006150061500615006
     },
     {
       "id": "probankrotstvoru/9712",
@@ -364,7 +364,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.56,
+      "priorityScore": 31.45,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -420,7 +420,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 845,
+      "viewCount": 846,
       "tgLink": "https://t.me/corplawpro/5934",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -434,17 +434,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 31.52,
+      "priorityScore": 31.41,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 845 просмотров"
+        "Охват в Telegram Web: 846 просмотров"
       ],
       "digestSummary": "Тренды субсидиарной ответственности 2026: четыре нестандартных направленияСостоялась дискуссия с Анастасией Пылаевой о ключевых тенденциях привлечения контролирующих лиц к ответственности — разобрали четыре нестандартных",
       "reactionCount": 6,
-      "engagementRate": 0.007100591715976331
+      "engagementRate": 0.0070921985815602835
     },
     {
       "id": "subsidiarka_kdl/4510",
@@ -494,7 +494,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 31.46,
+      "priorityScore": 31.35,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -550,7 +550,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.11,
+      "priorityScore": 31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -613,7 +613,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.66,
+      "priorityScore": 30.55,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -671,7 +671,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.71,
+      "priorityScore": 29.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -721,7 +721,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 936,
+      "viewCount": 937,
       "tgLink": "https://t.me/subsidiarka_kdl/4511",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -734,17 +734,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.71,
+      "priorityScore": 28.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 936 просмотров"
+        "Охват в Telegram Web: 937 просмотров"
       ],
       "digestSummary": "Суд округа разъяснил стандарт доказывания при запрете на выезд для КДЛ банкаСуды первой и апелляционной инстанций отказали АСВ в запрете на выезд для КДЛ банка, потребовав доказательств реальной угрозы. Кассация отменила",
       "reactionCount": 5,
-      "engagementRate": 0.005341880341880342
+      "engagementRate": 0.005336179295624333
     }
   ],
   "topTopics": [

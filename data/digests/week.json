@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-04-30T21:53:15.703Z",
+  "generatedAt": "2026-04-30T22:45:18.221Z",
   "totalPosts": 310,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 712,
+      "viewCount": 724,
       "tgLink": "https://t.me/domnin_sa/543",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -55,19 +55,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 37.83,
+      "priorityScore": 37.72,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 712 просмотров",
+        "Охват в Telegram Web: 724 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Опубликован Тематический обзор Верховного Суда Российской Федерации № 5/2026О СУДЕБНОЙ ПРАКТИКЕ РАЗРЕШЕНИЯ СПОРОВ О НЕСОСТОЯТЕЛЬНОСТИ (БАНКРОТСТВЕ) ЗА 2025 ГОДВсего 26 позиций.Пунктом 1 закрепляется налоговый арестны",
       "reactionCount": 11,
-      "engagementRate": 0.01544943820224719
+      "engagementRate": 0.015193370165745856
     },
     {
       "id": "probankrotstvoru/9721",
@@ -101,7 +101,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 730,
+      "viewCount": 735,
       "tgLink": "https://t.me/probankrotstvoru/9721",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -115,19 +115,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.82,
+      "priorityScore": 36.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 730 просмотров",
+        "Охват в Telegram Web: 735 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: невозврат убытков в конкурсную массу исключает стимулирующее вознаграждение КУВ деле о банкротстве общества «Темпл инк» КУ Виталий Звонарев обратился с заявлением об утверждении процентного вознаграждения за по",
       "reactionCount": 12,
-      "engagementRate": 0.01643835616438356
+      "engagementRate": 0.0163265306122449
     },
     {
       "id": "legally_bald/1185",
@@ -161,7 +161,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 284,
+      "viewCount": 289,
       "tgLink": "https://t.me/legally_bald/1185",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -175,18 +175,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.76,
+      "priorityScore": 36.65,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 284 просмотров",
-        "Сильная отдача аудитории: 2,5% реакций к просмотрам"
+        "Охват в Telegram Web: 289 просмотров",
+        "Сильная отдача аудитории: 2,4% реакций к просмотрам"
       ],
       "digestSummary": "Опубликован Тематический обзор Верховного Суда Российской Федерации № 5/2026О СУДЕБНОЙ ПРАКТИКЕ РАЗРЕШЕНИЯ СПОРОВ О НЕСОСТОЯТЕЛЬНОСТИ (БАНКРОТСТВЕ) ЗА 2025 ГОДВсего 26 позиций.Пунктом 1 закрепляется налоговый арестны",
       "reactionCount": 7,
-      "engagementRate": 0.02464788732394366
+      "engagementRate": 0.02422145328719723
     },
     {
       "id": "probankrotstvoru/9711",
@@ -234,7 +234,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 35.67,
+      "priorityScore": 35.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -286,7 +286,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 34.02,
+      "priorityScore": 33.91,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -330,7 +330,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.32,
+      "priorityScore": 33.21,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -359,7 +359,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "54",
+          "count": "55",
           "isPaid": false
         },
         {
@@ -426,18 +426,18 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 33.27,
+      "priorityScore": 33.18,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
-        "Высокая вовлечённость: 89 реакций",
+        "Высокая вовлечённость: 90 реакций",
         "Охват в Telegram Web: 11500 просмотров"
       ],
       "digestSummary": "Тематический обзор практики рассмотрения арбитражными судами споров, связанных с налогообложением имущества организаций, утвержден на заседании Президиума ВС РФ. Большая часть примеров направлена на обеспечение защиты пр",
-      "reactionCount": 89,
-      "engagementRate": 0.007739130434782609
+      "reactionCount": 90,
+      "engagementRate": 0.00782608695652174
     },
     {
       "id": "lawegorov/3750",
@@ -553,7 +553,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 33.04,
+      "priorityScore": 32.93,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -615,7 +615,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.84,
+      "priorityScore": 32.73,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -649,7 +649,7 @@
         },
         {
           "emoji": "❤️",
-          "count": "6",
+          "count": "7",
           "isPaid": false
         },
         {
@@ -668,7 +668,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 5360,
+      "viewCount": 5460,
       "tgLink": "https://t.me/sovetsudey/914",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -680,19 +680,19 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 32.44,
+      "priorityScore": 32.33,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 81 реакций",
-        "Охват в Telegram Web: 5360 просмотров",
+        "Высокая вовлечённость: 82 реакций",
+        "Охват в Telegram Web: 5460 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд защитил право ветерана боевых действий на положенную по закону льготу. Уполномоченный орган обратился в суд с требованием к жителю Краснодарского края оплатить недоимки по транспортному налогу за несколько ",
-      "reactionCount": 81,
-      "engagementRate": 0.015111940298507463
+      "reactionCount": 82,
+      "engagementRate": 0.015018315018315019
     },
     {
       "id": "probankrotstvoru/9700",
