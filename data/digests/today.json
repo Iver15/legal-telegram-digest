@@ -1,8 +1,8 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-04-30T18:08:23.539Z",
-  "totalPosts": 55,
+  "generatedAt": "2026-04-30T19:53:37.203Z",
+  "totalPosts": 51,
   "topPosts": [
     {
       "id": "domnin_sa/543",
@@ -22,12 +22,12 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "2",
+          "count": "4",
           "isPaid": false
         },
         {
           "emoji": "👏",
-          "count": "2",
+          "count": "3",
           "isPaid": false
         },
         {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 500,
+      "viewCount": 644,
       "tgLink": "https://t.me/domnin_sa/543",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -55,18 +55,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 37.37,
+      "priorityScore": 37.81,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 500 просмотров",
-        "Сильная отдача аудитории: 1,2% реакций к просмотрам"
+        "Охват в Telegram Web: 644 просмотров",
+        "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Опубликован Тематический обзор Верховного Суда Российской Федерации № 5/2026О СУДЕБНОЙ ПРАКТИКЕ РАЗРЕШЕНИЯ СПОРОВ О НЕСОСТОЯТЕЛЬНОСТИ (БАНКРОТСТВЕ) ЗА 2025 ГОДВсего 26 позиций.Пунктом 1 закрепляется налоговый арестны",
-      "reactionCount": 6,
-      "engagementRate": 0.012
+      "reactionCount": 9,
+      "engagementRate": 0.013975155279503106
     },
     {
       "id": "probankrotstvoru/9721",
@@ -100,7 +100,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 655,
+      "viewCount": 699,
       "tgLink": "https://t.me/probankrotstvoru/9721",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -114,19 +114,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 37.26,
+      "priorityScore": 37.06,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 655 просмотров",
-        "Сильная отдача аудитории: 1,8% реакций к просмотрам"
+        "Охват в Telegram Web: 699 просмотров",
+        "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: невозврат убытков в конкурсную массу исключает стимулирующее вознаграждение КУВ деле о банкротстве общества «Темпл инк» КУ Виталий Звонарев обратился с заявлением об утверждении процентного вознаграждения за по",
       "reactionCount": 12,
-      "engagementRate": 0.0183206106870229
+      "engagementRate": 0.017167381974248927
     },
     {
       "id": "legally_bald/1185",
@@ -146,7 +146,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "2",
+          "count": "3",
           "isPaid": false
         },
         {
@@ -160,7 +160,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 199,
+      "viewCount": 257,
       "tgLink": "https://t.me/legally_bald/1185",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -174,18 +174,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 37.02,
+      "priorityScore": 36.98,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 199 просмотров",
-        "Сильная отдача аудитории: 3,0% реакций к просмотрам"
+        "Охват в Telegram Web: 257 просмотров",
+        "Сильная отдача аудитории: 2,7% реакций к просмотрам"
       ],
       "digestSummary": "Опубликован Тематический обзор Верховного Суда Российской Федерации № 5/2026О СУДЕБНОЙ ПРАКТИКЕ РАЗРЕШЕНИЯ СПОРОВ О НЕСОСТОЯТЕЛЬНОСТИ (БАНКРОТСТВЕ) ЗА 2025 ГОДВсего 26 позиций.Пунктом 1 закрепляется налоговый арестны",
-      "reactionCount": 6,
-      "engagementRate": 0.03015075376884422
+      "reactionCount": 7,
+      "engagementRate": 0.027237354085603113
     },
     {
       "id": "probankrotstvoru/9717",
@@ -223,7 +223,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1630,
+      "viewCount": 1680,
       "tgLink": "https://t.me/probankrotstvoru/9717",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -236,18 +236,18 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 33.55,
+      "priorityScore": 33.31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 1630 просмотров"
+        "Охват в Telegram Web: 1680 просмотров"
       ],
       "digestSummary": "Кассация: покупка долга к банкроту по номиналу — основание для понижения очередностиВ деле о банкротстве общества «ТрансРесурс» Надежда Соколова обратилась с заявлением о процессуальном правопреемстве, ссылаясь на догово",
       "reactionCount": 15,
-      "engagementRate": 0.009202453987730062
+      "engagementRate": 0.008928571428571428
     },
     {
       "id": "probankrotstvoru/9719",
@@ -285,7 +285,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1450,
+      "viewCount": 1490,
       "tgLink": "https://t.me/probankrotstvoru/9719",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -298,19 +298,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.37,
+      "priorityScore": 33.12,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Исполнение",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 1450 просмотров",
+        "Охват в Telegram Web: 1490 просмотров",
         "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "КС подтвердил обязанность КУ резервировать средства при споре о залоговом статусеВ рамках дела о банкротстве хозяйственного общества с КУ Дениса Качуры взыскали убытки, причиненные кредитору из-за ненадлежащего исполнени",
       "reactionCount": 15,
-      "engagementRate": 0.010344827586206896
+      "engagementRate": 0.010067114093959731
     },
     {
       "id": "sovetsudey/914",
@@ -328,12 +328,12 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "55",
+          "count": "64",
           "isPaid": false
         },
         {
           "emoji": "❤️",
-          "count": "3",
+          "count": "4",
           "isPaid": false
         },
         {
@@ -347,7 +347,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 4050,
+      "viewCount": 4860,
       "tgLink": "https://t.me/sovetsudey/914",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -359,19 +359,19 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 32.91,
+      "priorityScore": 32.69,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 62 реакций",
-        "Охват в Telegram Web: 4050 просмотров",
+        "Высокая вовлечённость: 72 реакций",
+        "Охват в Telegram Web: 4860 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд защитил право ветерана боевых действий на положенную по закону льготу. Уполномоченный орган обратился в суд с требованием к жителю Краснодарского края оплатить недоимки по транспортному налогу за несколько ",
-      "reactionCount": 62,
-      "engagementRate": 0.015308641975308642
+      "reactionCount": 72,
+      "engagementRate": 0.014814814814814815
     },
     {
       "id": "probankrotstvoru/9722",
@@ -404,7 +404,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 383,
+      "viewCount": 459,
       "tgLink": "https://t.me/probankrotstvoru/9722",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -417,18 +417,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.68,
+      "priorityScore": 32.27,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 383 просмотров",
-        "Сильная отдача аудитории: 1,0% реакций к просмотрам"
+        "Охват в Telegram Web: 459 просмотров"
       ],
       "digestSummary": "⚡️Собрали дайджест интересных материалов СМИ о банкротстве за 27-30 апреляАктуальные и свежие статьи отрасли банкротства, а также кейсы, исследования, обзоры и новеллы законодательства.ФНС России просит признать банкрото",
       "reactionCount": 4,
-      "engagementRate": 0.010443864229765013
+      "engagementRate": 0.008714596949891068
     },
     {
       "id": "Shokobear/3903",
@@ -451,12 +450,17 @@
           "isPaid": false
         },
         {
+          "emoji": "⚡",
+          "count": "2",
+          "isPaid": false
+        },
+        {
           "emoji": "❤️",
           "count": "2",
           "isPaid": false
         }
       ],
-      "viewCount": 387,
+      "viewCount": 543,
       "tgLink": "https://t.me/Shokobear/3903",
       "channel": "Shokobear",
       "channelTitle": "Shokobear (Олег Зайцев о банкротстве)",
@@ -469,18 +473,18 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 31.92,
+      "priorityScore": 32,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 387 просмотров",
+        "Охват в Telegram Web: 543 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Могут ли уход за домом и воспитание детей женой считаться возмездным предоставлением мужу?Банкротство, чем оно и интересно как феномен для изучения, вынуждает отвечать и на такие вопросы, имеющие не только юридическое, н",
-      "reactionCount": 5,
-      "engagementRate": 0.012919896640826873
+      "reactionCount": 7,
+      "engagementRate": 0.01289134438305709
     },
     {
       "id": "orpauradio/9368",
@@ -514,7 +518,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 441,
+      "viewCount": 461,
       "tgLink": "https://t.me/orpauradio/9368",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -528,17 +532,17 @@
         "arbitration",
         "compliance"
       ],
-      "priorityScore": 31.89,
+      "priorityScore": 31.63,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 441 просмотров"
+        "Охват в Telegram Web: 461 просмотров"
       ],
       "digestSummary": "Кассация: покупка долга к банкроту по номиналу — основание для понижения очередностиВ деле о банкротстве общества «ТрансРесурс» Надежда Соколова обратилась с заявлением о процессуальном правопреемстве, ссылаясь на догово",
       "reactionCount": 4,
-      "engagementRate": 0.009070294784580499
+      "engagementRate": 0.008676789587852495
     },
     {
       "id": "disputesandsanctions/2463",
@@ -562,7 +566,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 175,
+      "viewCount": 178,
       "tgLink": "https://t.me/disputesandsanctions/2463",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -576,18 +580,18 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 31.73,
+      "priorityScore": 31.52,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 175 просмотров",
-        "Сильная отдача аудитории: 2,3% реакций к просмотрам"
+        "Охват в Telegram Web: 178 просмотров",
+        "Сильная отдача аудитории: 2,2% реакций к просмотрам"
       ],
       "digestSummary": "Уважаемые коллеги! 9 июня пройдет Конференция РАА \"Актуальные проблемы трансграничного банкротства\" и мы спешим начать рассказывать Вам о программе. Первая сессия конференции пройдет под тематикой: «Трансграничное банкро",
       "reactionCount": 4,
-      "engagementRate": 0.022857142857142857
+      "engagementRate": 0.02247191011235955
     },
     {
       "id": "tgnspau/1325",
@@ -625,7 +629,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 87,
+      "viewCount": 116,
       "tgLink": "https://t.me/tgnspau/1325",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -638,18 +642,18 @@
         "courts",
         "arbitration"
       ],
-      "priorityScore": 31.6,
+      "priorityScore": 31.47,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 87 просмотров",
-        "Сильная отдача аудитории: 3,4% реакций к просмотрам"
+        "Охват в Telegram Web: 116 просмотров",
+        "Сильная отдача аудитории: 2,6% реакций к просмотрам"
       ],
       "digestSummary": "КС подтвердил: риск нерезервирования при споре о залоге лежит на управляющем Коллеги, обращаем внимание на определение Конституционного Суда РФ (отказная жалоба по делу конкурсного управляющего Дениса Качуры). ВС уже взы",
       "reactionCount": 3,
-      "engagementRate": 0.034482758620689655
+      "engagementRate": 0.02586206896551724
     },
     {
       "id": "disputesandsanctions/2464",
@@ -677,7 +681,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 113,
+      "viewCount": 118,
       "tgLink": "https://t.me/disputesandsanctions/2464",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -690,40 +694,40 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 30.93,
+      "priorityScore": 30.72,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 113 просмотров",
-        "Сильная отдача аудитории: 1,8% реакций к просмотрам"
+        "Охват в Telegram Web: 118 просмотров",
+        "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "О чем был III международный форум DRC «Время строить: управление строительными контрактами и разрешение строительных споров»Мероприятие вновь прошло на площадке гостеприимного Ararat Park Hyatt в Москве с 21 по 23 апреля",
       "reactionCount": 2,
-      "engagementRate": 0.017699115044247787
+      "engagementRate": 0.01694915254237288
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 50
+      "count": 47
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 48
+      "count": 44
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 45
+      "count": 41
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 44
+      "count": 40
     },
     {
       "id": "enforcement",
@@ -748,11 +752,6 @@
       "count": 8
     },
     {
-      "channel": "vZone1413",
-      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "count": 7
-    },
-    {
       "channel": "orpauradio",
       "title": "Первый радиоканал АУ и юристов",
       "count": 5
@@ -766,6 +765,11 @@
       "channel": "sovetsudey",
       "title": "Верховный Суд России",
       "count": 4
+    },
+    {
+      "channel": "vZone1413",
+      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
+      "count": 3
     },
     {
       "channel": "legally_bald",
