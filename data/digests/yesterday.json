@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-04-30T23:39:42.306Z",
+  "generatedAt": "2026-05-01T01:29:54.409Z",
   "totalPosts": 64,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 35.44,
+      "priorityScore": 35.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -102,7 +102,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 33.8,
+      "priorityScore": 33.57,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -146,7 +146,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.1,
+      "priorityScore": 32.87,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -229,7 +229,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 11500,
+      "viewCount": 11600,
       "tgLink": "https://t.me/sovetsudey/904",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -242,18 +242,18 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 33.06,
+      "priorityScore": 32.82,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 90 реакций",
-        "Охват в Telegram Web: 11500 просмотров"
+        "Охват в Telegram Web: 11600 просмотров"
       ],
       "digestSummary": "Тематический обзор практики рассмотрения арбитражными судами споров, связанных с налогообложением имущества организаций, утвержден на заседании Президиума ВС РФ. Большая часть примеров направлена на обеспечение защиты пр",
       "reactionCount": 90,
-      "engagementRate": 0.00782608695652174
+      "engagementRate": 0.007758620689655172
     },
     {
       "id": "subsidiarka_kdl/4512",
@@ -293,7 +293,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 814,
+      "viewCount": 815,
       "tgLink": "https://t.me/subsidiarka_kdl/4512",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -308,17 +308,17 @@
         "arbitration",
         "compliance"
       ],
-      "priorityScore": 31.47,
+      "priorityScore": 31.24,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 814 просмотров"
+        "Охват в Telegram Web: 815 просмотров"
       ],
       "digestSummary": "Тренды субсидиарной ответственности 2026: четыре нестандартных направленияСостоялась дискуссия с Анастасией Пылаевой о ключевых тенденциях привлечения контролирующих лиц к ответственности — разобрали четыре нестандартных",
       "reactionCount": 5,
-      "engagementRate": 0.006142506142506142
+      "engagementRate": 0.006134969325153374
     },
     {
       "id": "probankrotstvoru/9712",
@@ -364,7 +364,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.34,
+      "priorityScore": 31.1,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -420,7 +420,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 847,
+      "viewCount": 848,
       "tgLink": "https://t.me/corplawpro/5934",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -434,17 +434,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 31.3,
+      "priorityScore": 31.07,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 847 просмотров"
+        "Охват в Telegram Web: 848 просмотров"
       ],
       "digestSummary": "Тренды субсидиарной ответственности 2026: четыре нестандартных направленияСостоялась дискуссия с Анастасией Пылаевой о ключевых тенденциях привлечения контролирующих лиц к ответственности — разобрали четыре нестандартных",
       "reactionCount": 6,
-      "engagementRate": 0.0070838252656434475
+      "engagementRate": 0.007075471698113208
     },
     {
       "id": "subsidiarka_kdl/4510",
@@ -494,7 +494,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 31.23,
+      "priorityScore": 31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -550,7 +550,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.88,
+      "priorityScore": 30.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -613,7 +613,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.44,
+      "priorityScore": 30.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -658,7 +658,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1340,
+      "viewCount": 1350,
       "tgLink": "https://t.me/probankrotstvoru/9714",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -671,19 +671,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.48,
+      "priorityScore": 29.24,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 1340 просмотров",
+        "Охват в Telegram Web: 1350 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "ВС разграничил убытки должника и вред кредиторам при изъятии финансированияОбщество «Дирекция капитального строительства фонда жилищного строительства Республики Башкортостан» признали банкротом в 2016 году. Одним из уча",
       "reactionCount": 16,
-      "engagementRate": 0.011940298507462687
+      "engagementRate": 0.011851851851851851
     },
     {
       "id": "subsidiarka_kdl/4511",
@@ -734,7 +734,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.49,
+      "priorityScore": 28.26,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
