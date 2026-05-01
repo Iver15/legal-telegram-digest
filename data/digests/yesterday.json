@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-01T22:37:51.117Z",
+  "generatedAt": "2026-05-01T23:39:14.686Z",
   "totalPosts": 51,
   "topPosts": [
     {
@@ -55,7 +55,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.26,
+      "priorityScore": 35.13,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -101,7 +101,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 954,
+      "viewCount": 955,
       "tgLink": "https://t.me/probankrotstvoru/9721",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -115,19 +115,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.82,
+      "priorityScore": 33.69,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 954 просмотров",
+        "Охват в Telegram Web: 955 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: невозврат убытков в конкурсную массу исключает стимулирующее вознаграждение КУВ деле о банкротстве общества «Темпл инк» КУ Виталий Звонарев обратился с заявлением об утверждении процентного вознаграждения за по",
       "reactionCount": 13,
-      "engagementRate": 0.013626834381551363
+      "engagementRate": 0.013612565445026177
     },
     {
       "id": "legally_bald/1185",
@@ -161,7 +161,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 724,
+      "viewCount": 726,
       "tgLink": "https://t.me/legally_bald/1185",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -175,17 +175,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.3,
+      "priorityScore": 33.17,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 724 просмотров"
+        "Охват в Telegram Web: 726 просмотров"
       ],
       "digestSummary": "Опубликован Тематический обзор Верховного Суда Российской Федерации № 5/2026О СУДЕБНОЙ ПРАКТИКЕ РАЗРЕШЕНИЯ СПОРОВ О НЕСОСТОЯТЕЛЬНОСТИ (БАНКРОТСТВЕ) ЗА 2025 ГОДВсего 26 позиций.Пунктом 1 закрепляется налоговый арестны",
       "reactionCount": 7,
-      "engagementRate": 0.009668508287292817
+      "engagementRate": 0.009641873278236915
     },
     {
       "id": "probankrotstvoru/9717",
@@ -236,7 +236,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 30.01,
+      "priorityScore": 29.88,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -298,7 +298,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.8,
+      "priorityScore": 29.67,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -355,7 +355,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 29.41,
+      "priorityScore": 29.29,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -414,7 +414,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 8380,
+      "viewCount": 8400,
       "tgLink": "https://t.me/sovetsudey/914",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -426,19 +426,19 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 29.35,
+      "priorityScore": 29.22,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 126 реакций",
-        "Охват в Telegram Web: 8380 просмотров",
+        "Охват в Telegram Web: 8400 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд защитил право ветерана боевых действий на положенную по закону льготу. Уполномоченный орган обратился в суд с требованием к жителю Краснодарского края оплатить недоимки по транспортному налогу за несколько ",
       "reactionCount": 126,
-      "engagementRate": 0.01503579952267303
+      "engagementRate": 0.015
     },
     {
       "id": "probankrotstvoru/9722",
@@ -471,7 +471,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 875,
+      "viewCount": 877,
       "tgLink": "https://t.me/probankrotstvoru/9722",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -484,17 +484,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.06,
+      "priorityScore": 28.93,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 875 просмотров"
+        "Охват в Telegram Web: 877 просмотров"
       ],
       "digestSummary": "⚡️Собрали дайджест интересных материалов СМИ о банкротстве за 27-30 апреляАктуальные и свежие статьи отрасли банкротства, а также кейсы, исследования, обзоры и новеллы законодательства.ФНС России просит признать банкрото",
       "reactionCount": 6,
-      "engagementRate": 0.006857142857142857
+      "engagementRate": 0.0068415051311288486
     },
     {
       "id": "tgnspau/1325",
@@ -545,7 +545,7 @@
         "courts",
         "arbitration"
       ],
-      "priorityScore": 28.49,
+      "priorityScore": 28.36,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -604,7 +604,7 @@
         "arbitration",
         "compliance"
       ],
-      "priorityScore": 28.49,
+      "priorityScore": 28.36,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -652,7 +652,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 28.23,
+      "priorityScore": 28.1,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
@@ -717,7 +717,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.53,
+      "priorityScore": 27.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
