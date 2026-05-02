@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-02T21:11:13.236Z",
+  "generatedAt": "2026-05-02T22:03:12.601Z",
   "totalPosts": 278,
   "topPosts": [
     {
@@ -36,7 +36,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 34.25,
+      "priorityScore": 34.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -260,7 +260,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1510,
+      "viewCount": 1520,
       "tgLink": "https://t.me/domnin_sa/543",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -274,19 +274,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.9,
+      "priorityScore": 32.89,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 1510 просмотров",
+        "Охват в Telegram Web: 1520 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Опубликован Тематический обзор Верховного Суда Российской Федерации № 5/2026О СУДЕБНОЙ ПРАКТИКЕ РАЗРЕШЕНИЯ СПОРОВ О НЕСОСТОЯТЕЛЬНОСТИ (БАНКРОТСТВЕ) ЗА 2025 ГОДВсего 26 позиций.Пунктом 1 закрепляется налоговый арестны",
       "reactionCount": 17,
-      "engagementRate": 0.011258278145695364
+      "engagementRate": 0.01118421052631579
     },
     {
       "id": "corplawpro/5931",
@@ -709,7 +709,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 31.36,
+      "priorityScore": 31.25,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
