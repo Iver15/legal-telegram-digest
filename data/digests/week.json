@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-03T11:28:17.730Z",
+  "generatedAt": "2026-05-03T12:06:08.308Z",
   "totalPosts": 276,
   "topPosts": [
     {
@@ -364,7 +364,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1540,
+      "viewCount": 1550,
       "tgLink": "https://t.me/probankrotstvoru/9700",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -378,19 +378,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.16,
+      "priorityScore": 32.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 1540 просмотров",
+        "Охват в Telegram Web: 1550 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "ВС разрешил участнику ООО взыскивать неосновательное обогащение в пользу обществаАртур Адис, владеющий 45% долей в обществе «РосСтрой», обнаружил, что другие участники общества — Сергей Двуреченский и Петр Калинин — факт",
       "reactionCount": 19,
-      "engagementRate": 0.012337662337662338
+      "engagementRate": 0.012258064516129033
     },
     {
       "id": "probankrotstvoru/9721",
@@ -686,9 +686,14 @@
           "emoji": "✍",
           "count": "2",
           "isPaid": false
+        },
+        {
+          "emoji": "❤️",
+          "count": "1",
+          "isPaid": false
         }
       ],
-      "viewCount": 507,
+      "viewCount": 542,
       "tgLink": "https://t.me/probankrotstvoru/9727",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -701,17 +706,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.83,
+      "priorityScore": 31.09,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 507 просмотров"
+        "Охват в Telegram Web: 542 просмотров"
       ],
       "digestSummary": "У перевозчика украли груз. Кто заплатит?На первый взгляд, хищение — не вина перевозчика, значит, отвечать он не должен. Но суды рассуждают иначе: утрата груза из-за кражи — это не форс-мажор, а предпринимательский риск, ",
-      "reactionCount": 2,
-      "engagementRate": 0.0039447731755424065
+      "reactionCount": 3,
+      "engagementRate": 0.005535055350553505
     }
   ],
   "topTopics": [
