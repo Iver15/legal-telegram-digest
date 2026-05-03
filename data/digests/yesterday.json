@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-03T22:44:31.430Z",
+  "generatedAt": "2026-05-03T23:31:41.233Z",
   "totalPosts": 15,
   "topPosts": [
     {
@@ -48,7 +48,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.98,
+      "priorityScore": 27.88,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -104,7 +104,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 27.46,
+      "priorityScore": 27.36,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -139,7 +139,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 647,
+      "viewCount": 650,
       "tgLink": "https://t.me/orpauradio/9372",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -153,17 +153,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 26.4,
+      "priorityScore": 26.3,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 647 просмотров"
+        "Охват в Telegram Web: 650 просмотров"
       ],
       "digestSummary": "Профискальная увертюра опубликованного под первомайский шашлычок Обзора ВС по банкротству за 2025 год звучит как мотив судьбы в 5й симфонии Бетховена.Залоговый приоритет налогового ареста, отрицательное сальдо по ЕНС, ка",
       "reactionCount": 3,
-      "engagementRate": 0.00463678516228748
+      "engagementRate": 0.004615384615384616
     },
     {
       "id": "probankrotstvoru/9726",
@@ -209,7 +209,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 25.25,
+      "priorityScore": 25.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -260,7 +260,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 22.77,
+      "priorityScore": 22.67,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -304,7 +304,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 21.56,
+      "priorityScore": 21.47,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -350,7 +350,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 18.29,
+      "priorityScore": 18.19,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
@@ -394,7 +394,7 @@
         "enforcement",
         "arbitration"
       ],
-      "priorityScore": 17.67,
+      "priorityScore": 17.57,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -435,7 +435,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 329,
+      "viewCount": 330,
       "tgLink": "https://t.me/insolvencylaw/613",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -446,18 +446,18 @@
         "courts",
         "arbitration"
       ],
-      "priorityScore": 16.48,
+      "priorityScore": 16.38,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 329 просмотров",
+        "Охват в Telegram Web: 330 просмотров",
         "Сильная отдача аудитории: 3,3% реакций к просмотрам"
       ],
       "digestSummary": "Социальное и экономическое прогнозирование последствий проектов актов и разъяснений как обязанность их разработчиковПраво не существует в отрыве от экономики, равно как и общества.Оно, более того, призвано воздействовать",
       "reactionCount": 11,
-      "engagementRate": 0.03343465045592705
+      "engagementRate": 0.03333333333333333
     },
     {
       "id": "vZone1413/8928",
@@ -496,7 +496,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 15.68,
+      "priorityScore": 15.58,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -529,7 +529,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 716,
+      "viewCount": 717,
       "tgLink": "https://t.me/corplawpro/5944",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -541,16 +541,16 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 12.71,
+      "priorityScore": 12.61,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Исполнение",
-        "Охват в Telegram Web: 716 просмотров"
+        "Охват в Telegram Web: 717 просмотров"
       ],
       "digestSummary": "📣 Подготовили дайджест самых интересных судебных кейсов и новостей по корпоративному праву за эту неделю!📎 Удержание продавцом задатка по предварительному договору не допускается, если неполучение согласия третьего лиц",
       "reactionCount": 2,
-      "engagementRate": 0.002793296089385475
+      "engagementRate": 0.002789400278940028
     },
     {
       "id": "sudpraktik/3515",
@@ -587,7 +587,7 @@
         "arbitration",
         "bankruptcy"
       ],
-      "priorityScore": 8.43,
+      "priorityScore": 8.33,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Высокая вовлечённость: 12 реакций",
