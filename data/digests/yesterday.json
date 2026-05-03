@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-03T21:03:52.045Z",
+  "generatedAt": "2026-05-03T22:03:21.372Z",
   "totalPosts": 15,
   "topPosts": [
     {
@@ -35,7 +35,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 984,
+      "viewCount": 987,
       "tgLink": "https://t.me/probankrotstvoru/9725",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -48,17 +48,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.19,
+      "priorityScore": 28.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 984 просмотров"
+        "Охват в Telegram Web: 987 просмотров"
       ],
       "digestSummary": "Мы cобрали для вас подборку самого интересного на портале за всю неделю: Новые статьи на портале«Революция» в банкротстве: что предлагает новый законопроектПока ожидалась дальнейшая доработка законопроекта № 1172553-7 о ",
       "reactionCount": 4,
-      "engagementRate": 0.0040650406504065045
+      "engagementRate": 0.004052684903748734
     },
     {
       "id": "legally_bald/1187",
@@ -91,7 +91,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1110,
+      "viewCount": 1120,
       "tgLink": "https://t.me/legally_bald/1187",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -104,18 +104,18 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 27.67,
+      "priorityScore": 27.54,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 1110 просмотров"
+        "Охват в Telegram Web: 1120 просмотров"
       ],
       "digestSummary": "Профискальная увертюра опубликованного под первомайский шашлычок Обзора ВС по банкротству за 2025 год звучит как мотив судьбы в 5й симфонии Бетховена.Залоговый приоритет налогового ареста, отрицательное сальдо по ЕНС, ка",
       "reactionCount": 11,
-      "engagementRate": 0.00990990990990991
+      "engagementRate": 0.009821428571428571
     },
     {
       "id": "orpauradio/9372",
@@ -139,7 +139,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 642,
+      "viewCount": 645,
       "tgLink": "https://t.me/orpauradio/9372",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -153,17 +153,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 26.61,
+      "priorityScore": 26.49,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 642 просмотров"
+        "Охват в Telegram Web: 645 просмотров"
       ],
       "digestSummary": "Профискальная увертюра опубликованного под первомайский шашлычок Обзора ВС по банкротству за 2025 год звучит как мотив судьбы в 5й симфонии Бетховена.Залоговый приоритет налогового ареста, отрицательное сальдо по ЕНС, ка",
       "reactionCount": 3,
-      "engagementRate": 0.004672897196261682
+      "engagementRate": 0.004651162790697674
     },
     {
       "id": "probankrotstvoru/9726",
@@ -209,7 +209,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 25.47,
+      "priorityScore": 25.34,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -247,7 +247,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 716,
+      "viewCount": 718,
       "tgLink": "https://t.me/subsidiarka_kdl/4528",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -260,17 +260,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 22.98,
+      "priorityScore": 22.86,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 716 просмотров"
+        "Охват в Telegram Web: 718 просмотров"
       ],
       "digestSummary": "Юридический бизнес в условиях кризиса: как личный бренд помогает адаптироваться к изменениямРынок юридических услуг претерпевает значительные изменения: переходы между командами, сокращения юристов как в консалтинге, так",
       "reactionCount": 3,
-      "engagementRate": 0.004189944134078212
+      "engagementRate": 0.004178272980501393
     },
     {
       "id": "sudpraktik_bankrot_demo/2639",
@@ -292,7 +292,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 847,
+      "viewCount": 850,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2639",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -304,17 +304,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 21.77,
+      "priorityScore": 21.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 847 просмотров"
+        "Охват в Telegram Web: 850 просмотров"
       ],
       "digestSummary": "«Новости банкротство» О предложениях по формированию резервов на возможные потери по ипотечным жилищным ссудам должников-банкротов, урегулированным посредством отдельных мировых соглашений (планов реструктуризации). Банк",
       "reactionCount": 1,
-      "engagementRate": 0.0011806375442739079
+      "engagementRate": 0.001176470588235294
     },
     {
       "id": "sudpraktik/3514",
@@ -350,7 +350,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 18.5,
+      "priorityScore": 18.38,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
@@ -382,7 +382,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 745,
+      "viewCount": 746,
       "tgLink": "https://t.me/subsidiarka_kdl/4522",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -394,17 +394,17 @@
         "enforcement",
         "arbitration"
       ],
-      "priorityScore": 17.87,
+      "priorityScore": 17.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 745 просмотров"
+        "Охват в Telegram Web: 746 просмотров"
       ],
       "digestSummary": "📣 Подготовили дайджест самых интересных судебных кейсов и новостей о субсидиарной ответственности за эту неделю!📎 Лицо, дающее указания распорядителю счёта должника, является контролирующим, даже если само не имеет дос",
       "reactionCount": 1,
-      "engagementRate": 0.0013422818791946308
+      "engagementRate": 0.0013404825737265416
     },
     {
       "id": "insolvencylaw/613",
@@ -435,7 +435,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 327,
+      "viewCount": 329,
       "tgLink": "https://t.me/insolvencylaw/613",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -446,18 +446,18 @@
         "courts",
         "arbitration"
       ],
-      "priorityScore": 16.69,
+      "priorityScore": 16.57,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 327 просмотров",
-        "Сильная отдача аудитории: 3,4% реакций к просмотрам"
+        "Охват в Telegram Web: 329 просмотров",
+        "Сильная отдача аудитории: 3,3% реакций к просмотрам"
       ],
       "digestSummary": "Социальное и экономическое прогнозирование последствий проектов актов и разъяснений как обязанность их разработчиковПраво не существует в отрыве от экономики, равно как и общества.Оно, более того, призвано воздействовать",
       "reactionCount": 11,
-      "engagementRate": 0.03363914373088685
+      "engagementRate": 0.03343465045592705
     },
     {
       "id": "vZone1413/8928",
@@ -484,7 +484,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 598,
+      "viewCount": 602,
       "tgLink": "https://t.me/vZone1413/8928",
       "channel": "vZone1413",
       "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
@@ -496,18 +496,18 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 15.89,
+      "priorityScore": 15.77,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 598 просмотров",
+        "Охват в Telegram Web: 602 просмотров",
         "Сильная отдача аудитории: 2,7% реакций к просмотрам"
       ],
       "digestSummary": "ФУ направила в адрес ОСФР уведомление-запрос в котором просила предоставить документы и информацию в отношении должника: сведения о страхователе должника; сведения о состоянии лицевого счета должника на текущую дату; спр",
       "reactionCount": 16,
-      "engagementRate": 0.026755852842809364
+      "engagementRate": 0.026578073089700997
     },
     {
       "id": "corplawpro/5944",
@@ -529,7 +529,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 715,
+      "viewCount": 716,
       "tgLink": "https://t.me/corplawpro/5944",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -541,16 +541,16 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 12.92,
+      "priorityScore": 12.79,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Исполнение",
-        "Охват в Telegram Web: 715 просмотров"
+        "Охват в Telegram Web: 716 просмотров"
       ],
       "digestSummary": "📣 Подготовили дайджест самых интересных судебных кейсов и новостей по корпоративному праву за эту неделю!📎 Удержание продавцом задатка по предварительному договору не допускается, если неполучение согласия третьего лиц",
       "reactionCount": 2,
-      "engagementRate": 0.002797202797202797
+      "engagementRate": 0.002793296089385475
     },
     {
       "id": "sudpraktik/3515",
@@ -587,7 +587,7 @@
         "arbitration",
         "bankruptcy"
       ],
-      "priorityScore": 8.64,
+      "priorityScore": 8.52,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Высокая вовлечённость: 12 реакций",
