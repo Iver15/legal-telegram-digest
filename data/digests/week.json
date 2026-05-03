@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-03T15:32:57.100Z",
-  "totalPosts": 276,
+  "generatedAt": "2026-05-03T16:12:55.709Z",
+  "totalPosts": 275,
   "topPosts": [
     {
       "id": "probankrotstvoru/9711",
@@ -36,7 +36,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1270,
+      "viewCount": 1280,
       "tgLink": "https://t.me/probankrotstvoru/9711",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -50,19 +50,19 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 33.8,
+      "priorityScore": 33.78,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 1270 просмотров",
+        "Охват в Telegram Web: 1280 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: формальная непередача документов не заменяет анализ причин банкротстваОбщество «Доступное жилье» выдавало денежные ссуды под залог недвижимости. В 2013 году банк «Пурпе» предложил компании профинансировать стро",
       "reactionCount": 17,
-      "engagementRate": 0.013385826771653543
+      "engagementRate": 0.01328125
     },
     {
       "id": "bankruptcyboutique/572",
@@ -576,7 +576,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 839,
+      "viewCount": 842,
       "tgLink": "https://t.me/legally_bald/1185",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -596,11 +596,11 @@
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 839 просмотров"
+        "Охват в Telegram Web: 842 просмотров"
       ],
       "digestSummary": "Опубликован Тематический обзор Верховного Суда Российской Федерации № 5/2026О СУДЕБНОЙ ПРАКТИКЕ РАЗРЕШЕНИЯ СПОРОВ О НЕСОСТОЯТЕЛЬНОСТИ (БАНКРОТСТВЕ) ЗА 2025 ГОДВсего 26 позиций.Пунктом 1 закрепляется налоговый арестны",
       "reactionCount": 8,
-      "engagementRate": 0.009535160905840286
+      "engagementRate": 0.009501187648456057
     },
     {
       "id": "probankrotstvoru/9727",
@@ -633,7 +633,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 672,
+      "viewCount": 691,
       "tgLink": "https://t.me/probankrotstvoru/9727",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -646,17 +646,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.88,
+      "priorityScore": 30.78,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 672 просмотров"
+        "Охват в Telegram Web: 691 просмотров"
       ],
       "digestSummary": "У перевозчика украли груз. Кто заплатит?На первый взгляд, хищение — не вина перевозчика, значит, отвечать он не должен. Но суды рассуждают иначе: утрата груза из-за кражи — это не форс-мажор, а предпринимательский риск, ",
       "reactionCount": 4,
-      "engagementRate": 0.005952380952380952
+      "engagementRate": 0.005788712011577424
     },
     {
       "id": "educatedyoungman/911",
@@ -680,7 +680,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1190,
+      "viewCount": 1200,
       "tgLink": "https://t.me/educatedyoungman/911",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -694,30 +694,30 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.75,
+      "priorityScore": 30.74,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 1190 просмотров"
+        "Охват в Telegram Web: 1200 просмотров"
       ],
       "digestSummary": "Течение давности при последовательном рассмотрении требований истцаХорошо поспорили с уважаемым А.А. Павловым на подкасте Петербургской цивилистки, на котором вместе Д.В. Борейшо обсуждали определение Верховного Суда РФ ",
       "reactionCount": 11,
-      "engagementRate": 0.009243697478991597
+      "engagementRate": 0.009166666666666667
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 231
+      "count": 230
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 227
+      "count": 226
     },
     {
       "id": "bankruptcy",
@@ -727,22 +727,22 @@
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 204
+      "count": 203
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 118
+      "count": 117
     },
     {
       "id": "tax",
       "label": "Налоги",
-      "count": 50
+      "count": 49
     },
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 45
+      "count": 44
     }
   ],
   "topChannels": [
@@ -777,13 +777,13 @@
       "count": 14
     },
     {
-      "channel": "disputesandsanctions",
-      "title": "LetterRogatory v.2",
+      "channel": "legally_bald",
+      "title": "Legally_bald (Даниил Савченко)",
       "count": 12
     },
     {
-      "channel": "legally_bald",
-      "title": "Legally_bald (Даниил Савченко)",
+      "channel": "bankruptcyboutique",
+      "title": "Bankruptcy Boutique",
       "count": 12
     }
   ]
