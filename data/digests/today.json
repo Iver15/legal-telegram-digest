@@ -1,7 +1,7 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-05-03T23:31:41.233Z",
+  "generatedAt": "2026-05-04T00:14:32.941Z",
   "totalPosts": 5,
   "topPosts": [
     {
@@ -35,7 +35,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 805,
+      "viewCount": 807,
       "tgLink": "https://t.me/probankrotstvoru/9727",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -48,17 +48,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.8,
+      "priorityScore": 29.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 805 просмотров"
+        "Охват в Telegram Web: 807 просмотров"
       ],
       "digestSummary": "У перевозчика украли груз. Кто заплатит?На первый взгляд, хищение — не вина перевозчика, значит, отвечать он не должен. Но суды рассуждают иначе: утрата груза из-за кражи — это не форс-мажор, а предпринимательский риск, ",
       "reactionCount": 4,
-      "engagementRate": 0.004968944099378882
+      "engagementRate": 0.004956629491945477
     },
     {
       "id": "probankrotstvoru/9728",
@@ -81,7 +81,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 697,
+      "viewCount": 699,
       "tgLink": "https://t.me/probankrotstvoru/9728",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -94,17 +94,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.21,
+      "priorityScore": 29.12,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 697 просмотров"
+        "Охват в Telegram Web: 699 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС проверит, могут ли судебные расходы по реестровому долгу быть текущимиФинуправляющий оспорил признание судебных расходов текущими платежами, указав, что ",
       "reactionCount": 1,
-      "engagementRate": 0.0014347202295552368
+      "engagementRate": 0.001430615164520744
     },
     {
       "id": "corplawpro/5951",
@@ -137,7 +137,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 589,
+      "viewCount": 592,
       "tgLink": "https://t.me/corplawpro/5951",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -150,17 +150,17 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 25.88,
+      "priorityScore": 25.78,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 589 просмотров"
+        "Охват в Telegram Web: 592 просмотров"
       ],
       "digestSummary": "Личный бренд юриста: от репутации к влиянию на профессиюРынок ужесточается — расходы режут, найм становится точечным, а отказы приходят без объяснений. Быть хорошим специалистом уже базовый стандарт. Чтобы не просто выжи",
       "reactionCount": 5,
-      "engagementRate": 0.008488964346349746
+      "engagementRate": 0.008445945945945946
     },
     {
       "id": "Compliance_Practice/3065",
@@ -196,7 +196,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 921,
+      "viewCount": 934,
       "tgLink": "https://t.me/Compliance_Practice/3065",
       "channel": "Compliance_Practice",
       "channelTitle": "Compliance practice",
@@ -209,17 +209,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 23.5,
+      "priorityScore": 23.4,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 921 просмотров"
+        "Охват в Telegram Web: 934 просмотров"
       ],
       "digestSummary": "OFAC Alert 🔔 по поводу взаимодействия с Ираном 🇮🇷Отдельно отмечается, что Лица, не являющиеся гражданами США, могут подвергнуться санкциям за участие в сделках с правительством Ирана и КСИР, которые иным образом не ос",
       "reactionCount": 7,
-      "engagementRate": 0.00760043431053203
+      "engagementRate": 0.007494646680942184
     },
     {
       "id": "educatedyoungman/914",
@@ -250,7 +250,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 635,
+      "viewCount": 637,
       "tgLink": "https://t.me/educatedyoungman/914",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -261,18 +261,18 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 21.86,
+      "priorityScore": 21.77,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 33 реакций",
-        "Охват в Telegram Web: 635 просмотров",
+        "Охват в Telegram Web: 637 просмотров",
         "Сильная отдача аудитории: 5,2% реакций к просмотрам"
       ],
       "digestSummary": "ИИ и право В свете активного развития нейросетей пришла в голову мысль, что, возможно, ценность фундаментального образования и экспертизы должна только вырасти. Нейронки хорошо анализируют, бодро выдают какой-то ответ, н",
       "reactionCount": 33,
-      "engagementRate": 0.05196850393700787
+      "engagementRate": 0.05180533751962323
     }
   ],
   "topTopics": [
