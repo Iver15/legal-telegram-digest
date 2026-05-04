@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-04T22:34:23.812Z",
+  "generatedAt": "2026-05-04T23:36:03.197Z",
   "totalPosts": 5,
   "topPosts": [
     {
@@ -35,7 +35,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1200,
+      "viewCount": 1210,
       "tgLink": "https://t.me/probankrotstvoru/9728",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -48,19 +48,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.22,
+      "priorityScore": 29.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 1200 просмотров",
+        "Охват в Telegram Web: 1210 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС проверит, могут ли судебные расходы по реестровому долгу быть текущимиФинуправляющий оспорил признание судебных расходов текущими платежами, указав, что ",
       "reactionCount": 14,
-      "engagementRate": 0.011666666666666667
+      "engagementRate": 0.011570247933884297
     },
     {
       "id": "probankrotstvoru/9727",
@@ -93,7 +93,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1200,
+      "viewCount": 1210,
       "tgLink": "https://t.me/probankrotstvoru/9727",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -106,19 +106,19 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 28.76,
+      "priorityScore": 28.63,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 1200 просмотров",
+        "Охват в Telegram Web: 1210 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "У перевозчика украли груз. Кто заплатит?На первый взгляд, хищение — не вина перевозчика, значит, отвечать он не должен. Но суды рассуждают иначе: утрата груза из-за кражи — это не форс-мажор, а предпринимательский риск, ",
       "reactionCount": 13,
-      "engagementRate": 0.010833333333333334
+      "engagementRate": 0.010743801652892562
     },
     {
       "id": "corplawpro/5951",
@@ -164,7 +164,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 22.69,
+      "priorityScore": 22.56,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
@@ -223,7 +223,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 20.55,
+      "priorityScore": 20.42,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -264,7 +264,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 811,
+      "viewCount": 813,
       "tgLink": "https://t.me/educatedyoungman/914",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -275,18 +275,18 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 19.65,
+      "priorityScore": 19.52,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 39 реакций",
-        "Охват в Telegram Web: 811 просмотров",
+        "Охват в Telegram Web: 813 просмотров",
         "Сильная отдача аудитории: 4,8% реакций к просмотрам"
       ],
       "digestSummary": "ИИ и право В свете активного развития нейросетей пришла в голову мысль, что, возможно, ценность фундаментального образования и экспертизы должна только вырасти. Нейронки хорошо анализируют, бодро выдают какой-то ответ, н",
       "reactionCount": 39,
-      "engagementRate": 0.04808877928483354
+      "engagementRate": 0.04797047970479705
     }
   ],
   "topTopics": [
