@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-04T23:36:03.197Z",
+  "generatedAt": "2026-05-05T01:22:36.968Z",
   "totalPosts": 5,
   "topPosts": [
     {
@@ -48,7 +48,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.08,
+      "priorityScore": 28.86,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -106,7 +106,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 28.63,
+      "priorityScore": 28.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -151,7 +151,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 944,
+      "viewCount": 946,
       "tgLink": "https://t.me/corplawpro/5951",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -164,17 +164,17 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 22.56,
+      "priorityScore": 22.34,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 944 просмотров"
+        "Охват в Telegram Web: 946 просмотров"
       ],
       "digestSummary": "Личный бренд юриста: от репутации к влиянию на профессиюРынок ужесточается — расходы режут, найм становится точечным, а отказы приходят без объяснений. Быть хорошим специалистом уже базовый стандарт. Чтобы не просто выжи",
       "reactionCount": 5,
-      "engagementRate": 0.005296610169491525
+      "engagementRate": 0.005285412262156448
     },
     {
       "id": "Compliance_Practice/3065",
@@ -210,7 +210,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1480,
+      "viewCount": 1490,
       "tgLink": "https://t.me/Compliance_Practice/3065",
       "channel": "Compliance_Practice",
       "channelTitle": "Compliance practice",
@@ -223,17 +223,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 20.42,
+      "priorityScore": 20.2,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 1480 просмотров"
+        "Охват в Telegram Web: 1490 просмотров"
       ],
       "digestSummary": "OFAC Alert 🔔 по поводу взаимодействия с Ираном 🇮🇷Отдельно отмечается, что Лица, не являющиеся гражданами США, могут подвергнуться санкциям за участие в сделках с правительством Ирана и КСИР, которые иным образом не ос",
       "reactionCount": 8,
-      "engagementRate": 0.005405405405405406
+      "engagementRate": 0.005369127516778523
     },
     {
       "id": "educatedyoungman/914",
@@ -264,7 +264,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 813,
+      "viewCount": 814,
       "tgLink": "https://t.me/educatedyoungman/914",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -275,18 +275,18 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 19.52,
+      "priorityScore": 19.31,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 39 реакций",
-        "Охват в Telegram Web: 813 просмотров",
+        "Охват в Telegram Web: 814 просмотров",
         "Сильная отдача аудитории: 4,8% реакций к просмотрам"
       ],
       "digestSummary": "ИИ и право В свете активного развития нейросетей пришла в голову мысль, что, возможно, ценность фундаментального образования и экспертизы должна только вырасти. Нейронки хорошо анализируют, бодро выдают какой-то ответ, н",
       "reactionCount": 39,
-      "engagementRate": 0.04797047970479705
+      "engagementRate": 0.04791154791154791
     }
   ],
   "topTopics": [

@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-04T23:36:03.197Z",
+  "generatedAt": "2026-05-05T01:22:36.968Z",
   "totalPosts": 249,
   "topPosts": [
     {
@@ -55,7 +55,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 37.37,
+      "priorityScore": 37.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -101,7 +101,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1030,
+      "viewCount": 1040,
       "tgLink": "https://t.me/probankrotstvoru/9730",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -115,17 +115,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.07,
+      "priorityScore": 34.84,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 1030 просмотров"
+        "Охват в Telegram Web: 1040 просмотров"
       ],
       "digestSummary": "Кассация: продажа субсидиарного требования лишает КУ права взыскать расходы с заявителяВ деле о банкротстве общества «Западно-Сибирская Монтажная Компания» КУ Юма Алимбаев обратился с заявлением о взыскании с заявителя п",
       "reactionCount": 9,
-      "engagementRate": 0.008737864077669903
+      "engagementRate": 0.008653846153846154
     },
     {
       "id": "probankrotstvoru/9734",
@@ -163,7 +163,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 857,
+      "viewCount": 870,
       "tgLink": "https://t.me/probankrotstvoru/9734",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -176,19 +176,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.93,
+      "priorityScore": 33.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 857 просмотров",
-        "Сильная отдача аудитории: 1,8% реакций к просмотрам"
+        "Охват в Telegram Web: 870 просмотров",
+        "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: малозначительность нарушений АУ не исключает оценку всех эпизодов бездействияВ деле о банкротстве Валентины Соловьевой финуправляющий Артур Хасаншин обратился с ходатайством о завершении процедуры реализации им",
       "reactionCount": 15,
-      "engagementRate": 0.01750291715285881
+      "engagementRate": 0.017241379310344827
     },
     {
       "id": "probankrotstvoru/9711",
@@ -444,7 +444,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1490,
+      "viewCount": 1510,
       "tgLink": "https://t.me/probankrotstvoru/9732",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -457,19 +457,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.88,
+      "priorityScore": 32.64,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 17 реакций",
-        "Охват в Telegram Web: 1490 просмотров",
+        "Охват в Telegram Web: 1510 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "КДЛ не удалось оспорить в КС нормы о взыскании убытков с арбитражных управляющихКонституционный Суд РФ отказал в принятии жалобы Николая Баталина на ряд норм ГК РФ и Закона о банкротстве. Баталин, являвшийся КДЛ, безуспе",
       "reactionCount": 17,
-      "engagementRate": 0.011409395973154362
+      "engagementRate": 0.011258278145695364
     },
     {
       "id": "corplawpro/5931",
@@ -591,17 +591,17 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "125",
+          "count": "129",
           "isPaid": false
         },
         {
           "emoji": "❤️",
-          "count": "11",
+          "count": "12",
           "isPaid": false
         },
         {
           "emoji": "👏",
-          "count": "8",
+          "count": "9",
           "isPaid": false
         },
         {
@@ -620,7 +620,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 7830,
+      "viewCount": 8000,
       "tgLink": "https://t.me/sovetsudey/916",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -632,19 +632,19 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 31.95,
+      "priorityScore": 31.73,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 150 реакций",
-        "Охват в Telegram Web: 7830 просмотров",
+        "Высокая вовлечённость: 156 реакций",
+        "Охват в Telegram Web: 8000 просмотров",
         "Сильная отдача аудитории: 1,9% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд восстановил право матери погибшего моряка на социальные гарантии. Жительница Камчатского края находилась на иждивении сына и после его смерти подала заявление о назначении ежемесячных выплат по потере корми",
-      "reactionCount": 150,
-      "engagementRate": 0.019157088122605363
+      "reactionCount": 156,
+      "engagementRate": 0.0195
     },
     {
       "id": "sovetsudey/904",
