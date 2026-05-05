@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-05T22:15:36.157Z",
+  "generatedAt": "2026-05-05T23:14:59.903Z",
   "totalPosts": 33,
   "topPosts": [
     {
@@ -55,7 +55,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 34.59,
+      "priorityScore": 34.46,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -115,7 +115,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.52,
+      "priorityScore": 32.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -177,7 +177,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.73,
+      "priorityScore": 31.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -227,7 +227,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2100,
+      "viewCount": 2110,
       "tgLink": "https://t.me/probankrotstvoru/9732",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -240,18 +240,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.19,
+      "priorityScore": 30.06,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 20 реакций",
-        "Охват в Telegram Web: 2100 просмотров"
+        "Охват в Telegram Web: 2110 просмотров"
       ],
       "digestSummary": "КДЛ не удалось оспорить в КС нормы о взыскании убытков с арбитражных управляющихКонституционный Суд РФ отказал в принятии жалобы Николая Баталина на ряд норм ГК РФ и Закона о банкротстве. Баталин, являвшийся КДЛ, безуспе",
       "reactionCount": 20,
-      "engagementRate": 0.009523809523809525
+      "engagementRate": 0.009478672985781991
     },
     {
       "id": "sovetsudey/916",
@@ -310,7 +310,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 29.12,
+      "priorityScore": 29,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -368,7 +368,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.94,
+      "priorityScore": 28.82,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -406,7 +406,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 980,
+      "viewCount": 982,
       "tgLink": "https://t.me/orpauradio/9373",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -419,17 +419,17 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 27.94,
+      "priorityScore": 27.82,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 980 просмотров"
+        "Охват в Telegram Web: 982 просмотров"
       ],
       "digestSummary": "КДЛ не удалось оспорить в КС нормы о взыскании убытков с арбитражных управляющихКонституционный Суд РФ отказал в принятии жалобы Николая Баталина на ряд норм ГК РФ и Закона о банкротстве. Баталин, являвшийся КДЛ, безуспе",
       "reactionCount": 7,
-      "engagementRate": 0.007142857142857143
+      "engagementRate": 0.007128309572301426
     },
     {
       "id": "vs_court/4948",
@@ -459,7 +459,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.29,
+      "priorityScore": 27.17,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -514,7 +514,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 963,
+      "viewCount": 967,
       "tgLink": "https://t.me/subsidiarka_kdl/4529",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -527,17 +527,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 27.04,
+      "priorityScore": 26.91,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 963 просмотров"
+        "Охват в Telegram Web: 967 просмотров"
       ],
       "digestSummary": "На стадии определения размера субсидиарной ответственности суд обязан рассмотреть по существу доводы ответчика о её снижении, даже если они идентичны возражениям, отклонённым при установлении оснований ответственности#су",
       "reactionCount": 6,
-      "engagementRate": 0.006230529595015576
+      "engagementRate": 0.0062047569803516025
     },
     {
       "id": "sudpraktik_bankrot_demo/2640",
@@ -575,7 +575,7 @@
         "arbitration",
         "compliance"
       ],
-      "priorityScore": 26.32,
+      "priorityScore": 26.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -625,7 +625,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 25.96,
+      "priorityScore": 25.84,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -682,7 +682,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 25.85,
+      "priorityScore": 25.72,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
