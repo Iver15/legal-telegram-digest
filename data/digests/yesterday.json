@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-06T22:32:38.832Z",
+  "generatedAt": "2026-05-06T23:30:06.016Z",
   "totalPosts": 39,
   "topPosts": [
     {
@@ -73,7 +73,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 33.01,
+      "priorityScore": 32.89,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -123,7 +123,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2440,
+      "viewCount": 2450,
       "tgLink": "https://t.me/legally_bald/1191",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -137,17 +137,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 31.7,
+      "priorityScore": 31.58,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 2440 просмотров"
+        "Охват в Telegram Web: 2450 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за апрель 2026I. ВС допустил обращение субординированного кредитора с заявлением о привлечении к субсидиарной ответственности – Дело АО “Сельскохозяйственная компания “Седлистое”Верховный ",
       "reactionCount": 10,
-      "engagementRate": 0.004098360655737705
+      "engagementRate": 0.004081632653061225
     },
     {
       "id": "BankruptcyClub/1009",
@@ -195,7 +195,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 31.33,
+      "priorityScore": 31.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -251,7 +251,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 31.16,
+      "priorityScore": 31.04,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -304,7 +304,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 31.16,
+      "priorityScore": 31.04,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -357,7 +357,7 @@
         "courts",
         "compliance"
       ],
-      "priorityScore": 31.15,
+      "priorityScore": 31.03,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -405,7 +405,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 30.64,
+      "priorityScore": 30.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -466,7 +466,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.45,
+      "priorityScore": 30.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -524,7 +524,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.35,
+      "priorityScore": 30.23,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -582,7 +582,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.43,
+      "priorityScore": 29.31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -643,7 +643,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 29.32,
+      "priorityScore": 29.2,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -700,7 +700,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.14,
+      "priorityScore": 29.02,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
