@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-07T00:13:40.765Z",
+  "generatedAt": "2026-05-07T04:08:09.944Z",
   "totalPosts": 39,
   "topPosts": [
     {
@@ -60,7 +60,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 12800,
+      "viewCount": 12900,
       "tgLink": "https://t.me/sovetsudey/917",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -73,18 +73,18 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 32.8,
+      "priorityScore": 32.3,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 88 реакций",
-        "Охват в Telegram Web: 12800 просмотров"
+        "Охват в Telegram Web: 12900 просмотров"
       ],
       "digestSummary": "ВС РФ разрешил спор о взыскании денежных средств по договору займа, заключенному до введения процедуры банкротства в отношении должника. Кредитор подал иск в суд общей юрисдикции, однако первая инстанция оставила его без",
       "reactionCount": 88,
-      "engagementRate": 0.006875
+      "engagementRate": 0.006821705426356589
     },
     {
       "id": "legally_bald/1191",
@@ -123,7 +123,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2450,
+      "viewCount": 2480,
       "tgLink": "https://t.me/legally_bald/1191",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -137,17 +137,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 31.49,
+      "priorityScore": 31,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 2450 просмотров"
+        "Охват в Telegram Web: 2480 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за апрель 2026I. ВС допустил обращение субординированного кредитора с заявлением о привлечении к субсидиарной ответственности – Дело АО “Сельскохозяйственная компания “Седлистое”Верховный ",
       "reactionCount": 10,
-      "engagementRate": 0.004081632653061225
+      "engagementRate": 0.004032258064516129
     },
     {
       "id": "BankruptcyClub/1009",
@@ -181,7 +181,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 324,
+      "viewCount": 326,
       "tgLink": "https://t.me/BankruptcyClub/1009",
       "channel": "BankruptcyClub",
       "channelTitle": "Банкротный Клуб",
@@ -195,17 +195,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 31.12,
+      "priorityScore": 30.62,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 324 просмотров"
+        "Охват в Telegram Web: 326 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за апрель 2026I. ВС допустил обращение субординированного кредитора с заявлением о привлечении к субсидиарной ответственности – Дело АО “Сельскохозяйственная компания “Седлистое”Верховный ",
       "reactionCount": 3,
-      "engagementRate": 0.009259259259259259
+      "engagementRate": 0.009202453987730062
     },
     {
       "id": "probankrotstvoru/9738",
@@ -251,7 +251,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 30.95,
+      "priorityScore": 30.46,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -304,7 +304,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 30.95,
+      "priorityScore": 30.46,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -343,7 +343,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 980,
+      "viewCount": 986,
       "tgLink": "https://t.me/orpauradio/9375",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -357,17 +357,17 @@
         "courts",
         "compliance"
       ],
-      "priorityScore": 30.94,
+      "priorityScore": 30.45,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 980 просмотров"
+        "Охват в Telegram Web: 986 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за апрель 2026I. ВС допустил обращение субординированного кредитора с заявлением о привлечении к субсидиарной ответственности – Дело АО “Сельскохозяйственная компания “Седлистое”Верховный ",
       "reactionCount": 4,
-      "engagementRate": 0.004081632653061225
+      "engagementRate": 0.004056795131845842
     },
     {
       "id": "fedresurs_insolvency/2807",
@@ -391,7 +391,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 423,
+      "viewCount": 428,
       "tgLink": "https://t.me/fedresurs_insolvency/2807",
       "channel": "fedresurs_insolvency",
       "channelTitle": "Федресурс: банкротные новости",
@@ -405,17 +405,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 30.43,
+      "priorityScore": 29.94,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 423 просмотров"
+        "Охват в Telegram Web: 428 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за апрель 2026I. ВС допустил обращение субординированного кредитора с заявлением о привлечении к субсидиарной ответственности – Дело АО “Сельскохозяйственная компания “Седлистое”Верховный ",
       "reactionCount": 1,
-      "engagementRate": 0.002364066193853428
+      "engagementRate": 0.002336448598130841
     },
     {
       "id": "probankrotstvoru/9739",
@@ -466,7 +466,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.24,
+      "priorityScore": 29.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -511,7 +511,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1260,
+      "viewCount": 1270,
       "tgLink": "https://t.me/probankrotstvoru/9742",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -524,19 +524,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.14,
+      "priorityScore": 29.64,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 1260 просмотров",
+        "Охват в Telegram Web: 1270 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "ВС разъяснил порядок пересчета валютных требований в реестре кредиторовВ 2015 году компания «Зюзис Девелопмент Инк» приобрела у компании «Альбертсон Пропертиз Лимитед» право требования на помещение в Москве за 910 тыс. д",
       "reactionCount": 16,
-      "engagementRate": 0.012698412698412698
+      "engagementRate": 0.012598425196850394
     },
     {
       "id": "probankrotstvoru/9736",
@@ -569,7 +569,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1170,
+      "viewCount": 1180,
       "tgLink": "https://t.me/probankrotstvoru/9736",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -582,19 +582,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.22,
+      "priorityScore": 28.72,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 1170 просмотров",
+        "Охват в Telegram Web: 1180 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Конституционный Суд: норма о мнимых сделках защищает от недобросовестности в оборотеКонституционный Суд РФ отказал в принятии жалобы общества УК «Мир» на п. 1 ст. 170, п. 1 ст. 181 ГК РФ и ст. 129 Закона о банкротстве. В",
       "reactionCount": 16,
-      "engagementRate": 0.013675213675213675
+      "engagementRate": 0.013559322033898305
     },
     {
       "id": "sovetsudey/918",
@@ -631,7 +631,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 11500,
+      "viewCount": 11600,
       "tgLink": "https://t.me/sovetsudey/918",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -643,18 +643,18 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 29.11,
+      "priorityScore": 28.61,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 83 реакций",
-        "Охват в Telegram Web: 11500 просмотров"
+        "Охват в Telegram Web: 11600 просмотров"
       ],
       "digestSummary": "Верховный Суд рассмотрел жалобу жителя Московской области на действия арбитражного управляющего, который в рамках банкротного дела назначил себе повышенное вознаграждение, снизив при этом размер выплаты, положенной супру",
       "reactionCount": 83,
-      "engagementRate": 0.007217391304347826
+      "engagementRate": 0.0071551724137931035
     },
     {
       "id": "probankrotstvoru/9735",
@@ -687,7 +687,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1390,
+      "viewCount": 1400,
       "tgLink": "https://t.me/probankrotstvoru/9735",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -700,18 +700,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.93,
+      "priorityScore": 28.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 1390 просмотров"
+        "Охват в Telegram Web: 1400 просмотров"
       ],
       "digestSummary": "КС подтвердил, что выплата КДЛ премий — основание для взыскания убытковКонституционный Суд РФ определением отказал в принятии жалобы Владимира Тихонова на п. 3 ст. 53 и п. 1 ст. 53.1 ГК РФ. В рамках дела о банкротстве Ти",
       "reactionCount": 13,
-      "engagementRate": 0.00935251798561151
+      "engagementRate": 0.009285714285714286
     }
   ],
   "topTopics": [
