@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-06T23:30:06.017Z",
+  "generatedAt": "2026-05-07T00:13:40.765Z",
   "totalPosts": 223,
   "topPosts": [
     {
@@ -36,7 +36,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1690,
+      "viewCount": 1700,
       "tgLink": "https://t.me/probankrotstvoru/9748",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -50,18 +50,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 37.94,
+      "priorityScore": 37.84,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 1690 просмотров"
+        "Охват в Telegram Web: 1700 просмотров"
       ],
       "digestSummary": "КС отклонил жалобу АУ на нормы о субсидиарной ответственностиКонституционный Суд отказал в рассмотрении жалобы АУ Дмитрия Лушина на нормы Закона о банкротстве. Заявитель оспаривал ст. 61.17, 139 и 140 Закона о несостояте",
       "reactionCount": 15,
-      "engagementRate": 0.008875739644970414
+      "engagementRate": 0.008823529411764706
     },
     {
       "id": "probankrotstvoru/9745",
@@ -95,7 +95,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 995,
+      "viewCount": 997,
       "tgLink": "https://t.me/probankrotstvoru/9745",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -109,19 +109,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 37.91,
+      "priorityScore": 37.81,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 995 просмотров",
+        "Охват в Telegram Web: 997 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "ВС разъяснил порядок взыскания страховых взносов через механизм ЕНСВ рамках банкротства ФГУП «Главное военно-строительное управление № 9» возник спор между КУ и ФНС о порядке погашения текущей задолженности по единому ст",
       "reactionCount": 14,
-      "engagementRate": 0.01407035175879397
+      "engagementRate": 0.014042126379137413
     },
     {
       "id": "Shokobear/3910",
@@ -145,7 +145,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 772,
+      "viewCount": 780,
       "tgLink": "https://t.me/Shokobear/3910",
       "channel": "Shokobear",
       "channelTitle": "Shokobear (Олег Зайцев о банкротстве)",
@@ -159,17 +159,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 35.11,
+      "priorityScore": 35.02,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 772 просмотров"
+        "Охват в Telegram Web: 780 просмотров"
       ],
       "digestSummary": "КС отклонил жалобу АУ на нормы о субсидиарной ответственностиКонституционный Суд отказал в рассмотрении жалобы АУ Дмитрия Лушина на нормы Закона о банкротстве. Заявитель оспаривал ст. 61.17, 139 и 140 Закона о несостояте",
       "reactionCount": 2,
-      "engagementRate": 0.0025906735751295338
+      "engagementRate": 0.002564102564102564
     },
     {
       "id": "subsidiarka_kdl/4536",
@@ -204,7 +204,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 543,
+      "viewCount": 544,
       "tgLink": "https://t.me/subsidiarka_kdl/4536",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -219,17 +219,17 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 34.23,
+      "priorityScore": 34.14,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 543 просмотров"
+        "Охват в Telegram Web: 544 просмотров"
       ],
       "digestSummary": "Личный бренд юриста 2026Состоялась дискуссия о построении личного бренда юриста в условиях меняющегося рынка — разобрали структуру личного бренда, конкретные инструменты продвижения для консультантов и инхаус-юристов, а ",
       "reactionCount": 5,
-      "engagementRate": 0.009208103130755065
+      "engagementRate": 0.009191176470588236
     },
     {
       "id": "subsidiarka_kdl/4534",
@@ -275,7 +275,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 33.73,
+      "priorityScore": 33.64,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -319,7 +319,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 457,
+      "viewCount": 463,
       "tgLink": "https://t.me/corplawpro/5959",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -333,17 +333,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 33.59,
+      "priorityScore": 33.49,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 457 просмотров"
+        "Охват в Telegram Web: 463 просмотров"
       ],
       "digestSummary": "Личный бренд юриста 2026Состоялась дискуссия о построении личного бренда юриста в условиях меняющегося рынка — разобрали структуру личного бренда, конкретные инструменты продвижения для консультантов и инхаус-юристов, а ",
       "reactionCount": 3,
-      "engagementRate": 0.006564551422319475
+      "engagementRate": 0.0064794816414686825
     },
     {
       "id": "probankrotstvoru/9729",
@@ -587,7 +587,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 32.89,
+      "priorityScore": 32.8,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -644,7 +644,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.44,
+      "priorityScore": 32.35,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -686,7 +686,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.1,
+      "priorityScore": 32.01,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",

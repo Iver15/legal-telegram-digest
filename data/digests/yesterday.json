@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-06T23:30:06.016Z",
+  "generatedAt": "2026-05-07T00:13:40.765Z",
   "totalPosts": 39,
   "topPosts": [
     {
@@ -73,7 +73,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 32.89,
+      "priorityScore": 32.8,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -137,7 +137,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 31.58,
+      "priorityScore": 31.49,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
@@ -195,7 +195,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 31.21,
+      "priorityScore": 31.12,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -251,7 +251,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 31.04,
+      "priorityScore": 30.95,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -304,7 +304,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 31.04,
+      "priorityScore": 30.95,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -357,7 +357,7 @@
         "courts",
         "compliance"
       ],
-      "priorityScore": 31.03,
+      "priorityScore": 30.94,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -391,7 +391,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 422,
+      "viewCount": 423,
       "tgLink": "https://t.me/fedresurs_insolvency/2807",
       "channel": "fedresurs_insolvency",
       "channelTitle": "Федресурс: банкротные новости",
@@ -405,17 +405,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 30.52,
+      "priorityScore": 30.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 422 просмотров"
+        "Охват в Telegram Web: 423 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за апрель 2026I. ВС допустил обращение субординированного кредитора с заявлением о привлечении к субсидиарной ответственности – Дело АО “Сельскохозяйственная компания “Седлистое”Верховный ",
       "reactionCount": 1,
-      "engagementRate": 0.002369668246445498
+      "engagementRate": 0.002364066193853428
     },
     {
       "id": "probankrotstvoru/9739",
@@ -466,7 +466,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.33,
+      "priorityScore": 30.24,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -524,7 +524,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.23,
+      "priorityScore": 30.14,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -582,7 +582,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.31,
+      "priorityScore": 29.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -643,7 +643,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 29.2,
+      "priorityScore": 29.11,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -700,7 +700,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.02,
+      "priorityScore": 28.93,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
