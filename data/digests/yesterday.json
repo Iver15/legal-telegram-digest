@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-07T22:45:42.380Z",
+  "generatedAt": "2026-05-07T23:37:49.197Z",
   "totalPosts": 54,
   "topPosts": [
     {
@@ -55,7 +55,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.4,
+      "priorityScore": 35.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -114,7 +114,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.71,
+      "priorityScore": 34.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -150,7 +150,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 977,
+      "viewCount": 978,
       "tgLink": "https://t.me/Shokobear/3910",
       "channel": "Shokobear",
       "channelTitle": "Shokobear (Олег Зайцев о банкротстве)",
@@ -164,17 +164,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.2,
+      "priorityScore": 32.09,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 977 просмотров"
+        "Охват в Telegram Web: 978 просмотров"
       ],
       "digestSummary": "КС отклонил жалобу АУ на нормы о субсидиарной ответственностиКонституционный Суд отказал в рассмотрении жалобы АУ Дмитрия Лушина на нормы Закона о банкротстве. Заявитель оспаривал ст. 61.17, 139 и 140 Закона о несостояте",
       "reactionCount": 2,
-      "engagementRate": 0.0020470829068577278
+      "engagementRate": 0.002044989775051125
     },
     {
       "id": "subsidiarka_kdl/4536",
@@ -224,7 +224,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 30.96,
+      "priorityScore": 30.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -280,7 +280,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 30.78,
+      "priorityScore": 30.67,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -324,7 +324,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 786,
+      "viewCount": 787,
       "tgLink": "https://t.me/corplawpro/5959",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -338,17 +338,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 30.46,
+      "priorityScore": 30.35,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 786 просмотров"
+        "Охват в Telegram Web: 787 просмотров"
       ],
       "digestSummary": "Личный бренд юриста 2026Состоялась дискуссия о построении личного бренда юриста в условиях меняющегося рынка — разобрали структуру личного бренда, конкретные инструменты продвижения для консультантов и инхаус-юристов, а ",
       "reactionCount": 3,
-      "engagementRate": 0.003816793893129771
+      "engagementRate": 0.0038119440914866584
     },
     {
       "id": "probankrotstvoru/9744",
@@ -394,7 +394,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.43,
+      "priorityScore": 29.32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -436,7 +436,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 29.24,
+      "priorityScore": 29.13,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -478,7 +478,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 29.19,
+      "priorityScore": 29.08,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
@@ -544,7 +544,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 27.48,
+      "priorityScore": 27.37,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -600,7 +600,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.08,
+      "priorityScore": 26.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -640,7 +640,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 741,
+      "viewCount": 742,
       "tgLink": "https://t.me/legally_bald/1192",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -653,17 +653,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 27.08,
+      "priorityScore": 26.97,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 741 просмотров"
+        "Охват в Telegram Web: 742 просмотров"
       ],
       "digestSummary": "Очень фактурный спор, касающийся банкротства застройщика, передан на рассмотрение экономколлегииВ деле о банкротстве общества «СтройГрупп» гражданка Кононова Д.А. обратилась с заявлением о включении ее требований в РТУС ",
       "reactionCount": 7,
-      "engagementRate": 0.009446693657219974
+      "engagementRate": 0.009433962264150943
     }
   ],
   "topTopics": [
