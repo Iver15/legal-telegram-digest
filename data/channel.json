@@ -21,7 +21,7 @@
     "title": "Защита арбитражных управляющих",
     "description": "Канал Екатерины Шунайловой. Спасаем арбитражных управляющих от жалоб, убытков, исключения из СРО, дисквалификации. Сайт ➡️ https://shapovalovagroup.ru/Отзывы о нашей работе https://t.me/otzyvyshapovalovagroupСвязаться с нами @shapovalovagroup_work",
     "descriptionHTML": "Канал Екатерины Шунайловой. Спасаем арбитражных управляющих от жалоб, убытков, исключения из СРО, дисквалификации. <br><br>Сайт <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29EA1.png')\"><b>➡️</b></i> <a href=\"https://shapovalovagroup.ru/\" target=\"_blank\" rel=\"noopener\">https://shapovalovagroup.ru/</a><br>Отзывы о нашей работе <a href=\"https://t.me/otzyvyshapovalovagroup\" target=\"_blank\" rel=\"noopener\">https://t.me/otzyvyshapovalovagroup</a><br><br>Связаться с нами <a href=\"https://t.me/shapovalovagroup_work\" target=\"_blank\">@shapovalovagroup_work</a>",
-    "avatar": "https://cdn4.telesco.pe/file/PaSOVXlyH7q-E5h3NRODbsuhzYYFZHUbrTPD74NUaqDvJpm4fTIWt7h49O-iReH00rzSJZrDTN2Iz2ma6f6kBLhlmHb3vJL95qNxY3ZPuPQSMLRXoWEZRZW-r-g3tYXl_du01cAkh-InavZmOUXr-xD1q4EjIT6gfv1kE8v5mZD6Qjao9OhQGA1kILwjDYvuFHG6YyBUxW0wymxfu4Y2LjUfh1ubToTtqj2_Yz-m7MJXuFcuZ723Y5rnPxljqk_AXXpi2siQuFERdDSgp6yQhOImfTPuz4DD_ElA13dvbemJQ3c6cq14KLj3AyTZai9Xg6B2LfBCqlR5iyFMJ1WbHw.jpg"
+    "avatar": "https://cdn4.telesco.pe/file/khbAdPSBCRBxY_IrsSBtjK4EyY8XFkp31Q5U7dv1cRYK0FuYFu2SbRwfjcthESrdf4mNV1GegkpUx1jVqrImM3oz4ozz1FdJl7XhLNlNxqUoVJC9ae3Ghep_0DD3ucsYQ1P0KLP72wANE9p7Pxos0QfCDx5QENGNvYqNczhwaqTqg-aDkXXJz250sRjip2SMUfArLYwfF9Rn3a03tzitEUgCMmLGX2UVz8b5Ov0Ar4IYoq2gobL9SLCg6VBIwWS8DvTNJ8Yd4qHfofnWuGN10LA35irylDq1-wzrpo0sIYUtnouOlCmKEcaNv_gORb3b6KaH7X8uCfqVzMNOiaGbNQ.jpg"
   },
   "sudpraktik": {
     "title": "СУДЕБНАЯ ПРАКТИКА",
@@ -76,5 +76,125 @@
     "description": "Новости российских СМИ о банкротстве",
     "descriptionHTML": "Новости российских СМИ о банкротстве",
     "avatar": "https://cdn4.telesco.pe/file/JOYVElq8X4PPUopcg52zKZAu88LtML-K4fZh474g-tEzH83rIcrhxJYOPALo5UyBNjz8qC0PIAzpY0GMQ34xtYte8owmzxtAUHP_R9qASG7xOcKd_g0PH1dpD4I53LAtLV4AdTGfzyRjRZX654iyjH5V9UINcosB-dWSl1EBJwM0xuZ-xWZ9KEFKRpt5_hEtm6KP4640kVGm8WdV-sxxyUm4xSb_oVOs4zaDXs0a_moDgpW_9fAY4XDc20pUhTtu4Sv43QiJbghcHiffh1KQqlkyFEqJrz9_JG54F9Ej8soNMwguoK5TGtlm_UpTuFs6FvCtCKjrG0jF_x6lzDKUBA.jpg"
+  },
+  "orpau": {
+    "title": "ОРПАУ - Общероссийский профсоюз арбитражных управляющих",
+    "description": "ОРПАУ объединяет граждан свободной профессии с целью их участия в регулировании своей профессиональной деятельности через социальное партнёрство и систему соглашений",
+    "descriptionHTML": "ОРПАУ объединяет граждан свободной профессии с целью их участия в регулировании своей профессиональной деятельности через социальное партнёрство и систему соглашений",
+    "avatar": "https://cdn4.telesco.pe/file/gPiSZANu2X_4MeqBepkc75QGsvhMOcmpo9kEDaJ50EvqyfYPnvwVHrfVnd214hOznqEBWcwnw1HoUuHBxxjHsX3bICPpom0OgDa8iej-OV28m31A-L6BVNue8WxnPscrr4oWDNCRg4v6L6RxfIZrOoK2-UcMwPHLTUC5lEmjSmuy34A-qpcdCD5x5xdIqfWyp-QLrGRK2Au4ostlOZzxdyObEtprAtSQZsDYP0GPWPJR3PzZ4lFhdOSSl5O594dKAw6A8cJFGJ7TpHhGtfA-SbBhs3Rc4SIC4huG4LocW7XyO9ZHAA718XgLJ9VegXzB-JOEcVRZoqA7W43jImvaGA.jpg"
+  },
+  "orpauradio": {
+    "title": "Первый радиоканал АУ и юристов",
+    "description": "Агрегатор новостей банкротства.Самое важное в законодательстве и судебной практике.",
+    "descriptionHTML": "Агрегатор новостей банкротства.<br>Самое важное в законодательстве и судебной практике.",
+    "avatar": "https://cdn4.telesco.pe/file/PkjPI4AnMkb4Fg4uR9-f_o3VaeCp2AKFhTs5PHsHNZtnmdifh6VRoTE87iFfv1r5OiyFWBY0KeX8ESSe0Y7QrB1eyeb_L93sJb5GaWvLi1NVd9-fSUx1fmTcxhKbZ-enEeebavPq-cL5xDAms6NRnDC8kyIOeo_dQMjqpEO3Gz8Rlv3CwxTOLZ5cjTXsPYv7sE2y-j7KjEn2hIFSWbVt2S0K2B49lKX1YK4Vlpdn9KeSrEZ6E01qRiFc8h8dLHtxF_gbEqKI8gOixRTWC-jnSAi5zSfqe6XUrBBo46oCDngLvOyzWcSSf5OircXgeIIxLh7Tg1ruRAfC1PDw0ybAoA.jpg"
+  },
+  "probankrotstvoru": {
+    "title": "PROбанкротство",
+    "description": "Новости и экспертные мнения про банкротство.Обратная связь: @probankrotstvo_ruИнтернет-портал: https://clck.ru/sK2aEВключена в перечень персональных страниц https://knd.gov.ru/license?id=6769492e8e552d6b540aea1e&registryType=bloggersPermission",
+    "descriptionHTML": "Новости и экспертные мнения про банкротство.<br><br>Обратная связь: <a href=\"https://t.me/probankrotstvo_ru\" target=\"_blank\">@probankrotstvo_ru</a><br>Интернет-портал: <a href=\"https://clck.ru/sK2aE\" target=\"_blank\" rel=\"noopener\">https://clck.ru/sK2aE</a><br><br>Включена в перечень персональных страниц <a href=\"https://knd.gov.ru/license?id=6769492e8e552d6b540aea1e&amp;registryType=bloggersPermission\" target=\"_blank\" rel=\"noopener\">https://knd.gov.ru/license?id=6769492e8e552d6b540aea1e&amp;registryType=bloggersPermission</a>",
+    "avatar": "https://cdn4.telesco.pe/file/UHGyS0KuU7PYqsgCMUcolnaiWQ3knCA22x6_ILalfbi0fqpG14YzXU6e66FA6BKDG7iNf1vQ2UsDhpM8r5kuPS2MEyNuyAf4L2tbT3s1QFm8T1h7yTaFpLXnNAellY1pl8khMCQQxyx9KIFXwoxJ4Z7ZiT068Y5LbwxkvY7cRGBSKpGTTXXkVoz6T115co41nEF6zvODkpgucOOrHP1sbgc3yR6x6_XrLpqA3e1AbC7CAwCA6sj6JjSFMLZNnUQ1o4dz6FcoK2ZotlwXCRYQ7Kkhv2F8a-ItE_6m4qhE_vxIm4E9quJ662Vz0HY89OxuXQVkcjSwtqKecpA7KPGXKw.jpg"
+  },
+  "vZone1413": {
+    "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
+    "description": "Банкротство. Помощь арбитражным управляющим при наказании, отстранении, привлечении, взыскании. Консультации.  https://telega.in/c/vZone1413",
+    "descriptionHTML": "Банкротство. Помощь арбитражным управляющим при наказании, отстранении, привлечении, взыскании. Консультации.  <br><a href=\"https://telega.in/c/vZone1413\" target=\"_blank\" rel=\"noopener\">https://telega.in/c/vZone1413</a>",
+    "avatar": "https://cdn4.telesco.pe/file/LPfWBuMeQbWTxEGO1-N0o7wVwqPRGaFonhhahL6iTRte5gb520eFuomqF_l9tdziGcOhl6gNth7y6FY4OP8B3IwEIipNOUC_IoUFO3DK9LHgxAVYuqbLRqI6lNaghzvIpEdimhZ6LrrTknuJVCBhZPXXL8pZneeZLRyCO78MRmqlUmDq62yw4g9ytLil5XgzkNBairJ90rCS1iRzlw5DKf6q6u9q-gfAnetQbueMAi5_sVjp2WIh8-WECNfDhEkLfaYAZOg9REJDggO4vjTNXljdtvWSW6_lMvt85Q6F_9U0Np7cTf9arXaRVRBRb4ZcBIzOdxfx-pR2UuloGWdKpw.jpg"
+  },
+  "Compliance_Practice": {
+    "title": "Compliance practice",
+    "description": "Канал посвящён  корпоративному комплаенсу, включая санкционный и антикоррупционный  комплаенс. Вопросы и предложения пишите  на  @CompliancePBot",
+    "descriptionHTML": "Канал посвящён  корпоративному комплаенсу, включая санкционный и антикоррупционный  комплаенс. Вопросы и предложения пишите  на  <a href=\"https://t.me/CompliancePBot\" target=\"_blank\">@CompliancePBot</a>",
+    "avatar": "https://cdn4.telesco.pe/file/n_sJkf6LSUs6XDbVHiPheHV95FJNCSIDGTlc4BMMZ-v6L4uA39mcxtuh2FOc0WqDhPKYWi6EAnGBxMHOQLHtT0FjWnxcMjfpgV2RqNSKCRN1O_TEHNpq0R4l4zUpNYn34m24j2FhHkiFT4EncnobobJAImG05b7OALjLoc10DExP3CSow17P2N4NmzW2CiQyn9sMIqEZS1od8em93_fpYjggZtjVL2LwjHSzc8Isbu42JIvu1bxveguWxaokFBEhGMAPD8rh8MUk_Mf3oWPwGZ2QBLNy0zbAxllRPHGUMERndkhiB-UxEUbmjR0s6Hv_bF0L09FsPHPhWBDqKywq6w.jpg"
+  },
+  "corplawpro": {
+    "title": "Корпоративные споры • Case by Case",
+    "description": "Сайт www.corplaw.club. Обратная связь @yulia_mikhalchuk, с др. аккаунтов пишут мошенники. Личный канал @Mikhalchuk_Yulia и канал о субсидиарной ответсвенности @subsidiarka_kdlКанал внесен в реестр https://www.gosuslugi.ru/snet/674067821039886b1d106362",
+    "descriptionHTML": "Сайт <a href=\"http://www.corplaw.club/\" target=\"_blank\" rel=\"noopener\">www.corplaw.club</a>. Обратная связь <a href=\"https://t.me/yulia_mikhalchuk\" target=\"_blank\">@yulia_mikhalchuk</a>, с др. аккаунтов пишут мошенники. Личный канал <a href=\"https://t.me/Mikhalchuk_Yulia\" target=\"_blank\">@Mikhalchuk_Yulia</a> и канал о субсидиарной ответсвенности <a href=\"https://t.me/subsidiarka_kdl\" target=\"_blank\">@subsidiarka_kdl</a><br><br>Канал внесен в реестр <a href=\"https://www.gosuslugi.ru/snet/674067821039886b1d106362\" target=\"_blank\" rel=\"noopener\">https://www.gosuslugi.ru/snet/674067821039886b1d106362</a>",
+    "avatar": "https://cdn4.telesco.pe/file/E2_dlzL76FaT8fxvx2snhnU47ig4kpSg2oeNfzDoFhCl8JRA-4v2UvUhrTXkTIuyRJ91LiANCMMXLFFunMUj79kGhw3Mls4jorDLviDT0FCj1AAcGm3O47AgycVnAWhyXJJM4WVht3KYHzSA5Q5wTtp3fq0AkX-1Kb04GeA85q4hXHc6zguR7OccFZiAZWEGNlabAuS1p303W7_kzIlczMbctNOwRZTCQ7Fq3RlQeuW04Wd-XUKsU8a3q8AcJEaX6S7XWzqf908noGDnVt1spJ5YbYkmLlVtGQseAXqUt96v_QhGUjRliSujIxxBnvzAOPvyAc3dbpq9SG_AVkY0xA.jpg"
+  },
+  "disputesandsanctions": {
+    "title": "LetterRogatory v.2",
+    "description": "Освещение вопросов доктрины международного гражданского процесса (трансграничных судебных споров), международного частного права и международного коммерческого арбитража.",
+    "descriptionHTML": "Освещение вопросов доктрины международного гражданского процесса (трансграничных судебных споров), международного частного права и международного коммерческого арбитража.",
+    "avatar": "https://cdn4.telesco.pe/file/AegeBIRByM0fvkPGxAzkMRmZRrFp6bZDlQKiq2OEEZudnKEg56dfVWr8c-cmjgdciJ_HZR2NuTS6TiHSVhSt0UT2S2AceqhO_K3P_Ip_BG2s6-rFe0yuX0IvGK5WWCTv1txp1eSP2wGOw8Acb7BXW6NTDlF3jP6s8_BF571B-VBAOzSFOpfvmZ7319PkbHGdn5mc9GmBpaEFqNE892mMEqT5Y-pdxf5ZQaaIDq-Js08lzv3COvWdZcAGQj1MmM31tBfiMxgH4lZGONow9E52Ij4NK87p6Xj_3zdV-DaI1C13OeRKyg5NutwMtWQwCQCzt7mHLuqvAk-aWCLF6jGuBA.jpg"
+  },
+  "Shokobear": {
+    "title": "Shokobear (Олег Зайцев о банкротстве)",
+    "description": "Для любящих банкротное право, шоколад и плюшевых мишек. 18+Автор канала - Олег Романович Зайцев, председатель Банкротного Клуба, доцент Российской школы частного права.http://privlaw.ru/persons/zaytsev-oleg-romanovich/РКН № 7100580139",
+    "descriptionHTML": "Для любящих банкротное право, шоколад и плюшевых мишек. 18+<br>Автор канала - Олег Романович Зайцев, председатель Банкротного Клуба, доцент Российской школы частного права.<br><a href=\"http://privlaw.ru/persons/zaytsev-oleg-romanovich/\" target=\"_blank\" rel=\"noopener\">http://privlaw.ru/persons/zaytsev-oleg-romanovich/</a><br>РКН № 7100580139",
+    "avatar": "https://cdn4.telesco.pe/file/tl1ap9Nla4FYhT2QUe2VqH53aRorDo7CQ6eEqsydf7M7JL5eQiK7pg69nW3jx3yFOZTDLn6vTbxpup6a6DsqWyjwwrF1ysWL5byFXzswqwjqXRZeMrQvd6xNt6zgH2akUtcOaOezAC8S4XYOCcABClpXITHAVVXINju7cz1WepwGgGCRUDK98iWz9IFBW_IbYNMWmWYZykfVxfDx930BLj3kzARAkx4NnZg2H2Kg0C_fHCVcBfQS57beJtSayIWLrUwOZ-x-CFgmEXnh6KUVxF9do4BE1pGHO3bbnAWrliLjb1AKNTyrE5MJ5ZZmZOxS4viMynedcFt4ocM9hRCqVA.jpg"
+  },
+  "sovetsudey": {
+    "title": "Верховный Суд России",
+    "description": "Официальный канал Верховного Суда Российской Федерации",
+    "descriptionHTML": "Официальный канал Верховного Суда Российской Федерации",
+    "avatar": "https://cdn4.telesco.pe/file/WT_GHeYp7GOxkxpRVARq7UpUCRdtqTa5dhyTZ2UTTKR0zpMHVLRuVkdtdxbGk6LCEiBbrF_gFr4kgu5glXL6r-RY5hc8wvxHVezDBUQUPWN2xBb5LQbCD5j9oO54YpMTPhNMSbUNJmnAHv5rzhdQr1al5ZWyxJGOmgyshtg9atcm0OAuByJQplnB16mMfYWdSRapH0JxOQmq-7p6jPltVAfCVgBS8vnILA-2_ct2pVV4hzjBDrezH_DW4XhPgRxYgkZRaMgyVRFnEuPtJf7euYKP9FGDR0ko67AgN495s9QiStoB56iBhfQjfjyVrFeKtmb1oeVt6IoAiCIovDefHw.jpg"
+  },
+  "bankrotstvo_mustknow": {
+    "title": "Банкротство | Взгляд эксперта",
+    "description": "Канал для бизнеса и граждан о банкротстве от А до Я. Новости, ключевые решения судов, советы экспертов «Пепеляев Групп» по управлению рисками и защите применительно к банкротству. О практике и услугах: clck.ru/3FQGMp. Для вопросов – @Litovtseva",
+    "descriptionHTML": "Канал для бизнеса и граждан о банкротстве от А до Я. <br><br>Новости, ключевые решения судов, советы экспертов «Пепеляев Групп» по управлению рисками и защите применительно к банкротству. <br><br>О практике и услугах: <a href=\"http://clck.ru/3FQGMp\" target=\"_blank\" rel=\"noopener\">clck.ru/3FQGMp</a>. <br>Для вопросов – <a href=\"https://t.me/Litovtseva\" target=\"_blank\">@Litovtseva</a>",
+    "avatar": "https://cdn4.telesco.pe/file/Te55EACraJKqKXL6At3qgE8ah7dan4SFCxdHwLE_udVSvFkHaKa1xF7dDs_x5XATjdu4PCCIkI-9D5n32SGEN-7JTZUiOWCRLtOPqq-3F2jIJrCZ45Z53VaxysNA6e7T73aZif_edGD9ZH-_atCkysS98JBKrT_INJVrOFupuyR_GrPoPXPlpcSsPgHngzmpYQcGcpoNhjj48XeRjQFBOyWJyIFLi7uxRt7jJoGrj4SAb2bScxax0U79mitwg-rrkqr8Z1WNvRwwzRrYHlsDxrdKjxtDR7_Kp_0lZJ0QUa5jBDwB2GTevKYpYVxdESbNVE2BnC0hcAxa2OHDa-fz-w.jpg"
+  },
+  "subsidiarka_kdl": {
+    "title": "Субсидиарная ответственность • Case by Case",
+    "description": "Всё о субсидиарной ответственности контролирующих лиц. Обратная связь @yulia_mikhalchuk, с других аккаунтов пишут мошенники. Мои другие каналы @Mikhalchuk_Yulia и @corplawproКанал внесен в реестр https://www.gosuslugi.ru/snet/6740668cc577eb7c5212a5ff",
+    "descriptionHTML": "Всё о субсидиарной ответственности контролирующих лиц. Обратная связь <a href=\"https://t.me/yulia_mikhalchuk\" target=\"_blank\">@yulia_mikhalchuk</a>, с других аккаунтов пишут мошенники. Мои другие каналы <a href=\"https://t.me/Mikhalchuk_Yulia\" target=\"_blank\">@Mikhalchuk_Yulia</a> и <a href=\"https://t.me/corplawpro\" target=\"_blank\">@corplawpro</a><br>Канал внесен в реестр <a href=\"https://www.gosuslugi.ru/snet/6740668cc577eb7c5212a5ff\" target=\"_blank\" rel=\"noopener\">https://www.gosuslugi.ru/snet/6740668cc577eb7c5212a5ff</a>",
+    "avatar": "https://cdn4.telesco.pe/file/HV6TH3Two5vi-E8XKLuv0bT5NM1FXrnllLGmSmdbSeB4qODDBDm5O9G8gHhpHT4_6TJAmy9zqhAlWJ42IoDSa68SLMosOhuO6Gp_60j7-uLz6F4R5o-kMhaLCfEgzS27ELTCCyHRhzpDqd2mHfia4kKBzIO9ZL3uaOevNvaXdR2q1sZvmdf7bnxT0uC9mkhrut5rhG4sBlcvNBH5i7bpEm4KowMp7KqJ7TfDsuebEqyrb80yZddwPz6L1XoVf774asmLSX-rqpFiI_FfMaYw1LCq3NwZTDm-VBFep-TDFRSMfcG4YJBHgDLVZovH-t9GlJOPq6UmixtMN-TfpYo6qA.jpg"
+  },
+  "BankruptcyClub": {
+    "title": "Банкротный Клуб",
+    "description": "Канал про банкротствоПо вопросам сотрудничества @arbitration_marketing",
+    "descriptionHTML": "Канал про банкротство<br><br>По вопросам сотрудничества <a href=\"https://t.me/arbitration_marketing\" target=\"_blank\">@arbitration_marketing</a>",
+    "avatar": "https://cdn4.telesco.pe/file/r4UBDs40_EHZiUd9NSKcqC602nG35U7tessErQQlZjJT_6DvNzCcC5PEDyeYyEwlL8NF9H3UhZFbPBEYWfZEw-ZPtZpFXqtJkxhU9xKJL47Frugs2Nr86uRrXErak9rk8S3Vyf3gdxcNnhCyLo-6uRqJ8UXgneAk55cEmDbZsj821jWycqgHl3116SHGZfBUzChJwk7lQLD6XDvnn-HtD7WXOeCrvKn546hHOmcWxTIa_iX4wjWum9IqCZWzxxLu_2zr5DpBuJ_piEiOu12Gd9ehjnE69TzwGNu6T3ZQabEHzgsDsOhXtv9u90k0lMTvXqo-6j2CyO4HzEk7mHOu1A.jpg"
+  },
+  "sudpraktik_bankrot_demo": {
+    "title": "Судебная практика по банкротству",
+    "description": "MAX - https://max.ru/sudpraktik_bankrot_demoАнализ судебной практики - @sudpraktik_analiz_bot.Реклама:@reklama_sp_botиhttps://telega.in/c/sudpraktik_bankrot_demoРКН - https://gosuslugi.ru/snet/679cdc3a7d9f3353ff8d70a4",
+    "descriptionHTML": "MAX - <a href=\"https://max.ru/sudpraktik_bankrot_demo\" target=\"_blank\" rel=\"noopener\">https://max.ru/sudpraktik_bankrot_demo</a><br><br>Анализ судебной практики - <a href=\"https://t.me/sudpraktik_analiz_bot\" target=\"_blank\">@sudpraktik_analiz_bot</a>.<br><br>Реклама:<br><a href=\"https://t.me/reklama_sp_bot\" target=\"_blank\">@reklama_sp_bot</a><br>и<br><a href=\"https://telega.in/c/sudpraktik_bankrot_demo\" target=\"_blank\" rel=\"noopener\">https://telega.in/c/sudpraktik_bankrot_demo</a><br><br>РКН - <a href=\"https://gosuslugi.ru/snet/679cdc3a7d9f3353ff8d70a4\" target=\"_blank\" rel=\"noopener\">https://gosuslugi.ru/snet/679cdc3a7d9f3353ff8d70a4</a>",
+    "avatar": "https://cdn4.telesco.pe/file/cH9siMAuQNHViNzZUdY0RfzndoO_Pghcy9DWpFaqCx7azNrikP6AmYPXULzeXj3Wag2CA-G1veQGN57ZIifrSFQZHTYcYV5aPrC6LoyZ8uLbhz9V4sBlTUhfqLbhWhkFOkx112RGIoLWypEBEkpcLYEEN1YvqlcKl1j9a2FHKliGTG1YheyX8776w_oipv4C2ETIatiuHHNX-bYMvpya8pflfGJMnk_mB_18C00IXYBpucRnLe0VwWfqAJjikcHzXbJaJD7e636yQToaTMUnuIggVgG1YcvCtCdUnY1kfB-7ZhGS6qvARtgwjNGPm8dJuJxLx3s-YWWxl6jUTa1jUw.jpg"
+  },
+  "vs_court": {
+    "title": "Судебная практика СКЭС ВС РФ",
+    "description": "Свежая практика СКЭС ВС РФ. @civilcourt - Судебная практика СКГД ВС РФlfunio.ru - UNIO law firm Сотрудничество  - @salikov_maksim",
+    "descriptionHTML": "Свежая практика СКЭС ВС РФ. <br><br><a href=\"https://t.me/civilcourt\" target=\"_blank\">@civilcourt</a> - Судебная практика СКГД ВС РФ<br><br><a href=\"http://lfunio.ru/\" target=\"_blank\" rel=\"noopener\">lfunio.ru</a> - UNIO law firm<br><br> Сотрудничество  - <a href=\"https://t.me/salikov_maksim\" target=\"_blank\">@salikov_maksim</a>",
+    "avatar": "https://cdn4.telesco.pe/file/TKUuHQPwrpuzF77zSEXm9vcFSLyAhRcBc1k_bE6J0UzWC5YBZaLgksuXYRPKZ3S3-piHyZzAREV_ZF9F0T4g5yzPUowi-Th9MS9AUS6d6GqcMdVIMbuyFiZ4mUUuK_lvlToxRpdG864jsAOW5atN5UcaM91ysiEG7WeogkB0FbikBsWo4w7Q3QB37VVDoo5QGNJXcZZ82iCuXWoPNMtM6dyFq3ldL24uON664bMvp7g55tDQJtPIP-vWspcVqXfQmyvV5UysS1QFrjO6HuN5kuCliTvuhXgqo4T4otHnMM3z7sVp9wQHSzBSP9sRl0CYIZcR-omK4WUMDVpsinQjgw.jpg"
+  },
+  "tgnspau": {
+    "title": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
+    "description": "Национальный Союз профессионалов антикризисного управления с 2016 года под своей эгидой объединяет саморегулируемые организации (СРО), членами которых являются ведущие эксперты в сфере арбитражного управления организациями.",
+    "descriptionHTML": "Национальный Союз профессионалов антикризисного управления с 2016 года под своей эгидой объединяет саморегулируемые организации (СРО), членами которых являются ведущие эксперты в сфере арбитражного управления организациями.",
+    "avatar": "https://cdn4.telesco.pe/file/jv0ePP4LN1uQ_hgd2pIjRgFVQrbwNwLyFY50o53FKkNhkNW9XT5N0dhFNG5JqBlAnSIeamhHYhETHbdmF_Fiy8ZHkLPG_BV84lQvYEyazyNmajemfHw8kR8sCQw1JwgCLsRVi3x7HF1CiQCjcyD44zw7QdyacNvnHomJVaPY15Ghb2XODWlihYi9ZiVKHLRKXYp3-wbqbBUl3IJBqOIkgo4SoTK25hFhAVZne-g2kXmN6Rhb6RbVM2mc4awQH6wPO7jTeCPF_1e09nnUsKCscFpmSdA_HAKY-QSNbqO1Mt_5sY2vs1ePyyHCwOibphSWGjv8p1yoXL7Bd820DlGVWg.jpg"
+  },
+  "bankruptcyboutique": {
+    "title": "Bankruptcy Boutique",
+    "description": "Высокая банкротная мода",
+    "descriptionHTML": "Высокая банкротная мода",
+    "avatar": "https://cdn4.telesco.pe/file/ZN5OAvrGlvPEI39Iwj8tMjHlIOR1Zw7RzjQBue96XTgMARP7NkZrVb5gKhtF9crSfF4DyZxVCXrVnOX8KWM_8YezXslw_bs5qCmpU1oawNm_N29MT7fTORGZF0QecuCz7Z62WBBWqWp_4JLabNWrgQIQPPwOW-4NR1aWWzEhlrCNbo56qdX4Ezm1qboX34LOT0C4PXSRIP3i9cGJ0t0tIkKtIVzJsc96Qu8IZwOPafMYtoolw5Th7B2B-j_ilLpCkCW1DVQGcIg_FLYg6gdz8f-yzapLx7h7OnzxfXvb8Rviw4YEOs_o5pm9aIOWygeQ-JOj0P1ghKYGMoknj53dHg.jpg"
+  },
+  "insolvencylaw": {
+    "title": "Частное право от Евгения Суворова",
+    "description": "Канал Евгения Суворова, д.ю.н., профессора кафедры гражданского права МГЮА, приглашенного преподавателя МГУ им. М.В. Ломоносова, МГИМО МИД РФ, адвокатаДля связи: @ED_Suvorov / edsuvorov@gmail.com / +7 903 6887995",
+    "descriptionHTML": "Канал Евгения Суворова, д.ю.н., профессора кафедры гражданского права МГЮА, приглашенного преподавателя МГУ им. М.В. Ломоносова, МГИМО МИД РФ, адвоката<br><br>Для связи: <a href=\"https://t.me/ED_Suvorov\" target=\"_blank\">@ED_Suvorov</a> / edsuvorov@gmail.com / +7 903 6887995",
+    "avatar": "https://cdn4.telesco.pe/file/IzaXbw9nB88EpVMfwlCQUsgvbY5wNSW9bhlcvk7qcC30YcKCk8_1MBpgUln2n5nYhDVosn1zDK1XevF286jT_kCAdL-y0AslIJYxNdYModK9mMLO9xr-zHtGihk6DSchWbcrdhX_9ezmuxdWBJo3fDMQP4QiSikMstBJ2ZcIbPBrDy1ctZhO2R4U-Teoq9qW73yu7Foio1_3iTUsWz9YYbriMQ8CQ7HLiUpXPxpyYTo9OxlMHxpLLLZuykPAOI0Fro9iD2TvnwXdBrm3M6jdilOYuEFj_mODaQ5SWy8_zSI6btnEa045V9V2jD5v6pOGTSAIYz3ivrHdPHN1va5pbA.jpg"
+  },
+  "bankrovert": {
+    "title": "Банкроверт",
+    "description": "Арбитражный процесс, банкротство - теория и практика, разговоры о юр. бизнесе и о судебной практике. 80 % серьезного, 20 % шуток. Автор канала - Иван Стасюк",
+    "descriptionHTML": "Арбитражный процесс, банкротство - теория и практика, разговоры о юр. бизнесе и о судебной практике. 80 % серьезного, 20 % шуток. Автор канала - Иван Стасюк",
+    "avatar": "https://cdn4.telesco.pe/file/kgjeJmH3UKoOYjkJy0i36iGiIPOrNboVxOwYLshR3nmJyEMUyzs9FLKxWrCyXq2s_hqoFA5ujarXgJEM3fD1b2vDm569K9YiUwjzW9NMzBFcteQLE9mv8ukTCruMp6OALwS00E3CTmlxjKNaDnvbp39jWITXNu5lLIWeEHf7oE7J_QmBBogUIieMljgmeZEgx16IRFhIC2w9tslpkwydxG7E-2UUVQ6jeiyq77ynAvBy07IYUpTp3BExqvrqXqKYput-L4PcPt9r-QymFzVVlp2_aYIsab6irswOjstyp1e6rg9jljZm_BNHvuuSzmPX9gHeryA10t-cfud6hpznvA.jpg"
+  },
+  "fondsrd": {
+    "title": "Фонд содействия реструктуризации долга",
+    "description": "Комплексное решение для бизнеса по урегулированию задолженности",
+    "descriptionHTML": "Комплексное решение для бизнеса по урегулированию задолженности",
+    "avatar": "https://cdn4.telesco.pe/file/EneijwfcEvFx14pxONe6YbdxdClqb2-D02hol5PKSUkYsQ59-eIOE6s-6J1jLtNzqdK5_m3XSMPo7kDs9Vv70ZVuucefkEcy3haWnf9LFFOAWEOxAoXB7Q26clu8ByhI4sf2s7OJVUW9nDrUS3OnUwzbFPhaEqYoBFxarIfxyKPMMYnmHT2EEaLWwqPsn-ZVRHLhXj6rJ3JNKb3suxGC1D_oGxyO9AcIwzdC_1iNBQjpO6vWTO6UjMI02AAA1Lxzl4Nsm4B9DH9-LneyB6VZa7oqhU1psE8Jbz7_U9epIbC0RMjSymrwU-JJzqZ2Gef0EeOCpo5ZXw83MOsg0F4FWw.jpg"
+  },
+  "bankrotalk": {
+    "title": "Банкротный Talk",
+    "description": "Подкаст о банкротствеДля связи:bankrotalk@gmail.com",
+    "descriptionHTML": "Подкаст о банкротстве<br><br>Для связи:<br>bankrotalk@gmail.com",
+    "avatar": "https://cdn4.telesco.pe/file/KyyoarzxSy3chaPAAadfKfEq4QWPGMAfUuAdBaDYasx_sGSFBN6hNTxANdjim1I_BW6OMz1l5nKek3qIuPRHrCDidfjE0x5rXjhBGUeB6WR2nSCPBeP6gGBzxi1W2ZaBjQWkcRypVjPOLMnOLA1E3W4eGAmtbOFcMgRCrzTNeoH71aKjLAK_4yMmhl-a_QI1BWMnbk_5PtLJgT__3P7BkTmaxaCpamt0VykRSzaolVVWAWiT-uijdvSVCEh5m04yxGEOfFboBUtGJMnXORjUN8akm8kDRrHYzhSUnD5OpPPGjtyK_trnLhkaiYlRbEpVx5ZWNHCXaVVXlNDrfHS9Xw.jpg"
   }
 }
