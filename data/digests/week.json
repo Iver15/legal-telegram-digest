@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-08T20:51:36.873Z",
-  "totalPosts": 227,
+  "generatedAt": "2026-05-08T21:54:26.925Z",
+  "totalPosts": 228,
   "topPosts": [
     {
       "id": "orpauradio/9386",
@@ -42,7 +42,7 @@
         "compliance",
         "courts"
       ],
-      "priorityScore": 37.9,
+      "priorityScore": 37.77,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -110,7 +110,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 36.11,
+      "priorityScore": 35.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -159,7 +159,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 842,
+      "viewCount": 847,
       "tgLink": "https://t.me/probankrotstvoru/9758",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -172,19 +172,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.73,
+      "priorityScore": 33.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 842 просмотров",
+        "Охват в Telegram Web: 847 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "КС: третейское решение в преддверии банкротства может нарушать публичный порядокОбщество «Конструктивное Бюро» оспорило в КС конституционность положений АПК об отмене решений третейских судов и отказе в выдаче исполнител",
       "reactionCount": 13,
-      "engagementRate": 0.015439429928741092
+      "engagementRate": 0.015348288075560802
     },
     {
       "id": "probankrotstvoru/9729",
@@ -400,7 +400,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 682,
+      "viewCount": 687,
       "tgLink": "https://t.me/corplawpro/5961",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -415,17 +415,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 33.1,
+      "priorityScore": 32.97,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 682 просмотров"
+        "Охват в Telegram Web: 687 просмотров"
       ],
       "digestSummary": "Дарение обществом денежных средств своим участникам подлежит оценке как возможная притворная сделка по скрытому распределению дивидендов#корпоративные_споры #убытки Брук И.Б. (участник ООО «Веталь» с долей 25%) в лице фи",
       "reactionCount": 3,
-      "engagementRate": 0.004398826979472141
+      "engagementRate": 0.004366812227074236
     },
     {
       "id": "probankrotstvoru/9757",
@@ -463,7 +463,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 973,
+      "viewCount": 979,
       "tgLink": "https://t.me/probankrotstvoru/9757",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -476,19 +476,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.98,
+      "priorityScore": 32.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 973 просмотров",
+        "Охват в Telegram Web: 979 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Латвийский банк не смог оспорить в КС нормы об антиисковых запретахЛатвийский банк AS «PNB BANKA» в лице администратора неплатежеспособности Виго Крастиньша оспорил в КС конституционность положений ст. 248.2 АПК РФ об ан",
       "reactionCount": 14,
-      "engagementRate": 0.014388489208633094
+      "engagementRate": 0.014300306435137897
     },
     {
       "id": "probankrotstvoru/9760",
@@ -521,7 +521,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 763,
+      "viewCount": 768,
       "tgLink": "https://t.me/probankrotstvoru/9760",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -534,17 +534,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.37,
+      "priorityScore": 32.23,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 763 просмотров"
+        "Охват в Telegram Web: 768 просмотров"
       ],
       "digestSummary": "Кассация определила критерии внеочередности платежей за энергоресурсыВ рамках банкротства предприятия «Приволжское ТЭП» кредитор Александр Шафир попросил признать его текущие требования на сумму около 1,2 млн рублей внео",
       "reactionCount": 7,
-      "engagementRate": 0.009174311926605505
+      "engagementRate": 0.009114583333333334
     },
     {
       "id": "subsidiarka_kdl/4537",
@@ -580,7 +580,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1030,
+      "viewCount": 1040,
       "tgLink": "https://t.me/subsidiarka_kdl/4537",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -594,17 +594,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 32.19,
+      "priorityScore": 32.06,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 1030 просмотров"
+        "Охват в Telegram Web: 1040 просмотров"
       ],
       "digestSummary": "Для запрета на выезд контролирующего лица достаточно разумных подозрений в угрозе неисполнения судебного акта#субсидиарная_ответственность #обеспечительные_меры Конкурсный управляющий ЗАО ПВ-Банк (ГК «АСВ») в рамках дела",
       "reactionCount": 5,
-      "engagementRate": 0.0048543689320388345
+      "engagementRate": 0.004807692307692308
     },
     {
       "id": "sovetsudey/917",
@@ -719,7 +719,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 14700,
+      "viewCount": 14800,
       "tgLink": "https://t.me/sovetsudey/921",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -732,18 +732,18 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 31.66,
+      "priorityScore": 31.52,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 93 реакций",
-        "Охват в Telegram Web: 14700 просмотров"
+        "Охват в Telegram Web: 14800 просмотров"
       ],
       "digestSummary": "Верховный Суд России изучил спор об определении размера вознаграждения арбитражному управляющему. Нижестоящие инстанции распределили выплаты между тремя специалистами, которые последовательно вели процедуру банкротства к",
       "reactionCount": 93,
-      "engagementRate": 0.006326530612244898
+      "engagementRate": 0.006283783783783784
     }
   ],
   "topTopics": [
@@ -758,19 +758,19 @@
       "count": 195
     },
     {
+      "id": "bankruptcy",
+      "label": "Банкротство",
+      "count": 186
+    },
+    {
       "id": "ai_law",
       "label": "AI+Law",
       "count": 186
     },
     {
-      "id": "bankruptcy",
-      "label": "Банкротство",
-      "count": 185
-    },
-    {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 109
+      "count": 110
     },
     {
       "id": "compliance",
