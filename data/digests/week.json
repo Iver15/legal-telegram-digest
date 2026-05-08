@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-08T21:54:26.925Z",
+  "generatedAt": "2026-05-08T22:49:06.431Z",
   "totalPosts": 228,
   "topPosts": [
     {
@@ -42,7 +42,7 @@
         "compliance",
         "courts"
       ],
-      "priorityScore": 37.77,
+      "priorityScore": 37.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -110,7 +110,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 35.97,
+      "priorityScore": 35.86,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -159,7 +159,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 847,
+      "viewCount": 848,
       "tgLink": "https://t.me/probankrotstvoru/9758",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -172,19 +172,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 33.6,
+      "priorityScore": 33.48,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 847 просмотров",
+        "Охват в Telegram Web: 848 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "КС: третейское решение в преддверии банкротства может нарушать публичный порядокОбщество «Конструктивное Бюро» оспорило в КС конституционность положений АПК об отмене решений третейских судов и отказе в выдаче исполнител",
       "reactionCount": 13,
-      "engagementRate": 0.015348288075560802
+      "engagementRate": 0.015330188679245283
     },
     {
       "id": "probankrotstvoru/9729",
@@ -400,7 +400,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 687,
+      "viewCount": 688,
       "tgLink": "https://t.me/corplawpro/5961",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -415,17 +415,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 32.97,
+      "priorityScore": 32.85,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 687 просмотров"
+        "Охват в Telegram Web: 688 просмотров"
       ],
       "digestSummary": "Дарение обществом денежных средств своим участникам подлежит оценке как возможная притворная сделка по скрытому распределению дивидендов#корпоративные_споры #убытки Брук И.Б. (участник ООО «Веталь» с долей 25%) в лице фи",
       "reactionCount": 3,
-      "engagementRate": 0.004366812227074236
+      "engagementRate": 0.00436046511627907
     },
     {
       "id": "probankrotstvoru/9757",
@@ -476,7 +476,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.85,
+      "priorityScore": 32.74,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -521,7 +521,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 768,
+      "viewCount": 772,
       "tgLink": "https://t.me/probankrotstvoru/9760",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -534,17 +534,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 32.23,
+      "priorityScore": 32.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 768 просмотров"
+        "Охват в Telegram Web: 772 просмотров"
       ],
       "digestSummary": "Кассация определила критерии внеочередности платежей за энергоресурсыВ рамках банкротства предприятия «Приволжское ТЭП» кредитор Александр Шафир попросил признать его текущие требования на сумму около 1,2 млн рублей внео",
       "reactionCount": 7,
-      "engagementRate": 0.009114583333333334
+      "engagementRate": 0.009067357512953367
     },
     {
       "id": "subsidiarka_kdl/4537",
@@ -594,7 +594,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 32.06,
+      "priorityScore": 31.94,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -732,7 +732,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 31.52,
+      "priorityScore": 31.41,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
