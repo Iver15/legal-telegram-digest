@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-09T19:24:21.748Z",
+  "generatedAt": "2026-05-09T20:12:20.189Z",
   "totalPosts": 243,
   "topPosts": [
     {
@@ -368,7 +368,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 19000,
+      "viewCount": 19100,
       "tgLink": "https://t.me/sovetsudey/917",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -381,18 +381,18 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 31.61,
+      "priorityScore": 31.6,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 96 реакций",
-        "Охват в Telegram Web: 19000 просмотров"
+        "Охват в Telegram Web: 19100 просмотров"
       ],
       "digestSummary": "ВС РФ разрешил спор о взыскании денежных средств по договору займа, заключенному до введения процедуры банкротства в отношении должника. Кредитор подал иск в суд общей юрисдикции, однако первая инстанция оставила его без",
       "reactionCount": 96,
-      "engagementRate": 0.0050526315789473685
+      "engagementRate": 0.005026178010471204
     },
     {
       "id": "probankrotstvoru/9730",
@@ -549,7 +549,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 935,
+      "viewCount": 937,
       "tgLink": "https://t.me/probankrotstvoru/9758",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -562,19 +562,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.89,
+      "priorityScore": 30.78,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 935 просмотров",
+        "Охват в Telegram Web: 937 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "КС: третейское решение в преддверии банкротства может нарушать публичный порядокОбщество «Конструктивное Бюро» оспорило в КС конституционность положений АПК об отмене решений третейских судов и отказе в выдаче исполнител",
       "reactionCount": 13,
-      "engagementRate": 0.013903743315508022
+      "engagementRate": 0.013874066168623266
     },
     {
       "id": "BankruptcyClub/1009",

@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-09T19:24:21.748Z",
+  "generatedAt": "2026-05-09T20:12:20.188Z",
   "totalPosts": 40,
   "topPosts": [
     {
@@ -40,7 +40,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 935,
+      "viewCount": 937,
       "tgLink": "https://t.me/probankrotstvoru/9758",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -53,19 +53,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.89,
+      "priorityScore": 30.78,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 935 просмотров",
+        "Охват в Telegram Web: 937 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "КС: третейское решение в преддверии банкротства может нарушать публичный порядокОбщество «Конструктивное Бюро» оспорило в КС конституционность положений АПК об отмене решений третейских судов и отказе в выдаче исполнител",
       "reactionCount": 13,
-      "engagementRate": 0.013903743315508022
+      "engagementRate": 0.013874066168623266
     },
     {
       "id": "corplawpro/5961",
@@ -92,7 +92,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 787,
+      "viewCount": 789,
       "tgLink": "https://t.me/corplawpro/5961",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -107,17 +107,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 30.24,
+      "priorityScore": 30.14,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 787 просмотров"
+        "Охват в Telegram Web: 789 просмотров"
       ],
       "digestSummary": "Дарение обществом денежных средств своим участникам подлежит оценке как возможная притворная сделка по скрытому распределению дивидендов#корпоративные_споры #убытки Брук И.Б. (участник ООО «Веталь» с долей 25%) в лице фи",
       "reactionCount": 3,
-      "engagementRate": 0.0038119440914866584
+      "engagementRate": 0.0038022813688212928
     },
     {
       "id": "probankrotstvoru/9757",
@@ -168,7 +168,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.01,
+      "priorityScore": 29.91,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -213,7 +213,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 874,
+      "viewCount": 876,
       "tgLink": "https://t.me/probankrotstvoru/9760",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -226,17 +226,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 29.43,
+      "priorityScore": 29.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 874 просмотров"
+        "Охват в Telegram Web: 876 просмотров"
       ],
       "digestSummary": "Кассация определила критерии внеочередности платежей за энергоресурсыВ рамках банкротства предприятия «Приволжское ТЭП» кредитор Александр Шафир попросил признать его текущие требования на сумму около 1,2 млн рублей внео",
       "reactionCount": 7,
-      "engagementRate": 0.008009153318077803
+      "engagementRate": 0.007990867579908675
     },
     {
       "id": "probankrotstvoru/9766",
@@ -264,7 +264,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 856,
+      "viewCount": 863,
       "tgLink": "https://t.me/probankrotstvoru/9766",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -277,17 +277,17 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 28.67,
+      "priorityScore": 28.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 856 просмотров"
+        "Охват в Telegram Web: 863 просмотров"
       ],
       "digestSummary": "⚡️Собрали дайджест интересных материалов СМИ о банкротстве за 4-8 маяАктуальные и свежие статьи отрасли банкротства, а также кейсы, исследования, обзоры и новеллы законодательства.Суды завершили длившееся 10 лет банкротс",
       "reactionCount": 7,
-      "engagementRate": 0.008177570093457943
+      "engagementRate": 0.008111239860950173
     },
     {
       "id": "bankrotalk/215",
@@ -350,7 +350,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 28.38,
+      "priorityScore": 28.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -411,7 +411,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.36,
+      "priorityScore": 28.26,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -459,7 +459,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 851,
+      "viewCount": 853,
       "tgLink": "https://t.me/probankrotstvoru/9761",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -471,19 +471,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.21,
+      "priorityScore": 27.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 851 просмотров",
+        "Охват в Telegram Web: 853 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Новый выпуск подкаста на портале PROбанкротство!Новый выпуск подкаста на портале PROбанкротство!Продолжаем создавать интересный и полезный контент на нашей площадке.Встречайте очередной выпуск первого банкротного подкаст",
       "reactionCount": 14,
-      "engagementRate": 0.01645123384253819
+      "engagementRate": 0.016412661195779603
     },
     {
       "id": "probankrotstvoru/9765",
@@ -515,7 +515,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 859,
+      "viewCount": 865,
       "tgLink": "https://t.me/probankrotstvoru/9765",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -527,19 +527,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.85,
+      "priorityScore": 26.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 859 просмотров",
+        "Охват в Telegram Web: 865 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: нельзя субординировать несуществующий долгВ рамках банкротства общества «СК \"Евро Строй\"» компания «Партнер» потребовала включить в реестр кредиторов 54 млн рублей. Требования основывались на вексельном долге, ",
       "reactionCount": 13,
-      "engagementRate": 0.015133876600698487
+      "engagementRate": 0.015028901734104046
     },
     {
       "id": "sotbi_law/185",
@@ -599,7 +599,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.84,
+      "priorityScore": 26.74,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -641,7 +641,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 26.77,
+      "priorityScore": 26.68,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Суды",
@@ -676,7 +676,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 970,
+      "viewCount": 977,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2644",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -689,17 +689,17 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.43,
+      "priorityScore": 26.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 970 просмотров"
+        "Охват в Telegram Web: 977 просмотров"
       ],
       "digestSummary": "Сам по себе факт наличия у гражданина-должника жилого помещения, являющегося для него и членов его семьи единственным пригодным для постоянного проживания, не препятствует обращению взыскания на него, если оно обременено",
       "reactionCount": 4,
-      "engagementRate": 0.004123711340206186
+      "engagementRate": 0.0040941658137154556
     }
   ],
   "topTopics": [
