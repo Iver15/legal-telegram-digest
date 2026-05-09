@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-08T23:45:01.695Z",
+  "generatedAt": "2026-05-09T01:25:07.667Z",
   "totalPosts": 41,
   "topPosts": [
     {
@@ -42,7 +42,7 @@
         "compliance",
         "courts"
       ],
-      "priorityScore": 37.54,
+      "priorityScore": 37.34,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -110,7 +110,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 35.74,
+      "priorityScore": 35.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -171,7 +171,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 31.83,
+      "priorityScore": 31.62,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -214,7 +214,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 14800,
+      "viewCount": 14900,
       "tgLink": "https://t.me/sovetsudey/921",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -227,18 +227,18 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 31.29,
+      "priorityScore": 31.07,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 93 реакций",
-        "Охват в Telegram Web: 14800 просмотров"
+        "Охват в Telegram Web: 14900 просмотров"
       ],
       "digestSummary": "Верховный Суд России изучил спор об определении размера вознаграждения арбитражному управляющему. Нижестоящие инстанции распределили выплаты между тремя специалистами, которые последовательно вели процедуру банкротства к",
       "reactionCount": 93,
-      "engagementRate": 0.006283783783783784
+      "engagementRate": 0.006241610738255033
     },
     {
       "id": "probankrotstvoru/9752",
@@ -289,7 +289,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.84,
+      "priorityScore": 30.63,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -352,7 +352,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.82,
+      "priorityScore": 30.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -389,7 +389,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 873,
+      "viewCount": 879,
       "tgLink": "https://t.me/orpauradio/9388",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -403,17 +403,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 29.65,
+      "priorityScore": 29.44,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 873 просмотров"
+        "Охват в Telegram Web: 879 просмотров"
       ],
       "digestSummary": "Глава админколлегии ВС Игорь Крупнов заставил экономколлегию рассмотреть спор о принудительном утверждении мирового соглашения в банкротстве вопреки несогласию залоговых кредиторов.В банкротстве птицефабрики «Ударник» су",
       "reactionCount": 1,
-      "engagementRate": 0.001145475372279496
+      "engagementRate": 0.0011376564277588168
     },
     {
       "id": "subsidiarka_kdl/4538",
@@ -464,7 +464,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.5,
+      "priorityScore": 28.29,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -515,7 +515,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 27.79,
+      "priorityScore": 27.58,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -574,7 +574,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.4,
+      "priorityScore": 27.19,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -619,7 +619,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 474,
+      "viewCount": 475,
       "tgLink": "https://t.me/educatedyoungman/917",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -632,18 +632,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.28,
+      "priorityScore": 27.07,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 474 просмотров",
+        "Охват в Telegram Web: 475 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Реабилитационный паритет как ключевое условие для утверждения локального плана реструктуризации без согласия кредитораОпределение ВС РФ № 305-ЭС26-470 (2) от 17.04.2026 по делу № А40-260780/2023Дорогие друзья, мы продолж",
       "reactionCount": 6,
-      "engagementRate": 0.012658227848101266
+      "engagementRate": 0.01263157894736842
     },
     {
       "id": "probankrotstvoru/9754",
@@ -687,7 +687,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.83,
+      "priorityScore": 26.62,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
