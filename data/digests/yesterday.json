@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-09T01:25:07.667Z",
+  "generatedAt": "2026-05-09T04:44:40.058Z",
   "totalPosts": 41,
   "topPosts": [
     {
@@ -42,7 +42,7 @@
         "compliance",
         "courts"
       ],
-      "priorityScore": 37.34,
+      "priorityScore": 36.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -95,7 +95,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 163,
+      "viewCount": 164,
       "tgLink": "https://t.me/bankrotstvo_mustknow/489",
       "channel": "bankrotstvo_mustknow",
       "channelTitle": "Банкротство | Взгляд эксперта",
@@ -110,18 +110,18 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 35.53,
+      "priorityScore": 35.12,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 163 просмотров",
+        "Охват в Telegram Web: 164 просмотров",
         "Сильная отдача аудитории: 4,3% реакций к просмотрам"
       ],
       "digestSummary": "ТОП-10 правовых позиций из обзора судебной практики по банкротным спорам за 2025 год Ю. Литовцева, руководитель, А. Гаргасевич, специалист практики банкротства антикризисной защиты бизнеса, об обзоре №5/2026 «О судебной ",
       "reactionCount": 7,
-      "engagementRate": 0.04294478527607362
+      "engagementRate": 0.042682926829268296
     },
     {
       "id": "subsidiarka_kdl/4537",
@@ -171,7 +171,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 31.62,
+      "priorityScore": 31.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -227,7 +227,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 31.07,
+      "priorityScore": 30.66,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -289,7 +289,7 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.63,
+      "priorityScore": 30.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -352,7 +352,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.61,
+      "priorityScore": 30.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -385,11 +385,11 @@
       "reactions": [
         {
           "emoji": "❤️",
-          "count": "1",
+          "count": "2",
           "isPaid": false
         }
       ],
-      "viewCount": 879,
+      "viewCount": 885,
       "tgLink": "https://t.me/orpauradio/9388",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -403,17 +403,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 29.44,
+      "priorityScore": 29.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 879 просмотров"
+        "Охват в Telegram Web: 885 просмотров"
       ],
       "digestSummary": "Глава админколлегии ВС Игорь Крупнов заставил экономколлегию рассмотреть спор о принудительном утверждении мирового соглашения в банкротстве вопреки несогласию залоговых кредиторов.В банкротстве птицефабрики «Ударник» су",
-      "reactionCount": 1,
-      "engagementRate": 0.0011376564277588168
+      "reactionCount": 2,
+      "engagementRate": 0.0022598870056497176
     },
     {
       "id": "subsidiarka_kdl/4538",
@@ -451,7 +451,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1010,
+      "viewCount": 1020,
       "tgLink": "https://t.me/subsidiarka_kdl/4538",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -464,17 +464,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.29,
+      "priorityScore": 27.86,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 1010 просмотров"
+        "Охват в Telegram Web: 1020 просмотров"
       ],
       "digestSummary": "Конституционный суд: продажа требования о субсидиарной ответственности влечёт переход и «основного» требования кредитора к должникуОпределение Конституционного суда РФ от 31.03.2026 № 827-ОКонституционный суд отказал в п",
       "reactionCount": 8,
-      "engagementRate": 0.007920792079207921
+      "engagementRate": 0.00784313725490196
     },
     {
       "id": "orpauradio/9385",
@@ -515,7 +515,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 27.58,
+      "priorityScore": 27.17,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -574,7 +574,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.19,
+      "priorityScore": 26.77,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -619,7 +619,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 475,
+      "viewCount": 479,
       "tgLink": "https://t.me/educatedyoungman/917",
       "channel": "educatedyoungman",
       "channelTitle": "Ничего нового для образованного юноши",
@@ -632,18 +632,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.07,
+      "priorityScore": 26.64,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 475 просмотров",
+        "Охват в Telegram Web: 479 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Реабилитационный паритет как ключевое условие для утверждения локального плана реструктуризации без согласия кредитораОпределение ВС РФ № 305-ЭС26-470 (2) от 17.04.2026 по делу № А40-260780/2023Дорогие друзья, мы продолж",
       "reactionCount": 6,
-      "engagementRate": 0.01263157894736842
+      "engagementRate": 0.012526096033402923
     },
     {
       "id": "probankrotstvoru/9754",
@@ -687,7 +687,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.62,
+      "priorityScore": 26.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
