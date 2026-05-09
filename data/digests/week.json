@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-09T21:07:17.093Z",
+  "generatedAt": "2026-05-09T22:05:12.000Z",
   "totalPosts": 243,
   "topPosts": [
     {
@@ -562,7 +562,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.67,
+      "priorityScore": 30.55,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
