@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-10T22:07:33.711Z",
+  "generatedAt": "2026-05-10T23:09:54.244Z",
   "totalPosts": 30,
   "topPosts": [
     {
@@ -48,7 +48,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.55,
+      "priorityScore": 27.42,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -109,7 +109,7 @@
         "tax",
         "compliance"
       ],
-      "priorityScore": 24.61,
+      "priorityScore": 24.48,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -152,7 +152,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 24.06,
+      "priorityScore": 23.93,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -238,7 +238,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 34500,
+      "viewCount": 34600,
       "tgLink": "https://t.me/sovetsudey/929",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -249,19 +249,19 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 23.42,
+      "priorityScore": 23.28,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 359 реакций",
-        "Охват в Telegram Web: 34500 просмотров",
+        "Охват в Telegram Web: 34600 просмотров",
         "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "Поздравление Председателя Верховного Суда России Игоря Краснова с Днем ПобедыДорогие ветераны! Уважаемые коллеги! От всей души поздравляю вас с Днем Победы!9 мая – не просто дата в календаре. Это символ национальной горд",
       "reactionCount": 359,
-      "engagementRate": 0.010405797101449276
+      "engagementRate": 0.010375722543352601
     },
     {
       "id": "subsidiarka_kdl/4548",
@@ -289,7 +289,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 648,
+      "viewCount": 649,
       "tgLink": "https://t.me/subsidiarka_kdl/4548",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -302,17 +302,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 23.35,
+      "priorityScore": 23.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 648 просмотров"
+        "Охват в Telegram Web: 649 просмотров"
       ],
       "digestSummary": "Опционные программы и программы долгосрочной мотивации: юридические аспектыО дискуссииВ условиях обострившейся конкуренции за таланты всё больше российских компаний задумываются о запуске опционных программ и программ до",
       "reactionCount": 3,
-      "engagementRate": 0.004629629629629629
+      "engagementRate": 0.004622496147919877
     },
     {
       "id": "sudpraktik_bankrot_demo/2645",
@@ -335,7 +335,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 869,
+      "viewCount": 870,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2645",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -347,17 +347,17 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 20.99,
+      "priorityScore": 20.86,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 869 просмотров"
+        "Охват в Telegram Web: 870 просмотров"
       ],
       "digestSummary": "Дайджест на тему «Исключение из конкурсной массы»Доля в праве собственности на общее имущество дома всегда следует судьбе права собственности на жилое помещениеСтатус банкрота подразумевает весьма существенные ограничени",
       "reactionCount": 1,
-      "engagementRate": 0.0011507479861910242
+      "engagementRate": 0.0011494252873563218
     },
     {
       "id": "fondsrd/190",
@@ -396,7 +396,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 19.81,
+      "priorityScore": 19.68,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -453,7 +453,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 19.36,
+      "priorityScore": 19.22,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
@@ -492,7 +492,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 17.31,
+      "priorityScore": 17.18,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -530,7 +530,7 @@
         "enforcement",
         "ai_law"
       ],
-      "priorityScore": 16.92,
+      "priorityScore": 16.79,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -568,7 +568,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 16.67,
+      "priorityScore": 16.54,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -611,7 +611,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1980,
+      "viewCount": 1990,
       "tgLink": "https://t.me/lawegorov/3763",
       "channel": "lawegorov",
       "channelTitle": "AVE in Law",
@@ -623,17 +623,17 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 16.09,
+      "priorityScore": 15.96,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 36 реакций",
-        "Охват в Telegram Web: 1980 просмотров",
+        "Охват в Telegram Web: 1990 просмотров",
         "Сильная отдача аудитории: 1,8% реакций к просмотрам"
       ],
       "digestSummary": "#Субботнее_чтение, выпуск № 19 сезона 25/26. В.О. Богомолов, Жизнь моя, иль ты приснилась мне...Богомолов хорошо известен по одной из лучших, на мой взгляд, военных книг - \"Момент истины (в августе 44го)\".Но эта книга по",
       "reactionCount": 36,
-      "engagementRate": 0.01818181818181818
+      "engagementRate": 0.018090452261306532
     }
   ],
   "topTopics": [
