@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-10T01:29:37.186Z",
-  "totalPosts": 245,
+  "generatedAt": "2026-05-10T05:01:43.759Z",
+  "totalPosts": 246,
   "topPosts": [
     {
       "id": "orpauradio/9386",
@@ -225,7 +225,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2660,
+      "viewCount": 2670,
       "tgLink": "https://t.me/probankrotstvoru/9748",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -239,18 +239,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.35,
+      "priorityScore": 33.34,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 2660 просмотров"
+        "Охват в Telegram Web: 2670 просмотров"
       ],
       "digestSummary": "КС отклонил жалобу АУ на нормы о субсидиарной ответственностиКонституционный Суд отказал в рассмотрении жалобы АУ Дмитрия Лушина на нормы Закона о банкротстве. Заявитель оспаривал ст. 61.17, 139 и 140 Закона о несостояте",
       "reactionCount": 19,
-      "engagementRate": 0.007142857142857143
+      "engagementRate": 0.007116104868913857
     },
     {
       "id": "probankrotstvoru/9745",
@@ -487,7 +487,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1090,
+      "viewCount": 1100,
       "tgLink": "https://t.me/subsidiarka_kdl/4537",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -507,11 +507,11 @@
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 1090 просмотров"
+        "Охват в Telegram Web: 1100 просмотров"
       ],
       "digestSummary": "Для запрета на выезд контролирующего лица достаточно разумных подозрений в угрозе неисполнения судебного акта#субсидиарная_ответственность #обеспечительные_меры Конкурсный управляющий ЗАО ПВ-Банк (ГК «АСВ») в рамках дела",
       "reactionCount": 5,
-      "engagementRate": 0.0045871559633027525
+      "engagementRate": 0.004545454545454545
     },
     {
       "id": "BankruptcyClub/1009",
@@ -614,7 +614,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 3310,
+      "viewCount": 3320,
       "tgLink": "https://t.me/legally_bald/1191",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -634,11 +634,11 @@
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 3310 просмотров"
+        "Охват в Telegram Web: 3320 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за апрель 2026I. ВС допустил обращение субординированного кредитора с заявлением о привлечении к субсидиарной ответственности – Дело АО “Сельскохозяйственная компания “Седлистое”Верховный ",
       "reactionCount": 10,
-      "engagementRate": 0.0030211480362537764
+      "engagementRate": 0.0030120481927710845
     },
     {
       "id": "sovetsudey/921",
@@ -657,7 +657,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "75",
+          "count": "76",
           "isPaid": false
         },
         {
@@ -671,7 +671,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 15700,
+      "viewCount": 15800,
       "tgLink": "https://t.me/sovetsudey/921",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -690,12 +690,12 @@
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 96 реакций",
-        "Охват в Telegram Web: 15700 просмотров"
+        "Высокая вовлечённость: 97 реакций",
+        "Охват в Telegram Web: 15800 просмотров"
       ],
       "digestSummary": "Верховный Суд России изучил спор об определении размера вознаграждения арбитражному управляющему. Нижестоящие инстанции распределили выплаты между тремя специалистами, которые последовательно вели процедуру банкротства к",
-      "reactionCount": 96,
-      "engagementRate": 0.006114649681528662
+      "reactionCount": 97,
+      "engagementRate": 0.006139240506329114
     },
     {
       "id": "subsidiarka_kdl/4531",
@@ -753,27 +753,27 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 213
+      "count": 214
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 204
+      "count": 205
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 197
+      "count": 198
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 194
+      "count": 195
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 117
+      "count": 118
     },
     {
       "id": "compliance",
