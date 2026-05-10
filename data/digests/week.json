@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-10T16:11:49.986Z",
+  "generatedAt": "2026-05-10T17:16:44.517Z",
   "totalPosts": 247,
   "topPosts": [
     {
@@ -95,7 +95,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 176,
+      "viewCount": 177,
       "tgLink": "https://t.me/bankrotstvo_mustknow/489",
       "channel": "bankrotstvo_mustknow",
       "channelTitle": "Банкротство | Взгляд эксперта",
@@ -110,18 +110,18 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 34.97,
+      "priorityScore": 34.98,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 176 просмотров",
+        "Охват в Telegram Web: 177 просмотров",
         "Сильная отдача аудитории: 4,0% реакций к просмотрам"
       ],
       "digestSummary": "ТОП-10 правовых позиций из обзора судебной практики по банкротным спорам за 2025 год Ю. Литовцева, руководитель, А. Гаргасевич, специалист практики банкротства антикризисной защиты бизнеса, об обзоре №5/2026 «О судебной ",
       "reactionCount": 7,
-      "engagementRate": 0.03977272727272727
+      "engagementRate": 0.03954802259887006
     },
     {
       "id": "probankrotstvoru/9770",
@@ -155,7 +155,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 496,
+      "viewCount": 516,
       "tgLink": "https://t.me/probankrotstvoru/9770",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -169,17 +169,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.95,
+      "priorityScore": 34.78,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 496 просмотров"
+        "Охват в Telegram Web: 516 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС проверит продажу доли по отмененной доверенности за 100 тыс. вместо 67 млнВС рассмотрит вопрос о том, освобождает ли техническая ошибка нотариуса при вне",
       "reactionCount": 4,
-      "engagementRate": 0.008064516129032258
+      "engagementRate": 0.007751937984496124
     },
     {
       "id": "probankrotstvoru/9729",
@@ -729,7 +729,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 16000,
+      "viewCount": 16100,
       "tgLink": "https://t.me/sovetsudey/921",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -742,18 +742,18 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 30.37,
+      "priorityScore": 30.36,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 99 реакций",
-        "Охват в Telegram Web: 16000 просмотров"
+        "Охват в Telegram Web: 16100 просмотров"
       ],
       "digestSummary": "Верховный Суд России изучил спор об определении размера вознаграждения арбитражному управляющему. Нижестоящие инстанции распределили выплаты между тремя специалистами, которые последовательно вели процедуру банкротства к",
       "reactionCount": 99,
-      "engagementRate": 0.0061875
+      "engagementRate": 0.006149068322981366
     }
   ],
   "topTopics": [
