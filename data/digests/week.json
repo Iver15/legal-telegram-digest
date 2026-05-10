@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-10T17:16:44.517Z",
-  "totalPosts": 247,
+  "generatedAt": "2026-05-10T18:09:05.112Z",
+  "totalPosts": 246,
   "topPosts": [
     {
       "id": "orpauradio/9386",
@@ -155,7 +155,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 516,
+      "viewCount": 535,
       "tgLink": "https://t.me/probankrotstvoru/9770",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -169,17 +169,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.78,
+      "priorityScore": 34.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 516 просмотров"
+        "Охват в Telegram Web: 535 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС проверит продажу доли по отмененной доверенности за 100 тыс. вместо 67 млнВС рассмотрит вопрос о том, освобождает ли техническая ошибка нотариуса при вне",
       "reactionCount": 4,
-      "engagementRate": 0.007751937984496124
+      "engagementRate": 0.007476635514018692
     },
     {
       "id": "probankrotstvoru/9729",
@@ -283,7 +283,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2700,
+      "viewCount": 2710,
       "tgLink": "https://t.me/probankrotstvoru/9748",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -297,18 +297,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.34,
+      "priorityScore": 33.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 2700 просмотров"
+        "Охват в Telegram Web: 2710 просмотров"
       ],
       "digestSummary": "КС отклонил жалобу АУ на нормы о субсидиарной ответственностиКонституционный Суд отказал в рассмотрении жалобы АУ Дмитрия Лушина на нормы Закона о банкротстве. Заявитель оспаривал ст. 61.17, 139 и 140 Закона о несостояте",
       "reactionCount": 19,
-      "engagementRate": 0.007037037037037037
+      "engagementRate": 0.007011070110701107
     },
     {
       "id": "probankrotstvoru/9745",
@@ -342,7 +342,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1350,
+      "viewCount": 1360,
       "tgLink": "https://t.me/probankrotstvoru/9745",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -356,19 +356,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.09,
+      "priorityScore": 33.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 1350 просмотров",
+        "Охват в Telegram Web: 1360 просмотров",
         "Сильная отдача аудитории: 1,0% реакций к просмотрам"
       ],
       "digestSummary": "ВС разъяснил порядок взыскания страховых взносов через механизм ЕНСВ рамках банкротства ФГУП «Главное военно-строительное управление № 9» возник спор между КУ и ФНС о порядке погашения текущей задолженности по единому ст",
       "reactionCount": 14,
-      "engagementRate": 0.01037037037037037
+      "engagementRate": 0.010294117647058823
     },
     {
       "id": "sovetsudey/917",
@@ -608,7 +608,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 377,
+      "viewCount": 378,
       "tgLink": "https://t.me/BankruptcyClub/1009",
       "channel": "BankruptcyClub",
       "channelTitle": "Банкротный Клуб",
@@ -628,12 +628,12 @@
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 377 просмотров",
+        "Охват в Telegram Web: 378 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Опубликован банкротный дайджест за апрель 2026I. ВС допустил обращение субординированного кредитора с заявлением о привлечении к субсидиарной ответственности – Дело АО “Сельскохозяйственная компания “Седлистое”Верховный ",
       "reactionCount": 4,
-      "engagementRate": 0.010610079575596816
+      "engagementRate": 0.010582010582010581
     },
     {
       "id": "legally_bald/1191",
@@ -765,7 +765,7 @@
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 205
+      "count": 204
     },
     {
       "id": "bankruptcy",
@@ -775,22 +775,22 @@
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 196
+      "count": 195
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 120
+      "count": 119
     },
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 51
+      "count": 50
     },
     {
       "id": "tax",
       "label": "Налоги",
-      "count": 41
+      "count": 40
     }
   ],
   "topChannels": [
