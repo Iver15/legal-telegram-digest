@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-10T19:25:44.353Z",
+  "generatedAt": "2026-05-10T20:14:11.820Z",
   "totalPosts": 246,
   "topPosts": [
     {
@@ -155,7 +155,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 566,
+      "viewCount": 581,
       "tgLink": "https://t.me/probankrotstvoru/9770",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -169,17 +169,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.45,
+      "priorityScore": 34.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 566 просмотров"
+        "Охват в Telegram Web: 581 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС проверит продажу доли по отмененной доверенности за 100 тыс. вместо 67 млнВС рассмотрит вопрос о том, освобождает ли техническая ошибка нотариуса при вне",
       "reactionCount": 4,
-      "engagementRate": 0.007067137809187279
+      "engagementRate": 0.0068846815834767644
     },
     {
       "id": "probankrotstvoru/9729",
@@ -387,7 +387,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "73",
+          "count": "74",
           "isPaid": false
         },
         {
@@ -439,18 +439,18 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 31.59,
+      "priorityScore": 31.6,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 97 реакций",
+        "Высокая вовлечённость: 98 реакций",
         "Охват в Telegram Web: 19700 просмотров"
       ],
       "digestSummary": "ВС РФ разрешил спор о взыскании денежных средств по договору займа, заключенному до введения процедуры банкротства в отношении должника. Кредитор подал иск в суд общей юрисдикции, однако первая инстанция оставила его без",
-      "reactionCount": 97,
-      "engagementRate": 0.004923857868020304
+      "reactionCount": 98,
+      "engagementRate": 0.004974619289340102
     },
     {
       "id": "probankrotstvoru/9730",
