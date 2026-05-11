@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-10T23:09:54.245Z",
+  "generatedAt": "2026-05-11T00:12:06.961Z",
   "totalPosts": 247,
   "topPosts": [
     {
@@ -155,7 +155,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 613,
+      "viewCount": 617,
       "tgLink": "https://t.me/probankrotstvoru/9770",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -169,17 +169,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.93,
+      "priorityScore": 33.79,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 613 просмотров"
+        "Охват в Telegram Web: 617 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС проверит продажу доли по отмененной доверенности за 100 тыс. вместо 67 млнВС рассмотрит вопрос о том, освобождает ли техническая ошибка нотариуса при вне",
       "reactionCount": 4,
-      "engagementRate": 0.0065252854812398045
+      "engagementRate": 0.006482982171799027
     },
     {
       "id": "probankrotstvoru/9729",
@@ -672,7 +672,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 3370,
+      "viewCount": 3380,
       "tgLink": "https://t.me/legally_bald/1191",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -686,17 +686,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 30.47,
+      "priorityScore": 30.46,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
-        "Охват в Telegram Web: 3370 просмотров"
+        "Охват в Telegram Web: 3380 просмотров"
       ],
       "digestSummary": "Опубликован банкротный дайджест за апрель 2026I. ВС допустил обращение субординированного кредитора с заявлением о привлечении к субсидиарной ответственности – Дело АО “Сельскохозяйственная компания “Седлистое”Верховный ",
       "reactionCount": 10,
-      "engagementRate": 0.002967359050445104
+      "engagementRate": 0.0029585798816568047
     },
     {
       "id": "sovetsudey/921",
