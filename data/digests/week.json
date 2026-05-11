@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-11T21:45:25.455Z",
+  "generatedAt": "2026-05-11T22:42:46.790Z",
   "totalPosts": 226,
   "topPosts": [
     {
@@ -102,7 +102,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.15,
+      "priorityScore": 36.03,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -423,7 +423,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 767,
+      "viewCount": 773,
       "tgLink": "https://t.me/subsidiarka_kdl/4549",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -436,17 +436,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 31.3,
+      "priorityScore": 31.17,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 767 просмотров"
+        "Охват в Telegram Web: 773 просмотров"
       ],
       "digestSummary": "Подача заявления о намерении погасить требования кредиторов после возбуждения спора о субсидиарной ответственности презюмирует причинно-следственную связь с действиями управляющего#банкротство#субсидиарная_ответственност",
       "reactionCount": 6,
-      "engagementRate": 0.007822685788787484
+      "engagementRate": 0.007761966364812419
     },
     {
       "id": "probankrotstvoru/9770",
@@ -480,7 +480,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 878,
+      "viewCount": 880,
       "tgLink": "https://t.me/probankrotstvoru/9770",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -494,17 +494,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.2,
+      "priorityScore": 31.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 878 просмотров"
+        "Охват в Telegram Web: 880 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС проверит продажу доли по отмененной доверенности за 100 тыс. вместо 67 млнВС рассмотрит вопрос о том, освобождает ли техническая ошибка нотариуса при вне",
       "reactionCount": 5,
-      "engagementRate": 0.0056947608200455585
+      "engagementRate": 0.005681818181818182
     },
     {
       "id": "subsidiarka_kdl/4537",
