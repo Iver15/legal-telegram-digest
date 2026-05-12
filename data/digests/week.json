@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-11T23:43:32.162Z",
+  "generatedAt": "2026-05-12T01:27:37.597Z",
   "totalPosts": 226,
   "topPosts": [
     {
@@ -88,7 +88,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 345,
+      "viewCount": 349,
       "tgLink": "https://t.me/insolvencylaw/622",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -102,19 +102,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.9,
+      "priorityScore": 35.69,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 345 просмотров",
-        "Сильная отдача аудитории: 4,1% реакций к просмотрам"
+        "Охват в Telegram Web: 349 просмотров",
+        "Сильная отдача аудитории: 4,0% реакций к просмотрам"
       ],
       "digestSummary": "Иск из владения цифровым активом: статьяВ издательстве «Статут» вышел сборник статей, посвященный юбилею проф. В.В. Витрянского «Проблемы развития гражданского законодательства и практики его применения».В сборнике вышла",
       "reactionCount": 14,
-      "engagementRate": 0.04057971014492753
+      "engagementRate": 0.04011461318051576
     },
     {
       "id": "bankrotstvo_mustknow/489",
@@ -220,7 +220,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2780,
+      "viewCount": 2790,
       "tgLink": "https://t.me/probankrotstvoru/9748",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -234,18 +234,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.31,
+      "priorityScore": 33.3,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 19 реакций",
-        "Охват в Telegram Web: 2780 просмотров"
+        "Охват в Telegram Web: 2790 просмотров"
       ],
       "digestSummary": "КС отклонил жалобу АУ на нормы о субсидиарной ответственностиКонституционный Суд отказал в рассмотрении жалобы АУ Дмитрия Лушина на нормы Закона о банкротстве. Заявитель оспаривал ст. 61.17, 139 и 140 Закона о несостояте",
       "reactionCount": 19,
-      "engagementRate": 0.006834532374100719
+      "engagementRate": 0.006810035842293907
     },
     {
       "id": "probankrotstvoru/9745",
@@ -413,6 +413,11 @@
           "isPaid": false
         },
         {
+          "emoji": "❤️",
+          "count": "1",
+          "isPaid": false
+        },
+        {
           "emoji": "🔥",
           "count": "1",
           "isPaid": false
@@ -423,7 +428,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 778,
+      "viewCount": 786,
       "tgLink": "https://t.me/subsidiarka_kdl/4549",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -436,17 +441,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 31.04,
+      "priorityScore": 31.1,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 778 просмотров"
+        "Охват в Telegram Web: 786 просмотров"
       ],
       "digestSummary": "Подача заявления о намерении погасить требования кредиторов после возбуждения спора о субсидиарной ответственности презюмирует причинно-следственную связь с действиями управляющего#банкротство#субсидиарная_ответственност",
-      "reactionCount": 6,
-      "engagementRate": 0.007712082262210797
+      "reactionCount": 7,
+      "engagementRate": 0.008905852417302799
     },
     {
       "id": "subsidiarka_kdl/4537",
@@ -540,7 +545,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 883,
+      "viewCount": 886,
       "tgLink": "https://t.me/probankrotstvoru/9770",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -554,17 +559,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.95,
+      "priorityScore": 30.73,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 883 просмотров"
+        "Охват в Telegram Web: 886 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС проверит продажу доли по отмененной доверенности за 100 тыс. вместо 67 млнВС рассмотрит вопрос о том, освобождает ли техническая ошибка нотариуса при вне",
       "reactionCount": 5,
-      "engagementRate": 0.0056625141562853904
+      "engagementRate": 0.0056433408577878106
     },
     {
       "id": "BankruptcyClub/1009",
@@ -724,7 +729,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 16600,
+      "viewCount": 16700,
       "tgLink": "https://t.me/sovetsudey/921",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -737,18 +742,18 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 30.37,
+      "priorityScore": 30.36,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 103 реакций",
-        "Охват в Telegram Web: 16600 просмотров"
+        "Охват в Telegram Web: 16700 просмотров"
       ],
       "digestSummary": "Верховный Суд России изучил спор об определении размера вознаграждения арбитражному управляющему. Нижестоящие инстанции распределили выплаты между тремя специалистами, которые последовательно вели процедуру банкротства к",
       "reactionCount": 103,
-      "engagementRate": 0.006204819277108434
+      "engagementRate": 0.006167664670658683
     }
   ],
   "topTopics": [
