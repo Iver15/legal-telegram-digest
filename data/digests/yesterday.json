@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-12T22:11:15.657Z",
+  "generatedAt": "2026-05-12T23:20:46.038Z",
   "totalPosts": 12,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.38,
+      "priorityScore": 33.24,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -116,7 +116,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.25,
+      "priorityScore": 28.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -179,7 +179,7 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 26.47,
+      "priorityScore": 26.32,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
@@ -234,7 +234,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 26.21,
+      "priorityScore": 26.06,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
@@ -282,7 +282,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 25.72,
+      "priorityScore": 25.58,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -316,7 +316,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2380,
+      "viewCount": 2390,
       "tgLink": "https://t.me/sudpraktik/3523",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -329,17 +329,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 21.56,
+      "priorityScore": 21.42,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 2380 просмотров"
+        "Охват в Telegram Web: 2390 просмотров"
       ],
       "digestSummary": "Общий критерий отнесения потребителей электрической энергии к категории «Население»заключается в использовании этой энергии на коммунально-бытовые нужды Суть требования: о взыскании долга по оплате электроэнергии. Решени",
       "reactionCount": 2,
-      "engagementRate": 0.0008403361344537816
+      "engagementRate": 0.0008368200836820083
     },
     {
       "id": "legally_bald/1201",
@@ -383,7 +383,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 20.24,
+      "priorityScore": 20.09,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -423,7 +423,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 802,
+      "viewCount": 805,
       "tgLink": "https://t.me/disputesandsanctions/2489",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -436,17 +436,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 18.69,
+      "priorityScore": 18.54,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Исполнение",
-        "Охват в Telegram Web: 802 просмотров"
+        "Охват в Telegram Web: 805 просмотров"
       ],
       "digestSummary": "МКАС - Сербия - Признание и исполнение Размещаю решение Верховного суда Сербии по вопросу о признании решения МКАС при ТПП РФ от 15.01.2026Как это можно отметить, значимых аргументов против признания МКАС при ТПП РФ заяв",
       "reactionCount": 6,
-      "engagementRate": 0.007481296758104738
+      "engagementRate": 0.007453416149068323
     },
     {
       "id": "Compliance_Practice/3071",
@@ -477,7 +477,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2040,
+      "viewCount": 2050,
       "tgLink": "https://t.me/Compliance_Practice/3071",
       "channel": "Compliance_Practice",
       "channelTitle": "Compliance practice",
@@ -490,17 +490,17 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 18.5,
+      "priorityScore": 18.35,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Комплаенс",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 2040 просмотров"
+        "Охват в Telegram Web: 2050 просмотров"
       ],
       "digestSummary": "Великобритания 🇬🇧 внесли в санкционный список еще около 80 физических и юридических лиц РФ Под британскими санкциями находится Институт развития интернета, гендиректор АНО «Диалог» Владимир Табак и руководитель отдела ",
       "reactionCount": 6,
-      "engagementRate": 0.0029411764705882353
+      "engagementRate": 0.002926829268292683
     },
     {
       "id": "sudpraktik/3524",
@@ -534,7 +534,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 15,
+      "priorityScore": 14.85,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
@@ -585,7 +585,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 13.3,
+      "priorityScore": 13.16,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -619,7 +619,7 @@
         "bankruptcy",
         "courts"
       ],
-      "priorityScore": 4.89,
+      "priorityScore": 4.75,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Охват в Telegram Web: 409 просмотров"
