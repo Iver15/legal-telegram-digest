@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-12T17:33:42.005Z",
+  "generatedAt": "2026-05-12T19:22:29.029Z",
   "totalPosts": 13,
   "topPosts": [
     {
@@ -36,7 +36,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 456,
+      "viewCount": 458,
       "tgLink": "https://t.me/insolvencylaw/622",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -50,19 +50,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.96,
+      "priorityScore": 33.73,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 456 просмотров",
+        "Охват в Telegram Web: 458 просмотров",
         "Сильная отдача аудитории: 3,5% реакций к просмотрам"
       ],
       "digestSummary": "Иск из владения цифровым активом: статьяВ издательстве «Статут» вышел сборник статей, посвященный юбилею проф. В.В. Витрянского «Проблемы развития гражданского законодательства и практики его применения».В сборнике вышла",
       "reactionCount": 16,
-      "engagementRate": 0.03508771929824561
+      "engagementRate": 0.034934497816593885
     },
     {
       "id": "subsidiarka_kdl/4549",
@@ -103,7 +103,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1060,
+      "viewCount": 1080,
       "tgLink": "https://t.me/subsidiarka_kdl/4549",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -116,17 +116,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.85,
+      "priorityScore": 28.61,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1060 просмотров"
+        "Охват в Telegram Web: 1080 просмотров"
       ],
       "digestSummary": "Подача заявления о намерении погасить требования кредиторов после возбуждения спора о субсидиарной ответственности презюмирует причинно-следственную связь с действиями управляющего#банкротство#субсидиарная_ответственност",
       "reactionCount": 7,
-      "engagementRate": 0.006603773584905661
+      "engagementRate": 0.006481481481481481
     },
     {
       "id": "corplawpro/5978",
@@ -165,7 +165,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 884,
+      "viewCount": 902,
       "tgLink": "https://t.me/corplawpro/5978",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -179,17 +179,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 27.06,
+      "priorityScore": 26.83,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 884 просмотров"
+        "Охват в Telegram Web: 902 просмотров"
       ],
       "digestSummary": "Четыре способа сделать опционную программу в РоссииРоссийское право предлагает четыре конструкции опционных программ. Выбор между ними определяет налоговую нагрузку, корпоративные риски и судьбу программы в целом.1. Фант",
       "reactionCount": 5,
-      "engagementRate": 0.005656108597285068
+      "engagementRate": 0.005543237250554324
     },
     {
       "id": "corplawpro/5977",
@@ -220,7 +220,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 935,
+      "viewCount": 947,
       "tgLink": "https://t.me/corplawpro/5977",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -234,17 +234,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 26.79,
+      "priorityScore": 26.56,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 935 просмотров"
+        "Охват в Telegram Web: 947 просмотров"
       ],
       "digestSummary": "Продавец доли отвечает за недостоверные заверения о финансовом состоянии общества независимо от своей осведомлённости о нарушениях#корпоративные_споры#заверения_об_обстоятельствахКовалев В.В. обратился с иском к Бессонов",
       "reactionCount": 3,
-      "engagementRate": 0.0032085561497326204
+      "engagementRate": 0.0031678986272439284
     },
     {
       "id": "sudpraktik_bankrot_demo/2647",
@@ -269,7 +269,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1080,
+      "viewCount": 1090,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2647",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -282,17 +282,17 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.3,
+      "priorityScore": 26.07,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1080 просмотров"
+        "Охват в Telegram Web: 1090 просмотров"
       ],
       "digestSummary": "При рассмотрении вопроса о снижении размера вознаграждения арбитражного управляющего суду следует учитывать, в частности, имелись ли случаи признания судом незаконными действий этого управляющего, или необоснованными пон",
       "reactionCount": 1,
-      "engagementRate": 0.000925925925925926
+      "engagementRate": 0.0009174311926605505
     },
     {
       "id": "sudpraktik/3523",
@@ -316,7 +316,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2330,
+      "viewCount": 2360,
       "tgLink": "https://t.me/sudpraktik/3523",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -329,17 +329,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 22.14,
+      "priorityScore": 21.91,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 2330 просмотров"
+        "Охват в Telegram Web: 2360 просмотров"
       ],
       "digestSummary": "Общий критерий отнесения потребителей электрической энергии к категории «Население»заключается в использовании этой энергии на коммунально-бытовые нужды Суть требования: о взыскании долга по оплате электроэнергии. Решени",
       "reactionCount": 2,
-      "engagementRate": 0.0008583690987124463
+      "engagementRate": 0.000847457627118644
     },
     {
       "id": "legally_bald/1201",
@@ -371,7 +371,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 635,
+      "viewCount": 636,
       "tgLink": "https://t.me/legally_bald/1201",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -383,65 +383,19 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 20.82,
+      "priorityScore": 20.59,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 635 просмотров",
+        "Охват в Telegram Web: 636 просмотров",
         "Сильная отдача аудитории: 1,7% реакций к просмотрам"
       ],
       "digestSummary": "Уже вторая передача в экономколлегию, посвященная обсуждению допустимости освобождения виновника ДТП, причинившего ущерб имуществу в отсутствии полиса страхования, от долговhttps://mkad.arbitr.ru/Document/Pdf/ca0a39e0-0f",
       "reactionCount": 11,
-      "engagementRate": 0.01732283464566929
-    },
-    {
-      "id": "disputesandsanctions/2489",
-      "title": "МКАС - Сербия - Признание и исполнение Размещаю решение Верховного суда Сербии по вопросу о признании решения МКАС при ТПП РФ от 15.01.2026Как это можно отметить, значимых аргументов против признания МКАС при ТПП РФ заявлено не было.В принципе, решение сербского суда понятно без перевода",
-      "type": "text",
-      "datetime": "2026-05-11T11:00:03+00:00",
-      "tags": [
-        "compliance",
-        "arbitration",
-        "ai_law",
-        "courts",
-        "enforcement"
-      ],
-      "text": "МКАС - Сербия - Признание и исполнение Размещаю решение Верховного суда Сербии по вопросу о признании решения МКАС при ТПП РФ от 15.01.2026Как это можно отметить, значимых аргументов против признания МКАС при ТПП РФ заявлено не было.В принципе, решение сербского суда понятно без перевода",
-      "content": "<p>МКАС - Сербия - Признание и исполнение </p><p>Размещаю решение Верховного суда Сербии по вопросу о признании решения МКАС при ТПП РФ от 15.01.2026</p><p>Как это можно отметить, значимых аргументов против признания МКАС при ТПП РФ заявлено не было.</p><p>В принципе, решение сербского суда понятно без перевода</p><a class=\"tgme_widget_message_document_wrap\" href=\"https://t.me/disputesandsanctions/2489\">\n  <div class=\"tgme_widget_message_document_icon accent_bg\"></div>\n  <div class=\"tgme_widget_message_document\">\n    <div class=\"tgme_widget_message_document_title accent_color\" dir=\"auto\">Prev 610-25 3.16.4 (1).pdf</div>\n    <div class=\"tgme_widget_message_document_extra\" dir=\"auto\">224.4 KB</div>\n  </div>\n</a>",
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "5",
-          "isPaid": false
-        }
-      ],
-      "viewCount": 611,
-      "tgLink": "https://t.me/disputesandsanctions/2489",
-      "channel": "disputesandsanctions",
-      "channelTitle": "LetterRogatory v.2",
-      "category": "compliance",
-      "group": "regulation",
-      "legalTopics": [
-        "compliance",
-        "arbitration",
-        "ai_law",
-        "courts",
-        "enforcement"
-      ],
-      "priorityScore": 19.18,
-      "priorityReasons": [
-        "Категория канала: compliance",
-        "Совпадение по теме: AI+Law",
-        "Совпадение по теме: Суды",
-        "Совпадение по теме: Исполнение",
-        "Охват в Telegram Web: 611 просмотров"
-      ],
-      "digestSummary": "МКАС - Сербия - Признание и исполнение Размещаю решение Верховного суда Сербии по вопросу о признании решения МКАС при ТПП РФ от 15.01.2026Как это можно отметить, значимых аргументов против признания МКАС при ТПП РФ заяв",
-      "reactionCount": 5,
-      "engagementRate": 0.008183306055646482
+      "engagementRate": 0.01729559748427673
     },
     {
       "id": "Compliance_Practice/3071",
@@ -472,7 +426,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2010,
+      "viewCount": 2020,
       "tgLink": "https://t.me/Compliance_Practice/3071",
       "channel": "Compliance_Practice",
       "channelTitle": "Compliance practice",
@@ -485,17 +439,63 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 19.08,
+      "priorityScore": 18.85,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Комплаенс",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 2010 просмотров"
+        "Охват в Telegram Web: 2020 просмотров"
       ],
       "digestSummary": "Великобритания 🇬🇧 внесли в санкционный список еще около 80 физических и юридических лиц РФ Под британскими санкциями находится Институт развития интернета, гендиректор АНО «Диалог» Владимир Табак и руководитель отдела ",
       "reactionCount": 6,
-      "engagementRate": 0.0029850746268656717
+      "engagementRate": 0.0029702970297029703
+    },
+    {
+      "id": "disputesandsanctions/2489",
+      "title": "МКАС - Сербия - Признание и исполнение Размещаю решение Верховного суда Сербии по вопросу о признании решения МКАС при ТПП РФ от 15.01.2026Как это можно отметить, значимых аргументов против признания МКАС при ТПП РФ заявлено не было.В принципе, решение сербского суда понятно без перевода",
+      "type": "text",
+      "datetime": "2026-05-11T11:00:03+00:00",
+      "tags": [
+        "compliance",
+        "arbitration",
+        "ai_law",
+        "courts",
+        "enforcement"
+      ],
+      "text": "МКАС - Сербия - Признание и исполнение Размещаю решение Верховного суда Сербии по вопросу о признании решения МКАС при ТПП РФ от 15.01.2026Как это можно отметить, значимых аргументов против признания МКАС при ТПП РФ заявлено не было.В принципе, решение сербского суда понятно без перевода",
+      "content": "<p>МКАС - Сербия - Признание и исполнение </p><p>Размещаю решение Верховного суда Сербии по вопросу о признании решения МКАС при ТПП РФ от 15.01.2026</p><p>Как это можно отметить, значимых аргументов против признания МКАС при ТПП РФ заявлено не было.</p><p>В принципе, решение сербского суда понятно без перевода</p><a class=\"tgme_widget_message_document_wrap\" href=\"https://t.me/disputesandsanctions/2489\">\n  <div class=\"tgme_widget_message_document_icon accent_bg\"></div>\n  <div class=\"tgme_widget_message_document\">\n    <div class=\"tgme_widget_message_document_title accent_color\" dir=\"auto\">Prev 610-25 3.16.4 (1).pdf</div>\n    <div class=\"tgme_widget_message_document_extra\" dir=\"auto\">224.4 KB</div>\n  </div>\n</a>",
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "5",
+          "isPaid": false
+        }
+      ],
+      "viewCount": 758,
+      "tgLink": "https://t.me/disputesandsanctions/2489",
+      "channel": "disputesandsanctions",
+      "channelTitle": "LetterRogatory v.2",
+      "category": "compliance",
+      "group": "regulation",
+      "legalTopics": [
+        "compliance",
+        "arbitration",
+        "ai_law",
+        "courts",
+        "enforcement"
+      ],
+      "priorityScore": 18.8,
+      "priorityReasons": [
+        "Категория канала: compliance",
+        "Совпадение по теме: AI+Law",
+        "Совпадение по теме: Суды",
+        "Совпадение по теме: Исполнение",
+        "Охват в Telegram Web: 758 просмотров"
+      ],
+      "digestSummary": "МКАС - Сербия - Признание и исполнение Размещаю решение Верховного суда Сербии по вопросу о признании решения МКАС при ТПП РФ от 15.01.2026Как это можно отметить, значимых аргументов против признания МКАС при ТПП РФ заяв",
+      "reactionCount": 5,
+      "engagementRate": 0.006596306068601583
     },
     {
       "id": "insolvencylaw/620",
@@ -533,7 +533,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 532,
+      "viewCount": 533,
       "tgLink": "https://t.me/insolvencylaw/620",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -546,18 +546,18 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 18.94,
+      "priorityScore": 18.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 532 просмотров",
+        "Охват в Telegram Web: 533 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Намерение пополнить казну как квалифицирующий признак основания прекращения права собственности или уроки историиПринудительные основания для прекращения права собственности отражены в ст. 235 ГК РФ. Среди тех, что на сл",
       "reactionCount": 7,
-      "engagementRate": 0.013157894736842105
+      "engagementRate": 0.013133208255159476
     },
     {
       "id": "sudpraktik/3524",
@@ -579,7 +579,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2250,
+      "viewCount": 2280,
       "tgLink": "https://t.me/sudpraktik/3524",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -591,16 +591,16 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 15.57,
+      "priorityScore": 15.35,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 2250 просмотров"
+        "Охват в Telegram Web: 2280 просмотров"
       ],
       "digestSummary": "​Друзья! Представляем вашему вниманию ТОП-3 канала по охране труда:🛡️ ОХРАНА ТРУДА - самый крупный канал рунета о безопасности труда - особенности расследования несчастных случаев, обучение по охране труда и кейсы для н",
       "reactionCount": 3,
-      "engagementRate": 0.0013333333333333333
+      "engagementRate": 0.0013157894736842105
     },
     {
       "id": "insolvencylaw/623",
@@ -631,7 +631,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 473,
+      "viewCount": 477,
       "tgLink": "https://t.me/insolvencylaw/623",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -642,17 +642,17 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 13.88,
+      "priorityScore": 13.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 473 просмотров",
-        "Сильная отдача аудитории: 3,0% реакций к просмотрам"
+        "Охват в Telegram Web: 477 просмотров",
+        "Сильная отдача аудитории: 2,9% реакций к просмотрам"
       ],
       "digestSummary": "В защиту предпринимателя в любые (даже сложные) времена или о системе общественных интересов, подлежащих защитеИ купечество в ничтожность повергать не надобно, понеже без купечества никакое не только великое, но и малое ",
       "reactionCount": 14,
-      "engagementRate": 0.02959830866807611
+      "engagementRate": 0.029350104821802937
     }
   ],
   "topTopics": [
