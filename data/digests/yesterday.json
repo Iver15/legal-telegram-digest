@@ -1,8 +1,8 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-12T01:27:37.597Z",
-  "totalPosts": 7,
+  "generatedAt": "2026-05-12T05:00:40.618Z",
+  "totalPosts": 6,
   "topPosts": [
     {
       "id": "probankrotstvoru/9770",
@@ -36,7 +36,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 886,
+      "viewCount": 908,
       "tgLink": "https://t.me/probankrotstvoru/9770",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -50,17 +50,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.73,
+      "priorityScore": 30.27,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 886 просмотров"
+        "Охват в Telegram Web: 908 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС проверит продажу доли по отмененной доверенности за 100 тыс. вместо 67 млнВС рассмотрит вопрос о том, освобождает ли техническая ошибка нотариуса при вне",
       "reactionCount": 5,
-      "engagementRate": 0.0056433408577878106
+      "engagementRate": 0.005506607929515419
     },
     {
       "id": "probankrotstvoru/9769",
@@ -94,7 +94,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 890,
+      "viewCount": 909,
       "tgLink": "https://t.me/probankrotstvoru/9769",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -108,17 +108,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 22.32,
+      "priorityScore": 21.87,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 890 просмотров"
+        "Охват в Telegram Web: 909 просмотров"
       ],
       "digestSummary": "Апрель в Академии VetaСмотрите подборку самых интересных и полезных материалов от Академии Veta (при стратегическом партнерстве с PROбанкротвство) за последний месяц. Рассказали много полезного для тех, кто имеет дело с ",
       "reactionCount": 4,
-      "engagementRate": 0.0044943820224719105
+      "engagementRate": 0.0044004400440044
     },
     {
       "id": "insolvencylaw/620",
@@ -156,7 +156,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 468,
+      "viewCount": 476,
       "tgLink": "https://t.me/insolvencylaw/620",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -169,17 +169,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 19.97,
+      "priorityScore": 19.51,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Налоги",
-        "Охват в Telegram Web: 468 просмотров"
+        "Охват в Telegram Web: 476 просмотров"
       ],
       "digestSummary": "Намерение пополнить казну как квалифицирующий признак основания прекращения права собственности или уроки историиПринудительные основания для прекращения права собственности отражены в ст. 235 ГК РФ. Среди тех, что на сл",
       "reactionCount": 4,
-      "engagementRate": 0.008547008547008548
+      "engagementRate": 0.008403361344537815
     },
     {
       "id": "disputesandsanctions/2481",
@@ -207,7 +207,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 696,
+      "viewCount": 704,
       "tgLink": "https://t.me/disputesandsanctions/2481",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -220,18 +220,18 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 19.94,
+      "priorityScore": 19.48,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Налоги",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 696 просмотров",
+        "Охват в Telegram Web: 704 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "9 мая - Китай - Арбитраж В связи с праздником 9 мая, уместно также вспомнить про победу над Японией и освобождение Китая.Результатом же послевоенного сотрудничества между СССР и Китаем стало принятие правил Внешнеторгово",
       "reactionCount": 9,
-      "engagementRate": 0.01293103448275862
+      "engagementRate": 0.01278409090909091
     },
     {
       "id": "sudpraktik/3522",
@@ -258,7 +258,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2280,
+      "viewCount": 2320,
       "tgLink": "https://t.me/sudpraktik/3522",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -270,17 +270,17 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 19.33,
+      "priorityScore": 18.89,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 2280 просмотров"
+        "Охват в Telegram Web: 2320 просмотров"
       ],
       "digestSummary": "Уважаемые подписчики!Проект «Судебная практика» в Telegram работает с 2020 года и сейчас представлен каналами:Судебная практикаСудебная практика по банкротствуСудебная практика IP ITТрудовые спорыВсе эти годы наша команд",
       "reactionCount": 7,
-      "engagementRate": 0.0030701754385964912
+      "engagementRate": 0.003017241379310345
     },
     {
       "id": "sudpraktik_bankrot_demo/2646",
@@ -306,7 +306,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 941,
+      "viewCount": 960,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2646",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -317,79 +317,39 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 18.07,
+      "priorityScore": 17.63,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 941 просмотров"
+        "Охват в Telegram Web: 960 просмотров"
       ],
       "digestSummary": "Уважаемые подписчики!Проект «Судебная практика» в Telegram работает с 2020 года и сейчас представлен каналами:Судебная практикаСудебная практика по банкротствуСудебная практика IP ITТрудовые спорыВсе эти годы наша команд",
       "reactionCount": 3,
-      "engagementRate": 0.003188097768331562
-    },
-    {
-      "id": "vZone1413/8937",
-      "title": "Суд - Признать незаконным бездействие судебного пристава- исполнителя выразившееся в непринятии всех необходимых мер, направленных на взыскание с должника в пользу АУ 609 т.р.Барнаул А03-14327/2025 27.02.26г.",
-      "type": "text",
-      "datetime": "2026-05-10T02:37:43+00:00",
-      "tags": [
-        "bankruptcy",
-        "arbitration",
-        "ai_law",
-        "courts",
-        "enforcement"
-      ],
-      "text": "Суд - Признать незаконным бездействие судебного пристава- исполнителя выразившееся в непринятии всех необходимых мер, направленных на взыскание с должника в пользу АУ 609 т.р.Барнаул А03-14327/2025 27.02.26г.",
-      "content": "<p>Суд - Признать незаконным бездействие судебного пристава- исполнителя выразившееся в непринятии всех необходимых мер, направленных на взыскание с должника в пользу АУ 609 т.р.<br>Барнаул <a href=\"https://kad.arbitr.ru/Card/09c83dc9-fa72-44f6-9830-ece617ee9ca4\" target=\"_blank\" rel=\"noopener\" title=\"А03-14327/2025\">А03-14327/2025</a> 27.02.26г.</p>",
-      "reactions": [],
-      "viewCount": 587,
-      "tgLink": "https://t.me/vZone1413/8937",
-      "channel": "vZone1413",
-      "channelTitle": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
-      "category": "bankruptcy",
-      "group": "practical_law",
-      "legalTopics": [
-        "bankruptcy",
-        "arbitration",
-        "ai_law",
-        "courts",
-        "enforcement"
-      ],
-      "priorityScore": 15.44,
-      "priorityReasons": [
-        "Категория канала: bankruptcy",
-        "Совпадение по теме: AI+Law",
-        "Совпадение по теме: Суды",
-        "Совпадение по теме: Исполнение",
-        "Охват в Telegram Web: 587 просмотров"
-      ],
-      "digestSummary": "Суд - Признать незаконным бездействие судебного пристава- исполнителя выразившееся в непринятии всех необходимых мер, направленных на взыскание с должника в пользу АУ 609 т.р.Барнаул А03-14327/2025 27.02.26г.",
-      "reactionCount": 0,
-      "engagementRate": 0
+      "engagementRate": 0.003125
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 7
+      "count": 6
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 7
+      "count": 6
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 6
+      "count": 5
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 6
+      "count": 5
     },
     {
       "id": "tax",
@@ -399,7 +359,7 @@
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 3
+      "count": 2
     },
     {
       "id": "compliance",
@@ -431,11 +391,6 @@
     {
       "channel": "sudpraktik_bankrot_demo",
       "title": "Судебная практика по банкротству",
-      "count": 1
-    },
-    {
-      "channel": "vZone1413",
-      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
       "count": 1
     }
   ]

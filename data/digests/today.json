@@ -1,8 +1,8 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-05-12T01:27:37.596Z",
-  "totalPosts": 12,
+  "generatedAt": "2026-05-12T05:00:40.617Z",
+  "totalPosts": 14,
   "topPosts": [
     {
       "id": "insolvencylaw/622",
@@ -36,7 +36,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 349,
+      "viewCount": 361,
       "tgLink": "https://t.me/insolvencylaw/622",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -50,19 +50,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.69,
+      "priorityScore": 35.26,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 349 просмотров",
-        "Сильная отдача аудитории: 4,0% реакций к просмотрам"
+        "Охват в Telegram Web: 361 просмотров",
+        "Сильная отдача аудитории: 3,9% реакций к просмотрам"
       ],
       "digestSummary": "Иск из владения цифровым активом: статьяВ издательстве «Статут» вышел сборник статей, посвященный юбилею проф. В.В. Витрянского «Проблемы развития гражданского законодательства и практики его применения».В сборнике вышла",
       "reactionCount": 14,
-      "engagementRate": 0.04011461318051576
+      "engagementRate": 0.038781163434903045
     },
     {
       "id": "subsidiarka_kdl/4549",
@@ -103,7 +103,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 786,
+      "viewCount": 814,
       "tgLink": "https://t.me/subsidiarka_kdl/4549",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -116,17 +116,17 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 31.1,
+      "priorityScore": 30.62,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 786 просмотров"
+        "Охват в Telegram Web: 814 просмотров"
       ],
       "digestSummary": "Подача заявления о намерении погасить требования кредиторов после возбуждения спора о субсидиарной ответственности презюмирует причинно-следственную связь с действиями управляющего#банкротство#субсидиарная_ответственност",
       "reactionCount": 7,
-      "engagementRate": 0.008905852417302799
+      "engagementRate": 0.0085995085995086
     },
     {
       "id": "corplawpro/5978",
@@ -165,7 +165,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 549,
+      "viewCount": 581,
       "tgLink": "https://t.me/corplawpro/5978",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -179,17 +179,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 29.42,
+      "priorityScore": 28.92,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 549 просмотров"
+        "Охват в Telegram Web: 581 просмотров"
       ],
       "digestSummary": "Четыре способа сделать опционную программу в РоссииРоссийское право предлагает четыре конструкции опционных программ. Выбор между ними определяет налоговую нагрузку, корпоративные риски и судьбу программы в целом.1. Фант",
       "reactionCount": 5,
-      "engagementRate": 0.009107468123861567
+      "engagementRate": 0.008605851979345954
     },
     {
       "id": "corplawpro/5977",
@@ -220,7 +220,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 703,
+      "viewCount": 728,
       "tgLink": "https://t.me/corplawpro/5977",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -234,17 +234,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.87,
+      "priorityScore": 28.41,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 703 просмотров"
+        "Охват в Telegram Web: 728 просмотров"
       ],
       "digestSummary": "Продавец доли отвечает за недостоверные заверения о финансовом состоянии общества независимо от своей осведомлённости о нарушениях#корпоративные_споры#заверения_об_обстоятельствахКовалев В.В. обратился с иском к Бессонов",
       "reactionCount": 3,
-      "engagementRate": 0.004267425320056899
+      "engagementRate": 0.004120879120879121
     },
     {
       "id": "sudpraktik_bankrot_demo/2647",
@@ -269,7 +269,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 731,
+      "viewCount": 769,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2647",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -282,17 +282,64 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28.25,
+      "priorityScore": 27.82,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 731 просмотров"
+        "Охват в Telegram Web: 769 просмотров"
       ],
       "digestSummary": "При рассмотрении вопроса о снижении размера вознаграждения арбитражного управляющего суду следует учитывать, в частности, имелись ли случаи признания судом незаконными действий этого управляющего, или необоснованными пон",
       "reactionCount": 1,
-      "engagementRate": 0.0013679890560875513
+      "engagementRate": 0.0013003901170351106
+    },
+    {
+      "id": "shapovalovagroup/1285",
+      "title": "Вебинар по новому тематическому обзору практики ВС РФ по банкротству от 29.04.2026Уже завтра ,13 мая  в 11:00 по МосквеРазберем и обсудим вместе с вами новый обзор практики ВС РФ, ответим на все ваши вопросы. В обзоре раскрыты вопросы, связанные с очередностью удовлетворения обязательных платежей, оспариванием сделок, также в обзоре есть блок вопросов,связанный с взысканием убытков с арбитражных управляющих. Спикеры: Герб Александр Викторович, арбитражный управляющий, член СОАУ «Меркурий», с 2011 года провел более 300 процедур банкротства ЮЛ и физ лиц,спикер всероссийских конференций по банкротству Шунайлова Екатерина Николаевна, юрист по защите арбитражных управляющих, преподаватель в рамках единой программы подготовки АУ, спикер всероссийских конференций по банкротству Участие бесплатное, регистрация по ссылкеПриглашаем к участию арбитражных управляющих,юристов и всех неравнодушных к банкротству)Вопросы пишите в комментариях , либо в личные сообщения @shapovalovagroup_work",
+      "type": "text",
+      "datetime": "2026-05-12T04:18:00+00:00",
+      "tags": [
+        "arbitration",
+        "courts",
+        "compliance",
+        "bankruptcy",
+        "enforcement"
+      ],
+      "text": "Вебинар по новому тематическому обзору практики ВС РФ по банкротству от 29.04.2026Уже завтра ,13 мая  в 11:00 по МосквеРазберем и обсудим вместе с вами новый обзор практики ВС РФ, ответим на все ваши вопросы. В обзоре раскрыты вопросы, связанные с очередностью удовлетворения обязательных платежей, оспариванием сделок, также в обзоре есть блок вопросов,связанный с взысканием убытков с арбитражных управляющих. Спикеры: Герб Александр Викторович, арбитражный управляющий, член СОАУ «Меркурий», с 2011 года провел более 300 процедур банкротства ЮЛ и физ лиц,спикер всероссийских конференций по банкротству Шунайлова Екатерина Николаевна, юрист по защите арбитражных управляющих, преподаватель в рамках единой программы подготовки АУ, спикер всероссийских конференций по банкротству Участие бесплатное, регистрация по ссылкеПриглашаем к участию арбитражных управляющих,юристов и всех неравнодушных к банкротству)Вопросы пишите в комментариях , либо в личные сообщения @shapovalovagroup_work",
+      "content": "<p><b>Вебинар по новому тематическому обзору практики ВС РФ по банкротству от 29.04.2026</b></p><p>Уже<b> </b>завтра ,13 мая  в 11:00 по Москве</p><p>Разберем и обсудим вместе с вами новый обзор практики ВС РФ, ответим на все ваши вопросы. </p><p>В обзоре раскрыты вопросы, связанные с очередностью удовлетворения обязательных платежей, оспариванием сделок, также в обзоре есть блок вопросов,связанный с взысканием убытков с арбитражных управляющих. </p><p>Спикеры: <a href=\"https://t.me/gerb_arbitr\" target=\"_blank\" rel=\"noopener\" title=\"Герб Александр Викторович\">Герб Александр Викторович</a>, арбитражный управляющий, член СОАУ «Меркурий», с 2011 года провел более 300 процедур банкротства ЮЛ и физ лиц,спикер всероссийских конференций по банкротству </p><p><a href=\"https://t.me/shapovalovagroup\" target=\"_blank\" rel=\"noopener\" title=\"Шунайлова Екатерина Николаевна\">Шунайлова Екатерина Николаевна</a>, юрист по защите арбитражных управляющих, преподаватель в рамках единой программы подготовки АУ, спикер всероссийских конференций по банкротству </p><p>Участие бесплатное, регистрация по <a href=\"https://forms.yandex.ru/u/69faf519eb61462504c767e2\" target=\"_blank\" rel=\"noopener\" title=\"ссылке\">ссылке</a></p><p>Приглашаем к участию арбитражных управляющих,юристов и всех неравнодушных к банкротству)</p><p>Вопросы пишите в комментариях , либо в личные сообщения <a href=\"https://t.me/shapovalovagroup_work\" target=\"_blank\" title=\"@shapovalovagroup_work\">@shapovalovagroup_work</a></p>",
+      "reactions": [
+        {
+          "emoji": "❤️",
+          "count": "1",
+          "isPaid": false
+        }
+      ],
+      "viewCount": 86,
+      "tgLink": "https://t.me/shapovalovagroup/1285",
+      "channel": "shapovalovagroup",
+      "channelTitle": "Защита арбитражных управляющих",
+      "category": "arbitration",
+      "group": "practical_law",
+      "legalTopics": [
+        "arbitration",
+        "courts",
+        "compliance",
+        "bankruptcy",
+        "enforcement"
+      ],
+      "priorityScore": 26.76,
+      "priorityReasons": [
+        "Категория канала: arbitration",
+        "Совпадение по теме: Банкротство",
+        "Совпадение по теме: Арбитраж",
+        "Совпадение по теме: Суды",
+        "Охват в Telegram Web: 86 просмотров",
+        "Сильная отдача аудитории: 1,2% реакций к просмотрам"
+      ],
+      "digestSummary": "Вебинар по новому тематическому обзору практики ВС РФ по банкротству от 29.04.2026Уже завтра ,13 мая в 11:00 по МосквеРазберем и обсудим вместе с вами новый обзор практики ВС РФ, ответим на все ваши вопросы. В обзоре рас",
+      "reactionCount": 1,
+      "engagementRate": 0.011627906976744186
     },
     {
       "id": "sudpraktik/3523",
@@ -316,7 +363,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1830,
+      "viewCount": 1900,
       "tgLink": "https://t.me/sudpraktik/3523",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -329,17 +376,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 24.11,
+      "priorityScore": 23.67,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 1830 просмотров"
+        "Охват в Telegram Web: 1900 просмотров"
       ],
       "digestSummary": "Общий критерий отнесения потребителей электрической энергии к категории «Население»заключается в использовании этой энергии на коммунально-бытовые нужды Суть требования: о взыскании долга по оплате электроэнергии. Решени",
       "reactionCount": 2,
-      "engagementRate": 0.001092896174863388
+      "engagementRate": 0.0010526315789473684
     },
     {
       "id": "legally_bald/1201",
@@ -371,7 +418,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 452,
+      "viewCount": 469,
       "tgLink": "https://t.me/legally_bald/1201",
       "channel": "legally_bald",
       "channelTitle": "Legally_bald (Даниил Савченко)",
@@ -383,19 +430,19 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 22.73,
+      "priorityScore": 22.3,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 452 просмотров",
-        "Сильная отдача аудитории: 2,4% реакций к просмотрам"
+        "Охват в Telegram Web: 469 просмотров",
+        "Сильная отдача аудитории: 2,3% реакций к просмотрам"
       ],
       "digestSummary": "Уже вторая передача в экономколлегию, посвященная обсуждению допустимости освобождения виновника ДТП, причинившего ущерб имуществу в отсутствии полиса страхования, от долговhttps://mkad.arbitr.ru/Document/Pdf/ca0a39e0-0f",
       "reactionCount": 11,
-      "engagementRate": 0.024336283185840708
+      "engagementRate": 0.023454157782515993
     },
     {
       "id": "disputesandsanctions/2489",
@@ -418,7 +465,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 162,
+      "viewCount": 170,
       "tgLink": "https://t.me/disputesandsanctions/2489",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -431,18 +478,18 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 21.55,
+      "priorityScore": 21.12,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Исполнение",
-        "Охват в Telegram Web: 162 просмотров",
-        "Сильная отдача аудитории: 2,5% реакций к просмотрам"
+        "Охват в Telegram Web: 170 просмотров",
+        "Сильная отдача аудитории: 2,4% реакций к просмотрам"
       ],
       "digestSummary": "МКАС - Сербия - Признание и исполнение Размещаю решение Верховного суда Сербии по вопросу о признании решения МКАС при ТПП РФ от 15.01.2026Как это можно отметить, значимых аргументов против признания МКАС при ТПП РФ заяв",
       "reactionCount": 4,
-      "engagementRate": 0.024691358024691357
+      "engagementRate": 0.023529411764705882
     },
     {
       "id": "Compliance_Practice/3071",
@@ -464,11 +511,11 @@
       "reactions": [
         {
           "emoji": "❤️",
-          "count": "4",
+          "count": "5",
           "isPaid": false
         }
       ],
-      "viewCount": 1400,
+      "viewCount": 1490,
       "tgLink": "https://t.me/Compliance_Practice/3071",
       "channel": "Compliance_Practice",
       "channelTitle": "Compliance practice",
@@ -481,17 +528,17 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 20.76,
+      "priorityScore": 20.51,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Комплаенс",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 1400 просмотров"
+        "Охват в Telegram Web: 1490 просмотров"
       ],
       "digestSummary": "Великобритания 🇬🇧 внесли в санкционный список еще около 80 физических и юридических лиц РФ Под британскими санкциями находится Институт развития интернета, гендиректор АНО «Диалог» Владимир Табак и руководитель отдела ",
-      "reactionCount": 4,
-      "engagementRate": 0.002857142857142857
+      "reactionCount": 5,
+      "engagementRate": 0.003355704697986577
     },
     {
       "id": "sudpraktik/3524",
@@ -513,7 +560,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1530,
+      "viewCount": 1630,
       "tgLink": "https://t.me/sudpraktik/3524",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -525,16 +572,16 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 17.36,
+      "priorityScore": 16.93,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 1530 просмотров"
+        "Охват в Telegram Web: 1630 просмотров"
       ],
       "digestSummary": "​Друзья! Представляем вашему вниманию ТОП-3 канала по охране труда:🛡️ ОХРАНА ТРУДА - самый крупный канал рунета о безопасности труда - особенности расследования несчастных случаев, обучение по охране труда и кейсы для н",
       "reactionCount": 2,
-      "engagementRate": 0.00130718954248366
+      "engagementRate": 0.001226993865030675
     },
     {
       "id": "insolvencylaw/623",
@@ -565,7 +612,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 292,
+      "viewCount": 310,
       "tgLink": "https://t.me/insolvencylaw/623",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -576,55 +623,29 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 15.45,
+      "priorityScore": 15.02,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 292 просмотров",
-        "Сильная отдача аудитории: 3,8% реакций к просмотрам"
+        "Охват в Telegram Web: 310 просмотров",
+        "Сильная отдача аудитории: 3,5% реакций к просмотрам"
       ],
       "digestSummary": "В защиту предпринимателя в любые (даже сложные) времена или о системе общественных интересов, подлежащих защитеИ купечество в ничтожность повергать не надобно, понеже без купечества никакое не только великое, но и малое ",
       "reactionCount": 11,
-      "engagementRate": 0.03767123287671233
-    },
-    {
-      "id": "insolvencylaw/621",
-      "title": "",
-      "type": "text",
-      "datetime": "2026-05-11T07:28:33+00:00",
-      "tags": [
-        "bankruptcy",
-        "courts"
-      ],
-      "text": "",
-      "content": "<div class=\"image-list-container image-list-odd\">\n      <button type=\"button\" class=\"image-preview-button image-preview-wrap\" popovertarget=\"modal-621-0\" popovertargetaction=\"show\" aria-label=\"Open image preview\">\n        <img src=\"/legal-telegram-digest/media/a606d87fdcc5ca7b4c022b7c088377ef.jpg\" alt=\"Image from post\" width=\"500\" height=\"667\" loading=\"lazy\" />\n      </button>\n      <div class=\"modal\" id=\"modal-621-0\" popover aria-label=\"Image preview\">\n        <button type=\"button\" class=\"modal__backdrop\" popovertarget=\"modal-621-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\"></button>\n        <button type=\"button\" class=\"modal__close\" popovertarget=\"modal-621-0\" popovertargetaction=\"hide\" aria-label=\"Close image preview\">&times;</button>\n        <div class=\"modal__surface\">\n          <img class=\"modal-img\" src=\"/legal-telegram-digest/media/a606d87fdcc5ca7b4c022b7c088377ef.jpg\" alt=\"Image from post\" width=\"500\" height=\"667\" loading=\"lazy\" />\n        </div>\n      </div>\n    </div>",
-      "reactions": [],
-      "viewCount": 324,
-      "tgLink": "https://t.me/insolvencylaw/621",
-      "channel": "insolvencylaw",
-      "channelTitle": "Частное право от Евгения Суворова",
-      "category": "bankruptcy",
-      "group": "practical_law",
-      "legalTopics": [
-        "bankruptcy",
-        "courts"
-      ],
-      "priorityScore": 7.41,
-      "priorityReasons": [
-        "Категория канала: bankruptcy",
-        "Охват в Telegram Web: 324 просмотров"
-      ],
-      "digestSummary": "",
-      "reactionCount": 0,
-      "engagementRate": 0
+      "engagementRate": 0.035483870967741936
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 12
+      "count": 14
+    },
+    {
+      "id": "arbitration",
+      "label": "Арбитраж",
+      "count": 11
     },
     {
       "id": "ai_law",
@@ -634,22 +655,17 @@
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 9
-    },
-    {
-      "id": "arbitration",
-      "label": "Арбитраж",
-      "count": 9
+      "count": 10
     },
     {
       "id": "enforcement",
       "label": "Исполнение",
-      "count": 7
+      "count": 8
     },
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 4
+      "count": 6
     },
     {
       "id": "tax",
@@ -662,6 +678,11 @@
       "channel": "insolvencylaw",
       "title": "Частное право от Евгения Суворова",
       "count": 3
+    },
+    {
+      "channel": "shapovalovagroup",
+      "title": "Защита арбитражных управляющих",
+      "count": 2
     },
     {
       "channel": "sudpraktik",
@@ -691,11 +712,6 @@
     {
       "channel": "sudpraktik_bankrot_demo",
       "title": "Судебная практика по банкротству",
-      "count": 1
-    },
-    {
-      "channel": "subsidiarka_kdl",
-      "title": "Субсидиарная ответственность • Case by Case",
       "count": 1
     }
   ]
