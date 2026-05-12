@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-12T21:00:20.472Z",
+  "generatedAt": "2026-05-12T22:11:15.658Z",
   "totalPosts": 236,
   "topPosts": [
     {
@@ -167,7 +167,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 855,
+      "viewCount": 859,
       "tgLink": "https://t.me/subsidiarka_kdl/4550",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -181,17 +181,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 34.74,
+      "priorityScore": 34.58,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 855 просмотров"
+        "Охват в Telegram Web: 859 просмотров"
       ],
       "digestSummary": "Непередача документов новым руководителем, не получившим их от умершего предшественника, не образует презумпцию субсидиарной ответственности без оценки возражений ответчика#субсидиарная_ответственность #документация_долж",
       "reactionCount": 7,
-      "engagementRate": 0.008187134502923977
+      "engagementRate": 0.008149010477299184
     },
     {
       "id": "probankrotstvoru/9774",
@@ -224,7 +224,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1000,
+      "viewCount": 1010,
       "tgLink": "https://t.me/probankrotstvoru/9774",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -237,19 +237,19 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 34.51,
+      "priorityScore": 34.36,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 20 реакций",
-        "Охват в Telegram Web: 1000 просмотров",
+        "Охват в Telegram Web: 1010 просмотров",
         "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "О рассмотрении дела в одном судебном заседанииСуды апелляционной и кассационной инстанций при отмене судебных актов первой инстанции иногда указывают в качестве недостатка в работе суда то, что дело было рассмотрено в од",
       "reactionCount": 20,
-      "engagementRate": 0.02
+      "engagementRate": 0.019801980198019802
     },
     {
       "id": "probankrotstvoru/9777",
@@ -282,7 +282,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1010,
+      "viewCount": 1040,
       "tgLink": "https://t.me/probankrotstvoru/9777",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -295,19 +295,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 34.45,
+      "priorityScore": 34.31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 20 реакций",
-        "Охват в Telegram Web: 1010 просмотров",
-        "Сильная отдача аудитории: 2,0% реакций к просмотрам"
+        "Охват в Telegram Web: 1040 просмотров",
+        "Сильная отдача аудитории: 1,9% реакций к просмотрам"
       ],
       "digestSummary": "ВС защитил право миноритариев на ликвидационную квоту платежеспособного банкаЯрославский «Кредпромбанк» лишился лицензии в ноябре 2019 года, однако признаков банкротства у него не выявили и банк ликвидировали как платеже",
       "reactionCount": 20,
-      "engagementRate": 0.019801980198019802
+      "engagementRate": 0.019230769230769232
     },
     {
       "id": "probankrotstvoru/9776",
@@ -350,7 +350,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 925,
+      "viewCount": 940,
       "tgLink": "https://t.me/probankrotstvoru/9776",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -363,19 +363,19 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 34.35,
+      "priorityScore": 34.21,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 26 реакций",
-        "Охват в Telegram Web: 925 просмотров",
+        "Охват в Telegram Web: 940 просмотров",
         "Сильная отдача аудитории: 2,8% реакций к просмотрам"
       ],
       "digestSummary": "Росреестр назвал три причины признания сделок с жильем недействительнымиТри основные причины, по которым сделка с недвижимостью может быть оспорена: Занижение стоимости в договореПродавец просит указать в договоре цену н",
       "reactionCount": 26,
-      "engagementRate": 0.02810810810810811
+      "engagementRate": 0.027659574468085105
     },
     {
       "id": "probankrotstvoru/9775",
@@ -413,7 +413,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1000,
+      "viewCount": 1020,
       "tgLink": "https://t.me/probankrotstvoru/9775",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -426,19 +426,19 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 33.75,
+      "priorityScore": 33.58,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 1000 просмотров",
+        "Охват в Telegram Web: 1020 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Кассация защитила субординированного кредитора от произвольного отказа в субсидиаркеОбщество «Розница 2» занималось розничной торговлей одеждой в Барнауле. Единственным участником компании являлся Александр Канаков, а ди",
       "reactionCount": 13,
-      "engagementRate": 0.013
+      "engagementRate": 0.012745098039215686
     },
     {
       "id": "insolvencylaw/622",
@@ -486,7 +486,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.53,
+      "priorityScore": 33.38,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -659,7 +659,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1050,
+      "viewCount": 1060,
       "tgLink": "https://t.me/probankrotstvoru/9773",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -672,19 +672,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.88,
+      "priorityScore": 32.72,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 14 реакций",
-        "Охват в Telegram Web: 1050 просмотров",
+        "Охват в Telegram Web: 1060 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "ВС напомнил, как считать давность после отмены судебного приказаВ декабре 2013 года Олеся Полякова заключила кредитный договор с обществом «Сбербанк России» на 60 месяцев. Последний платеж она внесла в ноябре 2015 года. ",
       "reactionCount": 14,
-      "engagementRate": 0.013333333333333334
+      "engagementRate": 0.013207547169811321
     },
     {
       "id": "subsidiarka_kdl/4552",
@@ -728,7 +728,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 595,
+      "viewCount": 608,
       "tgLink": "https://t.me/subsidiarka_kdl/4552",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -742,18 +742,17 @@
         "arbitration",
         "compliance"
       ],
-      "priorityScore": 32.09,
+      "priorityScore": 31.92,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 595 просмотров",
-        "Сильная отдача аудитории: 1,0% реакций к просмотрам"
+        "Охват в Telegram Web: 608 просмотров"
       ],
       "digestSummary": "Кассация защитила субординированного кредитора от произвольного отказа в субсидиаркеАС Западно-Сибирского округа указал, что субординация требования кредитора не лишает его права привлечь контролирующих лиц к ответственн",
       "reactionCount": 6,
-      "engagementRate": 0.010084033613445379
+      "engagementRate": 0.009868421052631578
     }
   ],
   "topTopics": [
