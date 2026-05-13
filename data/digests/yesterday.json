@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-13T22:40:19.808Z",
+  "generatedAt": "2026-05-13T23:45:38.873Z",
   "totalPosts": 49,
   "topPosts": [
     {
@@ -62,7 +62,7 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 31.83,
+      "priorityScore": 31.7,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -118,7 +118,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 31.47,
+      "priorityScore": 31.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -186,7 +186,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 31.36,
+      "priorityScore": 31.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -244,7 +244,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.01,
+      "priorityScore": 30.88,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -312,7 +312,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 30.82,
+      "priorityScore": 30.68,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -375,7 +375,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 29.8,
+      "priorityScore": 29.67,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -450,7 +450,7 @@
         "arbitration",
         "compliance"
       ],
-      "priorityScore": 28.96,
+      "priorityScore": 28.82,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -512,7 +512,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 27.89,
+      "priorityScore": 27.76,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -587,7 +587,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 27.26,
+      "priorityScore": 27.13,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
@@ -622,7 +622,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2520,
+      "viewCount": 2530,
       "tgLink": "https://t.me/sudpraktik/3526",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -635,17 +635,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.22,
+      "priorityScore": 27.09,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 2520 просмотров"
+        "Охват в Telegram Web: 2530 просмотров"
       ],
       "digestSummary": "Сложившейся судебной практикой выработан подход, согласно которому к возражениям аффилированных с должником лиц, предъявляется повышенный стандарт доказывания («за пределами разумных сомнений»), что обусловлено вероятнос",
       "reactionCount": 4,
-      "engagementRate": 0.0015873015873015873
+      "engagementRate": 0.0015810276679841897
     },
     {
       "id": "vs_court/4954",
@@ -677,7 +677,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 26.98,
+      "priorityScore": 26.85,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -725,7 +725,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 25.89,
+      "priorityScore": 25.76,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
