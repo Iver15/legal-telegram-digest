@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-12T23:20:46.038Z",
+  "generatedAt": "2026-05-13T01:25:53.485Z",
   "totalPosts": 12,
   "topPosts": [
     {
@@ -50,7 +50,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.24,
+      "priorityScore": 32.98,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -116,7 +116,7 @@
         "ai_law",
         "arbitration"
       ],
-      "priorityScore": 28.11,
+      "priorityScore": 27.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -165,7 +165,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 920,
+      "viewCount": 922,
       "tgLink": "https://t.me/corplawpro/5978",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -179,17 +179,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 26.32,
+      "priorityScore": 26.06,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 920 просмотров"
+        "Охват в Telegram Web: 922 просмотров"
       ],
       "digestSummary": "Четыре способа сделать опционную программу в РоссииРоссийское право предлагает четыре конструкции опционных программ. Выбор между ними определяет налоговую нагрузку, корпоративные риски и судьбу программы в целом.1. Фант",
       "reactionCount": 5,
-      "engagementRate": 0.005434782608695652
+      "engagementRate": 0.005422993492407809
     },
     {
       "id": "corplawpro/5977",
@@ -220,7 +220,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 961,
+      "viewCount": 962,
       "tgLink": "https://t.me/corplawpro/5977",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -234,17 +234,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 26.06,
+      "priorityScore": 25.8,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 961 просмотров"
+        "Охват в Telegram Web: 962 просмотров"
       ],
       "digestSummary": "Продавец доли отвечает за недостоверные заверения о финансовом состоянии общества независимо от своей осведомлённости о нарушениях#корпоративные_споры#заверения_об_обстоятельствахКовалев В.В. обратился с иском к Бессонов",
       "reactionCount": 3,
-      "engagementRate": 0.003121748178980229
+      "engagementRate": 0.0031185031185031187
     },
     {
       "id": "sudpraktik_bankrot_demo/2647",
@@ -282,7 +282,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 25.58,
+      "priorityScore": 25.32,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -329,7 +329,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 21.42,
+      "priorityScore": 21.16,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
@@ -383,7 +383,7 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 20.09,
+      "priorityScore": 19.83,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Банкротство",
@@ -423,7 +423,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 805,
+      "viewCount": 810,
       "tgLink": "https://t.me/disputesandsanctions/2489",
       "channel": "disputesandsanctions",
       "channelTitle": "LetterRogatory v.2",
@@ -436,17 +436,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 18.54,
+      "priorityScore": 18.27,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Исполнение",
-        "Охват в Telegram Web: 805 просмотров"
+        "Охват в Telegram Web: 810 просмотров"
       ],
       "digestSummary": "МКАС - Сербия - Признание и исполнение Размещаю решение Верховного суда Сербии по вопросу о признании решения МКАС при ТПП РФ от 15.01.2026Как это можно отметить, значимых аргументов против признания МКАС при ТПП РФ заяв",
       "reactionCount": 6,
-      "engagementRate": 0.007453416149068323
+      "engagementRate": 0.007407407407407408
     },
     {
       "id": "Compliance_Practice/3071",
@@ -490,7 +490,7 @@
         "ai_law",
         "courts"
       ],
-      "priorityScore": 18.35,
+      "priorityScore": 18.09,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -522,7 +522,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2320,
+      "viewCount": 2330,
       "tgLink": "https://t.me/sudpraktik/3524",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -534,16 +534,16 @@
         "bankruptcy",
         "ai_law"
       ],
-      "priorityScore": 14.85,
+      "priorityScore": 14.59,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 2320 просмотров"
+        "Охват в Telegram Web: 2330 просмотров"
       ],
       "digestSummary": "​Друзья! Представляем вашему вниманию ТОП-3 канала по охране труда:🛡️ ОХРАНА ТРУДА - самый крупный канал рунета о безопасности труда - особенности расследования несчастных случаев, обучение по охране труда и кейсы для н",
       "reactionCount": 3,
-      "engagementRate": 0.001293103448275862
+      "engagementRate": 0.0012875536480686696
     },
     {
       "id": "insolvencylaw/623",
@@ -585,7 +585,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 13.16,
+      "priorityScore": 12.9,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -619,7 +619,7 @@
         "bankruptcy",
         "courts"
       ],
-      "priorityScore": 4.75,
+      "priorityScore": 4.49,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Охват в Telegram Web: 409 просмотров"
