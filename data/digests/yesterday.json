@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-14T21:53:30.672Z",
+  "generatedAt": "2026-05-14T22:52:33.956Z",
   "totalPosts": 44,
   "topPosts": [
     {
@@ -66,7 +66,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 29.03,
+      "priorityScore": 28.91,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
@@ -147,7 +147,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 29.01,
+      "priorityScore": 28.88,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -210,7 +210,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.08,
+      "priorityScore": 27.95,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -255,7 +255,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 904,
+      "viewCount": 905,
       "tgLink": "https://t.me/subsidiarka_kdl/4557",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -269,17 +269,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 27.37,
+      "priorityScore": 27.24,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 904 просмотров"
+        "Охват в Telegram Web: 905 просмотров"
       ],
       "digestSummary": "Опционы и программы мотивации для сотрудников в российских компанияхСостоялась дискуссия о юридических аспектах опционных программ и инструментах долгосрочной мотивации — разобрали терминологию, четыре модели структуриро",
       "reactionCount": 4,
-      "engagementRate": 0.004424778761061947
+      "engagementRate": 0.004419889502762431
     },
     {
       "id": "probankrotstvoru/9780",
@@ -323,7 +323,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.35,
+      "priorityScore": 27.23,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -381,7 +381,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.17,
+      "priorityScore": 27.05,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -427,7 +427,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 815,
+      "viewCount": 816,
       "tgLink": "https://t.me/corplawpro/5985",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -441,17 +441,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 26.99,
+      "priorityScore": 26.87,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 815 просмотров"
+        "Охват в Telegram Web: 816 просмотров"
       ],
       "digestSummary": "Опционы и программы мотивации для сотрудников в российских компанияхСостоялась дискуссия о юридических аспектах опционных программ и инструментах долгосрочной мотивации — разобрали терминологию, четыре модели структуриро",
       "reactionCount": 4,
-      "engagementRate": 0.0049079754601227
+      "engagementRate": 0.004901960784313725
     },
     {
       "id": "corplawpro/5984",
@@ -500,7 +500,7 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 26.73,
+      "priorityScore": 26.61,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
@@ -569,7 +569,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.29,
+      "priorityScore": 26.17,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -624,7 +624,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 25.86,
+      "priorityScore": 25.73,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -680,7 +680,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.02,
+      "priorityScore": 24.9,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -724,7 +724,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 224,
+      "viewCount": 225,
       "tgLink": "https://t.me/tgnspau/1331",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -737,18 +737,18 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 24.1,
+      "priorityScore": 23.97,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 224 просмотров",
+        "Охват в Telegram Web: 225 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "НСПАУ примет участие в XIII Московском инновационном юридическом форуме 14–15 мая в Москве пройдет XIII Московский инновационный юридический форум – одна из значимых профессиональных площадок для обсуждения современных п",
       "reactionCount": 3,
-      "engagementRate": 0.013392857142857142
+      "engagementRate": 0.013333333333333334
     }
   ],
   "topTopics": [
