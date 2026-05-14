@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-14T17:13:01.425Z",
+  "generatedAt": "2026-05-14T19:10:06.371Z",
   "totalPosts": 43,
   "topPosts": [
     {
@@ -20,7 +20,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "117",
+          "count": "118",
           "isPaid": false
         },
         {
@@ -47,9 +47,14 @@
           "emoji": "❤‍🔥",
           "count": "3",
           "isPaid": false
+        },
+        {
+          "emoji": "🤔",
+          "count": "1",
+          "isPaid": false
         }
       ],
-      "viewCount": 11000,
+      "viewCount": 11200,
       "tgLink": "https://t.me/sovetsudey/933",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -61,19 +66,19 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 29.61,
+      "priorityScore": 29.36,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 155 реакций",
-        "Охват в Telegram Web: 11000 просмотров",
+        "Высокая вовлечённость: 157 реакций",
+        "Охват в Telegram Web: 11200 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд рассмотрел жалобу бывшего председателя Советского районного суда города Иваново на решение региональной квалификационной коллегии, которая привлекла его к дисциплинарной ответственности и применила исключит",
-      "reactionCount": 155,
-      "engagementRate": 0.014090909090909091
+      "reactionCount": 157,
+      "engagementRate": 0.014017857142857143
     },
     {
       "id": "sotbi_law/186",
@@ -142,7 +147,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 29.59,
+      "priorityScore": 29.35,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -205,7 +210,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.68,
+      "priorityScore": 28.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -250,7 +255,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 879,
+      "viewCount": 890,
       "tgLink": "https://t.me/subsidiarka_kdl/4557",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -264,17 +269,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 27.96,
+      "priorityScore": 27.71,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 879 просмотров"
+        "Охват в Telegram Web: 890 просмотров"
       ],
       "digestSummary": "Опционы и программы мотивации для сотрудников в российских компанияхСостоялась дискуссия о юридических аспектах опционных программ и инструментах долгосрочной мотивации — разобрали терминологию, четыре модели структуриро",
       "reactionCount": 4,
-      "engagementRate": 0.004550625711035267
+      "engagementRate": 0.0044943820224719105
     },
     {
       "id": "probankrotstvoru/9780",
@@ -306,7 +311,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1220,
+      "viewCount": 1230,
       "tgLink": "https://t.me/probankrotstvoru/9780",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -318,19 +323,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.93,
+      "priorityScore": 27.69,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 1220 просмотров",
+        "Охват в Telegram Web: 1230 просмотров",
         "Сильная отдача аудитории: 1,5% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: срок давности для КДЛ течет с момента принятия заявления о субсидиаркеВ деле о банкротстве общества «ФундаментСпецПроект» бывший участник должника Александр Базин обратился с жалобой на бездействие КУ Татьяны Р",
       "reactionCount": 18,
-      "engagementRate": 0.014754098360655738
+      "engagementRate": 0.014634146341463415
     },
     {
       "id": "probankrotstvoru/9782",
@@ -363,7 +368,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1290,
+      "viewCount": 1300,
       "tgLink": "https://t.me/probankrotstvoru/9782",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -376,19 +381,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.78,
+      "priorityScore": 27.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 1290 просмотров",
+        "Охват в Telegram Web: 1300 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: запрет на выезд — соразмерная мера при субсидиарке свыше 2 млрд рублейВ деле о банкротстве общества ПВ-Банк КУ обратился с заявлением о временном ограничении Константину Сапрыкину выезда из Российской Федерации",
       "reactionCount": 18,
-      "engagementRate": 0.013953488372093023
+      "engagementRate": 0.013846153846153847
     },
     {
       "id": "corplawpro/5985",
@@ -422,7 +427,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 788,
+      "viewCount": 805,
       "tgLink": "https://t.me/corplawpro/5985",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -436,17 +441,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 27.59,
+      "priorityScore": 27.34,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 788 просмотров"
+        "Охват в Telegram Web: 805 просмотров"
       ],
       "digestSummary": "Опционы и программы мотивации для сотрудников в российских компанияхСостоялась дискуссия о юридических аспектах опционных программ и инструментах долгосрочной мотивации — разобрали терминологию, четыре модели структуриро",
       "reactionCount": 4,
-      "engagementRate": 0.005076142131979695
+      "engagementRate": 0.004968944099378882
     },
     {
       "id": "corplawpro/5984",
@@ -482,7 +487,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 962,
+      "viewCount": 974,
       "tgLink": "https://t.me/corplawpro/5984",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -495,17 +500,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 27.33,
+      "priorityScore": 27.08,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 962 просмотров"
+        "Охват в Telegram Web: 974 просмотров"
       ],
       "digestSummary": "Уступка требования от кредитора из недружественного государства российскому резиденту подлежит проверке на обход санкционных ограничений#недействительность_сделок #санкционные_ограничения #цессияАО «Троицк Инвест» обрати",
       "reactionCount": 4,
-      "engagementRate": 0.004158004158004158
+      "engagementRate": 0.004106776180698152
     },
     {
       "id": "probankrotstvoru/9783",
@@ -552,7 +557,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1390,
+      "viewCount": 1400,
       "tgLink": "https://t.me/probankrotstvoru/9783",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -564,19 +569,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.89,
+      "priorityScore": 26.64,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 1390 просмотров",
+        "Охват в Telegram Web: 1400 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "ВС проверит, вправе ли проживающий за рубежом россиянин вернуть акцииВ августе 2016 года Григорий Дмитриев продал Юлии Семесько 118 тыс. обыкновенных именных акций общества «Инкома» за 50 млн рублей с условием оплаты в т",
       "reactionCount": 18,
-      "engagementRate": 0.012949640287769784
+      "engagementRate": 0.012857142857142857
     },
     {
       "id": "sudpraktik_bankrot_demo/2649",
@@ -606,7 +611,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1220,
+      "viewCount": 1240,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2649",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -619,17 +624,17 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.44,
+      "priorityScore": 26.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1220 просмотров"
+        "Охват в Telegram Web: 1240 просмотров"
       ],
       "digestSummary": "Добросовестность действий арбитражного управляющего выражается в отсутствии умысла причинить вред кредиторам и должнику Суть требования: признании незаконным бездействия арбитражных управляющих должника, выразившегося в ",
       "reactionCount": 3,
-      "engagementRate": 0.002459016393442623
+      "engagementRate": 0.0024193548387096775
     },
     {
       "id": "sotbi_law/187",
@@ -675,7 +680,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.6,
+      "priorityScore": 25.36,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -719,7 +724,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 217,
+      "viewCount": 219,
       "tgLink": "https://t.me/tgnspau/1331",
       "channel": "tgnspau",
       "channelTitle": "НСПАУ - Национальный Союз профессионалов антикризисного управления",
@@ -732,18 +737,18 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 24.74,
+      "priorityScore": 24.48,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 217 просмотров",
+        "Охват в Telegram Web: 219 просмотров",
         "Сильная отдача аудитории: 1,4% реакций к просмотрам"
       ],
       "digestSummary": "НСПАУ примет участие в XIII Московском инновационном юридическом форуме 14–15 мая в Москве пройдет XIII Московский инновационный юридический форум – одна из значимых профессиональных площадок для обсуждения современных п",
       "reactionCount": 3,
-      "engagementRate": 0.013824884792626729
+      "engagementRate": 0.0136986301369863
     }
   ],
   "topTopics": [
