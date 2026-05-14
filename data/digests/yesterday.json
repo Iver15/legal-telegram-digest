@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-14T22:52:33.956Z",
+  "generatedAt": "2026-05-14T23:48:54.418Z",
   "totalPosts": 44,
   "topPosts": [
     {
@@ -66,7 +66,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28.91,
+      "priorityScore": 28.79,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
@@ -133,7 +133,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 67,
+      "viewCount": 68,
       "tgLink": "https://t.me/sotbi_law/186",
       "channel": "sotbi_law",
       "channelTitle": "Сотби",
@@ -147,19 +147,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 28.88,
+      "priorityScore": 28.77,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 15 реакций",
-        "Охват в Telegram Web: 67 просмотров",
-        "Сильная отдача аудитории: 22,4% реакций к просмотрам"
+        "Охват в Telegram Web: 68 просмотров",
+        "Сильная отдача аудитории: 22,1% реакций к просмотрам"
       ],
       "digestSummary": "Банкротные споры июня — какие вопросы рассмотрит экономколлегия Верховного суда РФВ начале лета судебная коллегия по экономическим спорам Верховного суда РФ рассмотрит несколько споров, которые могут повлиять на банкротн",
       "reactionCount": 15,
-      "engagementRate": 0.22388059701492538
+      "engagementRate": 0.22058823529411764
     },
     {
       "id": "probankrotstvoru/9778",
@@ -210,7 +210,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.95,
+      "priorityScore": 27.84,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -255,7 +255,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 905,
+      "viewCount": 907,
       "tgLink": "https://t.me/subsidiarka_kdl/4557",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -269,17 +269,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 27.24,
+      "priorityScore": 27.13,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 905 просмотров"
+        "Охват в Telegram Web: 907 просмотров"
       ],
       "digestSummary": "Опционы и программы мотивации для сотрудников в российских компанияхСостоялась дискуссия о юридических аспектах опционных программ и инструментах долгосрочной мотивации — разобрали терминологию, четыре модели структуриро",
       "reactionCount": 4,
-      "engagementRate": 0.004419889502762431
+      "engagementRate": 0.004410143329658214
     },
     {
       "id": "probankrotstvoru/9780",
@@ -323,7 +323,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.23,
+      "priorityScore": 27.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -381,7 +381,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.05,
+      "priorityScore": 26.93,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -427,7 +427,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 816,
+      "viewCount": 817,
       "tgLink": "https://t.me/corplawpro/5985",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -441,17 +441,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 26.87,
+      "priorityScore": 26.75,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 816 просмотров"
+        "Охват в Telegram Web: 817 просмотров"
       ],
       "digestSummary": "Опционы и программы мотивации для сотрудников в российских компанияхСостоялась дискуссия о юридических аспектах опционных программ и инструментах долгосрочной мотивации — разобрали терминологию, четыре модели структуриро",
       "reactionCount": 4,
-      "engagementRate": 0.004901960784313725
+      "engagementRate": 0.004895960832313341
     },
     {
       "id": "corplawpro/5984",
@@ -487,7 +487,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 986,
+      "viewCount": 987,
       "tgLink": "https://t.me/corplawpro/5984",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -500,17 +500,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 26.61,
+      "priorityScore": 26.49,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 986 просмотров"
+        "Охват в Telegram Web: 987 просмотров"
       ],
       "digestSummary": "Уступка требования от кредитора из недружественного государства российскому резиденту подлежит проверке на обход санкционных ограничений#недействительность_сделок #санкционные_ограничения #цессияАО «Троицк Инвест» обрати",
       "reactionCount": 4,
-      "engagementRate": 0.004056795131845842
+      "engagementRate": 0.004052684903748734
     },
     {
       "id": "probankrotstvoru/9783",
@@ -569,7 +569,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.17,
+      "priorityScore": 26.05,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -624,7 +624,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 25.73,
+      "priorityScore": 25.62,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -668,7 +668,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 60,
+      "viewCount": 61,
       "tgLink": "https://t.me/sotbi_law/187",
       "channel": "sotbi_law",
       "channelTitle": "Сотби",
@@ -680,18 +680,18 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 24.9,
+      "priorityScore": 24.79,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 60 просмотров",
-        "Сильная отдача аудитории: 16,7% реакций к просмотрам"
+        "Охват в Telegram Web: 61 просмотров",
+        "Сильная отдача аудитории: 16,4% реакций к просмотрам"
       ],
       "digestSummary": "Совместные торги в банкротствеКогда имущество принадлежит разным должникам, но фактически является единым хозяйственным комплексом, возникает вопрос о порядке его реализации. Покупателю выгодно купить не разрозненные объ",
       "reactionCount": 10,
-      "engagementRate": 0.16666666666666666
+      "engagementRate": 0.16393442622950818
     },
     {
       "id": "tgnspau/1331",
@@ -737,7 +737,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 23.97,
+      "priorityScore": 23.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
