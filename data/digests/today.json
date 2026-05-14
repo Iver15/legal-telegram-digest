@@ -1,8 +1,8 @@
 {
   "id": "today",
   "label": "Сегодня",
-  "generatedAt": "2026-05-13T23:45:38.872Z",
-  "totalPosts": 44,
+  "generatedAt": "2026-05-14T01:37:03.666Z",
+  "totalPosts": 47,
   "topPosts": [
     {
       "id": "sovetsudey/933",
@@ -20,7 +20,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "78",
+          "count": "80",
           "isPaid": false
         },
         {
@@ -49,7 +49,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 6500,
+      "viewCount": 6740,
       "tgLink": "https://t.me/sovetsudey/933",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -61,19 +61,19 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 31.82,
+      "priorityScore": 31.59,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 105 реакций",
-        "Охват в Telegram Web: 6500 просмотров",
+        "Высокая вовлечённость: 107 реакций",
+        "Охват в Telegram Web: 6740 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд рассмотрел жалобу бывшего председателя Советского районного суда города Иваново на решение региональной квалификационной коллегии, которая привлекла его к дисциплинарной ответственности и применила исключит",
-      "reactionCount": 105,
-      "engagementRate": 0.016153846153846154
+      "reactionCount": 107,
+      "engagementRate": 0.015875370919881306
     },
     {
       "id": "sotbi_law/186",
@@ -142,7 +142,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.75,
+      "priorityScore": 31.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -188,7 +188,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 450,
+      "viewCount": 466,
       "tgLink": "https://t.me/subsidiarka_kdl/4557",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -202,17 +202,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 30.55,
+      "priorityScore": 30.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 450 просмотров"
+        "Охват в Telegram Web: 466 просмотров"
       ],
       "digestSummary": "Опционы и программы мотивации для сотрудников в российских компанияхСостоялась дискуссия о юридических аспектах опционных программ и инструментах долгосрочной мотивации — разобрали терминологию, четыре модели структуриро",
       "reactionCount": 4,
-      "engagementRate": 0.008888888888888889
+      "engagementRate": 0.008583690987124463
     },
     {
       "id": "probankrotstvoru/9778",
@@ -250,7 +250,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1160,
+      "viewCount": 1170,
       "tgLink": "https://t.me/probankrotstvoru/9778",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -263,17 +263,17 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.34,
+      "priorityScore": 30.1,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1160 просмотров"
+        "Охват в Telegram Web: 1170 просмотров"
       ],
       "digestSummary": "КС: банкротство одного созаемщика не защищает залоговое жилье другогоКонституционный Суд отказал Сергею Хорохонову в рассмотрении жалобы на ст. 50 Закона об ипотеке. Суд общей юрисдикции обратил взыскание на заложенное ж",
       "reactionCount": 8,
-      "engagementRate": 0.006896551724137931
+      "engagementRate": 0.006837606837606838
     },
     {
       "id": "corplawpro/5985",
@@ -307,7 +307,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 454,
+      "viewCount": 463,
       "tgLink": "https://t.me/corplawpro/5985",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -321,17 +321,17 @@
         "tax",
         "courts"
       ],
-      "priorityScore": 30.13,
+      "priorityScore": 29.88,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 454 просмотров"
+        "Охват в Telegram Web: 463 просмотров"
       ],
       "digestSummary": "Опционы и программы мотивации для сотрудников в российских компанияхСостоялась дискуссия о юридических аспектах опционных программ и инструментах долгосрочной мотивации — разобрали терминологию, четыре модели структуриро",
       "reactionCount": 4,
-      "engagementRate": 0.00881057268722467
+      "engagementRate": 0.008639308855291577
     },
     {
       "id": "corplawpro/5984",
@@ -367,7 +367,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 785,
+      "viewCount": 789,
       "tgLink": "https://t.me/corplawpro/5984",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -380,17 +380,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 29.58,
+      "priorityScore": 29.34,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Комплаенс",
-        "Охват в Telegram Web: 785 просмотров"
+        "Охват в Telegram Web: 789 просмотров"
       ],
       "digestSummary": "Уступка требования от кредитора из недружественного государства российскому резиденту подлежит проверке на обход санкционных ограничений#недействительность_сделок #санкционные_ограничения #цессияАО «Троицк Инвест» обрати",
       "reactionCount": 4,
-      "engagementRate": 0.005095541401273885
+      "engagementRate": 0.005069708491761723
     },
     {
       "id": "probankrotstvoru/9780",
@@ -422,7 +422,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1000,
+      "viewCount": 1020,
       "tgLink": "https://t.me/probankrotstvoru/9780",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -434,19 +434,19 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 29.37,
+      "priorityScore": 29.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 13 реакций",
-        "Охват в Telegram Web: 1000 просмотров",
+        "Охват в Telegram Web: 1020 просмотров",
         "Сильная отдача аудитории: 1,3% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: срок давности для КДЛ течет с момента принятия заявления о субсидиаркеВ деле о банкротстве общества «ФундаментСпецПроект» бывший участник должника Александр Базин обратился с жалобой на бездействие КУ Татьяны Р",
       "reactionCount": 13,
-      "engagementRate": 0.013
+      "engagementRate": 0.012745098039215686
     },
     {
       "id": "probankrotstvoru/9782",
@@ -479,7 +479,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 902,
+      "viewCount": 914,
       "tgLink": "https://t.me/probankrotstvoru/9782",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -492,19 +492,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.91,
+      "priorityScore": 28.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Высокая вовлечённость: 11 реакций",
-        "Охват в Telegram Web: 902 просмотров",
+        "Охват в Telegram Web: 914 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Кассация: запрет на выезд — соразмерная мера при субсидиарке свыше 2 млрд рублейВ деле о банкротстве общества ПВ-Банк КУ обратился с заявлением о временном ограничении Константину Сапрыкину выезда из Российской Федерации",
       "reactionCount": 11,
-      "engagementRate": 0.012195121951219513
+      "engagementRate": 0.012035010940919038
     },
     {
       "id": "sudpraktik_bankrot_demo/2649",
@@ -534,7 +534,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 862,
+      "viewCount": 869,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2649",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -547,17 +547,17 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 28.66,
+      "priorityScore": 28.43,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 862 просмотров"
+        "Охват в Telegram Web: 869 просмотров"
       ],
       "digestSummary": "Добросовестность действий арбитражного управляющего выражается в отсутствии умысла причинить вред кредиторам и должнику Суть требования: признании незаконным бездействия арбитражных управляющих должника, выразившегося в ",
       "reactionCount": 3,
-      "engagementRate": 0.0034802784222737818
+      "engagementRate": 0.0034522439585730723
     },
     {
       "id": "probankrotstvoru/9783",
@@ -599,7 +599,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 822,
+      "viewCount": 837,
       "tgLink": "https://t.me/probankrotstvoru/9783",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -611,18 +611,18 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 28,
+      "priorityScore": 27.74,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 822 просмотров",
+        "Охват в Telegram Web: 837 просмотров",
         "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "ВС проверит, вправе ли проживающий за рубежом россиянин вернуть акцииВ августе 2016 года Григорий Дмитриев продал Юлии Семесько 118 тыс. обыкновенных именных акций общества «Инкома» за 50 млн рублей с условием оплаты в т",
       "reactionCount": 10,
-      "engagementRate": 0.012165450121654502
+      "engagementRate": 0.011947431302270013
     },
     {
       "id": "sotbi_law/187",
@@ -668,7 +668,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 27.73,
+      "priorityScore": 27.5,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -725,7 +725,7 @@
         "arbitration",
         "courts"
       ],
-      "priorityScore": 26.95,
+      "priorityScore": 26.72,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -743,22 +743,22 @@
     {
       "id": "courts",
       "label": "Суды",
-      "count": 40
+      "count": 41
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 34
+      "count": 37
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 33
+      "count": 36
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 33
+      "count": 35
     },
     {
       "id": "enforcement",
@@ -793,6 +793,11 @@
       "count": 5
     },
     {
+      "channel": "vZone1413",
+      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
+      "count": 3
+    },
+    {
       "channel": "orpauradio",
       "title": "Первый радиоканал АУ и юристов",
       "count": 3
@@ -810,11 +815,6 @@
     {
       "channel": "lawegorov",
       "title": "AVE in Law",
-      "count": 2
-    },
-    {
-      "channel": "sudpraktik_bankrot_demo",
-      "title": "Судебная практика по банкротству",
       "count": 2
     }
   ]

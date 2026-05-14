@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-13T23:45:38.873Z",
-  "totalPosts": 226,
+  "generatedAt": "2026-05-14T01:37:03.667Z",
+  "totalPosts": 229,
   "topPosts": [
     {
       "id": "orpauradio/9386",
@@ -27,7 +27,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1400,
+      "viewCount": 1410,
       "tgLink": "https://t.me/orpauradio/9386",
       "channel": "orpauradio",
       "channelTitle": "Первый радиоканал АУ и юристов",
@@ -49,12 +49,12 @@
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 28 реакций",
-        "Охват в Telegram Web: 1400 просмотров",
+        "Охват в Telegram Web: 1410 просмотров",
         "Сильная отдача аудитории: 2,0% реакций к просмотрам"
       ],
       "digestSummary": "300 МЛН В КАССУ - 0 РУБЛЕЙ В КАРМАН: ЗАЧЕМ УПРАВЛЯЮЩЕМУ РАБОТАТЬ ХОРОШО?​Верховный Суд РФ обратил внимание на парадоксальный спор (дело № А40-190264/2018), который ставит под удар саму логику мотивации арбитражного управ",
       "reactionCount": 28,
-      "engagementRate": 0.02
+      "engagementRate": 0.019858156028368795
     },
     {
       "id": "bankrotstvo_mustknow/489",
@@ -199,7 +199,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "78",
+          "count": "80",
           "isPaid": false
         },
         {
@@ -228,7 +228,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 6500,
+      "viewCount": 6740,
       "tgLink": "https://t.me/sovetsudey/933",
       "channel": "sovetsudey",
       "channelTitle": "Верховный Суд России",
@@ -240,19 +240,19 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 31.82,
+      "priorityScore": 31.59,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 105 реакций",
-        "Охват в Telegram Web: 6500 просмотров",
+        "Высокая вовлечённость: 107 реакций",
+        "Охват в Telegram Web: 6740 просмотров",
         "Сильная отдача аудитории: 1,6% реакций к просмотрам"
       ],
       "digestSummary": "Верховный Суд рассмотрел жалобу бывшего председателя Советского районного суда города Иваново на решение региональной квалификационной коллегии, которая привлекла его к дисциплинарной ответственности и применила исключит",
-      "reactionCount": 105,
-      "engagementRate": 0.016153846153846154
+      "reactionCount": 107,
+      "engagementRate": 0.015875370919881306
     },
     {
       "id": "sotbi_law/186",
@@ -321,7 +321,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.75,
+      "priorityScore": 31.52,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -379,7 +379,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1060,
+      "viewCount": 1070,
       "tgLink": "https://t.me/subsidiarka_kdl/4550",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -393,17 +393,17 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 31.7,
+      "priorityScore": 31.46,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 1060 просмотров"
+        "Охват в Telegram Web: 1070 просмотров"
       ],
       "digestSummary": "Непередача документов новым руководителем, не получившим их от умершего предшественника, не образует презумпцию субсидиарной ответственности без оценки возражений ответчика#субсидиарная_ответственность #документация_долж",
       "reactionCount": 9,
-      "engagementRate": 0.008490566037735849
+      "engagementRate": 0.008411214953271028
     },
     {
       "id": "probankrotstvoru/9774",
@@ -449,7 +449,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 31.33,
+      "priorityScore": 31.1,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -517,7 +517,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 31.22,
+      "priorityScore": 30.99,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -635,7 +635,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 30.88,
+      "priorityScore": 30.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -703,7 +703,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 30.68,
+      "priorityScore": 30.45,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
@@ -749,7 +749,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 450,
+      "viewCount": 466,
       "tgLink": "https://t.me/subsidiarka_kdl/4557",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -763,39 +763,39 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 30.55,
+      "priorityScore": 30.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 450 просмотров"
+        "Охват в Telegram Web: 466 просмотров"
       ],
       "digestSummary": "Опционы и программы мотивации для сотрудников в российских компанияхСостоялась дискуссия о юридических аспектах опционных программ и инструментах долгосрочной мотивации — разобрали терминологию, четыре модели структуриро",
       "reactionCount": 4,
-      "engagementRate": 0.008888888888888889
+      "engagementRate": 0.008583690987124463
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 198
+      "count": 199
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 179
+      "count": 182
     },
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 175
+      "count": 178
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 173
+      "count": 175
     },
     {
       "id": "enforcement",
@@ -835,6 +835,11 @@
       "count": 13
     },
     {
+      "channel": "vZone1413",
+      "title": "В Зоне 14.13 (Ю. Федораев о банкротстве)",
+      "count": 12
+    },
+    {
       "channel": "shapovalovagroup",
       "title": "Защита арбитражных управляющих",
       "count": 10
@@ -847,11 +852,6 @@
     {
       "channel": "sudpraktik",
       "title": "СУДЕБНАЯ ПРАКТИКА",
-      "count": 9
-    },
-    {
-      "channel": "legally_bald",
-      "title": "Legally_bald (Даниил Савченко)",
       "count": 9
     }
   ]
