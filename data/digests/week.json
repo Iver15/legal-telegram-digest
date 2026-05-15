@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-15T20:02:50.478Z",
+  "generatedAt": "2026-05-15T21:03:56.114Z",
   "totalPosts": 222,
   "topPosts": [
     {
@@ -22,7 +22,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "4",
+          "count": "5",
           "isPaid": false
         },
         {
@@ -36,7 +36,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 636,
+      "viewCount": 661,
       "tgLink": "https://t.me/probankrotstvoru/9799",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -50,18 +50,18 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.52,
+      "priorityScore": 36.66,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 636 просмотров",
-        "Сильная отдача аудитории: 1,1% реакций к просмотрам"
+        "Охват в Telegram Web: 661 просмотров",
+        "Сильная отдача аудитории: 1,2% реакций к просмотрам"
       ],
       "digestSummary": "Кассация признала сына Глоцера номинальным собственником квартиры за 160 млн рублейЮрий Глоцер, бенефициар общества КБ «БФГ-Кредит» с долей 39,6% в уставном капитале, был признан банкротом в августе 2017 года. Ранее суд ",
-      "reactionCount": 7,
-      "engagementRate": 0.0110062893081761
+      "reactionCount": 8,
+      "engagementRate": 0.012102874432677761
     },
     {
       "id": "probankrotstvoru/9798",
@@ -81,7 +81,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "2",
+          "count": "3",
           "isPaid": false
         },
         {
@@ -95,7 +95,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 769,
+      "viewCount": 789,
       "tgLink": "https://t.me/probankrotstvoru/9798",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -109,17 +109,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 36.39,
+      "priorityScore": 36.53,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 769 просмотров"
+        "Охват в Telegram Web: 789 просмотров"
       ],
       "digestSummary": "Кассация: погашение долга после иска о субсидиарке презюмирует связь с действиями КУФНС инициировала банкротство общества «Литмехмаш» из-за неуплаты НДС за 2018, 2021 и 2022 года. Суд в декабре 2023 года признал компанию",
-      "reactionCount": 4,
-      "engagementRate": 0.005201560468140442
+      "reactionCount": 5,
+      "engagementRate": 0.0063371356147021544
     },
     {
       "id": "domnin_sa/546",
@@ -168,7 +168,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 548,
+      "viewCount": 549,
       "tgLink": "https://t.me/domnin_sa/546",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -182,19 +182,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.29,
+      "priorityScore": 35.17,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 28 реакций",
-        "Охват в Telegram Web: 548 просмотров",
+        "Охват в Telegram Web: 549 просмотров",
         "Сильная отдача аудитории: 5,1% реакций к просмотрам"
       ],
       "digestSummary": "Все для рестракта, говорили они 🤷🏿‍♂️ЕФРСБ опубликовал информацию о том, что Минэк подготовил изменения в минипроект о реформе банкротства. После принятия которого, как нам обещают, характер нашего банкротства сразу ст",
       "reactionCount": 28,
-      "engagementRate": 0.051094890510948905
+      "engagementRate": 0.051001821493624776
     },
     {
       "id": "sudpraktik/3529",
@@ -220,7 +220,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2400,
+      "viewCount": 2420,
       "tgLink": "https://t.me/sudpraktik/3529",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -235,17 +235,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 35.06,
+      "priorityScore": 34.93,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 2400 просмотров"
+        "Охват в Telegram Web: 2420 просмотров"
       ],
       "digestSummary": "Сама по себе недоказанность признаков неплатежеспособности или недостаточности имущества на момент совершения сделки не блокирует возможность квалификации такой сделки в качестве подозрительной Суть требования: о признан",
       "reactionCount": 5,
-      "engagementRate": 0.0020833333333333333
+      "engagementRate": 0.002066115702479339
     },
     {
       "id": "corplawpro/5989",
@@ -282,7 +282,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 700,
+      "viewCount": 703,
       "tgLink": "https://t.me/corplawpro/5989",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -296,17 +296,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.95,
+      "priorityScore": 33.82,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 700 просмотров"
+        "Охват в Telegram Web: 703 просмотров"
       ],
       "digestSummary": "Для исключения участника, действующего через подконтрольного директора, не требуется доказывания прямого сговора — достаточно совокупности косвенных доказательств согласованности их поведения#корпоративные_споры #исключе",
       "reactionCount": 6,
-      "engagementRate": 0.008571428571428572
+      "engagementRate": 0.008534850640113799
     },
     {
       "id": "subsidiarka_kdl/4560",
@@ -337,7 +337,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 835,
+      "viewCount": 848,
       "tgLink": "https://t.me/subsidiarka_kdl/4560",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -351,17 +351,17 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 33.88,
+      "priorityScore": 33.76,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 835 просмотров"
+        "Охват в Telegram Web: 848 просмотров"
       ],
       "digestSummary": "Владение долей в 20% без доказательств фактического контроля не делает участника контролирующим должника лицом#субсидиарная_ответственность#банкротствоКонкурсный управляющий ООО «Углетранс» Хворостинин О.В. обратился с з",
       "reactionCount": 2,
-      "engagementRate": 0.0023952095808383233
+      "engagementRate": 0.0023584905660377358
     },
     {
       "id": "probankrotstvoru/9788",
@@ -409,7 +409,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 32.92,
+      "priorityScore": 32.8,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -452,7 +452,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1060,
+      "viewCount": 1070,
       "tgLink": "https://t.me/probankrotstvoru/9792",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -465,19 +465,19 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 32.5,
+      "priorityScore": 32.36,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Высокая вовлечённость: 12 реакций",
-        "Охват в Telegram Web: 1060 просмотров",
+        "Охват в Telegram Web: 1070 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "ВС оценит состав окружного суда по делу, пересмотренному по общим правиламОбщество «Киришский бетонный узел» поставило обществу «Тверская торгово-строительная компания» бетон по разовым сделкам купли-продажи без заключен",
       "reactionCount": 12,
-      "engagementRate": 0.011320754716981131
+      "engagementRate": 0.011214953271028037
     },
     {
       "id": "insolvencylaw/622",
@@ -511,7 +511,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 583,
+      "viewCount": 590,
       "tgLink": "https://t.me/insolvencylaw/622",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -532,12 +532,12 @@
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 583 просмотров",
+        "Охват в Telegram Web: 590 просмотров",
         "Сильная отдача аудитории: 2,7% реакций к просмотрам"
       ],
       "digestSummary": "Иск из владения цифровым активом: статьяВ издательстве «Статут» вышел сборник статей, посвященный юбилею проф. В.В. Витрянского «Проблемы развития гражданского законодательства и практики его применения».В сборнике вышла",
       "reactionCount": 16,
-      "engagementRate": 0.0274442538593482
+      "engagementRate": 0.02711864406779661
     },
     {
       "id": "probankrotstvoru/9796",
@@ -570,7 +570,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 836,
+      "viewCount": 850,
       "tgLink": "https://t.me/probankrotstvoru/9796",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -583,18 +583,18 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 31.56,
+      "priorityScore": 31.42,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 836 просмотров",
+        "Охват в Telegram Web: 850 просмотров",
         "Сильная отдача аудитории: 1,1% реакций к просмотрам"
       ],
       "digestSummary": "Кипрский суд разграничил роли при исполнении решений из банкротства в РоссииСуд на Кипре разъяснил: даже если заявление об исполнении российского арбитражного решения подано через Министерство юстиции как центральный орг",
       "reactionCount": 9,
-      "engagementRate": 0.01076555023923445
+      "engagementRate": 0.010588235294117647
     },
     {
       "id": "probankrotstvoru/9790",
@@ -640,7 +640,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 31.52,
+      "priorityScore": 31.39,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -704,7 +704,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.41,
+      "priorityScore": 31.28,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
