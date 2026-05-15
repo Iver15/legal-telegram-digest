@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-15T22:04:12.005Z",
+  "generatedAt": "2026-05-15T22:56:36.026Z",
   "totalPosts": 40,
   "topPosts": [
     {
@@ -51,7 +51,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 552,
+      "viewCount": 553,
       "tgLink": "https://t.me/domnin_sa/546",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -65,19 +65,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 35.04,
+      "priorityScore": 34.93,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 28 реакций",
-        "Охват в Telegram Web: 552 просмотров",
+        "Охват в Telegram Web: 553 просмотров",
         "Сильная отдача аудитории: 5,1% реакций к просмотрам"
       ],
       "digestSummary": "Все для рестракта, говорили они 🤷🏿‍♂️ЕФРСБ опубликовал информацию о том, что Минэк подготовил изменения в минипроект о реформе банкротства. После принятия которого, как нам обещают, характер нашего банкротства сразу ст",
       "reactionCount": 28,
-      "engagementRate": 0.050724637681159424
+      "engagementRate": 0.05063291139240506
     },
     {
       "id": "sudpraktik/3529",
@@ -103,7 +103,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2420,
+      "viewCount": 2430,
       "tgLink": "https://t.me/sudpraktik/3529",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -118,17 +118,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 34.81,
+      "priorityScore": 34.69,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 2420 просмотров"
+        "Охват в Telegram Web: 2430 просмотров"
       ],
       "digestSummary": "Сама по себе недоказанность признаков неплатежеспособности или недостаточности имущества на момент совершения сделки не блокирует возможность квалификации такой сделки в качестве подозрительной Суть требования: о признан",
       "reactionCount": 5,
-      "engagementRate": 0.002066115702479339
+      "engagementRate": 0.00205761316872428
     },
     {
       "id": "probankrotstvoru/9788",
@@ -176,7 +176,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 32.67,
+      "priorityScore": 32.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -232,7 +232,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 31.27,
+      "priorityScore": 31.15,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -296,7 +296,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.16,
+      "priorityScore": 31.05,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -355,7 +355,7 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 28,
+      "priorityScore": 27.89,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -401,7 +401,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 837,
+      "viewCount": 838,
       "tgLink": "https://t.me/corplawpro/5986",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -415,17 +415,17 @@
         "courts",
         "enforcement"
       ],
-      "priorityScore": 27.99,
+      "priorityScore": 27.88,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 837 просмотров"
+        "Охват в Telegram Web: 838 просмотров"
       ],
       "digestSummary": "При прекращении дела о банкротстве из-за недостаточности средств бремя доказывания в споре о субсидиарной ответственности переходит на контролирующих лиц, уклоняющихся от раскрытия информации#субсидиарная_ответственность",
       "reactionCount": 5,
-      "engagementRate": 0.005973715651135006
+      "engagementRate": 0.0059665871121718375
     },
     {
       "id": "subsidiarka_kdl/4558",
@@ -473,7 +473,7 @@
         "arbitration",
         "ai_law"
       ],
-      "priorityScore": 27.94,
+      "priorityScore": 27.83,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -513,7 +513,7 @@
         "ai_law",
         "bankruptcy"
       ],
-      "priorityScore": 27.33,
+      "priorityScore": 27.22,
       "priorityReasons": [
         "Категория канала: arbitration",
         "Совпадение по теме: Суды",
@@ -561,7 +561,7 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 26.31,
+      "priorityScore": 26.2,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -601,7 +601,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 26.04,
+      "priorityScore": 25.93,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Банкротство",
@@ -655,7 +655,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.81,
+      "priorityScore": 25.7,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
