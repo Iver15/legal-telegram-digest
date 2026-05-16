@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-16T22:34:07.312Z",
+  "generatedAt": "2026-05-16T23:28:44.166Z",
   "totalPosts": 210,
   "topPosts": [
     {
@@ -167,7 +167,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 986,
+      "viewCount": 987,
       "tgLink": "https://t.me/probankrotstvoru/9798",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -181,17 +181,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.47,
+      "priorityScore": 33.36,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 986 просмотров"
+        "Охват в Telegram Web: 987 просмотров"
       ],
       "digestSummary": "Кассация: погашение долга после иска о субсидиарке презюмирует связь с действиями КУФНС инициировала банкротство общества «Литмехмаш» из-за неуплаты НДС за 2018, 2021 и 2022 года. Суд в декабре 2023 года признал компанию",
       "reactionCount": 6,
-      "engagementRate": 0.006085192697768763
+      "engagementRate": 0.0060790273556231
     },
     {
       "id": "probankrotstvoru/9799",
@@ -225,7 +225,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 929,
+      "viewCount": 930,
       "tgLink": "https://t.me/probankrotstvoru/9799",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -239,17 +239,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.34,
+      "priorityScore": 33.22,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 929 просмотров"
+        "Охват в Telegram Web: 930 просмотров"
       ],
       "digestSummary": "Кассация признала сына Глоцера номинальным собственником квартиры за 160 млн рублейЮрий Глоцер, бенефициар общества КБ «БФГ-Кредит» с долей 39,6% в уставном капитале, был признан банкротом в августе 2017 года. Ранее суд ",
       "reactionCount": 9,
-      "engagementRate": 0.00968783638320775
+      "engagementRate": 0.00967741935483871
     },
     {
       "id": "insolvencylaw/622",
@@ -468,7 +468,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 979,
+      "viewCount": 980,
       "tgLink": "https://t.me/subsidiarka_kdl/4560",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -482,17 +482,17 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 30.57,
+      "priorityScore": 30.45,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 979 просмотров"
+        "Охват в Telegram Web: 980 просмотров"
       ],
       "digestSummary": "Владение долей в 20% без доказательств фактического контроля не делает участника контролирующим должника лицом#субсидиарная_ответственность#банкротствоКонкурсный управляющий ООО «Углетранс» Хворостинин О.В. обратился с з",
       "reactionCount": 2,
-      "engagementRate": 0.0020429009193054137
+      "engagementRate": 0.0020408163265306124
     },
     {
       "id": "corplawpro/5989",
@@ -529,7 +529,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 796,
+      "viewCount": 797,
       "tgLink": "https://t.me/corplawpro/5989",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -543,17 +543,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.53,
+      "priorityScore": 30.41,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 796 просмотров"
+        "Охват в Telegram Web: 797 просмотров"
       ],
       "digestSummary": "Для исключения участника, действующего через подконтрольного директора, не требуется доказывания прямого сговора — достаточно совокупности косвенных доказательств согласованности их поведения#корпоративные_споры #исключе",
       "reactionCount": 6,
-      "engagementRate": 0.007537688442211055
+      "engagementRate": 0.0075282308657465494
     },
     {
       "id": "probankrotstvoru/9770",
