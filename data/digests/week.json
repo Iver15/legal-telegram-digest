@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-16T16:50:27.700Z",
-  "totalPosts": 209,
+  "generatedAt": "2026-05-16T17:45:26.892Z",
+  "totalPosts": 210,
   "topPosts": [
     {
       "id": "probankrotstvoru/9798",
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 964,
+      "viewCount": 971,
       "tgLink": "https://t.me/probankrotstvoru/9798",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -55,17 +55,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.2,
+      "priorityScore": 34.08,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 964 просмотров"
+        "Охват в Telegram Web: 971 просмотров"
       ],
       "digestSummary": "Кассация: погашение долга после иска о субсидиарке презюмирует связь с действиями КУФНС инициировала банкротство общества «Литмехмаш» из-за неуплаты НДС за 2018, 2021 и 2022 года. Суд в декабре 2023 года признал компанию",
       "reactionCount": 6,
-      "engagementRate": 0.006224066390041493
+      "engagementRate": 0.006179196704428424
     },
     {
       "id": "probankrotstvoru/9799",
@@ -99,7 +99,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 901,
+      "viewCount": 910,
       "tgLink": "https://t.me/probankrotstvoru/9799",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -113,17 +113,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.09,
+      "priorityScore": 33.96,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 901 просмотров"
+        "Охват в Telegram Web: 910 просмотров"
       ],
       "digestSummary": "Кассация признала сына Глоцера номинальным собственником квартиры за 160 млн рублейЮрий Глоцер, бенефициар общества КБ «БФГ-Кредит» с долей 39,6% в уставном капитале, был признан банкротом в августе 2017 года. Ранее суд ",
       "reactionCount": 9,
-      "engagementRate": 0.009988901220865706
+      "engagementRate": 0.00989010989010989
     },
     {
       "id": "domnin_sa/546",
@@ -172,7 +172,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 661,
+      "viewCount": 665,
       "tgLink": "https://t.me/domnin_sa/546",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -186,19 +186,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.87,
+      "priorityScore": 33.88,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 32 реакций",
-        "Охват в Telegram Web: 661 просмотров",
+        "Охват в Telegram Web: 665 просмотров",
         "Сильная отдача аудитории: 4,8% реакций к просмотрам"
       ],
       "digestSummary": "Все для рестракта, говорили они 🤷🏿‍♂️ЕФРСБ опубликовал информацию о том, что Минэк подготовил изменения в минипроект о реформе банкротства. После принятия которого, как нам обещают, характер нашего банкротства сразу ст",
       "reactionCount": 32,
-      "engagementRate": 0.048411497730711045
+      "engagementRate": 0.0481203007518797
     },
     {
       "id": "sudpraktik/3529",
@@ -283,7 +283,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 660,
+      "viewCount": 663,
       "tgLink": "https://t.me/insolvencylaw/622",
       "channel": "insolvencylaw",
       "channelTitle": "Частное право от Евгения Суворова",
@@ -297,19 +297,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 32.32,
+      "priorityScore": 32.33,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 16 реакций",
-        "Охват в Telegram Web: 660 просмотров",
+        "Охват в Telegram Web: 663 просмотров",
         "Сильная отдача аудитории: 2,4% реакций к просмотрам"
       ],
       "digestSummary": "Иск из владения цифровым активом: статьяВ издательстве «Статут» вышел сборник статей, посвященный юбилею проф. В.В. Витрянского «Проблемы развития гражданского законодательства и практики его применения».В сборнике вышла",
       "reactionCount": 16,
-      "engagementRate": 0.024242424242424242
+      "engagementRate": 0.024132730015082957
     },
     {
       "id": "subsidiarka_kdl/4560",
@@ -340,7 +340,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 964,
+      "viewCount": 969,
       "tgLink": "https://t.me/subsidiarka_kdl/4560",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -354,17 +354,17 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 31.28,
+      "priorityScore": 31.17,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 964 просмотров"
+        "Охват в Telegram Web: 969 просмотров"
       ],
       "digestSummary": "Владение долей в 20% без доказательств фактического контроля не делает участника контролирующим должника лицом#субсидиарная_ответственность#банкротствоКонкурсный управляющий ООО «Углетранс» Хворостинин О.В. обратился с з",
       "reactionCount": 2,
-      "engagementRate": 0.002074688796680498
+      "engagementRate": 0.0020639834881320948
     },
     {
       "id": "corplawpro/5989",
@@ -401,7 +401,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 769,
+      "viewCount": 779,
       "tgLink": "https://t.me/corplawpro/5989",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -415,17 +415,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.27,
+      "priorityScore": 31.14,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 769 просмотров"
+        "Охват в Telegram Web: 779 просмотров"
       ],
       "digestSummary": "Для исключения участника, действующего через подконтрольного директора, не требуется доказывания прямого сговора — достаточно совокупности косвенных доказательств согласованности их поведения#корпоративные_споры #исключе",
       "reactionCount": 6,
-      "engagementRate": 0.007802340702210663
+      "engagementRate": 0.007702182284980745
     },
     {
       "id": "probankrotstvoru/9788",
@@ -459,7 +459,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1170,
+      "viewCount": 1180,
       "tgLink": "https://t.me/probankrotstvoru/9788",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -473,17 +473,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 30.91,
+      "priorityScore": 30.9,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 1170 просмотров"
+        "Охват в Telegram Web: 1180 просмотров"
       ],
       "digestSummary": "ВС решит, блокирует ли контроль из недружественного государства право на взыскание долгаОбщество «ОЭК» обратилось в суд с иском к компании «Россети» о взыскании задолженности и пени за использование объекта электросетево",
       "reactionCount": 8,
-      "engagementRate": 0.006837606837606838
+      "engagementRate": 0.006779661016949152
     },
     {
       "id": "subsidiarka_kdl/4550",
@@ -692,7 +692,7 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "7",
+          "count": "8",
           "isPaid": false
         },
         {
@@ -716,7 +716,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 451,
+      "viewCount": 468,
       "tgLink": "https://t.me/domnin_sa/547",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -728,36 +728,36 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 30.02,
+      "priorityScore": 30.01,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Высокая вовлечённость: 18 реакций",
-        "Охват в Telegram Web: 451 просмотров",
-        "Сильная отдача аудитории: 4,0% реакций к просмотрам"
+        "Высокая вовлечённость: 19 реакций",
+        "Охват в Telegram Web: 468 просмотров",
+        "Сильная отдача аудитории: 4,1% реакций к просмотрам"
       ],
       "digestSummary": "Как делили апельсин Опубликовано определение СКЭС ВС РФ (докладчик И.В. Разумов) по спору о порядке раздела процентного вознаграждения несколькими сменявшими друг друга управляющими.Я писал об этой передаче ранее и обращ",
-      "reactionCount": 18,
-      "engagementRate": 0.03991130820399113
+      "reactionCount": 19,
+      "engagementRate": 0.0405982905982906
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 194
+      "count": 195
     },
     {
       "id": "arbitration",
       "label": "Арбитраж",
-      "count": 168
+      "count": 169
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 164
+      "count": 165
     },
     {
       "id": "bankruptcy",
@@ -772,7 +772,7 @@
     {
       "id": "compliance",
       "label": "Комплаенс",
-      "count": 51
+      "count": 52
     },
     {
       "id": "tax",
@@ -787,13 +787,13 @@
       "count": 34
     },
     {
-      "channel": "subsidiarka_kdl",
-      "title": "Субсидиарная ответственность • Case by Case",
-      "count": 15
-    },
-    {
       "channel": "corplawpro",
       "title": "Корпоративные споры • Case by Case",
+      "count": 16
+    },
+    {
+      "channel": "subsidiarka_kdl",
+      "title": "Субсидиарная ответственность • Case by Case",
       "count": 15
     },
     {
