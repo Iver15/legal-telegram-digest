@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-17T22:38:18.472Z",
+  "generatedAt": "2026-05-17T23:43:23.327Z",
   "totalPosts": 218,
   "topPosts": [
     {
@@ -51,7 +51,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 730,
+      "viewCount": 731,
       "tgLink": "https://t.me/domnin_sa/546",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -65,19 +65,19 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 34.1,
+      "priorityScore": 34.11,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 34 реакций",
-        "Охват в Telegram Web: 730 просмотров",
+        "Охват в Telegram Web: 731 просмотров",
         "Сильная отдача аудитории: 4,7% реакций к просмотрам"
       ],
       "digestSummary": "Все для рестракта, говорили они 🤷🏿‍♂️ЕФРСБ опубликовал информацию о том, что Минэк подготовил изменения в минипроект о реформе банкротства. После принятия которого, как нам обещают, характер нашего банкротства сразу ст",
       "reactionCount": 34,
-      "engagementRate": 0.04657534246575343
+      "engagementRate": 0.046511627906976744
     },
     {
       "id": "sudpraktik/3529",
@@ -460,7 +460,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 688,
+      "viewCount": 693,
       "tgLink": "https://t.me/probankrotstvoru/9804",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -473,17 +473,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 30.68,
+      "priorityScore": 30.54,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 688 просмотров"
+        "Охват в Telegram Web: 693 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС напомнил, как считать давность после отмены судебного приказаВерховный Суд указал, что после отмены судебного приказа срок исковой давности продолжается ",
       "reactionCount": 2,
-      "engagementRate": 0.0029069767441860465
+      "engagementRate": 0.002886002886002886
     },
     {
       "id": "probankrotstvoru/9774",
