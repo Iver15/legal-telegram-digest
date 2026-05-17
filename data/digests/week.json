@@ -1,7 +1,7 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-17T14:29:37.324Z",
+  "generatedAt": "2026-05-17T15:40:52.613Z",
   "totalPosts": 218,
   "topPosts": [
     {
@@ -51,7 +51,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 710,
+      "viewCount": 715,
       "tgLink": "https://t.me/domnin_sa/546",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -72,12 +72,12 @@
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 33 реакций",
-        "Охват в Telegram Web: 710 просмотров",
+        "Охват в Telegram Web: 715 просмотров",
         "Сильная отдача аудитории: 4,6% реакций к просмотрам"
       ],
       "digestSummary": "Все для рестракта, говорили они 🤷🏿‍♂️ЕФРСБ опубликовал информацию о том, что Минэк подготовил изменения в минипроект о реформе банкротства. После принятия которого, как нам обещают, характер нашего банкротства сразу ст",
       "reactionCount": 33,
-      "engagementRate": 0.04647887323943662
+      "engagementRate": 0.046153846153846156
     },
     {
       "id": "sudpraktik/3529",
@@ -211,7 +211,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 470,
+      "viewCount": 509,
       "tgLink": "https://t.me/probankrotstvoru/9804",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -224,17 +224,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.77,
+      "priorityScore": 31.6,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 470 просмотров"
+        "Охват в Telegram Web: 509 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС напомнил, как считать давность после отмены судебного приказаВерховный Суд указал, что после отмены судебного приказа срок исковой давности продолжается ",
       "reactionCount": 2,
-      "engagementRate": 0.00425531914893617
+      "engagementRate": 0.003929273084479371
     },
     {
       "id": "probankrotstvoru/9798",
@@ -345,7 +345,7 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.26,
+      "priorityScore": 31.25,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
@@ -389,7 +389,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1200,
+      "viewCount": 1210,
       "tgLink": "https://t.me/probankrotstvoru/9788",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -403,17 +403,17 @@
         "compliance",
         "enforcement"
       ],
-      "priorityScore": 30.89,
+      "priorityScore": 30.88,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Суды",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 1200 просмотров"
+        "Охват в Telegram Web: 1210 просмотров"
       ],
       "digestSummary": "ВС решит, блокирует ли контроль из недружественного государства право на взыскание долгаОбщество «ОЭК» обратилось в суд с иском к компании «Россети» о взыскании задолженности и пени за использование объекта электросетево",
       "reactionCount": 8,
-      "engagementRate": 0.006666666666666667
+      "engagementRate": 0.006611570247933884
     },
     {
       "id": "subsidiarka_kdl/4550",
@@ -645,7 +645,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1040,
+      "viewCount": 1050,
       "tgLink": "https://t.me/subsidiarka_kdl/4560",
       "channel": "subsidiarka_kdl",
       "channelTitle": "Субсидиарная ответственность • Case by Case",
@@ -665,11 +665,11 @@
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 1040 просмотров"
+        "Охват в Telegram Web: 1050 просмотров"
       ],
       "digestSummary": "Владение долей в 20% без доказательств фактического контроля не делает участника контролирующим должника лицом#субсидиарная_ответственность#банкротствоКонкурсный управляющий ООО «Углетранс» Хворостинин О.В. обратился с з",
       "reactionCount": 2,
-      "engagementRate": 0.0019230769230769232
+      "engagementRate": 0.0019047619047619048
     },
     {
       "id": "bankrotstvo_mustknow/492",
