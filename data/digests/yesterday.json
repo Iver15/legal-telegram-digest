@@ -1,7 +1,7 @@
 {
   "id": "yesterday",
   "label": "Вчера",
-  "generatedAt": "2026-05-16T23:28:44.165Z",
+  "generatedAt": "2026-05-17T00:16:00.165Z",
   "totalPosts": 37,
   "topPosts": [
     {
@@ -41,7 +41,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 987,
+      "viewCount": 989,
       "tgLink": "https://t.me/probankrotstvoru/9798",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -55,17 +55,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.36,
+      "priorityScore": 33.26,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 987 просмотров"
+        "Охват в Telegram Web: 989 просмотров"
       ],
       "digestSummary": "Кассация: погашение долга после иска о субсидиарке презюмирует связь с действиями КУФНС инициировала банкротство общества «Литмехмаш» из-за неуплаты НДС за 2018, 2021 и 2022 года. Суд в декабре 2023 года признал компанию",
       "reactionCount": 6,
-      "engagementRate": 0.0060790273556231
+      "engagementRate": 0.006066734074823054
     },
     {
       "id": "probankrotstvoru/9799",
@@ -99,7 +99,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 930,
+      "viewCount": 932,
       "tgLink": "https://t.me/probankrotstvoru/9799",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -113,17 +113,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 33.22,
+      "priorityScore": 33.12,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 930 просмотров"
+        "Охват в Telegram Web: 932 просмотров"
       ],
       "digestSummary": "Кассация признала сына Глоцера номинальным собственником квартиры за 160 млн рублейЮрий Глоцер, бенефициар общества КБ «БФГ-Кредит» с долей 39,6% в уставном капитале, был признан банкротом в августе 2017 года. Ранее суд ",
       "reactionCount": 9,
-      "engagementRate": 0.00967741935483871
+      "engagementRate": 0.009656652360515022
     },
     {
       "id": "subsidiarka_kdl/4560",
@@ -168,7 +168,7 @@
         "ai_law",
         "compliance"
       ],
-      "priorityScore": 30.45,
+      "priorityScore": 30.35,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -215,7 +215,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 797,
+      "viewCount": 798,
       "tgLink": "https://t.me/corplawpro/5989",
       "channel": "corplawpro",
       "channelTitle": "Корпоративные споры • Case by Case",
@@ -229,17 +229,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 30.41,
+      "priorityScore": 30.31,
       "priorityReasons": [
         "Категория канала: compliance",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 797 просмотров"
+        "Охват в Telegram Web: 798 просмотров"
       ],
       "digestSummary": "Для исключения участника, действующего через подконтрольного директора, не требуется доказывания прямого сговора — достаточно совокупности косвенных доказательств согласованности их поведения#корпоративные_споры #исключе",
       "reactionCount": 6,
-      "engagementRate": 0.0075282308657465494
+      "engagementRate": 0.007518796992481203
     },
     {
       "id": "probankrotstvoru/9792",
@@ -285,7 +285,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 28.95,
+      "priorityScore": 28.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Арбитраж",
@@ -343,7 +343,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 27.95,
+      "priorityScore": 27.85,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -388,7 +388,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 122,
+      "viewCount": 123,
       "tgLink": "https://t.me/bankrotstvo_mustknow/493",
       "channel": "bankrotstvo_mustknow",
       "channelTitle": "Банкротство | Взгляд эксперта",
@@ -401,18 +401,18 @@
         "arbitration",
         "tax"
       ],
-      "priorityScore": 27.28,
+      "priorityScore": 27.19,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 122 просмотров",
-        "Сильная отдача аудитории: 7,4% реакций к просмотрам"
+        "Охват в Telegram Web: 123 просмотров",
+        "Сильная отдача аудитории: 7,3% реакций к просмотрам"
       ],
       "digestSummary": "Когда бывший директор отвечает за документы после своего ухода?Ю. Литовцева, руководитель, и А. Гаргасевич, специалист практики банкротства и антикризисной защиты бизнеса, рассматривают нюансы субсидиарной ответственност",
       "reactionCount": 9,
-      "engagementRate": 0.07377049180327869
+      "engagementRate": 0.07317073170731707
     },
     {
       "id": "vs_court/4959",
@@ -442,7 +442,7 @@
         "bankruptcy",
         "enforcement"
       ],
-      "priorityScore": 27.06,
+      "priorityScore": 26.96,
       "priorityReasons": [
         "Категория канала: courts",
         "Совпадение по теме: Суды",
@@ -516,7 +516,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 26.5,
+      "priorityScore": 26.4,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -553,7 +553,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 875,
+      "viewCount": 876,
       "tgLink": "https://t.me/sudpraktik_bankrot_demo/2654",
       "channel": "sudpraktik_bankrot_demo",
       "channelTitle": "Судебная практика по банкротству",
@@ -566,17 +566,17 @@
         "arbitration",
         "enforcement"
       ],
-      "priorityScore": 25.75,
+      "priorityScore": 25.65,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 875 просмотров"
+        "Охват в Telegram Web: 876 просмотров"
       ],
       "digestSummary": "Презумпция осведомленности другой стороны сделки о совершении этой сделки с целью причинить вред имущественным интересам кредиторов применяется, если другая сторона признана заинтересованным лицом либо если она знала или",
       "reactionCount": 2,
-      "engagementRate": 0.002285714285714286
+      "engagementRate": 0.00228310502283105
     },
     {
       "id": "probankrotstvoru/9794",
@@ -625,7 +625,7 @@
         "courts",
         "ai_law"
       ],
-      "priorityScore": 25.4,
+      "priorityScore": 25.3,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
@@ -688,7 +688,7 @@
         "ai_law",
         "enforcement"
       ],
-      "priorityScore": 25.23,
+      "priorityScore": 25.13,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: AI+Law",
