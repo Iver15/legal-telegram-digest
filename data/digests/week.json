@@ -1,8 +1,8 @@
 {
   "id": "week",
   "label": "Неделя",
-  "generatedAt": "2026-05-17T16:42:29.824Z",
-  "totalPosts": 217,
+  "generatedAt": "2026-05-17T17:45:35.736Z",
+  "totalPosts": 218,
   "topPosts": [
     {
       "id": "domnin_sa/546",
@@ -51,7 +51,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 717,
+      "viewCount": 718,
       "tgLink": "https://t.me/domnin_sa/546",
       "channel": "domnin_sa",
       "channelTitle": "domnin.sa | Сергей Дóмнин",
@@ -72,12 +72,12 @@
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
         "Высокая вовлечённость: 33 реакций",
-        "Охват в Telegram Web: 717 просмотров",
+        "Охват в Telegram Web: 718 просмотров",
         "Сильная отдача аудитории: 4,6% реакций к просмотрам"
       ],
       "digestSummary": "Все для рестракта, говорили они 🤷🏿‍♂️ЕФРСБ опубликовал информацию о том, что Минэк подготовил изменения в минипроект о реформе банкротства. После принятия которого, как нам обещают, характер нашего банкротства сразу ст",
       "reactionCount": 33,
-      "engagementRate": 0.04602510460251046
+      "engagementRate": 0.04596100278551532
     },
     {
       "id": "sudpraktik/3529",
@@ -103,7 +103,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 2660,
+      "viewCount": 2670,
       "tgLink": "https://t.me/sudpraktik/3529",
       "channel": "sudpraktik",
       "channelTitle": "СУДЕБНАЯ ПРАКТИКА",
@@ -124,11 +124,11 @@
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 2660 просмотров"
+        "Охват в Telegram Web: 2670 просмотров"
       ],
       "digestSummary": "Сама по себе недоказанность признаков неплатежеспособности или недостаточности имущества на момент совершения сделки не блокирует возможность квалификации такой сделки в качестве подозрительной Суть требования: о признан",
       "reactionCount": 5,
-      "engagementRate": 0.0018796992481203006
+      "engagementRate": 0.0018726591760299626
     },
     {
       "id": "insolvencylaw/622",
@@ -227,7 +227,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1050,
+      "viewCount": 1060,
       "tgLink": "https://t.me/probankrotstvoru/9798",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -241,17 +241,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.57,
+      "priorityScore": 31.56,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: Арбитраж",
         "Совпадение по теме: Суды",
-        "Охват в Telegram Web: 1050 просмотров"
+        "Охват в Telegram Web: 1060 просмотров"
       ],
       "digestSummary": "Кассация: погашение долга после иска о субсидиарке презюмирует связь с действиями КУФНС инициировала банкротство общества «Литмехмаш» из-за неуплаты НДС за 2018, 2021 и 2022 года. Суд в декабре 2023 года признал компанию",
       "reactionCount": 6,
-      "engagementRate": 0.005714285714285714
+      "engagementRate": 0.005660377358490566
     },
     {
       "id": "probankrotstvoru/9804",
@@ -274,7 +274,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 541,
+      "viewCount": 582,
       "tgLink": "https://t.me/probankrotstvoru/9804",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -287,17 +287,17 @@
         "ai_law",
         "tax"
       ],
-      "priorityScore": 31.46,
+      "priorityScore": 31.31,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 541 просмотров"
+        "Охват в Telegram Web: 582 просмотров"
       ],
       "digestSummary": "Продолжаем подборку самого интересного на портале: Разбор кейсовВС напомнил, как считать давность после отмены судебного приказаВерховный Суд указал, что после отмены судебного приказа срок исковой давности продолжается ",
       "reactionCount": 2,
-      "engagementRate": 0.0036968576709796672
+      "engagementRate": 0.003436426116838488
     },
     {
       "id": "probankrotstvoru/9799",
@@ -331,7 +331,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 1010,
+      "viewCount": 1020,
       "tgLink": "https://t.me/probankrotstvoru/9799",
       "channel": "probankrotstvoru",
       "channelTitle": "PROбанкротство",
@@ -345,17 +345,17 @@
         "tax",
         "enforcement"
       ],
-      "priorityScore": 31.25,
+      "priorityScore": 31.24,
       "priorityReasons": [
         "Категория канала: bankruptcy",
         "Совпадение по теме: Суды",
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
-        "Охват в Telegram Web: 1010 просмотров"
+        "Охват в Telegram Web: 1020 просмотров"
       ],
       "digestSummary": "Кассация признала сына Глоцера номинальным собственником квартиры за 160 млн рублейЮрий Глоцер, бенефициар общества КБ «БФГ-Кредит» с долей 39,6% в уставном капитале, был признан банкротом в августе 2017 года. Ранее суд ",
       "reactionCount": 9,
-      "engagementRate": 0.00891089108910891
+      "engagementRate": 0.008823529411764706
     },
     {
       "id": "probankrotstvoru/9788",
@@ -708,7 +708,7 @@
           "isPaid": false
         }
       ],
-      "viewCount": 146,
+      "viewCount": 147,
       "tgLink": "https://t.me/bankrotstvo_mustknow/492",
       "channel": "bankrotstvo_mustknow",
       "channelTitle": "Банкротство | Взгляд эксперта",
@@ -728,19 +728,19 @@
         "Совпадение по теме: Банкротство",
         "Совпадение по теме: AI+Law",
         "Совпадение по теме: Арбитраж",
-        "Охват в Telegram Web: 146 просмотров",
+        "Охват в Telegram Web: 147 просмотров",
         "Сильная отдача аудитории: 6,8% реакций к просмотрам"
       ],
       "digestSummary": "📨 Еженедельный обзор Банкротство: Взгляд эксперта О новых событиях сферы банкротства с авторскими рекомендациями от Ю. Литовцевой в еженедельном обзоре Банкротство: Взгляд эксперта от команды практики банкротства и анти",
       "reactionCount": 10,
-      "engagementRate": 0.0684931506849315
+      "engagementRate": 0.06802721088435375
     }
   ],
   "topTopics": [
     {
       "id": "courts",
       "label": "Суды",
-      "count": 202
+      "count": 203
     },
     {
       "id": "arbitration",
@@ -750,12 +750,12 @@
     {
       "id": "bankruptcy",
       "label": "Банкротство",
-      "count": 168
+      "count": 169
     },
     {
       "id": "ai_law",
       "label": "AI+Law",
-      "count": 166
+      "count": 167
     },
     {
       "id": "enforcement",
@@ -770,7 +770,7 @@
     {
       "id": "tax",
       "label": "Налоги",
-      "count": 31
+      "count": 32
     }
   ],
   "topChannels": [
@@ -802,7 +802,7 @@
     {
       "channel": "bankrovert",
       "title": "Банкроверт",
-      "count": 10
+      "count": 11
     },
     {
       "channel": "legally_bald",
