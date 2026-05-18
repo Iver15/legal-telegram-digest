@@ -16,38 +16,72 @@ const afterCursor = posts[0]?.id
   <slot name="header">
     <Header channel={channel} />
   </slot>
-  <ol class="feed-list" aria-label={isItem ? 'Пост' : 'Посты'}>
-    {
-      posts.map((post) => (
-        <li>
-          <Item post={post} isItem={isItem} />
-        </li>
-      ))
-    }
-  </ol>
+  {
+    posts.length === 0 ? (
+      <div class="list-empty" role="status">
+        <p class="list-empty__title">Пока пусто</p>
+        <p class="list-empty__hint">
+          <slot name="empty">По выбранным условиям постов не нашлось.</slot>
+        </p>
+        <a href={SITE_URL} class="nav-pill">
+          Вернуться к ленте
+        </a>
+      </div>
+    ) : (
+      <ol class="feed-list" aria-label={isItem ? 'Пост' : 'Посты'}>
+        {posts.map((post) => (
+          <li>
+            <Item post={post} isItem={isItem} />
+          </li>
+        ))}
+      </ol>
+    )
+  }
 
   <slot name="footer" />
 
-  <nav class="list-pagination" aria-label="Навигация по страницам">
-    {
-      before && beforeCursor ? (
-        <a href={`${paginationBase}before/${beforeCursor}/`} title="Назад" class="list-pagination__link">
-          Назад
-        </a>
-      ) : (
-        <span class="list-pagination__spacer">&nbsp;</span>
-      )
-    }
+  {
+    posts.length > 0 && (
+      <nav class="list-pagination" aria-label="Навигация по страницам">
+        {before && beforeCursor ? (
+          <a href={`${paginationBase}before/${beforeCursor}/`} title="Назад" class="list-pagination__link">
+            Назад
+          </a>
+        ) : (
+          <span class="list-pagination__spacer">&nbsp;</span>
+        )}
 
-    <div class="list-pagination__spacer"></div>
-    {
-      after && afterCursor ? (
-        <a href={`${paginationBase}after/${afterCursor}/`} title="Дальше" class="list-pagination__link">
-          Дальше
-        </a>
-      ) : (
-        <span class="list-pagination__spacer">&nbsp;</span>
-      )
-    }
-  </nav>
+        <div class="list-pagination__spacer" />
+        {after && afterCursor ? (
+          <a href={`${paginationBase}after/${afterCursor}/`} title="Дальше" class="list-pagination__link">
+            Дальше
+          </a>
+        ) : (
+          <span class="list-pagination__spacer">&nbsp;</span>
+        )}
+      </nav>
+    )
+  }
 </Layout>
+
+<style>
+  .list-empty {
+    display: grid;
+    gap: 0.75rem;
+    justify-items: start;
+    padding: 1.5rem 0;
+    color: var(--color-muted);
+  }
+  .list-empty__title {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-heading);
+  }
+  .list-empty__hint {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.55;
+    max-width: 60ch;
+  }
+</style>

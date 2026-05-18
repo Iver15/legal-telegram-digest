@@ -1,0 +1,89 @@
+---
+import Layout from '../layouts/base.astro'
+import { Icon } from 'astro-icon/components'
+import { getChannelData, getDigestTitle } from '../lib/data'
+
+const channel = getChannelData()
+channel.title = `${getDigestTitle()} - Страница не найдена`
+channel.description = 'Страница не найдена'
+channel.descriptionHTML = null
+channel.avatar = undefined
+channel.seo = { title: 'Страница не найдена', noindex: true }
+
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
+---
+
+<Layout channel={channel}>
+  <section class="not-found">
+    <p class="not-found__eyebrow">Ошибка</p>
+    <h1 class="not-found__code">404</h1>
+    <p class="not-found__title">Страница не найдена</p>
+    <p class="not-found__text">
+      Возможно, пост был удалён, тег ещё не появился в архиве или ссылка устарела. Откройте ленту или попробуйте поиск
+      по тегам.
+    </p>
+    <div class="not-found__actions">
+      <a href={SITE_URL} class="nav-pill">
+        <Icon name="ri:newspaper-line" style="width:1rem;height:1rem;margin-right:0.4rem;" />
+        К ленте
+      </a>
+      <a href={`${SITE_URL}hot/`} class="nav-pill">
+        <Icon name="ri:fire-line" style="width:1rem;height:1rem;margin-right:0.4rem;" />
+        Главное
+      </a>
+      <a href={`${SITE_URL}tags`} class="nav-pill">
+        <Icon name="ri:hashtag" style="width:1rem;height:1rem;margin-right:0.4rem;" />
+        Теги
+      </a>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .not-found {
+    display: grid;
+    gap: 0.7rem;
+    justify-items: start;
+    padding: clamp(1.25rem, 2vw + 0.5rem, 2.5rem) clamp(1rem, 0.7vw + 0.84rem, 1.4rem);
+    border: 1px solid var(--color-line);
+    border-bottom: 2px solid var(--color-heading);
+    background: var(--color-surface);
+  }
+  .not-found__eyebrow {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--color-accent);
+  }
+  .not-found__code {
+    margin: 0;
+    color: var(--color-heading);
+    font-family: var(--font-sans);
+    font-size: clamp(3.5rem, 10vw + 1rem, 7rem);
+    font-weight: 800;
+    line-height: 0.85;
+    letter-spacing: -0.05em;
+  }
+  .not-found__title {
+    margin: 0;
+    font-size: clamp(1.15rem, 1vw + 0.9rem, 1.55rem);
+    font-weight: 700;
+    color: var(--color-heading);
+  }
+  .not-found__text {
+    margin: 0;
+    max-width: 56ch;
+    color: var(--color-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  .not-found__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin-top: 0.65rem;
+  }
+</style>

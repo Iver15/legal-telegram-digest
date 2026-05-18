@@ -1,0 +1,184 @@
+---
+import Layout from '../../layouts/base.astro'
+import { Icon } from 'astro-icon/components'
+import { getAllChannels, getAllPosts, getChannelData, getDigestTitle } from '../../lib/data'
+import { resizeRemoteImage } from '../../lib/ui'
+
+const allPosts = getAllPosts()
+const channels = getAllChannels()
+  .filter((channel) => channel.postCount > 0)
+  .map((channel) => {
+    const channelPosts = allPosts.filter((post) => post.channel === channel.name)
+    const lastPostAt = channelPosts[0]?.datetime
+    return { ...channel, lastPostAt }
+  })
+  .sort((a, b) => b.postCount - a.postCount || a.name.localeCompare(b.name, 'ru'))
+
+const channel = getChannelData()
+channel.title = `${getDigestTitle()} - Каналы`
+channel.description = `Все источники, включённые в дайджест: ${channels.length} каналов.`
+channel.descriptionHTML = null
+channel.avatar = undefined
+channel.seo = { title: 'Каналы' }
+
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
+
+function pluralRu(n: number, forms: [string, string, string]): string {
+  const n10 = n % 10
+  const n100 = n % 100
+  if (n10 === 1 && n100 !== 11) return forms[0]
+  if (n10 >= 2 && n10 <= 4 && (n100 < 12 || n100 > 14)) return forms[1]
+  return forms[2]
+}
+
+const lastUpdate = channels.reduce<string | undefined>((latest, c) => {
+  if (!c.lastPostAt) return latest
+  if (!latest || c.lastPostAt > latest) return c.lastPostAt
+  return latest
+}, undefined)
+const lastUpdateFmt = lastUpdate ? new Date(lastUpdate).toLocaleDateString('ru-RU') : null
+---
+
+<Layout channel={channel}>
+  <div class="page-stack">
+    <section class="page-hero">
+      <div class="page-hero__header">
+        <div class="page-hero__copy">
+          <p class="page-hero__eyebrow">Источники</p>
+          <h1 class="page-hero__title">Каналы</h1>
+          <p class="page-hero__description">
+            {channels.length}
+            {pluralRu(channels.length, ['канал', 'канала', 'каналов'])} в архиве, отсортированы по числу постов.
+            {lastUpdateFmt ? ` Последнее обновление: ${lastUpdateFmt}.` : ''}
+          </p>
+        </div>
+        <div class="page-hero__nav">
+          <a href={SITE_URL} class="nav-pill">Лента</a>
+          <a href={`${SITE_URL}compare/`} class="nav-pill">Сравнить</a>
+          <a href={`${SITE_URL}stats/`} class="nav-pill">Статистика</a>
+        </div>
+      </div>
+    </section>
+
+    <ul class="channels-grid" role="list">
+      {
+        channels.map((item) => {
+          const lastFmt = item.lastPostAt ? new Date(item.lastPostAt).toLocaleDateString('ru-RU') : null
+          const postsLabel = pluralRu(item.postCount, ['пост', 'поста', 'постов'])
+          return (
+            <li>
+              <a href={`${SITE_URL}channels/${item.name}/`} class="channels-card">
+                {item.avatar ? (
+                  <img
+                    src={resizeRemoteImage(item.avatar, 48)}
+                    alt={item.title}
+                    class="channels-card__avatar"
+                    loading="lazy"
+                    decoding="async"
+                    width="48"
+                    height="48"
+                  />
+                ) : (
+                  <span class="channels-card__avatar channels-card__avatar--empty" aria-hidden="true">
+                    <Icon name="ri:hashtag" style="width:1.2rem;height:1.2rem;" />
+                  </span>
+                )}
+                <div class="channels-card__body">
+                  <strong class="channels-card__title">{item.title}</strong>
+                  <span class="channels-card__handle">@{item.name}</span>
+                  <span class="channels-card__meta">
+                    <span class="channels-card__count">
+                      {item.postCount} {postsLabel}
+                    </span>
+                    {item.category && <span class="badge">{item.category}</span>}
+                    {lastFmt && <span class="channels-card__last">обновлён {lastFmt}</span>}
+                  </span>
+                </div>
+              </a>
+            </li>
+          )
+        })
+      }
+    </ul>
+  </div>
+</Layout>
+
+<style>
+  .channels-grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: var(--panel-gap);
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  }
+  .channels-card {
+    display: grid;
+    grid-template-columns: 3rem minmax(0, 1fr);
+    gap: 0.85rem;
+    padding: 0.85rem 1rem;
+    border: 1px solid var(--color-line);
+    background: var(--color-surface);
+    color: inherit;
+    text-decoration: none;
+    transition:
+      background 120ms ease,
+      border-color 120ms ease;
+  }
+  .channels-card:hover {
+    background: var(--color-chip);
+    border-color: var(--color-heading);
+    text-decoration: none;
+  }
+  .channels-card__avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 999px;
+    object-fit: cover;
+    border: 1px solid var(--color-line-light);
+  }
+  .channels-card__avatar--empty {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-chip);
+    color: var(--color-muted);
+  }
+  .channels-card__body {
+    display: grid;
+    gap: 0.18rem;
+    min-width: 0;
+  }
+  .channels-card__title {
+    color: var(--color-heading);
+    font-size: 0.95rem;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .channels-card__handle {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--color-accent);
+    letter-spacing: 0.04em;
+  }
+  .channels-card__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    align-items: center;
+    margin-top: 0.32rem;
+    font-size: 0.78rem;
+    color: var(--color-muted);
+  }
+  .channels-card__count {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    color: var(--color-heading);
+  }
+  .channels-card__last {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+  }
+</style>

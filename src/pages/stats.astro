@@ -2,6 +2,7 @@
 import Layout from '../layouts/base.astro'
 import { getAllCategories, getAllChannels, getAllPosts, getChannelData, getDigestTitle } from '../lib/data'
 import { formatCompactNumberRu, formatPercentRu } from '../lib/metrics'
+import { resizeRemoteImage } from '../lib/ui'
 
 const allPosts = getAllPosts()
 const channels = getAllChannels().filter((channel) => channel.postCount > 0)
@@ -58,6 +59,7 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
         <div class="page-hero__nav">
           <a href={SITE_URL} class="nav-pill">Лента</a>
           <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
+          <a href={`${SITE_URL}channels/`} class="nav-pill">Каналы</a>
           <a href={`${SITE_URL}compare/`} class="nav-pill">Сравнить</a>
         </div>
       </div>
@@ -79,35 +81,63 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
     <section class="surface-card section-stack">
       <h2 style="margin:0;font-size:1.02rem;">Посты по каналам</h2>
       {
-        channels.map((item) => (
-          <div class="stats-bar-row">
-            <span class="stats-channel">
-              {item.avatar && (
-                <img src={item.avatar} alt={item.title} class="stats-avatar" loading="lazy" width="28" height="28" />
-              )}
-              <span>@{item.name}</span>
-            </span>
-            <div class="stats-bar-track">
-              <div class="stats-bar-fill" style={`width:${Math.round((item.postCount / maxChannelPosts) * 100)}%;`} />
+        channels.map((item) => {
+          const pct = Math.round((item.postCount / maxChannelPosts) * 100)
+          return (
+            <div class="stats-bar-row">
+              <span class="stats-channel">
+                {item.avatar && (
+                  <img
+                    src={resizeRemoteImage(item.avatar, 28)}
+                    alt={item.title}
+                    class="stats-avatar"
+                    loading="lazy"
+                    decoding="async"
+                    width="28"
+                    height="28"
+                  />
+                )}
+                <span>@{item.name}</span>
+              </span>
+              <div
+                class="stats-bar-track"
+                role="progressbar"
+                aria-label={`Постов в канале @${item.name}: ${item.postCount}`}
+                aria-valuenow={item.postCount}
+                aria-valuemin="0"
+                aria-valuemax={maxChannelPosts}
+              >
+                <div class="stats-bar-fill" style={`width:${pct}%;`} />
+              </div>
+              <strong>{item.postCount}</strong>
             </div>
-            <strong>{item.postCount}</strong>
-          </div>
-        ))
+          )
+        })
       }
     </section>
 
     <section class="surface-card section-stack">
       <h2 style="margin:0;font-size:1.02rem;">Посты по темам</h2>
       {
-        categories.map((item) => (
-          <div class="stats-bar-row">
-            <span>{item.label}</span>
-            <div class="stats-bar-track">
-              <div class="stats-bar-fill" style={`width:${Math.round((item.count / maxCategoryCount) * 100)}%;`} />
+        categories.map((item) => {
+          const pct = Math.round((item.count / maxCategoryCount) * 100)
+          return (
+            <div class="stats-bar-row">
+              <span>{item.label}</span>
+              <div
+                class="stats-bar-track"
+                role="progressbar"
+                aria-label={`Постов в теме «${item.label}»: ${item.count}`}
+                aria-valuenow={item.count}
+                aria-valuemin="0"
+                aria-valuemax={maxCategoryCount}
+              >
+                <div class="stats-bar-fill" style={`width:${pct}%;`} />
+              </div>
+              <strong>{item.count}</strong>
             </div>
-            <strong>{item.count}</strong>
-          </div>
-        ))
+          )
+        })
       }
     </section>
 
@@ -115,23 +145,38 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
       channelsByViews.length > 0 && (
         <section class="surface-card section-stack">
           <h2 style="margin:0;font-size:1.02rem;">Средний охват по каналам</h2>
-          {channelsByViews.map((item) => (
-            <div class="stats-bar-row">
-              <span class="stats-channel">
-                {item.avatar && (
-                  <img src={item.avatar} alt={item.title} class="stats-avatar" loading="lazy" width="28" height="28" />
-                )}
-                <span>@{item.name}</span>
-              </span>
-              <div class="stats-bar-track">
+          {channelsByViews.map((item) => {
+            const pct = Math.round(((item.avgViews || 0) / maxAverageViews) * 100)
+            return (
+              <div class="stats-bar-row">
+                <span class="stats-channel">
+                  {item.avatar && (
+                    <img
+                      src={resizeRemoteImage(item.avatar, 28)}
+                      alt={item.title}
+                      class="stats-avatar"
+                      loading="lazy"
+                      decoding="async"
+                      width="28"
+                      height="28"
+                    />
+                  )}
+                  <span>@{item.name}</span>
+                </span>
                 <div
-                  class="stats-bar-fill"
-                  style={`width:${Math.round(((item.avgViews || 0) / maxAverageViews) * 100)}%;`}
-                />
+                  class="stats-bar-track"
+                  role="progressbar"
+                  aria-label={`Средний охват @${item.name}: ${formatCompactNumberRu(item.avgViews)}`}
+                  aria-valuenow={Math.round(item.avgViews || 0)}
+                  aria-valuemin="0"
+                  aria-valuemax={Math.round(maxAverageViews)}
+                >
+                  <div class="stats-bar-fill" style={`width:${pct}%;`} />
+                </div>
+                <strong>{formatCompactNumberRu(item.avgViews)}</strong>
               </div>
-              <strong>{formatCompactNumberRu(item.avgViews)}</strong>
-            </div>
-          ))}
+            )
+          })}
         </section>
       )
     }
@@ -140,23 +185,38 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
       channelsByEngagement.length > 0 && (
         <section class="surface-card section-stack">
           <h2 style="margin:0;font-size:1.02rem;">Средняя вовлечённость по каналам</h2>
-          {channelsByEngagement.map((item) => (
-            <div class="stats-bar-row">
-              <span class="stats-channel">
-                {item.avatar && (
-                  <img src={item.avatar} alt={item.title} class="stats-avatar" loading="lazy" width="28" height="28" />
-                )}
-                <span>@{item.name}</span>
-              </span>
-              <div class="stats-bar-track">
+          {channelsByEngagement.map((item) => {
+            const pct = Math.round(((item.avgEngagement || 0) / maxAverageEngagement) * 100)
+            return (
+              <div class="stats-bar-row">
+                <span class="stats-channel">
+                  {item.avatar && (
+                    <img
+                      src={resizeRemoteImage(item.avatar, 28)}
+                      alt={item.title}
+                      class="stats-avatar"
+                      loading="lazy"
+                      decoding="async"
+                      width="28"
+                      height="28"
+                    />
+                  )}
+                  <span>@{item.name}</span>
+                </span>
                 <div
-                  class="stats-bar-fill"
-                  style={`width:${Math.round(((item.avgEngagement || 0) / maxAverageEngagement) * 100)}%;`}
-                />
+                  class="stats-bar-track"
+                  role="progressbar"
+                  aria-label={`Средняя вовлечённость @${item.name}: ${formatPercentRu(item.avgEngagement, 1)}`}
+                  aria-valuenow={Math.round((item.avgEngagement || 0) * 10000) / 100}
+                  aria-valuemin="0"
+                  aria-valuemax={Math.round(maxAverageEngagement * 10000) / 100}
+                >
+                  <div class="stats-bar-fill" style={`width:${pct}%;`} />
+                </div>
+                <strong>{formatPercentRu(item.avgEngagement, 1)}</strong>
               </div>
-              <strong>{formatPercentRu(item.avgEngagement, 1)}</strong>
-            </div>
-          ))}
+            )
+          })}
         </section>
       )
     }
@@ -185,6 +245,7 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
     color: var(--color-heading);
     font-size: 0.84rem;
     text-align: right;
+    font-variant-numeric: tabular-nums;
   }
   .stats-bar-track {
     height: 12px;
@@ -200,6 +261,12 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
     display: flex;
     align-items: center;
     gap: 0.55rem;
+    min-width: 0;
+  }
+  .stats-channel > span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .stats-avatar {
     width: 28px;
@@ -207,14 +274,26 @@ const maxAverageEngagement = Math.max(...channelsByEngagement.map((item) => item
     border-radius: 999px;
     object-fit: cover;
     border: 1px solid var(--color-line-light);
+    flex-shrink: 0;
   }
   @media (max-width: 768px) {
     .stats-bar-row {
-      grid-template-columns: 1fr;
-      gap: 0.45rem;
+      grid-template-columns: minmax(0, 1fr) minmax(3rem, auto);
+      grid-template-areas:
+        'label   value'
+        'track   track';
+      gap: 0.35rem 0.6rem;
+    }
+    .stats-bar-row > :first-child {
+      grid-area: label;
+    }
+    .stats-bar-track {
+      grid-area: track;
+      height: 8px;
     }
     .stats-bar-row strong {
-      text-align: left;
+      grid-area: value;
+      font-size: 0.82rem;
     }
   }
 </style>

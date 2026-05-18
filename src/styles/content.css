@@ -1,4 +1,11 @@
-@import 'prismjs/themes/prism.css';
+/*
+ * Prism syntax-highlighting theme (prismjs/themes/prism.css) is intentionally
+ * NOT imported here. The data pipeline runs prism.highlight on <pre> blocks
+ * server-side, but the corpus contains zero code posts. Shipping the theme
+ * to every visitor (~2.8 KB of render-blocking CSS) costs more than it
+ * earns. If a code post appears later, the <pre> still renders cleanly via
+ * the .content pre rules below — colors are the only thing that drops.
+ */
 
 .content {
   --content-measure: 100%;
@@ -449,7 +456,12 @@
 
   .image-gallery-nav:disabled {
     opacity: 0.35;
-    cursor: default;
+    cursor: not-allowed;
+  }
+
+  .image-gallery-nav:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
   }
 
   .image-gallery-nav--prev {

@@ -1,10 +1,12 @@
 ---
 import { Icon } from 'astro-icon/components'
 import voidFile from '../assets/void.png'
+import { resizeRemoteImage } from '../lib/ui'
 
 const SITE_URL = import.meta.env.BASE_URL ?? '/'
 const RSS_URL = `${SITE_URL}rss.xml`
 const { channel } = Astro.props
+const headerAvatar = channel?.avatar?.startsWith('http') ? resizeRemoteImage(channel.avatar, 40) : voidFile.src
 
 const TWITTER = import.meta.env.TWITTER
 const GITHUB = import.meta.env.GITHUB
@@ -77,10 +79,11 @@ const socialLinks = [
 <header class="channel-header">
   <a href={SITE_URL} title={channel?.title}>
     <img
-      src={channel?.avatar?.startsWith('http') ? channel?.avatar : voidFile.src}
+      src={headerAvatar}
       alt={channel?.title}
       loading="eager"
       fetchpriority="high"
+      decoding="async"
       width="40"
       height="40"
       class="channel-header__avatar"
@@ -89,23 +92,25 @@ const socialLinks = [
   <a href={SITE_URL} class="channel-header__title" title={channel?.title}>
     {channel?.title}
   </a>
-  <nav class="channel-header__nav" aria-label="Ссылки канала">
-    {
-      socialLinks.map((item) => (
-        <a
-          href={item.href}
-          title={item.title}
-          target="_blank"
-          rel={item.rel}
-          type={item.type}
-          aria-label={item.label}
-          class="channel-header__social"
-        >
-          <Icon name={item.icon} class="channel-header__social-icon" aria-hidden="true" />
-        </a>
-      ))
-    }
-  </nav>
+  {
+    socialLinks.length > 0 && (
+      <nav class="channel-header__nav" aria-label="Ссылки канала">
+        {socialLinks.map((item) => (
+          <a
+            href={item.href}
+            title={item.title}
+            target="_blank"
+            rel={item.rel}
+            type={item.type}
+            aria-label={item.label}
+            class="channel-header__social"
+          >
+            <Icon name={item.icon} class="channel-header__social-icon" aria-hidden="true" />
+          </a>
+        ))}
+      </nav>
+    )
+  }
 </header>
 
 {

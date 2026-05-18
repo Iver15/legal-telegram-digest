@@ -45,6 +45,7 @@ const hotPathname = normalizePathname(new URL('hot', absoluteSiteUrl).pathname)
 const statsPathname = normalizePathname(new URL('stats', absoluteSiteUrl).pathname)
 const comparePathname = normalizePathname(new URL('compare', absoluteSiteUrl).pathname)
 const digestsPathname = normalizePathname(new URL('digests', absoluteSiteUrl).pathname)
+const channelsPathname = normalizePathname(new URL('channels', absoluteSiteUrl).pathname)
 
 const seoParams = {
   title: pageTitle,
@@ -98,6 +99,31 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#FFFFFF" />
     <link rel="alternate" type="application/rss+xml" title={channel?.title} href={RSS_URL} />
+    <!-- Inline anti-FOUC theme bootstrap (set data-theme before paint) -->
+    <script
+      is:inline
+      set:html={`(function(){try{var s=localStorage.getItem('theme-preference');var t=s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(_){}})()`}
+    />
+    <!-- Font loading: preconnect first, then stylesheet, both in <head> so
+         they parallelize with app.css instead of waiting for its @import. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- wsrv.nl serves every avatar on every page; preconnect saves the TLS
+         handshake before the first <img> triggers a fetch. -->
+    <link rel="preconnect" href="https://wsrv.nl" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap"
+    />
+    <!-- Resolve the remaining image/emoji CDNs early. wsrv.nl already has
+         a full preconnect above; these are lighter dns-prefetch hints. -->
+    <link rel="dns-prefetch" href="https://cdn4.telesco.pe" />
+    <link rel="dns-prefetch" href="https://t.me" />
     <SEO
       titleTemplate={hasCustomTitle ? `%s | ${siteTitle}` : undefined}
       titleDefault={siteTitle || seoParams.description}
@@ -108,7 +134,9 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
       {...seoParams}
     />
     <Fragment set:html={HEADER_INJECT} />
-    <script is:inline src={`${import.meta.env.BASE_URL ?? '/'}theme.js`}></script>
+    <!-- Full theme controller (icon swap, meta-color sync, toggle handler) is
+         deferred — the inline bootstrap above already applied the theme. -->
+    <script is:inline defer src={`${import.meta.env.BASE_URL ?? '/'}theme.js`}></script>
   </head>
 
   <body>
@@ -145,31 +173,47 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
           <div class="sidebar__label">Навигация</div>
           <ul class="sidebar-nav">
             <li class:list={[currentPathname === siteRootPathname && 'active']}>
-              <a href={SITE_URL}>Лента</a>
+              <a href={SITE_URL} aria-current={currentPathname === siteRootPathname ? 'page' : undefined}>Лента</a>
             </li>
             <li class:list={[currentPathname === digestsPathname && 'active']}>
-              <a href={`${SITE_URL}digests/`}>Дайджесты</a>
+              <a href={`${SITE_URL}digests/`} aria-current={currentPathname === digestsPathname ? 'page' : undefined}
+                >Дайджесты</a
+              >
             </li>
             <li class:list={[currentPathname === hotPathname && 'active']}>
-              <a href={`${SITE_URL}hot/`}>Главное</a>
+              <a href={`${SITE_URL}hot/`} aria-current={currentPathname === hotPathname ? 'page' : undefined}>Главное</a
+              >
+            </li>
+            <li class:list={[currentPathname === channelsPathname && 'active']}>
+              <a href={`${SITE_URL}channels/`} aria-current={currentPathname === channelsPathname ? 'page' : undefined}
+                >Каналы</a
+              >
             </li>
             <li class:list={[currentPathname === comparePathname && 'active']}>
-              <a href={`${SITE_URL}compare/`}>Сравнить</a>
+              <a href={`${SITE_URL}compare/`} aria-current={currentPathname === comparePathname ? 'page' : undefined}
+                >Сравнить</a
+              >
             </li>
             <li class:list={[currentPathname === statsPathname && 'active']}>
-              <a href={`${SITE_URL}stats/`}>Статистика</a>
+              <a href={`${SITE_URL}stats/`} aria-current={currentPathname === statsPathname ? 'page' : undefined}
+                >Статистика</a
+              >
             </li>
             {
               TAGS ? (
                 <li class:list={[currentPathname === tagsPathname && 'active']}>
-                  <a href={`${SITE_URL}tags`}>Теги</a>
+                  <a href={`${SITE_URL}tags`} aria-current={currentPathname === tagsPathname ? 'page' : undefined}>
+                    Теги
+                  </a>
                 </li>
               ) : null
             }
             {
               LINKS ? (
                 <li class:list={[currentPathname === linksPathname && 'active']}>
-                  <a href={`${SITE_URL}links`}>Ссылки</a>
+                  <a href={`${SITE_URL}links`} aria-current={currentPathname === linksPathname ? 'page' : undefined}>
+                    Ссылки
+                  </a>
                 </li>
               ) : null
             }
@@ -187,7 +231,13 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
 
         <div class="sidebar__section">
           <div class="sidebar__label">Поиск</div>
-          <form action={`${SITE_URL}search/result`} method="get" role="search">
+          <form
+            id="sidebar-search-form"
+            action={`${SITE_URL}search/`}
+            method="get"
+            role="search"
+            data-search-base={`${SITE_URL}search/`}
+          >
             <label class="sr-only" for="search-query">Поиск</label>
             <input
               id="search-query"
@@ -202,7 +252,14 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
           </form>
         </div>
 
-        <button id="theme-toggle" class="theme-btn" onclick="toggleTheme()">Dark / Light</button>
+        <button
+          id="theme-toggle"
+          type="button"
+          class="theme-btn"
+          onclick="toggleTheme()"
+          aria-label="Переключить тему"
+          title="Переключить тему">Тема</button
+        >
 
         <div class="sidebar-footer">
           Основано на
@@ -224,37 +281,42 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
         <a
           href={SITE_URL}
           class:list={['mobile-dock__link', currentPathname === siteRootPathname && 'mobile-dock__link--active']}
+          aria-current={currentPathname === siteRootPathname ? 'page' : undefined}
         >
-          <Icon name="ri:newspaper-line" class="mobile-dock__icon" />
+          <Icon name="ri:newspaper-line" class="mobile-dock__icon" aria-hidden="true" />
           <span>Лента</span>
         </a>
         <a
           href={`${SITE_URL}digests/`}
           class:list={['mobile-dock__link', currentPathname === digestsPathname && 'mobile-dock__link--active']}
+          aria-current={currentPathname === digestsPathname ? 'page' : undefined}
         >
-          <Icon name="ri:calendar-line" class="mobile-dock__icon" />
+          <Icon name="ri:calendar-line" class="mobile-dock__icon" aria-hidden="true" />
           <span>Дайджесты</span>
         </a>
         <a
           href={`${SITE_URL}hot/`}
           class:list={['mobile-dock__link', currentPathname === hotPathname && 'mobile-dock__link--active']}
+          aria-current={currentPathname === hotPathname ? 'page' : undefined}
         >
-          <Icon name="ri:fire-line" class="mobile-dock__icon" />
+          <Icon name="ri:fire-line" class="mobile-dock__icon" aria-hidden="true" />
           <span>Главное</span>
         </a>
         <a
           href={`${SITE_URL}compare/`}
           class:list={['mobile-dock__link', currentPathname === comparePathname && 'mobile-dock__link--active']}
+          aria-current={currentPathname === comparePathname ? 'page' : undefined}
         >
-          <Icon name="ri:scales-3-line" class="mobile-dock__icon" />
+          <Icon name="ri:scales-3-line" class="mobile-dock__icon" aria-hidden="true" />
           <span>Сравнить</span>
         </a>
         <a
-          href={`${SITE_URL}stats/`}
-          class:list={['mobile-dock__link', currentPathname === statsPathname && 'mobile-dock__link--active']}
+          href={`${SITE_URL}channels/`}
+          class:list={['mobile-dock__link', currentPathname === channelsPathname && 'mobile-dock__link--active']}
+          aria-current={currentPathname === channelsPathname ? 'page' : undefined}
         >
-          <Icon name="ri:bar-chart-box-line" class="mobile-dock__icon" />
-          <span>Стат.</span>
+          <Icon name="ri:list-check-2" class="mobile-dock__icon" aria-hidden="true" />
+          <span>Каналы</span>
         </a>
       </div>
     </nav>
@@ -287,6 +349,7 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
       // Image gallery: horizontal carousel for posts with multiple images
       ;(function () {
         var containers = document.querySelectorAll('.image-list-container')
+        var prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches
         containers.forEach(function (container) {
           var buttons = container.querySelectorAll('.image-preview-button')
           if (buttons.length <= 1 || !container.parentNode) return
@@ -312,10 +375,21 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
 
           var status = document.createElement('div')
           status.className = 'image-gallery-status'
+          // Announce slide changes for assistive tech without taking focus.
+          status.setAttribute('aria-live', 'polite')
+          status.setAttribute('aria-atomic', 'true')
 
           shell.appendChild(prev)
           shell.appendChild(next)
           shell.appendChild(status)
+
+          // Region label for assistive tech. We bind keydown to the shell
+          // (events bubble from the slide / nav buttons), so we don't make
+          // the shell itself focusable — that would add a pointless tab
+          // stop on top of the buttons already inside.
+          shell.setAttribute('role', 'region')
+          shell.setAttribute('aria-roledescription', 'Карусель изображений')
+          shell.setAttribute('aria-label', `Изображения поста (${buttons.length})`)
 
           function getCurrentIndex() {
             var index = Math.round(container.scrollLeft / Math.max(container.clientWidth, 1))
@@ -332,7 +406,11 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
           function scrollToIndex(index) {
             var target = buttons[index]
             if (!target) return
-            target.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })
+            target.scrollIntoView({
+              behavior: prefersReducedMotion ? 'auto' : 'smooth',
+              block: 'nearest',
+              inline: 'start',
+            })
           }
 
           prev.addEventListener('click', function () {
@@ -343,16 +421,50 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
             scrollToIndex(getCurrentIndex() + 1)
           })
 
+          // Coalesce scroll into one rAF per frame.
+          var pending = false
           container.addEventListener(
             'scroll',
             function () {
-              window.requestAnimationFrame(updateState)
+              if (pending) return
+              pending = true
+              window.requestAnimationFrame(function () {
+                pending = false
+                updateState()
+              })
             },
             { passive: true },
           )
 
+          // Arrow-key navigation when the carousel region has focus.
+          shell.addEventListener('keydown', function (e) {
+            if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return
+            // Don't steal arrow keys from inputs nested inside (none today,
+            // but defensive — and avoids fighting native scroll on the
+            // <button> inner image).
+            var t = e.target
+            if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA')) return
+            e.preventDefault()
+            scrollToIndex(getCurrentIndex() + (e.key === 'ArrowLeft' ? -1 : 1))
+          })
+
           window.addEventListener('resize', updateState, { passive: true })
           updateState()
+        })
+      })()
+      ;(function () {
+        // Sidebar search submits to /search/{q}/ because the static site
+        // generates one page per known tag/channel. Without this handler the
+        // browser would GET /search/?q=foo and 404.
+        var form = document.getElementById('sidebar-search-form')
+        if (!form) return
+        form.addEventListener('submit', function (event) {
+          var input = form.querySelector('input[name="q"]')
+          var q = (input && input.value ? input.value : '').trim()
+          if (!q) return
+          event.preventDefault()
+          var base = form.getAttribute('data-search-base') || '/search/'
+          window.location.href = `${base}${encodeURIComponent(q)}/`
         })
       })()
       ;(function () {
@@ -361,25 +473,39 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
         var circumference = 2 * Math.PI * 16
         ring.style.strokeDasharray = circumference
         ring.style.strokeDashoffset = circumference
+        // Coalesce scroll → one DOM write per frame instead of per event.
+        var pending = false
+        function update() {
+          pending = false
+          var h = document.documentElement.scrollHeight - window.innerHeight
+          var pct = h > 0 ? window.scrollY / h : 0
+          ring.style.strokeDashoffset = circumference * (1 - pct)
+        }
         window.addEventListener(
           'scroll',
           function () {
-            var h = document.documentElement.scrollHeight - window.innerHeight
-            var pct = h > 0 ? window.scrollY / h : 0
-            ring.style.strokeDashoffset = circumference * (1 - pct)
+            if (pending) return
+            pending = true
+            window.requestAnimationFrame(update)
           },
           { passive: true },
         )
       })()
     </script>
-    <script is:inline src={`${import.meta.env.BASE_URL}pwa.js`}></script>
-    <div id="install-banner" class="install-banner">
+    <script is:inline defer src={`${import.meta.env.BASE_URL}pwa.js`}></script>
+    <div id="install-banner" class="install-banner" role="region" aria-label="Установить приложение">
       <div class="install-banner__copy">
         <div class="install-banner__title">{siteMeta.shortTitle || siteMeta.title}</div>
         <div class="install-banner__text">Установите сайт как приложение для быстрого чтения и офлайн-доступа</div>
       </div>
-      <button onclick="installApp()" class="install-banner__primary">Установить</button>
-      <button onclick="dismissInstall()" class="install-banner__dismiss" aria-label="Close">&times;</button>
+      <button type="button" onclick="installApp()" class="install-banner__primary">Установить</button>
+      <button
+        type="button"
+        onclick="dismissInstall()"
+        class="install-banner__dismiss"
+        aria-label="Закрыть"
+        title="Закрыть">&times;</button
+      >
     </div>
   </body>
 </html>

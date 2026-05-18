@@ -2,6 +2,7 @@
 import Layout from '../layouts/base.astro'
 import { getAllChannels, getAllPosts, getChannelData, getDigestTitle } from '../lib/data'
 import { formatCompactNumberRu, formatPercentRu } from '../lib/metrics'
+import { resizeRemoteImage } from '../lib/ui'
 
 const channels = getAllChannels().filter((channel) => channel.postCount > 0)
 const posts = getAllPosts()
@@ -64,12 +65,13 @@ const rows = channels
         <div class="page-hero__nav">
           <a href={SITE_URL} class="nav-pill">Лента</a>
           <a href={`${SITE_URL}digests/`} class="nav-pill">Дайджесты</a>
+          <a href={`${SITE_URL}channels/`} class="nav-pill">Каналы</a>
           <a href={`${SITE_URL}stats/`} class="nav-pill">Статистика</a>
         </div>
       </div>
     </section>
 
-    <div class="surface-card table-card" style="overflow-x:auto;-webkit-overflow-scrolling:touch;">
+    <div class="surface-card table-card compare-scroll">
       <table class="data-table compare-table" style="min-width:56rem;" data-sortable-table>
         <thead>
           <tr>
@@ -141,10 +143,11 @@ const rows = channels
                   <a href={`${SITE_URL}channels/${row.name}/`} class="compare-channel">
                     {row.avatar && (
                       <img
-                        src={row.avatar}
+                        src={resizeRemoteImage(row.avatar, 32)}
                         alt={row.title}
                         class="compare-avatar"
                         loading="lazy"
+                        decoding="async"
                         width="32"
                         height="32"
                       />
@@ -239,6 +242,33 @@ const rows = channels
 </script>
 
 <style>
+  .compare-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    /* Scroll edge hint: subtle fade indicates more table to the right/left */
+    background:
+      linear-gradient(to right, var(--color-paper) 30%, rgba(255, 255, 255, 0)) left center / 2rem 100% no-repeat,
+      linear-gradient(to left, var(--color-paper) 30%, rgba(255, 255, 255, 0)) right center / 2rem 100% no-repeat,
+      radial-gradient(farthest-side at 0 50%, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0)) left center / 0.85rem 60% no-repeat,
+      radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0)) right center / 0.85rem 60%
+        no-repeat;
+    background-attachment: local, local, scroll, scroll;
+  }
+  html[data-theme='dark'] .compare-scroll {
+    background:
+      linear-gradient(to right, var(--color-paper) 30%, rgba(0, 0, 0, 0)) left center / 2rem 100% no-repeat,
+      linear-gradient(to left, var(--color-paper) 30%, rgba(0, 0, 0, 0)) right center / 2rem 100% no-repeat,
+      radial-gradient(farthest-side at 0 50%, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0)) left center / 0.85rem
+        60% no-repeat,
+      radial-gradient(farthest-side at 100% 50%, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0)) right center /
+        0.85rem 60% no-repeat;
+    background-attachment: local, local, scroll, scroll;
+  }
+  @media (max-width: 768px) {
+    .compare-scroll {
+      background: none;
+    }
+  }
   .compare-channel {
     display: flex;
     align-items: center;
@@ -276,12 +306,16 @@ const rows = channels
     font: inherit;
     text-transform: inherit;
     letter-spacing: inherit;
+    cursor: pointer;
   }
   .compare-sort::after {
     content: '↕';
-    opacity: 0.45;
+    /* Always visible — mobile users have no hover state to discover sort
+       affordance. ~0.7 contrast keeps it from competing with the label. */
+    opacity: 0.7;
     font-size: 0.85em;
     line-height: 1;
+    color: var(--color-muted);
   }
   .compare-sort.is-active::after {
     content: '↓';
