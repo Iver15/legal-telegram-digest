@@ -69,7 +69,7 @@ const rows = channels
       </div>
     </section>
 
-    <div class="surface-card table-card" style="overflow-x:auto;-webkit-overflow-scrolling:touch;">
+    <div class="surface-card table-card compare-scroll">
       <table class="data-table compare-table" style="min-width:56rem;" data-sortable-table>
         <thead>
           <tr>
@@ -239,6 +239,33 @@ const rows = channels
 </script>
 
 <style>
+  .compare-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    /* Scroll edge hint: subtle fade indicates more table to the right/left */
+    background:
+      linear-gradient(to right, var(--color-paper) 30%, rgba(255, 255, 255, 0)) left center / 2rem 100% no-repeat,
+      linear-gradient(to left, var(--color-paper) 30%, rgba(255, 255, 255, 0)) right center / 2rem 100% no-repeat,
+      radial-gradient(farthest-side at 0 50%, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0)) left center / 0.85rem 60% no-repeat,
+      radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0)) right center / 0.85rem 60%
+        no-repeat;
+    background-attachment: local, local, scroll, scroll;
+  }
+  html[data-theme='dark'] .compare-scroll {
+    background:
+      linear-gradient(to right, var(--color-paper) 30%, rgba(0, 0, 0, 0)) left center / 2rem 100% no-repeat,
+      linear-gradient(to left, var(--color-paper) 30%, rgba(0, 0, 0, 0)) right center / 2rem 100% no-repeat,
+      radial-gradient(farthest-side at 0 50%, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0)) left center / 0.85rem
+        60% no-repeat,
+      radial-gradient(farthest-side at 100% 50%, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0)) right center /
+        0.85rem 60% no-repeat;
+    background-attachment: local, local, scroll, scroll;
+  }
+  @media (max-width: 768px) {
+    .compare-scroll {
+      background: none;
+    }
+  }
   .compare-channel {
     display: flex;
     align-items: center;

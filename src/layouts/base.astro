@@ -145,31 +145,42 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
           <div class="sidebar__label">Навигация</div>
           <ul class="sidebar-nav">
             <li class:list={[currentPathname === siteRootPathname && 'active']}>
-              <a href={SITE_URL}>Лента</a>
+              <a href={SITE_URL} aria-current={currentPathname === siteRootPathname ? 'page' : undefined}>Лента</a>
             </li>
             <li class:list={[currentPathname === digestsPathname && 'active']}>
-              <a href={`${SITE_URL}digests/`}>Дайджесты</a>
+              <a href={`${SITE_URL}digests/`} aria-current={currentPathname === digestsPathname ? 'page' : undefined}
+                >Дайджесты</a
+              >
             </li>
             <li class:list={[currentPathname === hotPathname && 'active']}>
-              <a href={`${SITE_URL}hot/`}>Главное</a>
+              <a href={`${SITE_URL}hot/`} aria-current={currentPathname === hotPathname ? 'page' : undefined}>Главное</a
+              >
             </li>
             <li class:list={[currentPathname === comparePathname && 'active']}>
-              <a href={`${SITE_URL}compare/`}>Сравнить</a>
+              <a href={`${SITE_URL}compare/`} aria-current={currentPathname === comparePathname ? 'page' : undefined}
+                >Сравнить</a
+              >
             </li>
             <li class:list={[currentPathname === statsPathname && 'active']}>
-              <a href={`${SITE_URL}stats/`}>Статистика</a>
+              <a href={`${SITE_URL}stats/`} aria-current={currentPathname === statsPathname ? 'page' : undefined}
+                >Статистика</a
+              >
             </li>
             {
               TAGS ? (
                 <li class:list={[currentPathname === tagsPathname && 'active']}>
-                  <a href={`${SITE_URL}tags`}>Теги</a>
+                  <a href={`${SITE_URL}tags`} aria-current={currentPathname === tagsPathname ? 'page' : undefined}>
+                    Теги
+                  </a>
                 </li>
               ) : null
             }
             {
               LINKS ? (
                 <li class:list={[currentPathname === linksPathname && 'active']}>
-                  <a href={`${SITE_URL}links`}>Ссылки</a>
+                  <a href={`${SITE_URL}links`} aria-current={currentPathname === linksPathname ? 'page' : undefined}>
+                    Ссылки
+                  </a>
                 </li>
               ) : null
             }
@@ -202,7 +213,14 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
           </form>
         </div>
 
-        <button id="theme-toggle" class="theme-btn" onclick="toggleTheme()">Dark / Light</button>
+        <button
+          id="theme-toggle"
+          type="button"
+          class="theme-btn"
+          onclick="toggleTheme()"
+          aria-label="Переключить тему"
+          title="Переключить тему">Тема</button
+        >
 
         <div class="sidebar-footer">
           Основано на
@@ -224,36 +242,41 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
         <a
           href={SITE_URL}
           class:list={['mobile-dock__link', currentPathname === siteRootPathname && 'mobile-dock__link--active']}
+          aria-current={currentPathname === siteRootPathname ? 'page' : undefined}
         >
-          <Icon name="ri:newspaper-line" class="mobile-dock__icon" />
+          <Icon name="ri:newspaper-line" class="mobile-dock__icon" aria-hidden="true" />
           <span>Лента</span>
         </a>
         <a
           href={`${SITE_URL}digests/`}
           class:list={['mobile-dock__link', currentPathname === digestsPathname && 'mobile-dock__link--active']}
+          aria-current={currentPathname === digestsPathname ? 'page' : undefined}
         >
-          <Icon name="ri:calendar-line" class="mobile-dock__icon" />
+          <Icon name="ri:calendar-line" class="mobile-dock__icon" aria-hidden="true" />
           <span>Дайджесты</span>
         </a>
         <a
           href={`${SITE_URL}hot/`}
           class:list={['mobile-dock__link', currentPathname === hotPathname && 'mobile-dock__link--active']}
+          aria-current={currentPathname === hotPathname ? 'page' : undefined}
         >
-          <Icon name="ri:fire-line" class="mobile-dock__icon" />
+          <Icon name="ri:fire-line" class="mobile-dock__icon" aria-hidden="true" />
           <span>Главное</span>
         </a>
         <a
           href={`${SITE_URL}compare/`}
           class:list={['mobile-dock__link', currentPathname === comparePathname && 'mobile-dock__link--active']}
+          aria-current={currentPathname === comparePathname ? 'page' : undefined}
         >
-          <Icon name="ri:scales-3-line" class="mobile-dock__icon" />
+          <Icon name="ri:scales-3-line" class="mobile-dock__icon" aria-hidden="true" />
           <span>Сравнить</span>
         </a>
         <a
           href={`${SITE_URL}stats/`}
           class:list={['mobile-dock__link', currentPathname === statsPathname && 'mobile-dock__link--active']}
+          aria-current={currentPathname === statsPathname ? 'page' : undefined}
         >
-          <Icon name="ri:bar-chart-box-line" class="mobile-dock__icon" />
+          <Icon name="ri:bar-chart-box-line" class="mobile-dock__icon" aria-hidden="true" />
           <span>Стат.</span>
         </a>
       </div>
