@@ -408,12 +408,20 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
         var circumference = 2 * Math.PI * 16
         ring.style.strokeDasharray = circumference
         ring.style.strokeDashoffset = circumference
+        // Coalesce scroll → one DOM write per frame instead of per event.
+        var pending = false
+        function update() {
+          pending = false
+          var h = document.documentElement.scrollHeight - window.innerHeight
+          var pct = h > 0 ? window.scrollY / h : 0
+          ring.style.strokeDashoffset = circumference * (1 - pct)
+        }
         window.addEventListener(
           'scroll',
           function () {
-            var h = document.documentElement.scrollHeight - window.innerHeight
-            var pct = h > 0 ? window.scrollY / h : 0
-            ring.style.strokeDashoffset = circumference * (1 - pct)
+            if (pending) return
+            pending = true
+            window.requestAnimationFrame(update)
           },
           { passive: true },
         )

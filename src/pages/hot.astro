@@ -63,9 +63,9 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
 
     <ol class="feed-list" aria-label="Главные посты">
       {
-        hotPosts.map((post) => (
+        hotPosts.map((post, index) => (
           <li>
-            <Item post={post} isItem={false} />
+            <Item post={post} isItem={false} eager={index < 2} />
           </li>
         ))
       }

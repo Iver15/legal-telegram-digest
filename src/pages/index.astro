@@ -85,7 +85,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
     <section class="feed-section">
       <ol id="posts-list" class="feed-list" aria-label="Посты">
         {
-          posts.map((post) => (
+          posts.map((post, index) => (
             <li
               class="digest-post"
               data-channel={post.channel || ''}
@@ -93,7 +93,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
               data-text={`${post.text?.toLowerCase().slice(0, 240) || ''} ${(post.tags || []).join(' ').toLowerCase()}`}
               data-topic={(post.legalTopics || []).join(' ')}
             >
-              <Item post={post} isItem={false} />
+              <Item post={post} isItem={false} eager={index < 2} />
             </li>
           ))
         }
