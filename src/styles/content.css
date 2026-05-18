@@ -456,7 +456,12 @@
 
   .image-gallery-nav:disabled {
     opacity: 0.35;
-    cursor: default;
+    cursor: not-allowed;
+  }
+
+  .image-gallery-nav:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
   }
 
   .image-gallery-nav--prev {

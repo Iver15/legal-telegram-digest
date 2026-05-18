@@ -343,6 +343,7 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
       // Image gallery: horizontal carousel for posts with multiple images
       ;(function () {
         var containers = document.querySelectorAll('.image-list-container')
+        var prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches
         containers.forEach(function (container) {
           var buttons = container.querySelectorAll('.image-preview-button')
           if (buttons.length <= 1 || !container.parentNode) return
@@ -368,10 +369,21 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
 
           var status = document.createElement('div')
           status.className = 'image-gallery-status'
+          // Announce slide changes for assistive tech without taking focus.
+          status.setAttribute('aria-live', 'polite')
+          status.setAttribute('aria-atomic', 'true')
 
           shell.appendChild(prev)
           shell.appendChild(next)
           shell.appendChild(status)
+
+          // Region label for assistive tech. We bind keydown to the shell
+          // (events bubble from the slide / nav buttons), so we don't make
+          // the shell itself focusable — that would add a pointless tab
+          // stop on top of the buttons already inside.
+          shell.setAttribute('role', 'region')
+          shell.setAttribute('aria-roledescription', 'Карусель изображений')
+          shell.setAttribute('aria-label', `Изображения поста (${buttons.length})`)
 
           function getCurrentIndex() {
             var index = Math.round(container.scrollLeft / Math.max(container.clientWidth, 1))
@@ -388,7 +400,11 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
           function scrollToIndex(index) {
             var target = buttons[index]
             if (!target) return
-            target.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })
+            target.scrollIntoView({
+              behavior: prefersReducedMotion ? 'auto' : 'smooth',
+              block: 'nearest',
+              inline: 'start',
+            })
           }
 
           prev.addEventListener('click', function () {
@@ -399,13 +415,32 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
             scrollToIndex(getCurrentIndex() + 1)
           })
 
+          // Coalesce scroll into one rAF per frame.
+          var pending = false
           container.addEventListener(
             'scroll',
             function () {
-              window.requestAnimationFrame(updateState)
+              if (pending) return
+              pending = true
+              window.requestAnimationFrame(function () {
+                pending = false
+                updateState()
+              })
             },
             { passive: true },
           )
+
+          // Arrow-key navigation when the carousel region has focus.
+          shell.addEventListener('keydown', function (e) {
+            if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return
+            // Don't steal arrow keys from inputs nested inside (none today,
+            // but defensive — and avoids fighting native scroll on the
+            // <button> inner image).
+            var t = e.target
+            if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA')) return
+            e.preventDefault()
+            scrollToIndex(getCurrentIndex() + (e.key === 'ArrowLeft' ? -1 : 1))
+          })
 
           window.addEventListener('resize', updateState, { passive: true })
           updateState()
@@ -452,13 +487,19 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
       })()
     </script>
     <script is:inline defer src={`${import.meta.env.BASE_URL}pwa.js`}></script>
-    <div id="install-banner" class="install-banner">
+    <div id="install-banner" class="install-banner" role="region" aria-label="Установить приложение">
       <div class="install-banner__copy">
         <div class="install-banner__title">{siteMeta.shortTitle || siteMeta.title}</div>
         <div class="install-banner__text">Установите сайт как приложение для быстрого чтения и офлайн-доступа</div>
       </div>
-      <button onclick="installApp()" class="install-banner__primary">Установить</button>
-      <button onclick="dismissInstall()" class="install-banner__dismiss" aria-label="Close">&times;</button>
+      <button type="button" onclick="installApp()" class="install-banner__primary">Установить</button>
+      <button
+        type="button"
+        onclick="dismissInstall()"
+        class="install-banner__dismiss"
+        aria-label="Закрыть"
+        title="Закрыть">&times;</button
+      >
     </div>
   </body>
 </html>
