@@ -225,7 +225,13 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
 
         <div class="sidebar__section">
           <div class="sidebar__label">Поиск</div>
-          <form action={`${SITE_URL}search/result`} method="get" role="search">
+          <form
+            id="sidebar-search-form"
+            action={`${SITE_URL}search/`}
+            method="get"
+            role="search"
+            data-search-base={`${SITE_URL}search/`}
+          >
             <label class="sr-only" for="search-query">Поиск</label>
             <input
               id="search-query"
@@ -403,6 +409,21 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
 
           window.addEventListener('resize', updateState, { passive: true })
           updateState()
+        })
+      })()
+      ;(function () {
+        // Sidebar search submits to /search/{q}/ because the static site
+        // generates one page per known tag/channel. Without this handler the
+        // browser would GET /search/?q=foo and 404.
+        var form = document.getElementById('sidebar-search-form')
+        if (!form) return
+        form.addEventListener('submit', function (event) {
+          var input = form.querySelector('input[name="q"]')
+          var q = (input && input.value ? input.value : '').trim()
+          if (!q) return
+          event.preventDefault()
+          var base = form.getAttribute('data-search-base') || '/search/'
+          window.location.href = `${base}${encodeURIComponent(q)}/`
         })
       })()
       ;(function () {
