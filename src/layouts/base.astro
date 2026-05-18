@@ -116,9 +116,10 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap"
     />
-    <!-- Speed up first connection to Telegram CDN for channel avatars -->
+    <!-- Speed up first connection to image/emoji CDNs -->
     <link rel="dns-prefetch" href="https://cdn4.telesco.pe" />
     <link rel="dns-prefetch" href="https://wsrv.nl" />
+    <link rel="dns-prefetch" href="https://t.me" />
     <SEO
       titleTemplate={hasCustomTitle ? `%s | ${siteTitle}` : undefined}
       titleDefault={siteTitle || seoParams.description}

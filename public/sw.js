@@ -26,12 +26,17 @@ self.addEventListener('activate', (event) => {
   self.clients.claim()
 })
 
-function isStaticAsset(url) {
-  if (url.origin !== self.location.origin) {
-    // Cross-origin: fonts.gstatic, wsrv.nl, telesco.pe — cache opaquely.
-    return /(gstatic\.com|wsrv\.nl|telesco\.pe|googleapis\.com)$/.test(new URL(url).hostname.replace(/^.*?([^.]+\.[^.]+)$/, '$1'))
-  }
-  return /\.(css|js|woff2?|ttf|otf|png|jpg|jpeg|webp|avif|svg|gif|ico)$/.test(url.pathname)
+const ASSET_EXT_REGEX = /\.(?:css|js|woff2?|ttf|otf|png|jpg|jpeg|webp|avif|svg|gif|ico)(?:$|\?)/i
+const CROSS_ORIGIN_ASSET_HOSTS = /(?:gstatic\.com|fonts\.googleapis\.com|wsrv\.nl|telesco\.pe)$/
+
+function isStaticAsset(rawUrl) {
+  const url = new URL(rawUrl)
+  if (ASSET_EXT_REGEX.test(url.pathname)) return true
+  if (url.origin === self.location.origin) return false
+  // Known image / font CDNs without an explicit extension (e.g. wsrv.nl
+  // returns ?url=... query, gstatic font CSS) — cache opaquely.
+  if (CROSS_ORIGIN_ASSET_HOSTS.test(url.hostname)) return true
+  return false
 }
 
 function isNavigation(request) {

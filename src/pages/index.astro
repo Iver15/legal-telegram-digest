@@ -90,7 +90,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
               class="digest-post"
               data-channel={post.channel || ''}
               data-datetime={post.datetime}
-              data-text={`${post.text?.toLowerCase().slice(0, 500) || ''} ${(post.tags || []).join(' ').toLowerCase()}`}
+              data-text={`${post.text?.toLowerCase().slice(0, 240) || ''} ${(post.tags || []).join(' ').toLowerCase()}`}
               data-topic={(post.legalTopics || []).join(' ')}
             >
               <Item post={post} isItem={false} />
@@ -117,7 +117,7 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
   </div>
 </Layout>
 
-<script is:inline src={`${import.meta.env.BASE_URL}digest.js`}></script>
+<script is:inline defer src={`${import.meta.env.BASE_URL}digest.js`}></script>
 <script is:inline>
   /* eslint-disable no-var, prefer-arrow-callback */
   // Display count-up values statically
