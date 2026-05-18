@@ -2,6 +2,7 @@
 import Layout from '../layouts/base.astro'
 import { getAllChannels, getAllPosts, getChannelData, getDigestTitle } from '../lib/data'
 import { formatCompactNumberRu, formatPercentRu } from '../lib/metrics'
+import { resizeRemoteImage } from '../lib/ui'
 
 const channels = getAllChannels().filter((channel) => channel.postCount > 0)
 const posts = getAllPosts()
@@ -141,10 +142,11 @@ const rows = channels
                   <a href={`${SITE_URL}channels/${row.name}/`} class="compare-channel">
                     {row.avatar && (
                       <img
-                        src={row.avatar}
+                        src={resizeRemoteImage(row.avatar, 32)}
                         alt={row.title}
                         class="compare-avatar"
                         loading="lazy"
+                        decoding="async"
                         width="32"
                         height="32"
                       />

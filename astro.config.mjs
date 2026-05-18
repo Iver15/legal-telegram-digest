@@ -8,5 +8,10 @@ export default defineConfig({
   site: env.SITE_URL || 'https://iver15.github.io',
   base: env.BASE_PATH || '/legal-telegram-digest/',
   trailingSlash: 'always',
+  compressHTML: true,
+  prefetch: {
+    prefetchAll: false,
+    defaultStrategy: 'hover',
+  },
   integrations: [astroIcon()],
 })

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap');
+/* Fonts are loaded via <link> in base.astro <head> so they parallelize with
+   CSS instead of waiting for this stylesheet to parse. */
 @import './content.css';
 
 @view-transition {

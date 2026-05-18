@@ -11,6 +11,7 @@ const WHITESPACE_REGEX = /\s+/g
 const HTML_NAMED_ENTITY_REGEX = /&(nbsp|amp|quot|#39|times|mdash|ndash|hellip|lt|gt);/g
 const HTML_DECIMAL_ENTITY_REGEX = /&#(\d+);/g
 const HTML_HEX_ENTITY_REGEX = /&#x([0-9a-f]+);/gi
+const REMOTE_IMAGE_SCHEME_REGEX = /^https?:\/\//
 const HTML_BREAK_TAG_REGEX = /<br\s*\/?>/gi
 const HTML_BLOCK_CLOSE_REGEX = /<\/(p|div|blockquote|li|h[1-6])>/gi
 const HTML_BLOCK_OPEN_REGEX = /<(p|div|blockquote|ul|ol|h[1-6])[^>]*>/gi
@@ -100,6 +101,24 @@ export function normalizePostContentMediaUrls(html: string, basePath = '/'): str
     )
     .replace(CONTENT_MEDIA_CSS_URL_REGEX, (_match, quote: '"' | '\'' | '', assetPath: string) =>
       `url(${quote}${mediaBaseUrl}${assetPath}${quote})`)
+}
+
+/**
+ * Wrap a remote image URL through wsrv.nl's free image resizing CDN so the
+ * browser downloads a thumbnail instead of the full-size original. Channel
+ * avatars from Telegram CDN are 640px JPEGs; serving them at 28-80px display
+ * sizes costs ~30-200 KB per request.
+ *
+ * Falls back to the original URL if it isn't http(s) or isn't safe to proxy.
+ */
+export function resizeRemoteImage(url: string | undefined | null, size: number, dpr = 2): string | undefined {
+  if (!url)
+    return undefined
+  if (!url.startsWith('http://') && !url.startsWith('https://'))
+    return url
+  const target = url.replace(REMOTE_IMAGE_SCHEME_REGEX, '')
+  const w = Math.max(16, Math.round(size * dpr))
+  return `https://wsrv.nl/?w=${w}&h=${w}&fit=cover&output=webp&q=82&url=ssl:${target}`
 }
 
 export function getPostDisplayTitle(post: Post, fallback: string): string {

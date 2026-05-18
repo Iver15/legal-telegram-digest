@@ -2,6 +2,7 @@
 import dayjs from '../lib/dayjs'
 import { Icon } from 'astro-icon/components'
 import { formatCompactNumberRu, formatPercentRu, getReactionCount } from '../lib/metrics'
+import { resizeRemoteImage } from '../lib/ui'
 
 const locale = import.meta.env.LOCALE || 'ru'
 const timezone = import.meta.env.TIMEZONE || 'Europe/Moscow'
@@ -30,7 +31,7 @@ const reactionCount = post.reactionCount ?? getReactionCount(post)
 const viewCount = post.viewCount
 const engagementRate = post.engagementRate
 const hasSignals = reactionCount > 0 || Boolean(viewCount) || typeof engagementRate === 'number'
-const channelAvatar = post.channelAvatar
+const channelAvatar = resizeRemoteImage(post.channelAvatar, 28)
 const isNew = datetime.isAfter(dayjs().subtract(3, 'h'))
 const wordCount = (post.text || '').split(/\s+/).filter(Boolean).length
 const readingMinutes = Math.max(1, Math.round(wordCount / 200))
@@ -48,6 +49,7 @@ const priorityLevel = priorityScore >= 7 ? 'high' : priorityScore >= 4 ? 'medium
           alt={post.channelTitle || post.channel}
           class="feed-item-card__avatar"
           loading="lazy"
+          decoding="async"
           width="28"
           height="28"
         />

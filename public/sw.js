@@ -1,54 +1,94 @@
-const CACHE_NAME = 'neuraldeep-v1'
+/* eslint-disable */
+// Service Worker: cache-first for static assets, stale-while-revalidate for
+// navigations. Pages get an instant cached render while the next version
+// updates the cache in the background.
+const VERSION = 'v3'
+const STATIC_CACHE = `static-${VERSION}`
+const PAGES_CACHE = `pages-${VERSION}`
 const OFFLINE_URL = '/'
 
-// Pre-cache core assets on install
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll([OFFLINE_URL])
-    })
+    caches.open(PAGES_CACHE).then((cache) => cache.add(OFFLINE_URL))
   )
   self.skipWaiting()
 })
 
-// Clean old caches on activate
 self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys().then((names) => {
-      return Promise.all(
-        names.filter((name) => name !== CACHE_NAME).map((name) => caches.delete(name))
+    caches.keys().then((names) =>
+      Promise.all(
+        names.filter((name) => name !== STATIC_CACHE && name !== PAGES_CACHE)
+          .map((name) => caches.delete(name))
       )
-    })
+    )
   )
   self.clients.claim()
 })
 
-// Network-first strategy with cache fallback
+function isStaticAsset(url) {
+  if (url.origin !== self.location.origin) {
+    // Cross-origin: fonts.gstatic, wsrv.nl, telesco.pe — cache opaquely.
+    return /(gstatic\.com|wsrv\.nl|telesco\.pe|googleapis\.com)$/.test(new URL(url).hostname.replace(/^.*?([^.]+\.[^.]+)$/, '$1'))
+  }
+  return /\.(css|js|woff2?|ttf|otf|png|jpg|jpeg|webp|avif|svg|gif|ico)$/.test(url.pathname)
+}
+
+function isNavigation(request) {
+  return request.mode === 'navigate' || (request.method === 'GET' && request.headers.get('accept')?.includes('text/html'))
+}
+
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return
+  const url = event.request.url
 
+  // Cache-first for static assets — fonts, CSS, JS, images.
+  if (isStaticAsset(url)) {
+    event.respondWith(
+      caches.open(STATIC_CACHE).then((cache) =>
+        cache.match(event.request).then((cached) => {
+          if (cached) return cached
+          return fetch(event.request).then((response) => {
+            if (response.ok || response.type === 'opaque') cache.put(event.request, response.clone())
+            return response
+          }).catch(() => cached)
+        })
+      )
+    )
+    return
+  }
+
+  // Stale-while-revalidate for HTML navigations.
+  if (isNavigation(event.request)) {
+    event.respondWith(
+      caches.open(PAGES_CACHE).then((cache) =>
+        cache.match(event.request).then((cached) => {
+          const networkFetch = fetch(event.request).then((response) => {
+            if (response.ok) cache.put(event.request, response.clone())
+            return response
+          }).catch(() => cached || caches.match(OFFLINE_URL))
+          return cached || networkFetch
+        })
+      )
+    )
+    return
+  }
+
+  // Default: network with cache fallback (data files, RSS, etc.)
   event.respondWith(
     fetch(event.request)
       .then((response) => {
-        // Cache successful responses
         if (response.ok) {
           const clone = response.clone()
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, clone)
-          })
+          caches.open(PAGES_CACHE).then((cache) => cache.put(event.request, clone))
         }
         return response
       })
-      .catch(() => {
-        // Fallback to cache
-        return caches.match(event.request).then((cached) => {
-          return cached || caches.match(OFFLINE_URL)
-        })
-      })
+      .catch(() => caches.match(event.request).then((cached) => cached || caches.match(OFFLINE_URL)))
   )
 })
 
-// Handle push notifications
+// Push notifications
 self.addEventListener('push', (event) => {
   let data = { title: 'New post', body: 'A new post has been published!', url: '/' }
 
@@ -71,7 +111,6 @@ self.addEventListener('push', (event) => {
   )
 })
 
-// Handle notification click
 self.addEventListener('notificationclick', (event) => {
   event.notification.close()
   const url = event.notification.data?.url || '/'
