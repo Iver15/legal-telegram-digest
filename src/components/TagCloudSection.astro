@@ -4,32 +4,75 @@ export interface Item {
   label: string
   title?: string
   external?: boolean
+  count?: number
 }
 
-const { title, items } = Astro.props as {
+const { title, description, items } = Astro.props as {
   title: string
+  description?: string
   items: Item[]
 }
+const titleId = `${title.toLowerCase().replace(/[^a-z0-9-]+/g, '-')}-title`
 ---
 
-<section class="tag-cloud-section" aria-labelledby={`${title.toLowerCase()}-title`}>
-  <h1 id={`${title.toLowerCase()}-title`} class="tag-cloud-title">{title}</h1>
+<section class="tag-cloud-section" aria-labelledby={titleId}>
+  <h1 id={titleId} class="tag-cloud-title">{title}</h1>
+  {description ? <p class="tag-cloud-description">{description}</p> : null}
 
-  <ul class="tag-cloud" role="list">
-    {
-      items.map((item) => (
-        <li class="tag-cloud-item">
-          <a
-            href={item.href}
-            class="tag-cloud-link"
-            title={item.title ?? item.label}
-            target={item.external ? '_blank' : undefined}
-            rel={item.external ? 'noopener noreferrer' : undefined}
-          >
-            {item.label}
-          </a>
-        </li>
-      ))
-    }
-  </ul>
+  {
+    items.length === 0 ? (
+      <p class="tag-cloud-empty">Тегов пока нет.</p>
+    ) : (
+      <ul class="tag-cloud" role="list">
+        {items.map((item) => (
+          <li class="tag-cloud-item">
+            <a
+              href={item.href}
+              class="tag-cloud-link"
+              title={item.title ?? item.label}
+              target={item.external ? '_blank' : undefined}
+              rel={item.external ? 'noopener noreferrer' : undefined}
+            >
+              <span>{item.label}</span>
+              {typeof item.count === 'number' && item.count > 0 && (
+                <span class="tag-cloud-count" aria-hidden="true">
+                  {item.count}
+                </span>
+              )}
+            </a>
+          </li>
+        ))}
+      </ul>
+    )
+  }
 </section>
+
+<style>
+  .tag-cloud-description {
+    margin: -0.4rem 0 1rem;
+    color: var(--color-muted);
+    font-size: 0.92rem;
+    line-height: 1.55;
+    max-width: 60ch;
+  }
+  .tag-cloud-empty {
+    margin: 0;
+    color: var(--color-muted);
+    font-size: 0.95rem;
+  }
+  .tag-cloud-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .tag-cloud-count {
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    font-weight: 600;
+    color: var(--color-muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .tag-cloud-link:hover .tag-cloud-count {
+    color: inherit;
+  }
+</style>

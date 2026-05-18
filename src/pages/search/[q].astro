@@ -1,7 +1,8 @@
 ---
 import type { GetStaticPaths } from 'astro'
+import { Icon } from 'astro-icon/components'
 import List from '../../components/list.astro'
-import { getAllChannels, getAllTags, getChannelData } from '../../lib/data'
+import { getAllChannels, getAllPosts, getAllTags, getChannelData } from '../../lib/data'
 
 export const getStaticPaths: GetStaticPaths = () => {
   const tags = getAllTags()
@@ -24,13 +25,117 @@ export const getStaticPaths: GetStaticPaths = () => {
   return Array.from(entries).map((q) => ({ params: { q } }))
 }
 
-const q = decodeURIComponent(Astro.params.q || '')
+const SITE_URL = import.meta.env.BASE_URL ?? '/'
+const rawQ = Astro.params.q || ''
+const q = decodeURIComponent(rawQ)
 const channel = getChannelData({ q })
+
+// Total matches across the entire dataset, not just the first page that
+// channel.posts contains. Useful so the heading can show a real count.
+const totalMatches = getAllPosts().filter((post) => {
+  const haystack = [
+    post.text || '',
+    post.title || '',
+    post.channel || '',
+    post.channelTitle || '',
+    (post.tags || []).join(' '),
+    (post.legalTopics || []).join(' '),
+  ]
+    .join(' ')
+    .toLowerCase()
+  return haystack.includes(q.toLowerCase().replace(/^#/, ''))
+}).length
+
+const isTag = q.startsWith('#')
 
 channel.seo = {
   title: `${q}`,
   noindex: true,
 }
+
+function plural(n: number, forms: [string, string, string]): string {
+  const n10 = n % 10
+  const n100 = n % 100
+  if (n10 === 1 && n100 !== 11) return forms[0]
+  if (n10 >= 2 && n10 <= 4 && (n100 < 12 || n100 > 14)) return forms[1]
+  return forms[2]
+}
+const matchesLabel = `${totalMatches} ${plural(totalMatches, ['результат', 'результата', 'результатов'])}`
 ---
 
-<List channel={channel} before={false} after={false} pageHeading={`Поиск: ${q}`} />
+<List channel={channel} before={false} after={false} pageHeading={`Поиск: ${q}`}>
+  <section slot="header" class="search-header">
+    <a href={SITE_URL} class="search-header__back">
+      <Icon name="ri:arrow-left-line" style="width:0.95rem;height:0.95rem;" />
+      К ленте
+    </a>
+    <p class="search-header__eyebrow">
+      {isTag ? 'Тег' : 'Запрос'}
+    </p>
+    <h1 class="search-header__title">{q}</h1>
+    <p class="search-header__meta">{matchesLabel}</p>
+  </section>
+
+  <Fragment slot="empty">
+    По запросу «{q}» постов не нашлось. Попробуйте другой тег или название канала из{' '}
+    <a href={`${SITE_URL}tags`}>списка тегов</a>.
+  </Fragment>
+</List>
+
+<style>
+  .search-header {
+    display: grid;
+    gap: 0.4rem;
+    padding: clamp(1rem, 0.7vw + 0.84rem, 1.4rem);
+    margin-bottom: 1rem;
+    border: 1px solid var(--color-line);
+    border-bottom: 2px solid var(--color-heading);
+    background: var(--color-surface);
+  }
+  .search-header__back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    width: fit-content;
+    margin-bottom: 0.35rem;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-muted);
+    text-decoration: none;
+    transition: color 120ms ease;
+  }
+  .search-header__back:hover {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+  .search-header__eyebrow {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--color-accent);
+  }
+  .search-header__title {
+    margin: 0;
+    color: var(--color-heading);
+    font-family: var(--font-sans);
+    font-size: clamp(1.55rem, 3vw + 0.5rem, 2.4rem);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    text-wrap: balance;
+    overflow-wrap: anywhere;
+  }
+  .search-header__meta {
+    margin: 0.2rem 0 0;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--color-muted);
+    font-variant-numeric: tabular-nums;
+  }
+</style>
