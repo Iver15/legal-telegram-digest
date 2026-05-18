@@ -45,6 +45,7 @@ const hotPathname = normalizePathname(new URL('hot', absoluteSiteUrl).pathname)
 const statsPathname = normalizePathname(new URL('stats', absoluteSiteUrl).pathname)
 const comparePathname = normalizePathname(new URL('compare', absoluteSiteUrl).pathname)
 const digestsPathname = normalizePathname(new URL('digests', absoluteSiteUrl).pathname)
+const channelsPathname = normalizePathname(new URL('channels', absoluteSiteUrl).pathname)
 
 const seoParams = {
   title: pageTitle,
@@ -183,6 +184,11 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
               <a href={`${SITE_URL}hot/`} aria-current={currentPathname === hotPathname ? 'page' : undefined}>Главное</a
               >
             </li>
+            <li class:list={[currentPathname === channelsPathname && 'active']}>
+              <a href={`${SITE_URL}channels/`} aria-current={currentPathname === channelsPathname ? 'page' : undefined}
+                >Каналы</a
+              >
+            </li>
             <li class:list={[currentPathname === comparePathname && 'active']}>
               <a href={`${SITE_URL}compare/`} aria-current={currentPathname === comparePathname ? 'page' : undefined}
                 >Сравнить</a
@@ -305,12 +311,12 @@ const today = new Date().toLocaleDateString('ru-RU', { day: '2-digit', month: '2
           <span>Сравнить</span>
         </a>
         <a
-          href={`${SITE_URL}stats/`}
-          class:list={['mobile-dock__link', currentPathname === statsPathname && 'mobile-dock__link--active']}
-          aria-current={currentPathname === statsPathname ? 'page' : undefined}
+          href={`${SITE_URL}channels/`}
+          class:list={['mobile-dock__link', currentPathname === channelsPathname && 'mobile-dock__link--active']}
+          aria-current={currentPathname === channelsPathname ? 'page' : undefined}
         >
-          <Icon name="ri:bar-chart-box-line" class="mobile-dock__icon" aria-hidden="true" />
-          <span>Стат.</span>
+          <Icon name="ri:list-check-2" class="mobile-dock__icon" aria-hidden="true" />
+          <span>Каналы</span>
         </a>
       </div>
     </nav>

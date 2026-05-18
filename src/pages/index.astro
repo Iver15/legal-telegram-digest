@@ -31,9 +31,9 @@ const SITE_URL = import.meta.env.BASE_URL ?? '/'
   <!-- METRICS in header -->
   <div slot="metrics" class="page-header__metrics">
     <span class="metric-inline"><strong class="count-up" data-target={allPosts.length}>0</strong> постов</span>
-    <span style="color:var(--color-line-light);padding:0 0.75rem;">|</span>
+    <span class="metric-separator" aria-hidden="true">|</span>
     <span class="metric-inline"><strong class="count-up" data-target={channels.length}>0</strong> каналов</span>
-    <span style="color:var(--color-line-light);padding:0 0.75rem;">|</span>
+    <span class="metric-separator" aria-hidden="true">|</span>
     <span class="metric-inline"
       ><strong class="count-up" data-target={todayDigest?.totalPosts || 0}>0</strong> за 24ч</span
     >

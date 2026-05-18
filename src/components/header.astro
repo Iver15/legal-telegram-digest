@@ -92,23 +92,25 @@ const socialLinks = [
   <a href={SITE_URL} class="channel-header__title" title={channel?.title}>
     {channel?.title}
   </a>
-  <nav class="channel-header__nav" aria-label="Ссылки канала">
-    {
-      socialLinks.map((item) => (
-        <a
-          href={item.href}
-          title={item.title}
-          target="_blank"
-          rel={item.rel}
-          type={item.type}
-          aria-label={item.label}
-          class="channel-header__social"
-        >
-          <Icon name={item.icon} class="channel-header__social-icon" aria-hidden="true" />
-        </a>
-      ))
-    }
-  </nav>
+  {
+    socialLinks.length > 0 && (
+      <nav class="channel-header__nav" aria-label="Ссылки канала">
+        {socialLinks.map((item) => (
+          <a
+            href={item.href}
+            title={item.title}
+            target="_blank"
+            rel={item.rel}
+            type={item.type}
+            aria-label={item.label}
+            class="channel-header__social"
+          >
+            <Icon name={item.icon} class="channel-header__social-icon" aria-hidden="true" />
+          </a>
+        ))}
+      </nav>
+    )
+  }
 </header>
 
 {
